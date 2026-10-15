@@ -570,20 +570,12 @@
         <option value="playersBox">Basic</option>
       </select>
     </label>
-    <label class="field list-only" id="usg-field" title="Everyone, or only the players who carry more than an even share (20%) of their team’s possessions">
+    <label class="field list-only" id="usg-field" title="Everyone, or only the players who carry at least this share of their team’s possessions (20% is an even share)">
       <select id="usg-filter" aria-label="Usage">
         <option value="0" selected>All players</option>
-        <option value="20">Over 20% usage</option>
-      </select>
-    </label>
-    <label class="field list-only" id="mins-field" title="Leave out players who were on the floor for fewer possessions than this">
-      <select id="mins" aria-label="Minimum possessions">
-        <option value="1500">1,500+ possessions</option>
-        <option value="1000">1,000+ possessions</option>
-        <option value="750">750+ possessions</option>
-        <option value="500" selected>500+ possessions</option>
-        <option value="300">300+ possessions</option>
-        <option value="0">All players</option>
+        <option value="20">20%+ usage</option>
+        <option value="24">24%+ usage</option>
+        <option value="28">28%+ usage</option>
       </select>
     </label>
     <button class="clear list-only" id="clear" hidden>Clear filters</button>
@@ -653,9 +645,9 @@ const STATS = {
   tpp:   { label: '3P%',   dec: 1, better: 'high', tip: 'Three-point % (ranked among players with at least 30 attempts)' },
   ftp:   { label: 'FT%',   dec: 1, better: 'high', tip: 'Free throw % (ranked among players with at least 30 attempts)' },
   usg:   { label: '%Poss', dec: 1, better: 'none', tip: 'Usage: share of the team’s possessions he used (a shot, a turnover or a trip to the line) while he was on the floor. 20% is an even share' },
-  po:    { label: 'ORtg',  dec: 1, better: 'high', tip: 'Individual offensive rating: points produced per 100 possessions the player uses (Basketball Reference formula with the college free throw weight; not adjusted for opponent). Efficiency is easier on fewer possessions, so low-usage finishers rate high; the usage switch can limit the table to players over 20%' },
+  po:    { label: 'ORtg',  dec: 1, better: 'high', tip: 'Individual offensive rating: points produced per 100 possessions the player uses (Basketball Reference formula with the college free throw weight; not adjusted for opponent). Efficiency is easier on fewer possessions, so low-usage finishers rate high; the usage switch can limit the table to higher-usage players' },
   pd:    { label: 'DRtg',  dec: 1, better: 'low',  tip: 'Individual defensive rating: points allowed per 100 possessions the player faces (Basketball Reference formula with the college free throw weight; not adjusted for opponent; lower is better)' },
-  pn:    { label: 'NET',   dec: 1, better: 'high', signed: true, tip: 'Individual offensive rating minus defensive rating. Like ORtg it favours low-usage players; the usage switch can limit the table to players over 20%' },
+  pn:    { label: 'NET',   dec: 1, better: 'high', signed: true, tip: 'Individual offensive rating minus defensive rating. Like ORtg it favours low-usage players; the usage switch can limit the table to higher-usage players' },
   onoff: { label: 'On/Off', dec: 1, better: 'high', signed: true, tip: 'On/off swing from play-by-play: the team’s net points per 100 possessions with the player on the floor, minus with him on the bench' },
   poss:  { label: 'Poss',  dec: 0, better: 'none', tip: 'Possessions the player was on the floor for (his team’s possessions times his share of the minutes)' },
   min:   { label: 'Min',   dec: 0, better: 'none', tip: 'Minutes played' },
@@ -730,13 +722,13 @@ rankRows(allPlayers.filter(p => p.q && p.poss >= NATIONAL_POSS), 'nrank', 'npct'
 const playerLink = p => `<a class="tlink" href="#player=${encodeURIComponent(p.team)}|${encodeURIComponent(p.name)}">${esc(p.name)}</a>`;
 const teamLink = (name, label) => teamByName[name] ? `<a class="tlink" href="#team=${encodeURIComponent(name)}">${label}</a>` : label;
 let players = [];
-// Players are ranked only against the others who pass the possessions filter
+// Players are ranked only against the others who pass the usage filter
 function setMinutes(possessions) {
   state.mins = possessions;
-  players = rankRows(allPlayers.filter(p => p.q && p.poss >= possessions && (!state.usgMin || (p.usg || 0) > state.usgMin)));
+  players = rankRows(allPlayers.filter(p => p.q && p.poss >= possessions && (!state.usgMin || (p.usg || 0) >= state.usgMin)));
 }
 
-const state = { view: 'ratings', sort: 'n', dir: -1, q: '', conf: '', mins: 500, usgMin: 0, page: 0, team: null, player: null };
+const state = { view: 'ratings', sort: 'n', dir: -1, q: '', conf: '', mins: 0, usgMin: 0, page: 0, team: null, player: null };
 setMinutes(state.mins);
 
 function fmt(key, v) {
@@ -901,13 +893,12 @@ function render() {
   $('table').className = view.cols.length > 8 ? 'dense' : view.cols.length > 6 ? 'compact' : '';
   $('conf-field').hidden = !!view.confs;
   $('conf-field').style.display = view.confs ? 'none' : '';
-  $('mins-field').style.display = view.players ? '' : 'none';
   $('pstats-field').style.display = view.players ? '' : 'none';
   $('usg-field').style.display = view.players ? '' : 'none';
   $('pstats').value = state.view;
   $('search').placeholder = view.players ? 'Search player, team or conference' : view.confs ? 'Search conference' : 'Search team or conference';
   $('legend-ranks').textContent = view.players
-    ? `Small numbers are ranks among the ${players.length} players shown${state.mins ? `, those on the floor for at least ${state.mins} possessions` : ''}${state.usgMin ? ` and using more than ${state.usgMin}% of their team’s possessions` : ''} (1 = best; for possessions and minutes, 1 = most).${state.usgMin ? '' : ' ORtg and NET favour low-usage players, since efficiency is easier on fewer possessions; the usage switch shows only players over 20%.'} On/Off is not adjusted for opponent, and is shaky for players who rarely sit.`
+    ? `Small numbers are ranks among the ${players.length} players shown${state.usgMin ? `, those using at least ${state.usgMin}% of their team’s possessions` : ''} (1 = best; for possessions and minutes, 1 = most).${state.usgMin ? '' : ' ORtg and NET favour low-usage players, since efficiency is easier on fewer possessions; the usage switch can limit it to players at 20%, 24% or 28% usage and up.'} On/Off is not adjusted for opponent, and is shaky for players who rarely sit.`
     : view.confs
     ? 'Each number is the average of the conference’s teams; small numbers rank the conferences. Click a conference to see its teams.'
     : state.view === 'roster'
@@ -965,7 +956,6 @@ document.querySelector('.seg').addEventListener('click', e => {
 $('search').addEventListener('input', e => { state.q = e.target.value; state.page = 0; renderBody(); });
 confSel.addEventListener('change', e => { state.conf = e.target.value; state.page = 0; renderBody(); });
 $('clear').addEventListener('click', () => { state.q = ''; state.conf = ''; state.page = 0; $('search').value = ''; confSel.value = ''; renderBody(); });
-$('mins').addEventListener('change', e => { setMinutes(Number(e.target.value)); state.page = 0; render(); });
 $('pager').addEventListener('click', e => {
   const b = e.target.closest('button[data-page]');
   if (!b || b.disabled) return;
