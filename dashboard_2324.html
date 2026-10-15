@@ -653,9 +653,9 @@ const STATS = {
   tpp:   { label: '3P%',   dec: 1, better: 'high', tip: 'Three-point % (ranked among players with at least 30 attempts)' },
   ftp:   { label: 'FT%',   dec: 1, better: 'high', tip: 'Free throw % (ranked among players with at least 30 attempts)' },
   usg:   { label: '%Poss', dec: 1, better: 'none', tip: 'Usage: share of the team’s possessions he used (a shot, a turnover or a trip to the line) while he was on the floor. 20% is an even share' },
-  po:    { label: 'ORtg',  dec: 1, better: 'high', minUsg: 20, tip: 'Individual offensive rating: points produced per 100 possessions the player uses (Basketball Reference formula with the college free throw weight; not adjusted for opponent). Efficiency is easier on fewer possessions, so only players using more than 20% of their team’s possessions are ranked on it' },
+  po:    { label: 'ORtg',  dec: 1, better: 'high', tip: 'Individual offensive rating: points produced per 100 possessions the player uses (Basketball Reference formula with the college free throw weight; not adjusted for opponent). Efficiency is easier on fewer possessions, so low-usage finishers rate high; the usage switch can limit the table to players over 20%' },
   pd:    { label: 'DRtg',  dec: 1, better: 'low',  tip: 'Individual defensive rating: points allowed per 100 possessions the player faces (Basketball Reference formula with the college free throw weight; not adjusted for opponent; lower is better)' },
-  pn:    { label: 'NET',   dec: 1, better: 'high', signed: true, minUsg: 20, tip: 'Individual offensive rating minus defensive rating. Ranked only among players using more than 20% of their team’s possessions, like ORtg' },
+  pn:    { label: 'NET',   dec: 1, better: 'high', signed: true, tip: 'Individual offensive rating minus defensive rating. Like ORtg it favours low-usage players; the usage switch can limit the table to players over 20%' },
   onoff: { label: 'On/Off', dec: 1, better: 'high', signed: true, tip: 'On/off swing from play-by-play: the team’s net points per 100 possessions with the player on the floor, minus with him on the bench' },
   poss:  { label: 'Poss',  dec: 0, better: 'none', tip: 'Possessions the player was on the floor for (his team’s possessions times his share of the minutes)' },
   min:   { label: 'Min',   dec: 0, better: 'none', tip: 'Minutes played' },
@@ -907,7 +907,7 @@ function render() {
   $('pstats').value = state.view;
   $('search').placeholder = view.players ? 'Search player, team or conference' : view.confs ? 'Search conference' : 'Search team or conference';
   $('legend-ranks').textContent = view.players
-    ? `Small numbers are ranks among the ${players.length} players shown${state.mins ? `, those on the floor for at least ${state.mins} possessions` : ''}${state.usgMin ? ` and using more than ${state.usgMin}% of their team’s possessions` : ''} (1 = best; for possessions and minutes, 1 = most). ORtg and NET rank only players over 20% usage, since efficiency is easier on fewer possessions. On/Off is not adjusted for opponent, and is shaky for players who rarely sit.`
+    ? `Small numbers are ranks among the ${players.length} players shown${state.mins ? `, those on the floor for at least ${state.mins} possessions` : ''}${state.usgMin ? ` and using more than ${state.usgMin}% of their team’s possessions` : ''} (1 = best; for possessions and minutes, 1 = most).${state.usgMin ? '' : ' ORtg and NET favour low-usage players, since efficiency is easier on fewer possessions; the usage switch shows only players over 20%.'} On/Off is not adjusted for opponent, and is shaky for players who rarely sit.`
     : view.confs
     ? 'Each number is the average of the conference’s teams; small numbers rank the conferences. Click a conference to see its teams.'
     : state.view === 'roster'
