@@ -1,0 +1,21 @@
+# Season data, the stats.ncaa.org files and logs stay on this computer only
+/data/
+/logs/
+
+# The API key is never published
+cbbd_key.txt*
+
+# collect: only the scripts (not the downloaded pages, caches or logs kept beside them)
+/collect/**/*
+!/collect/**/
+!/collect/**/*.py
+!/collect/**/*.ps1
+
+# dashboard: only the code, the template and the logos; the built pages are copied into docs/ by tools/make_site.py
+/dashboard/*
+!/dashboard/*.py
+!/dashboard/dashboard_template.html
+!/dashboard/logos/
+
+__pycache__/
+*.pyc

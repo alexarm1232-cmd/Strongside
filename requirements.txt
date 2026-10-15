@@ -1,0 +1,17 @@
+# Data handling
+pandas
+numpy
+
+# HTTP requests for NCAA API (local or remote)
+requests
+
+# Visualization
+matplotlib
+seaborn
+plotly
+
+# Date handling
+python-dateutil
+
+# JSON handling (built-in, but listed for clarity)
+json
