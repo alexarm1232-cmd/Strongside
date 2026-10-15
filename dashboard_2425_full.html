@@ -564,6 +564,18 @@
     <label class="field list-only" id="conf-field">
       <select id="conf" aria-label="Conference"></select>
     </label>
+    <label class="field list-only" id="pstats-field" title="Advanced ratings or the basic per-game numbers">
+      <select id="pstats" aria-label="Which numbers">
+        <option value="players">Advanced</option>
+        <option value="playersBox">Basic</option>
+      </select>
+    </label>
+    <label class="field list-only" id="usg-field" title="Everyone, or only the players who carry more than an even share (20%) of their team’s possessions">
+      <select id="usg-filter" aria-label="Usage">
+        <option value="0" selected>All players</option>
+        <option value="20">Over 20% usage</option>
+      </select>
+    </label>
     <label class="field list-only" id="mins-field" title="Leave out players who were on the floor for fewer possessions than this">
       <select id="mins" aria-label="Minimum possessions">
         <option value="1500">1,500+ possessions</option>
@@ -630,9 +642,20 @@ const STATS = {
   ht_g:  { label: 'Guards', dec: 1, better: 'high', height: true, tip: 'Average height of players listed as guards, weighted by minutes' },
   ht_f:  { label: 'Frontcourt', dec: 1, better: 'high', height: true, tip: 'Average height of players listed as forwards or centers, weighted by minutes' },
   // Players
-  po:    { label: 'ORtg',  dec: 1, better: 'high', tip: 'Individual offensive rating: points produced per 100 possessions the player uses (Basketball Reference formula with the college free throw weight; not adjusted for opponent)' },
+  mpg:   { label: 'Min',   dec: 1, better: 'none', tip: 'Minutes per game' },
+  ppg:   { label: 'Pts',   dec: 1, better: 'high', tip: 'Points per game' },
+  rpg:   { label: 'Reb',   dec: 1, better: 'high', tip: 'Rebounds per game' },
+  apg:   { label: 'Ast',   dec: 1, better: 'high', tip: 'Assists per game' },
+  spg:   { label: 'Stl',   dec: 1, better: 'high', tip: 'Steals per game' },
+  bpg:   { label: 'Blk',   dec: 1, better: 'high', tip: 'Blocks per game' },
+  tpg:   { label: 'TO',    dec: 1, better: 'low',  tip: 'Turnovers per game (lower is better)' },
+  fgp:   { label: 'FG%',   dec: 1, better: 'high', tip: 'Field goal %' },
+  tpp:   { label: '3P%',   dec: 1, better: 'high', tip: 'Three-point % (ranked among players with at least 30 attempts)' },
+  ftp:   { label: 'FT%',   dec: 1, better: 'high', tip: 'Free throw % (ranked among players with at least 30 attempts)' },
+  usg:   { label: '%Poss', dec: 1, better: 'none', tip: 'Usage: share of the team’s possessions he used (a shot, a turnover or a trip to the line) while he was on the floor. 20% is an even share' },
+  po:    { label: 'ORtg',  dec: 1, better: 'high', minUsg: 20, tip: 'Individual offensive rating: points produced per 100 possessions the player uses (Basketball Reference formula with the college free throw weight; not adjusted for opponent). Efficiency is easier on fewer possessions, so only players using more than 20% of their team’s possessions are ranked on it' },
   pd:    { label: 'DRtg',  dec: 1, better: 'low',  tip: 'Individual defensive rating: points allowed per 100 possessions the player faces (Basketball Reference formula with the college free throw weight; not adjusted for opponent; lower is better)' },
-  pn:    { label: 'NET',   dec: 1, better: 'high', signed: true, tip: 'Individual offensive rating minus defensive rating' },
+  pn:    { label: 'NET',   dec: 1, better: 'high', signed: true, minUsg: 20, tip: 'Individual offensive rating minus defensive rating. Ranked only among players using more than 20% of their team’s possessions, like ORtg' },
   onoff: { label: 'On/Off', dec: 1, better: 'high', signed: true, tip: 'On/off swing from play-by-play: the team’s net points per 100 possessions with the player on the floor, minus with him on the bench' },
   poss:  { label: 'Poss',  dec: 0, better: 'none', tip: 'Possessions the player was on the floor for (his team’s possessions times his share of the minutes)' },
   min:   { label: 'Min',   dec: 0, better: 'none', tip: 'Minutes played' },
@@ -648,7 +671,9 @@ const VIEWS = {
   factors: { cols: FACTORS, groups: [['Offense', 4], ['Defense', 4]] },
   roster:  { cols: ['exp', 'cont', 'ht', 'ht_g', 'ht_f'], groups: [['', 2], ['Height', 3]], extra: 'rec' },
   confs:   { cols: ['n', 'o', 'd', 't', ...FACTORS], groups: [['Efficiency', 4], ['Offense', 4], ['Defense', 4]], extra: 'size', confs: true },
-  players: { cols: ['poss', 'min', 'po', 'pd', 'pn', 'onoff', 'bpm', 'ws', 'ws40'], groups: [['', 2], ['Individual rating', 3], ['Impact', 4]], extra: 'cls', players: true, rankKey: 'bpm' },
+  // the same players with their basic per-game numbers (the switch above the Players table)
+  playersBox: { cols: ['mpg', 'ppg', 'rpg', 'apg', 'spg', 'bpg', 'tpg', 'fgp', 'tpp', 'ftp'], groups: [['', 1], ['Per game', 6], ['Shooting', 3]], extra: 'cls', players: true, rankKey: 'bpm' },
+  players: { cols: ['poss', 'min', 'usg', 'po', 'pd', 'pn', 'onoff', 'bpm', 'ws', 'ws40'], groups: [['', 2], ['Individual rating', 4], ['Impact', 4]], extra: 'cls', players: true, rankKey: 'bpm' },
 };
 // Tables this long are slow to draw, so they are split into pages of this many rows
 const PAGE_ROWS = 500;
@@ -660,7 +685,8 @@ const esc = s => String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;'
 function rankRows(rows, rankField = 'rank', pctField = 'pct') {
   for (const r of rows) { r[rankField] = {}; r[pctField] = {}; }
   for (const [key, st] of Object.entries(STATS)) {
-    const have = rows.filter(r => r[key] != null);
+    // a few ratings only mean something for players who carry a real share of the offense (see minUsg)
+    const have = rows.filter(r => r[key] != null && (!st.minUsg || (r.usg || 0) > st.minUsg));
     have.sort((a, b) => st.better === 'low' ? a[key] - b[key] : b[key] - a[key]);
     let rank = 0, prev = null;
     have.forEach((r, i) => {
@@ -693,6 +719,11 @@ for (const name of new Set(teams.map(t => t.conf))) {
   rankRows(members, 'crank', 'cpct');
 }
 const allPlayers = DATA.players || [];
+for (const p of allPlayers) {
+  p.fgp = p.fga ? 100 * p.fgm / p.fga : null;
+  p.tpp = p.tpa >= 30 ? 100 * p.tpm / p.tpa : null;
+  p.ftp = p.fta >= 30 ? 100 * p.ftm / p.fta : null;
+}
 // Where each regular (500+ possessions) stands nationally, for the team pages. This does not move with the Players filter.
 const NATIONAL_POSS = 500;
 rankRows(allPlayers.filter(p => p.q && p.poss >= NATIONAL_POSS), 'nrank', 'npct');
@@ -702,10 +733,10 @@ let players = [];
 // Players are ranked only against the others who pass the possessions filter
 function setMinutes(possessions) {
   state.mins = possessions;
-  players = rankRows(allPlayers.filter(p => p.q && p.poss >= possessions));
+  players = rankRows(allPlayers.filter(p => p.q && p.poss >= possessions && (!state.usgMin || (p.usg || 0) > state.usgMin)));
 }
 
-const state = { view: 'ratings', sort: 'n', dir: -1, q: '', conf: '', mins: 500, page: 0, team: null, player: null };
+const state = { view: 'ratings', sort: 'n', dir: -1, q: '', conf: '', mins: 500, usgMin: 0, page: 0, team: null, player: null };
 setMinutes(state.mins);
 
 function fmt(key, v) {
@@ -764,6 +795,12 @@ function compare(a, b) {
   if (k === 'rec') return dir * (winPct(a) - winPct(b) || a.w - b.w) || byNet;
   if (k === 'size') return dir * (a.size - b.size) || byNet;
   if (a[k] == null || b[k] == null) return (a[k] == null) - (b[k] == null);
+  // players below the usage needed to be ranked on this column come after everyone who is ranked
+  const min = STATS[k] && STATS[k].minUsg;
+  if (min) {
+    const ranked = r => (r.usg || 0) > min;
+    if (ranked(a) !== ranked(b)) return ranked(b) - ranked(a);
+  }
   return dir * (a[k] - b[k]) || byNet;
 }
 
@@ -824,7 +861,9 @@ function renderBody() {
     if (view.players) {
       const team = teamByName[r.team];
       const logo = team && team.logo ? `<img src="${esc(team.logo)}" alt="" loading="lazy" onerror="this.parentNode.style.visibility='hidden'">` : '';
-      html += `<tr><td class="pos">${r.rank.bpm || '–'}</td><td class="team">${playerLink(r)}</td>` +
+      // the rank shown is for the column the table is sorted by (box plus/minus when it is sorted by name or team)
+      const shownRank = STATS[state.sort] && STATS[state.sort].better !== 'none' ? r.rank[state.sort] : r.rank.bpm;
+      html += `<tr><td class="pos">${shownRank || '–'}</td><td class="team">${playerLink(r)}</td>` +
         `<td class="conf"><span class="team-in"><span class="badge"${logo ? '' : ' style="visibility:hidden"'}>${logo}</span>${teamLink(r.team, esc(r.team))}</span></td>` +
         `<td class="mid">${r.cls || '–'}</td>`;
     } else if (view.confs) {
@@ -863,9 +902,12 @@ function render() {
   $('conf-field').hidden = !!view.confs;
   $('conf-field').style.display = view.confs ? 'none' : '';
   $('mins-field').style.display = view.players ? '' : 'none';
+  $('pstats-field').style.display = view.players ? '' : 'none';
+  $('usg-field').style.display = view.players ? '' : 'none';
+  $('pstats').value = state.view;
   $('search').placeholder = view.players ? 'Search player, team or conference' : view.confs ? 'Search conference' : 'Search team or conference';
   $('legend-ranks').textContent = view.players
-    ? `Small numbers are ranks among the ${players.length} players shown${state.mins ? `, those on the floor for at least ${state.mins} possessions` : ''} (1 = best; for possessions and minutes, 1 = most). On/Off is not adjusted for opponent, and is shaky for players who rarely sit.`
+    ? `Small numbers are ranks among the ${players.length} players shown${state.mins ? `, those on the floor for at least ${state.mins} possessions` : ''}${state.usgMin ? ` and using more than ${state.usgMin}% of their team’s possessions` : ''} (1 = best; for possessions and minutes, 1 = most). ORtg and NET rank only players over 20% usage, since efficiency is easier on fewer possessions. On/Off is not adjusted for opponent, and is shaky for players who rarely sit.`
     : view.confs
     ? 'Each number is the average of the conference’s teams; small numbers rank the conferences. Click a conference to see its teams.'
     : state.view === 'roster'
@@ -876,7 +918,7 @@ function render() {
 }
 function setView(v) {
   state.view = v;
-  for (const b of document.querySelectorAll('.seg button')) b.setAttribute('aria-pressed', b.dataset.view === v);
+  for (const b of document.querySelectorAll('.seg button')) b.setAttribute('aria-pressed', b.dataset.view === (v === 'playersBox' ? 'players' : v));
   const view = VIEWS[v];
   const valid = ['pos', 'team', ...view.cols, ...(view.players ? ['pteam', 'cls'] : view.confs ? ['size'] : ['conf']), ...(view.extra === 'rec' ? ['rec'] : [])];
   if (!valid.includes(state.sort)) { state.sort = 'pos'; state.dir = 1; }
@@ -885,6 +927,18 @@ function setView(v) {
 }
 
 // ---------- events ----------
+$('usg-filter').addEventListener('change', e => {
+  state.usgMin = +e.target.value;
+  setMinutes(state.mins);
+  state.page = 0;
+  render();
+});
+$('pstats').addEventListener('change', e => {
+  const sort = state.sort;
+  setView(e.target.value);
+  // keep the order when the column exists in both; otherwise points per game (basic) or the default (advanced)
+  if (e.target.value === 'playersBox' && !VIEWS.playersBox.cols.includes(sort)) { state.sort = 'ppg'; state.dir = -1; render(); }
+});
 $('thead').addEventListener('click', e => {
   const b = e.target.closest('button[data-sort]');
   if (!b) return;
