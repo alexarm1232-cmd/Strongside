@@ -4070,9 +4070,9 @@ const SC_METRICS = [];
 const scBox = (id, label, group, f, opts = {}) => SC_METRICS.push({ id, label, group, f, kind: 'box', better: 'high', dec: 1, ...opts });
 const scTeam = (id, label, group, get, opts = {}) => SC_METRICS.push({ id, label, group, get, kind: 'team', better: 'high', dec: 1, ...opts });
 // Ratings
-scTeam('adj_n', 'Adjusted net rating', 'Ratings', t => t.n, { signed: true, desc: 'Adjusted offense minus adjusted defense: points per 100 possessions better than an average team.' });
-scTeam('adj_o', 'Adjusted offensive rating', 'Ratings', t => t.o, { desc: 'Points scored per 100 possessions, adjusted for opponent, home court and blowouts.' });
-scTeam('adj_d', 'Adjusted defensive rating', 'Ratings', t => t.d, { better: 'low', desc: 'Points allowed per 100 possessions, adjusted for opponent, home court and blowouts. Lower is better.' });
+scTeam('adj_n', 'Adjusted net rating', 'Ratings', t => t.n, { getOpp: t => t.sos, oppLabel: 'Opponents’ strength (schedule)', oppBetter: 'high', signed: true, desc: 'Adjusted offense minus adjusted defense: points per 100 possessions better than an average team.' });
+scTeam('adj_o', 'Adjusted offensive rating', 'Ratings', t => t.o, { getOpp: t => t.d, oppLabel: 'Adjusted defensive rating (points allowed)', desc: 'Points scored per 100 possessions, adjusted for opponent, home court and blowouts.' });
+scTeam('adj_d', 'Adjusted defensive rating', 'Ratings', t => t.d, { getOpp: t => t.o, oppLabel: 'Adjusted offensive rating (opponents held to)', better: 'low', desc: 'Points allowed per 100 possessions, adjusted for opponent, home court and blowouts. Lower is better.' });
 scTeam('pace', 'Pace (possessions per 40 min)', 'Ratings', t => t.t, { better: 'none' });
 scBox('ortg', 'Offensive rating (raw)', 'Ratings', s => 100 * scDiv(s.pts, s.poss), { oppLabel: 'Defensive rating (raw)', desc: 'Points per 100 possessions, not adjusted for opponent.' });
 scBox('net_raw', 'Net rating (raw)', 'Ratings', (s, o) => 100 * (scDiv(s.pts, s.poss) - scDiv(o.pts, o.poss)), { noOpp: true, signed: true });
@@ -4156,6 +4156,7 @@ const SC_PRESETS = [
   ['Scoring: points vs points allowed', 'pg_pts', 'pg_pts', false, true], ['Roster: experience vs net rating', 'exp', 'adj_n'],
   ['Size: height vs rebound %', 'ht', 'rebp'], ['Depth: bench share of minutes vs net rating', 'bminp', 'adj_n']];
 const scHasOpp = m => m.kind === 'box' ? !m.noOpp : !!m.getOpp;
+const scDesc = m => (m.desc ? m.desc + ' ' : '') + (scHasOpp(m) ? '' : 'This number has no “Against” side.');
 const scBetter = (m, against) => !against ? m.better : m.oppBetter || ({ high: 'low', low: 'high' }[m.better] || 'none');
 const scLabel = (m, against) => !against ? m.label : m.oppLabel || 'Opponent ' + m.label.charAt(0).toLowerCase() + m.label.slice(1);
 function scValue(m, against, t) {
@@ -4191,7 +4192,7 @@ function renderScatter() {
       `<label class="field"><select data-sc="${k}" aria-label="${k.toUpperCase()} axis metric">${scOptions(sc[k])}</select></label>` +
       `<div class="seg" role="group" aria-label="For or against"><button data-sca="${k}:0" aria-pressed="${!against}">For</button>` +
       `<button data-sca="${k}:1" aria-pressed="${against}"${scHasOpp(m) ? '' : ' disabled title="This one has no opponent side"'}>Against</button></div></div>` +
-      `<div class="sc-desc">${esc(m.desc || '')}</div></div>`;
+      `<div class="sc-desc">${esc(scDesc(m))}</div></div>`;
   };
   $('scatter-view').innerHTML =
     `<h2 class="gs-title">Team scatter<span>Any two team numbers against each other. Each logo is a team; the dashed lines are the averages of the teams shown, and every axis runs so that better is up and to the right.</span></h2>` +
@@ -4250,7 +4251,7 @@ function drawScatter() {
       b.setAttribute('aria-pressed', String(b.dataset.sca.endsWith(':1') === a));
       if (b.dataset.sca.endsWith(':1')) b.disabled = !scHasOpp(m);
     }
-    const desc = sel && sel.closest('.sc-ctl').querySelector('.sc-desc'); if (desc) desc.textContent = m.desc || '';
+    const desc = sel && sel.closest('.sc-ctl').querySelector('.sc-desc'); if (desc) desc.textContent = scDesc(m);
   }
   $('sc-chips').innerHTML = sc.focus.map(n => `<button class="chip" data-scunfocus="${esc(n)}" title="Remove">${esc(n)} ×</button>`).join('');
   const rows = scShown().map(t => ({ t, name: t.name, x: scValue(mx, sc.xa, t), y: scValue(my, sc.ya, t) }));
