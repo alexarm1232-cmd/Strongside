@@ -17,5 +17,6 @@ cbbd_key.txt*
 !/dashboard/dashboard_template.html
 !/dashboard/logos/
 
+/.claude/
 __pycache__/
 *.pyc

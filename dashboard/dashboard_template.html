@@ -2867,6 +2867,22 @@ try {
 const saveBracket = () => { try { localStorage.setItem('strongside-bracket-2' + SEASON_TAG, JSON.stringify(bracket.slots)); localStorage.setItem('strongside-bracket-pair' + SEASON_TAG, bracket.pair); } catch (e) {} };
 const teamByLower = Object.fromEntries(teams.map(t => [t.name.toLowerCase(), t.name]));
 
+// A field of 64 by our ratings: every conference's best-rated team gets its automatic bid, the 32 best-rated others
+// get the at-large bids, and the 64 are seeded down the ratings, the seed lines snaking across the four regions.
+function projectedField() {
+  const byRating = [...teams].sort((a, b) => b.n - a.n);
+  const auto = new Map();
+  for (const t of byRating) if (t.conf && !/^ind/i.test(t.conf) && !auto.has(t.conf)) auto.set(t.conf, t);
+  const field = new Set(auto.values());
+  for (const t of byRating) { if (field.size >= 64) break; field.add(t); }
+  const seeded = [...field].sort((a, b) => b.n - a.n).slice(0, 64);
+  const slots = Array(64).fill('');
+  seeded.forEach((t, i) => {
+    const line = Math.floor(i / 4), k = i % 4, region = line % 2 ? 3 - k : k;
+    slots[region * 16 + BRACKET_SEEDS.indexOf(line + 1)] = t.name;
+  });
+  return slots;
+}
 function bracketProblems() {
   const filled = bracket.slots.filter(Boolean), twice = [...new Set(filled.filter((name, i) => filled.indexOf(name) !== i))];
   return { filled: filled.length, twice };
@@ -2882,7 +2898,10 @@ function renderBracket() {
       `<label class="field" title="Which regions meet in the Final Four"><select id="bk-pair" aria-label="Final Four pairings">` +
         [1, 2, 3].map(pair => `<option value="${pair}"${pair === bracket.pair ? ' selected' : ''}>Final Four: ${pairWords(pair)}</option>`).join('') + `</select></label>` +
       powerPicker() + `<button class="clear" id="bk-stop" hidden>Stop</button><span class="hint" id="bk-status"></span>` +
-      `<button class="clear" id="bk-clear" style="margin-left:auto" title="Empty all 64 slots">Clear bracket</button></div></div>` +
+      `<button class="clear" id="bk-projected" style="margin-left:auto" title="Each conference's best-rated team plus the 32 best-rated others, seeded by rating (no First Four)">Fill a projected field</button>` +
+      `<button class="clear" id="bk-clear" title="Empty all 64 slots">Clear bracket</button></div>` +
+      (REAL_BRACKET ? '' : `<div class="wo-note">${DATA.meta.season === '2019-20' ? 'There was no 2020 tournament: it was cancelled in March 2020 because of COVID-19. ' : 'This season has no real bracket on the page. '}` +
+        `<b>Fill a projected field</b> puts in the 64 teams it would most likely have had by our ratings: each conference's best-rated team (its automatic bid) and the 32 best-rated others, seeded 1 to 16 down the ratings.</div>`) + `</div>` +
     (!REAL_BRACKET ? '' : `<div class="card tp-card"><div class="tp-bar"><h3>Perfect bracket chase<span>the real ${REAL_BRACKET.year} tournament: how many simulated tournaments until one matches all 63 results?</span></h3></div>` +
       `<div class="gs-run" style="border-top:0;margin-top:0;padding-top:6px"><button class="btn" id="bk-chase-go">Chase the perfect bracket</button>` +
       `<button class="clear" id="bk-chase-stop" hidden>Stop</button><span class="hint" id="bk-chase-status"></span>` +
@@ -3040,6 +3059,60 @@ const REAL_BRACKETS = { '2025-26': {
     ['San Diego St.', 'Fla. Atlantic', 'Miami (FL)', 'UConn'],
     ['San Diego St.', 'UConn'],     // in Final Four order: South v East, then Midwest v West
     ['UConn']],
+}, '2021-22': {
+  year: 2022, pair: 2,        // regions in order: West, South, East, Midwest; West met East, South met Midwest
+  slots: [
+    'Gonzaga', 'Georgia St.', 'Boise St.', 'Memphis', 'UConn', 'New Mexico St.', 'Arkansas', 'Vermont', 'Alabama', 'Notre Dame', 'Texas Tech', 'Montana St.', 'Michigan St.', 'Davidson', 'Duke', 'Cal St. Fullerton',
+    'Arizona', 'Wright St.', 'Seton Hall', 'TCU', 'Houston', 'UAB', 'Illinois', 'Chattanooga', 'Colorado St.', 'Michigan', 'Tennessee', 'Longwood', 'Ohio St.', 'Loyola Chicago', 'Villanova', 'Delaware',
+    'Baylor', 'Norfolk St.', 'North Carolina', 'Marquette', "Saint Mary's (CA)", 'Indiana', 'UCLA', 'Akron', 'Texas', 'Virginia Tech', 'Purdue', 'Yale', 'Murray St.', 'San Francisco', 'Kentucky', "Saint Peter's",
+    'Kansas', 'Texas Southern', 'San Diego St.', 'Creighton', 'Iowa', 'Richmond', 'Providence', 'South Dakota St.', 'LSU', 'Iowa St.', 'Wisconsin', 'Colgate', 'Southern California', 'Miami (FL)', 'Auburn', 'Jacksonville St.'],
+  winners: [
+    ['Gonzaga', 'Memphis', 'New Mexico St.', 'Arkansas', 'Notre Dame', 'Texas Tech', 'Michigan St.', 'Duke',
+     'Arizona', 'TCU', 'Houston', 'Illinois', 'Michigan', 'Tennessee', 'Ohio St.', 'Villanova',
+     'Baylor', 'North Carolina', "Saint Mary's (CA)", 'UCLA', 'Texas', 'Purdue', 'Murray St.', "Saint Peter's",
+     'Kansas', 'Creighton', 'Richmond', 'Providence', 'Iowa St.', 'Wisconsin', 'Miami (FL)', 'Auburn'],
+    ['Gonzaga', 'Arkansas', 'Texas Tech', 'Duke', 'Arizona', 'Houston', 'Michigan', 'Villanova',
+     'North Carolina', 'UCLA', 'Purdue', "Saint Peter's", 'Kansas', 'Providence', 'Iowa St.', 'Miami (FL)'],
+    ['Arkansas', 'Duke', 'Houston', 'Villanova', 'North Carolina', "Saint Peter's", 'Kansas', 'Miami (FL)'],
+    ['Duke', 'Villanova', 'North Carolina', 'Kansas'],
+    ['North Carolina', 'Kansas'],
+    ['Kansas']],
+}, '2020-21': {
+  year: 2021, pair: 2,        // regions in order: West, South, East, Midwest; West met East, South met Midwest; VCU-Oregon was a no-contest (COVID), Oregon went on
+  slots: [
+    'Gonzaga', 'Norfolk St.', 'Oklahoma', 'Missouri', 'Creighton', 'UC Santa Barbara', 'Virginia', 'Ohio', 'Southern California', 'Drake', 'Kansas', 'Eastern Wash.', 'Oregon', 'VCU', 'Iowa', 'Grand Canyon',
+    'Baylor', 'Hartford', 'North Carolina', 'Wisconsin', 'Villanova', 'Winthrop', 'Purdue', 'North Texas', 'Texas Tech', 'Utah St.', 'Arkansas', 'Colgate', 'Florida', 'Virginia Tech', 'Ohio St.', 'Oral Roberts',
+    'Michigan', 'Texas Southern', 'LSU', 'St. Bonaventure', 'Colorado', 'Georgetown', 'Florida St.', 'UNC Greensboro', 'BYU', 'UCLA', 'Texas', 'Abilene Christian', 'UConn', 'Maryland', 'Alabama', 'Iona',
+    'Illinois', 'Drexel', 'Loyola Chicago', 'Georgia Tech', 'Tennessee', 'Oregon St.', 'Oklahoma St.', 'Liberty', 'San Diego St.', 'Syracuse', 'West Virginia', 'Morehead St.', 'Clemson', 'Rutgers', 'Houston', 'Cleveland St.'],
+  winners: [
+    ['Gonzaga', 'Oklahoma', 'Creighton', 'Ohio', 'Southern California', 'Kansas', 'Oregon', 'Iowa',
+     'Baylor', 'Wisconsin', 'Villanova', 'North Texas', 'Texas Tech', 'Arkansas', 'Florida', 'Oral Roberts',
+     'Michigan', 'LSU', 'Colorado', 'Florida St.', 'UCLA', 'Abilene Christian', 'Maryland', 'Alabama',
+     'Illinois', 'Loyola Chicago', 'Oregon St.', 'Oklahoma St.', 'Syracuse', 'West Virginia', 'Rutgers', 'Houston'],
+    ['Gonzaga', 'Creighton', 'Southern California', 'Oregon', 'Baylor', 'Villanova', 'Arkansas', 'Oral Roberts',
+     'Michigan', 'Florida St.', 'UCLA', 'Alabama', 'Loyola Chicago', 'Oregon St.', 'Syracuse', 'Houston'],
+    ['Gonzaga', 'Southern California', 'Baylor', 'Arkansas', 'Michigan', 'UCLA', 'Oregon St.', 'Houston'],
+    ['Gonzaga', 'Baylor', 'UCLA', 'Houston'],
+    ['Gonzaga', 'Baylor'],
+    ['Baylor']],
+}, '2018-19': {
+  year: 2019, pair: 2,        // regions in order: East, South, West, Midwest; East met West, South met Midwest
+  slots: [
+    'Duke', 'North Dakota St.', 'VCU', 'UCF', 'Mississippi St.', 'Liberty', 'Virginia Tech', 'Saint Louis', 'Maryland', 'Belmont', 'LSU', 'Yale', 'Louisville', 'Minnesota', 'Michigan St.', 'Bradley',
+    'Virginia', 'Gardner-Webb', 'Ole Miss', 'Oklahoma', 'Wisconsin', 'Oregon', 'Kansas St.', 'UC Irvine', 'Villanova', "Saint Mary's (CA)", 'Purdue', 'Old Dominion', 'Cincinnati', 'Iowa', 'Tennessee', 'Colgate',
+    'Gonzaga', 'FDU', 'Syracuse', 'Baylor', 'Marquette', 'Murray St.', 'Florida St.', 'Vermont', 'Buffalo', 'Arizona St.', 'Texas Tech', 'Northern Ky.', 'Nevada', 'Florida', 'Michigan', 'Montana',
+    'North Carolina', 'Iona', 'Utah St.', 'Washington', 'Auburn', 'New Mexico St.', 'Kansas', 'Northeastern', 'Iowa St.', 'Ohio St.', 'Houston', 'Georgia St.', 'Wofford', 'Seton Hall', 'Kentucky', 'Abilene Christian'],
+  winners: [
+    ['Duke', 'UCF', 'Liberty', 'Virginia Tech', 'Maryland', 'LSU', 'Minnesota', 'Michigan St.',
+     'Virginia', 'Oklahoma', 'Oregon', 'UC Irvine', 'Villanova', 'Purdue', 'Iowa', 'Tennessee',
+     'Gonzaga', 'Baylor', 'Murray St.', 'Florida St.', 'Buffalo', 'Texas Tech', 'Florida', 'Michigan',
+     'North Carolina', 'Washington', 'Auburn', 'Kansas', 'Ohio St.', 'Houston', 'Wofford', 'Kentucky'],
+    ['Duke', 'Virginia Tech', 'LSU', 'Michigan St.', 'Virginia', 'Oregon', 'Purdue', 'Tennessee',
+     'Gonzaga', 'Florida St.', 'Texas Tech', 'Michigan', 'North Carolina', 'Auburn', 'Houston', 'Kentucky'],
+    ['Duke', 'Michigan St.', 'Virginia', 'Purdue', 'Gonzaga', 'Texas Tech', 'Auburn', 'Kentucky'],
+    ['Michigan St.', 'Virginia', 'Texas Tech', 'Auburn'],
+    ['Texas Tech', 'Virginia'],
+    ['Virginia']],
 } };
 const REAL_BRACKET = REAL_BRACKETS[DATA.meta.season] || null;      // this season's real tournament, when it is known
 const CHASE_ENDS = [32, 48, 56, 60, 62, 63];        // how many games have been played by the end of each round
@@ -3208,6 +3281,12 @@ $('bracket-view').addEventListener('click', e => {
     return;
   }
   if (e.target.closest('#bk-stop')) { bracket.run++; bracket.busy = false; bracket.status = 'Stopped.'; if (bracket.job) bracket.job.stop(); bracketStatus(); return; }
+  if (e.target.closest('#bk-projected')) {
+    if (bracket.busy || chase.busy) return;
+    if (bracket.slots.some(Boolean) && !confirm('Replace the teams in the bracket with a projected field?')) return;
+    bracket.slots = projectedField(); bracket.pair = 1; bracket.games = []; bracket.status = ''; saveBracket(); renderBracket();
+    return;
+  }
   if (e.target.closest('#bk-clear')) {
     if (bracket.busy || chase.busy || !confirm('Empty all 64 slots?')) return;
     bracket.slots.fill(''); bracket.games = []; bracket.status = ''; saveBracket(); renderBracket();

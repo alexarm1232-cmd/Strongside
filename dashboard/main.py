@@ -36,7 +36,8 @@ for code, (ended, neutral_from) in {"2324": (2024, "2024/03/11"), "2223": (2023,
 # The full-season view of a season: the same thing with the games after Selection Sunday counted too (the NCAA
 # tournament and the other postseason events). Its data is a second folder, made by postseason.py, and it gets its own
 # page; the switch in the page header goes between the two.   python dashboard/main.py 2526f
-for code in ("2526", "2425", "2324", "2223"):
+# (2019-20 has none: the season stopped before the postseason, in March 2020.)
+for code in ("2526", "2425", "2324", "2223", "2122", "2021", "1819"):
     page = SEASONS[code]["page"]
     SEASONS[code + "f"] = dict(SEASONS[code], teams=f"data/seasons/{code} full", page=page.replace(".html", "_full.html"),
                                data=code + "f/", spreads=False, view="full", base=code)

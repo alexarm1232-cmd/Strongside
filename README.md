@@ -69,7 +69,8 @@ basketball/
 │   ├── ncaa stats converted/  # those CSVs turned into per-team play-by-play (tools\ncaa_stats_reader.py)
 │   └── removed non-D1/<code>/ # games against non-Division I teams, set aside
 ├── collect/<code>[ full]/     # the numbered scripts that download one season's data:  python "collect\2425\5rosterfetch.py"
-├── tools/                     # project-wide jobs: make_site, make_season_codes, ncaa_stats_reader/_season,
+├── tools/                     # build_from_ncaa_stats (a whole season from the scraped files, start to finish),
+│   │                          #   make_site, make_season_codes, ncaa_stats_reader/_season,
 │   │                          #   use_ncaa_stats, postseason, fix_team_totals, copy_rosters, kaggle_plays, run_*.ps1
 │   └── one-off runs/          # runners used once (kept for reference)
 ├── logs/                      # output of the long runs
