@@ -1,56 +1,22 @@
-# Basketball Project — NCAA stats Simulator
+# Strongside: college basketball ratings and simulators
 
-## Project Overview
-This project calculates **college basketball team and player stats game-by-game** using **NCAA API data**, rather than season totals. It includes advanced statistics, player on/off adjustments, lineup analysis, and a **game simulator** that can simulate matchups multiple times. 
+A KenPom-style site for NCAA Division I men's basketball, built game by game from box scores and play-by-play.
+Live at https://alexarm1232-cmd.github.io/Strongside/ . Seasons 2018-19 through 2025-26 are built; the data
+collection reaches back to 2009-10.
 
-The goal is to create a **KenPom-like platform** with interactive visuals, team pages, and simulation results — all based on real box scores and play-by-play data.
+## What the site has
 
----
-
-## Key Features
-
-### 1. Team and Player Statistics
-- **Team stats per game**:
-  - Offensive and defensive efficiency (user-defined formulas)
-  - Pace (possessions per game)
-  - 4 factors (effective FG%, turnover rate, offensive rebounding, free throw rate)
-  - SOS (Strength of Schedule) adjusted offense and defense
-  - Basic stats: points, rebounds, assists, turnovers, shooting percentages
-  - Bench rankings, team balance (top-heavy vs distributed scoring)
-- **Player stats per game**:
-  - Points, rebounds, assists, etc.
-  - Usage and minutes played
-  - On/off data to measure team performance with/without specific players
-- **Points per shot type**:
-  - Offensive points per shot and defensive points allowed per shot by zone/type
-  - Uses play-by-play data to calculate shot efficiency
-
-### 2. Player On/Off Adjustments
-- Ability to select **one or multiple players** to exclude from stats calculations
-- Estimates how team performance changes **if certain players are out**
-- Supports game-by-game **rolling averages**
-
-### 3. Game Simulation
-- Simulate **any two teams on a neutral floor** for:
-  - Single games
-  - 100-game matchups
-- Outputs:
-  - Average box scores for all players
-  - Total wins and losses
-  - Win margins
-  - Optional explanation for outcomes based on team stats and lineup logic
-- **Player exclusion in simulations** supported
-
-### 4. Interactive XY Graphs
-- Compare teams using **any two statistics** for X and Y axes
-- Team logos used as plot markers
-- Filter by:
-  - All teams
-  - Power conferences
-  - High-major conferences
-  - Specific conferences
-- Axes and data update dynamically
-
+- **Ratings**: offense and defense per 100 possessions, adjusted for opponent, home court (measured team by team)
+  and blowouts; tempo, the four factors, strength of schedule, roster makeup (experience, continuity, height).
+- **Players**: offensive and defensive ratings, usage, box plus-minus, win shares, on/off, basic per-game numbers.
+- **Team pages**: schedule and game logs, play types and shot zones, lineups, and "without a player" estimates.
+- **Team scatter**: any two of about 125 team numbers against each other (logos as markers, For/Against sides,
+  conference and team focus, trend line and correlation, a sortable table), including the possession battle:
+  offensive rebounds + turnovers forced minus the opponent's.
+- **Game sim**: any two teams played possession by possession, thousands of times.
+- **Tournament sim**: fill or load a 64-team bracket and play it out; the perfect-bracket chase on the real
+  brackets (2019, 2021-2026); a projected field from the ratings for any season (2020 had no tournament).
+- **Pre-tournament / full season** views, a season picker, a Spread report (2025-26), and a Stat guide.
 ---
 
 ## Project Structure

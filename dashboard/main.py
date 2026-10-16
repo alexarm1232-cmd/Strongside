@@ -189,6 +189,7 @@ def load_teams():
                     for stat in STAT_KEYS:
                         value = metrics.get(stat)
                         team[stat] = value if isinstance(value, (int, float)) else None
+                    team["box"] = metrics.get("box")      # per-game box score, the team's own ("o") and its opponents' ("d")
                     for stat in ROSTER_KEYS:
                         team[stat] = roster_stats.get(team_folder, {}).get(stat)
                     # "hca": the team's home edge per side per 100 possessions (what the simulators use);

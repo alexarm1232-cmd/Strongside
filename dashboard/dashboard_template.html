@@ -201,6 +201,68 @@
   @media (max-width: 1100px) { .bk-regions { grid-template-columns: repeat(2, 1fr); } }
   @media (max-width: 600px) { .bk-regions { grid-template-columns: 1fr; } }
 
+  /* ---------- Team scatter ---------- */
+  #scatter-view { display: none; padding-bottom: 40px; }
+  body.scatter-mode #scatter-view { display: block; }
+  body.scatter-mode .list-only, body.scatter-mode .controls, body.scatter-mode #team-view { display: none !important; }
+  .sc-controls { display: grid; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); gap: 12px 16px; padding: 16px 18px 6px; }
+  .sc-ctl { display: flex; flex-direction: column; gap: 6px; min-width: 0; }
+  .sc-ctl .lab { font-size: 12px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+  .sc-ctl .field { width: 100%; }
+  .sc-ctl .field select, .sc-ctl .field input { width: 100%; }
+  .sc-axis { display: flex; gap: 6px; align-items: center; }
+  .sc-axis .field { flex: 1; min-width: 0; }
+  .sc-axis .seg button { padding: 7px 10px; }
+  .sc-axis .seg button:disabled { opacity: .35; cursor: default; }
+  .sc-desc { font-size: 12.5px; color: var(--muted); line-height: 1.4; min-height: 17px; }
+  .sc-tools { display: flex; flex-wrap: wrap; gap: 8px; padding: 6px 18px 16px; align-items: center; }
+  .sc-btn { border: 1px solid var(--line); background: var(--surface); border-radius: 9px; padding: 6px 12px; cursor: pointer; font-weight: 600; font-size: 13px; color: var(--ink-2); }
+  .sc-btn:hover { border-color: var(--accent); color: var(--accent-ink); }
+  .sc-btn[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
+  .sc-chips { display: flex; flex-wrap: wrap; gap: 6px; }
+  .sc-chips .chip { display: inline-flex; gap: 6px; align-items: center; }
+  .sc-main { display: grid; grid-template-columns: minmax(0, 1fr) 430px; gap: 16px; margin-top: 16px; align-items: start; }
+  @media (max-width: 1050px) { .sc-main { grid-template-columns: 1fr; } }
+  .sc-head { padding: 14px 18px 0; }
+  .sc-head h3 { margin: 0; font-size: 18px; font-weight: 750; }
+  .sc-head p { margin: 2px 0 0; color: var(--muted); font-size: 13px; }
+  .sc-chart { position: relative; padding: 42px 6px 8px; }
+  .sc-svg { width: 100%; height: auto; display: block; user-select: none; }
+  .sc-svg text { font-family: inherit; fill: var(--muted); font-size: 12px; }
+  .sc-svg text.ax { fill: var(--ink-2); font-size: 13.5px; font-weight: 650; }
+  .sc-svg .grid { stroke: var(--line); }
+  .sc-svg .avg { stroke: var(--ink-2); stroke-dasharray: 5 5; opacity: .55; }
+  .sc-svg .trend { stroke: var(--accent); stroke-width: 2; opacity: .8; }
+  .sc-svg .dot { fill: var(--accent); stroke: var(--surface); stroke-width: 1.5; }
+  .sc-svg .lb { fill: var(--chip-bg); }
+  .sc-svg .pt { cursor: pointer; }
+  .sc-svg .pt.fade { opacity: .16; }
+  .sc-svg .pt.hot circle { stroke: var(--accent); stroke-width: 2.5; }
+  .sc-svg text.lbl { fill: var(--ink); font-weight: 700; font-size: 12px; paint-order: stroke; stroke: var(--surface); stroke-width: 3px; }
+  .sc-svg text.corner { fill: var(--muted); font-size: 11px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; opacity: .75; }
+  .sc-zoom { position: absolute; right: 14px; top: 10px; display: flex; gap: 4px; }
+  .sc-zoom button { width: 30px; height: 30px; border-radius: 8px; border: 1px solid var(--line); background: var(--surface); cursor: pointer; font-weight: 700; color: var(--ink-2); }
+  .sc-zoom button:hover { border-color: var(--accent); color: var(--accent-ink); }
+  .sc-tip { position: absolute; pointer-events: none; background: var(--surface); border: 1px solid var(--line); border-radius: 10px; box-shadow: var(--shadow); padding: 8px 11px; font-size: 13px; z-index: 5; min-width: 200px; }
+  .sc-tip b { display: block; font-size: 14px; }
+  .sc-tip small { color: var(--muted); }
+  .sc-tip .row { display: flex; justify-content: space-between; gap: 14px; margin-top: 3px; }
+  .sc-tip .row span:first-child { color: var(--muted); max-width: 210px; }
+  .sc-stats { padding: 0 18px 12px; color: var(--muted); font-size: 13px; }
+  .sc-table-wrap { overflow-x: auto; }
+  .sc-table tbody td { padding: 5px 8px; }
+  .sc-table td.team { font-size: 14px; }
+  .sc-table .badge { width: 26px; height: 26px; }
+  .sc-table .badge img { width: 20px; height: 20px; }
+  .sc-table td small { color: var(--muted); font-size: 11px; margin-left: 4px; }
+  .sc-table th { font-size: 11px; }
+  .sc-table th.xy { max-width: 120px; white-space: normal; }
+  .sc-table th.xy button { white-space: normal; line-height: 1.25; }
+  .sc-table tr.hot td { background: rgba(var(--good-rgb), .08); }
+  .sc-find { display: flex; gap: 8px; align-items: center; padding: 12px 12px 8px; }
+  .sc-find .field { flex: 1; }
+  .sc-pager { display: flex; justify-content: space-between; align-items: center; padding: 8px 12px 12px; color: var(--muted); font-size: 13px; }
+
   /* ---------- Stat guide ---------- */
   #guide-view { display: none; padding-bottom: 40px; }
   body.guide-mode #guide-view { display: block; }
@@ -522,6 +584,7 @@
       </button>
       <nav class="menu" id="menu" hidden>
         <a href="#" data-page="stats">Team stats</a>
+        <a href="#scatter" data-page="scatter">Team scatter</a>
         <a href="#sim" data-page="sim">Game sim</a>
         <a href="#bracket" data-page="bracket">Tournament sim</a>
         <a href="#spreads" data-page="spreads" id="menu-spreads">Spread report</a>
@@ -592,6 +655,7 @@
   <div class="pager list-only" id="pager" hidden></div>
 
   <div id="team-view"></div>
+  <div id="scatter-view"></div>
   <div id="sim-view"></div>
   <div id="bracket-view"></div>
   <div id="spread-view"></div>
@@ -3983,13 +4047,365 @@ function renderGuide() {
     a.addEventListener('click', e => { e.preventDefault(); document.getElementById(a.dataset.jump).scrollIntoView({ behavior: 'smooth', block: 'start' }); });
 }
 
+// ---------- Team scatter: any two team numbers against each other ----------
+// Box-score metrics are worked out from each team's per-game box score ("o" = its own, "d" = its opponents'), so every
+// one of them also has an "Against" side: the same number for the team's opponents. better: 'high', 'low' or 'none'
+// (no direction: the axis is not turned around and the corners are not labelled).
+const SC_POWER = ['ACC', 'Big 12', 'Big East', 'Big Ten', 'SEC', 'Pac-12'];
+const scNum = v => typeof v === 'number' && isFinite(v) ? v : null;
+const scDiv = (a, b) => b ? a / b : null;
+const scCount = (s, key) => key === '2pm' ? s.fgm - s['3pm'] : key === '2pa' ? s.fga - s['3pa'] : key === 'dr' ? s.reb - s.or : s[key];
+// each team's share of minutes and points by class, from the players
+const SC_CLASS = {};
+for (const p of allPlayers) {
+  const c = /^fr/i.test(p.cls || '') ? 'Fr' : /^so/i.test(p.cls || '') ? 'So' : /^jr/i.test(p.cls || '') ? 'Jr' : 'Sr';
+  const row = SC_CLASS[p.team] || (SC_CLASS[p.team] = { min: {}, pts: {}, totMin: 0, totPts: 0 });
+  const pts = (p.ppg || 0) * (p.g || 0);
+  row.min[c] = (row.min[c] || 0) + (p.min || 0); row.pts[c] = (row.pts[c] || 0) + pts;
+  row.totMin += p.min || 0; row.totPts += pts;
+}
+const SC_METRICS = [];
+const scBox = (id, label, group, f, opts = {}) => SC_METRICS.push({ id, label, group, f, kind: 'box', better: 'high', dec: 1, ...opts });
+const scTeam = (id, label, group, get, opts = {}) => SC_METRICS.push({ id, label, group, get, kind: 'team', better: 'high', dec: 1, ...opts });
+// Ratings
+scTeam('adj_n', 'Adjusted net rating', 'Ratings', t => t.n, { signed: true, desc: 'Adjusted offense minus adjusted defense: points per 100 possessions better than an average team.' });
+scTeam('adj_o', 'Adjusted offensive rating', 'Ratings', t => t.o, { desc: 'Points scored per 100 possessions, adjusted for opponent, home court and blowouts.' });
+scTeam('adj_d', 'Adjusted defensive rating', 'Ratings', t => t.d, { better: 'low', desc: 'Points allowed per 100 possessions, adjusted for opponent, home court and blowouts. Lower is better.' });
+scTeam('pace', 'Pace (possessions per 40 min)', 'Ratings', t => t.t, { better: 'none' });
+scBox('ortg', 'Offensive rating (raw)', 'Ratings', s => 100 * scDiv(s.pts, s.poss), { oppLabel: 'Defensive rating (raw)', desc: 'Points per 100 possessions, not adjusted for opponent.' });
+scBox('net_raw', 'Net rating (raw)', 'Ratings', (s, o) => 100 * (scDiv(s.pts, s.poss) - scDiv(o.pts, o.poss)), { noOpp: true, signed: true });
+scTeam('sos', 'Strength of schedule', 'Ratings', t => t.sos, { signed: true });
+scTeam('ncsos', 'Non-conference strength of schedule', 'Ratings', t => t.ncsos, { signed: true });
+scTeam('hc', 'Home-court edge (points)', 'Ratings', t => t.hc, { signed: true });
+scTeam('winpct', 'Win percentage', 'Ratings', t => (t.w + t.l) ? 100 * t.w / (t.w + t.l) : null, { unit: '%' });
+scTeam('wins', 'Wins', 'Ratings', t => t.w, { dec: 0 });
+scTeam('losses', 'Losses', 'Ratings', t => t.l, { dec: 0, better: 'low' });
+scTeam('gp', 'Games played', 'Ratings', t => t.w + t.l, { dec: 0, better: 'none' });
+// The four factors
+scTeam('efg', 'Effective field goal %', 'Four factors', t => t.efg, { getOpp: t => t.d_efg, unit: '%', desc: 'Field goal percentage with threes counted as 1.5 makes.' });
+scTeam('tov', 'Turnover %', 'Four factors', t => t.tov, { getOpp: t => t.d_tov, better: 'low', unit: '%', oppLabel: 'Turnover % forced', desc: 'Turnovers per 100 possessions.' });
+scTeam('orb', 'Offensive rebound %', 'Four factors', t => t.orb, { getOpp: t => t.d_orb, unit: '%', desc: 'Share of its own missed shots a team rebounds.' });
+scTeam('ftr', 'Free throw rate', 'Four factors', t => t.ftr, { getOpp: t => t.d_ftr, unit: '%', desc: 'Free throw attempts per 100 field goal attempts.' });
+scTeam('drb', 'Defensive rebound %', 'Four factors', t => t.d_orb == null ? null : 100 - t.d_orb, { getOpp: t => t.orb == null ? null : 100 - t.orb, unit: '%', desc: 'Share of opponents’ missed shots a team rebounds.' });
+// Shooting
+scBox('fgp', 'Field goal %', 'Shooting', s => 100 * scDiv(s.fgm, s.fga), { unit: '%' });
+scBox('p2', '2-point %', 'Shooting', s => 100 * scDiv(s.fgm - s['3pm'], s.fga - s['3pa']), { unit: '%' });
+scBox('p3', '3-point %', 'Shooting', s => 100 * scDiv(s['3pm'], s['3pa']), { unit: '%' });
+scBox('ftp', 'Free throw %', 'Shooting', s => 100 * scDiv(s.ftm, s.fta), { unit: '%' });
+scBox('ts', 'True shooting %', 'Shooting', s => 100 * scDiv(s.pts, 2 * (s.fga + 0.44 * s.fta)), { unit: '%', desc: 'Points per shot, counting free throws: points ÷ (2 × (FGA + 0.44 × FTA)).' });
+scBox('par3', '3-point attempt rate', 'Shooting', s => 100 * scDiv(s['3pa'], s.fga), { unit: '%', better: 'none', desc: 'Share of field goal attempts that are threes.' });
+scBox('ftmr', 'Free throws made per 100 FGA', 'Shooting', s => 100 * scDiv(s.ftm, s.fga));
+scBox('sh2', '% of points from 2-pointers', 'Shooting', s => 100 * scDiv(2 * (s.fgm - s['3pm']), s.pts), { unit: '%', better: 'none' });
+scBox('sh3', '% of points from 3-pointers', 'Shooting', s => 100 * scDiv(3 * s['3pm'], s.pts), { unit: '%', better: 'none' });
+scBox('shft', '% of points from free throws', 'Shooting', s => 100 * scDiv(s.ftm, s.pts), { unit: '%', better: 'none' });
+// Playmaking and defense
+scBox('astp', 'Assist %', 'Playmaking and defense', s => 100 * scDiv(s.ast, s.fgm), { unit: '%', desc: 'Share of made field goals that were assisted.' });
+scBox('astr', 'Assist ratio', 'Playmaking and defense', s => 100 * scDiv(s.ast, s.fga + 0.44 * s.fta + s.ast + s.to), { desc: 'Assists per 100 plays that end a possession or are assisted.' });
+scBox('ato', 'Assist-to-turnover ratio', 'Playmaking and defense', s => scDiv(s.ast, s.to), { dec: 2 });
+scBox('stlp', 'Steal %', 'Playmaking and defense', (s, o) => 100 * scDiv(s.stl, o.poss), { unit: '%', desc: 'Steals per 100 opponent possessions.' });
+scBox('blkp', 'Block %', 'Playmaking and defense', (s, o) => 100 * scDiv(s.blk, o.fga - o['3pa']), { unit: '%', desc: 'Share of opponents’ 2-point attempts blocked.' });
+scBox('stlto', 'Steal-to-turnover ratio', 'Playmaking and defense', s => scDiv(s.stl, s.to), { dec: 2 });
+scBox('stlpf', 'Steals per foul', 'Playmaking and defense', s => scDiv(s.stl, s.pf), { dec: 2 });
+scBox('blkpf', 'Blocks per foul', 'Playmaking and defense', s => scDiv(s.blk, s.pf), { dec: 2 });
+scBox('rebp', 'Rebound %', 'Playmaking and defense', (s, o) => 100 * scDiv(s.reb, s.reb + o.reb), { unit: '%', noOpp: true, desc: 'Share of all rebounds in its games a team gets.' });
+// The possession battle: extra chances to score
+scBox('pm_or', 'Team ORBs + TOVs forced − Opponent ORBs + TOVs forced', 'Possession battle', (s, o) => (s.or + o.to) - (o.or + s.to),
+  { noOpp: true, signed: true, desc: 'Per game: (offensive rebounds + turnovers forced) − (opponent offensive rebounds + turnovers committed). Extra possessions won.' });
+scBox('pm_reb', 'Team REBs + TOVs forced − Opponent REBs + TOVs forced', 'Possession battle', (s, o) => (s.reb + o.to) - (o.reb + s.to),
+  { noOpp: true, signed: true, desc: 'Per game: (all rebounds + turnovers forced) − (opponent rebounds + turnovers committed).' });
+scBox('pm_or100', 'ORB + TOV forced margin per 100 possessions', 'Possession battle', (s, o) => 100 * scDiv((s.or + o.to) - (o.or + s.to), (s.poss + o.poss) / 2),
+  { noOpp: true, signed: true, desc: 'The offensive-rebound and turnover margin, per 100 possessions so fast and slow teams compare fairly.' });
+scBox('pm_reb100', 'REB + TOV forced margin per 100 possessions', 'Possession battle', (s, o) => 100 * scDiv((s.reb + o.to) - (o.reb + s.to), (s.poss + o.poss) / 2), { noOpp: true, signed: true });
+scBox('fgmd', 'Team FGMs − Opponent FGMs', 'Possession battle', (s, o) => s.fgm - o.fgm, { noOpp: true, signed: true });
+// Counting stats three ways, plus their differentials
+const SC_COUNTS = [['pts', 'Points', 'high'], ['fgm', 'Field goals made', 'high'], ['fga', 'Field goal attempts', 'none'], ['2pm', '2-pointers made', 'high'],
+  ['2pa', '2-point attempts', 'none'], ['3pm', '3-pointers made', 'high'], ['3pa', '3-point attempts', 'none'], ['ftm', 'Free throws made', 'high'],
+  ['fta', 'Free throw attempts', 'high'], ['or', 'Offensive rebounds', 'high'], ['dr', 'Defensive rebounds', 'high'], ['reb', 'Rebounds', 'high'],
+  ['ast', 'Assists', 'high'], ['to', 'Turnovers', 'low'], ['stl', 'Steals', 'high'], ['blk', 'Blocks', 'high'], ['pf', 'Personal fouls', 'low']];
+for (const [key, name, better] of SC_COUNTS) {
+  const opp = key === 'to' ? 'Turnovers forced' : key === 'pf' ? 'Fouls drawn' : key === 'pts' ? 'Points allowed' : null;
+  scBox('pg_' + key, name + ' / game', 'Per game', s => scCount(s, key), { better, oppLabel: opp && opp + ' / game' });
+}
+for (const [key, name, better] of SC_COUNTS)
+  scBox('p100_' + key, name + ' / 100 poss', 'Per 100 possessions', s => 100 * scDiv(scCount(s, key), s.poss), { better, oppLabel: key === 'to' ? 'Turnovers forced / 100 poss' : null });
+for (const [key, name, better] of SC_COUNTS)
+  scBox('tot_' + key, name + ' (season)', 'Season totals', (s, o, t) => scCount(s, key) * (t.w + t.l), { better, dec: 0 });
+for (const [key, name, better] of SC_COUNTS.filter(c => c[0] !== 'pf'))
+  scBox('diff_' + key, name + ' differential / game', 'Differentials', (s, o) => scCount(s, key) - scCount(o, key), { better: better === 'none' ? 'none' : better, noOpp: true, signed: true });
+// Bench
+scBox('bpts', 'Bench points / game', 'Bench', s => s.bpts, { better: 'none' });
+scBox('bptsp', 'Bench share of points', 'Bench', s => 100 * scDiv(s.bpts, s.pts), { unit: '%', better: 'none' });
+scBox('bminp', 'Bench share of minutes', 'Bench', s => 100 * scDiv(s.bmin, s.min), { unit: '%', better: 'none' });
+// Roster
+scTeam('exp', 'Experience (years)', 'Roster', t => t.exp, { dec: 2, desc: 'Average years in college, weighted by minutes.' });
+scTeam('cont', 'Minutes continuity', 'Roster', t => t.cont, { unit: '%', desc: 'Share of minutes played by players who were on the team last season.' });
+scTeam('ht', 'Average height', 'Roster', t => t.ht, { height: true, desc: 'Weighted by minutes.' });
+scTeam('htg', 'Guards’ height', 'Roster', t => t.ht_g, { height: true });
+scTeam('htf', 'Forwards’ and centers’ height', 'Roster', t => t.ht_f, { height: true });
+for (const [c, name] of [['Fr', 'Freshman'], ['So', 'Sophomore'], ['Jr', 'Junior'], ['Sr', 'Senior and older']]) {
+  scTeam('min_' + c, name + ' share of minutes', 'Classes', t => { const r = SC_CLASS[t.name]; return r && r.totMin ? 100 * (r.min[c] || 0) / r.totMin : null; }, { unit: '%', better: 'none' });
+  scTeam('pts_' + c, name + ' share of points', 'Classes', t => { const r = SC_CLASS[t.name]; return r && r.totPts ? 100 * (r.pts[c] || 0) / r.totPts : null; }, { unit: '%', better: 'none' });
+}
+const SC_BY_ID = Object.fromEntries(SC_METRICS.map(m => [m.id, m]));
+const SC_PRESETS = [
+  ['Offense vs defense', 'adj_o', 'adj_d'], ['Pace vs net rating', 'pace', 'adj_n'], ['Shooting: 2P% vs 3P%', 'p2', 'p3'],
+  ['Shooting: 3PA rate vs 3P%', 'par3', 'p3'], ['Style: assist % vs turnover %', 'astp', 'tov'], ['Defense: steal % vs block %', 'stlp', 'blkp'],
+  ['Rebounding: DRB% vs ORB%', 'drb', 'orb'], ['Possessions: ORB + TOV margin vs net rating', 'pm_or', 'adj_n'],
+  ['Scoring: points vs points allowed', 'pg_pts', 'pg_pts', false, true], ['Roster: experience vs net rating', 'exp', 'adj_n'],
+  ['Size: height vs rebound %', 'ht', 'rebp'], ['Depth: bench share of minutes vs net rating', 'bminp', 'adj_n']];
+const scHasOpp = m => m.kind === 'box' ? !m.noOpp : !!m.getOpp;
+const scBetter = (m, against) => !against ? m.better : m.oppBetter || ({ high: 'low', low: 'high' }[m.better] || 'none');
+const scLabel = (m, against) => !against ? m.label : m.oppLabel || 'Opponent ' + m.label.charAt(0).toLowerCase() + m.label.slice(1);
+function scValue(m, against, t) {
+  if (m.kind === 'team') return scNum(against ? (m.getOpp ? m.getOpp(t) : null) : m.get(t));
+  const b = t.box;
+  if (!b || !b.o || !b.d) return null;
+  return scNum(against ? m.f(b.d, b.o, t) : m.f(b.o, b.d, t));
+}
+function scFmt(m, v) {
+  if (v == null) return '–';
+  if (m.height) { const tenths = Math.round(v * 10); return `${Math.floor(tenths / 120)}'${((tenths % 120) / 10).toFixed(1)}"`; }
+  if (Math.abs(v) < 0.5 * Math.pow(10, -m.dec)) v = 0;      // no "−0.0"
+  const s = v.toFixed(m.dec) + (m.unit || '');
+  return m.signed && v > 0 ? '+' + s : s.replace('-', '−');
+}
+const sc = { x: 'adj_o', y: 'adj_d', xa: false, ya: false, conf: '', focusConf: '', focus: [], minG: 0, logos: true, trend: false, zoom: 1,
+  q: '', sort: 'y', dir: 0, page: 0 };
+try { Object.assign(sc, JSON.parse(localStorage.getItem('strongside-scatter') || '{}'), { zoom: 1, page: 0, q: '' }); } catch (e) {}
+if (!SC_BY_ID[sc.x]) sc.x = 'adj_o';
+if (!SC_BY_ID[sc.y]) sc.y = 'adj_d';
+const scSave = () => { try { localStorage.setItem('strongside-scatter', JSON.stringify({ ...sc, zoom: 1, page: 0, q: '' })); } catch (e) {} };
+
+function scOptions(selected) {
+  const groups = [...new Set(SC_METRICS.map(m => m.group))];
+  return groups.map(g => `<optgroup label="${esc(g)}">` + SC_METRICS.filter(m => m.group === g)
+    .map(m => `<option value="${m.id}"${m.id === selected ? ' selected' : ''}>${esc(m.label)}</option>`).join('') + '</optgroup>').join('');
+}
+function renderScatter() {
+  const confNames = [...new Set(teams.map(t => t.conf))].sort((a, b) => a.localeCompare(b));
+  const axis = (k) => {
+    const m = SC_BY_ID[sc[k]], against = sc[k + 'a'];
+    return `<div class="sc-ctl"><span class="lab">${k.toUpperCase()} axis</span><div class="sc-axis">` +
+      `<label class="field"><select data-sc="${k}" aria-label="${k.toUpperCase()} axis metric">${scOptions(sc[k])}</select></label>` +
+      `<div class="seg" role="group" aria-label="For or against"><button data-sca="${k}:0" aria-pressed="${!against}">For</button>` +
+      `<button data-sca="${k}:1" aria-pressed="${against}"${scHasOpp(m) ? '' : ' disabled title="This one has no opponent side"'}>Against</button></div></div>` +
+      `<div class="sc-desc">${esc(m.desc || '')}</div></div>`;
+  };
+  $('scatter-view').innerHTML =
+    `<h2 class="gs-title">Team scatter<span>Any two team numbers against each other. Each logo is a team; the dashed lines are the averages of the teams shown, and every axis runs so that better is up and to the right.</span></h2>` +
+    `<div class="card" style="margin-top:14px"><div class="sc-controls">` + axis('x') + axis('y') +
+    `<div class="sc-ctl"><span class="lab">Suggestions</span><label class="field"><select id="sc-preset" aria-label="Suggested pairs"><option value="">Pick a pair…</option>` +
+      SC_PRESETS.map((p, i) => `<option value="${i}">${esc(p[0])}</option>`).join('') + `</select></label></div>` +
+    `<div class="sc-ctl"><span class="lab">Teams shown</span><label class="field"><select id="sc-conf" aria-label="Which teams"><option value="">All Division I</option>` +
+      `<option value="power">Power conferences</option><option value="other">Everyone else</option>` + confNames.map(c => `<option${c === sc.conf ? ' selected' : ''}>${esc(c)}</option>`).join('') + `</select></label></div>` +
+    `<div class="sc-ctl"><span class="lab">Focus a conference</span><label class="field"><select id="sc-fconf" aria-label="Focus a conference"><option value="">None</option>` +
+      confNames.map(c => `<option${c === sc.focusConf ? ' selected' : ''}>${esc(c)}</option>`).join('') + `</select></label></div>` +
+    `<div class="sc-ctl"><span class="lab">Focus teams</span><label class="field"><input id="sc-fteam" list="sc-teamlist" placeholder="Type a team, press Enter" autocomplete="off"></label>` +
+      `<datalist id="sc-teamlist">${teams.map(t => t.name).sort((a, b) => a.localeCompare(b)).map(n => `<option value="${esc(n)}">`).join('')}</datalist><div class="sc-chips" id="sc-chips"></div></div>` +
+    `<div class="sc-ctl"><span class="lab">Minimum games</span><label class="field"><input id="sc-ming" type="number" min="0" max="40" value="${sc.minG}" aria-label="Minimum games played"></label></div>` +
+    `</div><div class="sc-tools">` +
+      `<button class="sc-btn" data-sctool="flip">Flip axes</button>` +
+      `<button class="sc-btn" data-sctool="logos" aria-pressed="${sc.logos}">Logos</button>` +
+      `<button class="sc-btn" data-sctool="trend" aria-pressed="${sc.trend}">Trend line</button>` +
+      `<button class="sc-btn" data-sctool="random">Randomize</button>` +
+      `<button class="clear" data-sctool="clearfocus" style="margin-left:auto">Clear focus</button>` +
+    `</div></div>` +
+    `<div class="sc-main"><div class="card"><div class="sc-head"><h3 id="sc-title"></h3><p id="sc-sub"></p></div>` +
+      `<div class="sc-chart" id="sc-chart"><div class="sc-zoom"><button data-sczoom="in" title="Zoom in" aria-label="Zoom in">+</button><button data-sczoom="out" title="Zoom out" aria-label="Zoom out">−</button><button data-sczoom="reset" title="Fit all" aria-label="Fit all">⤢</button></div>` +
+      `<svg class="sc-svg" id="sc-svg" viewBox="0 0 900 640" role="img"></svg><div class="sc-tip" id="sc-tip" hidden></div></div><div class="sc-stats" id="sc-stats"></div></div>` +
+    `<div class="card"><div class="sc-find"><label class="field"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.6-3.6"/></svg>` +
+      `<input id="sc-q" type="search" placeholder="Search the table" autocomplete="off" aria-label="Search the table"></label></div>` +
+      `<div class="sc-table-wrap"><table class="sc-table" id="sc-table"></table></div><div class="sc-pager" id="sc-pager"></div></div></div>`;
+  $('sc-conf').value = sc.conf;
+  drawScatter();
+}
+function scShown() {
+  return teams.filter(t => {
+    if (sc.conf === 'power' ? !SC_POWER.includes(t.conf) : sc.conf === 'other' ? SC_POWER.includes(t.conf) : sc.conf && t.conf !== sc.conf) return false;
+    return (t.w + t.l) >= sc.minG;
+  });
+}
+function scTicks(lo, hi) {
+  const raw = (hi - lo) / 7, mag = Math.pow(10, Math.floor(Math.log10(raw || 1))), n = raw / mag;
+  const step = (n < 1.5 ? 1 : n < 3 ? 2 : n < 7 ? 5 : 10) * mag, out = [];
+  for (let v = Math.ceil(lo / step) * step; v <= hi + step * 1e-6; v += step) out.push(+v.toFixed(10));
+  return { ticks: out, dec: Math.max(0, -Math.floor(Math.log10(step) + 1e-9)) };
+}
+function scRanks(rows, key, better) {
+  const have = rows.filter(r => r[key] != null).sort((a, b) => better === 'low' ? a[key] - b[key] : b[key] - a[key]);
+  let rank = 0, prev = null;
+  have.forEach((r, i) => { if (r[key] !== prev) { rank = i + 1; prev = r[key]; } r[key + 'r'] = rank; });
+}
+function drawScatter() {
+  scSave();
+  const mx = SC_BY_ID[sc.x], my = SC_BY_ID[sc.y];
+  if (!scHasOpp(mx)) sc.xa = false;
+  if (!scHasOpp(my)) sc.ya = false;
+  const bx = scBetter(mx, sc.xa), by = scBetter(my, sc.ya), lx = scLabel(mx, sc.xa), ly = scLabel(my, sc.ya);
+  for (const [k, m, a] of [['x', mx, sc.xa], ['y', my, sc.ya]]) {
+    const sel = document.querySelector(`select[data-sc="${k}"]`); if (sel) sel.value = m.id;
+    for (const b of document.querySelectorAll(`button[data-sca^="${k}:"]`)) {
+      b.setAttribute('aria-pressed', String(b.dataset.sca.endsWith(':1') === a));
+      if (b.dataset.sca.endsWith(':1')) b.disabled = !scHasOpp(m);
+    }
+    const desc = sel && sel.closest('.sc-ctl').querySelector('.sc-desc'); if (desc) desc.textContent = m.desc || '';
+  }
+  $('sc-chips').innerHTML = sc.focus.map(n => `<button class="chip" data-scunfocus="${esc(n)}" title="Remove">${esc(n)} ×</button>`).join('');
+  const rows = scShown().map(t => ({ t, name: t.name, x: scValue(mx, sc.xa, t), y: scValue(my, sc.ya, t) }));
+  const pts = rows.filter(r => r.x != null && r.y != null);
+  scRanks(pts, 'x', bx === 'none' ? 'high' : bx); scRanks(pts, 'y', by === 'none' ? 'high' : by);
+  $('sc-title').textContent = `${ly} vs ${lx}`;
+  const focusSet = new Set(sc.focus), focusing = !!(sc.focusConf || sc.focus.length);
+  const isFocus = r => focusSet.has(r.name) || (sc.focusConf && r.t.conf === sc.focusConf);
+  $('sc-sub').textContent = `${DATA.meta.season} · ${pts.length} teams` + (FULL_SEASON ? ' · full season' : ' · before the NCAA tournament');
+  // ---- the chart ----
+  const W = 900, H = 640, L = 72, R = 26, T = 22, B = 60, svg = $('sc-svg');
+  if (!pts.length) { svg.innerHTML = `<text x="${W / 2}" y="${H / 2}" text-anchor="middle">No teams have both numbers.</text>`; scTable(rows, mx, my, lx, ly, bx, by, isFocus); return; }
+  const mean = k => pts.reduce((s, r) => s + r[k], 0) / pts.length;
+  const ax = mean('x'), ay = mean('y');
+  const dom = k => {
+    let lo = Math.min(...pts.map(r => r[k])), hi = Math.max(...pts.map(r => r[k]));
+    if (hi === lo) { hi += 1; lo -= 1; }
+    const pad = (hi - lo) * 0.06; lo -= pad; hi += pad;
+    const c = k === 'x' ? ax : ay, half = Math.max(hi - c, c - lo) / sc.zoom;
+    return sc.zoom > 1 ? [c - half, c + half] : [lo, hi];
+  };
+  const [x0, x1] = dom('x'), [y0, y1] = dom('y');
+  const fx = v => bx === 'low' ? L + (x1 - v) / (x1 - x0) * (W - L - R) : L + (v - x0) / (x1 - x0) * (W - L - R);
+  const fy = v => by === 'low' ? T + (v - y0) / (y1 - y0) * (H - T - B) : T + (y1 - v) / (y1 - y0) * (H - T - B);
+  const tx = scTicks(x0, x1), ty = scTicks(y0, y1);
+  const tickText = (m, v, dec) => m.height ? scFmt(m, v) : v.toFixed(dec);
+  let g = `<defs><clipPath id="sc-clip"><rect x="${L}" y="${T}" width="${W - L - R}" height="${H - T - B}"/></clipPath></defs>`;
+  g += tx.ticks.map(v => `<line class="grid" x1="${fx(v)}" x2="${fx(v)}" y1="${T}" y2="${H - B}"/><text x="${fx(v)}" y="${H - B + 18}" text-anchor="middle">${tickText(mx, v, tx.dec)}</text>`).join('');
+  g += ty.ticks.map(v => `<line class="grid" x1="${L}" x2="${W - R}" y1="${fy(v)}" y2="${fy(v)}"/><text x="${L - 8}" y="${fy(v) + 4}" text-anchor="end">${tickText(my, v, ty.dec)}</text>`).join('');
+  g += `<g clip-path="url(#sc-clip)"><line class="avg" x1="${fx(ax)}" x2="${fx(ax)}" y1="${T}" y2="${H - B}"/><line class="avg" x1="${L}" x2="${W - R}" y1="${fy(ay)}" y2="${fy(ay)}"/>`;
+  // the line of best fit and how strong the relationship is
+  const n = pts.length;
+  let sxy = 0, sxx = 0, syy = 0;
+  for (const r of pts) { sxy += (r.x - ax) * (r.y - ay); sxx += (r.x - ax) ** 2; syy += (r.y - ay) ** 2; }
+  const corr = sxx && syy ? sxy / Math.sqrt(sxx * syy) : null, slope = sxx ? sxy / sxx : 0;
+  if (sc.trend && corr != null) g += `<line class="trend" x1="${fx(x0)}" y1="${fy(ay + slope * (x0 - ax))}" x2="${fx(x1)}" y2="${fy(ay + slope * (x1 - ax))}"/>`;
+  g += `</g>`;
+  if (bx !== 'none' && by !== 'none') {
+    g += `<text class="corner" x="${W - R - 8}" y="${T + 16}" text-anchor="end">Better at both</text>` +
+         `<text class="corner" x="${L + 8}" y="${H - B - 10}">Worse at both</text>`;
+  }
+  const arrow = b => b === 'low' ? ' (lower is better)' : '';
+  g += `<text class="ax" x="${L + (W - L - R) / 2}" y="${H - 14}" text-anchor="middle">${esc(lx + arrow(bx))}</text>`;
+  g += `<text class="ax" transform="translate(18 ${T + (H - T - B) / 2}) rotate(-90)" text-anchor="middle">${esc(ly + arrow(by))}</text>`;
+  const ordered = [...pts].sort((a, b) => isFocus(a) - isFocus(b));
+  g += `<g clip-path="url(#sc-clip)">` + ordered.map(r => {
+    const px = fx(r.x), py = fy(r.y), cls = 'pt' + (focusing && !isFocus(r) ? ' fade' : '') + (focusing && isFocus(r) ? ' hot' : '');
+    const mark = sc.logos && r.t.logo
+      ? `<circle class="lb" cx="${px}" cy="${py}" r="13"/><image href="${esc(r.t.logo)}" x="${px - 11}" y="${py - 11}" width="22" height="22"/>`
+      : `<circle class="dot" cx="${px}" cy="${py}" r="${sc.logos ? 7 : 5.5}"/>`;
+    const label = focusing && isFocus(r) && (sc.focus.length + (sc.focusConf ? 20 : 0)) <= 40 ? `<text class="lbl" x="${px}" y="${py - 16}" text-anchor="middle">${esc(r.name)}</text>` : '';
+    return `<g class="${cls}" data-scteam="${esc(r.name)}">${mark}${label}</g>`;
+  }).join('') + `</g>`;
+  svg.innerHTML = g;
+  svg.setAttribute('aria-label', `${ly} against ${lx}, ${n} teams`);
+  $('sc-stats').innerHTML = corr == null ? '' :
+    `Correlation r = <b>${corr.toFixed(2)}</b> · R² = ${(corr * corr).toFixed(2)} · ${n} teams · averages: ${esc(scFmt(mx, ax))} and ${esc(scFmt(my, ay))}` +
+    (Math.abs(corr) < 0.1 ? ' · almost no relationship' : Math.abs(corr) < 0.3 ? ' · weak relationship' : Math.abs(corr) < 0.6 ? ' · moderate relationship' : ' · strong relationship') +
+    ((bx === 'low') !== (by === 'low') && Math.abs(corr) >= 0.1 ? ` · r is on the raw numbers; with one axis flipped, a ${corr < 0 ? 'negative' : 'positive'} r runs ${corr < 0 ? 'up' : 'down'} and to the right here` : '');
+  scTable(rows, mx, my, lx, ly, bx, by, isFocus);
+}
+function scTable(rows, mx, my, lx, ly, bx, by, isFocus) {
+  const q = sc.q.trim().toLowerCase();
+  let list = rows.filter(r => !q || r.name.toLowerCase().includes(q) || r.t.conf.toLowerCase().includes(q));
+  const sortKey = sc.sort, dir = sc.dir || ((sortKey === 'x' ? bx : sortKey === 'y' ? by : 'high') === 'low' ? 1 : -1);
+  const val = r => sortKey === 'name' ? r.name : sortKey === 'conf' ? r.t.conf : sortKey === 'rec' ? winPct(r.t) : r[sortKey];
+  list.sort((a, b) => {
+    const va = val(a), vb = val(b);
+    if (va == null) return 1; if (vb == null) return -1;
+    return typeof va === 'string' ? dir * va.localeCompare(vb) : dir * (va - vb);
+  });
+  const per = 20, pages = Math.max(1, Math.ceil(list.length / per));
+  sc.page = Math.min(sc.page, pages - 1);
+  const head = (key, label, cls = '') => `<th class="${cls}${sc.sort === key ? ' active' : ''}"><button data-scsort="${key}">${label}<span class="arr">${(sc.dir || dir) > 0 ? '▲' : '▼'}</span></button></th>`;
+  $('sc-table').innerHTML = `<thead><tr><th class="c"><button disabled>#</button></th>${head('name', 'Team', 'l')}${head('rec', 'W-L', 'c')}${head('x', esc(lx), 'xy')}${head('y', esc(ly), 'xy')}</tr></thead><tbody>` +
+    list.slice(sc.page * per, sc.page * per + per).map((r, i) => {
+      const logo = r.t.logo ? `<img src="${esc(r.t.logo)}" alt="" loading="lazy">` : '';
+      return `<tr class="${isFocus(r) ? 'hot' : ''}"><td class="pos">${sc.page * per + i + 1}</td>` +
+        `<td class="team"><span class="team-in"><span class="badge"${logo ? '' : ' style="visibility:hidden"'}>${logo}</span>${teamLink(r.name, esc(r.name))}</span></td>` +
+        `<td class="mid">${r.t.w}-${r.t.l}</td><td>${esc(scFmt(mx, r.x))}${r.xr ? `<small>${r.xr}</small>` : ''}</td><td>${esc(scFmt(my, r.y))}${r.yr ? `<small>${r.yr}</small>` : ''}</td></tr>`;
+    }).join('') + `</tbody>`;
+  $('sc-pager').innerHTML = `<span>${list.length} teams · small numbers are ranks</span><span>` +
+    `<button class="clear" data-scpage="-1"${sc.page ? '' : ' disabled'}>‹ Prev</button> ${sc.page + 1} / ${pages} ` +
+    `<button class="clear" data-scpage="1"${sc.page < pages - 1 ? '' : ' disabled'}>Next ›</button></span>`;
+}
+$('scatter-view').addEventListener('change', e => {
+  const t = e.target;
+  if (t.matches('select[data-sc]')) { sc[t.dataset.sc] = t.value; sc[t.dataset.sc + 'a'] = false; sc.zoom = 1; sc.page = 0; drawScatter(); }
+  else if (t.id === 'sc-preset' && t.value !== '') {
+    const p = SC_PRESETS[+t.value]; sc.x = p[1]; sc.y = p[2]; sc.xa = !!p[3]; sc.ya = !!p[4]; sc.zoom = 1; t.value = ''; drawScatter();
+  }
+  else if (t.id === 'sc-conf') { sc.conf = t.value; sc.zoom = 1; sc.page = 0; drawScatter(); }
+  else if (t.id === 'sc-fconf') { sc.focusConf = t.value; drawScatter(); }
+  else if (t.id === 'sc-ming') { sc.minG = Math.max(0, +t.value || 0); sc.page = 0; drawScatter(); }
+  else if (t.id === 'sc-fteam') { scAddFocus(t); }
+});
+function scAddFocus(input) {
+  const name = teamByLower[input.value.trim().toLowerCase()];
+  if (name && !sc.focus.includes(name)) { sc.focus.push(name); input.value = ''; drawScatter(); }
+}
+$('scatter-view').addEventListener('keydown', e => { if (e.target.id === 'sc-fteam' && e.key === 'Enter') { e.preventDefault(); scAddFocus(e.target); } });
+$('scatter-view').addEventListener('input', e => { if (e.target.id === 'sc-q') { sc.q = e.target.value; sc.page = 0; drawScatter(); } });
+$('scatter-view').addEventListener('click', e => {
+  const a = e.target.closest('button[data-sca]');
+  if (a && !a.disabled) { const [k, v] = a.dataset.sca.split(':'); sc[k + 'a'] = v === '1'; sc.zoom = 1; drawScatter(); return; }
+  const tool = e.target.closest('[data-sctool]');
+  if (tool) {
+    const what = tool.dataset.sctool;
+    if (what === 'flip') { [sc.x, sc.y, sc.xa, sc.ya] = [sc.y, sc.x, sc.ya, sc.xa]; }
+    else if (what === 'logos') sc.logos = !sc.logos;
+    else if (what === 'trend') sc.trend = !sc.trend;
+    else if (what === 'random') { const pick = () => SC_METRICS[Math.floor(Math.random() * SC_METRICS.length)].id; sc.x = pick(); do { sc.y = pick(); } while (sc.y === sc.x); sc.xa = sc.ya = false; }
+    else if (what === 'clearfocus') { sc.focus = []; sc.focusConf = ''; const f = $('sc-fconf'); if (f) f.value = ''; }
+    sc.zoom = 1;
+    for (const b of document.querySelectorAll('[data-sctool="logos"]')) b.setAttribute('aria-pressed', String(sc.logos));
+    for (const b of document.querySelectorAll('[data-sctool="trend"]')) b.setAttribute('aria-pressed', String(sc.trend));
+    drawScatter(); return;
+  }
+  const z = e.target.closest('button[data-sczoom]');
+  if (z) { sc.zoom = z.dataset.sczoom === 'reset' ? 1 : Math.max(1, Math.min(8, sc.zoom * (z.dataset.sczoom === 'in' ? 1.5 : 1 / 1.5))); drawScatter(); return; }
+  const un = e.target.closest('button[data-scunfocus]');
+  if (un) { sc.focus = sc.focus.filter(n => n !== un.dataset.scunfocus); drawScatter(); return; }
+  const sortB = e.target.closest('button[data-scsort]');
+  if (sortB) { const k = sortB.dataset.scsort; if (sc.sort === k) sc.dir = -(sc.dir || -1); else { sc.sort = k; sc.dir = 0; } sc.page = 0; drawScatter(); return; }
+  const pg = e.target.closest('button[data-scpage]');
+  if (pg) { sc.page += +pg.dataset.scpage; drawScatter(); return; }
+  const pt = e.target.closest('.pt');
+  if (pt) location.hash = '#team=' + encodeURIComponent(pt.dataset.scteam);
+});
+$('scatter-view').addEventListener('mousemove', e => {
+  const tip = $('sc-tip'), pt = e.target.closest('.pt');
+  if (!tip) return;
+  if (!pt) { tip.hidden = true; return; }
+  const t = teamByName[pt.dataset.scteam]; if (!t) return;
+  const mx = SC_BY_ID[sc.x], my = SC_BY_ID[sc.y], rows = scShown().map(tt => ({ t: tt, x: scValue(mx, sc.xa, tt), y: scValue(my, sc.ya, tt) })).filter(r => r.x != null && r.y != null);
+  scRanks(rows, 'x', scBetter(mx, sc.xa) === 'low' ? 'low' : 'high'); scRanks(rows, 'y', scBetter(my, sc.ya) === 'low' ? 'low' : 'high');
+  const r = rows.find(row => row.t === t); if (!r) return;
+  tip.innerHTML = `<b>${esc(t.name)}</b><small>${esc(t.conf)} · ${t.w}-${t.l}</small>` +
+    `<div class="row"><span>${esc(scLabel(mx, sc.xa))}</span><span>${esc(scFmt(mx, r.x))} <small>#${r.xr}</small></span></div>` +
+    `<div class="row"><span>${esc(scLabel(my, sc.ya))}</span><span>${esc(scFmt(my, r.y))} <small>#${r.yr}</small></span></div>`;
+  const box = $('sc-chart').getBoundingClientRect();
+  tip.hidden = false;
+  let left = e.clientX - box.left + 14, top = e.clientY - box.top + 14;
+  if (left + tip.offsetWidth > box.width) left = e.clientX - box.left - tip.offsetWidth - 14;
+  if (top + tip.offsetHeight > box.height) top = e.clientY - box.top - tip.offsetHeight - 14;
+  tip.style.left = left + 'px'; tip.style.top = top + 'px';
+});
+$('scatter-view').addEventListener('mouseleave', () => { const tip = $('sc-tip'); if (tip) tip.hidden = true; });
+
 // The address decides what is on screen: "#team=Duke" is Duke's page, anything else is the tables
 function route() {
   $('menu-spreads').hidden = !CURRENT_SEASON;
   // the tournament is simulated from how teams stood going in, so it stays on the pre-tournament page
   document.querySelector('#menu a[data-page="bracket"]').hidden = FULL_SEASON;
-  const page = { '#sim': 'sim', '#bracket': FULL_SEASON ? 'stats' : 'bracket', '#guide': 'guide', '#spreads': CURRENT_SEASON ? 'spreads' : 'stats' }[location.hash] || 'stats';
+  const page = { '#sim': 'sim', '#scatter': 'scatter', '#bracket': FULL_SEASON ? 'stats' : 'bracket', '#guide': 'guide', '#spreads': CURRENT_SEASON ? 'spreads' : 'stats' }[location.hash] || 'stats';
   document.body.classList.toggle('guide-mode', page === 'guide');
+  document.body.classList.toggle('scatter-mode', page === 'scatter');
   document.body.classList.toggle('sim-mode', page === 'sim');
   document.body.classList.toggle('bracket-mode', page === 'bracket');
   document.body.classList.toggle('spread-mode', page === 'spreads');
@@ -3997,7 +4413,7 @@ function route() {
   if (page !== 'stats') {
     state.team = null; state.player = null;
     document.body.classList.remove('team-mode');
-    page === 'sim' ? renderSim() : page === 'bracket' ? renderBracket() : page === 'guide' ? renderGuide() : renderSpreads();
+    page === 'sim' ? renderSim() : page === 'scatter' ? renderScatter() : page === 'bracket' ? renderBracket() : page === 'guide' ? renderGuide() : renderSpreads();
     window.scrollTo(0, 0);
     return;
   }

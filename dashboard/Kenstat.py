@@ -82,6 +82,35 @@ def add_four_factors(totals, prefix, s, opp_s, poss):
     totals[prefix + 'poss'] += poss
     totals[prefix + 'or'] += s['OREB']
     totals[prefix + 'opp_dr'] += opp_s['REB'] - opp_s['OREB']   # the DREB field is not filled in
+    # the rest of the box score, for the per-game numbers (the scatter page)
+    totals[prefix + 'g'] += 1
+    totals[prefix + '3pa'] += parse_attempts(s['3PT'])
+    totals[prefix + 'ftm'] += parse_made(s['FT'])
+    for key, field in (('pts', 'PTS'), ('reb', 'REB'), ('ast', 'AST'), ('stl', 'STL'), ('blk', 'BLK'), ('pf', 'PF')):
+        try:
+            totals[prefix + key] += float(s.get(field) or 0)
+        except (TypeError, ValueError):
+            pass
+
+BOX_KEYS = ('pts', 'fgm', 'fga', '3pm', '3pa', 'ftm', 'fta', 'or', 'reb', 'ast', 'to', 'stl', 'blk', 'pf', 'poss', 'min', 'bpts', 'bmin')
+
+def add_bench(totals, prefix, tm):
+    """A side's minutes, and the points and minutes from its bench, for one game."""
+    starters = {p['Name'] for p in tm['starters_table']}
+    for p in player_lines(tm):
+        try:
+            minutes, points = float(p.get('MIN') or 0), float(p.get('PTS') or 0)
+        except (TypeError, ValueError):
+            continue
+        totals[prefix + 'min'] += minutes
+        if p['Name'] not in starters:
+            totals[prefix + 'bmin'] += minutes
+            totals[prefix + 'bpts'] += points
+
+def box_per_game(totals, prefix):
+    """A side's box score per game: 'o_' = the team's own, 'd_' = its opponents'."""
+    games = totals[prefix + 'g']
+    return {key: round(totals[prefix + key] / games, 2) for key in BOX_KEYS} if games else None
 
 def four_factors(totals, prefix):
     pct = lambda num, den: round(100 * num / den, 1) if den else "--"
@@ -157,6 +186,10 @@ def get_efficiency_ratings(root_folder, iterations=30):
                             add_four_factors(factor_totals[n0], 'd_', s1, s0, poss1)
                             add_four_factors(factor_totals[n1], 'o_', s1, s0, poss1)
                             add_four_factors(factor_totals[n1], 'd_', s0, s1, poss0)
+                            add_bench(factor_totals[n0], 'o_', t0)
+                            add_bench(factor_totals[n0], 'd_', t1)
+                            add_bench(factor_totals[n1], 'o_', t1)
+                            add_bench(factor_totals[n1], 'd_', t0)
 
                             # Shift each side's scoring back to a neutral floor (0 = neutral site)
                             home = home_teams.get(f[:-5])
@@ -239,7 +272,8 @@ def get_efficiency_ratings(root_folder, iterations=30):
             "sos": win50_rating(opp_net(opponents)),
             "sos_o": round(sum(g[0] for g in opponents) / len(opponents), 2) if opponents else None,
             "sos_d": round(sum(g[1] for g in opponents) / len(opponents), 2) if opponents else None,
-            "ncsos": win50_rating(opp_net(non_conf))
+            "ncsos": win50_rating(opp_net(non_conf)),
+            "box": {"o": box_per_game(factor_totals[name], 'o_'), "d": box_per_game(factor_totals[name], 'd_')}
         }
 
     return stats_output
