@@ -3,6 +3,7 @@ import sys
 import json
 import re
 import webbrowser
+from collections import Counter
 from pathlib import Path
 from difflib import SequenceMatcher
 # --- IMPORT YOUR MATH ENGINE ---
@@ -332,6 +333,7 @@ def load_teams():
 def build_dashboard():
     """Run the numbers and write dashboard.html. Returns the file path."""
     teams, players, logs, without_check = load_teams()
+    added = write_team_files(teams, logs)
     data = {
         "meta": {"season": get_season_label(), "without": without_check, "garbage": Playerstat.GARBAGE_MARGIN,
                  "home": Kenstat.HOME_ADV, "home_measured": round(HOME_COURT_USUAL, 2), "spreads": SEASON["spreads"],
@@ -351,18 +353,114 @@ def build_dashboard():
 
     with open(DASHBOARD_FILE, "w", encoding="utf-8") as f:
         f.write(page)
-
-    os.makedirs(GAMELOG_FOLDER, exist_ok=True)
-    os.makedirs(LINEUP_FOLDER, exist_ok=True)
-    os.makedirs(SHOT_FOLDER, exist_ok=True)
-    for filename, (team_name, team_logs, team_lineups, team_shots) in logs.items():
-        with open(os.path.join(SHOT_FOLDER, filename + ".js"), "w", encoding="utf-8") as f:
-            f.write(f"SHOTS[{json.dumps(team_name)}] = {json.dumps(team_shots, separators=(',', ':'))};\n")
-        with open(os.path.join(GAMELOG_FOLDER, filename + ".js"), "w", encoding="utf-8") as f:
-            f.write(f"GAMELOGS[{json.dumps(team_name)}] = {json.dumps(team_logs, separators=(',', ':'))};\n")
-        with open(os.path.join(LINEUP_FOLDER, filename + ".js"), "w", encoding="utf-8") as f:
-            f.write(f"LINEUPS[{json.dumps(team_name)}] = {json.dumps(team_lineups, separators=(',', ':'))};\n")
+    if added is not None:
+        print(f"   full season: {added[0]} of {added[1]} team files written as postseason add-ons to the pre-tournament files")
     return DASHBOARD_FILE
+
+# ---------------------------
+# EACH TEAM'S FILES (shots, game logs, lineups)
+# ---------------------------
+# A full-season page does not store a second copy of the season. Its files hold only what the postseason adds
+# ("add-ons"), and the page loads the pre-tournament file first and adds them on. Where a team's file cannot be split
+# that way, the whole file is written as before. So: build the pre-tournament page first, then the full season.
+KINDS = (("shots", "SHOTS", "shots", "shotsAdd"), ("gamelogs", "GAMELOGS", "log", "logAdd"), ("lineups", "LINEUPS", "five", "fiveAdd"))
+
+def read_team_file(path):
+    try:
+        with open(path, encoding="utf-8") as f:
+            text = f.read()
+        return json.loads(text[text.index("=") + 1:].strip().rstrip(";"))
+    except Exception:
+        return None
+
+def take_away(full_rows, base_rows, full_key, base_key=None):
+    """The rows of full_rows that are not in base_rows (compared as a multiset through the two key functions, which
+    turn player numbers into names), or None when base_rows is not all inside full_rows."""
+    left = Counter((base_key or full_key)(r) for r in base_rows)
+    extra = []
+    for r in full_rows:
+        k = full_key(r)
+        if left[k] > 0:
+            left[k] -= 1
+        else:
+            extra.append(r)
+    return None if any(v > 0 for v in left.values()) else extra
+
+def shots_add_on(full, base):
+    def named(names):
+        # an offense row ends with the shooter's number in that file's player list; a defense row has none
+        return lambda r: json.dumps(r[:5] + [names[r[5]] if isinstance(r[5], int) and 0 <= r[5] < len(names) else r[5]] if len(r) > 5 else r)
+    o = take_away(full["o"], base["o"], named(full["players"]), named(base["players"]))
+    d = take_away(full["d"], base["d"], json.dumps)
+    if o is None or d is None:
+        return None
+    fives = None
+    if full.get("fives") or base.get("fives"):
+        ff, fb = full.get("fives") or {"players": [], "rows": []}, base.get("fives") or {"players": [], "rows": []}
+        key = lambda names, five: tuple(sorted(names[i] if 0 <= i < len(names) else "" for i in five))
+        before = {key(fb["players"], r[0]): r for r in fb["rows"]}
+        rows = []
+        for r in ff["rows"]:
+            b = before.pop(key(ff["players"], r[0]), None)
+            diff = []
+            for mine, theirs in ((r[1], b[1] if b else None), (r[2], b[2] if b else None)):
+                if mine is None:
+                    diff.append(None)
+                elif theirs is None:
+                    diff.append(mine)
+                else:
+                    diff.append([round(x - y, 2) for x, y in zip(mine, theirs)])
+            if any(part and any(abs(x) > 1e-9 for x in part) for part in diff):
+                rows.append([r[0]] + diff)
+        if before:
+            return None
+        fives = {"players": ff["players"], "rows": rows}
+    return {"players": full["players"], "o": o, "d": d, "fives": fives}
+
+def lineups_add_on(full, base):
+    named = lambda names: lambda r: json.dumps([r[0], sorted(names[i] if 0 <= i < len(names) else "" for i in r[1])] + r[2:])
+    rows = take_away(full["rows"], base["rows"], named(full["players"]), named(base["players"]))
+    return None if rows is None else {"players": full["players"], "rows": rows}
+
+def logs_add_on(full, base):
+    out = {}
+    for player, entry in full.items():
+        before = base.get(player)
+        if before is None:
+            out[player] = entry
+            continue
+        if entry.get("log", [])[:len(before.get("log", []))] != before.get("log", []):
+            return None
+        out[player] = dict(entry, log=entry.get("log", [])[len(before.get("log", [])):])
+    return out if all(p in full for p in base) else None
+
+ADD_ON = {"shots": shots_add_on, "gamelogs": logs_add_on, "lineups": lineups_add_on}
+
+def write_team_files(teams, logs):
+    """Writes each team's three files. Returns (add-ons written, files) on a full-season page, else None."""
+    folders = {"shots": SHOT_FOLDER, "gamelogs": GAMELOG_FOLDER, "lineups": LINEUP_FOLDER}
+    for folder in folders.values():
+        os.makedirs(folder, exist_ok=True)
+    base_data = SEASONS[SEASON["base"]]["data"] if SEASON.get("view") == "full" and SEASON.get("base") in SEASONS else None
+    by_name = {t["name"]: t for t in teams}
+    added = files = 0
+    for filename, (team_name, team_logs, team_lineups, team_shots) in logs.items():
+        team = by_name.get(team_name, {})
+        for (kind, store, field, add_field), content in zip(KINDS, (team_shots, team_logs, team_lineups)):
+            files += 1
+            path = os.path.join(folders[kind], filename + ".js")
+            if base_data is not None:
+                base = read_team_file(os.path.join(MAIN_FOLDER, base_data + kind, filename + ".js"))
+                add_on = ADD_ON[kind](content, base) if base is not None else None
+                if add_on is not None:
+                    with open(path, "w", encoding="utf-8") as f:
+                        f.write(f"{store}_ADD[{json.dumps(team_name)}] = {json.dumps(add_on, separators=(',', ':'))};\n")
+                    team[field], team[add_field] = f"{base_data}{kind}/{filename}.js", f"{SEASON['data']}{kind}/{filename}.js"
+                    added += 1
+                    continue
+            with open(path, "w", encoding="utf-8") as f:
+                f.write(f"{store}[{json.dumps(team_name)}] = {json.dumps(content, separators=(',', ':'))};\n")
+    return (added, files) if base_data is not None else None
 
 def built(key):
     return key == SEASON_KEY or os.path.exists(os.path.join(MAIN_FOLDER, SEASONS[key]["page"]))

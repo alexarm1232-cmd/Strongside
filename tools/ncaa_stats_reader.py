@@ -103,6 +103,39 @@ FREE = re.compile(r"^freethrow\s+(\d)of(\d)\s*(.*?)\s*(made|missed)\s*$")
 KIND = {"layup": "LayUpShot", "drivinglayup": "LayUpShot", "reverselayup": "LayUpShot", "alleyoop": "LayUpShot",
         "fingerroll": "LayUpShot", "dunk": "DunkShot", "tipinlayup": "TipShot", "tipin": "TipShot", "putback": "TipShot"}
 
+# The site's older play-by-play (all of 2017-18 and earlier, and some games up to 2019-20) reads
+# "JACKSON,JORDAN missed Three Point Jumper" instead of "Jordan Jackson, 3pt jumpshot missed". Those rows are
+# turned into the newer wording first, so everything after works the same for both.
+OLD_ROW = re.compile(r"^((?:[A-Z0-9 .'\-]+,[A-Z0-9 .'\-]+?)|TEAM)\s+((?:[a-z]|[A-Z][a-z]).*)$")
+OLD_SHOTS = {"three point jumper": (3, "jumpshot"), "two point jumper": (2, "jumpshot"), "layup": (2, "layup"),
+             "dunk": (2, "dunk"), "tip in": (2, "tipin")}
+OLD_ACTIONS = {"enters game": "substitution in", "leaves game": "substitution out", "assist": "assist",
+               "offensive rebound": "rebound offensive", "defensive rebound": "rebound defensive",
+               "deadball rebound": "rebound deadball", "turnover": "turnover", "steal": "steal",
+               "blocked shot": "block", "commits foul": "foul personal"}
+
+def old_style(text):
+    """(who, action) in the newer wording for an older-style row, or None when the row is not one."""
+    m = OLD_ROW.match(text.strip())
+    if not m:
+        return None
+    name, action = m.group(1).strip(), m.group(2).strip().lower()
+    if name == "TEAM":
+        who = ""
+    else:
+        last, _, first = name.partition(",")
+        who = " ".join(w.capitalize() for w in f"{first} {last}".split())
+    shot = re.match(r"^(made|missed) (.+)$", action)
+    if shot:
+        result, kind = shot.group(1), shot.group(2).strip()
+        if kind == "free throw":
+            return who, f"freethrow 1of1 {result}"
+        points, shot_type = OLD_SHOTS.get(kind, (3 if "three" in kind else 2, "jumpshot"))
+        return who, f"{points}pt {shot_type} {result}"
+    if "timeout" in action:
+        return who, "timeout"
+    return who, OLD_ACTIONS.get(action, action)
+
 def seconds(clock):
     parts = re.findall(r"\d+", clock or "")
     return int(parts[0]) * 60 + int(parts[1]) if len(parts) >= 2 else None
@@ -128,8 +161,12 @@ def convert(rows, game, side_of_name):
             our_team = game["home"] if side == 0 else game["away"]
             # "Name, action". The split is at the LAST comma: some names have one of their own ("Paul McNeil, jr.")
             # and the actions never do.
-            name_part, comma, action_part = part.strip().rpartition(",")
-            who, action = (name_part.strip(), action_part.strip().lower()) if comma else ("", part.strip().lower())
+            older = old_style(part)
+            if older:
+                who, action = older
+            else:
+                name_part, comma, action_part = part.strip().rpartition(",")
+                who, action = (name_part.strip(), action_part.strip().lower()) if comma else ("", part.strip().lower())
             if who.lower() == "team": who = ""
             home_score, away_score = (home_now, away_now)
             text = f"{who}, {action}" if who else action

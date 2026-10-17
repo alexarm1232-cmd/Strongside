@@ -1596,20 +1596,67 @@ function renderTeamCourts() {
   }).catch(() => { box.innerHTML = `<div class="empty">No shot data for ${esc(t.name)}.</div>`; });
 }
 
-window.SHOTS = {};
+// ---------- each team's own files (shots, lineups, game logs) ----------
+// A full-season page keeps no second copy of the season: it loads the pre-tournament file, then a small "add-on" file
+// with what the postseason added (team.shotsAdd, team.fiveAdd, team.logAdd), and puts the two together.
+window.SHOTS = {}; window.SHOTS_ADD = {}; window.LINEUPS_ADD = {}; window.GAMELOGS_ADD = {};
+function loadScriptFile(src) {
+  return new Promise((resolve, reject) => {
+    const tag = document.createElement('script');
+    tag.src = src; tag.onload = resolve; tag.onerror = reject;
+    document.head.appendChild(tag);
+  });
+}
+function loadTeamFile(team, store, addStore, requests, src, addSrc, merge) {
+  if (requests[team.name]) return requests[team.name];
+  if (store[team.name] && !addSrc) return Promise.resolve(store[team.name]);
+  requests[team.name] = loadScriptFile(src).then(() => addSrc ? loadScriptFile(addSrc) : null).then(() => {
+    let data = store[team.name];
+    if (!data) throw new Error('no data for ' + team.name);
+    if (addSrc && addStore[team.name]) data = store[team.name] = merge(data, addStore[team.name]);
+    return data;
+  });
+  return requests[team.name];
+}
+// player lists: the add-on's players are matched to the base file's by name (new ones go on the end)
+function mergeNames(baseNames, addNames) {
+  const names = [...baseNames], at = new Map(names.map((n, i) => [n, i]));
+  const map = addNames.map(n => { if (!at.has(n)) { at.set(n, names.length); names.push(n); } return at.get(n); });
+  return { names, map };
+}
+function mergeFives(base, add) {
+  if (!add || !add.rows) return base;
+  if (!base || !base.rows) return add;
+  const { names, map } = mergeNames(base.players, add.players);
+  const key = five => five.slice().sort((x, y) => x - y).join(',');
+  const rows = base.rows.map(r => [r[0].slice(), r[1] && r[1].slice(), r[2] && r[2].slice()]);
+  const at = new Map(rows.map((r, i) => [key(r[0]), i]));
+  const sum = (x, y) => !y ? x : !x ? y.slice() : x.map((v, i) => Math.round((v + (y[i] || 0)) * 100) / 100);
+  for (const r of add.rows) {
+    const five = r[0].map(i => i < 0 ? i : map[i]), k = key(five);
+    if (at.has(k)) { const row = rows[at.get(k)]; row[1] = sum(row[1], r[1]); row[2] = sum(row[2], r[2]); }
+    else { at.set(k, rows.length); rows.push([five, r[1], r[2]]); }
+  }
+  return { players: names, rows };
+}
+function mergeShots(base, add) {
+  const { names, map } = mergeNames(base.players, add.players);
+  const o = base.o.concat(add.o.map(r => { const c = r.slice(); if (c.length > 5 && c[5] >= 0) c[5] = map[c[5]]; return c; }));
+  return { players: names, o, d: base.d.concat(add.d), fives: mergeFives(base.fives, add.fives) };
+}
+function mergeLineups(base, add) {
+  const { names, map } = mergeNames(base.players, add.players);
+  return { players: names, rows: base.rows.concat(add.rows.map(r => [r[0], r[1].map(i => i < 0 ? i : map[i])].concat(r.slice(2)))) };
+}
+function mergeLogs(base, add) {
+  const out = { ...base };
+  for (const [player, entry] of Object.entries(add))
+    out[player] = out[player] ? { ...out[player], ...entry, log: (out[player].log || []).concat(entry.log || []) } : entry;
+  return out;
+}
 const shotRequests = {};
 function loadShots(team) {
-  if (SHOTS[team.name]) return Promise.resolve(SHOTS[team.name]);
-  if (!shotRequests[team.name]) {
-    shotRequests[team.name] = new Promise((resolve, reject) => {
-      const tag = document.createElement('script');
-      tag.src = team.shots;
-      tag.onload = () => SHOTS[team.name] ? resolve(SHOTS[team.name]) : reject();
-      tag.onerror = reject;
-      document.head.appendChild(tag);
-    });
-  }
-  return shotRequests[team.name];
+  return loadTeamFile(team, SHOTS, SHOTS_ADD, shotRequests, team.shots, team.shotsAdd, mergeShots);
 }
 // A player's card: every shot as a dot on the court, beside his zone table
 function playerShotCard(p) {
@@ -1702,17 +1749,7 @@ let outPlayers = new Set();     // names picked as unavailable
 window.LINEUPS = {};
 const lineupRequests = {};
 function loadLineups(team) {
-  if (LINEUPS[team.name]) return Promise.resolve(LINEUPS[team.name]);
-  if (!lineupRequests[team.name]) {
-    lineupRequests[team.name] = new Promise((resolve, reject) => {
-      const tag = document.createElement('script');
-      tag.src = team.five;
-      tag.onload = () => LINEUPS[team.name] ? resolve(LINEUPS[team.name]) : reject();
-      tag.onerror = reject;
-      document.head.appendChild(tag);
-    });
-  }
-  return lineupRequests[team.name];
+  return loadTeamFile(team, LINEUPS, LINEUPS_ADD, lineupRequests, team.five, team.fiveAdd, mergeLineups);
 }
 function showTeamTab() {
   for (const b of document.querySelectorAll('#team-view button[data-ttab]')) b.setAttribute('aria-pressed', b.dataset.ttab === teamTab);
@@ -1915,17 +1952,7 @@ let quadTable = 'box';            // which quad table is showing on a player pag
 let showQuadTable = () => {};
 const logRequests = {};
 function loadGameLog(team) {
-  if (GAMELOGS[team.name]) return Promise.resolve(GAMELOGS[team.name]);
-  if (!logRequests[team.name]) {
-    logRequests[team.name] = new Promise((resolve, reject) => {
-      const tag = document.createElement('script');
-      tag.src = team.log;
-      tag.onload = () => GAMELOGS[team.name] ? resolve(GAMELOGS[team.name]) : reject();
-      tag.onerror = reject;
-      document.head.appendChild(tag);
-    });
-  }
-  return logRequests[team.name];
+  return loadTeamFile(team, GAMELOGS, GAMELOGS_ADD, logRequests, team.log, team.logAdd, mergeLogs);
 }
 // A game log row is [game number, started, min, pts, reb, ast, stl, blk, to, pf, fgm, fga, 3pm, 3pa, ftm, fta]
 const madeOf = (m, a) => `${m}–${a}`;
