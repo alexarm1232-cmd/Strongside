@@ -3225,6 +3225,24 @@ const REAL_BRACKETS = { '2025-26': {
     ['Michigan St.', 'Virginia', 'Texas Tech', 'Auburn'],
     ['Texas Tech', 'Virginia'],
     ['Virginia']],
+}, '2017-18': {
+  year: 2018, pair: 2,        // regions in order: South, East, West, Midwest; South met West, East met Midwest
+  slots: [
+    'Virginia', 'UMBC', 'Creighton', 'Kansas St.', 'Kentucky', 'Davidson', 'Arizona', 'Buffalo', 'Miami (FL)', 'Loyola Chicago', 'Tennessee', 'Wright St.', 'Nevada', 'Texas', 'Cincinnati', 'Georgia St.',
+    'Villanova', 'Radford', 'Virginia Tech', 'Alabama', 'West Virginia', 'Murray St.', 'Wichita St.', 'Marshall', 'Florida', 'St. Bonaventure', 'Texas Tech', 'SFA', 'Arkansas', 'Butler', 'Purdue', 'Cal St. Fullerton',
+    'Xavier', 'Texas Southern', 'Missouri', 'Florida St.', 'Ohio St.', 'South Dakota St.', 'Gonzaga', 'UNC Greensboro', 'Houston', 'San Diego St.', 'Michigan', 'Montana', 'Texas A&M', 'Providence', 'North Carolina', 'Lipscomb',
+    'Kansas', 'Penn', 'Seton Hall', 'NC State', 'Clemson', 'New Mexico St.', 'Auburn', 'Col. of Charleston', 'TCU', 'Syracuse', 'Michigan St.', 'Bucknell', 'Rhode Island', 'Oklahoma', 'Duke', 'Iona'],
+  winners: [
+    ['UMBC', 'Kansas St.', 'Kentucky', 'Buffalo', 'Loyola Chicago', 'Tennessee', 'Nevada', 'Cincinnati',
+     'Villanova', 'Alabama', 'West Virginia', 'Marshall', 'Florida', 'Texas Tech', 'Butler', 'Purdue',
+     'Xavier', 'Florida St.', 'Ohio St.', 'Gonzaga', 'Houston', 'Michigan', 'Texas A&M', 'North Carolina',
+     'Kansas', 'Seton Hall', 'Clemson', 'Auburn', 'Syracuse', 'Michigan St.', 'Rhode Island', 'Duke'],
+    ['Kansas St.', 'Kentucky', 'Loyola Chicago', 'Nevada', 'Villanova', 'West Virginia', 'Texas Tech', 'Purdue',
+     'Florida St.', 'Gonzaga', 'Michigan', 'Texas A&M', 'Kansas', 'Clemson', 'Syracuse', 'Duke'],
+    ['Kansas St.', 'Loyola Chicago', 'Villanova', 'Texas Tech', 'Florida St.', 'Michigan', 'Kansas', 'Duke'],
+    ['Loyola Chicago', 'Villanova', 'Michigan', 'Kansas'],
+    ['Michigan', 'Villanova'],
+    ['Villanova']],
 } };
 const REAL_BRACKET = REAL_BRACKETS[DATA.meta.season] || null;      // this season's real tournament, when it is known
 const CHASE_ENDS = [32, 48, 56, 60, 62, 63];        // how many games have been played by the end of each round

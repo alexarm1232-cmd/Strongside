@@ -1,7 +1,7 @@
 # Strongside: college basketball ratings and simulators
 
 A KenPom-style site for NCAA Division I men's basketball, built game by game from box scores and play-by-play.
-Live at https://alexarm1232-cmd.github.io/Strongside/ . Seasons 2018-19 through 2025-26 are built; the data
+Live at https://alexarm1232-cmd.github.io/Strongside/ . Seasons 2017-18 through 2025-26 are built; the data
 collection reaches back to 2009-10.
 
 ## What the site has
@@ -15,7 +15,7 @@ collection reaches back to 2009-10.
   offensive rebounds + turnovers forced minus the opponent's.
 - **Game sim**: any two teams played possession by possession, thousands of times.
 - **Tournament sim**: fill or load a 64-team bracket and play it out; the perfect-bracket chase on the real
-  brackets (2019, 2021-2026); a projected field from the ratings for any season (2020 had no tournament).
+  brackets (2018, 2019, 2021-2026); a projected field from the ratings for any season (2020 had no tournament).
 - **Pre-tournament / full season** views, a season picker, a Spread report (2025-26), and a Stat guide.
 ---
 
