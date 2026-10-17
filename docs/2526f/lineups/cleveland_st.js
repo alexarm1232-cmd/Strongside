@@ -1,1 +1,1 @@
-LINEUPS_ADD["Cleveland St."] = {"players":["Tre Beard","Jaidon Lipscomb","Chevalier Emery","Foster Wonders","Dayan Nessah","Preist Ryan","Josiah Harris","Holden Pierre-Louis","Kamari Jones","David Giddens","Ivan Spirov","Manny Hill","Lucas Burton","Kevo St. Hilaire"],"rows":[]};
+LINEUPS_ADD["Cleveland St."] = {"players":["Tre Beard","Jaidon Lipscomb","Chevalier Emery","Foster Wonders","Dayan Nessah","Preist Ryan","Josiah Harris","Holden Pierre-Louis","Kamari Jones","David Giddens","Ivan Spirov","Manny Hill","Lucas Burton","Kevo St.Hilaire"],"rows":[]};

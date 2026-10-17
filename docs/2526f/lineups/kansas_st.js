@@ -1,1 +1,1 @@
-LINEUPS_ADD["Kansas St."] = {"players":["PJ Haggerty","Nate Johnson","David Castillo","Taj Manning","Khamari McGriff","Christian Jones","Abdi Bashir Jr.","Dorin Buca","Andrej Kostic","Elias Rapieque","Mobi Ikegwuruka","Marcus Johnson","Stephen Osei"],"rows":[]};
+LINEUPS_ADD["Kansas St."] = {"players":["PJ Haggerty","Nate Johnson","David Castillo","Taj Manning","Khamari McGriff","CJ Jones","Abdi Bashir Jr.","Dorin Buca","Andrej Kostic","Elias Rapieque","Mobi Ikegwuruka","Marcus Johnson","Stephen Osei"],"rows":[]};

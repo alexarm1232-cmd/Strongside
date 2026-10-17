@@ -1,1 +1,1 @@
-LINEUPS_ADD["Northeastern"] = {"players":["Mike Loughnane","William Kermoury","Youri Fritz","JB Frankel","Xavier Abreu","Luca Soroa","Ryan Williams","Petar Pinter","Ty Francis","Xander Alarie","Liam Koelsch","Miles Newton","Haris Elezovic","LA Pratt"],"rows":[]};
+LINEUPS_ADD["Northeastern"] = {"players":["Mike Loughnane","William Kermoury","Youri Fritz","JB Frankel","Xavier Abreu","Luca Soroa Schaller","Ryan Williams","Petar Pinter","Ty Francis","Xander Alarie","Liam Koelsch","Miles Newton","Haris Elezovic","LA Pratt"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["Utah Tech"] = {"players":["Noah Bolanga","Chance Trujillo","Ethan Potter","Jusaun Holt","Tanner Davis","Britton Berrett","Madiba Owona","Samuel Ariyibi","Dario Domingos","Boston Harker","Dallin Grant","Preston Vandermyde"],"rows":[]};
+LINEUPS_ADD["Utah Tech"] = {"players":["Chance Trujillo","Noah Bolanga","Ethan Potter","Jusaun Holt","Tanner Davis","Britton Berrett","Madiba Owona","Samuel Ariyibi","Dario Domingos","Boston Harker","Dallin Grant","Preston Vandermyde"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["Long Beach St."] = {"players":["Petar Majstorovic","Gavin Sykes","Isaiah Lewis","Rob Diaz","Shaquil Bender","Cole Farrell","Leopold Levillain","Demarshay Johnson Jr.","Dallas Washington","Christian Jones","Derrick Michael Xzavierro","JJ Chaikovsky"],"rows":[]};
+LINEUPS_ADD["Long Beach St."] = {"players":["Petar Majstorovic","Gavin Sykes","Rob Diaz III","Isaiah Lewis","Shaquil Bender","Cole Farrell","Leopold Levillain","Shay Johnson Jr.","Dallas Washington","Christian Jones","Derrick Michael Xzavierro","JJ Chaikovsky"],"rows":[]};

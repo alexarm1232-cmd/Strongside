@@ -1,1 +1,1 @@
-LINEUPS_ADD["Oral Roberts"] = {"players":["Connor Dow","Ofri Naveh","Ty Harper","Cal Furnish","Luke Gray","Chase Martin","Martins Kilups","Yuto Yamanouchi","Jack Turner","Baron Smith Jr.","Aaron Jacob","Lane Sparks"],"rows":[]};
+LINEUPS_ADD["Oral Roberts"] = {"players":["Connor Dow","Ofri Naveh","Ty Harper","Cal Furnish","Luke Gray","Chase Martin","Martins Kilups","Yuto Yamanouchi-Williams","Jack Turner","Baron Smith Jr.","Aaron Jacob","Lane Sparks"],"rows":[]};

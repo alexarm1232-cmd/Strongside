@@ -1,1 +1,1 @@
-LINEUPS_ADD["Youngstown St."] = {"players":["Cris Carroll","Bryson Dawkins","Rich Rolf","Jason Nelson","Andrew King","Cam Polak","Vladimer Salaridze","Imanuel Zorgvol","Tae Blackshear","Jaiden Haynes","Tyler Robinett","Shaheed Solebo","Derrick Anderson"],"rows":[]};
+LINEUPS_ADD["Youngstown St."] = {"players":["Cris Carroll","Bryson Dawkins","Rich Rolf","Jason Nelson","Andrew King","Cam Polak","Vladimer Salaridze","Imanuel Zorgvol","Rontavious Blackshear","Jaiden Haynes","Tyler Robinett","Shaheed Solebo","Derrick Anderson"],"rows":[]};

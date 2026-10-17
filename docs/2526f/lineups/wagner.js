@@ -1,1 +1,1 @@
-LINEUPS_ADD["Wagner"] = {"players":["Nick Jones","Eduardo Placer","John Awoke","Jaden Baker","Binael Basil","Bryan Akanamu","Travis Gray","Michael Cooper","Zavier Fitch","Makhai Anderson","Elijah Brown","Sam Smith","Huascar Cuevas"],"rows":[]};
+LINEUPS_ADD["Wagner"] = {"players":["Nick Jones","Eddie Placer","Jaden Baker","John Awoke","Binael Basil","Bryan Akanmu","Travis Gray","Michael Cooper","Zavier Fitch","Makhai Anderson","Elijah Brown","Sam Smith","Huascar Cuevas"],"rows":[]};

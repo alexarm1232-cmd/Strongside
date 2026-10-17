@@ -1,1 +1,1 @@
-LINEUPS_ADD["Penn St."] = {"players":["Josh Reed","Kayden Mingo","Freddie Dilione V","Ivan Juric","Dominick Stewart","Melih Tunca","Eli Rice","Mason Blackwood","Sa\u0161a Ciani","Tibor Mirtic","Justin Houser","Chris Lotito"],"rows":[]};
+LINEUPS_ADD["Penn St."] = {"players":["Josh Reed","Kayden Mingo","Freddie Dilione V","Ivan Juric","Dominick Stewart","Melih Tunca","Eli Rice","Mason Blackwood","Sasa Ciani","Tibor Mirtic","Justin Houser","Chris Lotito"],"rows":[]};

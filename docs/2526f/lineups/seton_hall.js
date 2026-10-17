@@ -1,1 +1,1 @@
-LINEUPS_ADD["Seton Hall"] = {"players":["Adam Clark","A.J. Staton-McCray","TJ Simpkins","Mike Williams III","Elijah Fisher","Stephon Payne III","Najai Hines","Trey Parker","Josh Rivera","Jacob Dar","Godswill Erheriene","Jahseem Felton","David Gabriel","Assane Mbaye"],"rows":[]};
+LINEUPS_ADD["Seton Hall"] = {"players":["Adam Clark","A.J. Staton-McCray","Tajuan Simpkins","Mike Williams III","Elijah Fisher","Stephon Payne III","Na'jai Hines","Trey Parker","Josh Rivera","Jacob Dar","Godswill Erheriene","Jahseem Felton","David Gabriel","Assane Mbaye"],"rows":[]};

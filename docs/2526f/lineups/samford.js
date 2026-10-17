@@ -1,1 +1,1 @@
-LINEUPS_ADD["Samford"] = {"players":["Jadin Booth","Cade Norris","Keaton Norris","Dylan Faulkner","Isaiah Campbell-Finch","Kam Martin","Zion Willburn","Jaxon Pollard","Will Shaver","Judson Bjornstad","Caleb Harrison","Zach Lamey","Corey Brown"],"rows":[]};
+LINEUPS_ADD["Samford"] = {"players":["Jadin Booth","Cade Norris","Keaton Norris","Dylan Faulkner","Isaiah Campbell-Finch","Kam Martin","Zion Wilburn","Jaxon Pollard","Will Shaver","Judson Bjornstad","Caleb Harrison","Zach Lamey","Corey Brown"],"rows":[]};

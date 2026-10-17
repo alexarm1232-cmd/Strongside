@@ -1,1 +1,1 @@
-LINEUPS_ADD["San Francisco"] = {"players":["Ryan Beasley","Tyrone Riley IV","Vukasin Masic","David Fuchs","Legend Smiley","Junjie Wang","Guillermo Diaz Graham","Mookie Cook","Veniamin Abosi","Saba Gigiberia","Aidan Braccia","Weilun Zhao","Sean Blakely"],"rows":[]};
+LINEUPS_ADD["San Francisco"] = {"players":["Ryan Beasley","Tyrone Riley IV","Vukasin Masic","David Fuchs","Legend Smiley","Junjie Wang","Guillermo Diaz Graham","Mookie Cook","Veniamin Abosi","Saba Gigiberia","Aidan Braccia","Weilun Zhao","Sean Blakely Drummond"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["Cincinnati"] = {"players":["Day Day Thomas","Baba Miller","Moustapha Thiam","Jalen Celestine","Jizzle James","Sencire Harris","Kerr Kriisa","Keyshuan Tillery","Shon Abaev","Tyler McKinley","Halvine Dzellat","Jordi Rodriguez","Grant Darbyshire"],"rows":[]};
+LINEUPS_ADD["Cincinnati"] = {"players":["Day Day Thomas","Baba Miller","Moustapha Thiam","Jalen Celestine","Jizzle James","Sencire Harris","Kerr Kriisa","Keyshuan Tillery","Shon Abaev","Tyler McKinley","Halvine Dzellat","Jordi Rodriguez-Stegemeijer","Grant Darbyshire"],"rows":[]};

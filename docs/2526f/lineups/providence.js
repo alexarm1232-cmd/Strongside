@@ -1,1 +1,1 @@
-LINEUPS_ADD["Providence"] = {"players":["Jaylin Sellers","Stefan Vaaks","Ryan Mela","Oswin Erhunmwunse","Jamier Jones","Jason Edwards","Corey Floyd Jr.","Cole Hargrove","Duncan Powell","Nilavan Jotham Daniels","Peteris Pinnis","Jaylen Harrell","Daquan Davis","Jack Williams"],"rows":[]};
+LINEUPS_ADD["Providence"] = {"players":["Jaylin Sellers","Stefan Vaaks","Ryan Mela","Oswin Erhunmwunse","Jamier Jones","Jason Edwards","Corey Floyd, Jr.","Cole Hargrove","Duncan Powell","Nilavan Daniels","Peteris Pinnis","Jaylen Harrell","Daquan Davis","Jack Williams"],"rows":[]};

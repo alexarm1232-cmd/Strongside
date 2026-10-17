@@ -1,1 +1,1 @@
-LINEUPS_ADD["Georgia Tech"] = {"players":["Kowacie Reeves Jr.","Lamar Washington","Jaeden Mustaf","Akai Fleming","Baye Ndongo","Kam Craft","Chas Kelley III","Mouhamed Sylla","Cole Kirouac","Peyton Marshall","Eric Chatfield Jr.","Davi Remagen","Brandon Stores Jr."],"rows":[]};
+LINEUPS_ADD["Georgia Tech"] = {"players":["Kowacie Reeves Jr.","Lamar Washington","Jaeden Mustaf","Akai Fleming","Baye Ndongo","Kam Craft","Chas Kelley III","Mouhamed Sylla","Cole Kirouac","Peyton Marshall","Eric Chatfield Jr","Davi Remagen","Brandon Stores Jr."],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["LSU"] = {"players":["Marquel Sutton","Max Mackinnon","Pablo Tamba","Jalen Reece","Michael Nwoko","Robert Miller III","Rashad King","Dedan Thomas Jr.","PJ Carter","Mazi Mosley","Jalen Reed","Ron Zipper","Jaden Bobbett"],"rows":[]};
+LINEUPS_ADD["LSU"] = {"players":["Marquel Sutton","Max Mackinnon","Pablo Tamba","Jalen Reece","Mike Nwoko","Robert Miller III","Rashad King","Dedan Thomas Jr.","PJ Carter","Mazi Mosley","Jalen Reed","Ron Zipper","Jaden Bobbett"],"rows":[]};

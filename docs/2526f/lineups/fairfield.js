@@ -1,1 +1,1 @@
-LINEUPS_ADD["Fairfield"] = {"players":["Braden Sparks","Declan Wucherpfennig","Brandon Benjamin","Deuce Turner","Tony Williams","Eric Mejia","Halon Rawlins","Isaac Munkadi","Ryan Zan","Cam Estevez","Nasir Rodriguez","Michael Rogan","Luke Davidson","Tanner Ostop","Joe Ganton"],"rows":[]};
+LINEUPS_ADD["Fairfield"] = {"players":["Braden Sparks","Declan Wucherpfennig","Brandon Benjamin","Deuce Turner","Tony Williams","Eric Mejia","Halon Rawlins","Isaac Munkadi","Cam Estevez","Ryan Zan","Nasir Rodriguez","Michael Rogan","Luke Davidson","Tanner Ostop","Joe Ganton"],"rows":[]};

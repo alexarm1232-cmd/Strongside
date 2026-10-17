@@ -1,1 +1,1 @@
-LINEUPS_ADD["Weber St."] = {"players":["Tijan Saine","Malek Gomma","Viljami Vartiainen","Nigel Burris","Edwin Suarez Jr.","Trevor Hennig","Jace Whiting","ArDarius Grayson","Duce Paschal","Declan Cutler","David Hansen","Bourgeois Tshilobo","Brady Smith"],"rows":[]};
+LINEUPS_ADD["Weber St."] = {"players":["Tijan Saine Jr.","Malek Gomma","Viljami Vartiainen","Nigel Burris","Edwin Suarez Jr.","Trevor Hennig","Jace Whiting","ArDarius Grayson","Duce Paschal","Declan Cutler","David Hansen","Bourgeois Tshilobo","Brady Smith"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["UTEP"] = {"players":["Kaseem Watson","Jamal West Jr.","KJ Thomas","Elijah Jones","Caleb Blackwell","Cassius Brooks","Trey Horton III","LA Hayes","Mouhamed Mbaye","Tyreese Watson","C.J. Smith","David Tubek","Bobby Montgomery Jr.","Jordan Hernandez"],"rows":[]};
+LINEUPS_ADD["UTEP"] = {"players":["Kaseem Watson","Jamal West Jr.","KJ Thomas","Elijah Jones","Caleb Blackwell","Trey Horton","Cassius Brooks","LA Hayes","Mouhamed Mbaye","Tyreese Watson","C.J. Smith","David Tubek","Bobby Montgomery Jr.","Jordan Hernandez"],"rows":[]};

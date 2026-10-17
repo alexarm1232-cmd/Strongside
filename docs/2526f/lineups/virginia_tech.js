@@ -1,1 +1,1 @@
-LINEUPS_ADD["Virginia Tech"] = {"players":["Ben Hammond","Neoklis Avdalas","Amani Hansberry","Jailen Bedford","Jaden Schutt","Toibu Lawal","Christian Gurdak","Tyler Johnson","Antonio Dorn","Izaiah Pasha","Sin'Cere Jones"],"rows":[]};
+LINEUPS_ADD["Virginia Tech"] = {"players":["Ben Hammond","Neo Avdalas","Amani Hansberry","Jailen Bedford","Jaden Schutt","Tobi Lawal","Christian Gurdak","Tyler Johnson","Antonio Dorn","Izaiah Pasha","Sin'Cere Jones"],"rows":[]};

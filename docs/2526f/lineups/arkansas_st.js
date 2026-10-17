@@ -1,1 +1,1 @@
-LINEUPS_ADD["Arkansas St."] = {"players":["Christian Harmon","Chandler Jackson","Jalen Hampton","Jaxon Ellingsworth","Kyle Hayman","TJ Caldwell","Aly Tounkara","Chudi Dioramma","Joey Chammaa","Royal Blue Smith","Fredy-Salam Sylla"],"rows":[]};
+LINEUPS_ADD["Arkansas St."] = {"players":["Christian Harmon","Chandler Jackson","Jalen Hampton","Jaxon Ellingsworth","Matt Hayman","T.J. Caldwell","Aly Tounkara","Chudi Dioramma","Joey Chammaa","Royal Blue Smith","Fredy-Salam Sylla"],"rows":[]};

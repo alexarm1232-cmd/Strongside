@@ -1,1 +1,1 @@
-LINEUPS_ADD["FIU"] = {"players":["Corey Stephenson","Zawdie Jackson","Eric Dibami","Larry Olayinka","Julian Mackey","Brit Harris","Ashton Williamson","Olajuwon Ibrahim","Thiago Sucatzky","Kennedy Brown","Amarion Nimmers","Renato Ruiz","Aydan Clinton"],"rows":[]};
+LINEUPS_ADD["FIU"] = {"players":["Corey Stephenson","Zawdie Jackson","Eric Dibami","Hamed Olayinka","Julian Mackey","Brit Harris","Ashton Williamson","Ibrahim Olajuwon","Thiago Sucatzky","Kennedy Brown","Amarion Nimmers","Renato Ruiz"],"rows":[]};

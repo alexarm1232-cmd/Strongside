@@ -1,1 +1,1 @@
-LINEUPS_ADD["Vermont"] = {"players":["TJ Hurley","Sean Blake","TJ Long","Gus Yalden","Noah Barnett","Ben Johnson","Lucas Mari","Ben Michaels","Momo Nkugwa","Jackson Skipper","David Simon","Trey Woodyard","Ben Wesson","Sincere Clemons","Drew Bessette"],"rows":[]};
+LINEUPS_ADD["Vermont"] = {"players":["TJ Hurley","Sean Blake","TJ Long","Gus Yalden","Noah Barnett","Ben Johnson","Lucas Mari","Benjamin Michaels","Momo Nkugwa","Jackson Skipper","David Simon","Trey Woodyard","Ben Wesson","Sincere Clemons","Drew Bessette"],"rows":[]};

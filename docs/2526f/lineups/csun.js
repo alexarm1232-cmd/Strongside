@@ -1,1 +1,1 @@
-LINEUPS_ADD["CSUN"] = {"players":["Josiah Davis","Joshua O'Garro","Larry Hughes Jr.","Mahmoud Fofana","Jordan Brinson","Davius Loury","James Evans Jr.","Grady Lewis","Jai Chisolm","Aleksander Szymczyk","Greg Gazarian","Robert Thibiant","Joseph Barrio"],"rows":[]};
+LINEUPS_ADD["CSUN"] = {"players":["Josiah Davis","Joshua O'Garro","Larry Hughes II","Mahmoud Fofana","Jordan Brinson","Davius Loury","James Evans Jr.","Grady Lewis","Jai Chisolm","Aleks Szymczyk","Greg Gazarian","Robert Thibiant","Joseph Barrio"],"rows":[]};

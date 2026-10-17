@@ -1,1 +1,1 @@
-LINEUPS_ADD["Xavier"] = {"players":["Malik Moore","Filip Borovicanin","Tre Carroll","Jovan Milicevic","Roddie Anderson III","All Wright","Isaiah Walker","Pape N'Diaye","Anthony Robinson","Mier Panoam","Ian Sabourin","Henry Thole","Michael Wolf"],"rows":[]};
+LINEUPS_ADD["Xavier"] = {"players":["Malik Messina-Moore","Filip Borovicanin","Tre Carroll","Jovan Milicevic","Roddie Anderson III","All Wright","Isaiah Walker","Pape N'Diaye","Anthony Robinson","Mier Panoam","Ian Sabourin","Henry Thole","Michael Wolf"],"rows":[]};

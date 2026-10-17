@@ -1,1 +1,1 @@
-LINEUPS_ADD["Bucknell"] = {"players":["Achile Spadone","Jayden Williams","Amon D\u00f6rries","Aleksander Pachucki","Pat Curtin","Quin Berger","Ruot Bijiek","Jacob Meachem","Grgur Brcic","Brandon McCreesh","Patrick O'Brien","Josh Fulton","Kellen Welch","Matt Lange"],"rows":[]};
+LINEUPS_ADD["Bucknell"] = {"players":["Achile Spadone","Jayden Williams","Amon D\u00f6rries","Aleksander Pachucki","Pat Curtin","Quin Berger","Ruot Bijiek","Jacob Meachem","Grgur Brcic","Brandon McCreesh","Patrick O'Brien","Josh Fulton","Matt Lange","Kellen Welch"],"rows":[]};

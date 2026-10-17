@@ -1,1 +1,1 @@
-LINEUPS_ADD["Mercer"] = {"players":["Baraka Okojie","Armani Mighty","Zaire Williams","Brady Shoulders","Quinton Perkins II","Connor Serven","Kyle Cuffe Jr.","Tristan Gross","Bendji Pierre","TJ Grant","Braeden Carlsen","Pero Zubac","Jaydon Cole","Alex Koch"],"rows":[]};
+LINEUPS_ADD["Mercer"] = {"players":["Baraka Okojie","Armani Mighty","Zaire Williams","Brady Shoulders","Quinton Perkins II","Connor Serven","Kyle Cuffe Jr.","Tristan Gross","Bendji Pierre","TJ Grant","Braeden Carlsen","Jaydon Cole","Pero Zubac","Alex Koch"],"rows":[]};

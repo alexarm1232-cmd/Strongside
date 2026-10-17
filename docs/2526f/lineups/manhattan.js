@@ -1,1 +1,1 @@
-LINEUPS_ADD["Manhattan"] = {"players":["Jaden Winston","Devin Dinkins","Fraser Roxburgh","Terrance Jones","Anthony Isaac","Marko Ljubicic","Erik Oliver-Bush","Quron Elliott","Jackson Delaney","Asier Miguel Torrero","Brett Rumpel","Omari Moore","Michael Lawlor","Aryan Arora"],"rows":[]};
+LINEUPS_ADD["Manhattan"] = {"players":["Jaden Winston","Devin Dinkins","Fraser Roxburgh","Terrance Jones","Anthony Isaac Jr.","Marko Ljubicic","Erik Oliver-Bush","Quron Elliott","Jackson Delaney","Asier Miguel Torrero","Omari Moore","Brett Rumpel","Michael Lawlor","Aryan Arora"],"rows":[]};

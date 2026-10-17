@@ -1,1 +1,1 @@
-LINEUPS_ADD["Richmond"] = {"players":["Will Johnston","A.J. Lopez","Aiden Argabright","Michael Walz","Mikkel Tyne","Collin Tanner","Jaden Daughtry","David Thomas","Apostolos Roumoglou","Jonathan Beagle","Jaylen Robinson","Will Harper III","Kirby Mooney","Bryson McGlothin"],"rows":[]};
+LINEUPS_ADD["Richmond"] = {"players":["Will Johnston","AJ Lopez","Aiden Argabright","Michael Walz","Mikkel Tyne","Collin Tanner","Jaden Daughtry","David Thomas","Apostolos Roumoglou","Jonathan Beagle","Jaylen Robinson","Will Harper III","Bryson McGlothin","Kirby Mooney"],"rows":[]};

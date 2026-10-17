@@ -1,1 +1,1 @@
-LINEUPS_ADD["South Carolina"] = {"players":["Meechie Johnson Jr.","Kobe Knox","Mike Sharavjamts","Eli Ellis","Myles Stute","Elijah Strong","Grant Polk","EJ Walker","Nordin Kapic","Hayden Assemian","Jordan Butler","Christ Essandoko","Eli Sparkman"],"rows":[]};
+LINEUPS_ADD["South Carolina"] = {"players":["Meechie Johnson","Kobe Knox","Mike Sharavjamts","Eli Ellis","Myles Stute","Elijah Strong","Grant Polk","EJ Walker","Nordin Kapic","Hayden Assemian","Jordan Butler","Christ Essandoko","Eli Sparkman"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["Boise St."] = {"players":["Andrew Meadow","Dylan Andrews","Javan Buchanan","Drew Fielder","RJ Keene","Aginaldo Neto","Pearson Carmichael","Dominic Parolin","Spencer Ahrens","Bhan Buom","Julian Bowie","Ethan Lathan","Rayzhon Bergersen","Brennan Ramirez"],"rows":[]};
+LINEUPS_ADD["Boise St."] = {"players":["Andrew Meadow","Dylan Andrews","Javan Buchanan","Drew Fielder","RJ Keene","Aginaldo Neto","Pearson Carmichael","Dominic Parolin","Spencer Ahrens","Bhan Buom","Julian Bowie","Rayzhon Bergersen","Ethan Lathan","Brennan Ramirez"],"rows":[]};

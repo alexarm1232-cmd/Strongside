@@ -41,24 +41,37 @@ def main():
                 staged = os.path.join(staged_root, conf, team, "playbyplay")
                 if not os.path.isdir(staged): continue
                 listed = {str(g) for g in json.load(open(os.path.join(team_path, "games.json"), encoding="utf-8"))} if os.path.exists(os.path.join(team_path, "games.json")) else set()
-                if os.path.isdir(current) and not os.path.isdir(backup):
-                    shutil.copytree(current, backup)          # the old play-by-play, kept
+                # the play-by-play is stats.ncaa.org's alone: an older folder is kept aside (first time) or cleared
+                if os.path.isdir(current):
+                    if not os.path.isdir(backup):
+                        os.rename(current, backup)
+                    else:
+                        shutil.rmtree(current)
                 os.makedirs(current, exist_ok=True)
                 for f in os.listdir(staged):
                     if f[:-5] in listed:                      # only this folder's games (the pre-tournament one has no postseason)
                         shutil.copyfile(os.path.join(staged, f), os.path.join(current, f))
                         replaced += 1
-                for sub_folder in ("shots", "cbbd"):          # only where the season has none of its own
+                # shots and turnovers: a season's own files stay (they can hold shot spots, which stats.ncaa.org has
+                # not); files for games no longer listed are moved aside, and listed games without one get stats.ncaa.org's
+                for sub_folder in ("shots", "cbbd"):
                     source_dir, target = os.path.join(staged_root, conf, team, sub_folder), os.path.join(team_path, sub_folder)
-                    if os.path.isdir(source_dir) and not os.path.isdir(target):
-                        os.makedirs(target)
+                    if os.path.isdir(target):
+                        for f in os.listdir(target):
+                            if f.endswith(".json") and f[:-5] not in listed:
+                                aside = os.path.join(team_path, sub_folder + "_before_ncaa_stats")
+                                os.makedirs(aside, exist_ok=True)
+                                os.replace(os.path.join(target, f), os.path.join(aside, f))
+                    if os.path.isdir(source_dir):
+                        os.makedirs(target, exist_ok=True)
+                        have = set(os.listdir(target))
                         for f in os.listdir(source_dir):
-                            if f[:-5] in listed:
+                            if f[:-5] in listed and f not in have:
                                 shutil.copyfile(os.path.join(source_dir, f), os.path.join(target, f))
-                kept += len([f for f in os.listdir(current) if f.endswith(".json")]) - len([f for f in os.listdir(staged) if f[:-5] in listed])
+                kept += len(listed) - len([f for f in os.listdir(staged) if f[:-5] in listed])
                 teams += 1
         print(f"{name}: " + (f"old play-by-play put back for {teams} teams" if undo else
-              f"{teams} teams, {replaced} team-games now from stats.ncaa.org, {kept} kept from before (no stats.ncaa.org file for them)"))
+              f"{teams} teams, {replaced} team-games now from stats.ncaa.org, {kept} listed games with no stats.ncaa.org play-by-play"))
 
 if __name__ == "__main__":
     main()

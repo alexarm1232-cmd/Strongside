@@ -1,1 +1,1 @@
-LINEUPS_ADD["Abilene Christian"] = {"players":["Rich Smith","Bradyn Hubbard","Joseph Venzant","Chilaydrien Newton","Yaniel Rivera","Zy Wright","Cade Hornecker","Joseph Scott","Christian Alston","Ma'Shy Hill","Isaac Dye","Tylan LEWIS","Isaiah Carrillo"],"rows":[]};
+LINEUPS_ADD["Abilene Christian"] = {"players":["Rich Smith","Bradyn Hubbard","Joseph Venzant","Cbo Newton","Yaniel Rivera","Zy Wright","Cade Hornecker","Joseph Scott","Christian Alston","Ma'Shy Hill","Isaac Dye","Tylan Lewis","Isaiah Neyhart"],"rows":[]};

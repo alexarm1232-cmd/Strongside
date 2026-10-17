@@ -1,1 +1,1 @@
-LINEUPS_ADD["Kansas City"] = {"players":["Jayson Petty","U'Riyah Evans","Karmello Branch","Jerome Palm","Kasheem Grady II","Chris Dockery","Addarin Scott","Jamaria Clark","Shatner Booker-Lowery","Babacar Mbengue","Kernan Bundy","D'Andre Harrison"],"rows":[]};
+LINEUPS_ADD["Kansas City"] = {"players":["Jayson Petty","CJ Evans","Karmello Branch","Jerome Palm","Kasheem Grady II","Chris Dockery","Addarin Scott","Jamaria Clark","Trey Booker-Lowery","Babacar Mbengue","Kernan Bundy","D'Andre Harrison","Uriyah Evans"],"rows":[]};

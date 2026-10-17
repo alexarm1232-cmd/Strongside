@@ -1,1 +1,1 @@
-LINEUPS_ADD["Longwood"] = {"players":["Jacoi Hutchinson","Elijah Tucker","Emanuel Richards","Johan Nziemi","Alphonzo Billups III","Redd Thompson","Jaylen Benard","Elijah Jones","Elijah Kelly","Jaylin Payne","KJ McClurg","Isaiah Kalala","Jerome Williams"],"rows":[]};
+LINEUPS_ADD["Longwood"] = {"players":["Jacoi Hutchinson","Elijah Tucker","Emanuel Richards","Johan Nziemi","Alphonzo Billups III","Redd Thompson Jr.","Jaylen Benard","Elijah Jones","Elijah Kelly","Jaylin Payne","KJ McClurg","Isaiah Kalala","Jerome Williams"],"rows":[]};

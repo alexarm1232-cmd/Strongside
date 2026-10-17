@@ -1,1 +1,1 @@
-LINEUPS_ADD["Drexel"] = {"players":["Shane Blakeney","Kevon Vanderhorst","Victor Panov","Eli Beard","Josh Reed","Garfield Turner","Villiam Garcia Adsten","Martin de Laporterie","Dillon Tingler","Ralph Akuta","Horace Simmons","Max Davis","Ignacio Campoy Galvez"],"rows":[]};
+LINEUPS_ADD["Drexel"] = {"players":["Shane Blakeney","Kevon Vanderhorst","Victor Panov","Eli Beard","Josh Reed","Garfield Turner","Villiam Garcia Adsten","Martin de Laporterie","Dillon Tingler","Ralph Akuta","Horace Simmons Jr.","Max Davis","Ignacio Campoy Galvez"],"rows":[]};

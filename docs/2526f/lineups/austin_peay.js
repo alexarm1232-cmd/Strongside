@@ -1,1 +1,1 @@
-LINEUPS_ADD["Austin Peay"] = {"players":["Collin Parker","Zyree Collins","Tate McCubbin","Rashaud Marshall","Anton Brookshire","Ja'Corey Robinson","Matt Enright","Creighton Morisch","Travis Torain","Tyler Wagner","Quan Lax","Hansel Enmanuel","Terrell Gaines"],"rows":[]};
+LINEUPS_ADD["Austin Peay"] = {"players":["Collin Parker","Tate McCubbin","Zyree Collins","Rashaud Marshall","Anton Brookshire","Ja'Corey Robinson","Matt Enright","Creighton Morisch","Travis Torain","Tyler Wagner","Quan Lax","Hansel Enmanuel","Terrell Gaines"],"rows":[]};

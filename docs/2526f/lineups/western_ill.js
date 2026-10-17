@@ -1,1 +1,1 @@
-LINEUPS_ADD["Western Ill."] = {"players":["Lucas Lorenzen","Isaiah Griffin","Makai Kvamme","Francis Okwuosah","Antwaun Massey","Goanar Biliew","Karyiek Dixon","Tyran Cook","Danny Stephens","Marcus Pigram","Ifiok Peter","Nick Hittle","Steven Tipton","Jake Edwards"],"rows":[]};
+LINEUPS_ADD["Western Ill."] = {"players":["Lucas Lorenzen","Isaiah Griffin","Makai Kvamme","Francis Okwuosah","Antwaun Massey","Goanar Biliew","Karyiek Dixon","Tyran Cook","Danny Stephens","Marcus Pigram","Ifiok Peter","Nick Hittle","Steven Tipton II","Jake Edwards"],"rows":[]};

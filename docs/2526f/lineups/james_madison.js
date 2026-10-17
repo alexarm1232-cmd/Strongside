@@ -1,1 +1,1 @@
-LINEUPS_ADD["James Madison"] = {"players":["Cliff Davis","Bradley Douglas","Eddie Ricks III","Justin McBride","Preston Fowler","Gabe Newhof","Christian Brown","Kose Egbule","Eli Wilborn","Paul Jones III","Paul Lewis","Justin Taylor","Ike Cornish","Josh Stephen"],"rows":[]};
+LINEUPS_ADD["James Madison"] = {"players":["Cliff Davis","Bradley Douglas","Eddie Ricks III","Justin McBride","Preston Fowler","Gabe Newhof","Christian Brown","Kose Egbule","Eli Wilborn","Paul Jones III","Paul Lewis","Justin Taylor","Ike Cornish"],"rows":[]};

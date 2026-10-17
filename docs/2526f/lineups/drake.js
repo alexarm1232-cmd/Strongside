@@ -1,1 +1,1 @@
-LINEUPS_ADD["Drake"] = {"players":["Jalen Quinn","Andrew Alia","Eli Shetlar","Okku Federiko","Owen Larson","Jaehshon Thomas","Griffen Goodbary","Isaiah Carr","Braden Appelhans","Wilguens Jr. Exacte"],"rows":[]};
+LINEUPS_ADD["Drake"] = {"players":["Jalen Quinn","Andrew Alia","Eli Shetlar","Okku Federiko","Owen Larson","Jaehshon Thomas","Griffen Goodbary","Isaiah Carr","Braden Appelhans","Wilguens Junior Exacte"],"rows":[]};

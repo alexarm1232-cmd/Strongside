@@ -1,1 +1,1 @@
-LINEUPS_ADD["Evansville"] = {"players":["Leif Moeller","AJ Casey","Joshua Hughes","Bryce Quinet","Alex Hemenway","Trent Hundley","Keishon Porter","Kaia Berridge","Connor Turnbull","James Dyson-Merwe","Leo Amari IV","Weston Aigner","Marlon Barnes Jr."],"rows":[]};
+LINEUPS_ADD["Evansville"] = {"players":["Leif Moeller","AJ Casey","Joshua Hughes","Bryce Quinet","Alex Hemenway","Trent Hundley","Keishon Porter","Kaia Berridge","Connor Turnbull","James Dyson-Merwe","Wes Aigner","Leo Amari IV","Marlon Barnes, Jr."],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["Cal Poly"] = {"players":["Hamad Mousa","Peter Bandelj","Cayden Ward","Guzman Vasilic","Jake Davis","Austin Goode","Ali Assran","Troy Plumtree","Kieran Elliott","Jackson Mosley","Luka Tarlac","Jess Esso Essis","Aaron Price Jr.","Jason Scott","Eric Brown"],"rows":[]};
+LINEUPS_ADD["Cal Poly"] = {"players":["Hamad Mousa","Peter Bandelj","Cayden Ward","Guzman Vasilic","Jake Davis","Austin Goode","Ali Assran","Troy Plumtree","Kieran Elliott","Jackson Mosley","Luka Tarlac","Jess Esso Essis","Aaron Price, Jr.","Jason Scott","Eric Brown"],"rows":[]};

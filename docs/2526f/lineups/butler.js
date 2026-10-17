@@ -1,1 +1,1 @@
-LINEUPS_ADD["Butler"] = {"players":["Michael Ajayi","Finley Bizjack","Jamie Kaiser","Yohan Traore","Drayton Jones","Evan Haywood","Yame Butler","Efeosa Oliogu-Elabor","Azavier Robinson","Jackson Keith","Jalen Jackson","Jack McCaffery","Ethan McComb"],"rows":[]};
+LINEUPS_ADD["Butler"] = {"players":["Michael Ajayi","Finley Bizjack","Jamie Kaiser, Jr.","Yohan Traore","Drayton Jones","Evan Haywood","Yame Butler","Efeosa Oliogu-Elabor","Azavier Robinson","Jackson Keith","Jalen Jackson","Jack McCaffery","Ethan McComb"],"rows":[]};

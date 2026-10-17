@@ -1,1 +1,1 @@
-LINEUPS_ADD["Radford"] = {"players":["Del Jones","Dennis Parker Jr.","Jaylon Johnson","Tyson Brown","Lukas Walls","Brennan Rigsby","Mari Jordan","Frederik Erichsen","Louie Jordan","Warren Keel","Gabriel Ferreira","Bradley Land"],"rows":[]};
+LINEUPS_ADD["Radford"] = {"players":["Del Jones","Dennis Parker, Jr.","Jaylon Johnson","Tyson Brown","Lukas Walls","Brennan Rigsby","Mari Jordan","Frederik Erichsen","Louie Jordan","Warren Keel","Gabriel Ferreira","Bradley Land"],"rows":[]};

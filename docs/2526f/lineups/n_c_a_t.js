@@ -1,1 +1,1 @@
-LINEUPS_ADD["N.C. A&T"] = {"players":["Lewis Walker","Zamoku Weluche-Ume","Trent Middleton","Dwayne Pierce","Bryson Ogletree","William Felton","Amadou Doumbia","KJ Debrick","Mujahiid Burton","Brooklyn Vick","Lureon Walker","Yancarlos Cueto"],"rows":[]};
+LINEUPS_ADD["N.C. A&T"] = {"players":["Lewis Walker","Zamoku Weluche-Ume","Trent Middleton Jr.","Dwayne Pierce","Bryson Ogletree","Will Felton","Amadou Doumbia","KJ Debrick","Mujahiid Burton","Brooklyn Vick","Lureon Walker","Yancarlos Cueto"],"rows":[]};

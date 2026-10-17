@@ -1,1 +1,1 @@
-LINEUPS_ADD["Southern Miss."] = {"players":["Tylik Weeks","Dylan Brumfield","Djahi Binet","Curt Lewis","Israel Hart","Isaac Taveres","Chiante Tramble","Tegra Izay","Brewer Carruth","Dalyn Brandon","Fallou Diagne","Felipe Patino","IJ Ezuma","Robert Cowherd","EJ Paymon","Jett Montgomery"],"rows":[]};
+LINEUPS_ADD["Southern Miss."] = {"players":["Tylik Weeks","Dylan Brumfield","Djahi Binet","Curt Lewis","Israel Hart","Isaac Taveras","Chiante Tramble","Tegra Izay","Brewer Carruth","Dalyn Brandon","Fallou Diagne","Felipe Patino","IJ Ezuma","Robert Cowherd","EJ Paymon"],"rows":[]};

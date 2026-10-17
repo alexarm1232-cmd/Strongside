@@ -1,1 +1,1 @@
-LINEUPS_ADD["Northern Ky."] = {"players":["Dan Gherezgher Jr.","LJ Wells","Tae Dozier","Donovan Oday","Ethan Elliott","Kael Robinson","Donovan Rakotonanahary","Shawn Nelson","Bryce Darbyshire","Ryan Tolliver","Addison Archer","Mitchel Minor"],"rows":[]};
+LINEUPS_ADD["Northern Ky."] = {"players":["Dan Gherezgher","LJ Wells","Donovan Oday","Tae Dozier","Ethan Elliott","Kael Robinson","Donovan Rakotonanahary","Shawn Nelson","Bryce Darbyshire","Ryan Tolliver","Addison Archer","Mitchel Minor"],"rows":[]};

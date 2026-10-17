@@ -1,1 +1,1 @@
-LINEUPS_ADD["Georgia St."] = {"players":["Micah Tucker","Malachi Brown","Jelani Hamilton","Anthony Enoh","Joah Chappelle","Trey Scott III","Ayouba Berthe","Christian Beam","Jakai Newton","James Cooper","Christopher Jones","Isaiah Sherrard"],"rows":[]};
+LINEUPS_ADD["Georgia St."] = {"players":["Malachi Brown","Micah Tucker","Jelani Hamilton","Anthony Enoh","Joah Chappelle","Trey Scott III","Ayouba Berthe","Christian Beam","Jakai Newton","James Cooper","Christopher Jones","Isaiah Sherrard"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["Marshall"] = {"players":["Jalen Speer","Noah Otshudi","Wyatt Fricks","Wilson Dubinsky","Landen Joseph","Caleb Hollenbeck","Matthew Van Komen","Erich Harding","Shamarrie Hugie","Andrew Fuquay","Bryce Slay","Kai Spears","Grant Moore"],"rows":[]};
+LINEUPS_ADD["Marshall"] = {"players":["Jalen Speer","Noah Otshudi","Wyatt Fricks","Wilson Dubinsky","Landen Joseph","Caleb Hollenbeck","Matt Van Komen","Erich Harding","Shamarrie Hugie","Drew Fuquay","Bryce Slay","Kai Spears","Grant Moore"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["Arizona St."] = {"players":["Moe Odum","Massamba Diop","Anthony Johnson","Noah Meeusen","Santiago Trouet","Andrija Grbovic","Bryce Ford","Allen David Mukeba","Marcus Adams Jr.","Trevor Best","Kash Polk","Quentin McCoy"],"rows":[]};
+LINEUPS_ADD["Arizona St."] = {"players":["Maurice Odum","Massamba Diop","Anthony Johnson","Noah Meeusen","Santiago Trouet","Andrija Grbovic","Bryce Ford","Allen Mukeba","Marcus Adams Jr.","Trevor Best","Kash Polk","Quentin McCoy"],"rows":[]};

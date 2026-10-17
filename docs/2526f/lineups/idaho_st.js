@@ -1,1 +1,1 @@
-LINEUPS_ADD["Idaho St."] = {"players":["Connor Hollenbeck","Lachlan Brewer","Martin Kheil","Jamison Guerra","Caleb Van De Griend","Cheikh Sow","Evan Otten","Gus Etchison","Louis Bond","Blake Daberkow","Quin Patterson","Landen Birley","Jaedyn Brown","Kasen Carpenter"],"rows":[]};
+LINEUPS_ADD["Idaho St."] = {"players":["Connor Hollenbeck","Lachlan Brewer","Martin Kheil","Jamison Guerra","Caleb Van De Griend","Cheikh Sow","Evan Otten","Gus Etchison","Louis Bond","Blake Daberkow","Quin Patterson","Landen Birley","Kasen Carpenter","Jaedyn Brown"],"rows":[]};

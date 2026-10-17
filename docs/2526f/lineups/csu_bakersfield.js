@@ -1,1 +1,1 @@
-LINEUPS_ADD["CSU Bakersfield"] = {"players":["Dailin Smith","AJ George","Ron Jessamy","Tom Mark","Kadar Waller","CJ Hardy","Mike Price","Pierre Geneste Jr.","Jaden Alexander","Bentley Waller","Dylan Purnell","Caleb McCarty","TJ James Jr."],"rows":[]};
+LINEUPS_ADD["CSU Bakersfield"] = {"players":["Dailin Smith","AJ George","Ronald Jessamy","Tom Mark","Kadar Waller","CJ Hardy","Mike Price","Pierre Geneste Jr.","Jaden Alexander","Bentley Waller","Dylan Purnell","Caleb McCarty","Tory James Jr."],"rows":[]};

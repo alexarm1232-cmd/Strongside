@@ -1,1 +1,1 @@
-LINEUPS_ADD["UT Martin"] = {"players":["Andrija Bukumirovi\u0107","Matas Deniusas","Filip Petkovski","Filip Radakovi\u0107","Afan Trnka","Pedro Santos","Damien King","Vladimir Khryapa","Luca Colceag","AJ Hopkins","Lamine Niang","Dragos Lungu","Ty Price","Ama Sow"],"rows":[]};
+LINEUPS_ADD["UT Martin"] = {"players":["Andrija Bukumirovi\u0107","Matas Deniusas","Filip Petkovski","Filip Radakovi\u0107","Afan Trnka","Pedro Santos","Vladimir Khryapa","Damien King","Luca Colceag","AJ Hopkins","Lamine Niang","Dragos Lungu","Ty Price","Ama Sow"],"rows":[]};

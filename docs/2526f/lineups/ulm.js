@@ -1,1 +1,1 @@
-LINEUPS_ADD["ULM"] = {"players":["Krystian Lewis","Martavious Russell","Lavell Brodnex","Renars Sondors","Alex Molofeev","Dylan Diaz","Micah Caster","Ayomide Bamisile","William Ball","Przemek Hartman","Alex Huguet Carrasco","Ajay Tew","Cam Campbell"],"rows":[]};
+LINEUPS_ADD["ULM"] = {"players":["Krystian Lewis","MJ Russell","Lavell Brodnex","Renars Sondors","Alex Molofeev","Dylan Diaz","Micah Caster","Ayomide Bamisile","William Ball","Przemek Hartman","Alex Huguet","Ajay Tew","Cam Campbell"],"rows":[]};

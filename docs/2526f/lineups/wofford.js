@@ -1,1 +1,1 @@
-LINEUPS_ADD["Wofford"] = {"players":["Nils Machowski","Cayden Vasko","Kahmare Holmes","Chace Watley","Brian Sumpter","Luke Flynn","Rex Stirling","Brendan Rigsbee","Jayden Tyler","Maximo Ortega","Callum Richard","Cannon Richards","Grayson Collins","Davis Miller"],"rows":[]};
+LINEUPS_ADD["Wofford"] = {"players":["Nils Machowski","Cayden Vasko","Kahmare Holmes","Chace Watley","Brian Sumpter","Luke Flynn","Rex Stirling","Brendan Rigsbee","Jayden Tyler","Max Ortega","Callum Richard","Cannon Richards","Grayson Collins","Davis Miller"],"rows":[]};

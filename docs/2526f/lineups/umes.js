@@ -1,1 +1,1 @@
-LINEUPS_ADD["UMES"] = {"players":["Michael Teal","Jaden Cooper","Dorion Staples","Zion Obanla","Justin Monden","Joseph Locandro","Levi Beckwith","Christopher Flippin","Trey Brown","Maurio Hanson Jr.","Maurice Vassel","Trey Hall","Jaden Johnson","Javoy Thompson"],"rows":[]};
+LINEUPS_ADD["UMES"] = {"players":["Michael Teal","Jaden Cooper","Dorion Staples","Zion Obanla","Justin Monden","Joseph Locandro","Levi Beckwith","Christopher Flippin","Trey Brown","Maurio Hanson, Jr.","Maurice Vassel","Trey Hall","Jaden Johnson","Javoy Thompson"],"rows":[]};

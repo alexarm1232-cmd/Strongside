@@ -1,1 +1,1 @@
-LINEUPS_ADD["Western Ky."] = {"players":["Grant Newell","Teagan Moore","Ryan Myers","Armelo Boone","LJ Hackman","Terrion Murdix","Blaise Keita","Cameron Haffner","Leeroy Odiahi","Noah Boyde","Kade Unseld","Jack Edelen","Bryant Selebangue","Cade Stinnett","Louie Semona"],"rows":[]};
+LINEUPS_ADD["Western Ky."] = {"players":["Grant Newell","Teagan Moore","Ryan Myers","Armelo Boone","LJ Hackman","Terrion Murdix","Blaise Keita","Cam Haffner","Leeroy Odiahi","Noah Boyde","Kade Unseld","Jack Edelen","Bryant Selebangue","Cade Stinnett","Louie Semona"],"rows":[]};

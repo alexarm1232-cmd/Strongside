@@ -1,1 +1,1 @@
-LINEUPS_ADD["SIUE"] = {"players":["Jack Campion","Arnas Sakenis","Jo Valrie","Darrion Baker","Tyler King","Jordan Pickett","Kyle Thomas","Ring Malith","CJ Hall","Myles Thompson","Darius Robinson Jr.","Corentin Efono","Harrison Alexander","Iwo Baganc"],"rows":[]};
+LINEUPS_ADD["SIUE"] = {"players":["Jack Campion","Arnas Sakenis","Jo Valrie","Darrion Baker","Tyler King","Jordan Pickett","Kyle Thomas","Ring Malith","CJ Hall","Myles Thompson","Darius Robinson","Corentin Efono","Harrison Alexander","Iwo Baganc"],"rows":[]};

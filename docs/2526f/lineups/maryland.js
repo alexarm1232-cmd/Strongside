@@ -1,1 +1,1 @@
-LINEUPS_ADD["Maryland"] = {"players":["Elijah Saunders","David Coit","Andre Mills","Darius Adams","Solomon Washington","Isaiah Watts","Collin Metcalf","Myles Rice","Pharrel Payne","George Turkson Jr.","Guillermo Del Pino Luque","Aleks Alston"],"rows":[]};
+LINEUPS_ADD["Maryland"] = {"players":["Elijah Saunders","David Coit","Andre Mills","Darius Adams","Solomon Washington","Isaiah Watts","Collin Metcalf","Myles Rice","Pharrel Payne","George Turkson Jr.","Guillermo Del Pino","Aleks Alston"],"rows":[]};

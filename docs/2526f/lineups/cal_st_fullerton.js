@@ -1,1 +1,1 @@
-LINEUPS_ADD["Cal St. Fullerton"] = {"players":["Josh Ward","Jefferson De La Cruz Monegro","Christian Williams","Bryce Cofield","Landon Seaman","Kendrick De Luna","Jaden Henderson","Kiwane Garris Jr.","Bailey Nunn","Davis White","Benjamin Winker","Matthew Quinlan"],"rows":[]};
+LINEUPS_ADD["Cal St. Fullerton"] = {"players":["Josh Ward","Jefferson De La Cruz Monegro","Christian Williams","Bryce Cofield","Landon Seaman","Kendrick De Luna","Jaden Henderson","KJ Garris Jr","Bailey Nunn","Davis White","Ben Winker","Matthew Quinlan"],"rows":[]};

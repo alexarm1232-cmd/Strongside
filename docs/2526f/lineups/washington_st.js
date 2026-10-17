@@ -1,1 +1,1 @@
-LINEUPS_ADD["Washington St."] = {"players":["Ace Glass III","Eemeli Yalaho","Jerone Morton","ND Okafor","Rihards Vavers","Adri\u00e0 Rodriguez","Simon Hildebrandt","Tomas Thrastarson","Emmanuel Ugbo","Parker Gerrits","Kase Wynott","Dio Blakely"],"rows":[]};
+LINEUPS_ADD["Washington St."] = {"players":["Ace Glass lll","Eemeli Yalaho","Jerone Morton","ND Okafor","Rihards Vavers","Adria Rodriguez","Simon Hildebrandt","Tomas Thrastarson","Emmanuel Ugbo","Parker Gerrits","Kase Wynott","Dio Blakely"],"rows":[]};

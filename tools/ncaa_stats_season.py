@@ -4,7 +4,7 @@ import csv
 import sys
 import json
 import shutil
-from datetime import date
+from datetime import date, timedelta
 from collections import defaultdict, Counter
 
 # Builds a season's game list and box scores straight from the stats.ncaa.org files ("data/ncaa stats" folder),
@@ -22,6 +22,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))   # the proje
 SOURCE_DIR = os.path.join(ROOT, "data/ncaa stats")
 SOURCE = "stats.ncaa.org"
 SEASONS = {   # code: (the site's season label, Selection Sunday)
+    "2526": ("2025-2026", date(2026, 3, 15)), "2425": ("2024-2025", date(2025, 3, 16)), "2324": ("2023-2024", date(2024, 3, 17)),
     "2223": ("2022-2023", date(2023, 3, 12)), "2122": ("2021-2022", date(2022, 3, 13)), "2021": ("2020-2021", date(2021, 3, 14)),
     "1920": ("2019-2020", date(2020, 3, 15)), "1819": ("2018-2019", date(2019, 3, 17)), "1718": ("2017-2018", date(2018, 3, 11)),
     "1617": ("2016-2017", date(2017, 3, 12)), "1516": ("2015-2016", date(2016, 3, 13)), "1415": ("2014-2015", date(2015, 3, 15)),
@@ -110,6 +111,43 @@ def team_folders(base):
                     folders[clean(team)] = (conf, team)
     return folders
 
+def existing_games(bases):
+    """(date, the two teams) -> (game id, neutral, arena) from a season's game lists as they are now. A game that is
+    already listed keeps its id, so whatever else is filed under it (shot spots, betting lines) stays attached."""
+    known = {}
+    for base in bases:
+        if not os.path.isdir(base): continue
+        for conf in os.listdir(base):
+            conf_path = os.path.join(base, conf)
+            if not os.path.isdir(conf_path): continue
+            for team in os.listdir(conf_path):
+                for name in ("game_scores.json",):
+                    path = os.path.join(conf_path, team, name)
+                    if not os.path.exists(path): continue
+                    try:
+                        rows = json.load(open(path, encoding="utf-8"))
+                    except Exception:
+                        continue
+                    for r in rows:
+                        key = (r.get("date"), frozenset((clean(r.get("home_team")), clean(r.get("away_team")))))
+                        known.setdefault(key, (str(r.get("game_id")), r.get("neutral"), r.get("arena", "")))
+    return known
+
+def set_aside_boxscores(bases):
+    """Box scores from another source go to boxscores_before_ncaa_stats (kept); an earlier run's own are cleared."""
+    for base in bases:
+        if not os.path.isdir(base): continue
+        for conf in os.listdir(base):
+            conf_path = os.path.join(base, conf)
+            if not os.path.isdir(conf_path): continue
+            for team in os.listdir(conf_path):
+                box, kept = os.path.join(conf_path, team, "boxscores"), os.path.join(conf_path, team, "boxscores_before_ncaa_stats")
+                if not os.path.isdir(box): continue
+                if not os.path.exists(kept):
+                    os.rename(box, kept)
+                else:
+                    shutil.rmtree(box)
+
 def main():
     code = next((a for a in sys.argv[1:] if a in SEASONS), None)
     if not code:
@@ -122,6 +160,7 @@ def main():
         print(f"{pre} does not exist; run make_season_codes.py {code} first.")
         return
     folders = team_folders(pre)
+    known = existing_games([pre, full])
     print(f"Reading the {label} box scores...", flush=True)
     games = read_games(label)
     sides = home_and_away(label)
@@ -145,14 +184,23 @@ def main():
         if g["arena"]:
             usual[clean(home)][g["arena"]] += 1
     lists = defaultdict(list)       # (pre or full, team) -> game_scores rows
-    boxes = 0
+    boxes = matched = 0
+    set_aside_boxscores([pre, full])
     for cid, g, home, away in kept:
         arena_counts = usual[clean(home)]
         home_arena = arena_counts.most_common(1)[0][0] if arena_counts else ""
         neutral = bool(g["arena"]) and bool(home_arena) and g["arena"] != home_arena and arena_counts[g["arena"]] <= 1
+        arena = g["arena"]
+        # a game the season already lists keeps its id (and its neutral-floor call), so files filed under it stay attached
+        pair = frozenset((clean(home), clean(away)))
+        before = next((known[k] for shift in (0, -1, 1)
+                       for k in [((g["date"] + timedelta(days=shift)).strftime("%Y/%m/%d"), pair)] if k in known), None)
+        if before:
+            cid, neutral, arena = before[0], bool(before[1]), before[2] or arena
+            matched += 1
         hb, ab = g["boxes"][clean(home)], g["boxes"][clean(away)]
         row = {"game_id": cid, "date": g["date"].strftime("%Y/%m/%d"), "away_team": away, "away_score": str(ab["team_totals"]["PTS"]),
-               "home_team": home, "home_score": str(hb["team_totals"]["PTS"]), "neutral": neutral, "arena": g["arena"], "source": SOURCE}
+               "home_team": home, "home_score": str(hb["team_totals"]["PTS"]), "neutral": neutral, "arena": arena, "source": SOURCE}
         if g["date"] > sunday:
             row["post"] = True
         box = {"game_id": cid, "game_info": "", "source": SOURCE,
@@ -181,6 +229,8 @@ def main():
             json.dump(rows, out, indent=4)
     pre_games = sum(1 for _, g, _, _ in kept if g["date"] <= sunday)
     neutral_games = sum(1 for r in {r["game_id"]: r for rows in lists.values() for r in rows}.values() if r["neutral"])
+    if known:
+        print(f"   {matched} of {len(kept)} games matched to games the season already listed (their ids kept); {len(kept) - matched} new")
     print(f"{label}: {len(games)} games in the files | {len(kept)} between two of our teams ({pre_games} up to Selection Sunday, "
           f"{len(kept) - pre_games} after) | {neutral_games} on a neutral floor | {boxes} team box score files written")
     print(f"   left out: {sum(not_ours.values())} team-games against schools not on our list, {unnamed} games with no usable box score")

@@ -1,1 +1,1 @@
-LINEUPS_ADD["Iona"] = {"players":["CJ Anthony","Lamin Sabally","Denver Anglin","Toby Harris","Kosy Akametu","Alliou Fall","Luke Jungers","Keshawn Williams","Khalil Badru","Chase Cormier","Matthew Reed","Connor Horan","Oscar Hourruitiner"],"rows":[]};
+LINEUPS_ADD["Iona"] = {"players":["C.J. Anthony","Lamin Sabally","Denver Anglin","Toby Harris","Kosy Akametu","Alliou Fall","Luke Jungers","Keshawn Williams","Khalil Badru","Chase Cormier","Matt Reed","Oscar Hourruitiner","Connor Horan"],"rows":[]};

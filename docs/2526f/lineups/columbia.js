@@ -1,1 +1,1 @@
-LINEUPS_ADD["Columbia"] = {"players":["Kenny Noland","Blair Thompson","Mason Ritter","Miles Franklin","Gerard O'Keefe","Connor Igoe","Ryan Soulis","Hampton Sanders","Richard Nweke","Zinou Eddine Bedri","Leland Coleman","Avery Brown","Josiah Cunningham","Edwin Bai"],"rows":[]};
+LINEUPS_ADD["Columbia"] = {"players":["Kenny Noland","Blair Thompson","Mason Ritter","Miles Franklin","Gerard O'Keefe","Connor Igoe","Ryan Soulis","Hampton Sanders","Richard Nweke","Zine Eddine Bedri","Leland Coleman","Avery Brown","Josiah Cunningham","Edwin Bai"],"rows":[]};

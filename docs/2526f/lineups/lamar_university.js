@@ -1,1 +1,1 @@
-LINEUPS_ADD["Lamar University"] = {"players":["Andrew Holifield","Rob Lee Jr.","Cody Pennebaker","Braden East","Errol White","King-Njhsanni Wilhite","Eian Lowe","Janko Bulajic","Jayden Gambrell","Brian Knight","Spencer Ezewiro","Jayden Barrs"],"rows":[]};
+LINEUPS_ADD["Lamar University"] = {"players":["Andrew Holifield","Rob Lee Jr.","Cody Pennebaker","Braden East","Errol White","King-Njhsanni Wilhite","Eian Lowe","Janko Bulajic","Jayden Gambrell","B.B. Knight","Spencer Ezewiro","Jayden Barrs"],"rows":[]};

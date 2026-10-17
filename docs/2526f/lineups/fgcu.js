@@ -1,1 +1,1 @@
-LINEUPS_ADD["FGCU"] = {"players":["Rahmir Barno","J.R. Konieczny","Jordan Ellerbee","Michael Duax","Isaiah Malone","Rory Stewart","Darren Williams","Tristen Guillouette","Jack Reddick","Gabe Tanner","George Washington III","Matthew McCarthy","Brandon Dwyer","Evan Barlow"],"rows":[]};
+LINEUPS_ADD["FGCU"] = {"players":["Rahmir Barno","J.R. Konieczny","Jordan Ellerbee","Michael Duax","Isaiah Malone","Rory Stewart","Darren Williams","Tristen Guillouette","Jack Reddick","Gabe Tanner","George Washington III","Matt McCarthy","Brandon Dwyer"],"rows":[]};

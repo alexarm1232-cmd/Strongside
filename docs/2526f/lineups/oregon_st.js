@@ -1,1 +1,1 @@
-LINEUPS_ADD["Oregon St."] = {"players":["Josiah Lake II","Isaiah Sy","Dez White","Johan Munch","Olavi Suutela","Jorge Diaz Graham","Keziah Ekissi","Msatija Samar","Yaak Yaak","Noah Amenhauser","Malcolm Christie","Ja'Quavis Williford","Stephen Olowoniyi","Kaan Yarkut"],"rows":[]};
+LINEUPS_ADD["Oregon St."] = {"players":["Josiah Lake II","Isaiah Sy","Dez White","Johan Munch","Olavi Suutela","Jorge Diaz Graham","Keziah Ekissi","Matija Samar","Yaak Yaak","Noah Amenhauser","Malcolm Christie","Daisean Williford","Stephen Olowoniyi","Kaan Yarkut"],"rows":[]};

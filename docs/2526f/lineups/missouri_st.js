@@ -1,1 +1,1 @@
-LINEUPS_ADD["Missouri St."] = {"players":["Kobi Williams","Keith Palek III","Trey Williams Jr.","Zaxton King","Michael Osei-Bonsu","Antwan Burnett","Darrion Sutton","Melakih Cunningham","Cameron Boone","Logan Epes","Tyrique Brooks"],"rows":[]};
+LINEUPS_ADD["Missouri St."] = {"players":["Kobi Williams","Keith Palek III","Trey Williams Jr","Zaxton King","Michael Osei-Bonsu","Antwan Burnett","Darrion Sutton","Melakih Cunningham","Cameron Boone","Logan Epes","Tyrique Brooks","Ryder Cheesman"],"rows":[]};

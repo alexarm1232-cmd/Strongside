@@ -1,1 +1,1 @@
-LINEUPS_ADD["Rhode Island"] = {"players":["Tyler Cochran","Jonah Hinton","Keeyan Itejere","Myles Corey","R.J. Johnson","Jahmere Tripp","Alex Crawford","Jalen Harper","Damone King","Drissa Traore","Mouhamed Sow","Barrett Loer","Jimmy Ball"],"rows":[]};
+LINEUPS_ADD["Rhode Island"] = {"players":["Tyler Cochran","Jonah Hinton","Keeyan Itejere","Myles Corey","RJ Johnson","Jahmere Tripp","Alex Crawford","Jalen Harper","Damone King","Drissa Traore","Mouhamed Sow","Barrett Loer","Jimmy Ball"],"rows":[]};

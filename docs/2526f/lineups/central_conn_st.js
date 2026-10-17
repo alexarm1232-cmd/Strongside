@@ -1,1 +1,1 @@
-LINEUPS_ADD["Central Conn. St."] = {"players":["Darin Smith Jr.","Jay Rodgers","Max Frazier","James Jones","Melo Sanchez","Elijah Parker","Daniel Etiosa James","Roddy Jones","Ashton Reynolds","Nico Ashley","Gabe Spinelli","Ja'Kobe Williams","Jayden Mott"],"rows":[]};
+LINEUPS_ADD["Central Conn. St."] = {"players":["Darin Smith, Jr.","Jay Rodgers","Max Frazier","James Jones","Melo Sanchez","Elijah Parker","Daniel Etiosa James","Roddy Jones","Ashton Reynolds","Nico Ashley","Gabe Spinelli","Ja'Kobe Williams","Jayden Mott"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["Toledo"] = {"players":["Sonny Wilson","Leroy Blyden Jr.","Sean Craig","Austin Parks","Kyler Vanderjagt","Jaylan Ouwinga","Mynor Strong","Will James Jr.","London Praytor","Chris Riddle","Tyler Ode","Phoenix Glassnor","Toby Nwokolo"],"rows":[]};
+LINEUPS_ADD["Toledo"] = {"players":["Sonny Wilson","Leroy Blyden Jr.","Sean Craig","Austin Parks","Kyler VanderJagt","Jaylan Ouwinga","Mynor Strong","Will James, Jr.","London Praytor","Chris Riddle","Tyler Ode","Phoenix Glassnor","Toby Nwokolo"],"rows":[]};

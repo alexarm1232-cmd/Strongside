@@ -1,1 +1,1 @@
-LINEUPS_ADD["Oregon"] = {"players":["TK Simpkins","Kwame Evans Jr.","Nathan Bittle","Sean Stewart","Dezdrick Lindsay","Wei Lin","Jackson Shelstad","Drew Carter","Jamari Phillips","Devon Pryor","Oleksandr Kobzystyi","Ege Demir","Luke Johnson","Efe Vatan","Miles Stewart"],"rows":[]};
+LINEUPS_ADD["Oregon"] = {"players":["Takai Simpkins","Kwame Evans Jr.","Nate Bittle","Sean Stewart","Dezdrick Lindsay","Wei Lin","Jackson Shelstad","Drew Carter","Jamari Phillips","Devon Pryor","Oleksandr Kobzystyi","Ege Demir","Luke Johnson","Efe Vatan","Miles Stewart"],"rows":[]};

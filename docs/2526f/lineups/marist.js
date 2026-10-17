@@ -1,1 +1,1 @@
-LINEUPS_ADD["Marist"] = {"players":["Jadin Collins","Rhyjon Blackwell","Justin Menard","Elijah Lewis","Jaden Daughtry","Parby Kabamba","Myles Parker","Jason Schofield","Jordan Gabriel","Trace Salton","Martin Kawa","Tarik Watson","Ricky McKenzie","Antoni Vlogianitis"],"rows":[]};
+LINEUPS_ADD["Marist"] = {"players":["Jadin Collins-Roberts","Rhyjon Blackwell","Justin Menard","Elijah Lewis","Jaden Daughtry","Parby Kabamba","Myles Parker","Jason Schofield","Jordan Gabriel","Trace Salton","Martin Kawa","Tarik Watson","Ricky McKenzie","Antoni Vlogianitis"],"rows":[]};

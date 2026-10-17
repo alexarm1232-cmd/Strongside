@@ -1,1 +1,1 @@
-LINEUPS_ADD["Utah"] = {"players":["Terrence Brown","Don McHenry","Keanu Dawes","Seydou Traore","Kendyl Sanders","James Okonkwo","Obomate Abbey","Josh Hayes","Jacob Patrick","Lucas Langarita","Ibi Traore","Jahki Howard","Jerry Huang","Elijah Moore"],"rows":[]};
+LINEUPS_ADD["Utah"] = {"players":["Terrence Brown","Don McHenry","Keanu Dawes","Seydou Traore","Kendyl Sanders","James Okonkwo","Obomate Abbey","Josh Hayes","Jacob Patrick","Lucas Langarita","Ibrahima Traore","Jahki Howard","Jerry Huang","Elijah Moore"],"rows":[]};
