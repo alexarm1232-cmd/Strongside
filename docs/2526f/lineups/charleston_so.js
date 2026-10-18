@@ -1,1 +1,1 @@
-LINEUPS_ADD["Charleston So."] = {"players":["A'lahn Sumler","Jesse Hafemeister","Brycen Blaine","Jacob Taylor","Nate Brafford","Reis Jones","Luke Williams","Lase Olalere","Armari Carraway","Jaquias Franklin","Trent Coleman","Devin Brafford","Easton Hupp","A.J. Gladieux"],"rows":[]};
+LINEUPS_ADD["Charleston So."] = {"players":["A'lahn Sumler","Jesse Hafemeister","Brycen Blaine","Jacob Taylor","Nate Brafford","Reis Jones","Luke Williams","Lase Olalere","Armari Carraway","Jaquias Franklin","Trent Coleman","Devin Brafford","A.J. Gladieux","Easton Hupp"],"rows":[]};

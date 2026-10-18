@@ -1,1 +1,1 @@
-LINEUPS_ADD["TCU"] = {"players":["Noah Reynolds","Vasean Allette","Trazarien White","Ernest Udeh Jr.","David Punch","Brendan Wenzel","Micah Robinson","Jace Posey","Malick Diallo","Frankie Collins","Isaiah Manning","Adam Stewart","Drew McElroy","Trey Stuart","Cole Despie"],"rows":[]};
+LINEUPS_ADD["TCU"] = {"players":["Noah Reynolds","Vasean Allette","Trazarien White","Ernest Udeh Jr.","David Punch","Brendan Wenzel","Micah Robinson","Jace Posey","Malick Diallo","Frankie Collins","Isaiah Manning","Drew McElroy","Trey Stuart","Adam Stewart","Cole Despie"],"rows":[]};

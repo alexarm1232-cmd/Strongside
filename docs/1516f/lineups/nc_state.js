@@ -1,1 +1,1 @@
-LINEUPS_ADD["NC State"] = {"players":["Anthony 'Cat' Barber","Maverick Rowan","Caleb Martin","Abdul-Malik Abu","Cody Martin","Beejay Anya","Lennard Freeman","Shaun Kirk","Terry Henderson","Chris Brickhouse","Chase Cannon","Chris Corchiani, Jr."],"rows":[]};
+LINEUPS_ADD["NC State"] = {"players":["Anthony 'Cat' Barber","Maverick Rowan","Caleb Martin","Abdul-Malik Abu","Cody Martin","Beejay Anya","Lennard Freeman","Shaun Kirk","Terry Henderson","Chris Corchiani, Jr.","Chris Brickhouse","Chase Cannon"],"rows":[]};

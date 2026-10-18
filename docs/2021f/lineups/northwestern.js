@@ -1,1 +1,1 @@
-LINEUPS_ADD["Northwestern"] = {"players":["Miller Kopp","Chase Audige","Pete Nance","Boo Buie","Anthony Gaines","Robbie Beran","Ryan Young","Ty Berry","Ryan Greer","Matthew Nicholson","Eric Zalewski","Dom Martinelli","Roy Dixon III","Dylan Sandhu"],"rows":[]};
+LINEUPS_ADD["Northwestern"] = {"players":["Miller Kopp","Chase Audige","Pete Nance","Boo Buie","Anthony Gaines","Robbie Beran","Ryan Young","Ty Berry","Ryan Greer","Matthew Nicholson","Eric Zalewski","Dom Martinelli","Dylan Sandhu","Roy Dixon III"],"rows":[]};

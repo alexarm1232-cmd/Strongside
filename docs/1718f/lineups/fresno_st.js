@@ -1,1 +1,1 @@
-LINEUPS_ADD["Fresno St."] = {"players":["Deshon Taylor","Ray Bowles","Bryson Williams","Jahmel Taylor","Sam Bittner","Jaron Hopkins","Terrell Carter","Nate Grimes","Johnny McWilliams","Lazaro Rojas","Myles Warren","New Williams","Gilles Dekoninck"],"rows":[]};
+LINEUPS_ADD["Fresno St."] = {"players":["Deshon Taylor","Ray Bowles","Bryson Williams","Jahmel Taylor","Sam Bittner","Jaron Hopkins","Terrell Carter","Nate Grimes","Johnny McWilliams","Lazaro Rojas","Myles Warren","Gilles Dekoninck","New Williams"],"rows":[]};

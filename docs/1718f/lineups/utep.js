@@ -1,1 +1,1 @@
-LINEUPS_ADD["UTEP"] = {"players":["Omega Harris","Isiah Osborne","Paul Thomas","Evan Gilyard II","Kobe Magee","Matt Willms","Keith Frazier","Trey Wade","Jake Flaggert","Tirus Smith","Trey Touchet","Deshaun Highler","Chris White","Corbin Stephens","Brandon Averitt"],"rows":[]};
+LINEUPS_ADD["UTEP"] = {"players":["Omega Harris","Isiah Osborne","Paul Thomas","Evan Gilyard II","Kobe Magee","Matt Willms","Keith Frazier","Trey Wade","Jake Flaggert","Tirus Smith","Trey Touchet","Deshaun Highler","Corbin Stephens","Brandon Averitt","Chris White"],"rows":[]};

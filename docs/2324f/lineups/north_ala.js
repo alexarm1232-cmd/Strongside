@@ -1,1 +1,1 @@
-LINEUPS_ADD["North Ala."] = {"players":["Jacari Lane","Damian Forrest","KJ Johnson","Tim Smith Jr.","Will Soucie","Dallas Howell","Josiah Fulcher","Detalian Brown","Canin Jefferson","Eoin Nelson","Marco Foster","Jamal Albritton","Micah Clark","Drake James","Hugh Hargett"],"rows":[]};
+LINEUPS_ADD["North Ala."] = {"players":["Jacari Lane","Damian Forrest","KJ Johnson","Tim Smith Jr.","Will Soucie","Dallas Howell","Josiah Fulcher","Detalian Brown","Canin Jefferson","Eoin Nelson","Marco Foster","Jamal Albritton","Micah Clark","Hugh Hargett","Drake James"],"rows":[]};

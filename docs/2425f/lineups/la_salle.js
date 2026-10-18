@@ -1,1 +1,1 @@
-LINEUPS_ADD["La Salle"] = {"players":["Corey McKeithan","Daeshon Shepherd","Deuce Jones","Jahlil White","Tunde Vahlberg Fasasi","Mac Etienne","Demetrius Lilley","Andres Marrero","Eric Acker","Ryan Zan","Jay Joseph","Charles Ireland","Jason Umosella","Milos Kovacevic"],"rows":[]};
+LINEUPS_ADD["La Salle"] = {"players":["Corey McKeithan","Daeshon Shepherd","Deuce Jones","Jahlil White","Tunde Vahlberg Fasasi","Mac Etienne","Demetrius Lilley","Andres Marrero","Eric Acker","Ryan Zan","Jay Joseph","Charles Ireland","Milos Kovacevic","Jason Umosella"],"rows":[]};

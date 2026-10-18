@@ -1,1 +1,1 @@
-LINEUPS_ADD["UNC Asheville"] = {"players":["Drew Pember","Josh Banks","Fletcher Abee","Caleb Burgess","Nick McMullen","Trent Stephney","Toyaz Solomon","Jamon Battle","Greg Gantt","Davion Cunningham","Evan Johnson","Dean Gabrelcik","Rasheed Baldwin","Corey Jones"],"rows":[]};
+LINEUPS_ADD["UNC Asheville"] = {"players":["Drew Pember","Josh Banks","Fletcher Abee","Caleb Burgess","Nick McMullen","Trent Stephney","Toyaz Solomon","Jamon Battle","Greg Gantt","Davion Cunningham","Evan Johnson","Dean Gabrelcik","Corey Jones","Rasheed Baldwin"],"rows":[]};

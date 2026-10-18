@@ -1,1 +1,1 @@
-LINEUPS_ADD["Harvard"] = {"players":["Chandler Pigg\u00e9","Thomas Batties II","Robert Hinton","Evan Nelson","Louis Lesmond","Tey Barbour","Austin Hunt","Ben Eisendrath","Xavier Nesbitt","Dutch Dowdell","Luca Ace-Nasteski","Leo Byrne","Payton Pitts","Greg Cooper"],"rows":[]};
+LINEUPS_ADD["Harvard"] = {"players":["Chandler Pigg\u00e9","Thomas Batties II","Robert Hinton","Evan Nelson","Louis Lesmond","Tey Barbour","Austin Hunt","Ben Eisendrath","Xavier Nesbitt","Dutch Dowdell","Luca Ace-Nasteski","Leo Byrne","Greg Cooper","Payton Pitts"],"rows":[]};

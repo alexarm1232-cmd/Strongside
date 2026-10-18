@@ -1,1 +1,1 @@
-LINEUPS_ADD["Georgia St."] = {"players":["Toneari Lane","Jay'Den Turner","Lucas Taylor","Dwon Odom","Leslie Nkereuwem","Brenden Tucker","Edward Nnamoko","Julian Mackey","Jamaine Mann","Rickey Bradley","Malik Ferguson","Matt Davis","Brevyn Coleman","Aaron Oh"],"rows":[]};
+LINEUPS_ADD["Georgia St."] = {"players":["Toneari Lane","Jay'Den Turner","Lucas Taylor","Dwon Odom","Leslie Nkereuwem","Brenden Tucker","Edward Nnamoko","Julian Mackey","Jamaine Mann","Rickey Bradley","Malik Ferguson","Brevyn Coleman","Matt Davis","Aaron Oh"],"rows":[]};

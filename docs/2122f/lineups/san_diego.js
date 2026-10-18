@@ -1,1 +1,1 @@
-LINEUPS_ADD["San Diego"] = {"players":["Marcellus Earlington","Joey Calcaterra","Wayne McKinney III","Jase Townsend","Josh Parrish","Terrell Brown","Vladimir Pinchuk","T.J. Berger","Yavuz Gultekin","Bryce Monroe","Muon Reath","Scotty Prunty","Patrick Caero","Dominic Muncey"],"rows":[]};
+LINEUPS_ADD["San Diego"] = {"players":["Marcellus Earlington","Joey Calcaterra","Wayne McKinney III","Jase Townsend","Josh Parrish","Terrell Brown","Vladimir Pinchuk","T.J. Berger","Yavuz Gultekin","Bryce Monroe","Muon Reath","Scotty Prunty","Dominic Muncey","Patrick Caero"],"rows":[]};

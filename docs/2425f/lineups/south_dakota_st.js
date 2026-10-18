@@ -1,1 +1,1 @@
-LINEUPS_ADD["South Dakota St."] = {"players":["Joe Sayler","Kalen Garry","Oscar Cluff","Owen Larson","Matthew Mors","Stoney Hadnot","Jaden Jackson","Isaac Lindsey","Damon Wilkinson","William Whorton","Nate Barnhart"],"rows":[]};
+LINEUPS_ADD["South Dakota St."] = {"players":["Joe Sayler","Kalen Garry","Oscar Cluff","Matthew Mors","Owen Larson","Stoney Hadnot","Jaden Jackson","Isaac Lindsey","Damon Wilkinson","William Whorton","Nate Barnhart"],"rows":[]};

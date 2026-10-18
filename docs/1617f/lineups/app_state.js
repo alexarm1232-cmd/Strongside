@@ -1,1 +1,1 @@
-LINEUPS_ADD["App State"] = {"players":["Ronshad Shabazz","Emarius Logan","Griffin Kinney","Patrick Good","Isaac Johnson","Tyrell Johnson","Jake Babic","Craig Hinton","Kelvin Robinson","Bennett Holley","Matt O'Boyle","Jake Wilson","Zach Cottrell","Trey Ford","Kevin Kerley"],"rows":[]};
+LINEUPS_ADD["App State"] = {"players":["Ronshad Shabazz","Emarius Logan","Griffin Kinney","Patrick Good","Isaac Johnson","Tyrell Johnson","Jake Babic","Craig Hinton","Kelvin Robinson","Bennett Holley","Matt O'Boyle","Jake Wilson","Zach Cottrell","Kevin Kerley","Trey Ford"],"rows":[]};

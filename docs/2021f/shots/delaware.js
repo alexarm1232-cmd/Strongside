@@ -1,1 +1,1 @@
-SHOTS_ADD["Delaware"] = {"players":[],"o":[],"d":[],"fives":{"players":["Andrew Carr","Dylan Painter","Ebby Asamoah","Gianmarco Arletti","Johnny McCoy","Anthony Ochefu","Ryan Allen","Kevin Anderson","Aleks Novakovich","Fred Rullo IV","O.D. Ogunbo","Davis Long"],"rows":[]}};
+SHOTS_ADD["Delaware"] = {"players":[],"o":[],"d":[],"fives":{"players":["Aleks Novakovich","Ebby Asamoah","Johnny McCoy","Kevin Anderson","Ryan Allen","Dylan Painter","Gianmarco Arletti","Andrew Carr","Anthony Ochefu","Fred Rullo IV","O.D. Ogunbo","Davis Long"],"rows":[]}};

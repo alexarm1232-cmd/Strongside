@@ -1,1 +1,1 @@
-LINEUPS_ADD["Nicholls"] = {"players":["Jamal West Jr.","Diante Smith","Rob Brown III","Byron Ireland","Jalen White","Mekhi Collins","Mike Gray Jr.","Oumar Koureissi","Quinn Strander","Micah Thomas","Taylor Blanchard","Taj Anderson","Hayden Verdin","Zane Griffin"],"rows":[]};
+LINEUPS_ADD["Nicholls"] = {"players":["Jamal West Jr.","Diante Smith","Rob Brown III","Byron Ireland","Jalen White","Mekhi Collins","Mike Gray Jr.","Oumar Koureissi","Quinn Strander","Micah Thomas","Taylor Blanchard","Taj Anderson","Zane Griffin","Hayden Verdin"],"rows":[]};

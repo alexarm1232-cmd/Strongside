@@ -224,8 +224,18 @@
   .sc-btn[aria-pressed="true"] { background: var(--accent); border-color: var(--accent); color: #fff; }
   .sc-chips { display: flex; flex-wrap: wrap; gap: 6px; }
   .sc-chips .chip { display: inline-flex; gap: 6px; align-items: center; }
-  .sc-main { display: grid; grid-template-columns: minmax(0, 1fr) 430px; gap: 16px; margin-top: 16px; align-items: start; }
-  @media (max-width: 1050px) { .sc-main { grid-template-columns: 1fr; } }
+  .sc-main { display: grid; grid-template-columns: minmax(0, 1fr); gap: 16px; margin-top: 16px; align-items: start; }
+  /* full screen: the chart card fills the screen and the chart fills the card */
+  #sc-chartcard:fullscreen { background: var(--bg); border-radius: 0; overflow: auto; padding: 10px 16px; }
+  #sc-chartcard:fullscreen .sc-svg, #sc-chartcard.sc-max .sc-svg { width: 100%; height: calc(100vh - 150px); }
+  #sc-chartcard.sc-max { position: fixed; inset: 0; z-index: 50; border-radius: 0; overflow: auto; padding: 10px 16px; background: var(--bg); }
+  body.sc-max-open { overflow: hidden; }
+  .sc-svg .trap { fill: rgba(var(--good-rgb), .10); stroke: var(--accent); stroke-width: 2; stroke-dasharray: 8 5; }
+  .sc-svg .trap-label { fill: var(--accent-ink); font-size: 12px; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; }
+  .sc-svg .pt.intrap circle { stroke: var(--accent); stroke-width: 3; }
+  .sc-svg text.champ { fill: #e8a33d; font-size: 20px; paint-order: stroke; stroke: var(--surface); stroke-width: 3px; }
+  .sc-trapnote { margin-top: 8px; line-height: 1.5; }
+  .sc-trapnote b { color: var(--ink); }
   .sc-head { padding: 14px 18px 0; }
   .sc-head h3 { margin: 0; font-size: 18px; font-weight: 750; }
   .sc-head p { margin: 2px 0 0; color: var(--muted); font-size: 13px; }
@@ -4182,6 +4192,22 @@ function renderGuide() {
 // (no direction: the axis is not turned around and the corners are not labelled).
 const SC_POWER = ['ACC', 'Big 12', 'Big East', 'Big Ten', 'SEC', 'Pac-12'];
 const SC_TOUCH = window.matchMedia && matchMedia('(hover: none)').matches;
+const SC_FIELD = new Set(REAL_BRACKET ? REAL_BRACKET.slots : []);
+// The Trapezoid of Excellence is Ryan Hammer's idea: title teams have a high net rating and a pace that is neither
+// too fast nor too slow, and the better the team the more pace it can get away with, so the zone widens upward. He
+// draws it by hand on KenPom's adjusted tempo and does not publish the lines, so this is Strongside's version, worked
+// out from each season's own numbers: the floor is the top 5% of net ratings; at the floor the pace window is one
+// standard deviation either side of the average pace, widening to two at the top of the chart.
+function scTrapezoid() {
+  const tempos = teams.map(t => t.t).filter(v => v != null), nets = teams.map(t => t.n).filter(v => v != null).sort((a, b) => a - b);
+  if (!tempos.length || !nets.length) return null;
+  const mu = tempos.reduce((s, v) => s + v, 0) / tempos.length;
+  const sd = Math.sqrt(tempos.reduce((s, v) => s + (v - mu) ** 2, 0) / tempos.length);
+  const floor = nets[Math.floor(0.95 * (nets.length - 1))], top = nets[nets.length - 1] + 4;
+  const half = n => sd * (1 + Math.max(0, Math.min(1, (n - floor) / (top - floor))));
+  return { mu, sd, floor, top, corners: [[mu - sd, floor], [mu + sd, floor], [mu + 2 * sd, top], [mu - 2 * sd, top]],
+           inside: t => t.n != null && t.t != null && t.n >= floor && Math.abs(t.t - mu) <= half(t.n) };
+}
 let scTipTeam = null;
 const scNum = v => typeof v === 'number' && isFinite(v) ? v : null;
 const scDiv = (a, b) => b ? a / b : null;
@@ -4301,7 +4327,7 @@ function scFmt(m, v) {
   const s = v.toFixed(m.dec) + (m.unit || '');
   return m.signed && v > 0 ? '+' + s : s.replace('-', '−');
 }
-const sc = { x: 'adj_o', y: 'adj_d', xa: false, ya: false, conf: '', focusConf: '', focus: [], minG: 0, logos: true, trend: false, zoom: 1,
+const sc = { x: 'adj_o', y: 'adj_d', xa: false, ya: false, conf: '', focusConf: '', focus: [], minG: 0, logos: true, trend: false, trap: false, zoom: 1,
   q: '', sort: 'y', dir: 0, page: 0 };
 try { Object.assign(sc, JSON.parse(localStorage.getItem('strongside-scatter') || '{}'), { zoom: 1, page: 0, q: '' }); } catch (e) {}
 if (!SC_BY_ID[sc.x]) sc.x = 'adj_o';
@@ -4329,7 +4355,8 @@ function renderScatter() {
     `<div class="sc-ctl"><span class="lab">Suggestions</span><label class="field"><select id="sc-preset" aria-label="Suggested pairs"><option value="">Pick a pair…</option>` +
       SC_PRESETS.map((p, i) => `<option value="${i}">${esc(p[0])}</option>`).join('') + `</select></label></div>` +
     `<div class="sc-ctl"><span class="lab">Teams shown</span><label class="field"><select id="sc-conf" aria-label="Which teams"><option value="">All Division I</option>` +
-      `<option value="power">Power conferences</option><option value="other">Everyone else</option>` + confNames.map(c => `<option${c === sc.conf ? ' selected' : ''}>${esc(c)}</option>`).join('') + `</select></label></div>` +
+      `<option value="power">Power conferences</option><option value="other">Everyone else</option>` +
+      (REAL_BRACKET ? `<option value="tourney">NCAA tournament field</option>` : '') + confNames.map(c => `<option${c === sc.conf ? ' selected' : ''}>${esc(c)}</option>`).join('') + `</select></label></div>` +
     `<div class="sc-ctl"><span class="lab">Focus a conference</span><label class="field"><select id="sc-fconf" aria-label="Focus a conference"><option value="">None</option>` +
       confNames.map(c => `<option${c === sc.focusConf ? ' selected' : ''}>${esc(c)}</option>`).join('') + `</select></label></div>` +
     `<div class="sc-ctl"><span class="lab">Focus teams</span><label class="field"><input id="sc-fteam" list="sc-teamlist" placeholder="Type a team, press Enter" autocomplete="off"></label>` +
@@ -4340,10 +4367,11 @@ function renderScatter() {
       `<button class="sc-btn" data-sctool="logos" aria-pressed="${sc.logos}">Logos</button>` +
       `<button class="sc-btn" data-sctool="trend" aria-pressed="${sc.trend}">Trend line</button>` +
       `<button class="sc-btn" data-sctool="random">Randomize</button>` +
+      `<button class="sc-btn" data-sctool="trap" aria-pressed="${sc.trap}" title="Pace against adjusted net rating, with the trapezoid drawn on">Trapezoid of Excellence</button>` +
       `<button class="clear" data-sctool="clearfocus" style="margin-left:auto">Clear focus</button>` +
     `</div></div>` +
-    `<div class="sc-main"><div class="card"><div class="sc-head"><h3 id="sc-title"></h3><p id="sc-sub"></p></div>` +
-      `<div class="sc-chart" id="sc-chart"><div class="sc-zoom"><button data-sczoom="in" title="Zoom in" aria-label="Zoom in">+</button><button data-sczoom="out" title="Zoom out" aria-label="Zoom out">−</button><button data-sczoom="reset" title="Fit all" aria-label="Fit all">⤢</button></div>` +
+    `<div class="sc-main"><div class="card" id="sc-chartcard"><div class="sc-head"><h3 id="sc-title"></h3><p id="sc-sub"></p></div>` +
+      `<div class="sc-chart" id="sc-chart"><div class="sc-zoom"><button data-sczoom="in" title="Zoom in" aria-label="Zoom in">+</button><button data-sczoom="out" title="Zoom out" aria-label="Zoom out">−</button><button data-sczoom="reset" title="Fit all" aria-label="Fit all">⤢</button><button data-sczoom="full" title="Full screen" aria-label="Full screen">⛶</button></div>` +
       `<svg class="sc-svg" id="sc-svg" viewBox="0 0 900 640" role="img"></svg><div class="sc-tip" id="sc-tip" hidden></div></div><div class="sc-stats" id="sc-stats"></div></div>` +
     `<div class="card"><div class="sc-find"><label class="field"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.6-3.6"/></svg>` +
       `<input id="sc-q" type="search" placeholder="Search the table" autocomplete="off" aria-label="Search the table"></label></div>` +
@@ -4353,7 +4381,9 @@ function renderScatter() {
 }
 function scShown() {
   return teams.filter(t => {
-    if (sc.conf === 'power' ? !SC_POWER.includes(t.conf) : sc.conf === 'other' ? SC_POWER.includes(t.conf) : sc.conf && t.conf !== sc.conf) return false;
+    if (sc.conf === 'tourney') {
+      if (REAL_BRACKET && !SC_FIELD.has(t.name)) return false;      // the 64 who made the bracket (after the First Four)
+    } else if (sc.conf === 'power' ? !SC_POWER.includes(t.conf) : sc.conf === 'other' ? SC_POWER.includes(t.conf) : sc.conf && t.conf !== sc.conf) return false;
     return (t.w + t.l) >= sc.minG;
   });
 }
@@ -4392,8 +4422,12 @@ function drawScatter() {
   $('sc-sub').textContent = `${DATA.meta.season} · ${pts.length} teams` + (FULL_SEASON ? ' · full season' : ' · before the NCAA tournament');
   // ---- the chart ----
   // a phone gets a squarer, smaller canvas, so logos and labels come out bigger once it is scaled to the screen
+  const full = (document.fullscreenElement && document.fullscreenElement.id === 'sc-chartcard') || $('sc-chartcard').classList.contains('sc-max');
   const narrow = $('sc-chart').clientWidth < 600, svg = $('sc-svg');
-  const W = narrow ? 420 : 900, H = narrow ? 480 : 640, L = narrow ? 50 : 72, R = narrow ? 14 : 26, T = 22, B = narrow ? 52 : 60;
+  // full screen: the canvas takes the screen's shape, so the chart fills it (a phone keeps its bigger logos and labels)
+  const fullW = narrow ? 420 : 1500;
+  const fullH = full ? Math.max(narrow ? 480 : 500, Math.round(fullW * (innerHeight - 150) / Math.max(300, $('sc-chart').clientWidth))) : 0;
+  const W = full ? fullW : narrow ? 420 : 1200, H = full ? fullH : narrow ? 480 : 640, L = narrow ? 50 : 72, R = narrow ? 14 : 26, T = 22, B = narrow ? 52 : 60;
   const logo = narrow ? 17 : 22;
   svg.setAttribute('viewBox', `0 0 ${W} ${H}`);
   if (!pts.length) { svg.innerHTML = `<text x="${W / 2}" y="${H / 2}" text-anchor="middle">No teams have both numbers.</text>`; scTable(rows, mx, my, lx, ly, bx, by, isFocus); return; }
@@ -4421,6 +4455,13 @@ function drawScatter() {
   for (const r of pts) { sxy += (r.x - ax) * (r.y - ay); sxx += (r.x - ax) ** 2; syy += (r.y - ay) ** 2; }
   const corr = sxx && syy ? sxy / Math.sqrt(sxx * syy) : null, slope = sxx ? sxy / sxx : 0;
   if (sc.trend && corr != null) g += `<line class="trend" x1="${fx(x0)}" y1="${fy(ay + slope * (x0 - ax))}" x2="${fx(x1)}" y2="${fy(ay + slope * (x1 - ax))}"/>`;
+  // the Trapezoid of Excellence, on pace against adjusted net rating only
+  const trap = sc.trap && sc.x === 'pace' && sc.y === 'adj_n' && !sc.xa && !sc.ya ? scTrapezoid() : null;
+  const champ = trap && REAL_BRACKET ? REAL_BRACKET.winners[5][0] : null;
+  if (trap) {
+    g += `<polygon class="trap" points="${trap.corners.map(([x, y]) => `${fx(x)},${fy(y)}`).join(' ')}"/>`;
+    g += `<text class="trap-label" x="${fx(trap.mu)}" y="${fy(trap.floor) + 18}" text-anchor="middle">Trapezoid of Excellence</text>`;
+  }
   g += `</g>`;
   if (bx !== 'none' && by !== 'none') {
     g += `<text class="corner" x="${W - R - 8}" y="${T + 16}" text-anchor="end">Better at both</text>` +
@@ -4431,12 +4472,14 @@ function drawScatter() {
   g += `<text class="ax" transform="translate(18 ${T + (H - T - B) / 2}) rotate(-90)" text-anchor="middle">${esc(ly + arrow(by))}</text>`;
   const ordered = [...pts].sort((a, b) => isFocus(a) - isFocus(b));
   g += `<g clip-path="url(#sc-clip)">` + ordered.map(r => {
-    const px = fx(r.x), py = fy(r.y), cls = 'pt' + (focusing && !isFocus(r) ? ' fade' : '') + (focusing && isFocus(r) ? ' hot' : '');
+    const px = fx(r.x), py = fy(r.y), cls = 'pt' + (focusing && !isFocus(r) ? ' fade' : '') + (focusing && isFocus(r) ? ' hot' : '') +
+      (trap && trap.inside(r.t) ? ' intrap' : '');
     const mark = sc.logos && r.t.logo
       ? `<circle class="lb" cx="${px}" cy="${py}" r="${logo / 2 + 2}"/><image href="${esc(r.t.logo)}" x="${px - logo / 2}" y="${py - logo / 2}" width="${logo}" height="${logo}"/>`
       : `<circle class="dot" cx="${px}" cy="${py}" r="${sc.logos ? 7 : 5.5}"/>`;
     const label = focusing && isFocus(r) && (sc.focus.length + (sc.focusConf ? 20 : 0)) <= 40 ? `<text class="lbl" x="${px}" y="${py - 16}" text-anchor="middle">${esc(r.name)}</text>` : '';
-    return `<g class="${cls}" data-scteam="${esc(r.name)}">${mark}${label}</g>`;
+    const star = champ && r.name === champ ? `<text class="champ" x="${px + logo / 2 + 4}" y="${py - logo / 2 + 2}">★</text>` : '';
+    return `<g class="${cls}" data-scteam="${esc(r.name)}">${mark}${label}${star}</g>`;
   }).join('') + `</g>`;
   svg.innerHTML = g;
   svg.setAttribute('aria-label', `${ly} against ${lx}, ${n} teams`);
@@ -4444,6 +4487,13 @@ function drawScatter() {
     `Correlation r = <b>${corr.toFixed(2)}</b> · R² = ${(corr * corr).toFixed(2)} · ${n} teams · averages: ${esc(scFmt(mx, ax))} and ${esc(scFmt(my, ay))}` +
     (Math.abs(corr) < 0.1 ? ' · almost no relationship' : Math.abs(corr) < 0.3 ? ' · weak relationship' : Math.abs(corr) < 0.6 ? ' · moderate relationship' : ' · strong relationship') +
     ((bx === 'low') !== (by === 'low') && Math.abs(corr) >= 0.1 ? ` · r is on the raw numbers; with one axis flipped, a ${corr < 0 ? 'negative' : 'positive'} r runs ${corr < 0 ? 'up' : 'down'} and to the right here` : '');
+  if (trap) {
+    const inside = teams.filter(trap.inside).sort((a, b) => b.n - a.n);
+    $('sc-stats').innerHTML += `<div class="sc-trapnote"><b>Trapezoid of Excellence:</b> ${inside.length} teams inside — ${inside.map(t => esc(t.name)).join(', ')}.` +
+      (champ ? ` ★ ${esc(champ)} won the title and was ${trap.inside(teamByName[champ] || {}) ? '<b>inside</b>' : '<b>outside</b>'} the trapezoid.` : '') +
+      `<br>Ryan Hammer’s idea, drawn here from this season’s numbers (his exact lines are drawn by hand and not published): net rating at or above ${esc(scFmt(SC_BY_ID.adj_n, trap.floor))} (the top 5%), ` +
+      `pace within ${trap.sd.toFixed(1)} of the ${trap.mu.toFixed(1)} average at that line, widening to ${(2 * trap.sd).toFixed(1)} at the top. He uses KenPom’s adjusted tempo; this pace is possessions per 40 minutes.</div>`;
+  }
   scTable(rows, mx, my, lx, ly, bx, by, isFocus);
 }
 function scTable(rows, mx, my, lx, ly, bx, by, isFocus) {
@@ -4498,12 +4548,24 @@ $('scatter-view').addEventListener('click', e => {
     else if (what === 'trend') sc.trend = !sc.trend;
     else if (what === 'random') { const pick = () => SC_METRICS[Math.floor(Math.random() * SC_METRICS.length)].id; sc.x = pick(); do { sc.y = pick(); } while (sc.y === sc.x); sc.xa = sc.ya = false; }
     else if (what === 'clearfocus') { sc.focus = []; sc.focusConf = ''; const f = $('sc-fconf'); if (f) f.value = ''; }
+    else if (what === 'trap') { sc.trap = !sc.trap; if (sc.trap) { sc.x = 'pace'; sc.y = 'adj_n'; sc.xa = sc.ya = false; } }
+    for (const b of document.querySelectorAll('[data-sctool="trap"]')) b.setAttribute('aria-pressed', String(!!sc.trap));
     sc.zoom = 1;
     for (const b of document.querySelectorAll('[data-sctool="logos"]')) b.setAttribute('aria-pressed', String(sc.logos));
     for (const b of document.querySelectorAll('[data-sctool="trend"]')) b.setAttribute('aria-pressed', String(sc.trend));
     drawScatter(); return;
   }
   const z = e.target.closest('button[data-sczoom]');
+  if (z && z.dataset.sczoom === 'full') {
+    const card = $('sc-chartcard');
+    // real full screen where the browser allows it; otherwise (an iPhone, an embedded view) the card fills the window
+    const fill = on => { card.classList.toggle('sc-max', on); document.body.classList.toggle('sc-max-open', on); drawScatter(); };
+    if (document.fullscreenElement) document.exitFullscreen();
+    else if (card.classList.contains('sc-max')) fill(false);
+    else if (card.requestFullscreen) card.requestFullscreen().catch(() => fill(true));
+    else fill(true);
+    return;
+  }
   if (z) { sc.zoom = z.dataset.sczoom === 'reset' ? 1 : Math.max(1, Math.min(8, sc.zoom * (z.dataset.sczoom === 'in' ? 1.5 : 1 / 1.5))); drawScatter(); return; }
   const un = e.target.closest('button[data-scunfocus]');
   if (un) { sc.focus = sc.focus.filter(n => n !== un.dataset.scunfocus); drawScatter(); return; }
@@ -4539,6 +4601,13 @@ $('scatter-view').addEventListener('mousemove', e => { if (!SC_TOUCH) scShowTip(
 $('scatter-view').addEventListener('mouseleave', () => { const tip = $('sc-tip'); if (tip) tip.hidden = true; });
 // turning a phone or resizing the window redraws the chart for the new width
 let scResize = null;
+document.addEventListener('fullscreenchange', () => { if ($('sc-svg')) drawScatter(); });
+document.addEventListener('keydown', e => {
+  const card = $('sc-chartcard');
+  if (e.key === 'Escape' && card && card.classList.contains('sc-max')) {
+    card.classList.remove('sc-max'); document.body.classList.remove('sc-max-open'); drawScatter();
+  }
+});
 window.addEventListener('resize', () => { clearTimeout(scResize); scResize = setTimeout(() => { if (document.body.classList.contains('scatter-mode') && $('sc-svg')) drawScatter(); }, 200); });
 
 // The address decides what is on screen: "#team=Duke" is Duke's page, anything else is the tables

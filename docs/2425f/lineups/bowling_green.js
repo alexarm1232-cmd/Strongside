@@ -1,1 +1,1 @@
-LINEUPS_ADD["Bowling Green"] = {"players":["Marcus Johnson","Javontae Campbell","Derrick Butler","Trey Thomas","Jamai Felt","Wilguens Jr. Exacte","DaJion Humphrey","Braelon Green","Sam Towns","Youssef Khayat","Preston Squire","Jaxon Pardon","Greg Spurgin"],"rows":[]};
+LINEUPS_ADD["Bowling Green"] = {"players":["Marcus Johnson","Javontae Campbell","Derrick Butler","Trey Thomas","Jamai Felt","Wilguens Jr. Exacte","DaJion Humphrey","Braelon Green","Sam Towns","Preston Squire","Youssef Khayat","Jaxon Pardon","Greg Spurgin"],"rows":[]};
