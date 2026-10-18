@@ -1,0 +1,1 @@
+LINEUPS_ADD["Milwaukee"] = {"players":["Jordan Johnson","Austin Arians","Akeem Springs","Matt Tiby","J.J. Panoske","Cody Wichmann","Jevon Lyle","Brock Stull","Jayquan McCloud","Brett Prahl","Justin Jordan","Derek Rongstad","Scotty Tyler","Dan Studer","Alex Prahl","Baylor Peterson","Lyle"],"rows":[]};

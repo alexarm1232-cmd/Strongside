@@ -1,0 +1,1 @@
+LINEUPS_ADD["Utah St."] = {"players":["Jalen Moore","Chris Smith","Darius Perkins","Shane Rector","Julion Pearre","Lew Evans","Elston Jones","Quinn Taylor","Grayson Moore","John Middleton","Henry Bolton III","Trace Cureton"],"rows":[]};

@@ -1,4 +1,5 @@
 import os
+import re
 import json
 import math
 from collections import defaultdict
@@ -426,7 +427,11 @@ def get_roster_stats(root_folder):
             last_players = load_roster(team_path, LAST_SEASON)
             last_minutes = sum(p['minutes'] for p in last_players)
             last_share = {p['id']: p['minutes'] / last_minutes for p in last_players} if last_minutes else {}
-            continuity = sum(min(p['minutes'] / team_minutes, last_share.get(p['id'], 0)) for p in players)
+            # a season from outside Division I (a team that moved up) has no Sports Reference ids, so its players are
+            # matched by name instead
+            by_name = lambda name: re.sub(r'[^a-z]', '', str(name).lower())
+            last_by_name = {by_name(p['name']): p['minutes'] / last_minutes for p in last_players} if last_minutes else {}
+            continuity = sum(min(p['minutes'] / team_minutes, last_share.get(p['id']) or last_by_name.get(by_name(p['name']), 0)) for p in players)
 
             roster_stats[team] = {
                 "exp": round(exp_years / exp_minutes, 2) if exp_minutes else None,

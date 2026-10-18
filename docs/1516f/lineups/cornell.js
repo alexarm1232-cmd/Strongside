@@ -1,0 +1,1 @@
+LINEUPS_ADD["Cornell"] = {"players":["Matt Morgan","Darryl Smith","David Onuorah","Robert Hatter","Jordan Abdur-Ra'oof","Troy Whiteside","Jojo Fallas","Wil Bathurst","Stone Gettings","Joel Davis","Robert Mischler","Desmond Fleming","Kyle Brown","Jack Gordon","Pat Smith","Joseph Bayless","Xavier Eaglin","Donovan Wright"],"rows":[]};

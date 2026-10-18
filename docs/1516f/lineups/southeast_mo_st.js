@@ -1,0 +1,1 @@
+LINEUPS_ADD["Southeast Mo. St."] = {"players":["Isiah Jones","Antonius Cleveland","Joel Angus III","Eric McGill","Trey Kellum","Jamaal Calvin","Tony Anderson","Kyle Gullett","Marcus Wallace","Jaylin Stewart","Ladarius Coleman","Robby Dosier","J.T. Jones"],"rows":[]};

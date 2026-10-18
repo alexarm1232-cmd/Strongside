@@ -1,0 +1,1 @@
+LINEUPS_ADD["Siena"] = {"players":["Marquis Wright","Brett Bisping","Javion Ogunyemi","Lavon Long","Ahsante Shivers","Nico Clareth","Kadeem Smithen","Khalil Richard","Evan Fisher","Sammy Friday IV","Willem Brandwijk","Jimmy Merrill"],"rows":[]};

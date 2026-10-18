@@ -1,0 +1,1 @@
+LINEUPS_ADD["Lamar University"] = {"players":["Nick Garth","Preston Mattingly","Marcus Owens","Kevin Booze","Lincoln Davis","Josh Nzeakor","Dorian Chatman","Quan Jones","Dontavious Sears","Lemon Gregory","Zjori Bosha","Boaz Williams","Christian Kennedy","Terrance Hubby"],"rows":[]};

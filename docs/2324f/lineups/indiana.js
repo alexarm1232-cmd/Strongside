@@ -1,1 +1,1 @@
-LINEUPS_ADD["Indiana"] = {"players":["Trey Galloway","Kel'el Ware","Malik Reneau","Mackenzie Mgbako","Gabe Cupps","Xavier Johnson","Anthony Walker","CJ Gunn","Anthony Leal","Kaleb Banks","Payton Sparks","Jackson Creel","Ian Stephens","Shaan Burke"],"rows":[]};
+LINEUPS_ADD["Indiana"] = {"players":["Trey Galloway","Kel'el Ware","Malik Reneau","Mackenzie Mgbako","Gabe Cupps","Xavier Johnson","Anthony Walker","CJ Gunn","Anthony Leal","Kaleb Banks","Payton Sparks","Shaan Burke","Ian Stephens","Jackson Creel"],"rows":[]};

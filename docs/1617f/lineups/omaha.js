@@ -1,0 +1,1 @@
+LINEUPS_ADD["Omaha"] = {"players":["Tra-Deon Hollins","Tre'Shawn Thurman","Marcus Tyus","Zach Jackson","Mitch Hahn","Daniel Norl","Daniel Meyer","JT Gibson","Zach Pirog","KJ Robinson","Kyler Erickson","Alex Allbery"],"rows":[]};

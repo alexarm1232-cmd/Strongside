@@ -1,0 +1,1 @@
+LINEUPS_ADD["Delaware"] = {"players":["Kory Holden","Cazmon Hayes","Anthony Mosley","Marvin King-Davis","Maurice Jeffers","Devonne Pinkard","Skye Johnson","Barnett Harris","Curtis McRoy","Chivarsky Corbett","Sean Locke","Curtis Lochner"],"rows":[]};

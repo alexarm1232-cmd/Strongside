@@ -1,0 +1,1 @@
+LINEUPS_ADD["Nicholls"] = {"players":["T.J. Carpenter","Shane Rillieux","Liam Thomas","Ja'Dante' Frye","Johnathan Bell","Luka Kamber","Adam Ward","Tre O'Neal","Kyle Caudill","Quinton Thomas","Marquis Nelson","Zach Young","Robert Bissant"],"rows":[]};

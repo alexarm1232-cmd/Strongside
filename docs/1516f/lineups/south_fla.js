@@ -1,0 +1,1 @@
+LINEUPS_ADD["South Fla."] = {"players":["Jahmal McMurray","Angel Nunez","Nehemias Morillo","Jaleel Cousins","Ruben Guerrero","Bo Zeigler","Chris Perry","Roddy Peters","Jake Bodway","Luis Santos","Tre' Bryant","Justin David"],"rows":[]};

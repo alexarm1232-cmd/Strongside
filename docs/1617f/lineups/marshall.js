@@ -1,0 +1,1 @@
+LINEUPS_ADD["Marshall"] = {"players":["Jon Elmore","Austin Loop","Stevie Browning","Ryan Taylor","C.J. Burks","Ajdin Penava","Terrence Thompson","Aleksa Nikolic","Ky'Re Allison","Milan Mijovic","Christian Thieneman","Phil Bledsoe","Jacob Kilgore","Ot Elmore","Rondale Watson"],"rows":[]};

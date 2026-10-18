@@ -1,0 +1,1 @@
+LINEUPS_ADD["Charleston So."] = {"players":["Armel Potter","Aaron Wheeler","Raemond Robinson","Javis Howard","Patrick Wallace","Demetrius Pollard","Reuben King","Danny Upchurch","Wesley Johnson","Ugo Mmonu","Melvin Brooks","Jabbar Washington"],"rows":[]};

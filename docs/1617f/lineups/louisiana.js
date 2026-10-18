@@ -1,0 +1,1 @@
+LINEUPS_ADD["Louisiana"] = {"players":["Bryce Washington","Jay Wright","Frank Bartley","Johnathan Stove","Justin Miller","P.J. Hardy","Jerekius Davis","Roydell Brown","Kadavion Evans","Larenz Stalcup","Scott Plaisance","Jacob Broussard","Mason Aucoin"],"rows":[]};

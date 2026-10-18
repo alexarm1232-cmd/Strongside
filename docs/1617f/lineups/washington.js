@@ -1,0 +1,1 @@
+LINEUPS_ADD["Washington"] = {"players":["David Crisp","Matisse Thybulle","Markelle Fultz","Noah Dickerson","Dominic Green","Carlos Johnson","Sam Timmins","Malik Dime","Matthew Atewe","Dan Kingma","Bitumba Baruti","Devenir Duruisseau","Greg Bowman","Quin Barnard"],"rows":[]};

@@ -1,0 +1,1 @@
+LINEUPS_ADD["San Francisco"] = {"players":["Devin Watson","Tim Derksen","Uche Ofoegbu","Dont'E Reynolds","Ronnie Boyce","Chase Foster","Nate Renfro","Matt McCarthy","Montray Clemons","Sean Grennan","Mladen Djordjevic","Marquill Smith","Stokley Chaffee","Stefan Cox","Randy Cruzet"],"rows":[]};

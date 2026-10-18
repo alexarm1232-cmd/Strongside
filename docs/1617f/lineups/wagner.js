@@ -1,0 +1,1 @@
+LINEUPS_ADD["Wagner"] = {"players":["Michael Carey","Corey Henson","Jojo Cooper","Mike Aaman","Connor Ferrell","Blake Francis","AJ Sumbry","Devin Liggeons","Elijah Davis","Greg Senat","Shaq Scott","Marquis Salmon","Romone Saunders","Jamar Brown"],"rows":[]};

@@ -1,0 +1,1 @@
+LINEUPS_ADD["Army West Point"] = {"players":["Jordan Fox","Tommy Funk","Jacob Kessler","John Emezie","Mac Hoffman","Luke Morrison","Matt Wilson","Scott Mammel","Kennedy Edwards","Adam Roe","Richard Brown","John Miller","Gunther Klimes","Jason Houle","Cayne Edwards"],"rows":[]};

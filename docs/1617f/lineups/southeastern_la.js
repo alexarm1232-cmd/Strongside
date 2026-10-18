@@ -1,0 +1,1 @@
+LINEUPS_ADD["Southeastern La."] = {"players":["Marlain Veal","Moses Greenwood","Davon Hayes","Jabbar Singleton","Dominic Nelson","James Currington","Eddy Polanco","Dimi Cook","Michael Corchiani","Chris Mejia","George Brock","Jordan Capps"],"rows":[]};

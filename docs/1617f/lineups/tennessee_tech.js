@@ -1,0 +1,1 @@
+LINEUPS_ADD["Tennessee Tech"] = {"players":["Aleksa Jugovic","Kajon Mack","Mason Ramsey","Hakeem Rogers","Curtis Phillips","Stephaun Adams","Savonte Frazier","Micaiah Henry","Courtney Alexander II","Jacardo Hawkins","Markell Henderson","Colton Blevins"],"rows":[]};

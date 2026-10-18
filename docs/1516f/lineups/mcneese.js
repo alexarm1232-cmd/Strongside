@@ -1,0 +1,1 @@
+LINEUPS_ADD["McNeese"] = {"players":["Jamaya Burr","Jarren Greenwood","Craig McFerrin","James Harvey","Lance Potier","Tevin Jackson","Stephen Ugochukwu","Austin Lewis","Shaun Johnson","Matthew Moss","Adrian Brown","Darrell Joubert","Andrija Milovanovic"],"rows":[]};

@@ -1,0 +1,1 @@
+LINEUPS_ADD["Central Conn. St."] = {"players":["Austin Nehls","Brandon Peel","Khalen Cumberlander","Mustafa Jones","Jahlil Nails","Kevin Seymour","Evan Phoenix","JJ Cratit","Eric Bowles","Tidell Pierre","Malik Toppin","Shakaris Laney","Malcolm Simmons","George Davis"],"rows":[]};

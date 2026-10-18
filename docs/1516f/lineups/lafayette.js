@@ -1,0 +1,1 @@
+LINEUPS_ADD["Lafayette"] = {"players":["Nick Lindner","Bryce Scott","Matt Klinewski","Paulius Zalys","Zach Rufer","Monty Boykins","Ben Freeland","Nathaniel Musters","Auston Evans","Eric Stafford","Tyler Barlow","Jacob Orender","Billy Murphy","Sam Dunkum"],"rows":[]};

@@ -1,0 +1,1 @@
+LINEUPS_ADD["St. Francis Brooklyn"] = {"players":["Tyreek Jewell","Yunus Hopkinson","Antonio Jennifer","Amdy Fall","Chris Hooper","Gunnar Olafsson","Dagur Jonsson","Keon Williams","Jon Doss","Glenn Sanabria","Joshua Nurse","Marlon Alcindor","Jagos Lasic","Miles Rockafeler"],"rows":[]};

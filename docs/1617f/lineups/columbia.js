@@ -1,0 +1,1 @@
+LINEUPS_ADD["Columbia"] = {"players":["Mike Smith","Luke Petrasek","Nate Hickman","Quinton Adlesh","Jeff Coby","Jake Killingsworth","Lukas Meisner","Rodney Hunter","CJ Davis","Chris McComber","Conor Voss","Patrick Tape","Kendall Jackson","John Sica","Andrew Panayiotou","Peter Barba"],"rows":[]};

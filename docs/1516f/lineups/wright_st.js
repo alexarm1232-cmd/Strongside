@@ -1,0 +1,1 @@
+LINEUPS_ADD["Wright St."] = {"players":["JT Yoho","Joe Thomasson","Mark Alstork","Grant Benzinger","Biggie Minnis","Michael Karena","Mark Hughes","Parker Ernsthausen","Justin Mitchell","Alan Vest","Daniel Mortensen","Daniel Collie","Roderick Davis","Brandon Neel","Trey Stacey"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["Western Caro."] = {"players":["Cord Stansberry","Bernard Pelote","Marcus Kell","Chevalier Emery","Brandon Morgan","CJ Hyland","Vernon Collins","Chase McKey","Fischer Brown","Jamar Livingston","Cinque Lemon","Kamari Jones","Brandon White","Carson Brown"],"rows":[]};
+LINEUPS_ADD["Western Caro."] = {"players":["Cord Stansberry","Bernard Pelote","Marcus Kell","Chevalier Emery","Brandon Morgan","CJ Hyland","Vernon Collins","Chase McKey","Fischer Brown","Jamar Livingston","Cinque Lemon","Kamari Jones","Carson Brown","Brandon White"],"rows":[]};

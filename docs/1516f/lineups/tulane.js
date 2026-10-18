@@ -1,0 +1,1 @@
+LINEUPS_ADD["Tulane"] = {"players":["Dylan Ostekowski","Louis Dabney","Malik Morgan","Melvin Frazier","Cameron Reynolds","Von Julien","Kain Harris","Jernard Jarreau","Blake Paul","Ryan Smith","Taron Oliver","Kajon Mack","Riley Conroy"],"rows":[]};

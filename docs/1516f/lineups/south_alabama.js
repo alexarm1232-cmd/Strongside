@@ -1,0 +1,1 @@
+LINEUPS_ADD["South Alabama"] = {"players":["Ken Williams","Barrington Stevens III","Nick Stover","Georgi Boyanov","Shaq Calhoun","Tafari Whittingham","John Brown","Don MuepoKelly","Nikola Marijan","Nick Davis","Taishaun Johnson","Devin Epps"],"rows":[]};

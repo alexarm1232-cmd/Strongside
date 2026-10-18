@@ -1,0 +1,1 @@
+LINEUPS_ADD["CSUN"] = {"players":["Kendall Smith","Darin Johnson","Tavrion Dawson","Aaron Parks","Micheal Warren","Rakim Lubin","Dylan Johns","Reggie Theus Jr.","Mahamadou Kaba-Camara","Jerron Wilbut","Jason Richardson","Blair Orr","Julian Richardson","Mehran Nazarian","Antonio Bruno"],"rows":[]};

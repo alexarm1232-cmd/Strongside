@@ -1,0 +1,1 @@
+LINEUPS_ADD["New Mexico"] = {"players":["Elijah Brown","Tim Williams","Sam Logwood","Jalen Harris","Obij Aget","Jordan Hunter","Dane Kuiper","Damien Jefferson","Joe Furstinger","Connor MacDougall","Xavier Adams","Aher Uguak","Anthony Mathis","Adam Cumber"],"rows":[]};

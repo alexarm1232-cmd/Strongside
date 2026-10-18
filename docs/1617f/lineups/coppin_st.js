@@ -1,0 +1,1 @@
+LINEUPS_ADD["Coppin St."] = {"players":["DeJuan Clayton","Keith Shivers","Tre' Thomas","Terry Harris Jr","Joshua Treadwell","Chas Brown","Blake Simpson","Joseph Gripper","Lucian Brownlee","Izais Hicks","Juwan Davenport","Rassol Hinson","Mufaro Murinda"],"rows":[]};

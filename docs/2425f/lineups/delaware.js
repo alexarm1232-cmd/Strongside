@@ -1,1 +1,1 @@
-LINEUPS_ADD["Delaware"] = {"players":["John Camden","Cavan Reilly","Izaiah Pasha","Erik Timko","Niels Lane","Trent Middleton","Macon Emory","Tahron Allen","Kevin Kogbara","Houston Emory","Gabe Moss","Kobe Jerome","Brandon Baffone","Alex McFadden"],"rows":[]};
+LINEUPS_ADD["Delaware"] = {"players":["John Camden","Cavan Reilly","Erik Timko","Izaiah Pasha","Niels Lane","Trent Middleton","Macon Emory","Tahron Allen","Kevin Kogbara","Houston Emory","Gabe Moss","Kobe Jerome","Brandon Baffone","Alex McFadden"],"rows":[]};

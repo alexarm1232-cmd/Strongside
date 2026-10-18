@@ -1,1 +1,1 @@
-LINEUPS_ADD["Iona"] = {"players":["Wheza Panzo","Jeremiah Quigley","Joel Brown","Idan Tretout","Jean Aranguren","Greg Gordon","Osborn Shema","Sultan Adewale","Terrell Williams Jr.","Dylan Saunders","Alex Bates IV","Isaac Brice","Rohan Chappali"],"rows":[]};
+LINEUPS_ADD["Iona"] = {"players":["Wheza Panzo","Jeremiah Quigley","Joel Brown","Idan Tretout","Jean Aranguren","Greg Gordon","Osborn Shema","Sultan Adewale","Terrell Williams Jr.","Alex Bates IV","Dylan Saunders","Isaac Brice","Rohan Chappali"],"rows":[]};

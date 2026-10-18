@@ -1,0 +1,1 @@
+LINEUPS_ADD["Central Ark."] = {"players":["Jordan Howard","Derreck Brooks","Mathieu Kamba","Jeff Lowery","Tanner Schmit","Darraja Parnell","Thatch Unruh","Ethan Lee","Aaron Weidenaar","Albert Christensson","Otas Iyekekpolor","Jordan Grant","Tyler Simmons"],"rows":[]};

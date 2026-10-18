@@ -3270,6 +3270,42 @@ const REAL_BRACKETS = { '2025-26': {
     ['Loyola Chicago', 'Villanova', 'Michigan', 'Kansas'],
     ['Michigan', 'Villanova'],
     ['Villanova']],
+}, '2016-17': {
+  year: 2017, pair: 2,        // regions in order: East, Midwest, West, South; East met West, Midwest met South
+  slots: [
+    'Villanova', "Mount St. Mary's", 'Wisconsin', 'Virginia Tech', 'Virginia', 'UNCW', 'Florida', 'ETSU', 'SMU', 'Southern California', 'Baylor', 'New Mexico St.', 'South Carolina', 'Marquette', 'Duke', 'Troy',
+    'Kansas', 'UC Davis', 'Miami (FL)', 'Michigan St.', 'Iowa St.', 'Nevada', 'Purdue', 'Vermont', 'Creighton', 'Rhode Island', 'Oregon', 'Iona', 'Michigan', 'Oklahoma St.', 'Louisville', 'Jacksonville St.',
+    'Gonzaga', 'South Dakota St.', 'Northwestern', 'Vanderbilt', 'Notre Dame', 'Princeton', 'West Virginia', 'Bucknell', 'Maryland', 'Xavier', 'Florida St.', 'FGCU', "Saint Mary's (CA)", 'VCU', 'Arizona', 'North Dakota',
+    'North Carolina', 'Texas Southern', 'Arkansas', 'Seton Hall', 'Minnesota', 'Middle Tenn.', 'Butler', 'Winthrop', 'Cincinnati', 'Kansas St.', 'UCLA', 'Kent St.', 'Dayton', 'Wichita St.', 'Kentucky', 'Northern Ky.'],
+  winners: [
+    ['Villanova', 'Wisconsin', 'Virginia', 'Florida', 'Southern California', 'Baylor', 'South Carolina', 'Duke',
+     'Kansas', 'Michigan St.', 'Iowa St.', 'Purdue', 'Rhode Island', 'Oregon', 'Michigan', 'Louisville',
+     'Gonzaga', 'Northwestern', 'Notre Dame', 'West Virginia', 'Xavier', 'Florida St.', "Saint Mary's (CA)", 'Arizona',
+     'North Carolina', 'Arkansas', 'Middle Tenn.', 'Butler', 'Cincinnati', 'UCLA', 'Wichita St.', 'Kentucky'],
+    ['Wisconsin', 'Florida', 'Baylor', 'South Carolina', 'Kansas', 'Purdue', 'Oregon', 'Michigan',
+     'Gonzaga', 'West Virginia', 'Xavier', 'Arizona', 'North Carolina', 'Butler', 'UCLA', 'Kentucky'],
+    ['Florida', 'South Carolina', 'Kansas', 'Oregon', 'Gonzaga', 'Xavier', 'North Carolina', 'Kentucky'],
+    ['South Carolina', 'Oregon', 'Gonzaga', 'North Carolina'],
+    ['Gonzaga', 'North Carolina'],
+    ['North Carolina']],
+}, '2015-16': {
+  year: 2016, pair: 2,        // regions in order: South, East, West, Midwest; South met West, East met Midwest
+  slots: [
+    'Kansas', 'Austin Peay', 'Colorado', 'UConn', 'Maryland', 'South Dakota St.', 'California', 'Hawaii', 'Arizona', 'Wichita St.', 'Miami (FL)', 'Buffalo', 'Iowa', 'Temple', 'Villanova', 'UNC Asheville',
+    'North Carolina', 'FGCU', 'Southern California', 'Providence', 'Indiana', 'Chattanooga', 'Kentucky', 'Stony Brook', 'Notre Dame', 'Michigan', 'West Virginia', 'SFA', 'Wisconsin', 'Pittsburgh', 'Xavier', 'Weber St.',
+    'Oregon', 'Holy Cross', "Saint Joseph's", 'Cincinnati', 'Baylor', 'Yale', 'Duke', 'UNCW', 'Texas', 'UNI', 'Texas A&M', 'Green Bay', 'Oregon St.', 'VCU', 'Oklahoma', 'CSU Bakersfield',
+    'Virginia', 'Hampton', 'Texas Tech', 'Butler', 'Purdue', 'Little Rock', 'Iowa St.', 'Iona', 'Seton Hall', 'Gonzaga', 'Utah', 'Fresno St.', 'Dayton', 'Syracuse', 'Michigan St.', 'Middle Tenn.'],
+  winners: [
+    ['Kansas', 'UConn', 'Maryland', 'Hawaii', 'Wichita St.', 'Miami (FL)', 'Iowa', 'Villanova',
+     'North Carolina', 'Providence', 'Indiana', 'Kentucky', 'Notre Dame', 'SFA', 'Wisconsin', 'Xavier',
+     'Oregon', "Saint Joseph's", 'Yale', 'Duke', 'UNI', 'Texas A&M', 'VCU', 'Oklahoma',
+     'Virginia', 'Butler', 'Little Rock', 'Iowa St.', 'Gonzaga', 'Utah', 'Syracuse', 'Middle Tenn.'],
+    ['Kansas', 'Maryland', 'Miami (FL)', 'Villanova', 'North Carolina', 'Indiana', 'Notre Dame', 'Wisconsin',
+     'Oregon', 'Duke', 'Texas A&M', 'Oklahoma', 'Virginia', 'Iowa St.', 'Gonzaga', 'Syracuse'],
+    ['Kansas', 'Villanova', 'North Carolina', 'Notre Dame', 'Oregon', 'Oklahoma', 'Virginia', 'Syracuse'],
+    ['Villanova', 'North Carolina', 'Oklahoma', 'Syracuse'],
+    ['Villanova', 'North Carolina'],
+    ['Villanova']],
 } };
 const REAL_BRACKET = REAL_BRACKETS[DATA.meta.season] || null;      // this season's real tournament, when it is known
 const CHASE_ENDS = [32, 48, 56, 60, 62, 63];        // how many games have been played by the end of each round

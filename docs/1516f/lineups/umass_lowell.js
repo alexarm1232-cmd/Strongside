@@ -1,0 +1,1 @@
+LINEUPS_ADD["UMass Lowell"] = {"players":["Isaac White","Jahad Thomas","Josh Gantz","Matt Harris","Ryan Jones","Mark Cornelius","Tyler Livingston","Logan Primerano","Keith Hayes Ii","Dontavious Smith","DJ Mlachnik","Jordan Shea"],"rows":[]};

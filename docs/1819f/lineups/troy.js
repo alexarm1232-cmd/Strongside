@@ -1,1 +1,1 @@
-LINEUPS_ADD["Troy"] = {"players":["Darian Adams","Javan Johnson","Alex Hicks","B.J. Miller","Jordon Varnado","KJ Simon","Charles Norman","Zay Williams","Malik Burnett","Spencer Rodgers","Devante Foster","Davion Thomas","Atakan Sahinkaya","Jalen Tuck","Eric Walker"],"rows":[]};
+LINEUPS_ADD["Troy"] = {"players":["Darian Adams","Javan Johnson","Alex Hicks","B.J. Miller","Jordon Varnado","KJ Simon","Charles Norman","Zay Williams","Malik Burnett","Spencer Rodgers","Devante Foster","Davion Thomas","Atakan Sahinkaya","Eric Walker","Jalen Tuck"],"rows":[]};

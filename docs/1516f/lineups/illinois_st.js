@@ -1,0 +1,1 @@
+LINEUPS_ADD["Illinois St."] = {"players":["Paris Lee","Devaughn Akoon-Purcell","Tony Wills","Deontae Hawkins","Mikyle McIntosh","Nick Banyard","Justin McCloud","Quintin Brewer","Roland Griffin","Daouda Ndiaye","Keyshawn Evans","Javaka Thompson"],"rows":[]};

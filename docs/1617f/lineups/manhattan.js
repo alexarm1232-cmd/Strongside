@@ -1,0 +1,1 @@
+LINEUPS_ADD["Manhattan"] = {"players":["Zavier Turner","Zane Waterman","Thomas Capuano","Calvin Crawford","Tyler Wilson","Aaron Walker","Ahmed Ismail","Na'Quan Council","Samson Usilo","Zavier Peart","Ak Ojo","Oliver Ehrnvall","Sky Williams"],"rows":[]};

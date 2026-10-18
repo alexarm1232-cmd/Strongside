@@ -1,0 +1,1 @@
+LINEUPS_ADD["Chattanooga"] = {"players":["Tre' McLean","Justin Tuoyo","Greg Pryor","Johnathan Burroughs-Cook","Casey Jones","Rodney Chatman","Nat Dixon","Makinde London","Makale Foreman","Peyton Woods","Trayvond Massenburg","Dylan Brewster"],"rows":[]};

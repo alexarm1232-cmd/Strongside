@@ -1,0 +1,1 @@
+LINEUPS_ADD["UNLV"] = {"players":["Patrick McCaw","Jerome Seagears","Ike Nwamu","Jordan Cornish","Stephen Zimmerman Jr.","Derrick Jones Jr.","Jalen Poyser","Dwayne Morgan","Ben Carter","Austin Starr","Goodluck Okonoboh","Barry Cheaney","Tyrell Green","Daquan Cook","Bryan Glenn"],"rows":[]};

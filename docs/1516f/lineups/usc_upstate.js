@@ -1,0 +1,1 @@
+LINEUPS_ADD["USC Upstate"] = {"players":["Mike Cunningham","Josh Cuthbertson","Deion Holmes","Jure Span","Michael Buchanan","Marvin Smith","Jacob Schulte","Malik Moore","Philip Whittington","Tristan Thomas","Ramel Thompkins","Damian Goodwin","Blake Edwards"],"rows":[]};

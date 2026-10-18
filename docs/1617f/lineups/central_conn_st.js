@@ -1,0 +1,1 @@
+LINEUPS_ADD["Central Conn. St."] = {"players":["Austin Nehls","Khalen Cumberlander","Mustafa Jones","Tidell Pierre","Tyson Batiste","Eric Bowles","Tafari Whittingham","Kevin Seymour","Chris Williams","Harrison Kay","Donyell Marshall, Jr.","Antwann Anderson","Shakaris Laney"],"rows":[]};

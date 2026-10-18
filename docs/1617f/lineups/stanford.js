@@ -1,0 +1,1 @@
+LINEUPS_ADD["Stanford"] = {"players":["Dorian Pickens","Marcus Allen","Reid Travis","Robert Cartwright","Michael Humphrey","Marcus Sheffield","Christian Sanders","Josh Sharma","Grant Verhoeven","Cameron Walker","Trevor Stanback","Malcolm Allen","Blake Pagon","Rodney Herenton","Josh Hanson"],"rows":[]};

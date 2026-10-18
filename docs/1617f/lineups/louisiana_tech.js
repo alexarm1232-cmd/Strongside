@@ -1,0 +1,1 @@
+LINEUPS_ADD["Louisiana Tech"] = {"players":["Erik McCree","Jacobi Boykins","Derric Jean","Daquan Bracey","Omar Sherman","Jalen Harris","Joniah White","Jy&#X27;Lan Washington","Oliver Powell","Qiydar Davis","Jeremiah Taylor","Luke Walker","Da'Shawn Robinson"],"rows":[]};

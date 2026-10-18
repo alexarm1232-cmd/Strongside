@@ -1,0 +1,1 @@
+LINEUPS_ADD["Eastern Ill."] = {"players":["Terrell Lewis","Montell Goodwin","Demetrius McReynolds","Ray Crossland","Muusa Dama","Casey Teson","Patrick Muldoon","Aboubacar Diallo","Joe Kuligoski","Logan Koch","Marshawn Blackmon","Lucas Jones","Devantae' Price","Cornell Johnston"],"rows":[]};

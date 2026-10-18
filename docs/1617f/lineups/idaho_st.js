@@ -1,0 +1,1 @@
+LINEUPS_ADD["Idaho St."] = {"players":["Ethan Telfair","Geno Luzcando","Brandon Boyd","Novak Topalovic","Robert Jones III","Balint Mocsan","Stephen Lennox","Erik Nakken","Hayes Garrity","Gary Chivichyan","Keshawn Liggins","Clark Wilkinson"],"rows":[]};

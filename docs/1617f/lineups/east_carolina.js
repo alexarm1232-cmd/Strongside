@@ -1,0 +1,1 @@
+LINEUPS_ADD["East Carolina"] = {"players":["Kentrell Barkley","Caleb White","Andre Washington","Jeremy Sheppard","Deng Riak","B.J. Tyson","Elijah Hughes","Michel Nzege","Clarence Williams","Raquan Wilkins","Jabari Craig","Addison Hill","Justice Obasohan","John Whitley"],"rows":[]};

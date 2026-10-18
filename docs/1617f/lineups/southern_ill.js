@@ -1,0 +1,1 @@
+LINEUPS_ADD["Southern Ill."] = {"players":["Mike Rodriquez","Sean O'Brien","Thik Bol","Armon Fletcher","Sean Lloyd","Leo Vincent","Aaron Cook","Jonathan Wiley","Rudy Stradnieks","Austin Weiher","Tyler Smithpeters","Crishawn Cook","Bernard Cherestal"],"rows":[]};

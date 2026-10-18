@@ -1,0 +1,1 @@
+LINEUPS_ADD["Marquette"] = {"players":["Henry Ellenson","Haanif Cheatham","Duane Wilson","Luke Fischer","Traci Carter","Jajuan Johnson","Sandy Cohen, III","Wally Ellenson","Matt Heldt","Sacar Anim","Michael Mache","Cam Marotta"],"rows":[]};

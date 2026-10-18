@@ -1,0 +1,1 @@
+LINEUPS_ADD["Troy"] = {"players":["Wesley Person","Jordon Varnado","Devon Walker","Kevin Baker","Jeremy Hollimon","Juan Davis","Alex Hicks","Daniel Peace","B.J. Miller","Jaroslav Moravek","Shawn Hopkins","Aaron Ariri","Whit Moreman","Darian Adams"],"rows":[[34,[2,1,5,3,0],15.88,14,18,15.88,14,18],[34,[6,7,2,4,5],1.31,3,0,1.31,3,0],[34,[7,2,4,1,5],0.77,0,2,0.77,0,2]]};

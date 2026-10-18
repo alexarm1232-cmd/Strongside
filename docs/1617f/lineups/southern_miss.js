@@ -1,0 +1,1 @@
+LINEUPS_ADD["Southern Miss."] = {"players":["Quinton Campbell","Cortez Edwards","Kevin Holland","Michael Ramey","Raheem Watts","Eddie Davis, III","D'Angelo Richardson","Bilal Abdur-Rahim","Robert Thomas III","Tim Rowe","Khari Price","Josh Conley","Clay Weatherspoon","Christian Clark","Anfernee Hampton"],"rows":[]};

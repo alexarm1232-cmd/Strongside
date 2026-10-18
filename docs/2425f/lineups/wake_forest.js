@@ -1,1 +1,1 @@
-LINEUPS_ADD["Wake Forest"] = {"players":["Hunter Sallis","Cameron Hildreth","Tre'Von Spillers","Efton Reid","Ty-Laur Johnson","Juke Harris","Parker Friedrichsen","Davin Cosby Jr.","Omaha Biliew","Churchill Abass","RJ Kennah","Owen Kmety","Kevin Dunn"],"rows":[]};
+LINEUPS_ADD["Wake Forest"] = {"players":["Hunter Sallis","Cameron Hildreth","Tre'Von Spillers","Efton Reid","Ty-Laur Johnson","Juke Harris","Parker Friedrichsen","Davin Cosby Jr.","Omaha Biliew","Churchill Abass","Owen Kmety","RJ Kennah","Kevin Dunn"],"rows":[]};

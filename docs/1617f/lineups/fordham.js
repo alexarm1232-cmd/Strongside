@@ -1,0 +1,1 @@
+LINEUPS_ADD["Fordham"] = {"players":["Antwoine Anderson","Chris Sengfelder","Javontae Hawkins","Joseph Chartouny","Will Tavares","Prokop Slanina","Chuba Ohams","Jesse Bunting","Cavit Ege Havsa","David Pekarek","Nemanja Zarkovic","Sinan Saglam","Thomas Sanchez","Brenton Petty","Chris Downing"],"rows":[]};

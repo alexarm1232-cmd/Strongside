@@ -1,0 +1,1 @@
+LINEUPS_ADD["Canisius"] = {"players":["Malcolm McMillan","Kassius Robertson","Phil Valenti","Kevin Bleeker","Jermaine Crumpton","Jamal Reynolds","Chris Atkinson","Kiefer Douse","Isaiah Gurley","Cassidy Ryan","Adam Weir","Ronnie Gombe","Raven Owen"],"rows":[]};

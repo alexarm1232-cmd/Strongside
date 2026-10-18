@@ -1,0 +1,1 @@
+LINEUPS_ADD["South Carolina St."] = {"players":["Eric Eaves","Edward Stephens","Greg Mortimer","Tashombe Riley","Ian Kinard","JJ Richardson","Janai Raynor Powell","Damani Applewhite","Ozante Fields","David Bottenberg","Bobby Williams","Earnest Jones","Jaylen Reid","Tarik Clement","Eric Kinard","Ty Solomon","Solomon Ty"],"rows":[]};

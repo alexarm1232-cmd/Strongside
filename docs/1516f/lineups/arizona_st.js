@@ -1,0 +1,1 @@
+LINEUPS_ADD["Arizona St."] = {"players":["Tra Holder","Gerry Blakes","Willie Atwood","Obinna Oleka","Kodi Justice","Eric Jacobsen","Savon Goodman","Andre Spight","Maurice O'Field","Austin Witherill","Tyler Harris","Shazier Lawson"],"rows":[]};

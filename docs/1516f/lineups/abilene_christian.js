@@ -1,0 +1,1 @@
+LINEUPS_ADD["Abilene Christian"] = {"players":["Parker Wentz","Jaylen Franklin","Jalen Little","Jaren Lewis","Duran Porter","Jovan Crnic","Austin Cooke","Hayden Howell","Isaiah Tripp","Drake Green","Hayden Farquhar"],"rows":[]};

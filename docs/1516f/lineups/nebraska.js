@@ -1,0 +1,1 @@
+LINEUPS_ADD["Nebraska"] = {"players":["Andrew White III","Tai Webster","Shavon Shields","Benny Parker","Glynn Watson Jr.","Michael Jacobson","Jack McVeigh","Ed Morrow","Jake Hammond","Nick Fuller","Bakari Evelyn","Johnny Trueblood","Tanner Borchardt","Malcolm Laws"],"rows":[]};

@@ -1,0 +1,1 @@
+LINEUPS_ADD["LMU (CA)"] = {"players":["Brandon Brown","Buay Tuach","Steven Haney","Shamar Johnson","Stefan Jovanovic","Kelvin Amayo","Munis Tutu","Trevor Manuel","Jeffery McClendon","Petr Herman","Erik Johansson","Mattias Markusson"],"rows":[]};

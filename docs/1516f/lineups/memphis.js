@@ -1,0 +1,1 @@
+LINEUPS_ADD["Memphis"] = {"players":["Dedric Lawson","Ricky Tarrant Jr.","Shaq Goodwin","Avery Woodson","Trahson Burrell","Markel Crawford","Jeremiah Martin","Nick Marshall","Sam Craft","K.J. Lawson","Craig Randall II","Jake McDowell","Kedren Johnson","Dante Scott","Caleb Wallingford","Raquan Mitchell"],"rows":[]};

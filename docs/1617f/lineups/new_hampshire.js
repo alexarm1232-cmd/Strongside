@@ -1,0 +1,1 @@
+LINEUPS_ADD["New Hampshire"] = {"players":["Jaleen Smith","Daniel Dion","Tanner Leissner","Jordan Reed","Iba Camara","David Watkins","Keon Burns","Kijana Love","John Ogwuche","Luke Rosinski","Ken Uhlar","Darryl Stewart"],"rows":[]};

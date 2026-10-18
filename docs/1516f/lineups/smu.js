@@ -1,0 +1,1 @@
+LINEUPS_ADD["SMU"] = {"players":["Nic Moore","Shake Milton","Ben Moore","Sterling Brown","Jordan Tolbert","Markus Kennedy","Jarrey Foster","Keith Frazier","Jonathan Wilfong","Sedrick Barefield","David Nelson","Courtland Sutton","Jake Brudish"],"rows":[]};

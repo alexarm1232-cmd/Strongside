@@ -1,0 +1,1 @@
+LINEUPS_ADD["Cal Poly"] = {"players":["Ridge Shipley","Kyle Toth","Donovan Fields","Victor Joseph","Luke Meikle","Zach Gordon","Aleks Abrams","Hank Hollingsworth","Kuba Niziol","Jaylen Shead","Josh Mishler","Josh Martin","Taylor Sutlive","Trevor John","Alec Raven"],"rows":[]};

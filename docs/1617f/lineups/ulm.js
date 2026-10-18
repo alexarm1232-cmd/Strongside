@@ -1,0 +1,1 @@
+LINEUPS_ADD["ULM"] = {"players":["Nick Coppola","Travis Munnings","Sam McDaniel","Marcus Washington","Marvin Jean-Pierre","Sam Alabakis","Jordon Harris","Wade Martin","Roderick Taylor","Prince Cooper","Ramses Sandifer","Lance Richard"],"rows":[]};

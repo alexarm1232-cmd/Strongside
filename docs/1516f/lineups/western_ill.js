@@ -1,0 +1,1 @@
+LINEUPS_ADD["Western Ill."] = {"players":["Garret Covington","Jabari Sandifer","J.C. Fuller","Tate Stensgaard","Jalen Chapman","Mike Miklusak","Brandon Gilbeck","De'Angelo Bruster","Jalen Morgan","Jamie Batish","Dalan Ancrum","James Claar","Jordan Hughes","Ryan Maas"],"rows":[]};

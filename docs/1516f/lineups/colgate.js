@@ -1,0 +1,1 @@
+LINEUPS_ADD["Colgate"] = {"players":["Austin Tillotson","Sean O'Brien","Jordan Swopshire","Tom Rivard","Alex Ramon","Jordan Robertson","Malcolm Regisford","Dave Krmpotich","Dana Batt","Francisco Amiel","David Favorite","Andrew Bargmann","Sam Lindgren","Nathan Harries"],"rows":[]};

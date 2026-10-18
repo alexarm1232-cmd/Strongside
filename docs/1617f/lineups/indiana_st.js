@@ -1,0 +1,1 @@
+LINEUPS_ADD["Indiana St."] = {"players":["Everett Clemons","Brenton Scott","Matt Van Scyoc","Jordan Barnes","Laquarious Paige","Niels Bunschoten","TJ Bell","Brandon Murphy","Donovan Franklin","Emondre Rickman","Bronson Kessinger","Trey Knight III","Demonte Ojinnaka"],"rows":[]};

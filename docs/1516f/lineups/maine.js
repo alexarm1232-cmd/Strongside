@@ -1,0 +1,1 @@
+LINEUPS_ADD["Maine"] = {"players":["Aaron Calixte","Devine Eke","Kevin Little","Shaun Lawton","Troy Reid-Knight","Ilija Stojiljkovic","Issac Vann","Till Gloger","Ryan Bernstein","Lavar Harewood","Garet Beal","Marko Pirovic","Garvey Melmed","Walter King","C.J. Ward"],"rows":[]};

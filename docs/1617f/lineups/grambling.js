@@ -1,0 +1,1 @@
+LINEUPS_ADD["Grambling"] = {"players":["Remond Brown","Ervin Mitchell","Averyl Ugba","Nigel Riberio","Chase Cormier","Drake Wilks","Diontae Jones","Ivy Smith.Jr","Marcel Thompson","Carlton Lowe","Noah Cummings","Deonte       Y earns","Xairius Larry","Anthony Gaston","Charles Simmons"],"rows":[]};

@@ -1,0 +1,1 @@
+LINEUPS_ADD["Boston U."] = {"players":["Cedric Hankerson","Eric Fanning","Tyler Scanlon","Kyle Foreman","Justin Alston","Nick Havener","Eric Johnson","Will Goff","Max Mahoney","Cheddi Mosely","Destin Barnes","Dylan Haines","Blaise Mbargorba","Kamali Chambers","Cameron Curry","Brandon Johnson"],"rows":[]};

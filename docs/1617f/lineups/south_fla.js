@@ -1,0 +1,1 @@
+LINEUPS_ADD["South Fla."] = {"players":["Geno Thorpe","Tulio Da Silva","Troy Holston","Ruben Guerrero","Michael Bibby","Malik Fitts","Bo Zeigler","Luis Santos","Jake Bodway","Jahmal McMurray","Isaiah Manderson","Hank Beard","Yito Alvarado"],"rows":[]};

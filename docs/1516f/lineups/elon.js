@@ -1,0 +1,1 @@
+LINEUPS_ADD["Elon"] = {"players":["Tyler Seibring","Tanner Samson","Luke Eddy","Dmitri Thompson","Dainan Swoope","Christian Hairston","Steven Santa Ana","Brian Dawkins","Jack Anton","Karolis Kundrotas","Collin Luther","Sheldon Eberhardt","Sam Hershberger","Tony Sabato","Wes Brewer","Ryder Bowline","Patrick Ryan","Jack George"],"rows":[]};

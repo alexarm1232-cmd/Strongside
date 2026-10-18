@@ -5,19 +5,20 @@ import json
 import time
 import requests
 
-# Builds the collection scripts for an earlier season:  python tools/make_season_codes.py 2324     (or several: 2324 2223 ...)
+# Sets up a season:  python tools/make_season_codes.py 1617     (or several: 1617 1516 ...)
 #     add  check  to only list the teams and conferences it finds, without writing anything
 #
-# It makes  "collect/2324"  (the scripts, with that season's dates) and  "data/seasons/2324"  (one folder per
-# Division I team, inside its conference that season). The teams and their conferences come from Sports Reference's
-# standings page for the season, so a school is in exactly when it was in Division I, and in the conference it was
-# in then. The scripts are copies of the 2024-25 ones with two differences, because the NCAA's feed has no box scores
-# or play-by-play for older seasons:
-#   - 4boxscorefetch.py and 6playbyplay.py are left out; 8srboxscores.py builds every box score from Sports Reference.
-#   - 11espnodds.py is left out (ESPN has no lines for these seasons).
+# It makes  "data/seasons/1617"  (one folder per Division I team, inside its conference that season) and
+# "collect/1617"  (the roster scripts, with that season's year). The teams and their conferences come from Sports
+# Reference's standings page for the season, so a school is in exactly when it was in Division I, and in the conference
+# it was in then. Games, box scores and play-by-play come from the stats.ncaa.org files (tools/build_from_ncaa_stats.py);
+# the only things still collected per season are the rosters:
+#   1build.py        the team folders (this script already makes them)
+#   5rosterfetch.py  each team's roster this season and last (height, class, minutes), from Sports Reference
+#   7rostertrim.py   the roster minutes matched to the box scores
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))   # the project folder
-TEMPLATE = os.path.join(ROOT, "collect/2425")      # the scripts that are copied
+TEMPLATE = os.path.join(ROOT, "collect/_template")      # the scripts that are copied (made from the 2024-25 ones)
 STANDINGS_URL = "https://www.sports-reference.com/cbb/seasons/men/{}-standings.html"
 HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0 Safari/537.36"}
 DELAY_SECONDS = 4               # Sports Reference blocks anything faster than ~20 pages a minute
@@ -59,11 +60,7 @@ OLD_SCHOOLS = {
     "hartford": "Hartford", "st-francis-ny": "St. Francis Brooklyn", "savannah-state": "Savannah St.",
     "centenary-la": "Centenary (LA)", "winston-salem": "Winston-Salem",
 }
-SCRIPTS = ["1build.py", "2gameupdate.py", "3scores.py", "3xtest.py", "5rosterfetch.py", "7rostertrim.py", "8srboxscores.py",
-           "8xtest.py", "9espnshots.py", "10cbbdplays.py"]
-# CollegeBasketballData.com has every substitution from this season on (and none before), so these seasons also get
-# 11cbbdsubs.py, which builds the play-by-play (and with it on/off and the lineups) from them
-SUBSTITUTIONS_FROM = 2024
+SCRIPTS = ["1build.py", "5rosterfetch.py", "7rostertrim.py"]
 
 def read_json(path, default=None):
     try:
@@ -126,70 +123,6 @@ def adapt(name, text, code, year, first, last, teams):
     if name == "1build.py":
         head, _, tail = text.split('"""', 2)
         text = head + '"""\n' + "\n".join(f"{team}\t{conference}" for team, conference, _ in teams) + '\n"""' + tail
-    if name == "8srboxscores.py":
-        text = box_scores_without_the_ncaa(text)
-    if name == "9espnshots.py":
-        # older scoreboards list games that were never played (no score); they are passed over
-        text = swap(text, '''                if game_id not in listed or g.get("date", "") > LAST_DATE: continue
-''', '''                if game_id not in listed or g.get("date", "") > LAST_DATE: continue
-                if not str(g.get("home_score") or "").strip() or not str(g.get("away_score") or "").strip(): continue
-''')
-    return text
-
-def swap(text, old, new):
-    if text.count(old) != 1:
-        raise SystemExit("A 2024-25 script has changed; make_season_codes.py needs updating: " + old.strip()[:60])
-    return text.replace(old, new)
-
-def box_scores_without_the_ncaa(text):
-    """8srboxscores.py normally replaces the player lines in an NCAA box score. For these seasons there is no NCAA box
-    score, so the whole box score is built from the Sports Reference page."""
-    text = swap(text, '''    if not ncaa or len(ncaa.get("teams", [])) != 2:
-        return "no NCAA box score to replace"
-''', '''    if not ncaa or len(ncaa.get("teams", [])) != 2:
-        return build_box_score(team, team_path, game_id, slug, sr_teams, url)
-''')
-    text = swap(text, '''                    if not os.path.exists(os.path.join(other_path, "boxscores", f"{game_id}.json")): continue
-''', '''                    if game_id not in {str(g).strip() for g in read_json(os.path.join(other_path, "games.json"), [])}: continue
-''')
-    text = swap(text, '''# ---------------------------
-# MAIN
-# ---------------------------''', '''def build_box_score(team, team_path, game_id, slug, sr_teams, url):
-    """The NCAA has no box score for this game (it has none for older seasons), so the whole of it comes from Sports
-    Reference: both teams' player lines and the team totals. Those totals do not count team rebounds."""
-    game = next((g for g in read_json(os.path.join(team_path, "game_scores.json"), []) if str(g.get("game_id")) == str(game_id)), None)
-    other_slugs = [s for s in sr_teams if s != slug]
-    if not game or slug not in sr_teams or len(other_slugs) != 1:
-        return "could not tell the two teams apart"
-    names = [str(game.get("home_team", "")), str(game.get("away_team", ""))]
-    mine = [n for n in names if n.rstrip(". ") == team.rstrip(". ")]
-    if len(mine) != 1:
-        return "could not tell the two teams apart"
-    entries = {mine[0]: sr_teams[slug], names[1 - names.index(mine[0])]: sr_teams[other_slugs[0]]}
-    new_data = {"game_id": str(game_id), "game_info": "", "source": SOURCE, "source_url": SITE + url, "teams": [
-        {"team_name": name, "starters_table": entries[name]["starters_table"], "bench_table": entries[name]["bench_table"],
-         "team_totals": entries[name]["team_totals"]} for name in names]}
-    # Sports Reference's score is the one that stands
-    scores_path = os.path.join(team_path, "game_scores.json")
-    scores = read_json(scores_path, [])
-    corrected = False
-    for g in scores:
-        if str(g.get("game_id")) == str(game_id):
-            for side, name in (("home", names[0]), ("away", names[1])):
-                points = str(entries[name]["team_totals"]["PTS"])
-                if str(g.get(side + "_score")) != points:
-                    g[side + "_score"], corrected = points, True
-    if corrected:
-        with open(scores_path, "w", encoding="utf-8") as out:
-            json.dump(scores, out, indent=4)
-    os.makedirs(os.path.join(team_path, "boxscores"), exist_ok=True)
-    with open(os.path.join(team_path, "boxscores", f"{game_id}.json"), "w", encoding="utf-8") as out:
-        json.dump(new_data, out, indent=4)
-    return "ok (score corrected to Sports Reference)" if corrected else "ok"
-
-# ---------------------------
-# MAIN
-# ---------------------------''')
     return text
 
 def main():
@@ -210,14 +143,10 @@ def main():
         codes_dir = os.path.join(ROOT, "collect/" + code)
         teams_dir = os.path.join(ROOT, "data/seasons/" + code)
         os.makedirs(codes_dir, exist_ok=True)
-        for name in SCRIPTS + (["11cbbdsubs.py"] if year >= SUBSTITUTIONS_FROM else []):
+        for name in SCRIPTS:
             text = open(os.path.join(TEMPLATE, name), encoding="utf-8").read()
             with open(os.path.join(codes_dir, name), "w", encoding="utf-8", newline="") as out:
                 out.write(adapt(name, text, code, year, first, last, teams))
-        key = os.path.join(TEMPLATE, "cbbd_key.txt")
-        if os.path.exists(key) and not os.path.exists(os.path.join(codes_dir, "cbbd_key.txt")):
-            with open(os.path.join(codes_dir, "cbbd_key.txt"), "w", encoding="utf-8") as out:
-                out.write(open(key, encoding="utf-8").read())
         # the team folders (what 1build.py makes), and Sports Reference's id for each school, so nothing has to be looked up
         for team, conference, _ in teams:
             folder = os.path.join(teams_dir, conference, team)

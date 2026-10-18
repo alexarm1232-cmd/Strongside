@@ -1,0 +1,1 @@
+LINEUPS_ADD["Oregon St."] = {"players":["Jaquori McLaughlin","Drew Eubanks","Stephen Thompson Jr.","Kendal Manuel","Gligorije Rakocevic","Ronnie Stacy","Ben Kone","Matt Dahlen","Tanner Sanders","Tres Tinkle","Daine Muller","Cheikh N'diaye","Keondre Dew"],"rows":[]};

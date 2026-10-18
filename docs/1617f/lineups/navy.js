@@ -1,0 +1,1 @@
+LINEUPS_ADD["Navy"] = {"players":["Hasan Abdullah","Tom Lacey","Shawn Anderson","Bryce Dulin","George Kiernan","Edward Alade","Evan Wieck","Ryan Pearson","Nourse Fox","Tim Abruzzo","Zach Fong","James Hemphill","Grant Vermeer","Kyran McClure","James Butler","Mo Lewis","Dominick Antonelli","Aaron Briggs","Matt Cullen"],"rows":[]};

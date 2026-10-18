@@ -1,0 +1,1 @@
+LINEUPS_ADD["Oklahoma"] = {"players":["Rashard Odomes","Kristian Doolittle","Kameron McGusty","Khadeem Lattin","Christian James","Jordan Woodard","Jamuni McNeace","Jordan Shepherd","Darrion Strong-Moore","Dante Buford","Matt Freeman","C.J. Cole","Daniel Harper","Mashall Thorpe","Richard Anderson","Grant Quinn"],"rows":[]};

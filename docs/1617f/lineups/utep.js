@@ -1,0 +1,1 @@
+LINEUPS_ADD["UTEP"] = {"players":["Dominic Artis","Omega Harris","Jake Flaggert","Matt Willms","Paul Thomas","Trey Touchet","Deon Barrett","Kelvin Jones","Chris Barnes","Ivan Venegas","Terry Winn III","Tim Cameron","Hudson Urbanus","Jose Martinez"],"rows":[]};

@@ -1,0 +1,1 @@
+LINEUPS_ADD["George Mason"] = {"players":["Otis Livingston II","Jaire Grayer","Marquise Moore","Marko Gujanicic","Shevon Thompson","Jalen Jenkins","DeAndre Abram","Kameron Murrell","Danny Dixon","Myles Tate","Patrick Holloway","Julian Royal","Michael Rudy"],"rows":[]};

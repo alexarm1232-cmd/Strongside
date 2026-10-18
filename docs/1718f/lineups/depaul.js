@@ -1,1 +1,1 @@
-LINEUPS_ADD["DePaul"] = {"players":["Max Strus","Eli Cain","Tre'Darius McCallum","Brandon Cyrus","Marin Maric","Justin Roberts","Paul Reed","Jaylen Butz","Devin Gage","Austin Grandstaff","Peter Ryckbosch","Joe Hanel","Tobias Dwumaah","James Anderson","Jalen Coleman Lands"],"rows":[]};
+LINEUPS_ADD["DePaul"] = {"players":["Max Strus","Eli Cain","Tre'Darius McCallum","Brandon Cyrus","Marin Maric","Justin Roberts","Paul Reed","Jaylen Butz","Devin Gage","Austin Grandstaff","Peter Ryckbosch","Joe Hanel","Tobias Dwumaah","Jalen Coleman Lands","James Anderson"],"rows":[]};

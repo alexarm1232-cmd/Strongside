@@ -1,1 +1,1 @@
-LINEUPS_ADD["App State"] = {"players":["Donovan Gregory","Terence Harcum","CJ Huntley","Justin Abson","Xavion Brown","Tyree Boykin","Christopher Mantis","Dibaji Walker","Tamell Pearson","Carvell Teasett","Michael Eads Jr.","Zocko Littleton","Bryant Greene","Andrew Muse"],"rows":[]};
+LINEUPS_ADD["App State"] = {"players":["Donovan Gregory","Terence Harcum","CJ Huntley","Justin Abson","Xavion Brown","Tyree Boykin","Christopher Mantis","Dibaji Walker","Tamell Pearson","Carvell Teasett","Michael Eads Jr.","Zocko Littleton","Andrew Muse","Bryant Greene"],"rows":[]};

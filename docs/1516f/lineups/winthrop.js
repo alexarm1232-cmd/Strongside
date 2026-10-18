@@ -1,0 +1,1 @@
+LINEUPS_ADD["Winthrop"] = {"players":["Keon Johnson","Jimmy Gavin","Bjorn Broman","Xavier Cooks","Josh Davenport","Zach Price","Duby Okeke","Roderick Perkins","Adam Pickett","Jarad Scott","Freddy Poole","Hunter Sadlon","Mitch Hill","Kellen Blake"],"rows":[]};

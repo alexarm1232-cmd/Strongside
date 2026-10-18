@@ -1,0 +1,1 @@
+LINEUPS_ADD["UCLA"] = {"players":["Bryce Alford","Isaac Hamilton","Aaron Holiday","Thomas Welsh","Tony Parker","Jonah Bolden","Prince Ali","Gyorgy Goloman","Alex Olesinski","Noah Allen","Ikenna Okwarabizie","Jerrold Smith","Alec Wulff"],"rows":[]};

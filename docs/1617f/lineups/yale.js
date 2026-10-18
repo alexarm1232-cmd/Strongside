@@ -1,0 +1,1 @@
+LINEUPS_ADD["Yale"] = {"players":["Miye Oni","Anthony Dallier","Sam Downey","Blake Reynolds","Alex Copeland","Trey Phills","Jordan Bruner","Eric Monroe","Austin Williams","Eric Anderson","Noah Yates","Thomas Ryan","Landon Russell"],"rows":[]};

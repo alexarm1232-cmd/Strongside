@@ -1,0 +1,1 @@
+LINEUPS_ADD["Chicago St."] = {"players":["Trayvon Palmer","Fred Sims, Jr.","Clemmye Owens V","Delundre Dixon","Joshua Batson","Patrick Szpir","Deionte Simmons","Anthony Eaves","Brian Greene, Jr.","Glen Burns","Montana Byrd","Alex Dubovitskiy","Gentry Hunt"],"rows":[]};

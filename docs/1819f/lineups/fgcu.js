@@ -1,1 +1,1 @@
-LINEUPS_ADD["FGCU"] = {"players":["Schadrac Casimir","Christian Carlyle","Zach Scott","Dinero Mercurius","Troy Baxter Jr","Caleb Catto","Brian Thomas","Brady Ernst","RaySean Scott Jr.","Decardo Day","Haanif Cheatham","Ricky Doyle","Dolan Mahoney","Kyle Hoffman","Ryan Rocuant"],"rows":[]};
+LINEUPS_ADD["FGCU"] = {"players":["Schadrac Casimir","Christian Carlyle","Zach Scott","Dinero Mercurius","Troy Baxter Jr","Caleb Catto","Brian Thomas","Brady Ernst","RaySean Scott Jr.","Decardo Day","Haanif Cheatham","Ricky Doyle","Dolan Mahoney","Ryan Rocuant","Kyle Hoffman"],"rows":[]};

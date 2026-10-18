@@ -1,0 +1,1 @@
+LINEUPS_ADD["UC Riverside"] = {"players":["Jaylen Bland","Secean Johnson","Malik Thames","Alex Larsson","Taylor Johns","Gentrey Thomas","Steven Jones","Menno Dijkstra","Robert Boezeman","DJ Sylvester","Primitivo Gomez","Eric Rwahwire","Koh Flippin","Brady Anderson"],"rows":[]};

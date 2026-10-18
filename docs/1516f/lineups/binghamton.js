@@ -1,0 +1,1 @@
+LINEUPS_ADD["Binghamton"] = {"players":["Marlon Beck II","Willie Rodriguez","Everson Davis","Thomas Bruce","Justin McFadden","Dusan Perovic","Bobby Ahearn","Timmy Rose","John Rinaldi","John Schurman","Romello Walker","Jordan McRae"],"rows":[]};

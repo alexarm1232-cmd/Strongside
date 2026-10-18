@@ -1,0 +1,1 @@
+LINEUPS_ADD["UC Santa Barbara"] = {"players":["Eric Childress","Alex Hart","Gabe Vincent","Clifton Powell","Max Heidegger","Christian Terrell","Maxwell Kupchak","J.D. Slajchert","Jarriesse Blackmon","Jalen Canty","Ami Lakoju","Sam Walters","Tide Osifeso","Tyler Jackson","Felix White","Andrew Pickles"],"rows":[]};

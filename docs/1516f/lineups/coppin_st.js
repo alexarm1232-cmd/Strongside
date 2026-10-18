@@ -1,0 +1,1 @@
+LINEUPS_ADD["Coppin St."] = {"players":["Christian Kessee","Terry Harris Jr","Keith Shivers","Trevon Seymore","Joshua Treadwell","James Sylvester","Blake Simpson","Lucian Brownlee","Lawrence Fejokwu","Izais Hicks","Mufaro Murinda","Jerimyiah Batts","Derek Armstrong"],"rows":[]};

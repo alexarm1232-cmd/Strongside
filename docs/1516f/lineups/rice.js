@@ -1,0 +1,1 @@
+LINEUPS_ADD["Rice"] = {"players":["Egor Koulechov","Max Guercy","Marcus Evans","Connor Cashaw","Bishop Mency","Marquez Letcher-Ellis","Andrew Drone","Amir Smith","Oliver Xu","Nate Pollard","Harrison Brown"],"rows":[]};

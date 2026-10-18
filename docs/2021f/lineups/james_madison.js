@@ -1,1 +1,1 @@
-LINEUPS_ADD["James Madison"] = {"players":["Matt Lewis","Vado Morse","Justin Amadi","Terell Strickland","Julien Wooden","Terrence Edwards Jr.","Jalen Hodge","Michael Christmas","Zach Jacobs","Jayvis Harvey","Joel Mensah","Trevon Taylor","Hollman Smith","Tyce McNair"],"rows":[]};
+LINEUPS_ADD["James Madison"] = {"players":["Matt Lewis","Vado Morse","Justin Amadi","Terell Strickland","Julien Wooden","Terrence Edwards Jr.","Jalen Hodge","Michael Christmas","Zach Jacobs","Jayvis Harvey","Joel Mensah","Trevon Taylor","Tyce McNair","Hollman Smith"],"rows":[]};

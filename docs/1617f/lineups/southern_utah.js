@@ -1,0 +1,1 @@
+LINEUPS_ADD["Southern Utah"] = {"players":["Randy Onwuasor","James McGee","John Marshall","Ivan Madunic","Jacob Calloway","Brayden Holker","Christian Musoko","Will Joyce","Race Parsons","Decardo Day","Matthew Johnson","Neema Namdar","Joel Swallow","Adonis Saltes"],"rows":[]};

@@ -1,0 +1,1 @@
+LINEUPS_ADD["Hawaii"] = {"players":["Jack Purchase","Noah Allen","Sheriff Drammeh","Brocke Stepteau","Gibson Johnson","Leland Green","Zigmars Raimo","Ido Flaisher","Matthew Owies","Larry Lewis, Jr.","Zach Buscher","Brian Garrett","Darryl Matthews"],"rows":[]};

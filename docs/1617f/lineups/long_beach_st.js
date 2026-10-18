@@ -1,0 +1,1 @@
+LINEUPS_ADD["Long Beach St."] = {"players":["Justin Bibbins","Evan Payne","Roschon Prince","Noah Blackwell","Temidayo Yussuf","Loren Cristian Jackson","Mason Riggins","Gabe Levin","Jordan Griffin","Javonntie Jackson","Barry Ogalue","L.J. Williams","Anson Moye","Quentin Shropshire","Alex Rifkind"],"rows":[]};

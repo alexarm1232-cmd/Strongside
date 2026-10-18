@@ -1,0 +1,1 @@
+LINEUPS_ADD["N.C. A&T"] = {"players":["Ahmad Abdullah","Sam Hunt","Bruce Beckford","Ede Egharevba","Denzel Keyes","Steven Burrough","Joshea Singleton","Khary Doby","James Whitaker","Nick Reese","Austin Williams","Jamin Lackey","Deion James","Arturs Bremers","Mike Owona","Martin Jones","Julien Johnson"],"rows":[]};

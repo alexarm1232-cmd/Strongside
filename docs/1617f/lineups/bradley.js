@@ -1,0 +1,1 @@
+LINEUPS_ADD["Bradley"] = {"players":["Darrell Brown","Jojo McGlaston","Koch Bar","Donte Thomas","Jayden Hodgson","Luuk van Bree","Dwayne Lautier-Ogunleye","Nate Kennell","Antoine Pittman","Callum Barker","Ronnie Suggs","Alex Foster","Peter Hanley","Lou Griffith"],"rows":[]};

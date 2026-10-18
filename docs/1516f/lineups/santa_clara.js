@@ -1,0 +1,1 @@
+LINEUPS_ADD["Santa Clara"] = {"players":["Jared Brownridge","KJ Feagin","Nate Kratch","Kai Healy","Matt Hauser","Matt Hubbard","Emmanuel Ndumanya","Henrik Jadersten","Brendyn Taylor","Jarvis Pugh","Evan Wardlow","Werner Nistler","Bryson Lockley"],"rows":[]};

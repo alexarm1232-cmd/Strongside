@@ -1,0 +1,1 @@
+LINEUPS_ADD["TCU"] = {"players":["Brandon Parrish","Chauncey Collins","Malique Trent","Michael Williams","Vladimir Brodziansky","JD Miller","Karviar Shepherd","Chris Washburn","Devonta Abron","Lyrik Shreiner","Dalton Dry"],"rows":[]};

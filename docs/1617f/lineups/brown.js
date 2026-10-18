@@ -1,0 +1,1 @@
+LINEUPS_ADD["Brown"] = {"players":["Steven Spieth","Obi Okolie","Tavon Blackmon","Brandon Anderson","Joshua Howard","Travis Fuller","JR Hobbie","Corey Daugherty","Chris Sullivan","Patrick Triplett","David Erebor","Kyle Haber","Blake Wilkinson","Miki Ljuboja","Brandon Charnov"],"rows":[]};

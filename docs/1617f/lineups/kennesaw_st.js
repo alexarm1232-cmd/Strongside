@@ -1,0 +1,1 @@
+LINEUPS_ADD["Kennesaw St."] = {"players":["Kendrick Ray","Aubrey Williams","Nick Masterson","Kyle Clarke","Jordan Jones","Johannes Nielsen","Tyler Hooker","Zach Cameron","Anthony Wilson","Josh Burnett","Kosta Jankovic","Isaac Mbuyamba","James Scott"],"rows":[]};

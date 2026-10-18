@@ -1,0 +1,1 @@
+LINEUPS_ADD["Illinois"] = {"players":["Malcolm Hill","Kendrick Nunn","Jalen Coleman-Lands","Khalid Lewis","Maverick Morgan","Michael Finke","Jaylon Tate","Aaron Jordan","D.J. Williams","Alex Austin","Mike Thorne Jr.","Leron Black","Cameron Liss"],"rows":[]};

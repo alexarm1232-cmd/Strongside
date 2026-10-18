@@ -1,0 +1,1 @@
+LINEUPS_ADD["Delaware St."] = {"players":["Devin Morgan","Deandre Haywood","Dana Raysor","Kavon Waller","Todd Hughes","Demola Onifade","Joseph Lewis","DeVaughn Mallory","Aric Dickerson","Artem Tavakalyan","Gasevic Mrdjan","Jason Owens","Scott Sill","Cahli Thomas","Malik Carter","Mahir Johnson","Jamelle Christian"],"rows":[]};

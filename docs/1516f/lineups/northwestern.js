@@ -1,0 +1,1 @@
+LINEUPS_ADD["Northwestern"] = {"players":["Tre Demps","Bryant McIntosh","Aaron Falzon","Sanjay Lumpkin","Alex Olah","Scottie Lindsey","Gavin Skelly","Dererk Pardon","Joey van Zegeren","Nathan Taphorn","Jordan Ash","Charlie Hall"],"rows":[]};

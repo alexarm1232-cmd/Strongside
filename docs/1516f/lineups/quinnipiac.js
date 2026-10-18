@@ -1,0 +1,1 @@
+LINEUPS_ADD["Quinnipiac"] = {"players":["Giovanni McLean","James Ford, Jr.","Daniel Harris","Abdulai Bundu","Chaise Daniels","Donovan Smith","Ayron Hutton","George Dimitri Floras","Samuel Dingba","Will Simonton","Andrew Robinson","Alain Chigha","Aaron Robinson","Jemaa Yuori"],"rows":[]};

@@ -1,0 +1,1 @@
+LINEUPS_ADD["Col. of Charleston"] = {"players":["Cameron Johnson","Marquise Pointer","Payton Hulsey","Jarrell Brantley","Evan Bailey","Nick Harris","Canyon Barry","Terrance O'Donohue","James Bourne","Donovan Gilmore","Harrison Bowne","John Eck","Tim Branin II"],"rows":[]};

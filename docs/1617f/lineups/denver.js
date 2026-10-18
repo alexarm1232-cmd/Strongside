@@ -1,0 +1,1 @@
+LINEUPS_ADD["Denver"] = {"players":["Joe Rosga","Jake Pemberton","Thomas Neff","C.J. Bobbitt","Daniel Amigo","Jake Krafka","Christian Mackey","Bradley George","Ade Murkey","Duke Douglas","Abiola Akintola","Luke Neff","Emil Knighton","Josiah Dunn","Jacob Lunsford"],"rows":[]};

@@ -1,0 +1,1 @@
+LINEUPS_ADD["North Dakota St."] = {"players":["A.J. Jacobson","Khy Kabellis","Paul Miller","Kory Brown","Carlin Dupree","Dexter Werner","Malik Clements","Chris Kading","Dylan Miller","Brian Ishola","Spencer Eliason","Trey Miller","Deng Geu","Zach Rammelt"],"rows":[]};

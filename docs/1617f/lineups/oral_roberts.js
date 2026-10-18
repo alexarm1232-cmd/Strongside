@@ -1,0 +1,1 @@
+LINEUPS_ADD["Oral Roberts"] = {"players":["Jalen Bradley","Albert Owens","Kris Martin","Aaron Anderson","Emmanuel Nzekwesi","Aaron Young","Darian Harris","Christopher Miller","Jontray Harris","Dezmond McDaniel","Isaac Gilliam","Javan White"],"rows":[]};

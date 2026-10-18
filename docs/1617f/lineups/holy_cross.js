@@ -1,0 +1,1 @@
+LINEUPS_ADD["Holy Cross"] = {"players":["Malachi Alexander","Anthony Thompson","Robert Champion","Karl Charles","Patrick Benzan","Matt Husek","Jehyve Floyd","Matt Zignorski","Clayton Le","Thomas Kennedy","Jack Stevens","Patrick Rielly","Will Powers","Rory Flaherty","Tyrone Cohen","Marcellis Perkins"],"rows":[]};

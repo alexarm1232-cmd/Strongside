@@ -1,0 +1,1 @@
+LINEUPS_ADD["Western Mich."] = {"players":["Thomas Wilder","Tucker Haymond","Bryce Moore","Reggie Jones","Brandon Johnson","Seth Dugan","Drake LaMont","Jarrin Randall","Josh Davis","Jared Printy","Adida Ikongshul","Joeviair Kennedy","Maxwell Omili"],"rows":[]};

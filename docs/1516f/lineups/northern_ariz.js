@@ -1,0 +1,1 @@
+LINEUPS_ADD["Northern Ariz."] = {"players":["Ako Kaluna","Kris Yanku","Marcus DeBerry","Torry Johnson","Mike Green","Felix Rivera-Vega","Corey Brown","Isaiah Thomas","Jaleni Neely","Brady Twombly","Kye de Laveaga","Jordyn Martin","Junior Searcy","Steven Stanley","Austin Lee","Omar Ndiaye","Alessandro Stecca"],"rows":[]};

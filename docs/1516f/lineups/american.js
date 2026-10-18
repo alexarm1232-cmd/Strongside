@@ -1,0 +1,1 @@
+LINEUPS_ADD["American"] = {"players":["Jesse Reed","Delante Jones","Marko Vasic","James Washington","Charlie Jones","Paris Maragkos","Andrija Matic","Jalen Rhea","Lonnie Rivera","Leon Tolksdorf","Alex Paquin","Gabe Brown"],"rows":[]};

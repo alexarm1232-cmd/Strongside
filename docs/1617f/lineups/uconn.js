@@ -1,0 +1,1 @@
+LINEUPS_ADD["UConn"] = {"players":["Rodney Purvis","Jalen Adams","Kentan Facey","Christian Vital","Vance Jackson","Amida Brimah","Steven Enoch","Juwan Durham","Terry Larrier","Alterique Gilbert","Michael Noyes","Christian Foxen","Restinel Lomotey","Omotayo Aiyegbusi"],"rows":[]};

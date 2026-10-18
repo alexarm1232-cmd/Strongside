@@ -1,7 +1,7 @@
 # Strongside: college basketball ratings and simulators
 
 A KenPom-style site for NCAA Division I men's basketball, built game by game from box scores and play-by-play.
-Live at https://alexarm1232-cmd.github.io/Strongside/ . Seasons 2017-18 through 2025-26 are built; the data
+Live at https://alexarm1232-cmd.github.io/Strongside/ . Seasons 2015-16 through 2025-26 are built; the data
 collection reaches back to 2009-10.
 
 ## What the site has
@@ -15,7 +15,7 @@ collection reaches back to 2009-10.
   offensive rebounds + turnovers forced minus the opponent's.
 - **Game sim**: any two teams played possession by possession, thousands of times.
 - **Tournament sim**: fill or load a 64-team bracket and play it out; the perfect-bracket chase on the real
-  brackets (2018, 2019, 2021-2026); a projected field from the ratings for any season (2020 had no tournament).
+  brackets (2016-2019, 2021-2026); a projected field from the ratings for any season (2020 had no tournament).
 - **Pre-tournament / full season** views, a season picker, a Spread report (2025-26), and a Stat guide.
 ---
 
@@ -34,11 +34,11 @@ basketball/
 │   ├── ncaa stats/            # the stats.ncaa.org scraper (ncaa_scraper.py) and the CSVs it collects
 │   ├── ncaa stats converted/  # those CSVs turned into per-team play-by-play (tools\ncaa_stats_reader.py)
 │   └── removed non-D1/<code>/ # games against non-Division I teams, set aside
-├── collect/<code>[ full]/     # the numbered scripts that download one season's data:  python "collect\2425\5rosterfetch.py"
+├── collect/<code>[ full]/     # one season's roster scripts (5rosterfetch, 7rostertrim); _template is what new seasons copy
 ├── tools/                     # build_from_ncaa_stats (a whole season from the scraped files, start to finish),
-│   │                          #   make_site, make_season_codes, ncaa_stats_reader/_season,
-│   │                          #   use_ncaa_stats, postseason, fix_team_totals, copy_rosters, kaggle_plays, run_*.ps1
-│   └── one-off runs/          # runners used once (kept for reference)
+│                              #   make_season_codes (set up a season), transition_rosters (last season's roster for
+│                              #   teams new to Division I, from their own athletics sites), ncaa_stats_reader/_season,
+│                              #   use_ncaa_stats, copy_rosters, make_site, plus kaggle_plays and run_seasons.ps1 (older way)
 ├── logs/                      # output of the long runs
 ├── requirements.txt
 └── README.md

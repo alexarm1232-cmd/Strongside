@@ -1,0 +1,1 @@
+LINEUPS_ADD["UMES"] = {"players":["Dominique Elliott","Devin Martin","Bakari Copeland","Ryan Andino","Thomas Rivera","Derrico Peck","Dontae Caldwell","Ahmad Frost","Mark Blackmon","Shane Randall","Isaac Taylor","Marc Seylan","Joshu'A Warren","Stephen Spurlock","Maurice Coleman"],"rows":[]};

@@ -1,0 +1,1 @@
+LINEUPS_ADD["Idaho St."] = {"players":["Ethan Telfair","Ben Wilson","Geno Luzcando","Kyle Ingram","Gary Chivichyan","Novak Topalovic","Ali Faruq-Bey","Erik Nakken","Stephen Lennox","Clint Nwosuh","Evann Hall","Justin Smith","Brandon Boyd","Spencer Nicolds"],"rows":[]};

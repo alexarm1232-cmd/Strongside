@@ -1,0 +1,1 @@
+LINEUPS_ADD["NC State"] = {"players":["Dennis Smith, Jr.","Terry Henderson","Abdul-Malik Abu","Torin Dorn","Maverick Rowan","Markell Johnson","Omer Yurtseven","Beejay Anya","Ted Kapita","Darius Hicks","Shaun Kirk","Chris Brickhouse"],"rows":[]};

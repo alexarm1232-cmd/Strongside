@@ -1,0 +1,1 @@
+LINEUPS_ADD["Loyola Chicago"] = {"players":["Milton Doyle","Ben Richardson","Clayton Custer","Donte Ingram","Aundre Jackson","Bruno Skokna","Cameron Satterwhite","Maurice Kirby","Vlatko Granic","Tyson Smith","Glorind Lisha","Matt Chastain","Byron Burt","Jake Baughman","Nick DiNardi","Cameron Woodyard"],"rows":[]};

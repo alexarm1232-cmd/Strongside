@@ -1,0 +1,1 @@
+LINEUPS_ADD["Arkansas St."] = {"players":["Rashad Lindsey","Devin Carter","Donte Thomas","Deven Simms","C.J. Foster","Connor Kern","Tamas Bruce","Jahmiah Simmons","Salif Boudie","Nelson Nweke","Christian Willis","Andrew Riley","Christian Davis"],"rows":[]};

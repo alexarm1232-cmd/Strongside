@@ -1,0 +1,1 @@
+LINEUPS_ADD["SIUE"] = {"players":["Burak Eslik","Carlos Anderson","C.J. Carr","Keenan Simmons","Yemi Makanjuola","Jalen Henry","Grant Fiorentinos","Jake Newton","Michael Chandler","Connor Wheeler","Devin Thornton","Josh White"],"rows":[]};

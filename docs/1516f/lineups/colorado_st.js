@@ -1,0 +1,1 @@
+LINEUPS_ADD["Colorado St."] = {"players":["Joe De Ciman","John Gillon","Antwan Scott","Dantiel Daniels","Emmanuel Omogbo","J.D. Paige","Prentiss Nixon","Fred Richardson III","Gian Clavell","Kimani Jackson","Toby Van Ry"],"rows":[]};

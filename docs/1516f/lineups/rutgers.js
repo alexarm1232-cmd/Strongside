@@ -1,0 +1,1 @@
+LINEUPS_ADD["Rutgers"] = {"players":["Corey Sanders","Bishop Daniels","Mike Williams","D.J. Foreman","Greg Lewis","Jonathan Laurent","Omari Grier","Justin Goode","Ibrahima Diallo","Deshawn Freeman","Jade Dadika","Khalil Batie","Jalen Hyde"],"rows":[]};

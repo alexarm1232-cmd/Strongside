@@ -1,0 +1,1 @@
+LINEUPS_ADD["DePaul"] = {"players":["Eli Cain","Tre'Darius McCallum","Billy Garrett Jr.","Brandon Cyrus","Joe Hanel","Chris Harrison-Docks","Devin Gage","Levi Cook","Al Eichelberger","Darrick Wood","R.J. Curington","Erten Gazi"],"rows":[]};

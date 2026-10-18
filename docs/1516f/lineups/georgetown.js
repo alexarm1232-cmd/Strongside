@@ -1,0 +1,1 @@
+LINEUPS_ADD["Georgetown"] = {"players":["D'Vauntes Smith-Rivera","Isaac Copeland","L.J. Peak","Marcus Derrickson","Tre Campbell","Jessie Govan","Bradley Hayes","Reggie Cameron","Kaleb Johnson","Trey Mourning","Paul White","Riyan Williams"],"rows":[]};

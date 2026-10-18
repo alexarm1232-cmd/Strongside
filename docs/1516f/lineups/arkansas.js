@@ -1,0 +1,1 @@
+LINEUPS_ADD["Arkansas"] = {"players":["Moses Kingsley","Anthlon Bell","Jabril Durham","Dusty Hannahs","Manuale Watkins","Jimmy Whitt","Trey Thompson","Anton Beard","Keaton Miles","Willy Kouassi","Lorenzo Jenkins","Jake Mosiman"],"rows":[]};

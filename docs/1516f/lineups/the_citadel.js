@@ -1,0 +1,1 @@
+LINEUPS_ADD["The Citadel"] = {"players":["Warren Sledge","Derrick Henry","Quinton Marshall","P.J. Boutte","Zane Najdawi","Quayson Williams","Brian White","Tim Broom","Connor Schroeder","Matt Frierson","Tom Koopman","Bobby Duncan","Qwandell Newton","Tommy Olds"],"rows":[]};

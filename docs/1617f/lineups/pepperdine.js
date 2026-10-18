@@ -1,0 +1,1 @@
+LINEUPS_ADD["Pepperdine"] = {"players":["Lamond Murray Jr.","Jeremy Major","Chris Reyes","Elijah Lee","Nolan Taylor","Knox Hellums","Jonathan Allen","Nate Gehring","Craig LeCesne","Ryan Keenan","Kevin Hempy","Amadi Udenyi","Kaijae Yee-Stephens","Caleb Martin"],"rows":[]};

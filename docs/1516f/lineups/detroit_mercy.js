@@ -1,0 +1,1 @@
+LINEUPS_ADD["Detroit Mercy"] = {"players":["Anton Wilson","Chris Jenkins","Paris Bass","Jaleel Hogan","Josh McFolley","Carlton Brundidge","Gerald Blackshear","Jarod Williams","Matthew Grant","Aaron Foster-Smith","Jalen Gibson","Patrick Robinson"],"rows":[]};

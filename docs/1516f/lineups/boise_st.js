@@ -1,0 +1,1 @@
+LINEUPS_ADD["Boise St."] = {"players":["Mikey Thompson","Nick Duncan","James Webb III","Anthony Drmic","Lonnie Jackson","Chandler Hutchison","Montigo Alford","Paris Austin","Zach Haney","Robin Jorch","David Wacker"],"rows":[]};

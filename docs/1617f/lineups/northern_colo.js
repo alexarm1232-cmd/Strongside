@@ -1,0 +1,1 @@
+LINEUPS_ADD["Northern Colo."] = {"players":["Jonah Radebaugh","Jordan Davis","DJ Miles","Chaz Glotta","Jon'Te Dotson","Kai Edwards","Ibrahim Sylla","Roberto Vercellino","Tyler Loose","Kyle Carey","Gerad Davis","Mike Ranson"],"rows":[]};

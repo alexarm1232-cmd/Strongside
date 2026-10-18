@@ -1,0 +1,1 @@
+LINEUPS_ADD["UMBC"] = {"players":["Joe Sherburne","Will Darley","Rodney Elliott","Jourdan Grant","Jairus Lyles","Cody Joyce","Joel Wincowski","Sam Schwietz","Nolan Gerrity","Daquon Ervin","Malcolm L. Brent","Ben Grace","Ishmail Jabbie","Jakob Stenhede"],"rows":[]};

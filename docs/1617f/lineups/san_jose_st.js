@@ -1,0 +1,1 @@
+LINEUPS_ADD["San Jose St."] = {"players":["Brandon Clarke","Ryan Welage","Jalen James","Isaac Thornton","Jaycee Hillsman","Terrell Brown","Isaiah Nichols","Cody Schwartz","Brandon Mitchell","Gary Williams Jr.","EJ Boyce","Ryan Singer","Ashtin Chastain","Nai Carlisle"],"rows":[]};

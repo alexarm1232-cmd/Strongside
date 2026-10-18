@@ -1,0 +1,1 @@
+LINEUPS_ADD["Cal St. Fullerton"] = {"players":["Tre' Coggins","Khalil Ahmad","Jamar Akoh","Lionheart Leslie","Malcolm Brooks","Kyle Allman Jr.","Kennedy Esume","Malcolm Henderson","Tim Myles","Lanerryl Johnson","Sheldon Blackwell","Rashard Todd","Jamal Smith"],"rows":[]};

@@ -1,0 +1,1 @@
+LINEUPS_ADD["Wofford"] = {"players":["Eric Garcia","Fletcher Magee","Ryan Sawvell","Nathan Hoover","Cameron Jackson","Matt Pegram","Jaylen Allen","Derrick Brooks","Justin Tucker","Donovan Theme-Love","Dishon Lowery","Kevon Tucker","Eric Wagenlander","Trevor Stumpe"],"rows":[]};

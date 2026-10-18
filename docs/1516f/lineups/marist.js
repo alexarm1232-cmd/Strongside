@@ -1,0 +1,1 @@
+LINEUPS_ADD["Marist"] = {"players":["Khallid Hart","Kristinn Palsson","Brian Parker","Isaiah Lamb","Eric Truog","Ryan Funk","Kentrall Brooks","David Knudsen","K.J. Lee","Phillip Lawrence-Ricks","Connor McClenaghan","Obi Momah","Courtney Clyburn","Kyle Daugherty"],"rows":[]};

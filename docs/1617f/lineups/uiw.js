@@ -1,0 +1,1 @@
+LINEUPS_ADD["UIW"] = {"players":["Jalin Hart","Shawn Johnson","Simi Socks","Tyler Singleton","Sam Burmeister","Jorden Kite","Devin Wyatt","Miles Bankes","Jerred Kite","Phillip Johnson","Myles Thornton","Christian Peevy","Marek Hulva","Evan Beucler"],"rows":[]};

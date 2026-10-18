@@ -1,0 +1,1 @@
+LINEUPS_ADD["Georgia St."] = {"players":["Kevin Ware","Jeremy Hollowell","Markus Crider","T.J. Shipes","Isaiah Williams","Isaiah Dennis","Jeff Thomas","Jordan Session","Malik Benlevi","Austin Donaldson","Jalen Brown","Carter Cagle","Alario Harris"],"rows":[]};

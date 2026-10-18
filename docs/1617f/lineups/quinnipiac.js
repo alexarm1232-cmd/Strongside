@@ -1,0 +1,1 @@
+LINEUPS_ADD["Quinnipiac"] = {"players":["Peter Kiss","Mikey Dixon","Chaise Daniels","Daniel Harris","Reggie Oliver","Abdulai Bundu","Phil Winston","Donovan Smith","Andrew Robinson","Alain Chigha","Greg Tarca","Cameron Young","Jakwan Jones"],"rows":[]};

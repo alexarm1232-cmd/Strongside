@@ -1,1 +1,1 @@
-LINEUPS_ADD["Air Force"] = {"players":["Ethan Taylor","Kellan Boylan","Jeffrey Mills","Beau Becker","Rytis Petraitis","Byron Brown","Chase Beasley","Luke Kearney","Corbin Green","Kolby Gilles","Wesley Celichowski","Brady Ruggles","Wyatt Boeker","Caleb Walker"],"rows":[]};
+LINEUPS_ADD["Air Force"] = {"players":["Ethan Taylor","Kellan Boylan","Jeffrey Mills","Beau Becker","Rytis Petraitis","Byron Brown","Chase Beasley","Luke Kearney","Corbin Green","Kolby Gilles","Wesley Celichowski","Brady Ruggles","Caleb Walker","Wyatt Boeker"],"rows":[]};

@@ -1,0 +1,1 @@
+LINEUPS_ADD["Hartford"] = {"players":["J.R. Lynch","Jason Dunne","Jalen Ross","Jack Hobbs","Hassan Attia","George Blagojevic","Andrew Ramirez","John Carroll","Trevaughn Wilkerson","Max Twyman","Nikola Colovic","Mark Plousis","Jake Fay"],"rows":[]};
