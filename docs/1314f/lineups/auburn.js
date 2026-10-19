@@ -1,1 +1,1 @@
-LINEUPS_ADD["Auburn"] = {"players":["KT Harrell","Chris Denson","Tahj Shamsid-Deen","Allen Payne","Asauhn Dixon-Tatum","Malcolm Canada","Matthew Atewe","Dion Wade","Jordon Granger","Alex Thompson","Chris Griffin","Benas Griciunas","Devin Waddell","C.J. Holmes"],"rows":[]};
+LINEUPS_ADD["Auburn"] = {"players":["KT Harrell","Chris Denson","Tahj Shamsid-Deen","Allen Payne","Asauhn Dixon-Tatum","Malcolm Canada","Matthew Atewe","Dion Wade","Jordon Granger","Alex Thompson","Chris Griffin","Benas Griciunas","C.J. Holmes","Devin Waddell"],"rows":[]};

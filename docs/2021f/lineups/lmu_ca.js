@@ -1,1 +1,1 @@
-LINEUPS_ADD["LMU (CA)"] = {"players":["Eli Scott","Jalin Anderson","Joe Quintana","Ivan Alipiev","Mattias Markusson","Keli Leaupepe","Dameane Douglas","Parker Dortch","Kodye Pugh","Quentin Jackson, Jr.","Lazar Nekic","L Simpson","Anthony Yu","Luke Frasso"],"rows":[]};
+LINEUPS_ADD["LMU (CA)"] = {"players":["Eli Scott","Jalin Anderson","Joe Quintana","Ivan Alipiev","Mattias Markusson","Keli Leaupepe","Dameane Douglas","Parker Dortch","Kodye Pugh","Quentin Jackson, Jr.","Lazar Nekic","L Simpson","Luke Frasso","Anthony Yu"],"rows":[]};

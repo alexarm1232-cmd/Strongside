@@ -1,1 +1,1 @@
-LINEUPS_ADD["Charlotte"] = {"players":["Pierria Henry","Braxton Ogbueze","Torin Dorn","Mike Thorne Jr.","Terrence Williams","Keyshawn Woods","Willie Clayton","Ivan Benkovic","Bernard Sullivan","Cameron Blakley","Gavin Wilson","Cameron Pappas","Reid Aube","Mitch Warner"],"rows":[]};
+LINEUPS_ADD["Charlotte"] = {"players":["Pierria Henry","Braxton Ogbueze","Torin Dorn","Mike Thorne Jr.","Terrence Williams","Keyshawn Woods","Willie Clayton","Ivan Benkovic","Bernard Sullivan","Cameron Blakley","Reid Aube","Cameron Pappas","Gavin Wilson","Mitch Warner"],"rows":[]};

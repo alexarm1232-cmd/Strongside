@@ -1,1 +1,1 @@
-LINEUPS_ADD["Merrimack"] = {"players":["Adam Clark","Sean Trumper","Devon Savage","Matt Becht","Bryan Etumnu","Tye Dorset","Malik Edmead","Armandas Plintauskas","David Murray","Christian Foy","Elliott Black","Liam Price","Edrick Quezada"],"rows":[]};
+LINEUPS_ADD["Merrimack"] = {"players":["Adam Clark","Sean Trumper","Devon Savage","Matt Becht","Bryan Etumnu","Tye Dorset","Malik Edmead","Armandas Plintauskas","David Murray","Elliott Black","Christian Foy","Liam Price","Edrick Quezada"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["Ohio St."] = {"players":["Bruce Thornton","Micah Parrish","Devin Royal","John Mobley Jr.","Evan Mahaffey","Sean Stewart","Ques Glover","Aaron Bradshaw","Meechie Johnson Jr.","Colin White","Austin Parks","Ivan Njegovan","Kalen Etzler","Colby Baumann","Braylen Nash"],"rows":[]};
+LINEUPS_ADD["Ohio St."] = {"players":["Bruce Thornton","Micah Parrish","Devin Royal","John Mobley Jr.","Evan Mahaffey","Sean Stewart","Ques Glover","Aaron Bradshaw","Meechie Johnson Jr.","Colin White","Austin Parks","Ivan Njegovan","Colby Baumann","Kalen Etzler","Braylen Nash"],"rows":[]};

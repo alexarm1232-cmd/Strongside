@@ -1,1 +1,1 @@
-LINEUPS_ADD["Penn St."] = {"players":["Lamar Stevens","Josh Reaves","Myles Dread","Rasir Bolton","Jamari Wheeler","Mike Watkins","John Harrar","Myreon Jones","Trent Buttrick","Kyle McCloskey","Deivis Zemgulis","Daniil Kasatkin","Grant Hazle","Taylor Nussbaum"],"rows":[]};
+LINEUPS_ADD["Penn St."] = {"players":["Lamar Stevens","Josh Reaves","Myles Dread","Rasir Bolton","Jamari Wheeler","Mike Watkins","John Harrar","Myreon Jones","Trent Buttrick","Kyle McCloskey","Deivis Zemgulis","Daniil Kasatkin","Taylor Nussbaum","Grant Hazle"],"rows":[]};

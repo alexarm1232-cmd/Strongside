@@ -1,1 +1,1 @@
-LINEUPS_ADD["UTRGV"] = {"players":["Brandon Provost","Aaron Urbanus","Jesus Delgado","Justin Leathers","Lauri Toivonen","Ruben Cabrera","Shaquille Hines","Jamal Dantzler","Josh Cleveland","Demarko Nash","Hurley Johnson","Noe Espericueta"],"rows":[]};
+LINEUPS_ADD["UTRGV"] = {"players":["Brandon Provost","Aaron Urbanus","Jesus Delgado","Justin Leathers","Lauri Toivonen","Shaquille Hines","Ruben Cabrera","Jamal Dantzler","Josh Cleveland","Demarko Nash","Hurley Johnson","Noe Espericueta"],"rows":[]};

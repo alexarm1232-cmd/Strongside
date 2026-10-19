@@ -1,1 +1,1 @@
-LINEUPS_ADD["Washington"] = {"players":["Keion Brooks Jr.","Sahvir Wheeler","Moses Wood","Paul Mulcahy","Koren Johnson","Braxton Meah","Wilhelm Breidenbach","Anthony Holland","Franck Kepnang","Nate Calmese","Nehemie Kabeya","Samuel Ariyibi","Will Landram","Sam Slutske"],"rows":[]};
+LINEUPS_ADD["Washington"] = {"players":["Keion Brooks Jr.","Sahvir Wheeler","Moses Wood","Paul Mulcahy","Koren Johnson","Braxton Meah","Wilhelm Breidenbach","Anthony Holland","Franck Kepnang","Nate Calmese","Samuel Ariyibi","Nehemie Kabeya","Will Landram","Sam Slutske"],"rows":[]};

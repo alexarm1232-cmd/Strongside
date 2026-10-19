@@ -1,1 +1,1 @@
-LINEUPS_ADD["Quinnipiac"] = {"players":["Zaid Hearst","Ousmane Drame","Evan Conti","Justin Harris","Ayron Hutton","James Ford, Jr.","Kasim Chandler","Chaise Daniels","George Dimitri Floras","Alain Chigha","Samuel Dingba","Samir Kalil","Greg Tarca","Emanuel Binyam","Aj Sumbry"],"rows":[]};
+LINEUPS_ADD["Quinnipiac"] = {"players":["Zaid Hearst","Ousmane Drame","Evan Conti","Justin Harris","Ayron Hutton","James Ford, Jr.","Kasim Chandler","Chaise Daniels","George Dimitri Floras","Alain Chigha","Samuel Dingba","Samir Kalil","Emanuel Binyam","Greg Tarca","Aj Sumbry"],"rows":[]};

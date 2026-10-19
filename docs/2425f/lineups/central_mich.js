@@ -1,1 +1,1 @@
-LINEUPS_ADD["Central Mich."] = {"players":["Anthony Pritchard","Jakobi Heady","Cayden Vasko","Kyler Vanderjagt","Ugnius Jarusevicius","Bryan Ndjonga","Damarion Bonds","Quentin Heady","Shaedon Simpson","Hunter Harding","DeCorion Temple","Drew Barbee","Mohammad Habhab"],"rows":[]};
+LINEUPS_ADD["Central Mich."] = {"players":["Jakobi Heady","Anthony Pritchard","Cayden Vasko","Kyler Vanderjagt","Ugnius Jarusevicius","Bryan Ndjonga","Damarion Bonds","Quentin Heady","Shaedon Simpson","Hunter Harding","DeCorion Temple","Drew Barbee","Mohammad Habhab"],"rows":[]};

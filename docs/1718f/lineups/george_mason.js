@@ -1,1 +1,1 @@
-LINEUPS_ADD["George Mason"] = {"players":["Otis Livingston II","Justin Kier","Goanar Mar","Jaire Grayer","Ian Boyd","Greg Calixte","Javon Greene","AJ Wilson","Zach Garrett","Nick DiClementi","Jack Tempchin"],"rows":[]};
+LINEUPS_ADD["George Mason"] = {"players":["Otis Livingston II","Justin Kier","Goanar Mar","Jaire Grayer","Ian Boyd","Greg Calixte","Javon Greene","AJ Wilson","Nick DiClementi","Zach Garrett","Jack Tempchin"],"rows":[]};

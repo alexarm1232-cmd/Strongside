@@ -1,1 +1,1 @@
-LINEUPS_ADD["Loyola Maryland"] = {"players":["Deon Perry","David Brown III","Milos Ilic","Tyson Commander","Golden Dike","Alonso Faure","D'Angelo Stines","Garrett Brennan","Jordan Stiemke","Chris Kuzemka","Samuel Gibbs","Troy Cicero Jr.","Charlie Weisberg","Peter Sposito"],"rows":[]};
+LINEUPS_ADD["Loyola Maryland"] = {"players":["Deon Perry","David Brown III","Milos Ilic","Tyson Commander","Golden Dike","Alonso Faure","D'Angelo Stines","Garrett Brennan","Jordan Stiemke","Chris Kuzemka","Samuel Gibbs","Troy Cicero Jr.","Peter Sposito","Charlie Weisberg"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["Rutgers"] = {"players":["Corey Sanders","Geo Baker","Issa Thiam","Deshawn Freeman","Eugene Omoruyi","Mike Williams","Mamadou Doucoure","Candido Sa","Shaquille Doorson","Souf Mensah","Jade Dadika","Matt Bullock","Luke Nathan","Joey Downes","Aaren Smith"],"rows":[]};
+LINEUPS_ADD["Rutgers"] = {"players":["Corey Sanders","Geo Baker","Issa Thiam","Deshawn Freeman","Eugene Omoruyi","Mike Williams","Mamadou Doucoure","Candido Sa","Shaquille Doorson","Souf Mensah","Jade Dadika","Matt Bullock","Joey Downes","Luke Nathan","Aaren Smith"],"rows":[]};

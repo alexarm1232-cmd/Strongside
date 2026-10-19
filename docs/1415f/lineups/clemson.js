@@ -1,1 +1,1 @@
-LINEUPS_ADD["Clemson"] = {"players":["Rod Hall","Jaron Blossomgame","Donte Grantham","Damarcus Harrison","Landry Nnoko","Jordan Roper","Austin Ajukwa","Sidy Djitte","Josh Smith","Gabe DeVoe","Patrick Rooks","Riley McGillan"],"rows":[]};
+LINEUPS_ADD["Clemson"] = {"players":["Rod Hall","Jaron Blossomgame","Donte Grantham","Landry Nnoko","Damarcus Harrison","Jordan Roper","Austin Ajukwa","Sidy Djitte","Josh Smith","Gabe DeVoe","Patrick Rooks","Riley McGillan"],"rows":[]};

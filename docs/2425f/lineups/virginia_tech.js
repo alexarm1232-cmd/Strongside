@@ -1,1 +1,1 @@
-LINEUPS_ADD["Virginia Tech"] = {"players":["Jaden Schutt","Tyler Johnson","Toibu Lawal","Jaydon Young","Brandon Rechsteiner","Ben Burnham","Mylyjael Poteat","Ben Hammond","Patrick Wessler","Rodney Brown Jr.","Connor Serven","Ryan Jones Jr.","Peter Carr","Conner Venable"],"rows":[]};
+LINEUPS_ADD["Virginia Tech"] = {"players":["Jaden Schutt","Tyler Johnson","Toibu Lawal","Jaydon Young","Brandon Rechsteiner","Ben Burnham","Mylyjael Poteat","Ben Hammond","Patrick Wessler","Rodney Brown Jr.","Connor Serven","Ryan Jones Jr.","Conner Venable","Peter Carr"],"rows":[]};

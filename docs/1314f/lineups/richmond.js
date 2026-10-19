@@ -1,1 +1,1 @@
-LINEUPS_ADD["Richmond"] = {"players":["Kendall Anthony","Trey Davis","Alonzo Nelson-Ododa","Terry Allen","Deion Taylor","Cedrick Lindsay","Wayne Sparrow","Derrick Williams","Shawndre' Jones","Josh Jones","Tim Singleton","John Moran","Chase Fletcher","Zach Chu"],"rows":[]};
+LINEUPS_ADD["Richmond"] = {"players":["Kendall Anthony","Trey Davis","Alonzo Nelson-Ododa","Terry Allen","Deion Taylor","Cedrick Lindsay","Wayne Sparrow","Derrick Williams","Shawndre' Jones","Josh Jones","Tim Singleton","John Moran","Zach Chu","Chase Fletcher"],"rows":[]};

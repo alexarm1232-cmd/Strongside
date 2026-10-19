@@ -1,1 +1,1 @@
-LINEUPS_ADD["California"] = {"players":["Ryan Betley","Andre Kelly","Grant Anticevich","Joel Brown","Matt Bradley","Makale Foreman","Lars Thiemann","Jarred Hyder","Jalen Celestine","Kuany Kuany","D.J. Thorpe","Monty Bowser","Dimitrios Klonaras","Logan Alters","Blake Welle"],"rows":[]};
+LINEUPS_ADD["California"] = {"players":["Ryan Betley","Andre Kelly","Grant Anticevich","Joel Brown","Matt Bradley","Makale Foreman","Lars Thiemann","Jarred Hyder","Jalen Celestine","Kuany Kuany","D.J. Thorpe","Monty Bowser","Dimitrios Klonaras","Blake Welle","Logan Alters"],"rows":[]};

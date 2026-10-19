@@ -1,1 +1,1 @@
-LINEUPS_ADD["Winthrop"] = {"players":["Keon Moore","Andre Smith","Keon Johnson","Xavier Cooks","Tevin Prescott","Derrick Henry","Duby Okeke","Josh Davenport","Jarad Scott","Joseph Lopez","Hunter Sadlon","Mitch Hill","Kellen Blake","Freddy Poole"],"rows":[]};
+LINEUPS_ADD["Winthrop"] = {"players":["Keon Moore","Andre Smith","Keon Johnson","Xavier Cooks","Tevin Prescott","Derrick Henry","Duby Okeke","Josh Davenport","Jarad Scott","Joseph Lopez","Hunter Sadlon","Mitch Hill","Freddy Poole","Kellen Blake"],"rows":[]};

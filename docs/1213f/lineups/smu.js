@@ -1,1 +1,1 @@
-LINEUPS_ADD["SMU"] = {"players":["Nick Russell","Ryan Manuel","Shawn Williams","Jalen Jones","Cannen Cunningham","London Giles","Brian Bernardi","Uche Ofoegbu","Jordan Dickerson","Kevin Dunleavy, Jr.","Garrett Wilson","Marcus Holyfield"],"rows":[]};
+LINEUPS_ADD["SMU"] = {"players":["Nick Russell","Ryan Manuel","Shawn Williams","Cannen Cunningham","Jalen Jones","London Giles","Brian Bernardi","Uche Ofoegbu","Jordan Dickerson","Kevin Dunleavy, Jr.","Garrett Wilson","Marcus Holyfield"],"rows":[]};

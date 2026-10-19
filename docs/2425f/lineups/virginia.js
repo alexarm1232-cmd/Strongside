@@ -1,1 +1,1 @@
-LINEUPS_ADD["Virginia"] = {"players":["Isaac McKneely","Andrew Rohde","Dai Dai Ames","Elijah Saunders","Blake Buchanan","Jacob Cofie","Taine Murray","Ishan Sharma","Anthony Robinson","TJ Power","Desmond Roberts","Bryce Walker","Eli Bennett","Markus Rouse"],"rows":[]};
+LINEUPS_ADD["Virginia"] = {"players":["Isaac McKneely","Andrew Rohde","Dai Dai Ames","Elijah Saunders","Blake Buchanan","Jacob Cofie","Taine Murray","Ishan Sharma","Anthony Robinson","TJ Power","Bryce Walker","Desmond Roberts","Eli Bennett","Markus Rouse"],"rows":[]};

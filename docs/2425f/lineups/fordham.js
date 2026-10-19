@@ -1,1 +1,1 @@
-LINEUPS_ADD["Fordham"] = {"players":["Japhet Medor","Jackie Johnson III","Romad Dean","Josh Rivera","Abdou Tsimbila","Jahmere Tripp","Zach Riley","Matt Zona","Will Richardson","Ryan Pettis","Jaden Smith","Jameson O'Toole","Aleksander Pachucki","Brian Nussbaum","Max Miller"],"rows":[]};
+LINEUPS_ADD["Fordham"] = {"players":["Japhet Medor","Jackie Johnson III","Romad Dean","Josh Rivera","Abdou Tsimbila","Jahmere Tripp","Zach Riley","Matt Zona","Will Richardson","Ryan Pettis","Jaden Smith","Aleksander Pachucki","Jameson O'Toole","Brian Nussbaum","Max Miller"],"rows":[]};

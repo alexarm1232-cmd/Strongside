@@ -1,1 +1,1 @@
-LINEUPS_ADD["Milwaukee"] = {"players":["Brock Stull","Cody Wichmann","August Haas","Jeremiah Bell","Jeremy Johnson","Brett Prahl","Bryce Nze","Cameron Harvey","Bryce Barnes","Dan Studer","Derek Rongstad","Alex Prahl","Baylor Peterson","Seth Dittmer","Sam Burkart"],"rows":[]};
+LINEUPS_ADD["Milwaukee"] = {"players":["Brock Stull","Cody Wichmann","August Haas","Jeremiah Bell","Jeremy Johnson","Brett Prahl","Bryce Nze","Cameron Harvey","Bryce Barnes","Dan Studer","Derek Rongstad","Alex Prahl","Baylor Peterson","Sam Burkart","Seth Dittmer"],"rows":[]};

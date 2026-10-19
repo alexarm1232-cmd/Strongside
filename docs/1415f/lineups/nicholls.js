@@ -1,1 +1,1 @@
-LINEUPS_ADD["Nicholls"] = {"players":["Ja'Dante' Frye","T.J. Carpenter","Sam McBeath","Richie Lewis","Liam Thomas","Luka Kamber","Amin Torres","Travis Julien","Jamarkus Horace","Marquis Nelson","Quinton Thomas","Zach Young","Denzel Flemings","Shane Rillieux","Cade Towers"],"rows":[]};
+LINEUPS_ADD["Nicholls"] = {"players":["Ja'Dante' Frye","T.J. Carpenter","Sam McBeath","Richie Lewis","Liam Thomas","Luka Kamber","Amin Torres","Travis Julien","Jamarkus Horace","Marquis Nelson","Quinton Thomas","Zach Young","Denzel Flemings","Cade Towers","Shane Rillieux"],"rows":[]};

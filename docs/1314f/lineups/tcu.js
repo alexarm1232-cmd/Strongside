@@ -1,1 +1,1 @@
-LINEUPS_ADD["TCU"] = {"players":["Kyan Anderson","Karviar Shepherd","Brandon Parrish","Jarvis Ray","Amric Fields","Christian Gore","Michael Williams","Hudson Price","Charles Hill","Thomas Montigel","Clyde Smith III","Kemal Dincer","Chris Washburn","Devonta Abron"],"rows":[]};
+LINEUPS_ADD["TCU"] = {"players":["Kyan Anderson","Karviar Shepherd","Brandon Parrish","Jarvis Ray","Amric Fields","Christian Gore","Michael Williams","Hudson Price","Charles Hill","Thomas Montigel","Clyde Smith III","Kemal Dincer","Devonta Abron","Chris Washburn"],"rows":[]};

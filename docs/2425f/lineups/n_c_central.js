@@ -1,1 +1,1 @@
-LINEUPS_ADD["N.C. Central"] = {"players":["Po'Boigh King","Perry Smith Jr.","Keishon Porter","Timmy Adedire","Dionte Johnson","Isaac Parson","Jaqai Murray","Floyd Rideau Jr.","Aquan Smart","Kelechi Okworogwo","Josh Smith","Anthony Peoples Jr.","Caleb Ellison","Chris Daniels"],"rows":[]};
+LINEUPS_ADD["N.C. Central"] = {"players":["Po'Boigh King","Perry Smith Jr.","Keishon Porter","Timmy Adedire","Dionte Johnson","Isaac Parson","Jaqai Murray","Floyd Rideau Jr.","Aquan Smart","Kelechi Okworogwo","Josh Smith","Anthony Peoples Jr.","Chris Daniels","Caleb Ellison"],"rows":[]};

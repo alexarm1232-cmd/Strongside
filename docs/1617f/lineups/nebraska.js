@@ -1,1 +1,1 @@
-LINEUPS_ADD["Nebraska"] = {"players":["Tai Webster","Glynn Watson Jr.","Evan Taylor","Michael Jacobson","Jack McVeigh","Ed Morrow","Isaiah Roby","Jordy Tshimanga","Jeriah Horne","Anton Gill","Nick Fuller","Malcolm Laws","Mohammad Elradi","Jason Shultis","Tanner Borchardt"],"rows":[]};
+LINEUPS_ADD["Nebraska"] = {"players":["Tai Webster","Glynn Watson Jr.","Evan Taylor","Michael Jacobson","Jack McVeigh","Ed Morrow","Isaiah Roby","Jordy Tshimanga","Jeriah Horne","Anton Gill","Nick Fuller","Malcolm Laws","Jason Shultis","Mohammad Elradi","Tanner Borchardt"],"rows":[]};

@@ -172,6 +172,13 @@ def load_teams():
         print(f"Roster Stats Error: {e}")
         roster_stats = {}
 
+    # the AP poll ranks the Champion picker uses (tools/ap_polls.py), keyed by team folder name
+    try:
+        with open(os.path.join(TEAMS_FOLDER, "ap_polls.json"), encoding="utf-8") as f:
+            ap_teams = {name.rstrip(". "): ranks for name, ranks in json.load(f)["teams"].items()}
+    except Exception:
+        ap_teams = {}
+
     teams_output = []
     for conference in os.listdir(TEAMS_FOLDER):
         conf_path = os.path.join(TEAMS_FOLDER, conference)
@@ -191,6 +198,7 @@ def load_teams():
                         value = metrics.get(stat)
                         team[stat] = value if isinstance(value, (int, float)) else None
                     team["box"] = metrics.get("box")      # per-game box score, the team's own ("o") and its opponents' ("d")
+                    team["ap"] = ap_teams.get(key) or {}  # AP poll: preseason, week 6, last before the tournament
                     for stat in ROSTER_KEYS:
                         team[stat] = roster_stats.get(team_folder, {}).get(stat)
                     # "hca": the team's home edge per side per 100 possessions (what the simulators use);
@@ -340,7 +348,7 @@ def build_dashboard():
                  # every season with a page built, for the dropdown in the header (newest first)
                  "seasons": season_list(),
                  # "pre" = through Selection Sunday, "full" = the postseason too; "views" has both pages when both are built
-                 "view": SEASON.get("view", "pre"), "views": view_pages()},
+                 "view": SEASON.get("view", "pre"), "views": view_pages(), "ap": ap_weeks()},
         "teams": teams,
         "players": players,
     }
@@ -461,6 +469,14 @@ def write_team_files(teams, logs):
             with open(path, "w", encoding="utf-8") as f:
                 f.write(f"{store}[{json.dumps(team_name)}] = {json.dumps(content, separators=(',', ':'))};\n")
     return (added, files) if base_data is not None else None
+
+def ap_weeks():
+    """Which AP polls the season's ranks come from ({pre, w6, last} -> the poll's label), or None without poll data."""
+    try:
+        with open(os.path.join(TEAMS_FOLDER, "ap_polls.json"), encoding="utf-8") as f:
+            return json.load(f)["weeks"]
+    except Exception:
+        return None
 
 def built(key):
     return key == SEASON_KEY or os.path.exists(os.path.join(MAIN_FOLDER, SEASONS[key]["page"]))
