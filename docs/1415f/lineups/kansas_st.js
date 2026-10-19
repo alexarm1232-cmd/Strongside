@@ -1,0 +1,1 @@
+LINEUPS_ADD["Kansas St."] = {"players":["Thomas Gipson","Marcus Foster","Jevon Thomas","Nino Williams","Wesley Iwundu","Justin Edwards","Nigel Johnson","Stephen Hurt","Malek Harris","Tre Harris","Brandon Bolden","Brian Rohleder","Shawn Meyer","Mason Schoen"],"rows":[]};

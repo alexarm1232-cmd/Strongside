@@ -1,0 +1,1 @@
+LINEUPS_ADD["IU Indy"] = {"players":["Marcellus Barksdale","Khufu Najee","Mitchell Patton","Ian Chiles","Donovan Gibbs","Justus Stanback","P.J. Hubert","Ja'Rob McCallum","Elijah Ray","Josh James","Cortell Busby","Linwood Ross, Jr."],"rows":[]};

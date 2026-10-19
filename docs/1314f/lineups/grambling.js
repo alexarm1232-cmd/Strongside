@@ -1,0 +1,1 @@
+LINEUPS_ADD["Grambling"] = {"players":["A'Torri Shine","Antwan Scott","Chandler Thomas","Terry Rose","Chase Cormier","Steven Danridge","Remond Brown","Richard Freeman","Windale Glinton","Tyron Bain","Dion Watson","Valerio Altheimer","Terry Chase","Brauhnye' Turner","Floyddell Wilson","Reginald Smith","Travis Hawkins"],"rows":[]};

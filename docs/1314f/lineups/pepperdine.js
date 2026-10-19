@@ -1,0 +1,1 @@
+LINEUPS_ADD["Pepperdine"] = {"players":["Jeremy Major","Stacy Davis","Brendan Lane","Malcolm Brooks","Amadi Udenyi","Nikolas Skouen","Malte Kramer","Atif Russell","Lamond Murray Jr.","Jett Raines","David Jesperson","Austin Mills","Jeff Van Dyke","Jonathan Allen","Allen Stevens","Marley Biyendolo"],"rows":[]};

@@ -1,0 +1,1 @@
+LINEUPS_ADD["William & Mary"] = {"players":["Marcus Thornton","Kyle Gaillard","Omar Prewitt","Terry Tarpey","Tim Rusthoven","Julian Boatner","Brandon Britt","Sean Sheldon","Daniel Dixon","Fred Heldring","Tom Schalk","Michael Schlotman","Ben Whitlatch"],"rows":[]};

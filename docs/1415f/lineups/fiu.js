@@ -1,0 +1,1 @@
+LINEUPS_ADD["FIU"] = {"players":["Dennis Mavin","Adrian Diaz","Daviyon Draper","Dominique Williams","Ray Rodriguez","Kris Gulley","Tashawn Desir","Marco Porcher Jimenez","Jason Boswell","Michael Phillip","Hassan Hussein","Larry Dennis","Jonas Page"],"rows":[]};

@@ -1,0 +1,1 @@
+LINEUPS_ADD["Columbia"] = {"players":["Maodo Lo","Isaac Cohen","Kyle Castlin","Cory Osetkowski","Steve Frankoski","Chris McComber","Jeff Coby","Luke Petrasek","Kendall Jackson","Noah Springwater","Nate Hickman","Conor Voss","Paddy Quinn","Grant Mullins"],"rows":[]};

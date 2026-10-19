@@ -1,0 +1,1 @@
+LINEUPS_ADD["Southern California"] = {"players":["Byron Wesley","Pe'Shon Howard","Julian Jacobs","Omar Oraby","Nikola Jovanovic","J.T. Terrell","D.J. Haley","Strahinja Gavrilovic","Roschon Prince","Chass Bryan","Kahlil Dukes","Brendyn Taylor","Daniel Munoz","Samer Dhillon","Devon Pflueger"],"rows":[]};

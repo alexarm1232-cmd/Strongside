@@ -1,0 +1,1 @@
+LINEUPS_ADD["LSU New Orleans"] = {"players":["Christavious Gill","Nate Frye","Kevin Hill","Tevin Broyles","Terrance Syon","Kevin Brown","Travin Thibodeaux","Colton Weisbrod","Michael Zeno","Bryce Jackson","Travis Avery","Matthew Jiles"],"rows":[]};

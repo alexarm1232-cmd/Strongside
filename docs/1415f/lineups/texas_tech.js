@@ -1,0 +1,1 @@
+LINEUPS_ADD["Texas Tech"] = {"players":["Zach Smith","Devaugntah Williams","Robert Turner","Toddrick Gotcher","Norense Odiase","Keenan Evans","Randy Onwuasor","Isaiah Manderson","Justin Gray","Aaron Ross","Clark Lammert","Alex Foster","Justin Jamison","Luke Adams","Stan Mays"],"rows":[]};

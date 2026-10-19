@@ -1,1 +1,1 @@
-LINEUPS_ADD["Hofstra"] = {"players":["Deron Powers","Brian Bernardi","Eli Pemberton","Justin Wright-Foreman","Rokas Gustys","Jamall Robinson","Ty Greer","Hunter Sabety","Desure Buie","Andre Walker","Connor Klementowicz","Tommy Ros"],"rows":[]};
+LINEUPS_ADD["Hofstra"] = {"players":["Deron Powers","Brian Bernardi","Eli Pemberton","Justin Wright-Foreman","Rokas Gustys","Jamall Robinson","Ty Greer","Hunter Sabety","Desure Buie","Andre Walker","Tommy Ros","Connor Klementowicz"],"rows":[]};

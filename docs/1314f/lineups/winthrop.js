@@ -1,0 +1,1 @@
+LINEUPS_ADD["Winthrop"] = {"players":["Joab Jerome","Andre Smith","Keon Johnson","Keon Moore","Larry Brown","James Bourne","Tevin Prescott","Brandon Vega","Josh Davenport","Jarad Scott","Christian Farmer","Donovan Carter","Carlin Bremner","Ivan Saicic","Hunter Sadlon"],"rows":[]};

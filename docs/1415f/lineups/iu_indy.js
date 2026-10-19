@@ -1,0 +1,1 @@
+LINEUPS_ADD["IU Indy"] = {"players":["Marcellus Barksdale","Mason Archie","Davron Williams","D.J. McCall","P.J. Boutte","Aaron Brennan","Khufu Najee","Leo Svete","Josh James","Elijah Ray","Justus Stanback","Jalen McCallum","John Hubler"],"rows":[]};

@@ -1,0 +1,1 @@
+LINEUPS_ADD["Hofstra"] = {"players":["Zeke Upshaw","Jamall Robinson","Dion Nesmith","Jordan Allen","Stephen Nwaukoni","Moussa Kone","Chris Jenkins","Darren Payen","Adam Savion","Dan Steinberg"],"rows":[]};

@@ -1,0 +1,1 @@
+LINEUPS_ADD["San Diego"] = {"players":["Christopher Anderson","Johnny Dee","Jito Kok","Thomas Jacobs","Duda Sanadze","Vasa Pusica","Chris Sarbaugh","Brandon Perry","Brett Bailey","Marcus Harris","Simi Fajemisin","Cameron Neubauer","Khalil Bedart-Ghani","Nick Kerr","Forrest Greenwalt","Adam Gotelli"],"rows":[]};

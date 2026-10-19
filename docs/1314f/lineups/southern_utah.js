@@ -1,0 +1,1 @@
+LINEUPS_ADD["Southern Utah"] = {"players":["A.J. Hess","Trey Kennedy","Casey Oliverson","John Marshall","Juwan Major","Jaren Jeffery","Cal Hanks","Race Parsons","Jayson Cheesman","Chris Nsenki","Mckay Anderson","Eric Rippetoe","Drake Thomas","Taylor Jenson"],"rows":[]};

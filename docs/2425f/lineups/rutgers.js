@@ -1,1 +1,1 @@
-LINEUPS_ADD["Rutgers"] = {"players":["Airious Bailey","Dylan Harper","Jeremiah Williams","Lathan Sommerville","Jamichael Davis","Jordan Derkack","Zach Martini","Tyson Acuff","Dylan Grant","Emmanuel Ogbole","PJ Hayes","Bryce Dortch","Max Fradkin","Peter Noble"],"rows":[]};
+LINEUPS_ADD["Rutgers"] = {"players":["Airious Bailey","Dylan Harper","Jeremiah Williams","Lathan Sommerville","Jamichael Davis","Jordan Derkack","Zach Martini","Tyson Acuff","Dylan Grant","Emmanuel Ogbole","PJ Hayes","Bryce Dortch","Peter Noble","Max Fradkin"],"rows":[]};

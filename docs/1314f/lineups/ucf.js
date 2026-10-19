@@ -1,0 +1,1 @@
+LINEUPS_ADD["UCF"] = {"players":["Isaiah Sykes","Tristan Spurlock","Calvin Newell","Kasey Wilson","Matt Williams","Staphon Blair","Daiquan Walker","Brandon Goodwin","Eugene McCrory","Justin McBride","Dylan Karell","Steven Haney","Isaac Lang"],"rows":[]};

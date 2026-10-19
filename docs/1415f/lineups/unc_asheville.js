@@ -1,0 +1,1 @@
+LINEUPS_ADD["UNC Asheville"] = {"players":["Andrew Rowsey","David Robertson","Kevin Vannatta","Jaleel Roberts","Sam Hughes","Corey Littlejohn","Ahmad Thomas","Giacomo Zilli","Marcus Neely","Kem Ubaru","Will Weeks","Chudier Pal","Alec Wnuk","Ethan Wilmoth","Jacob Casper","Raekwon Miller"],"rows":[]};

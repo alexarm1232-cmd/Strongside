@@ -1,0 +1,1 @@
+LINEUPS_ADD["Chicago St."] = {"players":["Matt Ross","Quinton Pippen","Clarke Rosenberg","Nate Duhon","Eddie Denard","Corey Gray","Johnny Griffin","Rahjan Muhammad","Kurt Karis","Jared Dimakos","Markus Starks","Jamere Dismukes","Quron Davis","Willie Rosenthal","Joshua Batson","Arthur Gage"],"rows":[]};

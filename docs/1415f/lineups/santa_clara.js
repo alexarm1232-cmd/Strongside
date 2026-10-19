@@ -1,0 +1,1 @@
+LINEUPS_ADD["Santa Clara"] = {"players":["Jared Brownridge","Brandon Clark","Denzel Johnson","Matt Hubbard","Nate Kratch","Jarvis Pugh","Jalen Richard","Evan Wardlow","Emmanuel Ndumanya","Kai Healy","Stephen Edwards","Yannick Atanga","Julian Clarke","Dominic Romeo","Andrew Papenfus","Jerry Brown"],"rows":[]};

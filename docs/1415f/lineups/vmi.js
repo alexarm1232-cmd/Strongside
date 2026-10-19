@@ -1,0 +1,1 @@
+LINEUPS_ADD["VMI"] = {"players":["Brian Brown","Phillip Anglade","Julian Eleby","Tim Marshall","Trey Chapman","QJ Peterson","Jordan Weethee","Jarid Watson","Craig Hinton","Fred Iruafemi","Christian Burton","Armani Branch","Michael Donovan","T Mason","Niles Tate"],"rows":[]};

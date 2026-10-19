@@ -3316,6 +3316,42 @@ const REAL_BRACKETS = { '2025-26': {
     ['Villanova', 'North Carolina', 'Oklahoma', 'Syracuse'],
     ['Villanova', 'North Carolina'],
     ['Villanova']],
+}, '2014-15': {
+  year: 2015, pair: 1,        // from ESPN's bracket; the first region met the second in the Final Four
+  slots: [
+    'Kentucky', 'Hampton', 'Cincinnati', 'Purdue', 'West Virginia', 'Buffalo', 'Maryland', 'Valparaiso', 'Butler', 'Texas', 'Notre Dame', 'Northeastern', 'Wichita St.', 'Indiana', 'Kansas', 'New Mexico St.',
+    'Wisconsin', 'Coastal Carolina', 'Oregon', 'Oklahoma St.', 'Arkansas', 'Wofford', 'North Carolina', 'Harvard', 'Xavier', 'Ole Miss', 'Baylor', 'Georgia St.', 'VCU', 'Ohio St.', 'Arizona', 'Texas Southern',
+    'Villanova', 'Lafayette', 'NC State', 'LSU', 'UNI', 'Wyoming', 'Louisville', 'UC Irvine', 'Providence', 'Dayton', 'Oklahoma', 'UAlbany', 'Michigan St.', 'Georgia', 'Virginia', 'Belmont',
+    'Duke', 'Robert Morris', 'San Diego St.', "St. John's (NY)", 'Utah', 'SFA', 'Georgetown', 'Eastern Wash.', 'SMU', 'UCLA', 'Iowa St.', 'UAB', 'Iowa', 'Davidson', 'Gonzaga', 'North Dakota St.'],
+  winners: [
+    ['Kentucky', 'Cincinnati', 'West Virginia', 'Maryland', 'Butler', 'Notre Dame', 'Wichita St.', 'Kansas',
+     'Wisconsin', 'Oregon', 'Arkansas', 'North Carolina', 'Xavier', 'Georgia St.', 'Ohio St.', 'Arizona',
+     'Villanova', 'NC State', 'UNI', 'Louisville', 'Dayton', 'Oklahoma', 'Michigan St.', 'Virginia',
+     'Duke', 'San Diego St.', 'Utah', 'Georgetown', 'UCLA', 'UAB', 'Iowa', 'Gonzaga'],
+    ['Kentucky', 'West Virginia', 'Notre Dame', 'Wichita St.', 'Wisconsin', 'North Carolina', 'Xavier', 'Arizona',
+     'NC State', 'Louisville', 'Oklahoma', 'Michigan St.', 'Duke', 'Utah', 'UCLA', 'Gonzaga'],
+    ['Kentucky', 'Notre Dame', 'Wisconsin', 'Arizona', 'Louisville', 'Michigan St.', 'Duke', 'Gonzaga'],
+    ['Kentucky', 'Wisconsin', 'Michigan St.', 'Duke'],
+    ['Wisconsin', 'Duke'],
+    ['Duke']],
+}, '2013-14': {
+  year: 2014, pair: 1,        // from ESPN's bracket; the first region met the second in the Final Four
+  slots: [
+    'Florida', 'UAlbany', 'Colorado', 'Pittsburgh', 'VCU', 'SFA', 'UCLA', 'Tulsa', 'Ohio St.', 'Dayton', 'Syracuse', 'Western Mich.', 'New Mexico', 'Stanford', 'Kansas', 'Eastern Ky.',
+    'Virginia', 'Coastal Carolina', 'Memphis', 'George Washington', 'Cincinnati', 'Harvard', 'Michigan St.', 'Delaware', 'North Carolina', 'Providence', 'Iowa St.', 'N.C. Central', 'UConn', "Saint Joseph's", 'Villanova', 'Milwaukee',
+    'Arizona', 'Weber St.', 'Gonzaga', 'Oklahoma St.', 'Oklahoma', 'North Dakota St.', 'San Diego St.', 'New Mexico St.', 'Baylor', 'Nebraska', 'Creighton', 'Louisiana', 'Oregon', 'BYU', 'Wisconsin', 'American',
+    'Wichita St.', 'Cal Poly', 'Kentucky', 'Kansas St.', 'Saint Louis', 'NC State', 'Louisville', 'Manhattan', 'Massachusetts', 'Tennessee', 'Duke', 'Mercer', 'Texas', 'Arizona St.', 'Michigan', 'Wofford'],
+  winners: [
+    ['Florida', 'Pittsburgh', 'SFA', 'UCLA', 'Dayton', 'Syracuse', 'Stanford', 'Kansas',
+     'Virginia', 'Memphis', 'Harvard', 'Michigan St.', 'North Carolina', 'Iowa St.', 'UConn', 'Villanova',
+     'Arizona', 'Gonzaga', 'North Dakota St.', 'San Diego St.', 'Baylor', 'Creighton', 'Oregon', 'Wisconsin',
+     'Wichita St.', 'Kentucky', 'Saint Louis', 'Louisville', 'Tennessee', 'Mercer', 'Texas', 'Michigan'],
+    ['Florida', 'UCLA', 'Dayton', 'Stanford', 'Virginia', 'Michigan St.', 'Iowa St.', 'UConn',
+     'Arizona', 'San Diego St.', 'Baylor', 'Wisconsin', 'Kentucky', 'Louisville', 'Tennessee', 'Michigan'],
+    ['Florida', 'Dayton', 'Michigan St.', 'UConn', 'Arizona', 'Wisconsin', 'Kentucky', 'Michigan'],
+    ['Florida', 'UConn', 'Wisconsin', 'Kentucky'],
+    ['UConn', 'Kentucky'],
+    ['UConn']],
 } };
 const REAL_BRACKET = REAL_BRACKETS[DATA.meta.season] || null;      // this season's real tournament, when it is known
 const CHASE_ENDS = [32, 48, 56, 60, 62, 63];        // how many games have been played by the end of each round

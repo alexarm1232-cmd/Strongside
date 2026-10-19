@@ -1,0 +1,1 @@
+LINEUPS_ADD["DePaul"] = {"players":["Brandon Young","Billy Garrett Jr.","Tommy Hamilton IV","Cleveland Melvin","Durrell McDonald","Sandi Marcius","Charles McKinney","Greg Sequele","Jamee Crockett","Forrest Robinson","Dejuan Marrero","Edwind McGhee","R.J. Curington","Peter Ryckbosch","Cory Dolins"],"rows":[]};

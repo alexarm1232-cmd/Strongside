@@ -1,0 +1,1 @@
+LINEUPS_ADD["Fresno St."] = {"players":["Marvelle Harris","Paul Watson","Julien Lewis","Karachi Edo","Emmanuel Owootoah","Alex Davis","Darnell Taylor","Cezar Guerrero","Terrell Carter","Braeden Anderson","Jerrod Patton"],"rows":[]};

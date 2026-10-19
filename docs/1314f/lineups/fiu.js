@@ -1,0 +1,1 @@
+LINEUPS_ADD["FIU"] = {"players":["Tymell Murphy","Dennis Mavin","Jerome Frink","Rakeem Buckles","Cody Mann","Jason Boswell","Marco Porcher Jimenez","Dominique Williams","Raymond Taylor","Ivan Jurkovic","Joey De La Rosa","George Naldjieff","Steven Miro","Jonas Page"],"rows":[]};

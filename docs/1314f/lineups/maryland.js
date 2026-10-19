@@ -1,0 +1,1 @@
+LINEUPS_ADD["Maryland"] = {"players":["Jake Layman","Dez Wells","Nick Faust","Evan Smotrycz","Charles Mitchell","Seth Allen","Roddy Peters","Shaquille Cleare","Jonathan Graham","Damonte Dodd","Varun Ram","John Auslander","Jacob Susskind","Spencer Barks","Conner Lipinski","A.J. Metz"],"rows":[]};

@@ -1,0 +1,1 @@
+LINEUPS_ADD["Fairfield"] = {"players":["Marcus Gilbert","Maurice Barrow","K.J. Rose","Amadou Sidibe","Coleman Johnson","Sean Grennan","Justin Jenkins","Doug Chappell","Malcolm Gilbert","Steve Johnston","Steve Smith","Lincoln Davis"],"rows":[]};

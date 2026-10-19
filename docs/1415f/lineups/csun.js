@@ -1,0 +1,1 @@
+LINEUPS_ADD["CSUN"] = {"players":["Stephen Maxwell","Stephan Hicks","Tre Hale-Edmerson","Aaron Parks","Devonte Elliott","Landon Drew","Taelin Webb","Ajon Efferson","Zacarry Douglas","Robert Cid"],"rows":[]};

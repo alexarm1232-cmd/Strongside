@@ -1,0 +1,1 @@
+LINEUPS_ADD["Creighton"] = {"players":["Austin Chatman","James Milliken","Rick Kreklow","Devin Brooks","Toby Hegner","Isaiah Zierden","Avery Dingman","Will Artino","Geoffrey Groselle","Zach Hanson","Tyler Clement","Leon Gilmore III","Mogboluwaga Oginni","Gabriel Connealy"],"rows":[]};

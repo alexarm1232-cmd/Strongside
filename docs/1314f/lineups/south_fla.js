@@ -1,0 +1,1 @@
+LINEUPS_ADD["South Fla."] = {"players":["Victor Rudd","Corey Allen Jr","John Egbunu","Martino Brock","Chris Perry","Shemiye McLendon","Zach LeDay","Javontae Hawkins","Josh Heath","Anthony Collins","Musa Abdul-Aleem","Jordan Omogbehin"],"rows":[]};

@@ -1,0 +1,1 @@
+LINEUPS_ADD["UT Arlington"] = {"players":["Lonnie McClanahan","Jamel Outler","Kevin Hervey","Kaelon Wilson","Johnny Hill","Erick Neal","Greg Gainey","Jorge Bilbao","Drew Charles","Brandon Williams","Anthony Walker","Julian Harris","Courtney Austin","Colten Gober"],"rows":[]};

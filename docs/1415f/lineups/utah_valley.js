@@ -1,0 +1,1 @@
+LINEUPS_ADD["Utah Valley"] = {"players":["Mitch Bruneel","Marcel Davis","Zach Nelson","Donte Williams","Brenden Evans","Jaden Jackson","Alex Carr","Boston Gubler","Chad Ross","Darrious Hamilton","Dayon Goodman","Eli Robison","Cory Cardwell","Leland Miller"],"rows":[]};

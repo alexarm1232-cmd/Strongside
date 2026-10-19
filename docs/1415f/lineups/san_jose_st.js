@@ -1,0 +1,1 @@
+LINEUPS_ADD["San Jose St."] = {"players":["Jaleel Williams","Rashad Muhammad","Isaac Thornton","Darryl Gaynor II","Brandon Mitchell","Ivo Basor","Ryan Singer","Danny Mahoney","Jordan Baker","Frank Rogers","Jalen James","Leon Bahner","Andrew Vollert","Matt Pollard","Tyler Winston"],"rows":[]};

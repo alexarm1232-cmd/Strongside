@@ -1,0 +1,1 @@
+LINEUPS_ADD["App State"] = {"players":["Frank Eaves","Chris Burgess","Tommy Spagnolo","Jake Babic","Dustin Clarke","Griffin Kinney","Michael Obacha","Jacob Lawson","Landon Goesling","Milos Kostic","Mike Kobani","Rantavious Gilbert","Tab Hamilton","Logan Jackson","Jalen Sanders"],"rows":[]};

@@ -1,0 +1,1 @@
+LINEUPS_ADD["Southern California"] = {"players":["Nikola Jovanovic","Katin Reinhardt","Julian Jacobs","Elijah Stewart","Darion Clark","Jordan McLaughlin","Malik Marquetti","Malik Martin","Strahinja Gavrilovic","Kahlil Dukes","Chass Bryan","Devon Pflueger","Samer Dhillon"],"rows":[]};

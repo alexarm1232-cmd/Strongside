@@ -1,1 +1,1 @@
-LINEUPS_ADD["Kennesaw St."] = {"players":["Terrell Burden","Simeon Cottle","Demond Robinson","Quincy Ademokoya","Jamel King","Rongie Gordon","Jusaun Holt","RJ Johnson","Frankquon Sherman","Armani Harris","Cole LaRue","Eric Holland","Charles Stone","Matt Brown"],"rows":[]};
+LINEUPS_ADD["Kennesaw St."] = {"players":["Terrell Burden","Simeon Cottle","Demond Robinson","Quincy Ademokoya","Jamel King","Rongie Gordon","Jusaun Holt","RJ Johnson","Frankquon Sherman","Armani Harris","Cole LaRue","Eric Holland","Matt Brown","Charles Stone"],"rows":[]};

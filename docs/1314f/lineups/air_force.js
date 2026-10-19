@@ -1,0 +1,1 @@
+LINEUPS_ADD["Air Force"] = {"players":["Max Yon","Tre' Coggins","Marek Olesinski","Kamryn Williams","Justin Hammonds","Delovell Earls","Zach Kocur","Chase Kammerer","Darrius Parker","Hayden Graham","Nick Jorgensen","Callum Long","Zach Moer","Joe Tuss","Ethan Michael","Scott Adler"],"rows":[]};

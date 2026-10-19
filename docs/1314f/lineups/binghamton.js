@@ -1,0 +1,1 @@
+LINEUPS_ADD["Binghamton"] = {"players":["Jordan Reed","Marlon Beck II","Yosef Yacob","Rayner Moquete","Nick Madray","Magnus Richards","Roland Brown","Karon Waller","Alex Ogundadegbe","John Rinaldi","Robert Mansell","Jabrille Williams","Matt Smith","Chris Rice"],"rows":[]};

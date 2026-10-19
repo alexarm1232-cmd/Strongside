@@ -1,0 +1,1 @@
+LINEUPS_ADD["George Mason"] = {"players":["Bryon Allen","Sherrod Wright","Jalen Jenkins","Patrick Holloway","Johnny Williams","Marko Gujanicic","Marquise Moore","Erik Copes","Corey Edwards","Vaughn Gray","Anali Okoloji","Jonathan Arledge"],"rows":[]};

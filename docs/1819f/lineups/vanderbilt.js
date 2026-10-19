@@ -1,1 +1,1 @@
-LINEUPS_ADD["Vanderbilt"] = {"players":["Saben Lee","Aaron Nesmith","Simisola Shittu","Joe Toye","Matt Ryan","Yanni Wetzell","Clevon Brown","Matthew Moyer","Maxwell Evans","Darius Garland","Mac Hunt","Isaiah Rice"],"rows":[]};
+LINEUPS_ADD["Vanderbilt"] = {"players":["Saben Lee","Aaron Nesmith","Simisola Shittu","Joe Toye","Matt Ryan","Yanni Wetzell","Clevon Brown","Matthew Moyer","Maxwell Evans","Darius Garland","Isaiah Rice","Mac Hunt"],"rows":[]};

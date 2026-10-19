@@ -1,0 +1,1 @@
+LINEUPS_ADD["ETSU"] = {"players":["Rashawn Rembert","Lester Wilson","A.J. Merriweather","Jalen Riley","Petey McClain","Devin Harris","Isaac Banks","Desonta Bradford","Alex Bates","Ron Giplaye","Tommy Williams","Tyler Ailshie"],"rows":[]};

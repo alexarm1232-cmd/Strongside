@@ -1,0 +1,1 @@
+LINEUPS_ADD["Kennesaw St."] = {"players":["Delbert Love","Orlando Coleman","Yonel Brown","Willy Kouassi","Bernard Morena","Andrew Osemhen","Myles Hamilton","Nigel Pruitt","Nate Rucker","Tanner Wozniak","Kris Drees","Charlie Byers","Jordan Montgomery","Drew Mcghee"],"rows":[]};

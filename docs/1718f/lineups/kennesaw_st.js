@@ -1,1 +1,1 @@
-LINEUPS_ADD["Kennesaw St."] = {"players":["Nick Masterson","Tyler Hooker","Jordan Jones","Isaac Mbuyamba","Kyle Clarke","Kosta Jankovic","Bryson Lockley","Anthony Wilson","Tristan Jarrett","Markus Smith","Arthur Gray","James Scott"],"rows":[]};
+LINEUPS_ADD["Kennesaw St."] = {"players":["Nick Masterson","Tyler Hooker","Jordan Jones","Isaac Mbuyamba","Kosta Jankovic","Kyle Clarke","Bryson Lockley","Anthony Wilson","Tristan Jarrett","Markus Smith","Arthur Gray","James Scott"],"rows":[]};

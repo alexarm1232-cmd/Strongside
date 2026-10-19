@@ -1,0 +1,1 @@
+LINEUPS_ADD["Lehigh"] = {"players":["Mackey McKnight","Corey Schaefer","Jesse Chuku","Tim Kempton","Austin Price","Justin Goldsborough","Shane Whitfield","Stefan Cvrkalj","Miles Simelton","Conroy Baltimore","Devon Carter","Cole Renninger","Georgios Pilitsis"],"rows":[]};

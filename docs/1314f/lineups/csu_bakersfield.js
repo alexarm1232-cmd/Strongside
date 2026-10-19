@@ -1,0 +1,1 @@
+LINEUPS_ADD["CSU Bakersfield"] = {"players":["Issiah Grayson","Javonte Maynor","Brandon Barnes","Stefon Johnson","Aly Ahmed","Erik Kinney","Tyrell Corbin","Abdul Ahmed","Corey Hall","Zach Lamb","Zech Smith","Kregg Jones","Matt Ratto","Dee Wallace"],"rows":[]};

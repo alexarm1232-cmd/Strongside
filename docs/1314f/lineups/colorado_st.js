@@ -1,0 +1,1 @@
+LINEUPS_ADD["Colorado St."] = {"players":["Jonathan Octeus","Daniel Bejarano","J.J. Avila","Joe De Ciman","Gerson Santo","Carlton Hurst","David Cohn","Marcus Holt","Dwight Smith","Josh Morgan","Enrico Bueno","Mike Burnett"],"rows":[]};

@@ -1,0 +1,1 @@
+LINEUPS_ADD["UCF"] = {"players":["Adonys Henriquez","Brandon Goodwin","B.J. Taylor","Staphon Blair","Daiquan Walker","Kasey Wilson","Justin McBride","Shaheed Davis","Dylan Karell","Myles Davis","Matt Williams","Djordjije Mumin","Marshall Holmes"],"rows":[]};

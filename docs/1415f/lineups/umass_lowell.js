@@ -1,0 +1,1 @@
+LINEUPS_ADD["UMass Lowell"] = {"players":["Chad Holley","Lance Crawford","Marco Banegas-Flores","Jahad Thomas","Kerry Weldon","Brad Schaub","Matt Harris","Tyler Livingston","Mark Cornelius","DJ Mlachnik","Jordan Rhodes","Jordan Shea"],"rows":[]};

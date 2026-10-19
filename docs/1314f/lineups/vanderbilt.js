@@ -1,0 +1,1 @@
+LINEUPS_ADD["Vanderbilt"] = {"players":["Rod Odom","Dai-Jon Parker","Kyle Fuller","Damian Jones","James Siakam","Luke Kornet","Eric McClellan","Shelby Moats","Carter Josephs","Josh Henderson","Nathan Watkins","Rob Cross"],"rows":[]};

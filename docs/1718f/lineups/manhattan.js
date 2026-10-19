@@ -1,1 +1,1 @@
-LINEUPS_ADD["Manhattan"] = {"players":["Rich Williams","Zavier Turner","Zane Waterman","Calvin Crawford","Pauly Paulicap","Thomas Capuano","Aaron Walker","Nehemiah Mack","Patrick Strzala","Ebube Ebube","Ibrahima Diallo","Matt Maloney","Jesse Boyce","David Varoli"],"rows":[]};
+LINEUPS_ADD["Manhattan"] = {"players":["Rich Williams","Zavier Turner","Zane Waterman","Calvin Crawford","Pauly Paulicap","Thomas Capuano","Aaron Walker","Nehemiah Mack","Patrick Strzala","Ebube Ebube","Ibrahima Diallo","Jesse Boyce","Matt Maloney","David Varoli"],"rows":[]};

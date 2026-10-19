@@ -1,0 +1,1 @@
+LINEUPS_ADD["LMU (CA)"] = {"players":["Anthony Ireland","Evan Payne","Gabe Levin","Alex Osborne","C.J. Blackwell","Nick Stover","Marin Mornar","Chase Flint","Ben Dickinson","Ayodeji Egbeyemi","Max Heller","Nino Jackson","Alozie Erondu"],"rows":[]};

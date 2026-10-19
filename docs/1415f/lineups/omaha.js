@@ -1,0 +1,1 @@
+LINEUPS_ADD["Omaha"] = {"players":["CJ Carter","Devin Patterson","Tre'Shawn Thurman","Mike Rostampour","Marcus Tyus","Jake White","Tim Smallwood","Kyler Erickson","Randy Reed","Rylan Murry","Devin Newsome","Daniel Meyer"],"rows":[]};

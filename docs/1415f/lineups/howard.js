@@ -1,0 +1,1 @@
+LINEUPS_ADD["Howard"] = {"players":["James Daniel III","James Carlton","Damon Collins","James Miller","Oliver Ellison","Marcel Boyd","Jared Norsworthy","Keon Hill","Tyler Stone","Brandon Ford","Solomon Mangham","Theodore Boyomo","Kofi Andoh","Dalique Mingo","Ausar Madison","Speller Patrick","Prince Okoroh"],"rows":[]};

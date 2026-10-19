@@ -1,0 +1,1 @@
+LINEUPS_ADD["South Carolina St."] = {"players":["Matthew Hezekiah","Darryl Palmer","Adama Adams","Devin Joint","Jalen White","Jordan Smith","Karon Wright","Theron Stephens","Luka Radovic","Darrion Eastmon","Kenshay Kirksey","Shaquiel Mitchell","Greg Mortimer","Patrick Myers","Chasen Campbell","Patrick Kirskey","Patrick Kirksey"],"rows":[]};

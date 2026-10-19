@@ -1,0 +1,1 @@
+LINEUPS_ADD["Syracuse"] = {"players":["Trevor Cooney","Rakeem Christmas","Michael Gbinije","Kaleb Joseph","Tyler Roberson","Chris McCullough","Ron Patterson","B.J. Johnson","Chinonso Obokoh","Christian White","Doyin Akintobi-Adeyeye","Mike Sutton","Carter Sanderson"],"rows":[]};

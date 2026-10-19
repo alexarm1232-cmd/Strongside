@@ -1,0 +1,1 @@
+LINEUPS_ADD["Northwestern St."] = {"players":["Jalan West","Brison White","Dequan Hicks","Zeek Woodley","Patrick Robinson","Marvin Frazier","Gary Stewart","Sabri Thompson","Tra'Von Joseph","Ryan King","Tyler Washington","Matt Killian","Dadrian Harris","Dustin Adams","Austin Adams"],"rows":[]};

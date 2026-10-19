@@ -1,1 +1,1 @@
-LINEUPS_ADD["Kansas St."] = {"players":["Wesley Iwundu","Justin Edwards","Dean Wade","Barry Brown, Jr.","D.J. Johnson","Stephen Hurt","Kamau Stokes","Carlbe Ervin II","Austin Budke","Brian Rohleder","Ron Freeman","Zach Winter","Mason Schoen","Dante Williams","Pierson Mcatee"],"rows":[]};
+LINEUPS_ADD["Kansas St."] = {"players":["Wesley Iwundu","Justin Edwards","Dean Wade","Barry Brown, Jr.","D.J. Johnson","Stephen Hurt","Kamau Stokes","Carlbe Ervin II","Austin Budke","Brian Rohleder","Ron Freeman","Zach Winter","Mason Schoen","Pierson Mcatee","Dante Williams"],"rows":[]};

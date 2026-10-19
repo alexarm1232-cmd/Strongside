@@ -1,0 +1,1 @@
+LINEUPS_ADD["SIUE"] = {"players":["Donivine Stewart","Kris Davis","Rozell Nunn","Michael Messer","Keaton Jackson","C.J. Carr","Maurice Wiltz","Jake Newton","Grant Fiorentinos","Michael Chandler","Jalen Henry","Keenan Simmons"],"rows":[]};

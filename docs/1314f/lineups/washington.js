@@ -1,0 +1,1 @@
+LINEUPS_ADD["Washington"] = {"players":["C.J. Wilcox","Nigel Williams-Goss","Andrew Andrews","Perris Blackwell","Mike Anderson","Darin Johnson","Shawn Kemp, Jr.","Desmond Simmons","Gilles Dierickx","Jahmel Taylor","Hikeem Stewart","Quinn Sterling","Connor Smith","Jernard Jarreau"],"rows":[]};

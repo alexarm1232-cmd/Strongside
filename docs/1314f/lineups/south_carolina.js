@@ -1,0 +1,1 @@
+LINEUPS_ADD["South Carolina"] = {"players":["Brenton Williams","Sindarius Thornwell","Duane Notice","Mindaugas Kacinas","Michael Carrera","Demetrius Henry","Tyrone Johnson","Laimonas Chatkevicius","Desmond Ringer","Jaylen Shaw","Brian Steele","Justin McKie","Bruce Ellington","Reggie Theus Jr.","Austin Constable"],"rows":[]};

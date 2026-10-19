@@ -1,0 +1,1 @@
+LINEUPS_ADD["Kansas City"] = {"players":["Martez Harrison","Nelson Kirksey","Frank Williams","Trinity Hall","Fred Chatmon","Caleb Johnson","Jacobby Bledsoe","Isaac Kreuer","John Burke","Kirk Korver","Aaron Washington","Jordan Brown","Chandler Levingston","Mason Wedel"],"rows":[]};

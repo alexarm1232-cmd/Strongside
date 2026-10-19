@@ -1,0 +1,1 @@
+LINEUPS_ADD["La Salle"] = {"players":["Jordan Price","Steve Zack","Cleon Roberts","Jerrell Wright","Khalid Lewis","Amar Stukes","D.J. Peterson","Rohan Brown","Johnnie Shuler","Tony Washington","O.J. Lewis","Hank Davis"],"rows":[]};

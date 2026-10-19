@@ -1,0 +1,1 @@
+LINEUPS_ADD["N.C. A&T"] = {"players":["Lamont Middleton","Richaud Pack","Jeremy Underwood","Bruce Beckford","Khary Doby","Bryan Akinkugbe","Waylan Siverand","Michael Briscoe","Denzel Keyes","Steven Burrough","Jerome Simmons","Maurice Taylor","Ahmad Abdullah"],"rows":[]};

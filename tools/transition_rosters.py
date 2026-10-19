@@ -19,6 +19,8 @@ HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/
 
 # season code of the first Division I season -> [(team folder, the athletics site, its level the year before)]
 TRANSITIONS = {
+    "1314": [("UMass Lowell", "https://goriverhawks.com", "Division II"), ("Abilene Christian", "https://acusports.com", "Division II"),
+             ("UIW", "https://uiwcardinals.com", "Division II"), ("Grand Canyon", "https://gculopes.com", "Division II")],
     "1819": [("North Ala", "https://roarlions.com", "Division II"), ("California Baptist", "https://cbulancers.com", "Division II")],
     "1920": [("Merrimack", "https://merrimackathletics.com", "Division II")],
     "2021": [("Bellarmine", "https://athletics.bellarmine.edu", "Division II"), ("UC San Diego", "https://ucsdtritons.com", "Division II"),
@@ -151,6 +153,10 @@ def main():
             stats = season_stats(stats_page or "")
             if not stats:
                 print(f"{code} {team}: no {label} season stats found at {site} - needs a look")
+                continue
+            # a season page with only a handful of games on it (Abilene Christian's 2012-13 has three) is not a season
+            if sum(s[3] for s in stats) < 2000:
+                print(f"{code} {team}: {label} at {site} has only {sum(s[3] for s in stats)} minutes (a few games) - not used")
                 continue
             details = roster_details(fetch(f"{site}/sports/mens-basketball/roster/{label}") or "", label)
             by_norm = {norm(n): d for n, d in details.items()}

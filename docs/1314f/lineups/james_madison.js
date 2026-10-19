@@ -1,0 +1,1 @@
+LINEUPS_ADD["James Madison"] = {"players":["Ron Curry","Charles Cooke","Andrey Semenov","Taylor Bessick","Jackson Kent","Tom Vodanovich","Andre Nation","Yohanny Dalembert","Ivan Lukic","Paulius Satkus","Tom Rivard","Christian Pierce","Dimitrije Cabarkapa"],"rows":[]};

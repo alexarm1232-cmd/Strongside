@@ -1,0 +1,1 @@
+LINEUPS_ADD["UNLV"] = {"players":["Khem Birch","Kevin Olekaibe","Roscoe Smith","Bryce Dejean-Jones","Deville Smith","Jelan Kendrick","Kendall Smith","Christian Wood","Daquan Cook","Carlos Lopez-Sosa","Demetris Morant","Jamal Aytes","Charles Rushman"],"rows":[]};

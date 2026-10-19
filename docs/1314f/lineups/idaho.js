@@ -1,0 +1,1 @@
+LINEUPS_ADD["Idaho"] = {"players":["Stephen Madison","Connor Hill","Glen Dean","Mike Scott","Sekou Wiggs","Bira Seck","Joe Kammerer","Ty Egbert","Perrion Callandret","Paulin Mpawe","Allen Jiles IV","Patrick Ball"],"rows":[]};

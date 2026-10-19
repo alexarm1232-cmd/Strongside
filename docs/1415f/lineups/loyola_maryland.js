@@ -1,0 +1,1 @@
+LINEUPS_ADD["Loyola Maryland"] = {"players":["Tyler Hubbard","Eric Laster","Andre Walker","Denzel Brito","Cam Gregory","Franz Rassman","Chancellor Barnard","Nick Gorski","Colton Bishop","Josh Forney","Jarred Jones","Sean Tuohy Jr.","Stefano Mancini","Matt Staubi"],"rows":[]};

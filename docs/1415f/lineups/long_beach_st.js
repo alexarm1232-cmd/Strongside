@@ -1,0 +1,1 @@
+LINEUPS_ADD["Long Beach St."] = {"players":["Mike Caffey","David Samuels","Branford Jones","Mckay LaSalle","Tyler Lamb","Eric McKnight","Temidayo Yussuf","Travis Hammonds","Jack Williams","Deontae North","Justin Bibbins","Anson Moye","Charles Lockett"],"rows":[]};

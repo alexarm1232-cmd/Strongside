@@ -1,0 +1,1 @@
+LINEUPS_ADD["Southeastern La."] = {"players":["Antonnio Benton","Dre Evans","Jamichael Hawkins","Devonte Upson","Joshua Filmore","Jeffery Ricard","Julian Chiera","Onochie Ochie","Jeremy Campbell","Forrest Johnson","Quin Cooper","Antonio Evans"],"rows":[]};

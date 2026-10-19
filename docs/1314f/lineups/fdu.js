@@ -1,0 +1,1 @@
+LINEUPS_ADD["FDU"] = {"players":["Sidney Sanders Jr","Mustafaa Jones","Matt MacDonald","Mathias Seilund","Scooter Gillette","Malachi Nix","Xavier Harris","Mike Owona","Scott Kingsley","Jayde Dawson","Kyle Pearson","Myles Mann"],"rows":[]};

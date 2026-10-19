@@ -1,1 +1,1 @@
-LINEUPS_ADD["Southern California"] = {"players":["Boogie Ellis","Kobe Johnson","DJ Rodman","Isaiah Collier","Joshua Morgan","Vincent Iwuchukwu","Bronny James","Oziyah Sellers","Harrison Hornery","Kijani Wright","Arrinten Page","JD Plough","Brandon Gardner","Zach Brooker"],"rows":[]};
+LINEUPS_ADD["Southern California"] = {"players":["Boogie Ellis","Kobe Johnson","DJ Rodman","Isaiah Collier","Joshua Morgan","Vincent Iwuchukwu","Bronny James","Oziyah Sellers","Harrison Hornery","Kijani Wright","Arrinten Page","Zach Brooker","Brandon Gardner","JD Plough"],"rows":[]};

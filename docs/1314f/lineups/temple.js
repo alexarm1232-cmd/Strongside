@@ -1,0 +1,1 @@
+LINEUPS_ADD["Temple"] = {"players":["Dalton Pepper","Quenton DeCosey","Will Cummings","Anthony Lee","Josh Brown","Mark Williams","Devontae Watson","Jimmy McDonnell","Daniel Dingle","Nick Pendergast"],"rows":[]};

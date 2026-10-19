@@ -1,0 +1,1 @@
+LINEUPS_ADD["UMES"] = {"players":["Troy Snyder","Kyree Jones","Hakeem Baxter","Ishaq Pitt","Isaac Smith","Louis Bell","Devon Walker","Francis Ezeiru","Shane Randall","Pina Guillaume","Mark Blackmon","Travis Trim","Iman Johnson","Maceio Choice","Anfernee Robinson","Brandon Turner"],"rows":[]};

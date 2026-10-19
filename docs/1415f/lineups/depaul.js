@@ -1,0 +1,1 @@
+LINEUPS_ADD["DePaul"] = {"players":["Jamee Crockett","Billy Garrett Jr.","Myke Henry","Tommy Hamilton IV","Durrell McDonald","Forrest Robinson","Aaron Simpson","Darrick Wood","Rashaun Stimage","R.J. Curington","Joe Hanel","Greg Sequele","David Molinari","Cory Dolins"],"rows":[]};

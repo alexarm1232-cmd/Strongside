@@ -1,0 +1,1 @@
+LINEUPS_ADD["Notre Dame"] = {"players":["Eric Atkins","Pat Connaughton","Garrick Sherman","Demetrius Jackson","Steve Vasturia","Zach Auguste","Jerian Grant","A.J. Burgett","Tom Knight","V.J. Beachem","Eric Katenda","Patrick Crowley"],"rows":[]};

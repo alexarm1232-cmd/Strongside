@@ -1,0 +1,1 @@
+LINEUPS_ADD["Auburn"] = {"players":["KT Harrell","Cinmeon Bowers","KC Ross-Miller","Jordon Granger","Malcolm Canada","Antoine Mason","Tahj Shamsid-Deen","TJ Lang","Alex Thompson","Devin Waddell","Trayvon Reed","Jack Purchase","Cole Stockton","Patrick Keim","C.J. Holmes"],"rows":[]};

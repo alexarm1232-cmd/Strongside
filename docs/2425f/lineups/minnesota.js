@@ -1,1 +1,1 @@
-LINEUPS_ADD["Minnesota"] = {"players":["Dawson Garcia","Lu'Cye Patterson","Femi Odukale","Isaac Asuma","Mike Mitchell Jr.","Parker Fox","Brennan Rigsby","Frank Mitchell","Trey Edmonds","Kadyn Betts","Caleb Williams","Lincoln Meister","Erick Reader","Max Sheridan"],"rows":[]};
+LINEUPS_ADD["Minnesota"] = {"players":["Dawson Garcia","Lu'Cye Patterson","Femi Odukale","Isaac Asuma","Mike Mitchell Jr.","Parker Fox","Brennan Rigsby","Frank Mitchell","Trey Edmonds","Kadyn Betts","Caleb Williams","Max Sheridan","Erick Reader","Lincoln Meister"],"rows":[]};

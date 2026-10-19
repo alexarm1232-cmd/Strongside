@@ -1,0 +1,1 @@
+LINEUPS_ADD["Alabama"] = {"players":["Trevor Releford","Levi Randolph","Rodney Cooper","Retin Obasohan","Shannon Hale","Jimmie Taylor","Nick Jacobs","Algie Key","Carl Engstrom","Dakota Slaughter","Isiah Wilson"],"rows":[]};

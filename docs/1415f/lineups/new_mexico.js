@@ -1,0 +1,1 @@
+LINEUPS_ADD["New Mexico"] = {"players":["Hugh Greenwood","Deshawn Delaney","Obij Aget","Devon Williams","Tim Jacobs","Sam Logwood","Joe Furstinger","Xavier Adams","J.J. N'Ganga","Arthur Edwards","Jordan Goodman","Cullen Neal"],"rows":[]};

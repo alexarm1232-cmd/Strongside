@@ -1,1 +1,1 @@
-LINEUPS_ADD["Tulsa"] = {"players":["Dwon Odom","Keaston Willis","Braeden Carrington","Isaiah Barnes","Tyshawn Archie","Ian Smikle","Justin Amadi","Jesaiah McWright","Jared Garcia","Matthew Reed","Jaye Nash","Tyler Behrend","Ari Seals","Cal Conroy","Ben Radford"],"rows":[]};
+LINEUPS_ADD["Tulsa"] = {"players":["Dwon Odom","Keaston Willis","Braeden Carrington","Isaiah Barnes","Tyshawn Archie","Ian Smikle","Justin Amadi","Jesaiah McWright","Jared Garcia","Matthew Reed","Jaye Nash","Tyler Behrend","Ari Seals","Ben Radford","Cal Conroy"],"rows":[]};

@@ -1,0 +1,1 @@
+LINEUPS_ADD["Washington St."] = {"players":["Josh Hawkinson","Davont\u00e9 Lacy","Ike Iroegbu","Dexter Kernich-Drew","Ny Redding","Que Johnson","Jordan Railey","Brett Boese","Junior Longrus","Trevor Dunbar","Aaron Cheatum","Jackie Davis","Marcus Graham"],"rows":[]};

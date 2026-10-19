@@ -1,0 +1,1 @@
+LINEUPS_ADD["LIU"] = {"players":["Martin Hermannsson","Elvar Fridriksson","Gerrell Martin","Nura Zanna","Joel Hernandez","Iverson Fleming","Landon Atterberry","Trevin Woods","Glenn Feidanga","Jamil Hood","Trevon Woods","Chris Carter","Mark Parisi"],"rows":[]};

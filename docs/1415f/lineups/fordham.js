@@ -1,0 +1,1 @@
+LINEUPS_ADD["Fordham"] = {"players":["Mandell Thomas","Chris Sengfelder","Ryan Rhoomes","Eric Paschall","Bryan Smith","Antwoine Anderson","Jon Severe","Nemanja Zarkovic","Manny Suarez","Dekeba Battee-Aston","Zaire Thompson","Matt Massimino","Nihad Musovic","Erando Halilaj","Dc Gaitley"],"rows":[]};

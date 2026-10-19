@@ -1,1 +1,1 @@
-LINEUPS_ADD["LSU"] = {"players":["Adam Miller","KJ Williams","Derek Fountain","Cam Hayes","Justice Hill","Trae Hannibal","Jalen Reed","Justice Williams","Tyrell Ward","Kendal Coleman","Mwani Wilkinson","Shawn Phillips Jr.","Parker Edwards","Brandon Egemo","Adam Benhayoune"],"rows":[]};
+LINEUPS_ADD["LSU"] = {"players":["Adam Miller","KJ Williams","Derek Fountain","Cam Hayes","Justice Hill","Trae Hannibal","Jalen Reed","Justice Williams","Tyrell Ward","Kendal Coleman","Mwani Wilkinson","Shawn Phillips Jr.","Parker Edwards","Adam Benhayoune","Brandon Egemo"],"rows":[]};

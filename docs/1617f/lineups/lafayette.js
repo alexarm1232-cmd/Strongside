@@ -1,1 +1,1 @@
-LINEUPS_ADD["Lafayette"] = {"players":["Nick Lindner","Matt Klinewski","Kyle Stout","Paulius Zalys","Eric Stafford","Lukas Jarrett","Hunter Janacek","Auston Evans","Myles Cherry","Monty Boykins","Jimmy Panzini","Cal Reichwein","Jacob Orender"],"rows":[]};
+LINEUPS_ADD["Lafayette"] = {"players":["Nick Lindner","Matt Klinewski","Kyle Stout","Paulius Zalys","Eric Stafford","Hunter Janacek","Lukas Jarrett","Auston Evans","Myles Cherry","Monty Boykins","Jimmy Panzini","Cal Reichwein","Jacob Orender"],"rows":[]};

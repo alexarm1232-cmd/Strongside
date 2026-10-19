@@ -1,0 +1,1 @@
+LINEUPS_ADD["Hawaii"] = {"players":["Keith Shamburger","Christian Standhardinger","Garrett Nevels","Isaac Fotu","Brandon Spearman","Quincy Smith","Davis Rozitis","Aaron Valdes","Dyrbe Enos","Mike Thomas","Brandon Jawato","Stefan Jovanovic","Michael Harper","Jack Hackman"],"rows":[]};

@@ -1,0 +1,1 @@
+LINEUPS_ADD["South Alabama"] = {"players":["Augustine Rubit","Barrington Stevens III","Ken Williams","Antoine Allen","Mychal Ammons","Aakim Saintil","Dionte Ferguson","Isaiah Maston","Georgi Boyanov","T.J. Johnson","Austin Karazsia","E.J. Conley","Viktor Juricek"],"rows":[]};

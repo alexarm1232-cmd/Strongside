@@ -1,0 +1,1 @@
+LINEUPS_ADD["Northeastern"] = {"players":["David Walker","Scott Eatherton","Demetrius Pollard","Reggie Spencer","Zach Stahl","T.J. Williams","Marco Banegas-Flores","Derrico Peck","Chris Avenant","Jimmy Marshall","Kwesi Abakah","Quincy Ford","Cj Hill","Caleb Donnelly"],"rows":[]};

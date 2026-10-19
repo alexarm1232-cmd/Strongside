@@ -1,0 +1,1 @@
+LINEUPS_ADD["South Dakota"] = {"players":["Tyler Larson","Brandon Bos","Casey Kasperbauer","Trey Norris","Tre Burnette","Eric Robertson","James Hunter","Sekou Harris","Dejon 'D.J.' Davis","Austin Sparks","Adam Thoseby","Duol Mayot","Logan Power"],"rows":[]};

@@ -1,0 +1,1 @@
+LINEUPS_ADD["Southern U."] = {"players":["Malcolm Miller","Calvin Godfrey","Trelun Banks","Yondarius Johnson","Javan Mitchell","Tre Lynch","Damian Goodwin","Christopher Hyder","Cameron Monroe","Michael Harrel","Frank Snow","Bryce Clark","Elex Carter"],"rows":[]};

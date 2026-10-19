@@ -1,0 +1,1 @@
+LINEUPS_ADD["Cal St. Fullerton"] = {"players":["Michael Williams","Alex Harris","Sheldon Blackwell","Josh Gentry","Steve McClellan","Marquis Horne","Chris Collins","Jared Brandon","Joe Boyd","James Johnson","Floris Versteeg","Ian Spruce"],"rows":[]};

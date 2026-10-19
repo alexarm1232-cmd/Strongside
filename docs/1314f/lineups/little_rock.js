@@ -1,0 +1,1 @@
+LINEUPS_ADD["Little Rock"] = {"players":["Devonte Smith","Josh Hagins","Leroy Isler","Will Neighbour","Ben Dillard","James White","Gus Leeper","Mareik Isom","Kemy Osse","Stetson Billings","Maurius Hill","J.T. Thomas","Andrew Poulter"],"rows":[]};

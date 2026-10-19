@@ -1,0 +1,1 @@
+LINEUPS_ADD["Northern Ariz."] = {"players":["Aaseem Dixon","Gaellan Bewernick","Quinton Upshur","Max Jacobsen","Kris Yanku","Jordyn Martin","Len Springs","Ako Kaluna","Christopher Miller","Travis Meeker","Zachary Reynolds","Chris Heine","Alex Stecca","Jordan Banks"],"rows":[]};

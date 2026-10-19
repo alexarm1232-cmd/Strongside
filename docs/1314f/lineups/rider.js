@@ -1,0 +1,1 @@
+LINEUPS_ADD["Rider"] = {"players":["Anthony Myles","Jimmie Taylor","Daniel Stewart","Zedric Sadler","Kahlil Thomas","Tommy Pereira","Shawn Valentine","Khalil Alford","Junior Fortunat","Xavier Lundy","Brandon Channer","Emerson Bursis","Davis Graham"],"rows":[]};

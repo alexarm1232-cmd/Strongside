@@ -1,0 +1,1 @@
+LINEUPS_ADD["Rhode Island"] = {"players":["Xavier Munford","E.C. Matthews","Gilvydas Biruta","Hassan Martin","T.J. Buchanan","Jarelle Reischel","Biggie Minnis","Ifeanyi Onyekaba","Matthew Butler","Mike Powell","Mike Aaman","A.J. Kemp","Jonathan Nazarko","Eric Youncofski","Shane Plunkett"],"rows":[]};

@@ -1,0 +1,1 @@
+LINEUPS_ADD["UMBC"] = {"players":["Jourdan Grant","Cody Joyce","Devarick Houston","Malcolm L. Brent","Wayne Sparow","Will Darley","Ben Grace","Aaron Morgan","Jakob Stenhede","Charles Taylor, Jr.","Malik Garner","Rodney Elliott","Josh Olabosipo"],"rows":[]};

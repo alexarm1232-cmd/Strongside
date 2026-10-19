@@ -1,0 +1,1 @@
+LINEUPS_ADD["Marquette"] = {"players":["Derrick Wilson","Jake Thomas","Jamil Wilson","Davante Gardner","Todd Mayo","Chris Otule","Juan Anderson","Deonte Burton","Jajuan Johnson","John Dawson","Steve Taylor, Jr.","Dylan Flood"],"rows":[]};

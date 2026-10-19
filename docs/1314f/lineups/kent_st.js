@@ -1,0 +1,1 @@
+LINEUPS_ADD["Kent St."] = {"players":["Derek Jackson","Kris Brewer","Devareaux Manley","Mark Henniger","Kellon Thomas","Darren Goodson","Chris Ortiz","Khaliq Spicer","K.K. Simmons","Melvin Tabb","Devin Carter","Marquiez Lawrence","Tyler Scott","Jon Fleming"],"rows":[]};

@@ -1,0 +1,1 @@
+LINEUPS_ADD["Southeast Mo. St."] = {"players":["Tyler Stone","Jarekious Bradley","Lucas Nutt","Nino Johnson","Antonius Cleveland","Darrian Gray","Josh Langford","Jamaal Calvin","Paul Mcroberts","CJ Reese","Caleb Woods","Will Holifield","Kyle Stroder"],"rows":[]};

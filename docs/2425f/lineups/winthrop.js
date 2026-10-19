@@ -1,1 +1,1 @@
-LINEUPS_ADD["Winthrop"] = {"players":["Kasen Harrison","Kelton Talford","Nick Johnson","K.J. Doucet","Bryce Baker","Paul Jones III","Tommy Kamarad","Isaiah Wilson","Ryan Jolly","Logan Duncomb","Tai Hamilton","Yoro Diallo","Noah Van Bibber","Cam Christy","Henry Harrison"],"rows":[]};
+LINEUPS_ADD["Winthrop"] = {"players":["Kasen Harrison","Kelton Talford","Nick Johnson","K.J. Doucet","Bryce Baker","Paul Jones III","Tommy Kamarad","Isaiah Wilson","Ryan Jolly","Logan Duncomb","Tai Hamilton","Yoro Diallo","Noah Van Bibber","Henry Harrison","Cam Christy"],"rows":[]};

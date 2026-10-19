@@ -1,1 +1,1 @@
-LINEUPS_ADD["VMI"] = {"players":["Julian Eleby","QJ Peterson","Adrian Rich","Trey Chapman","Keith Smith","Armani Branch","Garrett Gilkeson","Fred Iruafemi","Will Miller","Austin Vereen","Tyler Creammer","Chu Enechionyia","Kuony Deng","Will Weethee","Marcus Larsson"],"rows":[]};
+LINEUPS_ADD["VMI"] = {"players":["Julian Eleby","QJ Peterson","Adrian Rich","Trey Chapman","Keith Smith","Armani Branch","Garrett Gilkeson","Fred Iruafemi","Will Miller","Austin Vereen","Tyler Creammer","Chu Enechionyia","Kuony Deng","Marcus Larsson","Will Weethee"],"rows":[]};

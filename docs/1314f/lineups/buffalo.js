@@ -1,0 +1,1 @@
+LINEUPS_ADD["Buffalo"] = {"players":["Javon McCrea","Jarod Oldham","Joshua Freelove","Will Regan","Shannon Evans II","Jarryn Skeete","Xavier Ford","Justin Moss","Deyshonee Much","Auraum Nuiriankh","Corey Raley-Ross"],"rows":[]};

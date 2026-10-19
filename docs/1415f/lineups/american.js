@@ -1,0 +1,1 @@
+LINEUPS_ADD["American"] = {"players":["Pee Wee Gardner","Jesse Reed","John Schoof","Charlie Jones","Marko Vasic","Kevin Panzer","Zach Elcano","Jalen Rhea","Alex Paquin","Gabe Brown","Justice Montgomery","Langdon Neal","Kyle Kager","George Langberg"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["Columbia"] = {"players":["Avery Brown","Geronimo Rubio De La Rosa","Blair Thompson","Zavian McLean","Josh Odunowo","Kenny Noland","Jaden Cooper","Noah Robledo","Zinou Eddine Bedri","Jake Tavroff","Nicolo Romanelli","Arop Arop","Robbie Stankard"],"rows":[]};
+LINEUPS_ADD["Columbia"] = {"players":["Avery Brown","Geronimo Rubio De La Rosa","Blair Thompson","Zavian McLean","Josh Odunowo","Kenny Noland","Jaden Cooper","Noah Robledo","Zinou Eddine Bedri","Jake Tavroff","Nicolo Romanelli","Robbie Stankard","Arop Arop"],"rows":[]};

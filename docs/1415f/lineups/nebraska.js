@@ -1,0 +1,1 @@
+LINEUPS_ADD["Nebraska"] = {"players":["Shavon Shields","Terran Petteway","Benny Parker","Walter Pitchford","David Rivers","Tai Webster","Tarin Smith","Moses Abraham","Leslee Smith","Nick Fuller","Jake Hammond","Trevor Menke","Kye Kurkowski"],"rows":[]};

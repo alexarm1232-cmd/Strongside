@@ -1,0 +1,1 @@
+LINEUPS_ADD["Seton Hall"] = {"players":["Sterling Gibbs","Angel Delgado","Jaren Sina","Khadeen Carrington","Brandon Mobley","Isaiah Whitehead","Desi Rodriguez","Haralds Karlis","Rashed Anthony","Stephane Manga","Ismael Sanogo","Chier Ajou","Tom Maayan","Freddie Wilson"],"rows":[]};

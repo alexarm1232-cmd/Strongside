@@ -1,0 +1,1 @@
+LINEUPS_ADD["Penn St."] = {"players":["D.J. Newbill","Shep Garner","Brandon Taylor","Ross Travis","Geno Thorpe","Jordan Dickerson","Donovon Jack","John Johnson","Payton Banks","Julian Moore","Devin Foster","Alan Wisniewski","Kevin Montminy","Isaiah Washington"],"rows":[]};

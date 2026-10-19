@@ -1,0 +1,1 @@
+LINEUPS_ADD["Southern Ill."] = {"players":["Anthony Beane, Jr.","Sean O'Brien","Jordan Caroline","Deion Lavender","Jalen Pendleton","Tyler Smithpeters","Bola Olaniyan","KC Goodwin","Ibby Djimde","Dawson Verhines","Chaz Glotta","Deng Leek","Armon Fletcher"],"rows":[]};

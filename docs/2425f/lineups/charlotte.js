@@ -1,1 +1,1 @@
-LINEUPS_ADD["Charlotte"] = {"players":["Nik Graves","Jaehshon Thomas","Giancarlo Rosado","Kylan Blackmon","Robert Braswell","Rich Rolf","Nika Metskhvarishvili","Isaiah Folkes","Dean Reiber","Ben Bradford","Aleksander Szymczyk","Nick Richart","Tyler Fearne","Andrew Bailey"],"rows":[]};
+LINEUPS_ADD["Charlotte"] = {"players":["Nik Graves","Giancarlo Rosado","Jaehshon Thomas","Kylan Blackmon","Robert Braswell","Rich Rolf","Nika Metskhvarishvili","Isaiah Folkes","Dean Reiber","Ben Bradford","Aleksander Szymczyk","Nick Richart","Tyler Fearne","Andrew Bailey"],"rows":[]};

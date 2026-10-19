@@ -1,0 +1,1 @@
+LINEUPS_ADD["Lamar University"] = {"players":["Nimrod Hilliard","Donovan Ross","Amos Wilson","Rhon Mitchell","Anthony Holliday","Marcus Owens","Donnell Minton","Octavius Green","Sebastian Norman","Preston Mattingly","Matt Hancock","Keilan Blanks"],"rows":[]};

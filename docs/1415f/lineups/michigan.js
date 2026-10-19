@@ -1,0 +1,1 @@
+LINEUPS_ADD["Michigan"] = {"players":["Zak Irvin","Spike Albrecht","Aubrey Dawkins","Caris LeVert","Derrick Walton Jr.","Ricky Doyle","Muhammad-Ali Abdur-Rahkman","Kameron Chatman","Max Bielfeldt","Mark Donnal","Andrew Dakich","Sean Lonergan","D.J. Wilson","Austin Hatch","Jon Rubenstein","Ryan Kapustka"],"rows":[]};

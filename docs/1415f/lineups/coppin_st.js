@@ -1,0 +1,1 @@
+LINEUPS_ADD["Coppin St."] = {"players":["Taariq Cephas","Sterling Smith","Arnold Fripp","Christian Kessee","Dallas Gary","Daquan Brickhouse","Jahyari Josiah","Jerimyiah Batts","Shomari Triggs","Lawrence Fejokwu","Blake Simpson","Brandon St. Louis","Van Rolle","Michael Oyefusi"],"rows":[]};

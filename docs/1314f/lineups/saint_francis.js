@@ -1,0 +1,1 @@
+LINEUPS_ADD["Saint Francis"] = {"players":["Earl Brown","Malik Harmon","Dominque Major","Greg Brown","Ronnie Drinnon","Ollie Jackson","Ben Millaud-Meunier","Stephon Whyatt","Stephon Mosley","Georgios Angelou","Patrick Wrencher","Matthew Mazzara","Aric Gresko","Dalton Cesarz"],"rows":[]};

@@ -1,0 +1,1 @@
+LINEUPS_ADD["UTRGV"] = {"players":["Shaquille Hines","Shaquille Boga","Javorn Farrell","Justin Leathers","Josh Cleveland","Lauri Toivonen","Hurley Johnson","Alex Majewski","LJ McIntosh","Jamal Dantzler","Blake Provost","Christian Hildebrandt","Jacob Raspopovich","Marcel Simon","Elijah Watson"],"rows":[]};

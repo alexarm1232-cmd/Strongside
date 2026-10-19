@@ -1,0 +1,1 @@
+LINEUPS_ADD["Eastern Ill."] = {"players":["Sherman Blanford","Reggie Smith","Dylan Chatman","Alex Austin","Josh Piper","Zach Dickerson","Luke Piotrowski","Chris Olivier","Keenen Anderson","Jake Verhagen","Dennis Green","Mat Piotrowski","Anthony Johnson","Donald Moore","Aaron Siler","Julian Robertson"],"rows":[]};

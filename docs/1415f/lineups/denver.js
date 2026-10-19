@@ -1,0 +1,1 @@
+LINEUPS_ADD["Denver"] = {"players":["Brett Olson","Cam Griffin","Marcus Byrd","Jalen Love","Nate Engesser","Bryant Rucker","Christian Mackey","Cameron Delaney","Duke Douglas","Daniel Amigo","Jake Pemberton","Josiah Dunn","Dorian Butler"],"rows":[]};

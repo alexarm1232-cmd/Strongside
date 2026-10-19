@@ -1,0 +1,1 @@
+LINEUPS_ADD["Southeastern La."] = {"players":["Devonte Upson","Zay Jackson","Cedric Jenkins","Daniel Grieves","Onochie Ochie","Joshua Filmore","Andrew Guillory","Jimmie Duplessis","Dylon Maggio","Justin Lobell","Bret Barclay","Zach Rumph"],"rows":[]};

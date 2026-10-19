@@ -1,0 +1,1 @@
+LINEUPS_ADD["Duquesne"] = {"players":["Ovie Soko","Dominique McKoy","Derrick Colter","Jeremiah Jones","Micah Mason","Tra'Vaughn White","Jerry Jones","Desmond Ridenour","L.G. Gill","Isaiah Watkins","Darius Lewis","Nick Foschia","Christian Johnston"],"rows":[]};

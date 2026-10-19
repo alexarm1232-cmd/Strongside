@@ -1,0 +1,1 @@
+LINEUPS_ADD["Marshall"] = {"players":["Kareem Canty","Chris Thomas","Ryan Taylor","Tyquane Goard","Tamron Manning","Shawn Smith","Cheikh Sane","Devince Boykins","Elijah Pittman","Yous Mbao","Austin Loop","Kevin McNair"],"rows":[]};

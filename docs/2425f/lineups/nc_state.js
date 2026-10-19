@@ -1,1 +1,1 @@
-LINEUPS_ADD["NC State"] = {"players":["Michael O'Connell","Jayden Taylor","Marcus Hill","Dontrez Styles","Ben Middlebrooks","Brandon Huntley-Hatfield","Breon Pass","Dennis Parker Jr.","Trey Parker","Paul McNeil Jr.","Bryce Heard","Ismael Diouf","Jordan Snell","KJ Keatts"],"rows":[]};
+LINEUPS_ADD["NC State"] = {"players":["Michael O'Connell","Jayden Taylor","Marcus Hill","Dontrez Styles","Ben Middlebrooks","Brandon Huntley-Hatfield","Breon Pass","Dennis Parker Jr.","Trey Parker","Paul McNeil Jr.","Bryce Heard","Ismael Diouf","KJ Keatts","Jordan Snell"],"rows":[]};

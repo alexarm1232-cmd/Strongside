@@ -1,1 +1,1 @@
-LINEUPS_ADD["Illinois St."] = {"players":["Dalton Banks","Myles Foster","Kendall Lewis","Johnny Kinziger","Malachi Poindexter","Darius Burford","Luke Kasubke","Jordan Davis","Ty Pence","Brandon Lieb","Chase Walker","Harouna Sissoko","Ryan Schmitt","Nik Stadelman","Ty Blake"],"rows":[]};
+LINEUPS_ADD["Illinois St."] = {"players":["Dalton Banks","Myles Foster","Kendall Lewis","Johnny Kinziger","Malachi Poindexter","Darius Burford","Luke Kasubke","Jordan Davis","Ty Pence","Brandon Lieb","Chase Walker","Harouna Sissoko","Nik Stadelman","Ryan Schmitt","Ty Blake"],"rows":[]};

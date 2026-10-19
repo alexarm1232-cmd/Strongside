@@ -1,0 +1,1 @@
+LINEUPS_ADD["Kansas City"] = {"players":["Martez Harrison","Frank Williams","Reese Holliday","Deshon Taylor","Darius Austin","Thaddeus Smith","Collin Jennings","Noah Knight","Broderick Newbill","Isaac Kreuer","Shayok Shayok","Kevin Franceschi","Juan Ramon Rivas","Mason Wedel","Brandyn Moultrie"],"rows":[]};

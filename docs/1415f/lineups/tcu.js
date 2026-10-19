@@ -1,0 +1,1 @@
+LINEUPS_ADD["TCU"] = {"players":["Kyan Anderson","Kenrich Williams","Trey Zeigler","Chris Washburn","Karviar Shepherd","Brandon Parrish","Amric Fields","Hudson Price","Chauncey Collins","Devonta Abron","Michael Williams","Christian Gore","Charles Hill","Link Kabadyundi","Dalton Dry","Josh Brown"],"rows":[]};

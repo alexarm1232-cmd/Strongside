@@ -1,0 +1,1 @@
+LINEUPS_ADD["Evansville"] = {"players":["D.J. Balentine","Blake Simmons","Adam Wing","Duane Gibson","Egidijus Mockevicius","Jaylon Brown","Jaylon Moore","David Howard","Christian Benzon","Tyler Ptacek","Ryan Sawvell","Mike Leazer"],"rows":[]};

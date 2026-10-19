@@ -1,0 +1,1 @@
+LINEUPS_ADD["Marist"] = {"players":["Chavaughn Lewis","Manny Thomas","Phillip Lawrence-Ricks","K.J. Lee","Eric Truog","Khallid Hart","T.J. Curry","Connor McClenaghan","James Griffin","Nick Colletta","Kentrall Brooks","Obi Momah","Tourron Whitfield"],"rows":[]};

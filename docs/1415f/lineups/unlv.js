@@ -1,0 +1,1 @@
+LINEUPS_ADD["UNLV"] = {"players":["Christian Wood","Cody Doolin","Patrick McCaw","Jelan Kendrick","Goodluck Okonoboh","Rashad Vaughn","Dwayne Morgan","Jordan Cornish","Dantley Walker","Barry Cheaney","Kendall Smith","Charles Rushman"],"rows":[]};

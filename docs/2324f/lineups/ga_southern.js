@@ -1,1 +1,1 @@
-LINEUPS_ADD["Ga. Southern"] = {"players":["Tyren Moore","Eren Banks","Avantae Parker","Cam Bryant","Nate Brafford","Eugene Brown III","Malik Tidwell","Jamar Franklin","Collin Kuhl","Derrick Harris Jr.","Russell Dean","David Jones","Carlos Curry","Tyler Bush","Luke Keller"],"rows":[]};
+LINEUPS_ADD["Ga. Southern"] = {"players":["Tyren Moore","Eren Banks","Avantae Parker","Cam Bryant","Nate Brafford","Eugene Brown III","Malik Tidwell","Jamar Franklin","Collin Kuhl","Derrick Harris Jr.","Russell Dean","David Jones","Carlos Curry","Luke Keller","Tyler Bush"],"rows":[]};

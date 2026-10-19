@@ -1,0 +1,1 @@
+LINEUPS_ADD["Cal Poly"] = {"players":["Brian Bennett","Joel Awich","Maliik Love","Ridge Shipley","Michael Bolden","David Nwaba","Reese Morgan","Anthony Silvestri","Aleks Abrams","Kyle Toth","KJ Logue","Alberto Ganis","Mark Patterson","Trevor John"],"rows":[]};

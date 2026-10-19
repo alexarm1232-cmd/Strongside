@@ -1,0 +1,1 @@
+LINEUPS_ADD["Houston Christian"] = {"players":["Anthony Odunsi","Colter Lasher","Reveal Chukwujekwu","Marcel Smith","Tyler Russell","Josh Ibarra","Ricmonds Vilde","Jourdan Stickler","Alex Fountain","Cody Stetler","Caleb Crayton","Trey Patterson","Terry Harris","Mike Turner","Stephen O'Suji"],"rows":[]};

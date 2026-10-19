@@ -1,0 +1,1 @@
+LINEUPS_ADD["Alcorn"] = {"players":["Marquis Vance","Leantwan Luckett","Michael Davis","Tyrel Hunt","George Thomas","Tamarcio Wilson","Reginal Johnson","Kenyan Pittman","Devonte Hampton","Omar Beauperthuy","Juwan Henderson","Tavis Gibson","Corey Young","Bassel Hartouch","George Gudadze"],"rows":[]};

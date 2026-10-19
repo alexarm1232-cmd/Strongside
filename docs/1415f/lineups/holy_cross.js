@@ -1,0 +1,1 @@
+LINEUPS_ADD["Holy Cross"] = {"players":["Malcolm Miller","Justin Burrell","Malachi Alexander","Eric Green","Cullen Hamilton","Anthony Thompson","Taylor Abt","Robert Champion","Mitch Hahn","Christopher Morgan","Matt Husek","De'Vaughn Reid","Isaiah Baker","Chris Jayne","Patrick Kerrigan"],"rows":[]};

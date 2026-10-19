@@ -1,0 +1,1 @@
+LINEUPS_ADD["Hartford"] = {"players":["Yolonzo Moore II","Mark Nwakamma","Corban Wroe","Wes Cole","Evan Cooper","Taylor Dyson","Oren Faulk","Nate Sikma","Jamie Schneck","Justin Graham","Yasin Kolo","Dougal Weir","Jeremiah Aska","Adam Oresky"],"rows":[]};

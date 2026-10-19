@@ -1,1 +1,1 @@
-LINEUPS_ADD["Arizona St."] = {"players":["Shannon Evans II","Tra Holder","Torian Graham","Obinna Oleka","Kodi Justice","Ramon Vila","Sam Cunliffe","Jethro Tshisumpa","Andre Adams","Maurice O'Field","Austin Witherill","Romaine Jackson","Chris Odionu","Grant Fogerty"],"rows":[]};
+LINEUPS_ADD["Arizona St."] = {"players":["Shannon Evans II","Tra Holder","Torian Graham","Obinna Oleka","Kodi Justice","Ramon Vila","Sam Cunliffe","Jethro Tshisumpa","Andre Adams","Maurice O'Field","Austin Witherill","Romaine Jackson","Grant Fogerty","Chris Odionu"],"rows":[]};

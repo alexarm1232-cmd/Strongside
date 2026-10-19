@@ -1,0 +1,1 @@
+LINEUPS_ADD["UC Santa Barbara"] = {"players":["Zalmico Harmon","Alan Williams","Michael Bryson","Kyle Boswell","Taran Brown","Eric Childress","Mitch Brewe","Sam Beeler","Shawn Moore","Aamahd Walker","John Green","Duke DaRe","Hunter Ford","Logan Louks"],"rows":[]};

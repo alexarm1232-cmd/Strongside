@@ -1,0 +1,1 @@
+LINEUPS_ADD["Bethune-Cookman"] = {"players":["Mikel Trapp","Ricky Johnson","Quintin Brewer","Delino Dear","Denzel Dulin","Brandon Stewart","Travis Elliott","Clemmye Owens","Troy Simmons","Jeffon Powell","Tony Kynard","Maurice Taylor","Ugo Okam"],"rows":[]};

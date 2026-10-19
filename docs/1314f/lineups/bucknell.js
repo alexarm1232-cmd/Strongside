@@ -1,0 +1,1 @@
+LINEUPS_ADD["Bucknell"] = {"players":["Cameron Ayers","Chris Hass","Brian Fitzpatrick","Steven Kaspar","Ben Brackney","Ryan Frazier","Dom Hoffman","John Azzinaro","Ryan Hill","Cory Starkey","D.J. MacLeay","Joshea Singleton","Ben Oberfeld","Matt Banas"],"rows":[]};

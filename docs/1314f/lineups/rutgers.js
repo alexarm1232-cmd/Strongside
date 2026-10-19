@@ -1,0 +1,1 @@
+LINEUPS_ADD["Rutgers"] = {"players":["Myles Mack","Kadeem Jack","J.J. Moore","Wally Judge","Jerome Seagears","Junior Etou","Malick Kone","Craig Brown","D'Von Campbell","Greg Lewis","Kerwin Okoro","Stephen Zurich","Jalen Hyde"],"rows":[]};

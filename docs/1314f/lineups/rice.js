@@ -1,0 +1,1 @@
+LINEUPS_ADD["Rice"] = {"players":["Max Guercy","Austin Ramljak","Seth Gearhart","Sean Obi","Marcus Jackson","Keith Washington","Ross Wilson","Andrew Drone","Nizar Kapic","Drew Bender","Dan Peera","Bahrom Firozgary","Joey Burbach","Hunter Eggers"],"rows":[]};

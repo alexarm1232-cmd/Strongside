@@ -1,1 +1,1 @@
-LINEUPS_ADD["IU Indy"] = {"players":["Jarvis Walker","Sean Craig","Paul Zilinskas","Alec Millender","DeSean Goode","Keenan Garner","Timaris Brown","Ron Rutland III","Nathan Dudukovich","Caleb Hannah","Julian Steinfeld","Ajay Holubar"],"rows":[]};
+LINEUPS_ADD["IU Indy"] = {"players":["Jarvis Walker","Sean Craig","Paul Zilinskas","Alec Millender","DeSean Goode","Keenan Garner","Timaris Brown","Ron Rutland III","Nathan Dudukovich","Julian Steinfeld","Caleb Hannah","Ajay Holubar"],"rows":[]};

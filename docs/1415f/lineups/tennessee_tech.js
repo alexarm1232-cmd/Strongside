@@ -1,0 +1,1 @@
+LINEUPS_ADD["Tennessee Tech"] = {"players":["Torrance Rowe","Charles Jackson","Dwan Caldwell","Josiah Moore","Javon McKay","Aleksa Jugovic","Shirmane Thomas","Jordan Johnson","Deondre Haynes","Anthony Morse","Mason Ramsey","Josh Bougher"],"rows":[]};

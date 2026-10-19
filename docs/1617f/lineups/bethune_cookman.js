@@ -1,1 +1,1 @@
-LINEUPS_ADD["Bethune-Cookman"] = {"players":["Brandon Tabb","Quinton Forrest","Reggie Baker","Diamante Lewis","Jeffrey Altidort","Brandon Suggs","Ulmer Manzie","Houston Smith","Josue Salaam","Rodney Ross","Danny Harris","Jamal Gaines","Marquel Ingram"],"rows":[]};
+LINEUPS_ADD["Bethune-Cookman"] = {"players":["Brandon Tabb","Quinton Forrest","Reggie Baker","Diamante Lewis","Jeffrey Altidort","Brandon Suggs","Ulmer Manzie","Houston Smith","Josue Salaam","Danny Harris","Rodney Ross","Jamal Gaines","Marquel Ingram"],"rows":[]};

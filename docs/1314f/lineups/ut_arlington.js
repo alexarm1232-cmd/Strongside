@@ -1,0 +1,1 @@
+LINEUPS_ADD["UT Arlington"] = {"players":["Brandon Edwards","Reger Dowell","Jamel Outler","Lonnie McClanahan","Shaquille White-Miller","Anthony Walker","Brandon Williams","Vincent Dillard","Jorge Bilbao","Stuart Lagerson","Kyle McElvain","Luke Davis","Courtney Austin"],"rows":[]};

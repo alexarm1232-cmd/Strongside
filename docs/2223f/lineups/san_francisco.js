@@ -1,1 +1,1 @@
-LINEUPS_ADD["San Francisco"] = {"players":["Tyrell Roberts","Khalil Shabazz","Marcus Williams","Josh Kunen","Isaiah Hawthorne","Zane Meeks","Julian Rishwain","Ndewedo Newbury","Saba Gigiberia","Volodymyr Markovetskyy","Toni Rocak","Justin Bieker","Jake Cioe","Bryce Whitaker"],"rows":[]};
+LINEUPS_ADD["San Francisco"] = {"players":["Tyrell Roberts","Khalil Shabazz","Marcus Williams","Josh Kunen","Isaiah Hawthorne","Zane Meeks","Julian Rishwain","Ndewedo Newbury","Saba Gigiberia","Volodymyr Markovetskyy","Toni Rocak","Justin Bieker","Bryce Whitaker","Jake Cioe"],"rows":[]};
