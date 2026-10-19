@@ -1,1 +1,1 @@
-LINEUPS_ADD["UNLV"] = {"players":["Jalen Hill","Julian Rishwain","Dedan Thomas Jr.","Jaden Henley","Jeremiah Cherry","Jailen Bedford","Brooklyn Hicks","Pape N'Diaye","Jacob Bannarbie","Isaiah Cottrell","Rob Whaley Jr.","DeMarion Yap","Jace Whiting","Luke Naser"],"rows":[]};
+LINEUPS_ADD["UNLV"] = {"players":["Jalen Hill","Julian Rishwain","Dedan Thomas Jr.","Jaden Henley","Jeremiah Cherry","Jailen Bedford","Brooklyn Hicks","Pape N'Diaye","Jacob Bannarbie","Isaiah Cottrell","Rob Whaley Jr.","Jace Whiting","DeMarion Yap","Luke Naser"],"rows":[]};

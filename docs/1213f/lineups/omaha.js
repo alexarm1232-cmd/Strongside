@@ -1,0 +1,1 @@
+LINEUPS_ADD["Omaha"] = {"players":["Justin Simmons","CJ Carter","John Karhoff","Alex Welhouse","Alex Phillips","Caleb Steffensmeier","Marcus Tyus","Matt Hagerbaumer","Jacques Coleman","Simon Krych","Tyler Egli","Koang Doluony","Max Banchy","Traddariu McPHEARSON","Tommy Hobbs","Cory Dixon"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["Colorado"] = {"players":["McKinley Wright","George King","Namon Wright","Dominique Collier","Tyler Bey","Dallas Walton","Lucas Siewert","Lazar Nikolic","Deleon Brown","D'Shawn Schwartz","Tory Miller-Stewart","Alexander Strating","Josh Repine","AJ Martinka"],"rows":[]};
+LINEUPS_ADD["Colorado"] = {"players":["McKinley Wright","George King","Namon Wright","Dominique Collier","Tyler Bey","Dallas Walton","Lucas Siewert","Lazar Nikolic","D'Shawn Schwartz","Deleon Brown","Tory Miller-Stewart","Alexander Strating","Josh Repine","AJ Martinka"],"rows":[]};

@@ -1,0 +1,1 @@
+LINEUPS_ADD["USC Upstate"] = {"players":["Ty Greene","Torrey Craig","Ricardo Glenn","Jodd Maxey","Adrian Rodgers","Mario Blessing","Babatunde Olumuyiwa","Fred Miller","Rob Elam","Jeremy Ford","Bruce Haynes","Zach Lillie"],"rows":[]};

@@ -1,0 +1,1 @@
+LINEUPS_ADD["Quinnipiac"] = {"players":["Ike Azotam","Zaid Hearst","Jamee Jackson","Evan Conti","Dave Johnson","Shaq Shannon","Ousmane Drame","Kendrick Ray","Garvey Young","James Ford, Jr.","Justin Harris","Tariq Carey","Marquis Barnett","T'Ziah Wood-Smith","Emanuel Binyam","Samir Kalil"],"rows":[]};

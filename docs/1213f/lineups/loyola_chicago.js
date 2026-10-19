@@ -1,0 +1,1 @@
+LINEUPS_ADD["Loyola Chicago"] = {"players":["Jordan Hicks","Christian Thomas","Ben Averkamp","Cully Payne","Devon Turk","Joe Crisman","Jeff White","Matt O'Leary","Nick Osborne","London Dokubo","Bill Clark","Tanner Williams","Derrick Boone","Kody Williams"],"rows":[]};

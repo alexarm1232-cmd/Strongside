@@ -1,0 +1,1 @@
+LINEUPS_ADD["UConn"] = {"players":["Ryan Boatright","Shabazz Napier","Omar Calhoun","Deandre Daniels","Tyler Olander","Niels Giffey","R.J. Evans","Enosch Wolf","Phillip Nolan","Leon Tolksdorf","Brendan Allen","Tor Watts","Keifer Lammi","Dave Vandal","Trey James","Pat Lenehan","Javon Williams"],"rows":[]};

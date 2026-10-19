@@ -1,0 +1,1 @@
+LINEUPS_ADD["The Citadel"] = {"players":["Mike Groselle","Matt Van Scyoc","Marshall Harris III","P.J. Horgan","Ashton Moore","Raemond Robinson","Stephen Elmore","Dylen Setzekorn","Janeil Jenkins","Quinton Marshall","Lawrence Miller","C.J. Bray","Michael Hundley"],"rows":[]};

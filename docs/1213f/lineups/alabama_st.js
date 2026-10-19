@@ -1,0 +1,1 @@
+LINEUPS_ADD["Alabama St."] = {"players":["Joshua Freelove","Jamel Waters","Denzel McDaniel","Shawntez Patterson","Luther Page","Phillip Crawford","Ryan Watts","Bobby Brown","Stephawn Brown","Jonathan Jefferson","Anthony Price","Josh Mason","Dominique Miller","Devonte' Neal","Tim Coleman","Kimani Key","Terrelle Green"],"rows":[]};

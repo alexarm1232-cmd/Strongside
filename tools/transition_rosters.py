@@ -19,6 +19,8 @@ HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/
 
 # season code of the first Division I season -> [(team folder, the athletics site, its level the year before)]
 TRANSITIONS = {
+    "1213": [("Northern Ky", "https://nkunorse.com", "Division II"), ("Omaha", "https://omavs.com", "Division II"),
+             ("LSU New Orleans", "https://unoprivateers.com", "outside Division I")],
     "1314": [("UMass Lowell", "https://goriverhawks.com", "Division II"), ("Abilene Christian", "https://acusports.com", "Division II"),
              ("UIW", "https://uiwcardinals.com", "Division II"), ("Grand Canyon", "https://gculopes.com", "Division II")],
     "1819": [("North Ala", "https://roarlions.com", "Division II"), ("California Baptist", "https://cbulancers.com", "Division II")],

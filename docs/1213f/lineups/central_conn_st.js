@@ -1,0 +1,1 @@
+LINEUPS_ADD["Central Conn. St."] = {"players":["Kyle Vinales","Matt Hunter","Malcolm McMillan","Adonis Burbage","Joe Efese","Terrell Allen","Brandon Peel","Andrew Hurd","Greg Andrade","Erik Raleigh","Khalen Cumberlander"],"rows":[]};

@@ -1,0 +1,1 @@
+LINEUPS_ADD["Brown"] = {"players":["Sean McGonagill","Matt Sullivan","Rafael Maia","Tucker Halpern","Cedric Kuakumensah","Tyler Ponticelli","Joe Sharkey","Stephen Albrecht","Longji Yiljep","Jon Schmidt"],"rows":[]};

@@ -1,0 +1,1 @@
+LINEUPS_ADD["CSUN"] = {"players":["Josh Greene","Stephen Maxwell","Stephan Hicks","Allen Guei","Trevone Williams","Landon Drew","Tre Hale-Edmerson","Donovan Johnson","Brandon Perry","Lonnie Watson","Morgan Tilford","Ian Clark","Ilya Ilyayev","Jordan Mitchell","Ishmael Godfrey","Frankie Eteuati"],"rows":[]};

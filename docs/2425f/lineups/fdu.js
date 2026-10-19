@@ -1,1 +1,1 @@
-LINEUPS_ADD["FDU"] = {"players":["Terrence Brown","Jo'el Emanuel","Bismark Nsiah","Ahmed Barba-Bey","Dylan Jones","Brayden Reynolds","Jameel Morris","Cameron Tweedy","Josiah Francis","Jacob Warren","Chidube Ekwommadu","Davin Francis","Brashon Hall","Andrew Canda"],"rows":[]};
+LINEUPS_ADD["FDU"] = {"players":["Terrence Brown","Jo'el Emanuel","Bismark Nsiah","Ahmed Barba-Bey","Dylan Jones","Brayden Reynolds","Jameel Morris","Cameron Tweedy","Josiah Francis","Jacob Warren","Chidube Ekwommadu","Davin Francis","Andrew Canda","Brashon Hall"],"rows":[]};

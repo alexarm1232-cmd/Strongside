@@ -1,0 +1,1 @@
+LINEUPS_ADD["George Washington"] = {"players":["Isaiah Armwood","Joe McDonald","Patricio Garino","Lasan Kromah","Kevin Larsen","Bryan Bynes","Nemanja Mikic","Dwayne Smith","Kethan Savage","John Kopriva","Paris Maragkos","Jonathan Davis"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["UMBC"] = {"players":["Brandon Horvath","RJ Eytle-Rock","LJ Owens","Darnell Rogers","Keondre Kennedy","Dimitrije Spasojevic","Dan Akin","Jacob Boonyasith","Matteo Picarelli","Nathan Johnson","Szymon Wojcik","Brendan Davis","Thomas Reid","Sam Grace"],"rows":[]};
+LINEUPS_ADD["UMBC"] = {"players":["Brandon Horvath","RJ Eytle-Rock","LJ Owens","Darnell Rogers","Keondre Kennedy","Dimitrije Spasojevic","Dan Akin","Jacob Boonyasith","Matteo Picarelli","Nathan Johnson","Szymon Wojcik","Thomas Reid","Brendan Davis","Sam Grace"],"rows":[]};

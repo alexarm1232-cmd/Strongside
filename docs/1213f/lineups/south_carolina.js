@@ -1,0 +1,1 @@
+LINEUPS_ADD["South Carolina"] = {"players":["Lakeem Jackson","Eric Smith","Bruce Ellington","Brenton Williams","Mindaugas Kacinas","Michael Carrera","Brian Richardson","RJ Slawson","Damien Leonard","Laimonas Chatkevicius","Lashay Page","Brian Steele","Shane Phillips","Austin Constable"],"rows":[]};

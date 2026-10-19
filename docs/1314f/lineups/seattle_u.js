@@ -1,1 +1,1 @@
-LINEUPS_ADD["Seattle U"] = {"players":["Isiah Umipig","Jarell Flora","Jack Crook","Clarence Trent","D'Vonne Pickett","Shore Adenekan","Deshaun Sunderhaus","William Powell","Emerson Murray","Luiz Bidart","Emmanuel Chibuogwu","David Trimble","Manny Chibuogwu","Theo Turner"],"rows":[]};
+LINEUPS_ADD["Seattle U"] = {"players":["Isiah Umipig","Jarell Flora","Jack Crook","Clarence Trent","D'Vonne Pickett","Shore Adenekan","Deshaun Sunderhaus","William Powell","Emerson Murray","Luiz Bidart","Emmanuel Chibuogwu","David Trimble","Theo Turner","Manny Chibuogwu"],"rows":[]};

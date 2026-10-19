@@ -1,0 +1,1 @@
+LINEUPS_ADD["Lafayette"] = {"players":["Tony Johnson","Joey Ptasinski","Seth Hinrichs","Levi Giese","Bryce Scott","Dan Trist","Alan Flannigan","Zach Rufer","Nathaniel Musters","Les Smith","Ben Freeland","Jack Detmer","Billy Murphy"],"rows":[]};

@@ -1,0 +1,1 @@
+LINEUPS_ADD["UAB"] = {"players":["Rod Rucker","Jordan Swing","Robert Williams","Terence Jones","Fahro Alihodzic","Quincy Taylor","Preston Purifoy","Isiah Jones","Alexander Scotland-Williamson","Jekore Tyler","Karl Moton"],"rows":[]};

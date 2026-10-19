@@ -1,0 +1,1 @@
+LINEUPS_ADD["Marist"] = {"players":["Chavaughn Lewis","Isaiah Morton","Adam Kemp","Devin Price","Manny Thomas","T.J. Curry","Jay Bowie","Eric Truog","Phillip Lawrence-Ricks","Dorvell Carter","Anell Alexis","Pieter Prinsloo","Pat Ramsey","Jesse Martin","Tourron Whitfield","Rob Delle Bovi"],"rows":[]};

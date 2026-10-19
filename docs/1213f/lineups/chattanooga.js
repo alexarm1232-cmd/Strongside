@@ -1,0 +1,1 @@
+LINEUPS_ADD["Chattanooga"] = {"players":["Gee McGhee","Ronrico White","Z. Mason","Drazen Zlovaric","Sam Watson","Farad Cobb","Martynas Bareika","Casey Jones","Eric Robertson","Jared Bryant","Lance Stokes","Alex Bran","Dontay Hampton"],"rows":[]};

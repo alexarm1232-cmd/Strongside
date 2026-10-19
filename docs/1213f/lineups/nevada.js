@@ -1,0 +1,1 @@
+LINEUPS_ADD["Nevada"] = {"players":["Deonte Burton","Malik Story","Jerry Evans, Jr.","Jordan Burris","Kevin Panzer","Cole Huff","Devonte Elliott","Marqueze Coleman","Ali Fall","Patrick Nyeko","Keith Fuetsch","Brice Crook","Richard Bell"],"rows":[]};

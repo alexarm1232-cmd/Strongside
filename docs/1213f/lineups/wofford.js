@@ -1,0 +1,1 @@
+LINEUPS_ADD["Wofford"] = {"players":["Lee Skinner","Karl Cochran","Spencer Collins","Indiana Faithful","Aerris Smith","Jarrell Byrd","John Swinton","CJ Neumann","Justin Gordon","Taylor Wagener","Kevin Hickson","Bryan Harris","James Long","Zach Korkowski"],"rows":[]};

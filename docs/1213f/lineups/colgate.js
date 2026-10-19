@@ -1,0 +1,1 @@
+LINEUPS_ADD["Colgate"] = {"players":["Murphy Burnatowski","Luke Roh","Mitch Rolls","Pat Moore","Damon Sherman-Newsome","John Brandenburg","Brandon James","Matt McMullen","Clayton Graham","Chad Johnson","Lazar Bogdanovic","Alex Ramon","Jared Accetturra","Ethan Jacobs"],"rows":[]};

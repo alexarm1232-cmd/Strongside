@@ -1,0 +1,1 @@
+LINEUPS_ADD["New Hampshire"] = {"players":["Chandler Rhoads","Patrick Konan","Ferg Myrick","Jordon Bronner","Chris Pelcher","Chris Matagrano","Scott Morris","Chris Orozco","Jeron Trotman","Logan Mortenson","Frank Okeke","Tommy McDonnell","Garrett Jones"],"rows":[]};

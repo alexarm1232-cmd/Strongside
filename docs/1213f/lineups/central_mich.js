@@ -1,0 +1,1 @@
+LINEUPS_ADD["Central Mich."] = {"players":["Kyle Randall","Chris Fowler","John Simons","Blake Hibbitts","Olivier Mbaigoto","Derrick Richardson Jr.","Austin Keel","Finis Craddock","Austin Stewart","Spencer Krannitz","Zach Saylor","Luke Wiest","Rick Rowse","Deandray Buckley"],"rows":[]};

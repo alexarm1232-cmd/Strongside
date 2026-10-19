@@ -1,0 +1,1 @@
+LINEUPS_ADD["Eastern Wash."] = {"players":["Venky Jois","Parker Kelly","Jeffrey Forbes","Martin Seiferth","Thomas Reuter","Kevin Winford","Justin Crosgile","Collin Chiverton","Tyler Harvey","Jordan Hickert","Daniel Hill","Ivan Dorsey","Fred Jorg","Danny Powell"],"rows":[]};

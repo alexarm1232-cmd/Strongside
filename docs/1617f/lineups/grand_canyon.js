@@ -1,1 +1,1 @@
-LINEUPS_ADD["Grand Canyon"] = {"players":["Dewayne Russell","Gerard Martin","Keonta Vernon","Oscar Frayer","Joshua Braun","Shaq Carr","Fiifi Aidoo","Kerwin Smith","Darion Clark","Kenzo Nudo","Chris Miller","Adrian Carrion","Nehemiah Allen","Juwan Washington"],"rows":[]};
+LINEUPS_ADD["Grand Canyon"] = {"players":["Dewayne Russell","Gerard Martin","Keonta Vernon","Oscar Frayer","Joshua Braun","Shaq Carr","Fiifi Aidoo","Kerwin Smith","Darion Clark","Kenzo Nudo","Chris Miller","Nehemiah Allen","Adrian Carrion","Juwan Washington"],"rows":[]};

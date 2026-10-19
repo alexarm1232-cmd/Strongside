@@ -1,0 +1,1 @@
+LINEUPS_ADD["Saint Francis"] = {"players":["Earl Brown","Umar Shannon","Greg Brown","Ollie Jackson","Dominque Major","Ronnie Drinnon","Stephon Whyatt","Stephon Mosley","Ben Millaud-Meunier","Anthony Ervin","Kameron Ritter","Tony Peters","Storm Stanley","Zachary Vigneault","Aric Gresko"],"rows":[]};

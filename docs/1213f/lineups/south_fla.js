@@ -1,0 +1,1 @@
+LINEUPS_ADD["South Fla."] = {"players":["Anthony Collins","Toarlyn Fitzpatrick","Victor Rudd","Martino Brock","Jawanza Poland","Zach LeDay","Javontae Hawkins","Kore White","Shaun Noriega","Jordan Omogbehin","Musa Abdul-Aleem","Mike McCloskey","Mike Dakek"],"rows":[]};

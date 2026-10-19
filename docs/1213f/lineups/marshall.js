@@ -1,0 +1,1 @@
+LINEUPS_ADD["Marshall"] = {"players":["Elijah Pittman","Deandre Kane","Dennis Tinnon","D'Aris Scarver","Nigel Spikes","Robert Goff","Chris Martin","Tamron Manning","Devince Boykins","Jamir Hanner","Yous Mbao","JP Kambola","Kelvin Amayo"],"rows":[]};

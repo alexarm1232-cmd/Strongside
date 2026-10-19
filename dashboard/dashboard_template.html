@@ -3352,6 +3352,24 @@ const REAL_BRACKETS = { '2025-26': {
     ['Florida', 'UConn', 'Wisconsin', 'Kentucky'],
     ['UConn', 'Kentucky'],
     ['UConn']],
+}, '2012-13': {
+  year: 2013, pair: 1,        // from ESPN's bracket; the first region met the second in the Final Four (Louisville's title was later vacated)
+  slots: [
+    'Louisville', 'N.C. A&T', 'Colorado St.', 'Missouri', 'Oklahoma St.', 'Oregon', 'Saint Louis', 'New Mexico St.', 'Memphis', "Saint Mary's (CA)", 'Michigan St.', 'Valparaiso', 'Creighton', 'Cincinnati', 'Duke', 'UAlbany',
+    'Gonzaga', 'Southern U.', 'Pittsburgh', 'Wichita St.', 'Wisconsin', 'Ole Miss', 'Kansas St.', 'La Salle', 'Arizona', 'Belmont', 'New Mexico', 'Harvard', 'Notre Dame', 'Iowa St.', 'Ohio St.', 'Iona',
+    'Kansas', 'Western Ky.', 'North Carolina', 'Villanova', 'VCU', 'Akron', 'Michigan', 'South Dakota St.', 'UCLA', 'Minnesota', 'Florida', 'Northwestern St.', 'San Diego St.', 'Oklahoma', 'Georgetown', 'FGCU',
+    'Indiana', 'James Madison', 'NC State', 'Temple', 'UNLV', 'California', 'Syracuse', 'Montana', 'Butler', 'Bucknell', 'Marquette', 'Davidson', 'Illinois', 'Colorado', 'Miami (FL)', 'Pacific'],
+  winners: [
+    ['Louisville', 'Colorado St.', 'Oregon', 'Saint Louis', 'Memphis', 'Michigan St.', 'Creighton', 'Duke',
+     'Gonzaga', 'Wichita St.', 'Ole Miss', 'La Salle', 'Arizona', 'Harvard', 'Iowa St.', 'Ohio St.',
+     'Kansas', 'North Carolina', 'VCU', 'Michigan', 'Minnesota', 'Florida', 'San Diego St.', 'FGCU',
+     'Indiana', 'Temple', 'California', 'Syracuse', 'Butler', 'Marquette', 'Illinois', 'Miami (FL)'],
+    ['Louisville', 'Oregon', 'Michigan St.', 'Duke', 'Wichita St.', 'La Salle', 'Arizona', 'Ohio St.',
+     'Kansas', 'Michigan', 'Florida', 'FGCU', 'Indiana', 'Syracuse', 'Marquette', 'Miami (FL)'],
+    ['Louisville', 'Duke', 'Wichita St.', 'Ohio St.', 'Michigan', 'Florida', 'Syracuse', 'Marquette'],
+    ['Louisville', 'Wichita St.', 'Michigan', 'Syracuse'],
+    ['Louisville', 'Michigan'],
+    ['Louisville']],
 } };
 const REAL_BRACKET = REAL_BRACKETS[DATA.meta.season] || null;      // this season's real tournament, when it is known
 const CHASE_ENDS = [32, 48, 56, 60, 62, 63];        // how many games have been played by the end of each round

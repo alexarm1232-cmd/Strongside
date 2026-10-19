@@ -1,0 +1,1 @@
+LINEUPS_ADD["Georgia St."] = {"players":["Devonta White","Manny Atkins","R.J. Hunter","Rashaad Richardson","James Vincent","Markus Crider","David Travers","Denny Burguillos","Cameron Solomon","T.J. Shipes","Ryann Green","Laron Smith","Kevin Shaw","Tyler Gamble"],"rows":[]};

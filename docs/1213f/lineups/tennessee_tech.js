@@ -1,0 +1,1 @@
+LINEUPS_ADD["Tennessee Tech"] = {"players":["Jud Dillard","Jeremiah Samarrippas","Dennis Ogbe","Javon McKay","Lanerryl Johnson","Terrell Barnes","Matt Marseille","Anthony Morse","Mitchell Hill","Ammanuel Diressa","Ryon Riggins","Deondre Haynes"],"rows":[]};

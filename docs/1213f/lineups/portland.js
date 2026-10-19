@@ -1,0 +1,1 @@
+LINEUPS_ADD["Portland"] = {"players":["Ryan Nicholas","Derrick Rodgers","Thomas van der Mars","Kevin Bailey","Korey Thieleke","Bryce Pressley","Riley Barker","Oskars Reinfelds","Tanner Riley","David Carr","Jake Ehlers","John Bailey","David Ahern"],"rows":[]};

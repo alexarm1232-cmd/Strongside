@@ -1,1 +1,1 @@
-LINEUPS_ADD["Fairfield"] = {"players":["Taj Benning","Caleb Green","Jake Wojcik","Jesus Cruz","Supreme Cook","TJ Long","Allan Jeanne-Rose","Chris Maidoh","Zach Crisler","Jalen Leach","Christian Cevis","Makai Willis","Jason Edokpayi","Jack Mullally","Jack Brown","Mark Henry"],"rows":[]};
+LINEUPS_ADD["Fairfield"] = {"players":["Taj Benning","Caleb Green","Jake Wojcik","Jesus Cruz","Supreme Cook","TJ Long","Allan Jeanne-Rose","Chris Maidoh","Zach Crisler","Jalen Leach","Christian Cevis","Makai Willis","Jason Edokpayi","Jack Mullally","Mark Henry","Jack Brown"],"rows":[]};

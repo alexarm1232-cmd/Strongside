@@ -1,1 +1,1 @@
-LINEUPS_ADD["Tulsa"] = {"players":["Pat Birt","Sterling Taplin","Junior Etou","Jaleel Wheeler","Corey Henderson Jr.","Martins Igbanu","Will Magnay","Tarekeyi Edogi","Lawson Korita","Travis Atson","Geno Artison","Joseph Battle","Corey Haith","Alex Foree"],"rows":[]};
+LINEUPS_ADD["Tulsa"] = {"players":["Pat Birt","Junior Etou","Sterling Taplin","Jaleel Wheeler","Corey Henderson Jr.","Martins Igbanu","Will Magnay","Tarekeyi Edogi","Lawson Korita","Travis Atson","Geno Artison","Joseph Battle","Corey Haith","Alex Foree"],"rows":[]};

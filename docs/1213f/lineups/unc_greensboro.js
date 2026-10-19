@@ -1,0 +1,1 @@
+LINEUPS_ADD["UNC Greensboro"] = {"players":["Trevis Simpson","Derrell Armstrong","David Williams","Kayel Locke","Drew Parker","Kelvin McNeil","Nicholas Paulos","Korey Van Dussen","Jordan Potts","Taylor Hoffer","Brian Cole","RJ White","Tyler McNeely","Demetrius Robinson","Kendall Bethea","Thomas Sumpter"],"rows":[]};

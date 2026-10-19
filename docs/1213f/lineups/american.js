@@ -1,0 +1,1 @@
+LINEUPS_ADD["American"] = {"players":["Daniel Munoz","John Schoof","Stephen Lumpkins","Tony Wroblicky","Blake Jolivette","Mike Bersch","Jesse Reed","Austin Carroll","Kyle Kager","Marko Vasic","Daniel Fisher","Zach Elcano","Warren Flood, Jr.","Jordan Borucki"],"rows":[]};

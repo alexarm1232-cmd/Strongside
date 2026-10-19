@@ -1,1 +1,1 @@
-LINEUPS_ADD["Minnesota"] = {"players":["Nate Mason","Joey King","Jordan Murphy","Bakary Konate","Charles Buggs","Carlos Morris","Dupree McBrayer","Kevin Dorsey","Ahmad Gilbert","Stephon Sharp","Gaston Diedhiou","Mike Lukashewich","Darin Haugh"],"rows":[]};
+LINEUPS_ADD["Minnesota"] = {"players":["Nate Mason","Joey King","Jordan Murphy","Bakary Konate","Charles Buggs","Dupree McBrayer","Carlos Morris","Kevin Dorsey","Ahmad Gilbert","Stephon Sharp","Gaston Diedhiou","Mike Lukashewich","Darin Haugh"],"rows":[]};

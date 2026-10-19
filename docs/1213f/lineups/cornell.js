@@ -1,0 +1,1 @@
+LINEUPS_ADD["Cornell"] = {"players":["Shonn Miller","Nolan Cressler","Errick Peck","Miles Asafo-Adjei","Galal Cancer","Johnathan Gray","Eitan Chemerinski","Devin Cherry","Dominick Scelfo","Josh Figini","Dwight Tarwater","Deion Giddens","Peter McMillan","Dave LaMore","Nenad Tomic","Holt Harmon","Robert Mischler","Jamal Cherry","Braxston Bunce"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["Radford"] = {"players":["Jarvis Moss","Brandon Maclin","Josiah Harris","Truth Harris","Ibu Yamazaki","Isaiah Gaines","David Early","TJ NeSmith","Zion Walker","Chace Davis","Tony Felder","Jonas Sirtautas","Xavier Foster","Brennan Chatman"],"rows":[]};
+LINEUPS_ADD["Radford"] = {"players":["Jarvis Moss","Brandon Maclin","Josiah Harris","Truth Harris","Isaiah Gaines","Ibu Yamazaki","David Early","TJ NeSmith","Zion Walker","Chace Davis","Tony Felder","Jonas Sirtautas","Xavier Foster","Brennan Chatman"],"rows":[]};

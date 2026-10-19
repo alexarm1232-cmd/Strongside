@@ -48,13 +48,21 @@ def minutes(text):
         return str(round(int(parts[0]) + int(parts[1]) / 60, 2))
     return str(number(text))
 
+def pick(row, *names):
+    """The first of these columns that has a value: the site has renamed some over the years (2012-13 and earlier
+    say "Off Reb" / "Def Reb" where later seasons say "ORebs" / "DRebs")."""
+    for name in names:
+        if (row.get(name) or "").strip():
+            return row[name]
+    return ""
+
 def line(row, with_name=True):
     out = {"PTS": number(row["PTS"]), "FG": f"{number(row['FGM'])}-{number(row['FGA'])}", "3PT": f"{number(row['3FG'])}-{number(row['3FGA'])}",
            "FT": f"{number(row['FT'])}-{number(row['FTA'])}", "REB": number(row["Tot Reb"]), "AST": number(row["AST"]),
-           "PF": number(row["Fouls"]), "TO": number(row["TO"]), "OREB": number(row["ORebs"]), "DREB": number(row["DRebs"]),
-           "STL": number(row["STL"]), "BLK": number(row["BLK"])}
+           "PF": number(row["Fouls"]), "TO": number(row["TO"]), "OREB": number(pick(row, "ORebs", "Off Reb")),
+           "DREB": number(pick(row, "DRebs", "Def Reb")), "STL": number(row["STL"]), "BLK": number(row["BLK"])}
     if with_name:
-        out = dict({"Name": row["Name"].strip(), "MIN": minutes(row["MP"])}, **out)
+        out = dict({"Name": row["Name"].strip(), "MIN": minutes(pick(row, "MP", "Min"))}, **out)
     return out
 
 def read_games(label):
@@ -81,7 +89,7 @@ def read_games(label):
             total = rows[-1] if rows else None
             if not total or not total.get("Name"): continue
             players = [r for r in rows[:-1] if (r.get("Name") or "").strip() and (r.get("Name") or "").strip().upper() != "TEAM"]
-            played = [r for r in players if minutes(r["MP"]) not in ("0", "0.0")]
+            played = [r for r in players if minutes(pick(r, "MP", "Min")) not in ("0", "0.0")]
             g["boxes"][clean(total["Name"])] = {
                 "team_name": total["Name"].strip(),
                 # the site lists the five starters first

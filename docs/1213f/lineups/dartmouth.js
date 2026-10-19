@@ -1,0 +1,1 @@
+LINEUPS_ADD["Dartmouth"] = {"players":["Alex Mitola","John Golden","Gabas Maldunas","Connor Boehm","Tyler Melville","Jvonte Brooks","Malik Gill","Kevin Crescenzi","Brandon McDonnell","Tommy Carpenter","Matt LaBove","Mack McKearney","Matt Rennie","Will McConnell","Kirill Savolainen"],"rows":[]};

@@ -1,0 +1,1 @@
+LINEUPS_ADD["Arkansas"] = {"players":["BJ Young","Marshawn Powell","Mardracus Wade","Coty Clarke","Hunter Mickelson","Rashad Madden","Michael Qualls","Rickey Scott","Kikko Haydar","Jacorey Williams","Fred Gulley III","Anthlon Bell","Dequavious Wagner","Davion Spivey","Charlie Henderson"],"rows":[]};

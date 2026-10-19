@@ -1,0 +1,1 @@
+LINEUPS_ADD["Northern Ariz."] = {"players":["Gabe Rogers","Dewayne Russell","Stallon Saldivar","Gaellan Bewernick","Michael Dunn","Max Jacobsen","Jordyn Martin","Ephraim Ekanem","Blake Hamilton","Luis Flores","Ben Olayinka","Chris Heine","Bryce Gosar","Nick Wahl","Len Springs"],"rows":[]};

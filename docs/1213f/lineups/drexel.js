@@ -1,0 +1,1 @@
+LINEUPS_ADD["Drexel"] = {"players":["Frantz Massenat","Derrick Thomas","Dartaye Ruffin","Damion Lee","Daryl McCoy","Kazembe Abif","Tavon Allen","Aquil Younger","Goran Pantovic","Chris Fouch","Casey Carroll","Jake Lerner"],"rows":[]};

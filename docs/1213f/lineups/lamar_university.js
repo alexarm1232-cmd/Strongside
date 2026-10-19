@@ -1,0 +1,1 @@
+LINEUPS_ADD["Lamar University"] = {"players":["Donley Minor","Rhon Mitchell","Stan Brown","Donnell Minton","Amos Wilson","Hondo Webb","Nikko Acosta","Matt Hancock","Sebastian Norman","Brennan Doty","Osas Ebomwonyi","Brian Curran","Dj Muepo","Keilan Blanks"],"rows":[]};

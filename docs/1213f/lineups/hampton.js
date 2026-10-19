@@ -1,0 +1,1 @@
+LINEUPS_ADD["Hampton"] = {"players":["Deron Powers","Du'Vaughn Maxwell","Ramon Mercado","Ke'Ron Brown","Emmanuel Okoroba","Dwight Meikle","Jasper Williams","Wesley Dunning","Aaron Austin","David Bruce","Dionte Adams","Reggie Price","Miles Jackson"],"rows":[]};

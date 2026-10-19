@@ -1,0 +1,1 @@
+LINEUPS_ADD["LSU New Orleans"] = {"players":["Rarlensee Nelson","Lovell Cook","Traddarius McPhearson","Cory Dixon","Isaac Mack","Eddie Denard","Corey Blake","Max Banchy","Kevin Hill","Evans Ganapamo","Maurice County","Darrell Williams","John Reese","Travis Avery","Tommy Hobbs","Mitchell Parker","Benjamin James","Joseph Hebert"],"rows":[]};

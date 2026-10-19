@@ -1,0 +1,1 @@
+LINEUPS_ADD["Delaware"] = {"players":["Devon Saddler","Kyle Anderson","Jamelle Hagins","Jarvis Threatt","Josh Brinkley","Carl Baptiste","Terrell Rogers","Larry Savage","Marvin King-Davis","Will Townsville","Brendan McNulty","Tommy Williams","Troy Thomas","Thomas Allshouse","Sean Locke"],"rows":[]};

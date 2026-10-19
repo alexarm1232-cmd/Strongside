@@ -1,0 +1,1 @@
+LINEUPS_ADD["Clemson"] = {"players":["Devin Booker","Rod Hall","Milton Jennings","K.J. McDaniels","Jordan Roper","Damarcus Harrison","Adonis Filer","Bernard Sullivan","Landry Nnoko","T.J. Sapp","Josh Smith","Carson Fields"],"rows":[]};

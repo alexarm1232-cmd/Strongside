@@ -1,0 +1,1 @@
+LINEUPS_ADD["Eastern Mich."] = {"players":["Daylen Harrison","Glenn Bryant","Da'Shonte Riley","Derek Thompson","J.R. Sims","Jalen Ross","Jamell Harris","Matt Balkema","Austin Harper","Anthony Strickland","Raven Lee","Chandler Antoine","Josh Lyle","James Still"],"rows":[]};

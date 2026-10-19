@@ -1,0 +1,1 @@
+LINEUPS_ADD["Coppin St."] = {"players":["Michael Murray","Taariq Cephas","Andre Armstrong","Sterling Smith","Patrick Cole","Zachary Burnham","Charles Ieans","Collin Johnson","Troy Franklin","Brandon St. Louis","Darryln Johnson","Niwayo Adjei","Mike Simpson","Desma Nicholson"],"rows":[]};

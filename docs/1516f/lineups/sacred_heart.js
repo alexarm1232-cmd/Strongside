@@ -1,1 +1,1 @@
-LINEUPS_ADD["Sacred Heart"] = {"players":["Cane Broome","Quincy McKnight","Jordan Allen","Tevin Falzon","Sean Hoehn","Matej Buovac","Chris Robinson","Eyimofe Edukugho","Jermaine Ukaegbu","Cole Walton","Filip Nowicki","Cavan LaRose","Travis Berry"],"rows":[]};
+LINEUPS_ADD["Sacred Heart"] = {"players":["Cane Broome","Quincy McKnight","Jordan Allen","Tevin Falzon","Sean Hoehn","Matej Buovac","Chris Robinson","Eyimofe Edukugho","Jermaine Ukaegbu","Cole Walton","Filip Nowicki","Travis Berry","Cavan LaRose"],"rows":[]};

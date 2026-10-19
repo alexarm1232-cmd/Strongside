@@ -1,0 +1,1 @@
+LINEUPS_ADD["UNC Asheville"] = {"players":["Jeremy Atkinson","Trent Meyer","Keith Hornsby","Will Weeks","D,J. Cunnigham","Jon Nwannunu","Marcus Neely","Sam Hughes","Corey Littlejohn","Jaleel Roberts","Josh Seligson","Zach Davis"],"rows":[]};

@@ -1,0 +1,1 @@
+LINEUPS_ADD["N.C. Central"] = {"players":["Jeremy Ingram","Stanton Kidd","Ray Willis","Emanuel Chapman","Jay Copeland","Karamo Jawara","Drimir Ferguson","Alfonzo Houston","Antonin Galaya","Davron Williams","Ebuka Anyaorah","Jordan Marrow","Nathaniel Sims","Rashawn King"],"rows":[]};

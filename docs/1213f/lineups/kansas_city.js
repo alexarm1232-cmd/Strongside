@@ -1,0 +1,1 @@
+LINEUPS_ADD["Kansas City"] = {"players":["Estan Tyler","Thomas Staton","Fred Chatmon","Nate Rogers","Kirk Korver","Nelson Kirksey","Trinity Hall","Brad Reid","Mason Wedel","Aaron Washington","Alton Tanner","John Burke","Caleb Johnson","Trevor Franklin"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["Nicholls"] = {"players":["Kevin Johnson","Jeremiah Jefferson","Gavin Peppers","Danny Garrick","Elvis Harvey Jr.","Daniel Regis","Brandon Moore Jr.","Ryghe Lyons","Jeremiah Buford","Tom Clement","Trent Schiller","A Alatishe","Abdul Alatishe"],"rows":[]};
+LINEUPS_ADD["Nicholls"] = {"players":["Kevin Johnson","Jeremiah Jefferson","Gavin Peppers","Danny Garrick","Elvis Harvey Jr.","Daniel Regis","Brandon Moore Jr.","Ryghe Lyons","Jeremiah Buford","Tom Clement","Trent Schiller","Abdul Alatishe","A Alatishe"],"rows":[]};

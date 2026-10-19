@@ -1,1 +1,1 @@
-LINEUPS_ADD["UC Davis"] = {"players":["Corey Hawkins","Ryan Sypkens","Darius Graham","Avery Johnson","Georgi Funtarov","Brynton Lemar","Iggy Nujic","Clint Bozner","Justin Dueck","Josh Ritchert","Olivier-Paul Betu","Carlos Mancasola"],"rows":[]};
+LINEUPS_ADD["UC Davis"] = {"players":["Corey Hawkins","Ryan Sypkens","Darius Graham","Avery Johnson","Georgi Funtarov","Brynton Lemar","Iggy Nujic","Clint Bozner","Josh Ritchert","Justin Dueck","Olivier-Paul Betu","Carlos Mancasola"],"rows":[]};

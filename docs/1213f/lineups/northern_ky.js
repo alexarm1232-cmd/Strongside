@@ -1,0 +1,1 @@
+LINEUPS_ADD["Northern Ky."] = {"players":["Ethan Faulkner","Eshaunte Jones","Chad Jackson","Ernest Watson","Tyler White","Nate Snodgrass","Todd Johnson","Jack Flournoy","John Staley","Anthony Monaco","Jalen Billups","Justin Rossi","Bill Pecora"],"rows":[]};

@@ -1,0 +1,1 @@
+LINEUPS_ADD["DePaul"] = {"players":["Brandon Young","Cleveland Melvin","Worrel Clahar","Donnavan Kirk","Jamee Crockett","Charles McKinney","Moses Morgan","Derrell Robertson","Durrell McDonald","Edwind McGhee","Montray Clemons","Peter Ryckbosch","Jodan Price","Cory Dolins","Stuart Pirri","Dejuan Marrero"],"rows":[]};

@@ -1,0 +1,1 @@
+LINEUPS_ADD["ULM"] = {"players":["Jayon James","Trent Mackey","R.J. McCray","Millaun Brown","Amos Olatayo","Trey Lindsey","Marcelis Hansberry","Kyle Koszuta","Ife Eke","Taylor Birchett","Colton Ponder"],"rows":[]};

@@ -1,0 +1,1 @@
+LINEUPS_ADD["Southern Ill."] = {"players":["Desmar Jackson","Jeff Early","Kendal Brown-Surles","Anthony Beane, Jr.","Dantiel Daniels","T.J. Lindsay","Jalen Pendleton","Josh Swan","Davante Drinkard","Colby Long","Antonio Bryer","Diamond Taylor","Calvin Belts","Ryan Bonifield"],"rows":[]};

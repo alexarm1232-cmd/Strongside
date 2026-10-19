@@ -1,0 +1,1 @@
+LINEUPS_ADD["Illinois St."] = {"players":["Jackie Carmichael","Tyler Brown","Bryant Allen","Johnny Hill","Jon Ekey","John Wilkins","Kaza Keane","Nick Zeisloft","Anthony Cousin","Jordan Threloff","Zeke Upshaw","Geoffrey Allen","Matt Stacho"],"rows":[]};

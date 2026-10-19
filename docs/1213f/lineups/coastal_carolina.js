@@ -1,0 +1,1 @@
+LINEUPS_ADD["Coastal Carolina"] = {"players":["Anthony Raffa","Kierre Greenwood","Warren Gillis","El Hadji Ndieguene","Michel Enanga","Badou Diagne","Uros Ljeskovic","Tristian Curtis","Charles Ashford","Justin Daniel","Bisi Addey","Tre'Von James","Richie Berry"],"rows":[]};

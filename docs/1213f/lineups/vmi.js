@@ -1,0 +1,1 @@
+LINEUPS_ADD["VMI"] = {"players":["Stan Okoye","D.J. Covington","Rodney Glasgow","Brian Brown","Nick Gore","Tim Marshall","Phillip Anglade","Joe Carr","Dorian Albritton","Gavin Stephenson","Jarid Watson","Christian Burton","Drew Absher"],"rows":[]};

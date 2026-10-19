@@ -1,1 +1,1 @@
-LINEUPS_ADD["SIUE"] = {"players":["Christian Ellis","Jalen Henry","Keenan Simmons","Justin Benton","Daniel Kinchen","David McFarland","Brandon Jackson","Jaylen McCoy","D.J. Jackson","Bill Awet","Kevion Stewart","Julian Torres","D'Quan Applewhite"],"rows":[]};
+LINEUPS_ADD["SIUE"] = {"players":["Jalen Henry","Christian Ellis","Keenan Simmons","Justin Benton","Daniel Kinchen","David McFarland","Brandon Jackson","Jaylen McCoy","D.J. Jackson","Bill Awet","Kevion Stewart","Julian Torres","D'Quan Applewhite"],"rows":[]};

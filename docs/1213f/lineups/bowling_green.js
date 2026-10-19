@@ -1,0 +1,1 @@
+LINEUPS_ADD["Bowling Green"] = {"players":["Jordon Crawford","A'Uston Calhoun","Chauncey Orr","Luke Kraus","Cameron Black","Richaun Holmes","Anthony Henderson","James Erger","Craig Sealey","Jehvon Clarke","Spencer Parker","Damarkeo Lyshe","Desmond Rorie"],"rows":[]};

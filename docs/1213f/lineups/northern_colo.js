@@ -1,0 +1,1 @@
+LINEUPS_ADD["Northern Colo."] = {"players":["Derrick Barden","Tate Unruh","Tevin Svihovec","Tim Huskisson","Connor Osborne","Paul Garnica","Emmanuel Addo","Greg Tucker","James Davis Jr.","Brendan Keane","Bryce Douvier","Xzaivier James","Cody McDavis"],"rows":[]};

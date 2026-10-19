@@ -1,0 +1,1 @@
+LINEUPS_ADD["UTSA"] = {"players":["Kannon Burrage","Michael Hale III","Jordan Sims","Jeromie Hill","Hyjii Thomas","Larry Wilkins","Edrico McGregor","Tyler Wood","A.J. Price","Tank Mayberry","Jeremy Hines","Dante Willis","Devon Agusi","Lucas Obrien"],"rows":[]};

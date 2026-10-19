@@ -1,0 +1,1 @@
+LINEUPS_ADD["Texas Tech"] = {"players":["Josh Gray","Jaye Crockett","Jordan Tolbert","Dusty Hannahs","Dejan Kravic","Jamal Williams, Jr.","Daylen Robinson","Ty Nurse","Toddrick Gotcher","Trency Jackson","Kader Tapsoba","Clark Lammert","Luke Adams"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["Utah Tech"] = {"players":["Noa Gonsalves","Hakim Byrd","Beon Riley","Justin Bieker","Samuel Ariyibi","Tennessee Rainwater","Madiba Owona","Stone Hutchings","Britton Berrett","Pavle Misic","Unisa Turay","Hunter Schenck","Sammy Howlin","Dallin Grant"],"rows":[]};
+LINEUPS_ADD["Utah Tech"] = {"players":["Noa Gonsalves","Hakim Byrd","Beon Riley","Justin Bieker","Samuel Ariyibi","Tennessee Rainwater","Madiba Owona","Britton Berrett","Stone Hutchings","Pavle Misic","Unisa Turay","Hunter Schenck","Sammy Howlin","Dallin Grant"],"rows":[]};

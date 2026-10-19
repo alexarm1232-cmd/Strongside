@@ -1,0 +1,1 @@
+LINEUPS_ADD["FDU"] = {"players":["Melquan Bolding","Lonnie Robinson","Kinu Rochford","Mustafaa Jones","Sidney Sanders Jr","Mathias Seilund","Xavier Harris","Sekou Harris","Yves Jules","Kyle Pearson","Dylan Moody","Trevor Charles","Yosua Cordero"],"rows":[]};

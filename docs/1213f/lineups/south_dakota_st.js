@@ -1,0 +1,1 @@
+LINEUPS_ADD["South Dakota St."] = {"players":["Nate Wolters","Brayden Carlson","Jordan Dykstra","Chad White","Tony Fiegen","Marcus Heemstra","Taevaunn Prince","Jake Bittle","Zach Horstman","Cory Jacobsen","Joey Feilmeier"],"rows":[[31,[1,3,2,0,4],48.03,42,59,45.35,38,57],[31,[1,7,2,0,4],11.03,14,12,11.03,14,12]]};

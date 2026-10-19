@@ -1,0 +1,1 @@
+LINEUPS_ADD["Manhattan"] = {"players":["Emmy Andujar","Rhamel Brown","Donovan Kates","Rashawn Stores","Michael Alvarado","Shane Richards","Roberto Colonette","Mohamed Koita","CJ Jones","Ryan McCoy","George Beamon","Mark Jackson, Jr.","Adam Lacey"],"rows":[]};

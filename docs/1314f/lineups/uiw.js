@@ -1,1 +1,1 @@
-LINEUPS_ADD["UIW"] = {"players":["Kyle Hittle","Denzel Livingston","Sam Burmeister","Anthony Horton","Mitchell Badillo","Ian Markolf","Justin Phillipe","Winslo Barry","John Baker","Phillip Johnson","Joseph Louwagie","Marcus Brock","Chris Starkes"],"rows":[]};
+LINEUPS_ADD["UIW"] = {"players":["Kyle Hittle","Denzel Livingston","Sam Burmeister","Anthony Horton","Mitchell Badillo","Ian Markolf","Justin Phillipe","Winslo Barry","John Baker","Phillip Johnson","Joseph Louwagie","Chris Starkes","Marcus Brock"],"rows":[]};

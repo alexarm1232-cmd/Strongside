@@ -1,0 +1,1 @@
+LINEUPS_ADD["Rice"] = {"players":["Tamir Jackson","Julian DeBose","Max Guercy","Austin Ramljak","Keith Washington","Seth Gearhart","Ross Wilson","Bahrom Firozgary","Dan Peera","Elliot Franshaw","Nizar Kapic"],"rows":[]};

@@ -1,0 +1,1 @@
+LINEUPS_ADD["IU Indy"] = {"players":["Donovan Gibbs","Sean Esposito","Greg Rice","Mitchell Patton","Jordan Shanklin","Lyonell Gaines","John Hart","P.J. Hubert","Nick Kitcoff","Ian Chiles","Marcellus Barksdale","Cameron Loepker","Kevin Rose"],"rows":[]};

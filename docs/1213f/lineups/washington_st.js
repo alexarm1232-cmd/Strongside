@@ -1,0 +1,1 @@
+LINEUPS_ADD["Washington St."] = {"players":["Brock Motum","Royce Woolridge","D.J. Shelton","Mike Ladd","Davont\u00e9 Lacy","Dexter Kernich-Drew","Will DiIorio","Junior Longrus","Bryce Leavitt","Brett Boese","Dominic Ballard","James Hunter","Keaton Hayenga","Richard Longrus"],"rows":[]};

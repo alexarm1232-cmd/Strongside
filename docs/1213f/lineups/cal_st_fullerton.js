@@ -1,0 +1,1 @@
+LINEUPS_ADD["Cal St. Fullerton"] = {"players":["Kwame Vaughn","Alex Harris","Jared Brandon","D.J. Seeley","Sammy Yeager","James Johnson","James Douglas","Chris Collins","Jordan Knox","Marquis Horne","Ronell Abaekobe","Mike Gee","Deuce Johnson"],"rows":[]};

@@ -1,0 +1,1 @@
+LINEUPS_ADD["Yale"] = {"players":["Austin Morgan","Javier Duren","Armani Cotton","Justin Sears","Matt Townsend","Michael Grace","Jeremiah Kreisberg","Greg Kelley","Sam Martin","Brandon Sherrod","Nick Victor","Jesse Pritchard","Jack Montague","Will Childs-Klein","Khaliq Bedart Ghani"],"rows":[]};

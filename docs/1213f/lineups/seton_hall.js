@@ -1,0 +1,1 @@
+LINEUPS_ADD["Seton Hall"] = {"players":["Fuquan Edwin","Aaron Cosby","Gene Teague","Kyle Smyth","Tom Maayan","Brian Oliver","Haralds Karlis","Brandon Mobley","Kevin Johnson","Aaron Geramipoor","Patrik Auda","Freddie Wilson","Connor Laverty"],"rows":[]};

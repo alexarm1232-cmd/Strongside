@@ -1,0 +1,1 @@
+LINEUPS_ADD["Northwestern"] = {"players":["Dave Sobolewski","Reggie Hearn","Jared Swopshire","Alex Olah","Alex Marcotullio","Tre Demps","Kale Abrahamson","Mike Turner","Drew Crawford","James Montgomery III","Nikola Cerina","Omar Jimenez","Chier Ajou","Sanjay Lumpkin"],"rows":[]};

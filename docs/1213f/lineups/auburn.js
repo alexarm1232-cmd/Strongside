@@ -1,0 +1,1 @@
+LINEUPS_ADD["Auburn"] = {"players":["Frankie Sullivan","Allen Payne","Rob Chubb","Josh Wallace","Shaquille Johnson","Noel Johnson","Chris Denson","Asauhn Dixon-Tatum","Jordan Price","Brian Greene Jr.","Jordon Granger","Shareif Adamu","Dylan Spencer","Nick Pellar","C.J. Holmes","Kt Harrell"],"rows":[]};

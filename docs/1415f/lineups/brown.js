@@ -1,1 +1,1 @@
-LINEUPS_ADD["Brown"] = {"players":["Steven Spieth","Tavon Blackmon","Rafael Maia","Cedric Kuakumensah","JR Hobbie","Leland King","Tyler Williams","Jason Massey","Dockery Walker","Patrick Triplett","Kyle Haber","Longji Yiljep","Miki Ljuboja","Jon Schmidt","Joe Sharkey"],"rows":[]};
+LINEUPS_ADD["Brown"] = {"players":["Steven Spieth","Tavon Blackmon","Rafael Maia","Cedric Kuakumensah","JR Hobbie","Leland King","Tyler Williams","Jason Massey","Dockery Walker","Patrick Triplett","Kyle Haber","Longji Yiljep","Jon Schmidt","Miki Ljuboja","Joe Sharkey"],"rows":[]};

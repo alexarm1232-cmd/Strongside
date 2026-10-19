@@ -1,1 +1,1 @@
-LINEUPS_ADD["Southern Ill."] = {"players":["Marcus Domask","Lance Jones","Ben Coupet Jr.","Steven Verplancken","Dalton Banks","JD Muila","Troy D'Amico","Kyler Filewich","Trent Brown","Anthony D'Avanzo","Ben Harvey","Chris Cross","Will Keller"],"rows":[]};
+LINEUPS_ADD["Southern Ill."] = {"players":["Marcus Domask","Lance Jones","Ben Coupet Jr.","Steven Verplancken","Dalton Banks","JD Muila","Troy D'Amico","Kyler Filewich","Trent Brown","Anthony D'Avanzo","Ben Harvey","Will Keller","Chris Cross"],"rows":[]};

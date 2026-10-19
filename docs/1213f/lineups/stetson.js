@@ -1,0 +1,1 @@
+LINEUPS_ADD["Stetson"] = {"players":["Chris Perez","Joel Naburgs","Willie Green","Aaron Graham","Adam Pegg","Hunter Miller","Liam McInerney","Dennis Diaz","Brian Pegg","Logan Irwin","Leke Solanke","Tanner Plemmons","J.R. Weston"],"rows":[]};

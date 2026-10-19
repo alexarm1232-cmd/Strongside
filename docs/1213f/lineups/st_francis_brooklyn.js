@@ -1,0 +1,1 @@
+LINEUPS_ADD["St. Francis Brooklyn"] = {"players":["Jalen Cannon","Ben Mockford","Akeem Johnson","Brent Jones","Dre Calloway","Aleksandar Isailovic","Travis Nichols","Anthony White","Kevin Douglas","P.J. Santavenere","Lowell Ulmer","Matt Milk","Milos Trivic","Mike Nierva"],"rows":[]};

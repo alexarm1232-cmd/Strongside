@@ -1,0 +1,1 @@
+LINEUPS_ADD["FIU"] = {"players":["Malik Smith","Jerome Frink","Tymell Murphy","Tola Akomolafe","Deric Hill","Marco Porcher Jimenez","Juan Ferrales","Cameron Bell","Gaby Belardo","Ivan Jurkovic","Joey De La Rosa","Manuel Nunez","Dee Lewis"],"rows":[]};
