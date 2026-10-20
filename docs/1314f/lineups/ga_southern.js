@@ -1,1 +1,1 @@
-LINEUPS_ADD["Ga. Southern"] = {"players":["Tr\u00e9 Bussey","Jelani Hewitt","Brian Holmes","Angel Matias","Marvin Baynham","Curtis Diamond","Kyle Doyle","Sam Mike","Torlorf Thomas","Kameron Dunnican","Scott Kelly","Grayson Clark","Cole Rives","Zach Altany","D.J. Suter"],"rows":[]};
+LINEUPS_ADD["Ga. Southern"] = {"players":["Tr\u00e9 Bussey","Jelani Hewitt","Brian Holmes","Angel Matias","Marvin Baynham","Curtis Diamond","Kyle Doyle","Sam Mike","Torlorf Thomas","Kameron Dunnican","Scott Kelly","Cole Rives","Grayson Clark","Zach Altany","D.J. Suter"],"rows":[]};

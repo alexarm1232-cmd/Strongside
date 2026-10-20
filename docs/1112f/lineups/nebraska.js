@@ -1,0 +1,1 @@
+LINEUPS_ADD["Nebraska"] = {"players":["Bo Spencer","Brandon Richardson","Brandon Ubel","Toney McCray","Caleb Walker","Dylan Talley","Jorge Brian Diaz","Mike Fox","David Rivers","Christopher Niemann","Josiah Moore","Corey Hilliard Jr.","Trevor Menke","Jordan Tyrance","Kye Kurkowski"],"rows":[]};

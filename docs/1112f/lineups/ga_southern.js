@@ -1,0 +1,1 @@
+LINEUPS_ADD["Ga. Southern"] = {"players":["Ben Drayton","Willie Powers III","Jelani Hewitt","Eric Ferguson","Cameron Baskerville","Marvin Baynham","Tr\u00e9 Bussey","Jessie Pernell","Tyrone Brown","Kameron Dunnican","Sam Mike","Chad Waddell","Tracy Ham Jr."],"rows":[]};

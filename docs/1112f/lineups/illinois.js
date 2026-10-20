@@ -1,0 +1,1 @@
+LINEUPS_ADD["Illinois"] = {"players":["D.J. Richardson","Brandon Paul","Meyers Leonard","Sam Maniscalco","Tracy Abrams","Joseph Bertrand","Tyler Griffey","Nnanna Egwu","Myke Henry","Mike Shaw","Crandall Head","Ibby Djimde","Jean Selus","Kevin Berardini"],"rows":[]};

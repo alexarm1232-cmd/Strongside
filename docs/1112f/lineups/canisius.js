@@ -1,0 +1,1 @@
+LINEUPS_ADD["Canisius"] = {"players":["Alshwan Hymes","Harold Washington","Chris Manhertz","Gaby Belardo","Josiah Heath","Reggie Groves","Kevin Bleeker","Franklin Milian","David Santiago","Marial Dhal","Tyler Funk","Sean Ezeamama"],"rows":[]};

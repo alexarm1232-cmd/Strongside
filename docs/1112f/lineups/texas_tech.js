@@ -1,0 +1,1 @@
+LINEUPS_ADD["Texas Tech"] = {"players":["Javarez Willis","Ty Nurse","Jaye Crockett","Robert Lewandowski","Jordan Tolbert","Luke Adams","Deshon Minnis","Terran Petteway","Toddrick Gotcher","Kevin Wagner","Jaron Nash","Clark Lammert"],"rows":[]};

@@ -1,1 +1,1 @@
-SHOTS_ADD["Howard"] = {"players":[],"o":[],"d":[],"fives":{"players":["Deven Richmond","Khalil Robinson","Kyle Foster","Liwayne Richardson","Steve Settle","Isaac Suffren","Rahim Ali, Jr.","Sam Green","Makur Maker","Jordan Wood","Spencer Hayes","Cam Timmons","Thomas Weaver"],"rows":[]}};
+SHOTS_ADD["Howard"] = {"players":[],"o":[],"d":[],"fives":{"players":["Deven Richmond","Jordan Wood","Khalil Robinson","Kyle Foster","Spencer Hayes","Liwayne Richardson","Steve Settle","Makur Maker","Rahim Ali, Jr.","Cam Timmons","Sam Green","Isaac Suffren","Thomas Weaver"],"rows":[]}};

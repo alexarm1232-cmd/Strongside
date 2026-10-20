@@ -1,0 +1,1 @@
+LINEUPS_ADD["UMES"] = {"players":["Percy Woods","Hillary Haley","Tyler Hines","Louis Bell","Ishaq Pitt","Ronald Spencer","Mark Robertson","Olatunji Kosile","Pina Guillaume","Gregory Womack","Akeem Anderson","Chukwuemeka Duruji"],"rows":[]};

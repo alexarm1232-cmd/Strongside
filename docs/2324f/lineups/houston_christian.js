@@ -1,1 +1,1 @@
-LINEUPS_ADD["Houston Christian"] = {"players":["Marcus Greene","Bonke Maring","Michael Imariagbe","Jay Alvarez","Pierce Bazil","Dominic Capriotti","Tristan Moore","Porter Bazil","Chigozie Achara","Nate Hudson","Bruce Carpenter","Jake Arnold","Nathan Self","Marques Gates"],"rows":[]};
+LINEUPS_ADD["Houston Christian"] = {"players":["Marcus Greene","Bonke Maring","Michael Imariagbe","Jay Alvarez","Pierce Bazil","Dominic Capriotti","Tristan Moore","Porter Bazil","Chigozie Achara","Nate Hudson","Bruce Carpenter","Jake Arnold","Marques Gates","Nathan Self"],"rows":[]};

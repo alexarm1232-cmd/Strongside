@@ -1,0 +1,1 @@
+LINEUPS_ADD["Alcorn"] = {"players":["Xavian Rimmer","Kendrick McDonald","Twann Oakley","Ian Francis","Kedorian Sullivan","Michael Starks","Anthony Nieves","JaMichael Hawkins","Martrevious Sanders","Jarvis Moore","Chris Brand","Marquiz Baker","Tyson Tufono","Deyon Franciosis","Darien Johnson"],"rows":[]};

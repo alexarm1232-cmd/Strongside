@@ -1,0 +1,1 @@
+LINEUPS_ADD["Houston Christian"] = {"players":["Anthony Hill","Marcus Davis","Tyler Russell","Terry Bembry","Marcel Smith","Joe Latas","Jonathan Evans","Art Bernardi","Dustin Hobaugh","Ronald March","Lamar Thomas","Dewayne Bowden","Aaron Asp"],"rows":[]};

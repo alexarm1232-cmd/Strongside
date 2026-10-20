@@ -751,6 +751,7 @@
   </div>
 </main>
 
+<script src="seasons.js"></script>
 <script>
 const DATA = __DATA__;
 
@@ -898,8 +899,12 @@ function heat(key, pct, max) {
 }
 const winPct = t => (t.w + t.l) ? t.w / (t.w + t.l) : -1;
 
-// The season picker: each season is its own page, so choosing one opens that page at the same place
-const seasonList = DATA.meta.seasons && DATA.meta.seasons.length ? DATA.meta.seasons : [{ label: DATA.meta.season, page: '', here: true }];
+// The season picker: each season is its own page, so choosing one opens that page at the same place. The list comes
+// from seasons.js (shared by every page, so a new season shows up without rebuilding the others); the list built into
+// the page is the fallback. A full-season page goes to the other seasons' full-season pages where they exist.
+const seasonList = window.STRONGSIDE_SEASONS && window.STRONGSIDE_SEASONS.length
+  ? window.STRONGSIDE_SEASONS.map(s => ({ label: s.label, page: DATA.meta.view === 'full' && s.full ? s.full : s.pre, here: s.label === DATA.meta.season }))
+  : DATA.meta.seasons && DATA.meta.seasons.length ? DATA.meta.seasons : [{ label: DATA.meta.season, page: '', here: true }];
 $('season').innerHTML = seasonList.map(s => `<option value="${esc(s.page)}"${s.here ? ' selected' : ''}>${esc(s.label)} season</option>`).join('');
 $('season').addEventListener('change', e => { if (e.target.value) location.href = e.target.value + location.hash; });
 // Pre-tournament or full season: two pages for the one season, when both have been built
@@ -3449,6 +3454,24 @@ const REAL_BRACKETS = { '2025-26': {
     ['Louisville', 'Wichita St.', 'Michigan', 'Syracuse'],
     ['Louisville', 'Michigan'],
     ['Louisville']],
+}, '2011-12': {
+  year: 2012, pair: 1,        // from ESPN's bracket; the first region met the second in the Final Four
+  slots: [
+    'Kentucky', 'Western Ky.', 'Iowa St.', 'UConn', 'Wichita St.', 'VCU', 'Indiana', 'New Mexico St.', 'UNLV', 'Colorado', 'Baylor', 'South Dakota St.', 'Notre Dame', 'Xavier', 'Duke', 'Lehigh',
+    'Michigan St.', 'LIU', 'Memphis', 'Saint Louis', 'New Mexico', 'Long Beach St.', 'Louisville', 'Davidson', 'Murray St.', 'Colorado St.', 'Marquette', 'BYU', 'Florida', 'Virginia', 'Missouri', 'Norfolk St.',
+    'Syracuse', 'UNC Asheville', 'Kansas St.', 'Southern Miss.', 'Vanderbilt', 'Harvard', 'Wisconsin', 'Montana', 'Cincinnati', 'Texas', 'Florida St.', 'St. Bonaventure', 'Gonzaga', 'West Virginia', 'Ohio St.', 'Loyola Maryland',
+    'North Carolina', 'Vermont', 'Creighton', 'Alabama', 'Temple', 'South Fla.', 'Michigan', 'Ohio', 'San Diego St.', 'NC State', 'Georgetown', 'Belmont', "Saint Mary's (CA)", 'Purdue', 'Kansas', 'Detroit Mercy'],
+  winners: [
+    ['Kentucky', 'Iowa St.', 'VCU', 'Indiana', 'Colorado', 'Baylor', 'Xavier', 'Lehigh',
+     'Michigan St.', 'Saint Louis', 'New Mexico', 'Louisville', 'Murray St.', 'Marquette', 'Florida', 'Norfolk St.',
+     'Syracuse', 'Kansas St.', 'Vanderbilt', 'Wisconsin', 'Cincinnati', 'Florida St.', 'Gonzaga', 'Ohio St.',
+     'North Carolina', 'Creighton', 'South Fla.', 'Ohio', 'NC State', 'Georgetown', 'Purdue', 'Kansas'],
+    ['Kentucky', 'Indiana', 'Baylor', 'Xavier', 'Michigan St.', 'Louisville', 'Marquette', 'Florida',
+     'Syracuse', 'Wisconsin', 'Cincinnati', 'Ohio St.', 'North Carolina', 'Ohio', 'NC State', 'Kansas'],
+    ['Kentucky', 'Baylor', 'Louisville', 'Florida', 'Syracuse', 'Ohio St.', 'North Carolina', 'Kansas'],
+    ['Kentucky', 'Louisville', 'Ohio St.', 'Kansas'],
+    ['Kentucky', 'Kansas'],
+    ['Kentucky']],
 } };
 const REAL_BRACKET = REAL_BRACKETS[DATA.meta.season] || null;      // this season's real tournament, when it is known
 const CHASE_ENDS = [32, 48, 56, 60, 62, 63];        // how many games have been played by the end of each round

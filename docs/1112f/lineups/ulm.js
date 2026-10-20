@@ -1,0 +1,1 @@
+LINEUPS_ADD["ULM"] = {"players":["Fred Brown","Charles Winborne","Hugh Mingo","Trent Mackey","Steve McClellan","Christian Bibi Ndongo","R.J. McCray","Trey Lindsey","Marcelis Hansberry","Fabio Ribeiro","D'Andre Martin","Reginald Smith"],"rows":[]};

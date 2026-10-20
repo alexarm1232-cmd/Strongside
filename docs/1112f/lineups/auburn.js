@@ -1,0 +1,1 @@
+LINEUPS_ADD["Auburn"] = {"players":["Frankie Sullivan","Kenny Gabriel","Rob Chubb","Varez Ward","Chris Denson","Josh Wallace","Adrian Forbes","Allen Payne","Willy Kouassi","Noel Johnson","Josh Langford","Tony Neysmith","Cedric McAfee","Dylan Spencer","T.J. Rice","Jake Drum"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["Sacred Heart"] = {"players":["Dashon Gittens","Yann Farell","Nyle Ralph-Beyer","Mekhi Conner","Anquan Hill","Jaden Slaughter","Abdou Yadd","Fallou Gueye","Taj Bryant","Lucius Gibson-Savadel","Alex Woodring","Malik Sheppard"],"rows":[]};
+LINEUPS_ADD["Sacred Heart"] = {"players":["Dashon Gittens","Yann Farell","Nyle Ralph-Beyer","Mekhi Conner","Anquan Hill","Jaden Slaughter","Abdou Yadd","Fallou Gueye","Taj Bryant","Lucius Gibson-Savadel","Malik Sheppard","Alex Woodring"],"rows":[]};

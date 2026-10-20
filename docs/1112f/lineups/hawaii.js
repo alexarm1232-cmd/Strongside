@@ -1,0 +1,1 @@
+LINEUPS_ADD["Hawaii"] = {"players":["Zane Johnson","Vander Joaquim","Joston Thomas","Jeremiah Ostrowski","Trevor Wiseman","Hauns Brereton","Shaquille Stokes","Bobby Miles","Garrett Jefferson","Davis Rozitis"],"rows":[]};

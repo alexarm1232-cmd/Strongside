@@ -1,0 +1,1 @@
+LINEUPS_ADD["A&M-Corpus Christi"] = {"players":["Chris Hawkins-Mast","John Jordan","Terence Jones","Myron Dempsey","Hameed Ali","Nate Maxey","Jake Kocher","Jordan Pope-Didier","Jason Smith","Ted Wang","Kennon Dvorak","James King","Kevin Lynch"],"rows":[]};

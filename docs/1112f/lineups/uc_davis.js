@@ -1,0 +1,1 @@
+LINEUPS_ADD["UC Davis"] = {"players":["Tyler Les","Josh Ritchert","Tyrell Corbin","Eddie Miller","Harrison DuPont","Paolo Mancasola","J.T. Adenrele","Alex Tiffin","Ryan Howley","Adam Malik","Ryan Sypkens","Ryan Silva","Dominic Lippi"],"rows":[]};

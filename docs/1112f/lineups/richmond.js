@@ -1,0 +1,1 @@
+LINEUPS_ADD["Richmond"] = {"players":["Cedrick Lindsay","Darien Brothers","Derrick Williams","Darrius Garrett","Kendall Anthony","Francis-Cedric Martel","Greg Robbins","Josh Duinker","Wayne Sparrow","Conor Smith","Liam Billings","Zak Estes","Jonathan Benjamin","Zach Chu","Luke Piotrowski","Trey Davis"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["Idaho"] = {"players":["Kyle Barone","Connor Hill","Stephen Madison","Mike McChristian","Mansa Habeeb","Robert Harris, Jr.","Denzel Douglas","Wendell Faines","Joe Kammerer","Matt Borton","Marcus Bell","Westin Hill","Antwan Scott","Allen Jiles"],"rows":[]};
+LINEUPS_ADD["Idaho"] = {"players":["Kyle Barone","Connor Hill","Stephen Madison","Mike McChristian","Mansa Habeeb","Robert Harris, Jr.","Denzel Douglas","Wendell Faines","Joe Kammerer","Matt Borton","Marcus Bell","Westin Hill","Allen Jiles","Antwan Scott"],"rows":[]};

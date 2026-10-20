@@ -1,0 +1,1 @@
+LINEUPS_ADD["SMU"] = {"players":["Robert Nyakundi","Jeremiah Samarrippas","London Giles","Jalen Jones","Shawn Williams","Aliaksei Patsevich","Rodney Clinkscales","Leslee Smith","Ryan Manuel","Cannen Cunningham","Ricmonds Vilde","Eric Norman","Jordan Walker","Kevin Dunleavy, Jr.","Nick Russell"],"rows":[]};

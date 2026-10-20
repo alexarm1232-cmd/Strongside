@@ -1,0 +1,1 @@
+LINEUPS_ADD["South Carolina St."] = {"players":["Khalif Toombs","Brandon Riley","Omar Sanders","Shaquil Barber","Aaron Martin","Presano Bell","Luka Radovic","Joe Ikhinmwin","Devin Joint","Dante Wooten","Terrance Gilleylen","Darian Coleman","Sabastian Opon"],"rows":[]};

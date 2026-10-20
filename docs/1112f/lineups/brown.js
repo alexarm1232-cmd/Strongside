@@ -1,0 +1,1 @@
+LINEUPS_ADD["Brown"] = {"players":["Sean McGonagill","Matt Sullivan","Stephen Albrecht","Tyler Ponticelli","Andrew McCarthy","Jean Harris","Dockery Walker","Tellef Lundevall","Jon Schmidt","Josh Biber","Christian Gore","Longji Yiljep","Patrick Donnelly"],"rows":[]};

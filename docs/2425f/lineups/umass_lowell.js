@@ -1,1 +1,1 @@
-LINEUPS_ADD["UMass Lowell"] = {"players":["Quinton Mincey","Martin Somerville","Max Brooks","Yuri Covington","Cam Morris III","Anthony Blunt","Quincy Clark","Xzavier Lino","Caleb Murphy","Mekhi Gray","Ephraim Acquah","Keenan Bey","Armani Perkins"],"rows":[]};
+LINEUPS_ADD["UMass Lowell"] = {"players":["Quinton Mincey","Martin Somerville","Max Brooks","Yuri Covington","Cam Morris III","Anthony Blunt","Quincy Clark","Xzavier Lino","Caleb Murphy","Mekhi Gray","Ephraim Acquah","Armani Perkins","Keenan Bey"],"rows":[]};

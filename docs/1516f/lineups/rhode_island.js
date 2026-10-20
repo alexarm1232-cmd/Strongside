@@ -1,1 +1,1 @@
-LINEUPS_ADD["Rhode Island"] = {"players":["Jared Terrell","Four McGlynn","Jarvis Garrett","Kuran Iverson","Hassan Martin","Earl Watson","Christion Thompson","Nicola Akele","Andre Berry","E.C. Matthews","Shane Plunkett","Rory Temkin","Rex Sunahara"],"rows":[]};
+LINEUPS_ADD["Rhode Island"] = {"players":["Jared Terrell","Four McGlynn","Jarvis Garrett","Kuran Iverson","Hassan Martin","Earl Watson","Christion Thompson","Nicola Akele","Andre Berry","Shane Plunkett","E.C. Matthews","Rory Temkin","Rex Sunahara"],"rows":[]};

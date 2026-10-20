@@ -527,9 +527,10 @@ def get_shot_stats(root_folder, positions=None, stints=None):
                                 "turnovers_counted": with_turnovers >= 0.9 * games,
                                 "defenders": {key: finish_plays(tally, plays_d) for key, tally in plays_against.items()},
                                 "teammates": {key: finish_plays(tally, plays_o) for key, tally in plays_with.items()},
-                                "fives": [[list(five), finish_plays(plays_five[0][five], plays_o) if five in plays_five[0] else None,
+                                # sorted, so a rebuild writes the same file (set order changes from run to run)
+                                "fives": [[sorted(five), finish_plays(plays_five[0][five], plays_o) if five in plays_five[0] else None,
                                            finish_plays(plays_five[1][five], plays_d) if five in plays_five[1] else None]
-                                          for five in set(plays_five[0]) | set(plays_five[1])],
+                                          for five in sorted(set(plays_five[0]) | set(plays_five[1]), key=sorted)],
                                 "chart": {"players": sorted(numbers, key=numbers.get), "o": chart_o, "d": chart_d}}
     output["__league__"] = {"areas": league_areas}
     return output

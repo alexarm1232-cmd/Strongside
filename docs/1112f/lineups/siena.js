@@ -1,0 +1,1 @@
+LINEUPS_ADD["Siena"] = {"players":["Kyle Downey","O.D. Anosike","Evan Hymes","Rob Poole","Owen Wignot","Brandon Walters","Davonte Beard","Marcus Hopper","Kyle Griffin","Conner Fenlon","Steven Cruz"],"rows":[]};

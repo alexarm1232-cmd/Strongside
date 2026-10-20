@@ -1,1 +1,1 @@
-LINEUPS_ADD["Boston College"] = {"players":["Fred Payne","Donald Hand Jr.","Boden Kapke","Aidan Shaw","Chase Forte","Jayden Hastings","Luka Toews","Caleb Steger","Marko Radunovic","Jason Asemota","Kany Musungay","Jack DiDonna","Will Eggemeier"],"rows":[]};
+LINEUPS_ADD["Boston College"] = {"players":["Fred Payne","Donald Hand Jr.","Boden Kapke","Aidan Shaw","Chase Forte","Jayden Hastings","Luka Toews","Caleb Steger","Marko Radunovic","Jason Asemota","Kany Musungay","Will Eggemeier","Jack DiDonna"],"rows":[]};

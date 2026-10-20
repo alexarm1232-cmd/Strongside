@@ -1,1 +1,1 @@
-LINEUPS_ADD["Pepperdine"] = {"players":["Michael Ajayi","Houston Mallette","Malik Moore","Ethan Anderson","Jevon Porter","Nils Cooper","Cord Stansberry","Jalen Pitre","Boubacar Coulibaly","Sekou Gassama","Curtis Williams","John Squire","Paul Jordan","David Mager"],"rows":[]};
+LINEUPS_ADD["Pepperdine"] = {"players":["Michael Ajayi","Houston Mallette","Malik Moore","Ethan Anderson","Jevon Porter","Nils Cooper","Cord Stansberry","Jalen Pitre","Boubacar Coulibaly","Sekou Gassama","Curtis Williams","John Squire","David Mager","Paul Jordan"],"rows":[]};

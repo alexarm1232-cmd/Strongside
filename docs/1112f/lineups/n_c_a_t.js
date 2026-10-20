@@ -1,0 +1,1 @@
+LINEUPS_ADD["N.C. A&T"] = {"players":["Adrian Powell","Marc Hill","Austin Witter","Nic Simpson","R.J. Buck","Lawrence Smith","Jeremy Underwood","Dametrius Upchurch","Jean Louisme","Jared Williams","Kam Shephard","Anthony Estes","Waylan Siverand","Jordan Herrera","Dominique Behohn-Tolly"],"rows":[]};

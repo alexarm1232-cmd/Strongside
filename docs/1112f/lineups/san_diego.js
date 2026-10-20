@@ -1,0 +1,1 @@
+LINEUPS_ADD["San Diego"] = {"players":["Christopher Anderson","Johnny Dee","Darian Norris","Ken Rancifer","Dennis Kramer","Chris Manresa","Simi Fajemisin","John Sinis","Cameron Miles","Nick Kerr","Keith Stackhouse","Blair Banker","Ben Vozzola","Indiana Ashford","Therone Tillett"],"rows":[]};

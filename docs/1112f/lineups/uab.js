@@ -1,0 +1,1 @@
+LINEUPS_ADD["UAB"] = {"players":["Cameron Moore","Quincy Taylor","Jordan Swing","Ovie Soko","Preston Purifoy","Robert Williams","Jekore Tyler","K.C. Whitaker","Herb Harrison","Beas Hamga"],"rows":[]};

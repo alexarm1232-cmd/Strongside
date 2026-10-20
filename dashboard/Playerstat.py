@@ -701,7 +701,7 @@ def get_player_stats(root_folder, team_ratings):
             # [the game's place in the schedule, the five, possessions, points for, points against,
             #  then the same three without garbage time]
             stints = [(key.split(">")[0], key.split(">")[1].split("|"), v) for key, v in five_man.items() if v[0] > 0]
-            order = sorted({k for _, keys, _ in stints for k in keys}, key=lambda k: -(players[k]['MP'] if k in players else 0))
+            order = sorted({k for _, keys, _ in stints for k in keys}, key=lambda k: (-(players[k]['MP'] if k in players else 0), k))
             number = {k: i for i, k in enumerate(order)}
             place = {scheduled["id"]: i for i, scheduled in enumerate(schedules[team_folder])}
             rows = [[place[game_id], [number[k] for k in keys], round(v[0], 2), int(v[1]), int(v[2]), round(v[3], 2), int(v[4]), int(v[5])]

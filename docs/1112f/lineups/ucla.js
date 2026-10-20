@@ -1,0 +1,1 @@
+LINEUPS_ADD["UCLA"] = {"players":["Lazeric Jones","Jerime Anderson","Tyler Lamb","David Wear","Travis Wear","Norman Powell","Joshua Smith","Anthony Stover","Brendan Lane","Reeves Nelson","De'End Parker","Kenny Jones","David Brown","Tyler Trapani","Matt DeMarcus","Nick Kazemi"],"rows":[]};

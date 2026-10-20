@@ -1,0 +1,1 @@
+LINEUPS_ADD["Samford"] = {"players":["Jeffrey Merritt","Will Cook","Raijon Kelly","Drew Windler","Tyler Hood","Matthew Friday","Devin McNeil","Connor Miller","Brandon Hayman","Kaylin Johnson","John Peterson","Levi Barnes","Hamilton Bailey"],"rows":[]};

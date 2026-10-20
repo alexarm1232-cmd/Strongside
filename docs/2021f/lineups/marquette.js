@@ -1,1 +1,1 @@
-LINEUPS_ADD["Marquette"] = {"players":["D.J. Carton","Koby McEwen","Jamal Cain","Dawson Garcia","Theo John","Greg Elliott","Justin Lewis","Symir Torrence","Jose Perez","Dexter Akanno","Oso Ighodaro","Luke Fizulich","Michael Kennedy","Brendan Carney"],"rows":[]};
+LINEUPS_ADD["Marquette"] = {"players":["D.J. Carton","Koby McEwen","Jamal Cain","Dawson Garcia","Theo John","Greg Elliott","Justin Lewis","Symir Torrence","Jose Perez","Dexter Akanno","Oso Ighodaro","Luke Fizulich","Brendan Carney","Michael Kennedy"],"rows":[]};

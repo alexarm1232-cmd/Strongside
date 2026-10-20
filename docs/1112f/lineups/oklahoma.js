@@ -1,0 +1,1 @@
+LINEUPS_ADD["Oklahoma"] = {"players":["Steven Pledger","Sam Grooms","Romero Osby","Andrew Fitzgerald","Cameron Clark","Carl Blair","Tyler Neal","C.J. Washington","Casey Arent","Calvin Newell","Barry Honor\u00e9","T.J. Franklin","James Fraschilla","Jarrod Kruger"],"rows":[]};

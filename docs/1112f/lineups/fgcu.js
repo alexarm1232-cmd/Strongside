@@ -1,0 +1,1 @@
+LINEUPS_ADD["FGCU"] = {"players":["Brett Comer","Bernard Thompson","Chase Fieler","Sherwood Brown","Eddie Murray","Christophe Varidel","Dante Holmes","Filip Cvjeticanin","Kevin Cantinol","Ed Rolax","Marcus Blake","Zachery Christian"],"rows":[]};

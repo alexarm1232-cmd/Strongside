@@ -1,1 +1,1 @@
-LINEUPS_ADD["Elon"] = {"players":["Max Mackinnon","TK Simpkins","LA Pratt","Rob Higgins","Nick Dorn","Sam Sherry","Zac Ervin","Isaac Harrell","Kendall Campbell","Deandre Smart","Ned Hull","JaDun Michael","Otto Luessenhop","Austin Williams"],"rows":[]};
+LINEUPS_ADD["Elon"] = {"players":["Max Mackinnon","TK Simpkins","LA Pratt","Rob Higgins","Nick Dorn","Sam Sherry","Zac Ervin","Isaac Harrell","Kendall Campbell","Deandre Smart","Ned Hull","JaDun Michael","Austin Williams","Otto Luessenhop"],"rows":[]};

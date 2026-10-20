@@ -1,0 +1,1 @@
+LINEUPS_ADD["Furman"] = {"players":["Bobby Austin","Brandon Sebirumbi","Charlie Reddick","Bryant Irwin","Richard Brown","Jordan Loyd","Chris Toler","Bryson Barnes","Colin Reddick","Dominic Early","David Brown","Aaron O'Neill","Tyler Hunt","Graham Rogers"],"rows":[]};

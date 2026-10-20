@@ -1,0 +1,1 @@
+LINEUPS_ADD["UIC"] = {"players":["Daniel Barnes","Hayden Humes","Gary Talton","Marc Brown","Darrin Williams","Paris Carter","Greg Travis","Matt Bush","Sammy Sutter","Will Simonton","Dorian Tyler","Rob Robinson","Ahman Fells","Jerome Brown","Anthony Kelley"],"rows":[]};

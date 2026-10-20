@@ -1,0 +1,1 @@
+LINEUPS_ADD["Georgia Tech"] = {"players":["Mfon Udofia","Daniel Miller","Brandon Reed","Jason Morris","Kammeon Holsey","Glen Rice","Julian Royal","Nick Foreman","Pierre Jordan","Nate Hicks","Derek Craig","Mcpherson Moore","Aaron Peek","DJ Spain"],"rows":[]};

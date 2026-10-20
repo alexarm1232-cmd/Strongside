@@ -1,1 +1,1 @@
-LINEUPS_ADD["Campbell"] = {"players":["Andrew Ryan","Kyre' Hamer","D.J. Mason","Reco McCarter","Curtis Phillips","Rod Days","Quinton Ray","Troy Harper","Nehemiah Mabson","Luke Moyer","Jordan Faciane","Casey Perrin","Jacob Talbert"],"rows":[]};
+LINEUPS_ADD["Campbell"] = {"players":["Andrew Ryan","Kyre' Hamer","D.J. Mason","Reco McCarter","Curtis Phillips","Rod Days","Quinton Ray","Troy Harper","Nehemiah Mabson","Luke Moyer","Jordan Faciane","Jacob Talbert","Casey Perrin"],"rows":[]};

@@ -1,0 +1,1 @@
+LINEUPS_ADD["Lipscomb"] = {"players":["Jacob Arnett","Deonte Alexander","Justin Glenn","Jordan Burgason","Damarius Smith","Martin Smith","Zavion Williams","Malcolm Smith","Robert Boyd","Marvin Williams","Carter Sanderson","Chad Johnson","Zack Ellis"],"rows":[]};

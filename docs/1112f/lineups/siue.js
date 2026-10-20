@@ -1,0 +1,1 @@
+LINEUPS_ADD["SIUE"] = {"players":["Kris Davis","Jerome Jones","Corey Wickware","Mark Yelovich","Derian Shaffer","Kevin Stineman","Reggie Reed","Charles Joy","Zeke Schneider","Michael Birts","Michael Messer","David Boarden","Kyle Heck","Alex Mayfield"],"rows":[]};

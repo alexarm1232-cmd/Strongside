@@ -1,0 +1,1 @@
+LINEUPS_ADD["Chicago St."] = {"players":["Lee Fisher","Ardarius Simmons","Jeremy Robinson","Matt Samuels","Clarke Rosenberg","D'Jari Nelson","Aaron Williams","Jaccoby Anderson","Quincy Ukaigwe","Francisco Concepcion","Nate Henry"],"rows":[]};

@@ -1,0 +1,1 @@
+LINEUPS_ADD["Hofstra"] = {"players":["Mike Moore","Nathaniel Lester","Dwan McMillan","David Imes","Shemiye McLendon","Stephen Nwaukoni","Stevie Mejia","Moussa Kone","Matt Grogan","Bryant Crowder","Jereme Good","Tevin Smikle"],"rows":[]};

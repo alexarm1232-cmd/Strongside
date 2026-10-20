@@ -1,0 +1,1 @@
+LINEUPS_ADD["Charleston So."] = {"players":["Kelvin Martin","Saah Nimley","Arlon Harper","Mathiang Muo","Paul Gombwer","Jeremy Sexton","Sheldon Strickland","Cedrick Bowen","Chris Grier","Greg Dorleus","Mitchell Deter","Thomas Odom","Matt Kennedy"],"rows":[]};

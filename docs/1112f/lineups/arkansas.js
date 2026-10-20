@@ -1,0 +1,1 @@
+LINEUPS_ADD["Arkansas"] = {"players":["Mardracus Wade","Julysses Nobles","Rickey Scott","BJ Young","Rashad Madden","Michael Sanchez","Hunter Mickelson","Devonta Abron","Marvell Waithe","Brandon Mitchell","Kikko Haydar","Marshawn Powell","Matt Thompson","Waithem Marvell"],"rows":[]};

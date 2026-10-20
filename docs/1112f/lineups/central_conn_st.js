@@ -1,0 +1,1 @@
+LINEUPS_ADD["Central Conn. St."] = {"players":["Robby Ptacek","Kyle Vinales","Ken Horton","Malcolm McMillan","David Simmons","Joe Efese","Terrell Allen","Adonis Burbage","De'Angelo Speech","Shelton Mickell","Mark LaPorte"],"rows":[]};

@@ -1,0 +1,1 @@
+LINEUPS_ADD["Tulsa"] = {"players":["Jordan Clarkson","Scottie Haralson","Tim Peete","Steven Idlet","Eric McClellan","Kodi Maduka","D.J. Magley","Joe Richard","Rashad Smith","David Wishon","Donte Medder","Jamie Booker","Will Sanger","Jairus Coleman","Blondy Baruti"],"rows":[]};

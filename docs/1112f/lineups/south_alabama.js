@@ -1,0 +1,1 @@
+LINEUPS_ADD["South Alabama"] = {"players":["Augustine Rubit","Freddie Goldstein","Mychal Ammons","Trey Anderson","Javier Carter","Antione Lundy","Wendell Wright","Dallas Jones","Xavier Roberson","Deandre Hersey","Jose Diaz","Andre Gowins"],"rows":[]};

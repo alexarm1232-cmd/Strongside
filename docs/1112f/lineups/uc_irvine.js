@@ -1,0 +1,1 @@
+LINEUPS_ADD["UC Irvine"] = {"players":["Daman Starring","Michael Wilder","Chris McNealy","Derick Flowers","Adam Folker","Will Davis II","Collin Woods","Mike Best","Travis Souza","Aaron Wright","Marcus Bradley"],"rows":[]};

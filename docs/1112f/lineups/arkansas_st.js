@@ -1,0 +1,1 @@
+LINEUPS_ADD["Arkansas St."] = {"players":["Brandon Peterson","Marcus Hooten","Ed Townsel","Malcoln Kirkland","Trey Finn","Rakeem Dickerson","Adam Sterrenburg","Darion Griswold","Johnny Zuppardo","Bryce Clark","Kinley Branch"],"rows":[]};

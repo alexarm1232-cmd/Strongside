@@ -1,0 +1,1 @@
+LINEUPS_ADD["South Dakota"] = {"players":["Louie Krogman","Charlie Westbrook","Trevor Gruis","Ricardo Andreotti","Steve Tecker","Jordan Boots","Allen Saint-Gelais","Nimrod Hilliard IV","Brandon Bos","Nick Mabbutt","Jared Bartling","Jack Foley"],"rows":[]};

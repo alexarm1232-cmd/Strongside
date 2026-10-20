@@ -1,0 +1,1 @@
+LINEUPS_ADD["Western Mich."] = {"players":["Mike Douglas","Demetrius Ward","Nate Hutcheson","Matt Stainbrook","Flenard Whitfield","Austin Richie","Shayne Whittington","Brandon Pokley","Hayden Hoerdemann","Muhammed Conteh","Dan Loney","David Brown","Caleb Dean","Tim Brennan","Nick Stapert"],"rows":[]};

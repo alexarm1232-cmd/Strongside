@@ -1,0 +1,1 @@
+LINEUPS_ADD["East Carolina"] = {"players":["Miguel Paul","Darrius Morrow","Erin Straughn","Maurice Kemp","Corvonn Gaines","Shamarr Bowden","Robert Sampson","Paris Roberts-Campbell","Austin Steed","Darius Morales","Petar Torlak","Francis Edosomwan"],"rows":[]};

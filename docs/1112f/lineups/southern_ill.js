@@ -1,0 +1,1 @@
+LINEUPS_ADD["Southern Ill."] = {"players":["Mamadou Seck","Jeff Early","T.J. Lindsay","Dantiel Daniels","Kendal Brown-Surles","Treg Setty","Justin Bocot","Kourtney Goff","Josh Swan","Diamond Taylor","Davante Drinkard","Harry Whitt","Antonio Bryer"],"rows":[]};

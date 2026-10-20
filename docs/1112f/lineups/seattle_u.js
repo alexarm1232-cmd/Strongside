@@ -1,0 +1,1 @@
+LINEUPS_ADD["Seattle U"] = {"players":["Aaron Broussard","Eric Wallace","Cervante Burrell","Sterling Carter","Prince Obasi","Clarence Trent","Chad Rasmussen","Allen Tate","Louis Green","Jarell Flora","T.J. Diop","Gavin Gilmore","Obie Hurt"],"rows":[]};

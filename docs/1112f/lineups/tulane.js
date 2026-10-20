@@ -1,0 +1,1 @@
+LINEUPS_ADD["Tulane"] = {"players":["Josh Davis","Ricky Tarrant","Jordan Callahan","Trent Rogers","Tre Drye","Kendall Timmons","Kevin Thomas","Jay Hook","Lotanna Nwogbo","Tomas Bruha","Malte Ziegenhagen","Ben Cherry","Grant Fiorentinos","Dan Monckton"],"rows":[]};

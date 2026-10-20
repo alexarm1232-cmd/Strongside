@@ -1,0 +1,1 @@
+LINEUPS_ADD["Nicholls"] = {"players":["Shane Rillieux","Bryan Hammond","Sam McBeath","Trevon Lewis","Jeremy Smith","Dantrell Thomas","Chris Talkington","Linden Smith-Hyde","Lachlan Prest","Sterling Bailey","Ben Martin","Zachary West","Bryson Triggs"],"rows":[]};

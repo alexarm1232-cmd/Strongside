@@ -1,0 +1,1 @@
+LINEUPS_ADD["Southern California"] = {"players":["Maurice Jones","Byron Wesley","Alexis Moore","Garrett Jackson","James Blasczyk","Greg Allen","Aaron Fuller","Dewayne Dedmon","Eric Strangis","Daniel Munoz","Evan Smith","Tyler Sugiyama","Danilo Dragovic"],"rows":[]};

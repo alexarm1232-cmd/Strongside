@@ -1,0 +1,1 @@
+LINEUPS_ADD["CSUN"] = {"players":["Stephan Hicks","Josh Greene","Vinnie McGhee","Stephen Maxwell","Aqeel Quinn","Allen Guei","Ari Feldman","Michael Lizarraga","John Hayward-Mayhew","Frankie Eteuati","Allen Jiles IV","Davon Potts","Thomas Jacobs","Jordan Mitchell","Lonnie Watson","Justin Yeargin"],"rows":[]};

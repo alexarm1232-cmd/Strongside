@@ -1,0 +1,1 @@
+LINEUPS_ADD["Utah"] = {"players":["Cedric Martin","Chris Hines","Jason Washburn","Dijon Farr","Kareem Storey","Josh Watkins","Javon Dawson","Anthony Odunsi","Blake Wilkinson","Kyle Perkins","Alex Mortensen","George Matthews","Corbin Green","Aaron Dotson"],"rows":[]};

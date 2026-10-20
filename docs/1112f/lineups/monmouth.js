@@ -1,0 +1,1 @@
+LINEUPS_ADD["Monmouth"] = {"players":["Jesse Steele","Dion Nesmith","Mike Myers Keitt","Austin Tillotson","Ed Waite","Andrew Nicholas","Phil Wait","Marcus Ware","Will Campbell","Mykel Harris","Max Dileo","Daniel James"],"rows":[]};

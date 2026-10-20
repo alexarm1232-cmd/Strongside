@@ -1,0 +1,1 @@
+LINEUPS_ADD["Army West Point"] = {"players":["Ella Ellis","Josh Herbeck","Julian Simmons","Maxwell Lenox","Mo Williams","Jordan Springer","Andrew Stire","Whit Thornton","Milton Washington","Jason Pancoe","Josh Johnson","Jalen Harris","Chris Gramling","Cartavious Kincade","Brian Hornstein","Pat Harris","Sean Billerman","Michael Felton"],"rows":[]};

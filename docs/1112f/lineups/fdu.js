@@ -1,0 +1,1 @@
+LINEUPS_ADD["FDU"] = {"players":["George Goode","Melquan Bolding","Lonnie Robinson","Kinu Rochford","Briahn Smith","Mathias Seilund","Lonnie Hayes","Mouhamed Lo","Dylan Moody","Sam Fernley","Ayotunde Oyeniyi","Louis Larizza"],"rows":[]};

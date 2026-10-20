@@ -1,1 +1,1 @@
-LINEUPS_ADD["Marist"] = {"players":["Brian Parker","Ryan Funk","David Knudsen","Tobias Sjoberg","Aleksandar Dozic","Isaiah Lamb","Austin Williams","Lasse Gummerus","Connor McClenaghan","Andrea Bernardi","Kristinn Palsson","Ryan Carmello","Michael Servetas","Tucker Lee"],"rows":[]};
+LINEUPS_ADD["Marist"] = {"players":["Brian Parker","Ryan Funk","David Knudsen","Tobias Sjoberg","Aleksandar Dozic","Isaiah Lamb","Austin Williams","Lasse Gummerus","Connor McClenaghan","Andrea Bernardi","Kristinn Palsson","Ryan Carmello","Tucker Lee","Michael Servetas"],"rows":[]};

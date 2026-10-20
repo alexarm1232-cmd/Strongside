@@ -1,1 +1,1 @@
-LINEUPS_ADD["Davidson"] = {"players":["Foster Loyer","Grant Huffman","Sam Mennenga","Des Watson","Connor Kochera","Reed Bailey","David Skogman","Achile Spadone","Sean Logan","Chris Sosnik","Ricky Ghedini","Brock Matheny","Michael Katsock","Joe Thomson"],"rows":[]};
+LINEUPS_ADD["Davidson"] = {"players":["Foster Loyer","Grant Huffman","Sam Mennenga","Des Watson","Connor Kochera","Reed Bailey","David Skogman","Achile Spadone","Sean Logan","Ricky Ghedini","Chris Sosnik","Brock Matheny","Michael Katsock","Joe Thomson"],"rows":[]};

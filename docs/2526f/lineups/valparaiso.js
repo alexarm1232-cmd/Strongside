@@ -1,1 +1,1 @@
-LINEUPS_ADD["Valparaiso"] = {"players":["Rakim Chaney","JT Pettigrew","Owen Dease","Shon Tupuola","Brody Whitaker","Justus McNair","Carter Hopoi","Isaiah Barnes","Mark Brown","Sader Servilus","Tucker Tornatta","Kyonte Thomas","Camden Webster","Nick Lombardi","Joe Vick"],"rows":[]};
+LINEUPS_ADD["Valparaiso"] = {"players":["Rakim Chaney","JT Pettigrew","Owen Dease","Shon Tupuola","Brody Whitaker","Justus McNair","Carter Hopoi","Isaiah Barnes","Mark Brown","Sader Servilus","Tucker Tornatta","Kyonte Thomas","Joe Vick","Nick Lombardi","Camden Webster"],"rows":[]};

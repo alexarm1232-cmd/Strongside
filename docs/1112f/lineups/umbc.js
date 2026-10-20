@@ -1,0 +1,1 @@
+LINEUPS_ADD["UMBC"] = {"players":["Brian Neller","Chase Plummer","Ryan Cook","Jake Wasco","Chandler Thomas","Jarrel Lane","Joey Getz","Quentin Jones","Jamar Wertz","William Wise","Adrian Satchell","Nate Basalyga","Jordan Wejnert","Chris De La Rosa"],"rows":[]};

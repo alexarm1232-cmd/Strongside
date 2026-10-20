@@ -1,0 +1,1 @@
+LINEUPS_ADD["Southern U."] = {"players":["Jameel Grace","Quinton Doggett","Derick Beltran","Frederick Coleman","Michael Celestin","Cameron Monroe","Trey Marshall","Madut Bol","Neal Webb","Russell Hill","Patrick Coleman","Cameron Doggett"],"rows":[]};

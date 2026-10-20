@@ -1,0 +1,1 @@
+LINEUPS_ADD["Youngstown St."] = {"players":["Kendrick Perry","Blake Allen","Ashen Ward","Damian Eargle","DuShawn Brooks","Josh Chojnacki","Shawn Amiker","Nate Perry","Fletcher Larson","Dj Cole","Mike Podolsky","Cale Zuiker","Danny Reese","Chris Morgan"],"rows":[]};

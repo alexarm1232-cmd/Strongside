@@ -1,0 +1,1 @@
+LINEUPS_ADD["Maryland"] = {"players":["Terrell Stoglin","Sean Mosley","Nick Faust","James Padgett","Ashton Pankey","Mychal Parker","Alex Len","Pe'Shon Howard","Berend Weijs","Jonathan Thomas","John Auslander","Arnold Richmond","Spencer Barks","Jacob Susskind","Jon Dillard"],"rows":[]};

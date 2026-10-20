@@ -1,0 +1,1 @@
+LINEUPS_ADD["Hartford"] = {"players":["Andres Torres","Clayton Brothers","Yolonzo Moore II","Nate Sikma","Mark Nwakamma","Wes Cole","Genesis Maciel","Jamie Schneck","Corban Wroe","Oren Faulk","Ryan Baker","Dustin Clarke","Charles White","Ben O'Neill"],"rows":[]};

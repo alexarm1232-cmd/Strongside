@@ -1,1 +1,1 @@
-LINEUPS_ADD["Vermont"] = {"players":["Ben Shungu","Stef Smith","Justin Mazzulla","Isaiah Powell","Ryan Davis","Robin Duncan","Bailey Patella","Aaron Deloney","Tomas Murphy","Duncan Demuth","Nick Fiorillo","Eric Beckett","Georges Lefebvre","Deng Adiang","Kevin Garrison"],"rows":[]};
+LINEUPS_ADD["Vermont"] = {"players":["Ben Shungu","Stef Smith","Justin Mazzulla","Isaiah Powell","Ryan Davis","Robin Duncan","Bailey Patella","Aaron Deloney","Tomas Murphy","Duncan Demuth","Nick Fiorillo","Eric Beckett","Georges Lefebvre","Kevin Garrison","Deng Adiang"],"rows":[]};

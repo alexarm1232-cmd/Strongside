@@ -1,0 +1,1 @@
+LINEUPS_ADD["Georgia"] = {"players":["Kentavious Caldwell-Pope","Gerald Robinson","Dustin Ware","Donte Williams","Nemanja Djurisic","Marcus Thornton","John Florveus","Vincent Williams","Sherrard Brantley","Connor Nolte","Tim Dixon","John Cannon","Jay Rome","Matt Bucklin","Elliott Long"],"rows":[]};

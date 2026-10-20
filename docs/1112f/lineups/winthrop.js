@@ -1,0 +1,1 @@
+LINEUPS_ADD["Winthrop"] = {"players":["Andre Jones","George Valentine","Reggie Middleton","Joab Jerome","Matt Morgan","James Bourne","Andre Smith","Gideon Gamble","Larry Brown","Derrick Henry","Reggie King","Shola Diop","Justin Burton","Derrick Scott","Chris Brown"],"rows":[]};

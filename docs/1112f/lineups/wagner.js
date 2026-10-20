@@ -1,0 +1,1 @@
+LINEUPS_ADD["Wagner"] = {"players":["Tyler Murray","Latif Rivers","Kenneth Ortiz","Jonathon Williams","Chris Martin","Naofall Folahan","Josh Thompson","Orlando Parker","Marcus Burton","Mario Moody","Ryan Schrotenboer","Hugo Naurais"],"rows":[]};

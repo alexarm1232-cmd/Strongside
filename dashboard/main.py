@@ -38,7 +38,7 @@ for code, (ended, neutral_from) in {"2324": (2024, "2024/03/11"), "2223": (2023,
 # tournament and the other postseason events). Its data is a second folder, made by postseason.py, and it gets its own
 # page; the switch in the page header goes between the two.   python dashboard/main.py 2526f
 # (2019-20 has none: the season stopped before the postseason, in March 2020.)
-for code in ("2526", "2425", "2324", "2223", "2122", "2021", "1819", "1718", "1617", "1516", "1415", "1314", "1213"):
+for code in ("2526", "2425", "2324", "2223", "2122", "2021", "1819", "1718", "1617", "1516", "1415", "1314", "1213", "1112"):
     page = SEASONS[code]["page"]
     SEASONS[code + "f"] = dict(SEASONS[code], teams=f"data/seasons/{code} full", page=page.replace(".html", "_full.html"),
                                data=code + "f/", spreads=False, view="full", base=code)
@@ -361,6 +361,7 @@ def build_dashboard():
 
     with open(DASHBOARD_FILE, "w", encoding="utf-8") as f:
         f.write(page)
+    write_seasons_file()
     if added is not None:
         print(f"   full season: {added[0]} of {added[1]} team files written as postseason add-ons to the pre-tournament files")
     return DASHBOARD_FILE
@@ -493,6 +494,21 @@ def season_list():
         if built(show):
             seasons.append({"label": s["label"], "page": SEASONS[show]["page"], "here": key == here})
     return seasons
+
+SEASONS_FILE = os.path.join(MAIN_FOLDER, "seasons.js")
+
+def write_seasons_file():
+    """seasons.js: every season with a page built, read by every page for the season dropdown. Rewritten on every
+    build, so adding a season only needs its own pages built; the other pages pick it up from this file."""
+    seasons = []
+    for key, s in SEASONS.items():
+        if s.get("view") == "full" or not built(key): continue
+        full = s.get("full")
+        seasons.append({"label": s["label"], "pre": s["page"], "full": SEASONS[full]["page"] if full and built(full) else None})
+    seasons.sort(key=lambda s: s["label"], reverse=True)
+    with open(SEASONS_FILE, "w", encoding="utf-8") as f:
+        f.write("// Written by dashboard/main.py: the seasons with a page built, newest first\n"
+                "window.STRONGSIDE_SEASONS = " + json.dumps(seasons, indent=1) + ";\n")
 
 def view_pages():
     base = SEASON.get("base", SEASON_KEY)

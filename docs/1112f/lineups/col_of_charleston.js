@@ -1,0 +1,1 @@
+LINEUPS_ADD["Col. of Charleston"] = {"players":["Andrew Lawrence","Antwaine Wiggins","Trent Wiedeman","Adjehi Baru","Matt Sundberg","Nori Johnson","Anthony Stitt","Jordan Scott","James Carlton","Trevonte Dixon","Pat Branin","Bart Benton"],"rows":[]};

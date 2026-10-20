@@ -1,0 +1,1 @@
+LINEUPS_ADD["Louisiana Tech"] = {"players":["Trevor Gaskins","Raheem Appleby","Kenneth Smith","Cordarius Johnson","Kenyon McNeail","Brandon Gibson","Romario Souza","J.L. Lewis","Michale Kyser","Lonnie Smith","Alex Carr","Isaiah Massey","Stojan Gjuroski","Robby Price"],"rows":[]};

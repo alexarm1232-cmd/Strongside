@@ -1,0 +1,1 @@
+LINEUPS_ADD["George Mason"] = {"players":["Ryan Pearson","Bryon Allen","Michael Morrison","Sherrod Wright","Vertrail Vaughns","Andre Cornelius","Corey Edwards","Erik Copes","Jonathan Arledge","Vaughn Gray","Paris Bennett","Bryce Lewis","Jordan Baird","Jacob Hoxie"],"rows":[]};

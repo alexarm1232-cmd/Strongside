@@ -1,0 +1,1 @@
+LINEUPS_ADD["Rider"] = {"players":["Daniel Stewart","Jonathon Thompson","Brandon Penn","Jeff Jones","Anthony Myles","Novar Gadson","Eddie Mitchell","Junior Fortunat","Dera Nd-Ezuma","Tommy Pereira","Charles Oliver","Kevin Noon","Emerson Bursis","Mark Medley"],"rows":[]};

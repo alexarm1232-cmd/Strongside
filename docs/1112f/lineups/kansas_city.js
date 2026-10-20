@@ -1,0 +1,1 @@
+LINEUPS_ADD["Kansas City"] = {"players":["Reggie Chamberlain","Thomas Staton","Kirk Korver","Trinity Hall","Estan Tyler","Nate Rogers","Dustin Dibble","Michael Gholston, Jr.","Fred Chatmon","Bernard Kamwa","Brad Reid","Trevor Mason","Jordan Payton"],"rows":[]};

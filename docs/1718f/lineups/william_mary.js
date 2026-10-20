@@ -1,1 +1,1 @@
-LINEUPS_ADD["William & Mary"] = {"players":["David Cohn","Justin Pierce","Connor Burchfield","Matt Milon","Nathan Knight","Paul Rowley","Oliver Tot","Cole Harrison","Luke Loewe","Jihar Williams","Jamison Glover","Omar Mostafa","Tommy Papas","Amir Shafi"],"rows":[]};
+LINEUPS_ADD["William & Mary"] = {"players":["David Cohn","Justin Pierce","Connor Burchfield","Matt Milon","Nathan Knight","Paul Rowley","Oliver Tot","Cole Harrison","Luke Loewe","Jihar Williams","Jamison Glover","Omar Mostafa","Amir Shafi","Tommy Papas"],"rows":[]};

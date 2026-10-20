@@ -1,0 +1,1 @@
+LINEUPS_ADD["Idaho St."] = {"players":["Abner Moreira","Chase Grabau","Melvin Morgan","Kenny McGowen","Andre' Hatchett","Sherrod Baldwin","Dejan Kostur","Garrett Swanson","Jakub Kusmieruk","Nick Mason","Vishal Banipal","Brandon Glanz","Travis Martin","Connor Moore"],"rows":[]};

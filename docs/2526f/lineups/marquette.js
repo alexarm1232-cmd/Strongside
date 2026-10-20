@@ -1,1 +1,1 @@
-LINEUPS_ADD["Marquette"] = {"players":["Chase Ross","Nigel James Jr.","Royce Parham","Ben Gold","Adrien Stevens","Damarius Owens","Caedin Hamilton","Zaide Lowery","Tre Norman","Michael Phillips II","Sean Jones","Josh Clark","Jonah Lucas","Casey O'Malley","Braeden Brenn"],"rows":[]};
+LINEUPS_ADD["Marquette"] = {"players":["Chase Ross","Nigel James Jr.","Royce Parham","Ben Gold","Adrien Stevens","Damarius Owens","Caedin Hamilton","Zaide Lowery","Tre Norman","Michael Phillips II","Sean Jones","Josh Clark","Casey O'Malley","Jonah Lucas","Braeden Brenn"],"rows":[]};

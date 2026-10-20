@@ -1,1 +1,1 @@
-LINEUPS_ADD["East Carolina"] = {"players":["B.J. Tyson","Isaac Fleming","Shawn Williams","Kentrell Barkley","Dimitrije Spasojevic","Jabari Craig","Aaron Jackson","Justin Whatley","K.J. Davis","Usman Haruna","Justice Obasohan","John Whitley","Addison Hill"],"rows":[]};
+LINEUPS_ADD["East Carolina"] = {"players":["B.J. Tyson","Isaac Fleming","Shawn Williams","Kentrell Barkley","Dimitrije Spasojevic","Jabari Craig","Aaron Jackson","Justin Whatley","K.J. Davis","Usman Haruna","Justice Obasohan","Addison Hill","John Whitley"],"rows":[]};

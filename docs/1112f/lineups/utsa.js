@@ -1,0 +1,1 @@
+LINEUPS_ADD["UTSA"] = {"players":["Jeromie Hill","Michael Hale III","Stephen Franklin","Kannon Burrage","Sei Paye","Melvin Johnson III","Iggy Nujic","Alex Vouyoukas","Jordan Sims","Tyler Wood","Ryan Whitehead"],"rows":[]};

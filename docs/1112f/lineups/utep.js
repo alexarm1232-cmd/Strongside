@@ -1,0 +1,1 @@
+LINEUPS_ADD["UTEP"] = {"players":["Jacques Streeter","Julian Washburn","Michael Perez","Gabriel McCulley","John Bohannon","Cedrick Lang","C.J. Cooper","D'Von Campbell","Jalen Ragland","Malcolm Moore","Hooper Vint","Kevin Perry","Tyler Tafoya","Mauricio Cheda"],"rows":[]};
