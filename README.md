@@ -16,7 +16,7 @@ has no tournament).
 - **Game sim**: any two teams played possession by possession, thousands of times.
 - **Tournament sim**: fill or load a 64-team bracket and play it out; the perfect-bracket chase on the real
   brackets (2013-2019, 2021-2026); a projected field from the ratings for any season (2020 had no tournament).
-- **Pre-tournament / full season** views, a season picker, a Spread report (2025-26), and a Stat guide.
+- **Pre-tournament / full season** views, a season picker, and a Stat guide.
 ---
 
 ## Project Structure

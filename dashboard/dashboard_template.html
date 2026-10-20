@@ -320,33 +320,6 @@
   .gd-table td:first-child { font-weight: 650; }
   .gd-table td:first-child small { display: block; font-weight: 400; color: var(--muted); white-space: normal; }
 
-  /* ---------- Spread report ---------- */
-  #spread-view { display: none; padding-bottom: 40px; }
-  body.spread-mode #spread-view { display: block; }
-  body.spread-mode .list-only, body.spread-mode .controls, body.spread-mode #team-view { display: none !important; }
-  .sr-filters { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin: 18px 0 2px; }
-  .sr-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 8px; padding: 8px 12px 4px; }
-  .sr-svg { width: 100%; height: auto; display: block; }
-  .sr-svg text { font-family: inherit; font-size: 11.5px; fill: var(--muted); text-anchor: middle; }
-  .sr-svg text.end { text-anchor: end; }
-  .sr-svg .grid, .sr-svg .axis { stroke: var(--line); stroke-width: 1; }
-  .sr-svg .dot { fill: var(--accent); fill-opacity: .28; }
-  .sr-svg .bar { fill: var(--accent); }
-  .sr-svg .same { stroke: var(--muted); stroke-width: 1.5; stroke-dasharray: 5 4; }
-  .sr-svg .fit { stroke: var(--ink); stroke-width: 2; }
-  .sr-svg .mark { stroke: var(--surface); stroke-width: 2; }
-  .sr-svg .mark.a, .sr-key .dot.a { fill: var(--accent); background: var(--accent); }
-  .sr-svg .mark.b, .sr-key .dot.b { fill: rgb(var(--bad-rgb)); background: rgb(var(--bad-rgb)); }
-  .sr-key { display: flex; flex-wrap: wrap; gap: 4px 18px; justify-content: center; color: var(--muted); font-size: 12.5px; padding: 2px 12px 10px; }
-  .sr-key .dot { display: inline-block; width: 10px; height: 10px; border-radius: 50%; margin-right: 6px; }
-  .sr-key .line { display: inline-block; width: 22px; border-top: 2px solid var(--ink); margin-right: 6px; vertical-align: middle; }
-  .sr-key .line.dash { border-top: 2px dashed var(--muted); }
-  #spread-view td.note { text-align: left; color: var(--muted); font-size: 13px; white-space: normal; min-width: 320px; line-height: 1.4; }
-  #spread-view .sr-stats td { vertical-align: top; }
-  #spread-view .sr-stats td.l { white-space: normal; min-width: 210px; }
-  #spread-view tr.sub td { font-size: 12px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); padding-top: 14px; }
-  #spread-view .tp-tiles { margin-top: 14px; }
-  @media (max-width: 900px) { .sr-pair { grid-template-columns: 1fr; } }
 
   /* ---------- Controls ---------- */
   .controls { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin: 22px 0 12px; }
@@ -477,8 +450,8 @@
   #team-view thead tr:first-child th:first-child, #team-view thead tr:first-child th:last-child { border-radius: 0; }
   #team-view tbody td { padding: 6px 9px; }
   #team-view th button { padding: 11px 9px 9px; }
-  #team-view td.l, #team-view th.l, #sim-view td.l, #sim-view th.l, #spread-view td.l, #spread-view th.l { text-align: left; }
-  #team-view td.l, #sim-view td.l, #spread-view td.l { font-weight: 600; }
+  #team-view td.l, #team-view th.l, #sim-view td.l, #sim-view th.l { text-align: left; }
+  #team-view td.l, #sim-view td.l { font-weight: 600; }
   #team-view td.lbl { text-align: left; color: var(--ink-2); }
   #team-view .cell { min-width: 74px; }
   #team-view .cell.plain { min-width: 0; padding: 4px 2px; }
@@ -669,7 +642,6 @@
         <a href="#sim" data-page="sim">Game sim</a>
         <a href="#bracket" data-page="bracket">Tournament sim</a>
         <a href="#picker" data-page="picker">Champion picker</a>
-        <a href="#spreads" data-page="spreads" id="menu-spreads">Spread report</a>
         <a href="#guide" data-page="guide">Stat guide</a>
       </nav>
     </div>
@@ -741,7 +713,6 @@
   <div id="picker-view"></div>
   <div id="sim-view"></div>
   <div id="bracket-view"></div>
-  <div id="spread-view"></div>
   <div id="guide-view"></div>
 
   <div class="legend list-only">
@@ -914,7 +885,7 @@ if (DATA.meta.views) {
   $('view').value = FULL_SEASON ? 'full' : 'pre';
   $('view').addEventListener('change', e => { location.href = DATA.meta.views[e.target.value] + location.hash; });
 }
-// The Spread report belongs to the current season only
+// Whether this is the current season (main.py's "spreads" flag, kept from the old Spread report)
 const CURRENT_SEASON = DATA.meta.spreads !== false;
 const SEASON_TAG = CURRENT_SEASON ? '' : '-' + DATA.meta.season;        // keeps each season's saved bracket apart
 const confSel = $('conf');
@@ -2409,8 +2380,8 @@ function simMatchup(O, D, target) {
   const matchup = { pTO, pOREB, pTrip, zone, cum, k, target,
            prob: zone.map((_, z) => Float64Array.from(O.players, x => Math.min(0.95, x.pct[z] * easier[z] * k))),
            ast: ASSIST_BY_ZONE.map(v => between(O.astBase * v, 0.05, 0.95)), stl: D.stlShare, blk: D.blkRate };
-  // with play-type numbers for both teams' players, the trips are played by kind of play (the Spread report's
-  // day-by-day teams have none per player, and are played by shot zone as above; the average margin is the same either way)
+  // with play-type numbers for both teams' players, the trips are played by kind of play (teams with
+  // none per player are played by shot zone as above; the average margin is the same either way)
   const style = O.typeW ? playMatchup(O, D) : null;
   if (style) simPlayTypes(matchup, O, D, style, easier, target);
   return matchup;
@@ -3712,565 +3683,6 @@ $('sim-view').addEventListener('click', e => {
   if (e.target.closest('#gs-go')) runSim();
 });
 
-// ---------- spread report ----------
-// One job: play every game of the season in the simulator, as it stood on the day of the game, and report how the
-// simulator's spreads compare with the real betting spreads. (The final scores are not part of the comparison.) spreadreport.js (built by
-// main\Spreadstat.py) holds, for each game, what was known that morning: both teams' ratings, tempo, four factors,
-// shots and play types and every player's numbers from the games before it, who actually played, the real
-// spread and the final score. Pressing the button plays each game SPREAD_SIMS times.
-// Every margin is from the first team's side: the home team, or on a neutral floor the team listed as home.
-const SPREAD_SIMS = 100000;
-const USEFUL_MINUTES = 10;      // a player averaging this many minutes (in the games he had played) is "useful": his absences are the ones counted and listed
-const INJURY_STEADY_MINUTES = 200, INJURY_RETURNING = false;        // see pitUnit
-const sr = { rows: null, meta: null, request: null, job: null, status: '', kind: 'all', site: 'all', month: 'all', played: 5, q: '', shown: 100 };
-function loadSpreads() {
-  if (window.SPREADS) return Promise.resolve(window.SPREADS);
-  if (!sr.request) sr.request = new Promise((resolve, reject) => {
-    const tag = document.createElement('script');
-    tag.src = 'spreadreport.js';
-    tag.onload = () => window.SPREADS ? resolve(window.SPREADS) : reject();
-    tag.onerror = reject;
-    document.head.appendChild(tag);
-  });
-  return sr.request;
-}
-
-// ---------- a team as it stood on the day, for the simulator ----------
-// The league averages on that day, in the shape the simulator's matchup code expects
-function pitLeague(l) {
-  const attempts = l.slice(5, 10), made = l.slice(10, 15), total = attempts.reduce((a, b) => a + b, 0) || 1;
-  return { avg: l[0], t: l[1], tov: l[2], orb: l[3], ftr: l[4], share: attempts.map(v => v / total || 0.2), pct: attempts.map((v, i) => v ? made[i] / v : 0.4),
-           ft: l[15] ? l[16] / l[15] : 0.71, ast: l[18] ? l[17] / l[18] : 0.5 };
-}
-// The same thing simUnit() builds for today's teams, from one team's numbers as they stood before the game.
-// block: [team numbers, player rows, names of the useful players who sat] (the column lists are in Spreadstat.py).
-// injuries: only the players who played in the real game play. Their usual minutes are stretched to fill the
-// 200, and the team's rating moves by what that change in who is on the floor is worth, from each player's box
-// plus/minus at the time (half to the offense, half to the defense). INJURY_RETURNING would instead give each
-// player the minutes he averages in the games he plays; it tested no better, so it is off.
-function pitUnit(block, injuries, options) {
-  const L = SIM_LEAGUE, T = block[0], games = T[10] || 1, five = [0, 1, 2, 3, 4];
-  const returning = options ? options.returning : INJURY_RETURNING, steady = options ? options.steady : INJURY_STEADY_MINUTES;
-  const leagueZ = L.share.map((share, i) => [1000 * share, 1000 * share * L.pct[i]]);
-  let zo = five.map(i => [T[12 + i], T[17 + i]]), zd = five.map(i => [T[22 + i], T[27 + i]]);
-  if (sumOf(zo.map(z => z[0])) < 1) zo = leagueZ;
-  if (sumOf(zd.map(z => z[0])) < 1) zd = leagueZ;
-  const attO = sumOf(zo.map(z => z[0])), attD = sumOf(zd.map(z => z[0]));
-  const teamPct = zo.map((z, i) => (z[1] + 20 * L.pct[i]) / (z[0] + 20));
-  const ftTeam = T[32] ? T[33] / T[32] : L.ft;
-  const all = block[1].map(p => {
-    const share = p[1] / (T[11] / 5), usual = Math.max(0.05, share * 40), perGame = p[1] / p[0];
-    const sits = injuries && !p[20];                    // only the players who really played are on the floor
-    return { p, share, usual, sits, useful: perGame >= USEFUL_MINUTES, min: sits ? 0 : injuries && returning ? perGame : usual };
-  });
-  // A box plus/minus built on few minutes is mostly noise, so each player's is pulled toward the team's average
-  // player as if he had played INJURY_STEADY_MINUTES more minutes at that level
-  const typical = sumOf(all.map(x => x.share * x.p[2])) / (sumOf(all.map(x => x.share)) || 1);
-  for (const x of all) x.worth = typical + (x.p[2] - typical) * x.p[1] / (x.p[1] + steady);
-  // five players are on the floor for all 40 minutes, and nobody plays more than 40
-  for (let pass = 0; pass < 8; pass++) {
-    const total = sumOf(all.map(x => x.min)) || 1;
-    for (const x of all) x.min = Math.min(40, x.min * 200 / total);
-  }
-  const shares = sumOf(all.map(x => x.share)) || 5;
-  const before = sumOf(all.map(x => x.share * x.worth)) * 5 / shares, after = sumOf(all.map(x => x.min / 40 * x.worth));
-  const delta = injuries ? after - before : 0;         // points per 100 possessions the team is better or worse today
-  const players = all.filter(x => x.min >= 0.25).map(x => {
-    const m = Math.min(10, x.min / x.usual), z = five.map(i => [x.p[3 + i], x.p[8 + i]]);
-    return { row: x.p, min: x.min, m, w: z.map(v => v[0] * m + 0.01), pct: z.map((v, i) => (v[1] + 15 * teamPct[i]) / (v[0] + 15)) };
-  }).sort((x, y) => y.min - x.min);
-  const weights = get => { const w = Float64Array.from(players, get); return [w, sumOf(Array.from(w))]; };
-  const unit = { o: T[0] + delta / 2, d: T[1] - delta / 2, tempo: T[2], style: T[3], delta, out: all.filter(x => x.sits && x.useful).length,
-    players, count: players.length, tov: T[4], orb: T[5], ftr: T[6], dtov: T[7], dorb: T[8], dftr: T[9],
-    zs: zo.map(z => z[0] / attO), dzs: zd.map(z => z[0] / attD), dpct: zd.map((z, i) => (z[1] + 40 * L.pct[i]) / (z[0] + 40)),
-    ft: Float64Array.from(players, x => (x.row[14] + 10 * ftTeam) / (x.row[13] + 10)), astBase: T[35] ? T[34] / T[35] : L.ast };
-  [unit.ftW] = weights(x => x.row[13] * x.m + 0.01);
-  [unit.rebW, unit.rebT] = weights(x => x.row[15] * x.m + 0.01);
-  [unit.astW, unit.astT] = weights(x => x.row[16] * x.m + 0.01);
-  [unit.toW, unit.toT] = weights(x => x.row[17] * x.m + 0.01);
-  [unit.stlW, unit.stlT] = weights(x => x.row[18] * x.m + 0.01);
-  [unit.blkW, unit.blkT] = weights(x => x.row[19] * x.m + 0.01);
-  const missedTwos = (zd[0][0] - zd[0][1] + zd[1][0] - zd[1][1] + zd[2][0] - zd[2][1]) / games;
-  unit.blkRate = between(missedTwos ? unit.blkT / games / missedTwos : 0.1, 0.01, 0.35);
-  unit.stlShare = between(unit.stlT / games / ((T[7] / 100) * T[2] || 1), 0.2, 0.85);
-  return unit;
-}
-// Plays one real game `games` times as it stood that day; the same steps simGames() takes for today's teams
-function pitGame({ league, a, b, home, edge, games, injuries, options }) {
-  SIM_LEAGUE = pitLeague(league);
-  const A = pitUnit(a, injuries, options), B = pitUnit(b, injuries, options), court = home ? edge : 0, avg = SIM_LEAGUE.avg;
-  // A.style: the points per 100 possessions A's offense should score against B from play types alone, as they
-  // stood that day. Who is missing moves it by what those players were worth (half a team's change to each end).
-  const matchups = [simMatchup(A, B, (A.style + court + (A.delta - B.delta) / 2) / 100), simMatchup(B, A, (B.style - court + (B.delta - A.delta) / 2) / 100)];
-  const pace = A.tempo + B.tempo - SIM_LEAGUE.t, acc = simAcc([A.count, B.count]);
-  simPlay(acc, [simSide(A, matchups[0]), simSide(B, matchups[1])], pace, games, -1);
-  const t = acc.tally, mean = (t[4] + t[5]) / t[0];
-  let points = 0;
-  for (let s = 0; s < 2; s++) for (let i = 0; i < acc.sides[s].box.length; i += SIM_STATS) points += acc.sides[s].box[i];
-  return { mean, sd: Math.sqrt(Math.max(0, t[6] / t[0] - mean * mean)), win: t[1] / t[0], total: points / t[0], da: A.delta, db: B.delta,
-           expected: pace * (matchups[0].target - matchups[1].target) };
-}
-// The program each background worker runs: the simulator itself, and one game at a time from the season
-const spreadWorkerSource = () => [
-  `let SIM_LEAGUE = null;`,
-  `const SIM_STATS = ${SIM_STATS}, ZONE_POINTS = ${JSON.stringify(ZONE_POINTS)}, ASSIST_BY_ZONE = ${JSON.stringify(ASSIST_BY_ZONE)}, SCORE_EFFECT = ${SCORE_EFFECT}, USEFUL_MINUTES = ${USEFUL_MINUTES}, INJURY_STEADY_MINUTES = ${INJURY_STEADY_MINUTES}, INJURY_RETURNING = ${INJURY_RETURNING};`,
-  `const between = ${between.toString()};`, `const sumOf = ${sumOf.toString()};`,
-  gauss, pickIndex, simSide, simTipoff, simPossession, simAcc, simPlay, simMatchup, pitLeague, pitUnit, pitGame,
-  `onmessage = e => { const result = pitGame(e.data); result.i = e.data.i; postMessage(result); };`].map(String).join('\n');
-
-// ---------- running the season ----------
-function spreadRows(data) {
-  if (!sr.rows) {
-    sr.meta = data;
-    // Every spread of ours is rounded to the nearest half point before it is compared, the way a real line is quoted
-    sr.rows = data.rows.map(([date, team, opp, home, formula, ratings, market, actual, played, conf, type, , , plain], i) =>
-      ({ i, date, team, opp, home, formula: toHalf(formula), ratings: toHalf(ratings), market, actual, played, conf, type, plain: toHalf(plain == null ? formula : plain), out: [data.inputs[i][1][2], data.inputs[i][2][2]], sim: null }));
-    // the last run, if this browser has one for this build of the data
-    try {
-      const saved = JSON.parse(localStorage.getItem('strongside-spread-run') || 'null');
-      if (saved && saved.built === data.built) spreadResults(saved);
-    } catch (e) {}
-  }
-  return sr.rows;
-}
-function spreadResults(run) {
-  sr.ran = { games: run.games, when: run.when, seconds: run.seconds, done: run.results.filter(Boolean).length };
-  run.results.forEach((r, i) => { if (r && sr.rows[i]) Object.assign(sr.rows[i], { sim: toHalf(r[0]), exact: r[0], sd: r[1], win: r[2], da: r[3], db: r[4] }); });
-}
-function stopSeason(finished) {
-  const job = sr.job;
-  if (!job) return;
-  for (const worker of job.workers) worker.terminate();
-  sr.job = null;
-  if (!job.done) { sr.status = 'Stopped before any game finished.'; renderSpreads(); return; }
-  const run = { built: sr.meta.built, games: job.games, when: new Date().toLocaleString(), seconds: (performance.now() - job.started) / 1000,
-                results: job.results.map(r => r && [+r.mean.toFixed(3), +r.sd.toFixed(2), +r.win.toFixed(4), +r.da.toFixed(2), +r.db.toFixed(2)]) };
-  for (const row of sr.rows) row.sim = null;
-  spreadResults(run);
-  try { localStorage.setItem('strongside-spread-run', JSON.stringify(run)); } catch (e) {}
-  sr.status = finished ? '' : `Stopped after ${job.done.toLocaleString()} of ${job.total.toLocaleString()} games; the report covers those.`;
-  renderSpreads();
-}
-// games: how many times to play each one. only: play just the first so-many games (for testing)
-function runSeason(games = SPREAD_SIMS, only) {
-  if (sr.job) return;
-  loadSpreads().then(data => {
-    const rows = spreadRows(data), total = Math.min(only || rows.length, rows.length);
-    const job = sr.job = { games, total, done: 0, next: 0, results: new Array(rows.length).fill(null), workers: [], started: performance.now(), drawn: 0 };
-    const give = worker => {
-      if (job.next >= total) return;
-      const i = job.next++, [league, a, b] = data.inputs[i];
-      worker.postMessage({ i, league: data.leagues[league], a, b, home: rows[i].home, edge: data.edges ? data.edges[i] : data.home, games, injuries: true });
-    };
-    const progress = () => {
-      const seconds = (performance.now() - job.started) / 1000, left = (total - job.done) * seconds / Math.max(1, job.done);
-      const bar = $('sr-progress'), text = $('sr-status');
-      if (bar) bar.style.width = (100 * job.done / total).toFixed(1) + '%';
-      if (text) text.textContent = `${job.done.toLocaleString()} of ${total.toLocaleString()} games played ${games.toLocaleString()} times each · ` +
-        (job.done ? `about ${simTime(left)} left · now on ${fmtDate(rows[Math.min(job.next, total) - 1].date)}` : 'starting…');
-    };
-    try {
-      const url = URL.createObjectURL(new Blob([spreadWorkerSource()], { type: 'text/javascript' }));
-      const cores = Math.max(1, Math.min((navigator.hardwareConcurrency || 4) - 1, 16, total));      // one core is left free so the computer stays usable
-      for (let w = 0; w < cores; w++) {
-        const worker = new Worker(url);
-        worker.onmessage = e => {
-          if (sr.job !== job) return;
-          job.results[e.data.i] = e.data;
-          job.done++;
-          if (job.done >= total) { stopSeason(true); return; }
-          if (performance.now() - job.drawn > 300) { job.drawn = performance.now(); progress(); }
-          give(worker);
-        };
-        worker.onerror = () => { if (sr.job === job) { sr.status = 'A background worker failed, so the run was stopped.'; stopSeason(false); } };
-        job.workers.push(worker);
-        give(worker);
-      }
-    } catch (error) {
-      sr.job = null;
-      sr.status = 'This browser would not start the background workers the run needs. Opening the dashboard through a local web server fixes that.';
-    }
-    renderSpreads();
-    progress();
-  }).catch(() => { sr.status = 'missing'; renderSpreads(); });
-}
-
-// ---------- the statistics ----------
-const st = {
-  sum: a => a.reduce((s, v) => s + v, 0),
-  mean: a => a.length ? st.sum(a) / a.length : NaN,
-  sd(a) { const m = st.mean(a); return a.length > 1 ? Math.sqrt(st.sum(a.map(v => (v - m) ** 2)) / (a.length - 1)) : NaN; },
-  moment(a, k) { const m = st.mean(a), s = Math.sqrt(st.mean(a.map(v => (v - m) ** 2))); return st.mean(a.map(v => ((v - m) / s) ** k)); },
-  quantile(a, q) {
-    const s = [...a].sort((x, y) => x - y);
-    if (!s.length) return NaN;
-    const at = (s.length - 1) * q, low = Math.floor(at);
-    return s[low] + (s[Math.min(low + 1, s.length - 1)] - s[low]) * (at - low);
-  },
-  corr(x, y) {
-    const mx = st.mean(x), my = st.mean(y);
-    let sxy = 0, sxx = 0, syy = 0;
-    for (let i = 0; i < x.length; i++) { sxy += (x[i] - mx) * (y[i] - my); sxx += (x[i] - mx) ** 2; syy += (y[i] - my) ** 2; }
-    return sxx && syy ? sxy / Math.sqrt(sxx * syy) : NaN;
-  },
-  concordance(x, y) {      // Lin's concordance correlation: 1 only when the two numbers are the same, not just in step
-    const mx = st.mean(x), my = st.mean(y), n = x.length;
-    let sxy = 0, sxx = 0, syy = 0;
-    for (let i = 0; i < n; i++) { sxy += (x[i] - mx) * (y[i] - my); sxx += (x[i] - mx) ** 2; syy += (y[i] - my) ** 2; }
-    return 2 * sxy / n / (sxx / n + syy / n + (mx - my) ** 2);
-  },
-  ranks(a) {       // 1 = smallest; ties share the average rank
-    const order = a.map((v, i) => [v, i]).sort((x, y) => x[0] - y[0]), out = new Array(a.length);
-    for (let i = 0; i < order.length;) {
-      let j = i;
-      while (j < order.length && order[j][0] === order[i][0]) j++;
-      for (let k = i; k < j; k++) out[order[k][1]] = (i + j + 1) / 2;
-      i = j;
-    }
-    return out;
-  },
-  lgamma(x) {
-    const c = [76.18009172947146, -86.50532032941677, 24.01409824083091, -1.231739572450155, 0.1208650973866179e-2, -0.5395239384953e-5];
-    let y = x, tmp = x + 5.5, ser = 1.000000000190015;
-    tmp -= (x + 0.5) * Math.log(tmp);
-    for (const v of c) ser += v / ++y;
-    return -tmp + Math.log(2.5066282746310005 * ser / x);
-  },
-  betai(a, b, x) {     // regularized incomplete beta function
-    if (x <= 0) return 0;
-    if (x >= 1) return 1;
-    const front = Math.exp(st.lgamma(a + b) - st.lgamma(a) - st.lgamma(b) + a * Math.log(x) + b * Math.log(1 - x));
-    const cf = (a, b, x) => {
-      let c = 1, d = 1 - (a + b) * x / (a + 1);
-      d = Math.abs(d) < 1e-30 ? 1e30 : 1 / d;
-      let h = d;
-      for (let m = 1; m <= 300; m++) {
-        let aa = m * (b - m) * x / ((a + 2 * m - 1) * (a + 2 * m));
-        d = 1 + aa * d; d = Math.abs(d) < 1e-30 ? 1e30 : 1 / d; c = 1 + aa / c; if (Math.abs(c) < 1e-30) c = 1e-30; h *= d * c;
-        aa = -(a + m) * (a + b + m) * x / ((a + 2 * m) * (a + 2 * m + 1));
-        d = 1 + aa * d; d = Math.abs(d) < 1e-30 ? 1e30 : 1 / d; c = 1 + aa / c; if (Math.abs(c) < 1e-30) c = 1e-30;
-        const step = d * c;
-        h *= step;
-        if (Math.abs(step - 1) < 1e-12) break;
-      }
-      return h;
-    };
-    return x < (a + 1) / (a + b + 2) ? front * cf(a, b, x) / a : 1 - front * cf(b, a, 1 - x) / b;
-  },
-  pT: (t, df) => df > 0 && isFinite(t) ? st.betai(df / 2, 0.5, df / (df + t * t)) : NaN,       // two-sided p for Student's t
-  pF: (f, d1, d2) => isFinite(f) && f > 0 ? st.betai(d2 / 2, d1 / 2, d2 / (d2 + d1 * f)) : 1,  // upper-tail p for an F statistic
-  tCrit(df) {          // the t that leaves 5% in the two tails
-    let low = 0, high = 50;
-    for (let i = 0; i < 60; i++) { const mid = (low + high) / 2; st.pT(mid, df) > 0.05 ? low = mid : high = mid; }
-    return (low + high) / 2;
-  },
-  pZ(z) {              // two-sided p for a z score (normal distribution)
-    const x = Math.abs(z) / Math.SQRT2, t = 1 / (1 + 0.3275911 * x);
-    return isFinite(z) ? t * (0.254829592 + t * (-0.284496736 + t * (1.421413741 + t * (-1.453152027 + t * 1.061405429)))) * Math.exp(-x * x) : NaN;
-  },
-  ols(x, y) {          // y = a + b x
-    const n = x.length, mx = st.mean(x), my = st.mean(y);
-    let sxx = 0, sxy = 0;
-    for (let i = 0; i < n; i++) { sxx += (x[i] - mx) ** 2; sxy += (x[i] - mx) * (y[i] - my); }
-    const b = sxy / sxx, a = my - b * mx;
-    let sse = 0, sst = 0, raw = 0;
-    for (let i = 0; i < n; i++) { sse += (y[i] - a - b * x[i]) ** 2; sst += (y[i] - my) ** 2; raw += (y[i] - x[i]) ** 2; }
-    const s = Math.sqrt(sse / (n - 2)), f = ((raw - sse) / 2) / (sse / (n - 2));      // f: is the line a = 0, b = 1 (y equal to x on average)?
-    return { n, a, b, s, r2: 1 - sse / sst, seB: s / Math.sqrt(sxx), seA: s * Math.sqrt(1 / n + mx * mx / sxx), df: n - 2, f, pF: st.pF(f, 2, n - 2) };
-  },
-  ols2(x1, x2, y) {    // y = b0 + b1 x1 + b2 x2
-    const n = y.length, X = [new Array(n).fill(1), x1, x2];
-    const dot = (u, v) => { let s = 0; for (let i = 0; i < n; i++) s += u[i] * v[i]; return s; };
-    const A = X.map(u => X.map(v => dot(u, v))), g = X.map(u => dot(u, y));
-    const det = A[0][0] * (A[1][1] * A[2][2] - A[1][2] * A[2][1]) - A[0][1] * (A[1][0] * A[2][2] - A[1][2] * A[2][0]) + A[0][2] * (A[1][0] * A[2][1] - A[1][1] * A[2][0]);
-    const inv = [0, 1, 2].map(i => [0, 1, 2].map(j => {
-      const r = [0, 1, 2].filter(k => k !== j), c = [0, 1, 2].filter(k => k !== i);
-      return ((i + j) % 2 ? -1 : 1) * (A[r[0]][c[0]] * A[r[1]][c[1]] - A[r[0]][c[1]] * A[r[1]][c[0]]) / det;
-    }));
-    const b = inv.map(row => row[0] * g[0] + row[1] * g[1] + row[2] * g[2]);
-    const my = st.mean(y);
-    let sse = 0, sst = 0;
-    for (let i = 0; i < n; i++) { sse += (y[i] - b[0] - b[1] * x1[i] - b[2] * x2[i]) ** 2; sst += (y[i] - my) ** 2; }
-    const s2 = sse / (n - 3);
-    return { n, b, se: inv.map((row, i) => Math.sqrt(s2 * row[i])), r2: 1 - sse / sst, s: Math.sqrt(s2), df: n - 3 };
-  },
-  wilson(k, n) {       // 95% interval for a share
-    if (!n) return [NaN, NaN];
-    const z = 1.959964, p = k / n, mid = p + z * z / (2 * n), half = z * Math.sqrt(p * (1 - p) / n + z * z / (4 * n * n)), den = 1 + z * z / n;
-    return [(mid - half) / den, (mid + half) / den];
-  },
-  bootstrap(values, times = 2000) {       // 95% interval for a mean by resampling the games (always the same resamples)
-    const n = values.length, means = new Float64Array(times);
-    let seed = 20260411;
-    const next = () => (seed = (seed * 1664525 + 1013904223) >>> 0) / 4294967296;
-    for (let t = 0; t < times; t++) { let sum = 0; for (let i = 0; i < n; i++) sum += values[Math.floor(next() * n)]; means[t] = sum / n; }
-    return [st.quantile(Array.from(means), 0.025), st.quantile(Array.from(means), 0.975)];
-  },
-};
-const srNum = (v, d = 2) => isFinite(v) ? v.toFixed(d).replace('-', '−') : '–';
-const srSigned = (v, d = 2) => isFinite(v) ? (v > 0 ? '+' : '') + srNum(v, d) : '–';
-const srPct = (v, d = 1) => isFinite(v) ? (100 * v).toFixed(d) + '%' : '–';
-const srP = p => !isFinite(p) ? '–' : p < 0.001 ? '< 0.001' : p.toFixed(3);
-const srPe = p => srP(p).replace(/^(\d)/, '= $1');
-const srStars = p => p < 0.001 ? 'yes, strongly (p < 0.001)' : p < 0.01 ? 'yes (p < 0.01)' : p < 0.05 ? 'yes (p < 0.05)' : 'no (p = ' + p.toFixed(2) + ')';
-const srHalf = v => String(Math.round(Math.abs(v) * 2) / 2);
-const toHalf = v => Math.round(v * 2) / 2;
-// A margin written as a betting line for the game's first team: "Duke −6.5"
-const srLine = (r, margin, round) => {
-  const size = round ? srHalf(margin) : Math.abs(margin).toFixed(1);
-  if (+size === 0) return 'Pick’em';
-  return `${esc(margin > 0 ? r.team : r.opp)} −${size}`;
-};
-function srFiltered() {
-  return sr.rows.filter(r => r.sim != null &&
-    r.played >= sr.played &&
-    (sr.site === 'all' || (sr.site === 'home') === !!r.home) &&
-    (sr.month === 'all' || r.date.slice(5, 7) === sr.month) &&
-    (sr.kind === 'all' || (sr.kind === 'tourney' ? r.type !== 'Regular Season' : r.type === 'Regular Season' && (sr.kind === 'conf') === !!r.conf)));
-}
-
-// ---------- charts ----------
-function srScatter(rows, fit) {
-  const W = 560, H = 430, left = 46, top = 14, right = 12, bottom = 40, lim = 36;
-  const x = v => left + (W - left - right) * (Math.max(-lim, Math.min(lim, v)) + lim) / (2 * lim);
-  const y = v => top + (H - top - bottom) * (lim - Math.max(-lim, Math.min(lim, v))) / (2 * lim);
-  let svg = `<svg class="sr-svg" viewBox="0 0 ${W} ${H}" role="img" aria-label="Simulator spread against the real spread, one dot for each game">`;
-  for (let v = -30; v <= 30; v += 10) {
-    svg += `<line class="grid" x1="${x(v)}" x2="${x(v)}" y1="${top}" y2="${H - bottom}"/><line class="grid" x1="${left}" x2="${W - right}" y1="${y(v)}" y2="${y(v)}"/>` +
-      `<text x="${x(v)}" y="${H - bottom + 15}">${v > 0 ? '+' : ''}${v}</text><text class="end" x="${left - 6}" y="${y(v) + 4}">${v > 0 ? '+' : ''}${v}</text>`;
-  }
-  svg += rows.map(r => `<circle class="dot" cx="${x(r.sim).toFixed(1)}" cy="${y(r.market).toFixed(1)}" r="2"/>`).join('');
-  svg += `<line class="same" x1="${x(-lim)}" y1="${y(-lim)}" x2="${x(lim)}" y2="${y(lim)}"/>`;
-  if (fit) svg += `<line class="fit" x1="${x(-lim)}" y1="${y(fit.a - fit.b * lim)}" x2="${x(lim)}" y2="${y(fit.a + fit.b * lim)}"/>`;
-  svg += `<text x="${(left + W - right) / 2}" y="${H - 6}">simulator: first team by</text>` +
-    `<text transform="translate(12 ${(top + H - bottom) / 2}) rotate(-90)">real spread: first team by</text></svg>`;
-  return svg + `<div class="sr-key"><span><i class="line dash"></i>the two agree exactly</span><span><i class="line"></i>best-fit line</span></div>`;
-}
-function srHistogram(values, label) {
-  const W = 560, H = 430, left = 40, top = 22, bottom = 40, lim = 10, bins = 2 * lim + 2, counts = new Array(bins).fill(0);
-  for (const v of values) counts[v < -lim ? 0 : v >= lim ? bins - 1 : Math.floor(v + lim) + 1]++;
-  const most = Math.max(...counts, 1), step = (W - left - 8) / bins, base = H - bottom;
-  let svg = `<svg class="sr-svg" viewBox="0 0 ${W} ${H}" role="img" aria-label="${label}"><line class="axis" x1="${left}" x2="${W - 8}" y1="${base}" y2="${base}"/>`;
-  counts.forEach((count, i) => {
-    const from = i === 0 ? null : -lim + i - 1, to = i === bins - 1 ? null : -lim + i;
-    const name = from == null ? `below −${lim}` : to == null ? `+${lim} or more` : `${srSigned(from, 0)} to ${srSigned(to, 0)}`;
-    const h = (base - top) * count / most, bx = left + step * i + 1;
-    svg += `<g><title>${name} points: ${count.toLocaleString()} games (${srPct(count / values.length)})</title>` +
-      `<rect class="bar" x="${bx.toFixed(1)}" y="${(base - h).toFixed(1)}" width="${(step - 2).toFixed(1)}" height="${Math.max(count ? 1 : 0, h).toFixed(1)}" rx="3"/></g>`;
-    if (i % 2 === 1 || i === bins - 1) svg += `<text x="${(left + step * i).toFixed(1)}" y="${base + 15}">${i === bins - 1 ? '' : srSigned(-lim + i - 1, 0)}</text>`;
-  });
-  const zero = left + step * (lim + 1);
-  svg += `<line class="same" x1="${zero}" x2="${zero}" y1="${top - 8}" y2="${base}"/><text x="${(left + W) / 2}" y="${H - 6}">simulator minus real spread, in points (first team’s side)</text></svg>`;
-  return svg + `<div class="sr-key"><span>left of the line: the simulator liked the first team less than the market did; right: more</span></div>`;
-}
-// ---------- the page ----------
-function renderSpreads() {
-  const view = $('spread-view');
-  view.innerHTML = `<h2 class="gs-title">Spread report<span>Every game of the season, played in the simulator as it stood that day, and its spread set beside the real betting spread.</span></h2>` +
-    `<div class="card tp-card" id="sr-run"><div class="empty">Loading the season…</div></div><div id="sr-filters"></div><div id="sr-body"></div>`;
-  if (sr.status === 'missing') {
-    $('sr-run').innerHTML = `<div class="empty">The season file is not there yet. Build it with <b>python main\\Spreadstat.py</b> (a minute or two), then reload this page.</div>`;
-    return;
-  }
-  loadSpreads().then(data => {
-    const rows = spreadRows(data), job = sr.job, total = rows.length;
-    const sat = rows.filter(r => r.out[0].length || r.out[1].length).length;
-    $('sr-run').innerHTML = `<div class="gs-run" style="border-top:0;margin-top:0">` +
-      (job ? `<button class="btn" disabled>Running…</button><button class="clear" id="sr-stop" title="Stop now and report on the games played so far">Stop and report what is done</button>`
-           : `<button class="btn" id="sr-go">${sr.ran ? 'Run the season again' : 'Run the season'}</button>`) +
-      `<span class="hint" id="sr-status">${esc(sr.status)}</span></div>` +
-      (job ? `<div class="gs-bar" style="height:10px;margin-top:0"><i class="a" id="sr-progress" style="width:0%"></i></div>` : '') +
-      `<div class="wo-note">` + (sr.ran && !job
-        ? `Last run: ${sr.ran.done.toLocaleString()} games, each played ${sr.ran.games.toLocaleString()} times (${(sr.ran.done * sr.ran.games).toLocaleString()} simulated games) in ${simTime(sr.ran.seconds)}, ${esc(sr.ran.when)}. It is kept in this browser, so the report below stays until the season file is rebuilt.`
-        : `One press plays all ${total.toLocaleString()} games ${SPREAD_SIMS.toLocaleString()} times each: ${(total * SPREAD_SIMS).toLocaleString()} simulated games, about 25 minutes with every processor core but one busy. ` +
-          `Each game uses only what had been played before it, and only the players who really played in it take the floor (${sat.toLocaleString()} of the games are missing at least one player who had been averaging ${USEFUL_MINUTES}+ minutes). The report appears when it finishes.`) + `</div>`;
-    if (!sr.ran || job) { $('sr-filters').innerHTML = ''; $('sr-body').innerHTML = ''; return; }
-    const pick = (name, options) => `<div class="seg" role="group">` + options.map(([value, label]) => `<button data-sr="${name}:${value}" aria-pressed="${String(sr[name]) === String(value)}">${label}</button>`).join('') + `</div>`;
-    $('sr-filters').innerHTML = `<div class="sr-filters">` +
-      pick('kind', [['all', 'All games'], ['nonconf', 'Non-conference'], ['conf', 'Conference'], ['tourney', 'Conf. tournaments']]) +
-      pick('site', [['all', 'Any floor'], ['home', 'Home court'], ['neutral', 'Neutral']]) +
-      `<label class="field"><select data-sr-select="month" aria-label="Month">` + [['all', 'All months'], ['12', 'December'], ['01', 'January'], ['02', 'February'], ['03', 'March']]
-        .map(([value, label]) => `<option value="${value}"${sr.month === value ? ' selected' : ''}>${label}</option>`).join('') + `</select></label>` +
-      `<label class="field" title="Leave out games until both teams have played this many"><select data-sr-select="played" aria-label="Games played">` + [5, 10, 15, 20]
-        .map(value => `<option value="${value}"${sr.played === value ? ' selected' : ''}>Both teams ${value}+ games in</option>`).join('') + `</select></label></div>`;
-    drawSpreads();
-  }).catch(() => { sr.status = 'missing'; renderSpreads(); });
-}
-
-function drawSpreads() {
-  const rows = srFiltered(), n = rows.length, meta = sr.meta, body = $('sr-body');
-  if (!body) return;
-  if (n < 30) { body.innerHTML = `<div class="card tp-card"><div class="empty">Only ${n} games fit these filters, too few for a report.</div></div>`; return; }
-  const sim = rows.map(r => r.sim), market = rows.map(r => r.market);
-  const tile = (label, value, note) => `<div class="tp-tile"><div class="k">${label}</div><div class="v">${value}</div><div class="s">${note}</div></div>`;
-  const line = (label, value, note) => `<tr><td class="l">${label}</td><td><b>${value}</b></td><td class="note">${note || ''}</td></tr>`;
-  const head = cols => `<thead><tr>${cols.map((c, i) => `<th${i ? '' : ' class="l"'}><button disabled${c[1] ? ` title="${c[1]}"` : ''}>${c[0]}</button></th>`).join('')}</tr></thead>`;
-  const crit = st.tCrit(n - 1), root = Math.sqrt(n);
-  // one paired comparison: the mean of a list of game-by-game differences, with its interval and t test
-  const pairedTest = list => { const mean = st.mean(list), sd = st.sd(list), se = sd / root, t = mean / se; return { mean, sd, se, t, p: st.pT(t, n - 1), low: mean - crit * se, high: mean + crit * se, d: mean / sd }; };
-
-  // 1. the simulator's spread against the real spread
-  const gap = rows.map(r => r.sim - r.market), gapTest = pairedTest(gap), gapMean = gapTest.mean, gapSd = gapTest.sd;
-  const absGap = gap.map(Math.abs), within = k => absGap.filter(v => v <= k).length / n;
-  const r = st.corr(sim, market), rho = st.corr(st.ranks(sim), st.ranks(market)), z = Math.atanh(r), zHalf = 1.959964 / Math.sqrt(n - 3);
-  const fit = st.ols(sim, market), slopeT = (fit.b - 1) / fit.seB, interceptT = fit.a / fit.seA, fitCrit = st.tCrit(fit.df);
-  const sameSide = rows.filter(x => x.sim * x.market > 0).length / rows.filter(x => x.sim * x.market !== 0).length;
-  const ccc = st.concordance(sim, market), skew = st.moment(gap, 3), kurt = st.moment(gap, 4) - 3;
-  const boot = st.bootstrap(absGap);
-  // how much of the squared gap is the lean, the wrong size of spread, and plain scatter
-  const meanSquare = st.mean(gap.map(v => v * v)), sdSim = st.sd(sim), sdMarket = st.sd(market);
-  const partLean = gapMean ** 2 / meanSquare, partSize = (sdSim - sdMarket) ** 2 / meanSquare, partScatter = 1 - partLean - partSize;
-
-  // 2. each version of the simulator against the real spread
-  const version = key => {
-    const d = rows.map(x => x[key] - x.market), abs = d.map(Math.abs), values = rows.map(x => x[key]), line = st.ols(values, market);
-    return { abs, mean: st.mean(d), gap: st.mean(abs), median: st.quantile(abs, 0.5), rms: Math.sqrt(st.mean(d.map(v => v * v))), r: st.corr(values, market), slope: line.b,
-             two: abs.filter(v => v <= 2).length / n, same: rows.filter(x => x[key] * x.market > 0).length / rows.filter(x => x[key] * x.market !== 0).length };
-  };
-  const vSim = version('sim'), vFormula = version('formula'), vRatings = version('ratings'), vPlain = version('plain');
-  const headStart = pairedTest(vFormula.abs.map((v, i) => v - vPlain.abs[i]));
-  const versionRow = (label, v) => `<tr><td class="l">${label}</td><td>${srSigned(v.mean)}</td><td><b>${srNum(v.gap)}</b></td><td>${srNum(v.median)}</td><td>${srNum(v.rms)}</td><td>${srNum(v.r, 4)}</td><td>${srNum(v.slope, 3)}</td><td>${srPct(v.two)}</td><td>${srPct(v.same)}</td></tr>`;
-  const absences = pairedTest(vSim.abs.map((v, i) => v - vFormula.abs[i])), styles = pairedTest(vFormula.abs.map((v, i) => v - vRatings.abs[i]));
-
-  // 3. the players who were out
-  const moved = rows.map(x => x.sim - x.formula);
-  const outCount = x => x.out[0].length + x.out[1].length, shift = x => Math.abs(x.sim - x.formula);
-  const injuryRow = (label, list) => {
-    if (list.length < 15) return `<tr><td class="l">${label}</td><td>${list.length}</td><td colspan="4" class="note">too few games</td></tr>`;
-    const before = st.mean(list.map(x => Math.abs(x.formula - x.market))), after = st.mean(list.map(x => Math.abs(x.sim - x.market)));
-    return `<tr><td class="l">${label}</td><td>${list.length.toLocaleString()}</td><td>${srNum(st.mean(list.map(shift)))}</td><td>${srNum(before)}</td><td><b>${srNum(after)}</b></td><td>${srSigned(after - before)}</td></tr>`;
-  };
-
-  // 4. the same measures for parts of the season
-  const part = (label, list) => {
-    if (list.length < 15) return `<tr><td class="l">${label}</td><td>${list.length}</td><td colspan="7" class="note">too few games</td></tr>`;
-    const d = list.map(x => x.sim - x.market), abs = d.map(Math.abs), xs = list.map(x => x.sim), ys = list.map(x => x.market);
-    return `<tr><td class="l">${label}</td><td>${list.length.toLocaleString()}</td><td>${srSigned(st.mean(d))}</td><td><b>${srNum(st.mean(abs))}</b></td><td>${srNum(st.quantile(abs, 0.5))}</td>` +
-      `<td>${srNum(st.corr(xs, ys), 3)}</td><td>${srNum(st.ols(xs, ys).b, 3)}</td><td>${srPct(abs.filter(v => v <= 2).length / list.length, 0)}</td>` +
-      `<td>${srPct(list.filter(x => x.sim * x.market > 0).length / (list.filter(x => x.sim * x.market !== 0).length || 1), 0)}</td></tr>`;
-  };
-  const group = (title, parts) => `<tr class="sub"><td class="l" colspan="9">${title}</td></tr>` + parts.map(([label, test]) => part(label, rows.filter(test))).join('');
-  const size = x => Math.abs(x.market);
-
-  // 5. the games themselves
-  const gameRow = x => {
-    const d = x.sim - x.market;
-    const out = [...x.out[0].map(name => `${name} (${x.team})`), ...x.out[1].map(name => `${name} (${x.opp})`)];
-    return `<tr><td class="l">${fmtDate(x.date)}</td><td class="l">${teamLink(x.team, esc(x.team))} ${x.home ? 'vs' : 'vs (neutral)'} ${teamLink(x.opp, esc(x.opp))}</td>` +
-      `<td>${srLine(x, x.sim, true)}</td><td>${srLine(x, x.market)}</td><td><b>${srNum(Math.abs(d), 1)}</b></td>` +
-      `<td>${!d ? '–' : esc(d > 0 ? x.team : x.opp)}</td><td>${srLine(x, x.formula, true)}</td><td title="${esc(out.join(', '))}">${out.length || '–'}</td></tr>`;
-  };
-  const gameHead = head([['Date'], ['Game', 'The first team is the home team'], ['Simulator', 'The simulator’s average margin, to the nearest half point'], ['Real spread'], ['Gap', 'Points between the two'],
-    ['Simulator higher on', 'The team the simulator rates higher than the market does'], ['Everyone available', 'The simulator’s spread before sitting the players who were out'], ['Out', 'Useful players who sat out; hover for their names']]);
-  const biggest = [...rows].sort((a, b) => Math.abs(b.sim - b.market) - Math.abs(a.sim - a.market)).slice(0, 25);
-  const q = sr.q.trim().toLowerCase(), found = (q ? rows.filter(x => x.team.toLowerCase().includes(q) || x.opp.toLowerCase().includes(q)) : rows).slice().reverse();
-
-  body.innerHTML =
-    `<div class="card tp-card"><h3>Summary</h3><div class="wo-note sr-abstract" style="padding-top:8px">` +
-      `<b>${n.toLocaleString()} games</b> from ${fmtDate(rows[0].date)} to ${fmtDate(rows[n - 1].date)} were each played ${sr.ran.games.toLocaleString()} times in the simulator, using only what was known before tip-off, with only the players who really played on the floor. ` +
-      `The simulator’s spread (its average margin, rounded to the nearest half point like a real line) differed from the real spread by <b>${srNum(st.mean(absGap))} points</b> on average (95% interval ${srNum(boot[0])} to ${srNum(boot[1])}); half of all games were within ${srNum(st.quantile(absGap, 0.5), 1)} points and ${srPct(within(3), 0)} within 3. ` +
-      `The two were correlated at <b>r = ${srNum(r, 3)}</b> and named the same favourite in ${srPct(sameSide)} of games. ` +
-      `On average the simulator rated the home team ${srNum(Math.abs(gapMean))} points ${gapMean < 0 ? 'lower' : 'higher'} than the market did (${gapTest.p < 0.05 ? 'a real lean' : 'not a reliable lean'}, p ${srPe(gapTest.p)}), ` +
-      `and its spreads were ${fit.b < 1 ? 'wider' : 'narrower'} than the market’s: for every point of simulator spread the market moved ${srNum(fit.b, 2)}. ` +
-      `Of the squared gap between the two, ${srPct(partLean, 0)} is that lean, ${srPct(partSize, 0)} the difference in size, and ${srPct(partScatter, 0)} game-to-game scatter. ` +
-      `Playing with only the players who really played moved the simulator’s spread by ${srNum(st.mean(moved.map(Math.abs)))} points a game and changed its gap to the real spread by ${srSigned(absences.mean, 3)} (p ${srPe(absences.p)}).</div></div>` +
-
-    `<div class="tp-tiles gs-tiles">` +
-      tile('Games compared', n.toLocaleString(), `${(n * sr.ran.games).toLocaleString()} simulated games`) +
-      tile('Average gap to the real spread', srNum(st.mean(absGap)) + ' pts', `half of all games within ${srNum(st.quantile(absGap, 0.5), 1)}`) +
-      tile('Correlation with the real spread', srNum(r, 3), `the simulator explains ${srPct(r * r, 0)} of the market’s spread`) +
-      tile('Same favourite', srPct(sameSide), `within 3 points in ${srPct(within(3), 0)} of games`) + `</div>` +
-
-    `<div class="card tp-card"><h3>1. Simulator spread against the real spread<span>how closely the two agree, game by game</span></h3>` +
-      `<div class="sr-pair"><div>${srScatter(rows, fit)}</div><div>${srHistogram(gap, 'How far the simulator spread was from the real spread')}</div></div>` +
-      `<table class="pt sr-stats">${head([['Measure'], ['Value'], ['What it says']])}<tbody>` +
-      line('Mean absolute difference', srNum(st.mean(absGap)) + ' pts', `The average gap between the two spreads. 95% interval ${srNum(boot[0])} to ${srNum(boot[1])} (resampling the games 2,000 times). Median ${srNum(st.quantile(absGap, 0.5))}; root mean square ${srNum(Math.sqrt(meanSquare))}; 90% of games within ${srNum(st.quantile(absGap, 0.9), 1)}.`) +
-      line('Exactly the real line', srPct(within(0)), `Games where the simulator’s rounded spread is the same number DraftKings posted. Within half a point: ${srPct(within(0.5))}.`) +
-      line('Within 1 / 2 / 3 / 5 points', [1, 2, 3, 5].map(k => srPct(within(k), 0)).join(' / '), `Share of games where the simulator landed that close to the real spread.`) +
-      line('Mean difference (simulator − real)', srSigned(gapMean) + ' pts', `95% confidence interval ${srSigned(gapTest.low)} to ${srSigned(gapTest.high)}. A plus means the simulator rates the first (home) team higher than the market does.`) +
-      line('Is that lean real?', srStars(gapTest.p), `One-sample t test of the differences against zero: t = ${srNum(gapTest.t)}, ${n - 1} degrees of freedom, p ${srPe(gapTest.p)}. Effect size (Cohen’s d) ${srNum(gapTest.d)}.`) +
-      line('Standard deviation of the differences', srNum(gapSd) + ' pts', `Skewness ${srSigned(skew)}, excess kurtosis ${srSigned(kurt)} (both 0 for a bell curve; a large kurtosis means a few very large disagreements).`) +
-      line('Limits of agreement (Bland–Altman)', `${srSigned(gapMean - 1.96 * gapSd, 1)} to ${srSigned(gapMean + 1.96 * gapSd, 1)}`, `95% of games have the simulator within this many points of the real spread.`) +
-      line('Same favourite', srPct(sameSide), `Games where both made the same team the favourite (pick’em games left out).`) +
-      line('Pearson correlation r', srNum(r, 4), `95% confidence interval ${srNum(Math.tanh(z - zHalf), 4)} to ${srNum(Math.tanh(z + zHalf), 4)} (Fisher transformation); r² = ${srNum(r * r, 3)}.`) +
-      line('Spearman rank correlation ρ', srNum(rho, 4), `The same idea using only the order of the games, so a few lopsided games cannot drive it.`) +
-      line('Concordance correlation (Lin)', srNum(ccc, 4), `Like r, but it only reaches 1 when the two spreads are the same number, not merely in step. The shortfall from r (${srNum(r - ccc, 4)}) is the cost of the lean and of spreads that are the wrong size.`) +
-      line('Regression: real = a + b × simulator', `b = ${srNum(fit.b, 3)}`, `Slope b standard error ${srNum(fit.seB, 4)}, 95% interval ${srNum(fit.b - fitCrit * fit.seB, 3)} to ${srNum(fit.b + fitCrit * fit.seB, 3)}. Intercept a = ${srSigned(fit.a)} (standard error ${srNum(fit.seA, 3)}). Residual standard deviation ${srNum(fit.s)} points: the gap that would be left if the lean and the size were both fixed.`) +
-      line('Is the slope different from 1?', srStars(st.pT(slopeT, fit.df)), `t = ${srNum(slopeT)}. A slope ${fit.b < 1 ? 'below 1 means the simulator’s spreads are more spread out than the market’s: it makes big favourites bigger than the market does' : 'above 1 means the market’s spreads are more spread out than the simulator’s'}. Intercept against zero: t = ${srNum(interceptT)}, p ${srPe(st.pT(interceptT, fit.df))}. Both at once (a = 0 and b = 1): F = ${srNum(fit.f, 1)}, p ${srPe(fit.pF)}.`) +
-      line('Spread of the spreads', `${srNum(sdSim)} vs ${srNum(sdMarket)}`, `Standard deviation of the simulator’s spreads against the market’s.`) +
-      line('Where the gap comes from', `${srPct(partLean, 0)} / ${srPct(partSize, 0)} / ${srPct(partScatter, 0)}`, `Share of the mean squared gap that is the lean (a constant shift would fix it), the size (rescaling would fix it), and game-to-game scatter (neither would).`) +
-      `</tbody></table></div>` +
-
-    `<div class="card tp-card"><h3>2. What brings it closer<span>each version of the simulator’s spread against the real spread</span></h3>` +
-      `<table class="pt">${head([['Version'], ['Mean difference', 'Average of version minus real spread'], ['Average gap', 'Mean absolute difference from the real spread'], ['Median gap'], ['RMS gap', 'Root mean square: big gaps count for more'],
-        ['r', 'Correlation with the real spread'], ['Slope', 'Points of real spread per point of this version; 1 means the same size'], ['Within 2'], ['Same favourite']])}<tbody>` +
-      versionRow('Team ratings (not used by the simulator; for comparison)', vRatings) + versionRow('Play types, this season only', vPlain) + versionRow('+ the 2024-25 head start (everyone available)', vFormula) + versionRow('+ only the players who played (the simulator)', vSim) + `</tbody></table>` +
-      `<table class="pt sr-stats">${head([['Step'], ['Change in average gap'], ['What it says']])}<tbody>` +
-      line('The 2024-25 head start', srSigned(headStart.mean, 3) + ' pts', `Minus = closer to the real spread. 95% interval ${srSigned(headStart.low, 3)} to ${srSigned(headStart.high, 3)}; paired t = ${srNum(headStart.t)}, p ${srPe(headStart.p)}: ${headStart.p < 0.05 ? (headStart.mean < 0 ? 'a real improvement' : 'really further away') : 'no reliable change'}. It only acts before ${fmtDate(meta.head_start.ends)}, so pick December above to see it at full size.`) +
-      line('Play types (with the head start) instead of team ratings', srSigned(styles.mean, 3) + ' pts', `Minus = closer to the real spread. 95% interval ${srSigned(styles.low, 3)} to ${srSigned(styles.high, 3)}; paired t = ${srNum(styles.t)}, p ${srPe(styles.p)}: ${styles.p < 0.05 ? (styles.mean < 0 ? 'a real improvement' : 'really further away') : 'no reliable change'}.`) +
-      line('Playing only the players who played', srSigned(absences.mean, 3) + ' pts', `95% interval ${srSigned(absences.low, 3)} to ${srSigned(absences.high, 3)}; paired t = ${srNum(absences.t)}, p ${srPe(absences.p)}: ${absences.p < 0.05 ? (absences.mean < 0 ? 'a real improvement' : 'really further away') : 'no reliable change'}.`) +
-      `</tbody></table></div>` +
-
-    `<div class="card tp-card"><h3>3. Players who were out<span>what playing each game with only the players who really played did to the spread</span></h3>` +
-      `<table class="pt sr-stats">${head([['Measure'], ['Value'], ['What it says']])}<tbody>` +
-      line('Games with a useful player out', `${rows.filter(outCount).length.toLocaleString()} of ${n.toLocaleString()}`, `A useful player had been averaging ${USEFUL_MINUTES}+ minutes in the games he played, and did not play in this one. ${srNum(st.mean(rows.map(outCount)), 2)} out per game on average, both teams together. Everyone who did not play is sat; these are the absences that matter.`) +
-      line('How far it moved the spread', srNum(st.mean(moved.map(Math.abs))) + ' pts', `Average size of the change from the everyone-available spread; ${srPct(moved.filter(v => Math.abs(v) >= 1).length / n, 0)} of games moved a point or more, ${srPct(moved.filter(v => Math.abs(v) >= 3).length / n, 0)} three or more.`) +
-      `</tbody></table>` +
-      `<table class="pt">${head([['Games'], ['N'], ['Spread moved', 'Average size of the change from sitting players'], ['Gap to real, everyone available'], ['Gap to real, as played'], ['Change', 'Minus = sitting the absent players brought the simulator closer to the real spread']])}<tbody>` +
-      `<tr class="sub"><td class="l" colspan="6">Useful players out, both teams together</td></tr>` +
-      injuryRow('None', rows.filter(x => outCount(x) === 0)) + injuryRow('One', rows.filter(x => outCount(x) === 1)) + injuryRow('Two', rows.filter(x => outCount(x) === 2)) + injuryRow('Three or more', rows.filter(x => outCount(x) >= 3)) +
-      `<tr class="sub"><td class="l" colspan="6">How far the spread moved</td></tr>` +
-      injuryRow('Under half a point', rows.filter(x => shift(x) < 0.5)) + injuryRow('0.5 to 1.5', rows.filter(x => shift(x) >= 0.5 && shift(x) < 1.5)) + injuryRow('1.5 to 3', rows.filter(x => shift(x) >= 1.5 && shift(x) < 3)) + injuryRow('3 or more', rows.filter(x => shift(x) >= 3)) +
-      `</tbody></table></div>` +
-
-    `<div class="card tp-card"><h3>4. By part of the season<span>simulator against real spread for each slice of the games above</span></h3>` +
-      `<table class="pt">${head([['Games'], ['N'], ['Mean difference', 'Simulator minus real spread'], ['Average gap', 'Mean absolute difference between the two spreads'], ['Median gap'], ['r', 'Correlation between the two spreads'],
-        ['Slope', 'Points of real spread per point of simulator spread'], ['Within 2'], ['Same favourite']])}<tbody>` +
-      group('Month', [['December', x => x.date.slice(5, 7) === '12'], ['January', x => x.date.slice(5, 7) === '01'], ['February', x => x.date.slice(5, 7) === '02'], ['March', x => x.date.slice(5, 7) === '03']]) +
-      group('Games both teams had played', [['5 to 9', x => x.played < 10], ['10 to 14', x => x.played >= 10 && x.played < 15], ['15 to 19', x => x.played >= 15 && x.played < 20], ['20 to 24', x => x.played >= 20 && x.played < 25], ['25 or more', x => x.played >= 25]]) +
-      group('Where', [['Home court', x => x.home], ['Neutral floor', x => !x.home]]) +
-      group('Kind of game', [['Non-conference', x => x.type === 'Regular Season' && !x.conf], ['Conference', x => x.type === 'Regular Season' && x.conf], ['Conference tournaments', x => x.type !== 'Regular Season']]) +
-      group('Size of the real spread', [['Under 3 points', x => size(x) < 3], ['3 to 6.5', x => size(x) >= 3 && size(x) < 7], ['7 to 11.5', x => size(x) >= 7 && size(x) < 12], ['12 to 19.5', x => size(x) >= 12 && size(x) < 20], ['20 or more', x => size(x) >= 20]]) +
-      group('Who the market favoured', [['Home team favoured', x => x.home && x.market > 0], ['Road team favoured', x => x.home && x.market < 0]]) +
-      `</tbody></table></div>` +
-
-    `<div class="card tp-card"><h3>5. Biggest disagreements<span>the 25 games where the simulator and the real spread were furthest apart</span></h3><table class="pt">${gameHead}<tbody>${biggest.map(gameRow).join('')}</tbody></table></div>` +
-
-    `<div class="card tp-card"><div class="tp-bar"><h3>6. Every game<span>${found.length.toLocaleString()} games, latest first</span></h3>` +
-      `<label class="field" style="margin-left:auto"><input id="sr-q" type="search" placeholder="Search a team" value="${esc(sr.q)}" autocomplete="off" aria-label="Search a team"></label></div>` +
-      `<table class="pt">${gameHead}<tbody>${found.slice(0, sr.shown).map(gameRow).join('')}</tbody></table>` +
-      (found.length > sr.shown ? `<div class="gs-run" style="border-top:0;margin-top:0"><button class="clear" id="sr-more">Show ${Math.min(200, found.length - sr.shown)} more</button></div>` : '') + `</div>` +
-
-    `<div class="card tp-card"><h3>Data and method</h3><div class="wo-note" style="padding-top:8px">` +
-      `<b>What is compared.</b> Only the two spreads: the simulator’s and the market’s. The final score plays no part in any number on this page. ` +
-      `<b>Data.</b> ${meta.counts.games.toLocaleString()} games between Division I teams, replayed one game day at a time. November is used only to collect data: its ${meta.counts.before.toLocaleString()} games build the ratings and everything else, and the comparison starts on ${fmtDate(meta.from)}. Also left out: ${meta.counts.early.toLocaleString()} games in which a team had played fewer than ${meta.skip} games, and ${meta.counts.no_line} with no real spread listed. NCAA tournament games are not in the box score data, so the season ends with the conference tournaments. ` +
-      `<b>The real spread</b> is from ${esc(meta.source || 'the betting site')}.${meta.counts.other_book ? ` ${meta.counts.other_book.toLocaleString()} games had no line there and use the one BetIQ lists.` : ''} ` +
-      `<b>The simulator’s spread</b> is its average margin over ${sr.ran.games.toLocaleString()} plays of the game (accurate to about ${srNum(12.5 / Math.sqrt(sr.ran.games), 2)} points), rounded to the nearest half point. It runs on play types, not team ratings: how often each team runs each kind of play and how well it scores on it, adjusted for strength of schedule, against what the other team allows on that kind of play. Play types, tempo, four factors, shot zones and every player’s numbers were rebuilt for each date from only the games played before it; home court is the home team’s own edge, measured from 2024-25 (about ${meta.home_measured} points per 100 possessions per side for a typical team). ` +
-      `<b>The 2024-25 head start.</b> Early on a team has too few games to judge, so its scoring level leans on what its current players did in 2024-25, wherever they played: each player’s box plus/minus from last season, weighed by the minutes he is playing now (${meta.head_start.players.toLocaleString()} of this season’s players were found in last season’s data). ` +
-      (meta.head_start.program ? `It also leans on how the program itself played in 2024-25: what the team scored and allowed on each kind of play, against the D-I average for that play, counting like ${meta.head_start.program} of the team’s own games on ${fmtDate(meta.from)} and fading on the same calendar. ` : '') +
-      `Last season only speaks for the role a player actually had: one who played 60% of the minutes then and 80% now is known for the 60%, and the rest of his minutes, like all of a freshman’s, are judged on what he has done so far this season. ` +
-      `Only how good a team is carries over; how it plays (its mix of play types) comes from this season alone. The head start counts like ${meta.head_start.games} of the team’s own games on ${fmtDate(meta.from)}, less for a team of newcomers, fades to nothing by ${fmtDate(meta.head_start.ends)}, and never moves a team more than ${meta.head_start.cap} points per 100 possessions from what its own games say. Its size and how far it is stretched were chosen to bring the December spreads closest to the real ones. ` +
-      `<b>Absent players.</b> Only the players who played in the real game play in the simulator. Their usual minutes are stretched to fill the game, and the team’s rating moves by what that change in who is on the floor is worth, using each player’s box plus/minus as it stood that day (half to offense, half to defense). A plus/minus built on few minutes is pulled toward the team’s average player, as if he had ${INJURY_STEADY_MINUTES} more minutes at that level. ` +
-      `Rotations come from minutes played so far; the play-by-play rotations and on/off numbers the Game sim uses cover the whole season, so they are not used here. ` +
-      `<b>Margins</b> are from the first team’s side: the home team, or on a neutral floor the team the schedule lists as home. The simulator’s spread is rounded to the nearest half point before anything is measured, so every number on this page compares a line as it would be posted with the line that was. ` +
-      `<b>Limits.</b> The market also knows about last season, the preseason and anything else bettors know; the ratings start from nothing each November. Who sat is read from the game’s own box score (the market knows most of that before tip-off, but not all). ` +
-      `The simulator’s settings (home court, how blowouts are weighed) and each player’s position for the play types were fixed using this whole season. ` +
-      `Season file built ${esc(meta.built)}.</div></div>`;
-}
-
-$('spread-view').addEventListener('click', e => {
-  if (e.target.closest('#sr-go')) { sr.status = ''; runSeason(); return; }
-  if (e.target.closest('#sr-stop')) { stopSeason(false); return; }
-  const b = e.target.closest('button[data-sr]');
-  if (b) { const [name, value] = b.dataset.sr.split(':'); sr[name] = value; sr.shown = 100; renderSpreads(); return; }
-  if (e.target.closest('#sr-more')) { sr.shown += 200; drawSpreads(); }
-});
-$('spread-view').addEventListener('change', e => {
-  const select = e.target.closest('select[data-sr-select]');
-  if (select) { sr[select.dataset.srSelect] = select.dataset.srSelect === 'played' ? +select.value : select.value; sr.shown = 100; drawSpreads(); return; }
-  if (e.target.id === 'sr-q') { sr.q = e.target.value; sr.shown = 100; drawSpreads(); }
-});
-
 function leaveTeam() {
   if (!state.team && !state.player) return;
   state.team = null;
@@ -4287,11 +3699,10 @@ const GUIDE = [
     ['Game list and scores|NCAA scoreboard', 'Every Division I game: the date, the two teams, the final score.', 'Sets which games count and gives each game an id that ties all the other files together.', 'Without one agreed list of games, the box scores, play-by-play and shots could not be lined up.'],
     ['Where the game was played|Sports Reference, ESPN', 'Home, away or neutral floor, and the arena.', 'Every game’s scoring is moved to a neutral floor before it is rated; neutral games get no home edge.', 'A home win and a road win by the same score are not the same performance.'],
     ['Box scores|Sports Reference', 'Each player’s line in each game (minutes, points, shots, rebounds, assists, turnovers, steals, blocks, fouls) and the team totals.', 'The source of possessions, the team ratings, the four factors and every player rating.', 'It is the most complete and most accurate record of what happened in a game.'],
-    ['Rosters|Sports Reference', 'Each player’s class, height, weight and listed position, this season and last.', 'Experience, continuity and height; a player’s position on the 1 to 5 scale; following a player from one school to the next.', 'Play types depend on whether a player is a perimeter player or a big, and the head start depends on knowing who is new.'],
+    ['Rosters|Sports Reference', 'Each player’s class, height, weight and listed position, this season and last.', 'Experience, continuity and height; a player’s position on the 1 to 5 scale; following a player from one school to the next.', 'Play types depend on whether a player is a perimeter player or a big, and continuity depends on knowing who is new.'],
     ['Play-by-play with substitutions|NCAA', 'Every play in order with the clock and the score, including who checked in and out.', 'Rebuilds which five players were on the floor for every possession.', 'It is the only way to know what happened with a player on the floor against with him off it.'],
     ['Shots|ESPN, CollegeBasketballData.com', 'Every shot: who took it, when, what kind (layup, dunk, jumper, three), made or missed, where on the floor, and who assisted.', 'Shot charts, shooting by zone, and the play types.', 'Scoring has to be broken down by how it was created, not just how much there was.'],
     ['Turnovers by player|CollegeBasketballData.com', 'The player and the time of every turnover.', 'Counted as plays that scored nothing, and charged to the player and the lineup on the floor.', 'A turnover ends a possession just as a shot does; leaving them out would flatter careless offenses.'],
-    ['Point spreads|DraftKings, via ESPN', 'The closing spread for each game.', 'Only on the Spread report, as the yardstick the simulator is compared with.', 'It is the best outside estimate of a game there is, so it shows where the simulator is off.'],
   ]],
   ['Team ratings', 'The Ratings table. Everything is per 100 possessions, so fast and slow teams can be compared.', [
     ['Possessions', 'How many times a team had the ball: shots, minus offensive rebounds, plus turnovers, plus 0.475 times free throws.', 'The denominator for every rating.', 'Points per game rewards playing fast. Points per possession measures how good a team is with each chance.'],
@@ -4356,13 +3767,6 @@ const GUIDE = [
     ['Home edge', 'The home team’s measured home court; none on a neutral floor.', 'Added to the home team’s scoring and taken from the visitor’s.', 'Where a game is played changes the result.'],
     ['Randomness', 'Shots fall or miss by chance, players run hot or cold, and games can go to overtime.', 'Gives a spread of results: win chance, average margin, how each team tends to win.', 'One game is one draw; the useful answer is how often each thing happens.'],
     ['Tournament settings', 'Neutral floor always, shorter benches with the best players playing more, and a slightly slower pace.', 'Used on the Tournament sim and the perfect-bracket chase.', 'Tournament games are played differently from November games.'],
-  ]],
-  ['Spread report', 'Replays the season with only what was known before each game, and compares the simulator’s spread with DraftKings.', [
-    ['Point-in-time numbers', 'Every rating, play type and player number as it stood on the morning of the game.', 'The inputs for each replayed game.', 'Using end-of-season numbers to "predict" a December game would be cheating.'],
-    ['Only who played', 'Each team is built from the players who appeared in that game.', 'Sets the rotation for the replay.', 'The market knew who was injured, so the simulator has to as well.'],
-    ['Simulator spread and gap', 'The simulator’s average margin, rounded to the half point, and how far it is from the DraftKings line.', 'The report’s headline number and every test on the page.', 'A line is posted in half points, so that is the fair comparison.'],
-    ['2024-25 head start', 'Early in the season a team leans on what its current players did last season, and on how its program played, fading to nothing by January 1.', 'Blended into each team’s scoring level in December.', 'Five to eight games is too few to judge a team; last season is the best other evidence there is.'],
-    ['November excluded', 'November games build the numbers but are not graded; a team needs five games before its games count.', 'Sets which games are in the report.', 'The simulator has nothing to go on in the first weeks.'],
   ]],
 ];
 function renderGuide() {
@@ -4878,22 +4282,20 @@ $('bracket-view').addEventListener('change', e => { if (e.target.id === 'bk-pick
 
 // The address decides what is on screen: "#team=Duke" is Duke's page, anything else is the tables
 function route() {
-  $('menu-spreads').hidden = !CURRENT_SEASON;
   // the tournament is simulated from how teams stood going in, so it stays on the pre-tournament page
   document.querySelector('#menu a[data-page="bracket"]').hidden = FULL_SEASON;
   document.querySelector('#menu a[data-page="picker"]').hidden = FULL_SEASON;
-  const page = { '#sim': 'sim', '#scatter': 'scatter', '#bracket': FULL_SEASON ? 'stats' : 'bracket', '#picker': FULL_SEASON ? 'stats' : 'picker', '#guide': 'guide', '#spreads': CURRENT_SEASON ? 'spreads' : 'stats' }[location.hash] || 'stats';
+  const page = { '#sim': 'sim', '#scatter': 'scatter', '#bracket': FULL_SEASON ? 'stats' : 'bracket', '#picker': FULL_SEASON ? 'stats' : 'picker', '#guide': 'guide' }[location.hash] || 'stats';
   document.body.classList.toggle('guide-mode', page === 'guide');
   document.body.classList.toggle('scatter-mode', page === 'scatter');
   document.body.classList.toggle('picker-mode', page === 'picker');
   document.body.classList.toggle('sim-mode', page === 'sim');
   document.body.classList.toggle('bracket-mode', page === 'bracket');
-  document.body.classList.toggle('spread-mode', page === 'spreads');
   for (const a of document.querySelectorAll('#menu a')) a.dataset.page === page ? a.setAttribute('aria-current', 'page') : a.removeAttribute('aria-current');
   if (page !== 'stats') {
     state.team = null; state.player = null;
     document.body.classList.remove('team-mode');
-    page === 'sim' ? renderSim() : page === 'scatter' ? renderScatter() : page === 'picker' ? renderPicker() : page === 'bracket' ? renderBracket() : page === 'guide' ? renderGuide() : renderSpreads();
+    page === 'sim' ? renderSim() : page === 'scatter' ? renderScatter() : page === 'picker' ? renderPicker() : page === 'bracket' ? renderBracket() : renderGuide();
     window.scrollTo(0, 0);
     return;
   }

@@ -18,7 +18,7 @@ import Kenstat
 #                 python dashboard/main.py all        builds both
 #   teams: the data folder   page: the dashboard file   data: where its per-team files go (inside "dashboard")
 #   this / last: the roster files it reads (roster_2026.json ...)   neutral_from: Kenstat's fallback date
-#   spreads: whether the season has a Spread report
+#   spreads: whether this is the current season (the name is left from the Spread report, since removed from the site)
 SEASONS = {
     "2526": {"label": "2025-26", "teams": "data/seasons/2526", "page": "dashboard.html", "data": "", "this": 2026, "last": 2025,
              "neutral_from": "2026/03/09", "spreads": True, "before": "data/seasons/2425"},
