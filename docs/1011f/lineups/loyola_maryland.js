@@ -1,0 +1,1 @@
+LINEUPS_ADD["Loyola Maryland"] = {"players":["Brian Rudolph","Erik Etherly","Shane Walker","Robert Olson","Dylon Cormier","J'hared Hall","Jamal Barney","Justin Drummond","Josh Wiegand","Anthony Winbush","Julius Brooks","Pierson Williams","Paolo Ivis","Luke Wandrusch","Chido Onyiuke"],"rows":[]};

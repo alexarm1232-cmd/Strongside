@@ -1,0 +1,1 @@
+LINEUPS_ADD["Southern Miss."] = {"players":["Angelo Johnson","R.L. Horton","D.J. Newbill","Gary Flowers","Josimar Ayarza","Maurice Bolden","Sai'Quon Stone","Lashay Page","Ahyaro Phillips","Torye Pelham","Cedric Jenkins","Kody Williams","Kayland Partee"],"rows":[]};

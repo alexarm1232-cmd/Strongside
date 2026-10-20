@@ -1,0 +1,1 @@
+LINEUPS_ADD["Lamar University"] = {"players":["Anthony Miles","Kendrick Harris","Justin Nabors","Charlie Harper","Coy Custer","Donley Minor","Lawrence Nwevo","Reggie Mathis","Justin Wesley","Donte Lopez"],"rows":[]};

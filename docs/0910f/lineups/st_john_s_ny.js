@@ -1,0 +1,1 @@
+LINEUPS_ADD["St. John's (NY)"] = {"players":["D.J. Kennedy","Paris Horne","Malik Boothe","Sean Evans","Dwight Hardy","Justin Burrell","Justin Brownlee","Anthony Mason Jr.","Malik Stith"],"rows":[[30,[7,0,2,1,3],61.13,71,73,61.13,71,73]]};

@@ -1,0 +1,1 @@
+LINEUPS_ADD["Seton Hall"] = {"players":["Jeremy Hazell","Herb Pope","Jordan Theodore","Eugene Harvey","Jeff Robinson","Eniel Polynice","Keon Lawrence","John Garcia","Jamel Jackson","Ferrakohn Hall"],"rows":[[31,[3,9,4,0,2],69.19,69,87,58.79,49,75]]};

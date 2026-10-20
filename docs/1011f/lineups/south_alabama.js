@@ -1,0 +1,1 @@
+LINEUPS_ADD["South Alabama"] = {"players":["Martino Brock","Allyn Cooks","Augustine Rubit","Gary Redus","Tim Williams","Javier Carter","Deandre Hersey","Rico Sanders","Todd Martin","Antione Lundy","Raymond Sims","P.J. Reyes","Andre Gowins","Jose Diaz","Matt Cline"],"rows":[]};

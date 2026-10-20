@@ -1,0 +1,1 @@
+LINEUPS_ADD["SIUE"] = {"players":["Mark Yelovich","Aamir McCleary","Denykco Bowles","Stephen Jones","Nikola Bundalo","Kevin Stineman","David Boarden","Cody Rincker","LeShaun Murphy","Dobrivoje Mavrak","Anthony Mitchell"],"rows":[]};

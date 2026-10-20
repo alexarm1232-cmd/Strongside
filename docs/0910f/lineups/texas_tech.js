@@ -1,0 +1,1 @@
+LINEUPS_ADD["Texas Tech"] = {"players":["John Roberson","Mike Singletary","Nick Okorie","D'walyn Roberts","Darko Cohadarevic","Brad Reese","David Tairu","Robert Lewandowski","Theron Jenkins"],"rows":[[32,[4,3,0,1,2],69.19,87,69,58.79,75,49],[33,[5,6,3,0,1],70.09,69,64,70.09,69,64],[34,[5,4,3,0,1],86.75,87,90,86.75,87,90]]};

@@ -19,6 +19,9 @@ HEADERS = {"User-Agent": "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/
 
 # season code of the first Division I season -> [(team folder, the athletics site, its level the year before)]
 TRANSITIONS = {
+    # 2008-09 was a transition year these schools' sites still have; North Dakota's and Seattle U's sites keep only the
+    # 2008-09 roster (no minutes) and Winston-Salem's keeps nothing, so those three start 2009-10 with no continuity
+    "0910": [("South Dakota", "https://goyotes.com", "Division I transition"), ("SIUE", "https://siuecougars.com", "Division I transition")],
     "1213": [("Northern Ky", "https://nkunorse.com", "Division II"), ("Omaha", "https://omavs.com", "Division II"),
              ("LSU New Orleans", "https://unoprivateers.com", "outside Division I")],
     "1314": [("UMass Lowell", "https://goriverhawks.com", "Division II"), ("Abilene Christian", "https://acusports.com", "Division II"),

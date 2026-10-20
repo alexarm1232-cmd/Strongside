@@ -1,0 +1,1 @@
+LINEUPS_ADD["California"] = {"players":["Jerome Randle","Patrick Christopher","Theo Robertson","Jamal Boykin","Jorge Gutierrez","Omondi Amoke","Markhuri Sanders-Frison","Max Zhang","Nikola Knezevic","Brandon Smith"],"rows":[[32,[3,0,4,1,2],65.48,77,62,62.66,75,60],[33,[3,0,4,1,2],57.15,53,68,52.41,45,64]]};

@@ -1,0 +1,1 @@
+LINEUPS_ADD["Stanford"] = {"players":["Landry Fields","Jeremy Green","Drew Shiller","Jarrett Mann","Jack Trotter","Andrew Zimmermann","Da'Veed Dildy","Emmanuel Igbinosa","Matei Daian","Gabriel Harris"],"rows":[]};

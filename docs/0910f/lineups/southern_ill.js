@@ -1,0 +1,1 @@
+LINEUPS_ADD["Southern Ill."] = {"players":["Tony Freeman","Kevin Dillard","Carlton Fay","Justin Bocot","Kendal Brown-Surles","Gene Teague","Anthony Booker","John Freeman","Nick Evans","Nate Mitchell"],"rows":[]};

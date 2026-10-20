@@ -1,0 +1,1 @@
+LINEUPS_ADD["New Mexico"] = {"players":["Darington Hobson","Roman Martinez","Dairese Gary","Phillip McDonald","A.J. Hardeman","Will Brown","Nate Garth","Jamal Fenton","Curtis Dennis"],"rows":[[33,[4,2,0,3,1],60.19,62,57,60.19,62,57],[34,[4,2,0,3,1],69.35,64,82,63.14,56,78]]};

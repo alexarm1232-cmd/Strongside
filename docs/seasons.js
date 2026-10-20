@@ -74,5 +74,15 @@ window.STRONGSIDE_SEASONS = [
   "label": "2011-12",
   "pre": "dashboard_1112.html",
   "full": "dashboard_1112_full.html"
+ },
+ {
+  "label": "2010-11",
+  "pre": "dashboard_1011.html",
+  "full": "dashboard_1011_full.html"
+ },
+ {
+  "label": "2009-10",
+  "pre": "dashboard_0910.html",
+  "full": "dashboard_0910_full.html"
  }
 ];

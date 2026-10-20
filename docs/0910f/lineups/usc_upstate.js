@@ -1,0 +1,1 @@
+LINEUPS_ADD["USC Upstate"] = {"players":["Mezie Uzochukwu","Josh Chavis","Nick Schneiders","Pat Posey","Ryan LeGates","Carter Cook","Chalmers Rogers","Caleb Palkert","Cedric Koffi","Sharod Minus","De'Marion Gordon","Bobby Davis"],"rows":[]};

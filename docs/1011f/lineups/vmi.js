@@ -1,0 +1,1 @@
+LINEUPS_ADD["VMI"] = {"players":["Austin Kenon","Stan Okoye","Rodney Glasgow","Keith Gabriel","D.J. Covington","Ron Burks","Michael Sparks","Nick Gore","Stephen Sargent","Wayne Whiting","Joe Carr","Drew Absher","Adam Lonon"],"rows":[]};

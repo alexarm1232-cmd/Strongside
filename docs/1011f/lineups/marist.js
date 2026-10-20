@@ -1,0 +1,1 @@
+LINEUPS_ADD["Marist"] = {"players":["Sam Prescott","Jay Bowie","Candon Rusin","Dorvell Carter","Devin Price","R.J. Hall","Menelik Watson","Anell Alexis","Adam Kemp","Korey Bauer","Pieter Prinsloo","Dejuan Goodwin","Rob Johnson","George Dallas","Pat McDerby"],"rows":[]};

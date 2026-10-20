@@ -1,0 +1,1 @@
+LINEUPS_ADD["Oregon St."] = {"players":["Calvin Haynes","Seth Tarver","Roeland Schaftenaar","Josh Tarver","Jared Cunningham","Joe Burton","Omari Johnson","Lathen Wallace","Daniel Deane","Angus Brandt","Kevin McShane"],"rows":[[31,[0,4,5,3,2],78.32,78,96,63.43,52,83]]};

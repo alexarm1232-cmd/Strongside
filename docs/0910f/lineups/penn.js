@@ -1,0 +1,1 @@
+LINEUPS_ADD["Penn"] = {"players":["Zack Rosen","Jack Eggleston","Rob Belcore","Dan Monckton","Darren Smith","Mike Howlett","Conor Turley","Brian Fitzpatrick","Drew Godwin","Andreas Schreiber"],"rows":[]};

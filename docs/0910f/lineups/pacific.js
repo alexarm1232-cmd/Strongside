@@ -1,0 +1,1 @@
+LINEUPS_ADD["Pacific"] = {"players":["Sam Willard","Demetrece Young","Terrell Smith","Joe Ford","Michael Nunnally","Pat Eveland","Lavar Neufville","Allen Huddleston","Nyika Williams","Stephon Lamar"],"rows":[[30,[1,3,4,0,2],67.64,86,76,65.55,81,63],[31,[1,3,4,5,2],63.27,63,59,63.27,63,59],[32,[1,3,4,0,2],65.98,64,56,65.78,64,53],[33,[7,1,3,5,0],64.84,65,78,62.27,59,72]]};

@@ -1,0 +1,1 @@
+LINEUPS_ADD["UAB"] = {"players":["Aaron Johnson","Jamarr Sanders","Elijah Millsap","Howard Crawford","George Drake","Kenneth Cooper","Cameron Moore","Ovie Soko","Dexter Fields"],"rows":[[31,[0,2,3,1,5],62.84,65,49,57.84,61,44],[32,[0,2,3,1,5],66.16,72,52,56.62,62,32],[33,[0,2,3,1,5],62.63,55,60,62.34,53,60]]};

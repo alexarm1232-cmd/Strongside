@@ -1,0 +1,1 @@
+LINEUPS_ADD["Manhattan"] = {"players":["George Beamon","Kidani Brutus","Rhamel Brown","Michael Alvarado","Demetrius Jemison","Andrew Gabriel","Nick Walsh","Mohamed Koita","Djibril Coulibaly","Robert Martina","Kevin Laue","Liam McCabe-Moran"],"rows":[]};

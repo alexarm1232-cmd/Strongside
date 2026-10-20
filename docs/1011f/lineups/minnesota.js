@@ -1,0 +1,1 @@
+LINEUPS_ADD["Minnesota"] = {"players":["Blake Hoffarber","Trevor Mbakwe","Ralph Sampson III","Rodney Williams","Colton Iverson","Austin Hollins","Al Nolen","Chip Armelin","Maverick Ahanmisi","Devoe Joseph","Maurice Walker","Dominique Dawson","Gerald Armelin"],"rows":[]};

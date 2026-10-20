@@ -1,0 +1,1 @@
+LINEUPS_ADD["The Citadel"] = {"players":["Zach Urbanus","Cameron Wells","Austin Dahn","Mike Groselle","Bryan Streeter","Daniel Eykyn","Bo Holston","Matt Clark","Devontae Wright","Cosmo Morabbi","Morakinyo Williams","Mike Dejworek","Phillip Pandak","Nathan Conley","Barry Smith","John Reynolds"],"rows":[]};

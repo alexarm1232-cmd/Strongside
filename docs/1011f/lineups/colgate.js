@@ -1,0 +1,1 @@
+LINEUPS_ADD["Colgate"] = {"players":["Mitch Rolls","Yaw Gyawu","Joe Hoban","Nick Pascale","Mike Venezia","Pat Moore","Sterling Melville","Brandon James","John Brandenburg","Chad Johnson","Lazar Bogdanovic"],"rows":[]};

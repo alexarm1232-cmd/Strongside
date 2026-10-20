@@ -1,0 +1,1 @@
+LINEUPS_ADD["Binghamton"] = {"players":["Mahamoud Jabbi","Moussa Camara","Jimmy Gray","Chretien Lukusa","Greer Wright","Kyrie Sutton","Robert Mansell","Taylor Johnston","Alex Ogundadegbe","Javon Ralling","K.J. Brown","Preston Pena"],"rows":[]};

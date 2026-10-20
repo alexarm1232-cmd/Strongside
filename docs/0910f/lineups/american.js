@@ -1,0 +1,1 @@
+LINEUPS_ADD["American"] = {"players":["Nick Hendra","Stephen Lumpkins","Simon McCormack","Daniel Munoz","Vlad Moldoveanu","Riley Grafft","Steve Luptak","Blake Jolivette","Matthew Wilson","Joe Hill","Mike Bersch"],"rows":[]};

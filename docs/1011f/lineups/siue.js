@@ -1,0 +1,1 @@
+LINEUPS_ADD["SIUE"] = {"players":["Corey Wickware","Cornelius Chatt","Kevin Stineman","Michael Messer","Nikola Bundalo","David Boarden","Cody Rincker","LeShaun Murphy","Anthony Mitchell","Dobrivoje Mavrak","Abel Tillman","Zeke Schneider","Gerald Jones","Mark Yelovich","Alex Newlin"],"rows":[]};

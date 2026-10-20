@@ -1,0 +1,1 @@
+LINEUPS_ADD["Illinois"] = {"players":["Demetri McCamey","Mike Davis","D.J. Richardson","Mike Tisdale","Bill Cole","Brandon Paul","Jeff Jordan","Dominique Keller","Tyler Griffey"],"rows":[[33,[4,0,2,1,3],65.84,76,66,64.88,74,59],[34,[5,0,2,1,3],64.31,75,58,58.86,72,53],[35,[5,0,2,1,3],72.65,71,77,72.62,71,77]]};

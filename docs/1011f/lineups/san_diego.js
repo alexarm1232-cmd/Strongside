@@ -1,0 +1,1 @@
+LINEUPS_ADD["San Diego"] = {"players":["Darian Norris","Devin Ginty","Matt Dorr","Chris Manresa","Ken Rancifer","Chris Gabriel","Jordan Mackie","Cameron Miles","Dennis Kramer","Trevor Fuller","Ryan Harbour","Mitch Woolpert"],"rows":[]};

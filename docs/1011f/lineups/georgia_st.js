@@ -1,0 +1,1 @@
+LINEUPS_ADD["Georgia St."] = {"players":["James Fields","Jihad Ali","Eric Buckner","Marques Johnson","Josh Micheaux","Brandon McGee","Javonte Maynor","Dante Curry","Harold Doby","Devonta White","James Vincent","Rashaad Richardson","Jamar Taylor","Daniel Brown"],"rows":[]};

@@ -1,0 +1,1 @@
+LINEUPS_ADD["Ark.-Pine Bluff"] = {"players":["Terrance Calvin","Tavaris Washington","Savalace Townsend","Allen Smith","Lebaron Weathers","Tyree Glass","George Davis","Terrell Kennedy","Ricky Parks","Gavin Montgomery"],"rows":[[32,[3,4,1,0,5],56.76,61,44,55.31,57,44],[33,[3,4,2,1,0],62.05,44,73,52.73,37,61]]};

@@ -1,0 +1,1 @@
+LINEUPS_ADD["Hartford"] = {"players":["Joe Zeglinski","Milton Burton","Morgan Sabia","Anthony Minor","Clayton Brothers","Genesis Maciel","Ryan Baker","Mustafaa Jones","Ross Erickson","Kevin Estes","Joe Nardi","Charles White","Oren Faulk","Ben O'Neill"],"rows":[]};

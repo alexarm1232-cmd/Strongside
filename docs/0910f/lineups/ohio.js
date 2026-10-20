@@ -1,0 +1,1 @@
+LINEUPS_ADD["Ohio"] = {"players":["D.J. Cooper","Armon Bassett","Kenneth van Kempen","Tommy Freeman","DeVaughn Washington","Reggie Keely","Jay Kinney","Asown Sayles","Ivo Baltic","Steven Coleman"],"rows":[[34,[1,4,0,2,3],71.84,97,83,69.87,93,78],[35,[1,4,0,2,3],71.83,68,83,67.12,63,79]]};

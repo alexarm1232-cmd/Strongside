@@ -1,0 +1,1 @@
+LINEUPS_ADD["Jacksonville"] = {"players":["Ben Smith","Ayron Hardy","Lehmon Colbert","Travis Cohn","Tevin Galvin","Glenn Powell","Chris Edwards","Will Alston","Chris Rozier"],"rows":[[31,[1,0,6,2,3],68.49,67,66,68.49,67,66],[32,[1,0,6,2,3],70.09,64,69,70.09,64,69]]};

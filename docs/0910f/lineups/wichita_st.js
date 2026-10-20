@@ -1,0 +1,1 @@
+LINEUPS_ADD["Wichita St."] = {"players":["Toure' Murry","Graham Hatch","Clevin Hannah","J.T. Durley","Gabe Blair","Aaron Ellis","Garrett Stutz","David Kyles","Demetric Williams"],"rows":[[33,[2,6,1,3,0],68.81,70,74,68.81,70,74]]};

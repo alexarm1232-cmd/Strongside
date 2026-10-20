@@ -1,0 +1,1 @@
+LINEUPS_ADD["Navy"] = {"players":["Jordan Sugars","O.J. Avworo","J.J. Avila","Greg Brown","Isaiah Roberts","Romeo Garcia","Mark Veazey","Brennan Wyatt","James Loupos","Thurgood Wynn","Carlton Smith","Jacob Liebert","Ted Connolly"],"rows":[]};

@@ -1,0 +1,1 @@
+LINEUPS_ADD["Seton Hall"] = {"players":["Jeff Robinson","Jordan Theodore","Herb Pope","Fuquan Edwin","Jeremy Hazell","Keon Lawrence","Eniel Polynice","Patrik Auda","Jamel Jackson","Ferrakohn Hall","Aaron Geramipoor","Anali Okoloji","Darnell Gatling","Pete Dill"],"rows":[]};

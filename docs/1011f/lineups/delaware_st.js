@@ -1,0 +1,1 @@
+LINEUPS_ADD["Delaware St."] = {"players":["Jay Threatt","Desi Washington","Casey Walker","Marques Oliver","Trevor Welcher","Terron Stowe","Chad Wilson","James Marcellus","Jordan Lawson","Brandon Baylor","Alibaba Odd","Brandon Oliver","Jabari Joyner","Justin May","Christian Hurrington","Lewis Lott"],"rows":[]};

@@ -3472,6 +3472,42 @@ const REAL_BRACKETS = { '2025-26': {
     ['Kentucky', 'Louisville', 'Ohio St.', 'Kansas'],
     ['Kentucky', 'Kansas'],
     ['Kentucky']],
+}, '2010-11': {
+  year: 2011, pair: 1,        // from ESPN's bracket; the first region met the second in the Final Four
+  slots: [
+    'Ohio St.', 'UTSA', 'George Mason', 'Villanova', 'West Virginia', 'Clemson', 'Kentucky', 'Princeton', 'Xavier', 'Marquette', 'Syracuse', 'Indiana St.', 'Washington', 'Georgia', 'North Carolina', 'LIU',
+    'Duke', 'Hampton', 'Michigan', 'Tennessee', 'Arizona', 'Memphis', 'Texas', 'Oakland', 'Cincinnati', 'Missouri', 'UConn', 'Bucknell', 'Temple', 'Penn St.', 'San Diego St.', 'Northern Colo.',
+    'Kansas', 'Boston U.', 'UNLV', 'Illinois', 'Vanderbilt', 'Richmond', 'Louisville', 'Morehead St.', 'Georgetown', 'VCU', 'Purdue', "Saint Peter's", 'Texas A&M', 'Florida St.', 'Notre Dame', 'Akron',
+    'Pittsburgh', 'UNC Asheville', 'Butler', 'Old Dominion', 'Kansas St.', 'Utah St.', 'Wisconsin', 'Belmont', "St. John's (NY)", 'Gonzaga', 'BYU', 'Wofford', 'UCLA', 'Michigan St.', 'Florida', 'UC Santa Barbara'],
+  winners: [
+    ['Ohio St.', 'George Mason', 'West Virginia', 'Kentucky', 'Marquette', 'Syracuse', 'Washington', 'North Carolina',
+     'Duke', 'Michigan', 'Arizona', 'Texas', 'Cincinnati', 'UConn', 'Temple', 'San Diego St.',
+     'Kansas', 'Illinois', 'Richmond', 'Morehead St.', 'VCU', 'Purdue', 'Florida St.', 'Notre Dame',
+     'Pittsburgh', 'Butler', 'Kansas St.', 'Wisconsin', 'Gonzaga', 'BYU', 'UCLA', 'Florida'],
+    ['Ohio St.', 'Kentucky', 'Marquette', 'North Carolina', 'Duke', 'Arizona', 'UConn', 'San Diego St.',
+     'Kansas', 'Richmond', 'VCU', 'Florida St.', 'Butler', 'Wisconsin', 'BYU', 'Florida'],
+    ['Kentucky', 'North Carolina', 'Arizona', 'UConn', 'Kansas', 'VCU', 'Butler', 'Florida'],
+    ['Kentucky', 'UConn', 'VCU', 'Butler'],
+    ['UConn', 'Butler'],
+    ['UConn']],
+}, '2009-10': {
+  year: 2010, pair: 1,        // from ESPN's bracket; the first region met the second in the Final Four
+  slots: [
+    'Kansas', 'Lehigh', 'UNLV', 'UNI', 'Michigan St.', 'New Mexico St.', 'Maryland', 'Houston', 'Tennessee', 'San Diego St.', 'Georgetown', 'Ohio', 'Oklahoma St.', 'Georgia Tech', 'Ohio St.', 'UC Santa Barbara',
+    'Syracuse', 'Vermont', 'Gonzaga', 'Florida St.', 'Butler', 'UTEP', 'Vanderbilt', 'Murray St.', 'Xavier', 'Minnesota', 'Pittsburgh', 'Oakland', 'BYU', 'Florida', 'Kansas St.', 'North Texas',
+    'Kentucky', 'ETSU', 'Texas', 'Wake Forest', 'Temple', 'Cornell', 'Wisconsin', 'Wofford', 'Marquette', 'Washington', 'New Mexico', 'Montana', 'Clemson', 'Missouri', 'West Virginia', 'Morgan St.',
+    'Duke', 'Ark.-Pine Bluff', 'California', 'Louisville', 'Texas A&M', 'Utah St.', 'Purdue', 'Siena', 'Notre Dame', 'Old Dominion', 'Baylor', 'Sam Houston', 'Richmond', "Saint Mary's (CA)", 'Villanova', 'Robert Morris'],
+  winners: [
+    ['Kansas', 'UNI', 'Michigan St.', 'Maryland', 'Tennessee', 'Ohio', 'Georgia Tech', 'Ohio St.',
+     'Syracuse', 'Gonzaga', 'Butler', 'Murray St.', 'Xavier', 'Pittsburgh', 'BYU', 'Kansas St.',
+     'Kentucky', 'Wake Forest', 'Cornell', 'Wisconsin', 'Washington', 'New Mexico', 'Missouri', 'West Virginia',
+     'Duke', 'California', 'Texas A&M', 'Purdue', 'Old Dominion', 'Baylor', "Saint Mary's (CA)", 'Villanova'],
+    ['UNI', 'Michigan St.', 'Tennessee', 'Ohio St.', 'Syracuse', 'Butler', 'Xavier', 'Kansas St.',
+     'Kentucky', 'Cornell', 'Washington', 'West Virginia', 'Duke', 'Purdue', 'Baylor', "Saint Mary's (CA)"],
+    ['Michigan St.', 'Tennessee', 'Butler', 'Kansas St.', 'Kentucky', 'West Virginia', 'Duke', 'Baylor'],
+    ['Michigan St.', 'Butler', 'West Virginia', 'Duke'],
+    ['Butler', 'Duke'],
+    ['Duke']],
 } };
 const REAL_BRACKET = REAL_BRACKETS[DATA.meta.season] || null;      // this season's real tournament, when it is known
 const CHASE_ENDS = [32, 48, 56, 60, 62, 63];        // how many games have been played by the end of each round

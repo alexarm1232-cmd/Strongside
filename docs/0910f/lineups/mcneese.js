@@ -1,0 +1,1 @@
+LINEUPS_ADD["McNeese"] = {"players":["Patrick Richard","Diego Kapelan","P. J. Alawoya","C. J. Collins","Stephan Martin","Will Morning","Elbryan Neal","Daniel Richard","Dontae Cannon","Preston David","Brandon Regis"],"rows":[]};

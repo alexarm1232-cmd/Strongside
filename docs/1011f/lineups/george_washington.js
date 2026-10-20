@@ -1,0 +1,1 @@
+LINEUPS_ADD["George Washington"] = {"players":["Tony Taylor","David Pellom","Bryan Bynes","Nemanja Mikic","Dwayne Smith","Joseph Katuka","Aaron Ware","Jabari Edwards","Dan Guest","Tim Johnson","Daymon Warren","Chris Fitzgerald","Roy Ghantous","Lasan Kromah"],"rows":[]};

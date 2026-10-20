@@ -1,0 +1,1 @@
+LINEUPS_ADD["Detroit Mercy"] = {"players":["Ray McCallum","Chase Simon","Eli Holman","Nick Minnerath","Jason Calliste","Donavan Foster","LaMarcus Lowe","Chris Blake","Evan Bruinsma","John Hoskins","Connor Clark"],"rows":[]};

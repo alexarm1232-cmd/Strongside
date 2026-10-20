@@ -1,0 +1,1 @@
+LINEUPS_ADD["Iowa"] = {"players":["Matt Gatens","Bryce Cartwright","Jarryd Cole","Melsahn Basabe","Eric May","Zach McCabe","Roy Devyn Marble","Andrew Brommer","Devon Archie","Jordan Stoermer","Cully Payne","Branden Stubbs","Cody Cox","T.J. Sayre"],"rows":[]};

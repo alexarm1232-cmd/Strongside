@@ -1,0 +1,1 @@
+LINEUPS_ADD["Purdue"] = {"players":["E'Twaun Moore","JaJuan Johnson","Chris Kramer","Robbie Hummel","Keaton Grant","Kelsey Barlow","Ryne Smith","Lewis Jackson","D.J. Byrd","Patrick Bade","John Hart"],"rows":[[32,[2,0,1,4,7],76.5,72,64,76.02,72,64],[33,[2,0,1,4,7],72.88,63,61,72.88,63,61],[34,[2,0,1,4,7],63.23,57,70,61.86,49,63]]};

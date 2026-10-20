@@ -1,0 +1,1 @@
+LINEUPS_ADD["IU Indy"] = {"players":["Alex Young","Leroy Nobles","Stephen Thomas","John Ashworth","Christian Siakam","Donovan Gibbs","Sean Esposito","Mitchell Patton","Anthony Williams","P.J. Hubert","Nick DeSchepper","Greg Rice","Nick Kitcoff","David Mazanowski"],"rows":[]};

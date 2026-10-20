@@ -1,0 +1,1 @@
+LINEUPS_ADD["Nevada"] = {"players":["Luke Babbitt","Armon Johnson","Brandon Fields","Joey Shaw","Dario Hunt","Ray Kraemer","Marko Cukic","Keith Olson"],"rows":[[31,[1,2,4,3,0],68.81,74,70,68.81,74,70],[32,[1,2,4,3,0],74.67,83,85,74.67,83,85]]};

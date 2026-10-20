@@ -1,0 +1,1 @@
+LINEUPS_ADD["FGCU"] = {"players":["Marlon Rivera","Anthony Banks","Christophe Varidel","Chase Fieler","Kevin Cantinol","Sherwood Brown","Tim Snyder","Reed Baker","Hunter Miller","Charlie Lytle","Chad Lutkenhaus","Eddie Murray","Nick Goshay","Ed Rolax","Jordan Negrin"],"rows":[]};

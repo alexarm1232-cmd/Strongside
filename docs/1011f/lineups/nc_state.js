@@ -1,0 +1,1 @@
+LINEUPS_ADD["NC State"] = {"players":["Scott Wood","Lorenzo Brown","C.J. Leslie","Ryan Harrow","Javier Gonzalez","Tracy Smith","Richard Howell","C.J. Williams","Deshawn Painter","Jordan Vandenberg","Kendall Smith","Jay Lewis","Enrico Kufuor","Ben Amos"],"rows":[]};

@@ -1,0 +1,1 @@
+LINEUPS_ADD["Columbia"] = {"players":["Brian Barbour","Noruwa Agho","Asenso Ampim","Steve Frankoski","Mark Cisco","Meiko Lyles","John Daniels","Max Craig","Dyami Starks","Brian Grimes","Zack Crimmins","Van Green","Matt Johnson","Danny Feldmann","Dean Kowalski","Steve Egee"],"rows":[]};

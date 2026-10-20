@@ -1,0 +1,1 @@
+LINEUPS_ADD["FDU"] = {"players":["Mike Scott","Sean Baptiste","Terence Grier","Alvin Mofunanya","Kamil Svrdlik","John Galvin","Deshawn Dockery","Anaclet Mulumba Mbayi","DeJuan Pursley","Louis Larizza"],"rows":[]};

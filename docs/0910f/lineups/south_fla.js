@@ -1,0 +1,1 @@
+LINEUPS_ADD["South Fla."] = {"players":["Dominique Jones","Chris Howard","Jarrid Famous","Mike Mercer","Toarlyn Fitzpatrick","Augustus Gilchrist","Anthony Crater","Justin Leemow","Ryan Kardok"],"rows":[[32,[1,0,2,3,4],62.71,57,58,62.71,57,58]]};

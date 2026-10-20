@@ -1,0 +1,1 @@
+LINEUPS_ADD["CSU Bakersfield"] = {"players":["Donavan Bragg","Alex Johnson","Stephon Carter","Rashad Savage","Reyanul Baker","Donald Johnson","Cory Brown","De'Aundray Robinson","Kregg Jones","James Albright","Ivan Matip","Cody Kale","Robert Hayes","Lance Bailey"],"rows":[]};

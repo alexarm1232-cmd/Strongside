@@ -1,0 +1,1 @@
+LINEUPS_ADD["Manhattan"] = {"players":["Darryl Crawford","Rico Pickett","Patrick Bouli","Antoine Pearson","Andrew Gabriel","Brandon Adams","Laurence Jolicoeur","Djibril Coulibaly","Nick Walsh","Mohamed Koita","George Beamon"],"rows":[]};

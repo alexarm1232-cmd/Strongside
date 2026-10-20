@@ -1,0 +1,1 @@
+LINEUPS_ADD["James Madison"] = {"players":["Julius Wells","Pierre Curtis","Darren White","Ben Louis","Denzel Bowles","Trevon Flores","Alioune Diouf","Matt Parker","Dazzmond Thornton","Andrey Semenov"],"rows":[]};

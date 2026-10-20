@@ -1,0 +1,1 @@
+LINEUPS_ADD["North Dakota"] = {"players":["Travis Mertens","Nick Haugen","Patrick Mitchell","Travis Bledsoe","Spencer Goodman","Chris Clausen","Jordan Allard","Derek Benter","Dustin Monsebroten"],"rows":[]};

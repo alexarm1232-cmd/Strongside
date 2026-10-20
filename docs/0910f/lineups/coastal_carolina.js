@@ -1,0 +1,1 @@
+LINEUPS_ADD["Coastal Carolina"] = {"players":["Joseph Harris","Mario Edwards","Logan Johnson","Kierre Greenwood","Chad Gray","Danny Nieman","Sam McLaurin","Dexter Moore"],"rows":[[30,[4,5,0,3,1],62.84,49,65,57.84,44,61]]};

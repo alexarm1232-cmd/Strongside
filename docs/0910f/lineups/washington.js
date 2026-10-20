@@ -1,0 +1,1 @@
+LINEUPS_ADD["Washington"] = {"players":["Quincy Pondexter","Isaiah Thomas","Venoy Overton","Matthew Bryan-Amaning","Justin Holiday","Abdul Gaddy","Elston Turner","Scott Suggs","Darnell Gant","Tyreese Breshers"],"rows":[[33,[6,1,3,0,2],66.86,80,78,66.86,80,78],[34,[5,1,4,3,0],69.35,82,64,63.14,78,56],[35,[1,4,3,0,2],71.92,56,69,69.61,52,65]]};

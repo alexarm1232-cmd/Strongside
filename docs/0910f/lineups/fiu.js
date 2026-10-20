@@ -1,0 +1,1 @@
+LINEUPS_ADD["FIU"] = {"players":["Marlon Bright","Marvin Roberts","Stephon Weaver","Phil Gary, Jr.","J.C. Otero","Tremayne Russell","Antoine Watson","Cedric Essola","Steven Miro","Martavis Key","Nick Taylor"],"rows":[]};

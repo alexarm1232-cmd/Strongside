@@ -1,0 +1,1 @@
+LINEUPS_ADD["High Point"] = {"players":["Eugene Harris","Nick Barbour","Cruz Daniels","Corey Law","Tehran Cox","David Singleton","Jairus Simms","David Campbell","Earnest Bridges","Jourdan Morris"],"rows":[]};

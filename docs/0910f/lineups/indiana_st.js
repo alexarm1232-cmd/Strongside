@@ -1,0 +1,1 @@
+LINEUPS_ADD["Indiana St."] = {"players":["Rashad Reed","Carl Richard","Harry Marshall","Jordan Printy","Aaron Carter","Dwayne Lathan","Brant Leitnaker","Josh Crawford","Koang Doluony","Isiah Martin","Jake Kelly"],"rows":[[30,[4,1,5,3,0],67.73,54,63,66.7,49,60]]};

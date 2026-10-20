@@ -1,0 +1,1 @@
+LINEUPS_ADD["UTEP"] = {"players":["Randy Culpepper","Julyan Stone","Arnett Moultrie","Jeremy Williams","Christian Polk","Derrick Caracter","Myron Strong","Issac Gordon","Wayne Portalatin","Blaise Ffrench"],"rows":[[32,[4,5,3,1,0],66.61,59,77,62.69,49,70]]};

@@ -1,0 +1,1 @@
+LINEUPS_ADD["Stanford"] = {"players":["Jeremy Green","Jarrett Mann","Josh Owens","Dwight Powell","Anthony Brown","Aaron Bright","Jack Trotter","Andrew Zimmermann","Josh Huestis","Gabriel Harris","John Gage","Stefan Nastic","Robbie Lemons","Chris Barnum","Doug Mills"],"rows":[]};

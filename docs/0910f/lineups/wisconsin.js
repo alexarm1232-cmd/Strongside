@@ -1,0 +1,1 @@
+LINEUPS_ADD["Wisconsin"] = {"players":["Jason Bohannon","Trevon Hughes","Jordan Taylor","Keaton Nankivil","Tim Jarmusz","Jon Leuer","Ryan Evans","Rob Wilson","Mike Bruesewitz"],"rows":[[31,[0,5,2,3,1],55.6,53,49,55.6,53,49],[32,[0,5,2,6,1],59.56,69,87,50.74,54,79]]};

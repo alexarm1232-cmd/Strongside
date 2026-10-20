@@ -1,0 +1,1 @@
+LINEUPS_ADD["Idaho St."] = {"players":["Broderick Gilchrest","Amorrow Morgan","Demetrius Monroe","Austin Kilpatrick","Donnie Carson","Chron Tatum","Rolando Little","Sherrod Baldwin","Michael Lacey","Deividas Busma","Todd Starks"],"rows":[]};

@@ -1,0 +1,1 @@
+LINEUPS_ADD["Lipscomb"] = {"players":["Adnan Hodzic","Josh Slater","Jordan Burgason","Brandon Brown","Robert Boyd","Brandon Barnes","Jacob Arnett","Michael Teller","Justin Glenn","Milos Kleut","Brian Wright","Zach Brown","Brett Staal"],"rows":[]};

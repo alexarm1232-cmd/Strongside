@@ -1,0 +1,1 @@
+LINEUPS_ADD["Seattle U"] = {"players":["Aaron Broussard","Garrett Lever","Sterling Carter","Cervante Burrell","Alex Jones","Gavin Gilmore","Chad Rasmussen","Brandon Durham","Mark McLaughlin","Fredrick Wilson","Taylor Stevens"],"rows":[]};

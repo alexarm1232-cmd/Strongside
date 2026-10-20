@@ -1,0 +1,1 @@
+LINEUPS_ADD["Syracuse"] = {"players":["Wes Johnson","Andy Rautins","Kris Joseph","Rick Jackson","Scoop Jardine","Brandon Triche","Arinze Onuaku","Mookie Jones","James Southerland"],"rows":[[29,[1,2,3,4,0],62.88,79,56,55.95,68,47],[30,[1,5,2,3,0],70.04,87,65,51.55,73,41],[31,[1,2,3,4,0],64.18,59,63,64.18,59,63]]};

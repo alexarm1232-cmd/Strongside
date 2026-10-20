@@ -1,0 +1,1 @@
+LINEUPS_ADD["Eastern Ky."] = {"players":["Josh Daniel","Spencer Perrin","Joshua Jones","Justin Stommes","Jeff Johnson","Willie Cruz","Taylor Filipek","Jeff Allgood","Jaron Jones","Devin McDonald","Jabs Newby","Deverin Muff","Ryan Parsons"],"rows":[]};

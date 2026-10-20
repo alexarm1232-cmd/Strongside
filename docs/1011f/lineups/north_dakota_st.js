@@ -1,0 +1,1 @@
+LINEUPS_ADD["North Dakota St."] = {"players":["Michael Tveidt","Taylor Braun","Drew Lundberg","Eric Carlson","Freddy Coleman","Marshall Bjorklund","Trayvonn Wright","Nate Zastrow","Mike Felt","Andy Nagel","Fred Newell"],"rows":[]};

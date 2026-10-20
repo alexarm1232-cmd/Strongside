@@ -1,0 +1,1 @@
+LINEUPS_ADD["A&M-Corpus Christi"] = {"players":["Demond Watt","Terence Jones","Justin Reynolds","Horace Bond","Garland Judkins","Chris Hawkins-Mast","Jawan Nelson","Antonio Topps","Hollis Hill","Jaamon Echols","Darren Warren","Ted Wang","Michael Bables","Jeremy Allen"],"rows":[]};

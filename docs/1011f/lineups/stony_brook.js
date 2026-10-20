@@ -1,0 +1,1 @@
+LINEUPS_ADD["Stony Brook"] = {"players":["Bryan Dougher","Danny Carter","Dallis Joyner","Marcus Rouse","Al Rapier","Dave Coley","Leonard Hayes","Anthony Jackson","Anthony Mayo","Chris Martin","Preye Preboye","Eric McAlister","Ben Resner"],"rows":[]};

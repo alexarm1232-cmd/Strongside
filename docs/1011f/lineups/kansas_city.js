@@ -1,0 +1,1 @@
+LINEUPS_ADD["Kansas City"] = {"players":["Spencer Johnson","Jay Couisnard","Reggie Chamberlain","Bakari Lewis","Trinity Hall","Max Rockmann","Dustin Dibble","Bernard Kamwa","Michael Gholston, Jr.","Trevor Mason"],"rows":[]};

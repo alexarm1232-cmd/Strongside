@@ -1,0 +1,1 @@
+LINEUPS_ADD["Georgia"] = {"players":["Ricky McPhee","Dustin Ware","Howard Thompkins III","Travis Leslie","Jeremy Price","Albert Jackson","Chris Barnes","Ebuka Anyaorah","Vincent Williams","Drazen Zlovaric"],"rows":[]};

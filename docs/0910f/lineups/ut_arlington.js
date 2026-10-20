@@ -1,0 +1,1 @@
+LINEUPS_ADD["UT Arlington"] = {"players":["Marquez Haynes","Brandon Long","Dwight Gentry II","LaMarcus Reed","J.D. Davis","Cameron Catlett","Tommy Moffitt","Trey Parker","Jordan Reves","Armani Williams","Ishmael Awange"],"rows":[]};

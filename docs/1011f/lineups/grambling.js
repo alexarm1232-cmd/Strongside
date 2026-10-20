@@ -1,0 +1,1 @@
+LINEUPS_ADD["Grambling"] = {"players":["Donald Qualls","Justin Patton","Rupert Rose","Lance Feurtado","Peter 'Pj' Roberson","YonDarius Johnson","Chris Britt Black","Derron Hobbs","Raschard Boatner","Rydell Harris","Steven Danridge","Zane Knowles","Brandon Wilson","Frank Snow"],"rows":[]};

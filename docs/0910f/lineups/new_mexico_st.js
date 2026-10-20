@@ -1,0 +1,1 @@
+LINEUPS_ADD["New Mexico St."] = {"players":["Jahmar Young","Jonathan Gibson","Hernst Laroche","Hamidu Rahman","Wendell McKines","Gordo Castillo","Troy Gillenwater","Tyrone Watson","Kelly Merker","Robert Lumpkins"],"rows":[[32,[2,0,1,6,4],63.51,67,70,63.51,67,70]]};

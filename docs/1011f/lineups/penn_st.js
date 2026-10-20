@@ -1,0 +1,1 @@
+LINEUPS_ADD["Penn St."] = {"players":["Talor Battle","Jeff Brooks","Tim Frazier","David (DJ) Jackson","Andrew Jones III","Billy Oliver","Cammeron Woodyard","Jermaine Marshall","Taran Buie","Steve Kirkpatrick","Tre Bowman","Jonathan Graham"],"rows":[[33,[4,3,1,0,2],12.2,17,12,12.2,17,12],[33,[4,3,7,0,2],16.65,16,22,16.65,16,22],[33,[4,6,3,0,2],27.33,31,30,27.33,31,30]]};

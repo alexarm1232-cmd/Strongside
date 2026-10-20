@@ -1,0 +1,1 @@
+LINEUPS_ADD["Drexel"] = {"players":["Gerald Colds","Derrick Thomas","Samme Givens","Frantz Massenat","Chris Fouch","Dartaye Ruffin","Daryl McCoy","Yannick Formbor","Stevan Manojlovic","Ronald Colbert","Goran Pantovic","Jake Lerner"],"rows":[]};

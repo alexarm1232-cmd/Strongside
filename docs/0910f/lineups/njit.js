@@ -1,0 +1,1 @@
+LINEUPS_ADD["NJIT"] = {"players":["Jheryl Wilson","Chris Flores","Isaiah Wilkerson","PJ Miller","Ryan Regis","Sammy Schickel","Dan Stonkus","Teddy Schickel","Nick Lopez","Drejon Scott","Sean McCarthy","Matt Darnell"],"rows":[]};

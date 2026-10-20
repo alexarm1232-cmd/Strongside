@@ -1,0 +1,1 @@
+LINEUPS_ADD["High Point"] = {"players":["Shay Shine","Nick Barbour","Tehran Cox","Du'Vaughn Maxwell","Travis Elliott","Earnest Bridges","Corey Law","David Campbell","Xavier Martin","Jairus Simms","Justin Cheek","Georges Massoda","Cameron Solomon","Adam Hall","Moses Burgess","Joe Stroman"],"rows":[]};

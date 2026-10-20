@@ -1,0 +1,1 @@
+LINEUPS_ADD["Clemson"] = {"players":["Trevor Booker","Demontez Stitt","Andre Young","Tanner Smith","David Potter","Jerai Grant","Noel Johnson","Milton Jennings","Bryan Narcisse"],"rows":[[31,[2,4,5,3,0],71.47,78,86,71.03,78,86]]};

@@ -1,0 +1,1 @@
+LINEUPS_ADD["Marquette"] = {"players":["Jimmy Butler","Lazar Hayward","David Cubillan","Darius Johnson-Odom","Maurice Acker","Dwight Buycks","Joseph Fulce","Jeronne Maymon"],"rows":[[33,[3,2,0,1,4],66.86,78,80,66.86,78,80]]};

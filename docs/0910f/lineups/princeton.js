@@ -1,0 +1,1 @@
+LINEUPS_ADD["Princeton"] = {"players":["Marcus Schroeder","Douglas Davis","Dan Mavraides","Pawel Buczak","Ian Hummer","Patrick Saunders","Kareem Maddox","Zach Finley","Will Barrett","Nick Lake"],"rows":[[27,[2,1,6,0,7],63.5,65,51,60.08,60,43],[28,[2,1,4,6,3],70.71,74,68,70.71,74,68],[29,[2,1,6,0,5],59.46,59,69,59.08,59,69]]};

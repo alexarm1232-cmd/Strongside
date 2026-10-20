@@ -1,0 +1,1 @@
+LINEUPS_ADD["New Hampshire"] = {"players":["Tyrone Conley","Chandler Rhoads","Dane DiLiegro","Brian Benson","Jordon Bronner","James Valladares","Ferg Myrick","DeAndray Buckley","Scott Morris","Chris Matagrano","Kazadi Nyanguila","Ryan Herrion","Alvin Abreu"],"rows":[]};

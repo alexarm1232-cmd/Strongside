@@ -1,0 +1,1 @@
+LINEUPS_ADD["Creighton"] = {"players":["Antoine Young","Kenny Lawson Jr.","Justin Carter","Darryl Ashford","Cavel Witter","Ethan Wragge","P'Allen Stinnett","Casey Harriman","Wayne Runnels","Kaleb Korver","Josh Jones","Andrew Bock"],"rows":[[31,[0,4,2,9,8],75.04,89,78,68.55,87,65],[32,[0,4,5,2,1],62.68,73,55,61.19,67,55],[33,[0,5,10,2,1],61.73,61,67,61.24,55,67]]};

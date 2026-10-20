@@ -1,0 +1,1 @@
+LINEUPS_ADD["Green Bay"] = {"players":["Rahmon Fletcher","Bryquis Perine","Alec Brown","Steve Baker","Daniel Turner","Jarvis Williams","Seth Evans","Greg LeSage","Troy Snyder","Kam Cerroni","Clayton Heuer","Derek Semenas","Eric Valentin"],"rows":[]};

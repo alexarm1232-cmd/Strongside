@@ -1,0 +1,1 @@
+LINEUPS_ADD["Northwestern"] = {"players":["Michael Thompson","John Shurna","Jeremy Nash","Drew Crawford","Luka Mirkovic","Alex Marcotullio","Kyle Rowley","Davide Curletti","Ivan Peljusic"],"rows":[[33,[3,2,1,6,0],62.53,64,76,62.16,64,74]]};

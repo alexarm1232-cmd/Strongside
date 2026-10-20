@@ -1,0 +1,1 @@
+LINEUPS_ADD["Colorado St."] = {"players":["Dorian Green","Adam Nigon","Travis Franklin","Andy Ogide","Pierce Hornung","Greg Smith","Travis Busch","Andre McFarland","Mame Bocar Ba","Harvey Perry","Arin Dunn"],"rows":[[30,[1,3,0,6,2],66.86,60,74,64.72,58,71]]};

@@ -1,0 +1,1 @@
+LINEUPS_ADD["Oregon"] = {"players":["Malcolm Armstead","Tajuan Porter","E.J. Singler","Jeremy Jacob","Michael Dunigan","LeKendric Longmire","Teondre Williams","Garrett Sim","Jamil Wilson","Matt Humphrey","Joevan Catron"],"rows":[]};

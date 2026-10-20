@@ -1,0 +1,1 @@
+LINEUPS_ADD["Bryant"] = {"players":["Chris Birrell","Barry Latham","Raphael Jordan","Adam Parzych","Vlad Kondratyev","Michael Chroney","Papa Lo","Claybrin McMath","Cecil Gresham","Nick Pontes","Erick Smith","Sam Leclerc"],"rows":[]};

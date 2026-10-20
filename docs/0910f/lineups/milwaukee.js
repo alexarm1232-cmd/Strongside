@@ -1,0 +1,1 @@
+LINEUPS_ADD["Milwaukee"] = {"players":["Ricky Franklin","James Eayrs","Jerard Ajami","Anthony Hill","Ja'Rob McCallum","Jason Averkamp","Lonnie Boga","Deonte Roberts","Tony Meier","Patrick Souter","Ryan Haggerty"],"rows":[]};

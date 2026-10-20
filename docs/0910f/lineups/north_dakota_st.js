@@ -1,0 +1,1 @@
+LINEUPS_ADD["North Dakota St."] = {"players":["Josh Vaughan","Michael Tveidt","Eric Carlson","Sam Sussenguth","Austin Pennick","Nate Zastrow","Jordan Aaberg","Drew Lundberg","Dejuan Flowers","Mike Felt"],"rows":[]};

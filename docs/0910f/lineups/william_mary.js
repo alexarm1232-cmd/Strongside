@@ -1,0 +1,1 @@
+LINEUPS_ADD["William & Mary"] = {"players":["David Schneider","Quinn McDowell","Danny Sumner","Sean McCurdy","Marcus Kitts","Steven Hess","Kendrix Brown","Matt Rum","Kyle Gaillard","JohnMark Ludwick"],"rows":[[31,[2,0,9,3,5],71.04,72,80,70.74,72,79]]};

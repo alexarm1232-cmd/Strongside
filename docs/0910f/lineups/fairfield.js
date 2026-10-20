@@ -1,0 +1,1 @@
+LINEUPS_ADD["Fairfield"] = {"players":["Derek Needham","Anthony Johnson","Ryan Olander","Lyndon Jordan","Mike Evanovich","Yorel Hawkins","Colin Nickerson","Sean Crawford","Jamal Turner","Shimeek Johnson"],"rows":[[32,[1,0,3,4,7],83.78,101,96,83.74,101,96],[33,[1,6,0,3,2],62.68,55,73,61.19,55,67]]};

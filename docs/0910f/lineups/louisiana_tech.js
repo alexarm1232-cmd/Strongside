@@ -1,0 +1,1 @@
+LINEUPS_ADD["Louisiana Tech"] = {"players":["DeAndre Brown","Jamel Guyton","Kyle Gibson","Magnum Rolle","Olu Ashaolu","David Jackson","Anson Bartlett","Darius Redding"],"rows":[[33,[7,5,0,1,4],61.32,66,57,60.73,64,52],[34,[7,5,0,1,4],61.37,40,69,53.03,36,60]]};

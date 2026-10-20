@@ -1,0 +1,1 @@
+LINEUPS_ADD["Cornell"] = {"players":["Chris Wroblewski","Andrew Ferry","Errick Peck","Adam Wire","Mark Coury","Max Groebe","Miles Asafo-Adjei","Johnathan Gray","Aaron Osgood","Jake Matthews","Josh Figini","Anthony Gatlin","Eitan Chemerinski","Peter McMillan","Manny Sahota","Dwight Tarwater","Jamal Cherry"],"rows":[]};

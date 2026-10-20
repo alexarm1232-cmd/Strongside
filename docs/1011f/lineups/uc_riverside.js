@@ -1,0 +1,1 @@
+LINEUPS_ADD["UC Riverside"] = {"players":["Javon Borum","Phil Martin","Kareem Nitoto","Kevin Bradshaw","Bj Shearry","Elliott Berry","Daymond Cowlah","Tyquan Brown","Delonte Taylor","Harrison Gaines","Andy Saharan"],"rows":[]};

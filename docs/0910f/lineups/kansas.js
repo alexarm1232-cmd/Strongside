@@ -1,0 +1,1 @@
+LINEUPS_ADD["Kansas"] = {"players":["Sherron Collins","Xavier Henry","Cole Aldrich","Marcus Morris","Tyshawn Taylor","Markieff Morris","Brady Morningstar","Tyrel Reed","Elijah Johnson"],"rows":[[34,[2,3,0,4,1],72.32,90,74,66.61,88,60],[35,[2,3,0,7,1],62.68,67,69,62.68,67,69]]};

@@ -1,0 +1,1 @@
+LINEUPS_ADD["Texas"] = {"players":["Damion James","Avery Bradley","Gary Johnson","J'Covan Brown","Jordan Hamilton","Dexter Pittman","Justin Mason","Dogus Balbay","Jai Lucas","Varez Ward"],"rows":[[33,[1,0,2,4,6],80.45,80,81,80.45,80,81]]};

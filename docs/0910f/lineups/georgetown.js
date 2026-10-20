@@ -1,0 +1,1 @@
+LINEUPS_ADD["Georgetown"] = {"players":["Chris Wright","Greg Monroe","Austin Freeman","Jason Clark","Julian Vaughn","Hollis Thompson","Jerrelle Benimon","Vee Sanford"],"rows":[[32,[2,0,1,5,3],71.84,83,97,69.87,78,93]]};

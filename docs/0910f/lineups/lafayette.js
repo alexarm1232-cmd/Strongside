@@ -1,0 +1,1 @@
+LINEUPS_ADD["Lafayette"] = {"players":["Jeff Kari","Jared Mintz","Jim Mower","Michael Gruner","Ryan Willen","Darion Benbow","Ben Wheeler","Tony Johnson","Levi Giese","Nick Petkovich","J.D. Pelham","Alex Orchowski","Andy Moore","Rob Delaney"],"rows":[]};

@@ -1,0 +1,1 @@
+LINEUPS_ADD["Louisville"] = {"players":["Samardo Samuels","Edgar Sosa","Jared Swopshire","Jerry Smith","Reginald Delk","Preston Knowles","Terrence Jennings","Kyle Kuric","Rakeem Buckles","Mike Marra"],"rows":[[32,[1,2,3,7,0],65.48,62,77,62.66,60,75]]};

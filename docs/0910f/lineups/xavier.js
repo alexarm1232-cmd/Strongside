@@ -1,0 +1,1 @@
+LINEUPS_ADD["Xavier"] = {"players":["Jordan Crawford","Tu Holloway","Jason Love","Dante Jackson","Jamel McLean","Mark Lyons","Kenny Frease","Brad Redford"],"rows":[[32,[3,4,2,0,1],61.11,65,54,60.6,63,54],[33,[3,4,2,0,1],64.71,71,68,64.71,71,68],[34,[3,4,2,0,1],85.22,96,101,85.22,96,101]]};

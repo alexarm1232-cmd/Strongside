@@ -1,0 +1,1 @@
+LINEUPS_ADD["Iowa St."] = {"players":["Craig Brackins","Marquis Gilstrap","Diante Garrett","Scott Christopherson","Justin Hamilton","Lucca Staiger","Chris Colvin","LaRon Dendy","Dominique Buckley","Charles Boozer","Jamie Vanderbeken"],"rows":[]};

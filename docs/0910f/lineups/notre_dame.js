@@ -1,0 +1,1 @@
+LINEUPS_ADD["Notre Dame"] = {"players":["Tory Jackson","Ben Hansbrough","Tim Abromaitis","Luke Harangody","Tyrone Nash","Carleton Scott","Jonathan Peoples"],"rows":[[34,[1,5,3,2,0],53.36,50,51,53.36,50,51]]};

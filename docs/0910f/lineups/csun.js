@@ -1,0 +1,1 @@
+LINEUPS_ADD["CSUN"] = {"players":["Kenny Daniels","Willie Galick","Lenny Daniel","Mark Hill","Vinnie McGhee","Raymond Cody","Therin Taylor","Tony Osunsanmi","Vincent Cordell","Michael Lizarraga","Kevin Menner","Rashaun McLemore","Dathan Lyles"],"rows":[]};

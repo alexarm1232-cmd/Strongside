@@ -1,0 +1,1 @@
+LINEUPS_ADD["Drexel"] = {"players":["Jamie Harris","Gerald Colds","Samme Givens","Derrick Thomas","Chris Fouch","Evan Neisler","Daryl McCoy","Kevin Phillip","Leon Spencer","Shannon Givens"],"rows":[]};

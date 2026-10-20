@@ -1,0 +1,1 @@
+LINEUPS_ADD["TCU"] = {"players":["Hank Thorns","Garlon Green","J.R. Cadot","Nikola Cerina","Amric Fields","Ronnie Moss","Greg Hill","Nikola Gacesa","Sammy Yeager","Jarvis Ray","Marin Bavcevic","Cheick Kone","Zach Hule","Thomas Montigel","Zack Price","Andre Clark"],"rows":[]};

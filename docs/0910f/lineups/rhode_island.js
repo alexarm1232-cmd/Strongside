@@ -1,0 +1,1 @@
+LINEUPS_ADD["Rhode Island"] = {"players":["Keith Cothran","Lamonte Ulmer","Delroy James","Will Martell","Marquis Jones","Akeem Richmond","Stevie Mejia","Orion Outerbridge"],"rows":[[32,[5,0,1,4,3],62.53,76,64,62.16,74,64],[33,[2,0,1,4,3],74.67,85,83,74.67,85,83],[34,[2,0,1,6,3],72.16,79,72,72.04,79,72]]};

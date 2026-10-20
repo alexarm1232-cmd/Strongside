@@ -1,0 +1,1 @@
+LINEUPS_ADD["Green Bay"] = {"players":["Bryquis Perine","Troy Cotton","Randy Berry","Rahmon Fletcher","Seth Evans","Cordero Barkley","Rian Pearson","Pat Nelson","Matt Smith"],"rows":[[31,[0,7,3,2,1],61.55,70,66,61.55,70,66],[32,[0,3,2,6,1],73.98,62,68,73.98,62,68]]};

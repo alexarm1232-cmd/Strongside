@@ -1,0 +1,1 @@
+LINEUPS_ADD["UIC"] = {"players":["Robo Kreps","Paul Carter","Brad Birton","Paris Carter","Zavion Neely","Darrin Williams","Dipanjot Singh","Corey Gray","K.C. Robbins","Dorian Tyler","Shawn King","Daniel Barnes","Anthony Kelley","Eddie Denard","Jimmy Harding","Matt Bush","Arman Rasul"],"rows":[]};

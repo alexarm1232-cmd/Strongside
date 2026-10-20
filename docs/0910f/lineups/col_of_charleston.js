@@ -1,0 +1,1 @@
+LINEUPS_ADD["Col. of Charleston"] = {"players":["Andrew Goudelock","Donavan Monroe","Tony White Jr.","Jeremy Simmons","Casaan Breeden","Willis Hall","Andrew Lawrence"],"rows":[[32,[0,1,3,2,5],62.52,82,79,62.52,82,79],[33,[0,6,1,3,2],78.67,86,93,77.58,71,93]]};

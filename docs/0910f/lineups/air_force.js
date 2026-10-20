@@ -1,0 +1,1 @@
+LINEUPS_ADD["Air Force"] = {"players":["Evan Washington","Michael Lyons","Todd Fletcher","Mike McLain","Grant Parker","Tom Fow","Avery Merriex","Taylor Broekhuis","Derek Brooks","Mike Fitzgerald","Taylor Stewart","Shawn Hempsey","Sammy Schafer"],"rows":[]};

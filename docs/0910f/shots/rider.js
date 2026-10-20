@@ -1,0 +1,1 @@
+SHOTS_ADD["Rider"] = {"players":[],"o":[],"d":[],"fives":{"players":["Brandon Penn","Jhamar Youngblood","Jonathon Thompson","Justin Robinson","Ryan Thompson","Mike Ringgold","Novar Gadson","Patrick Mansell","Dera Nd-Ezuma"],"rows":[]}};

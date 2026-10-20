@@ -1,0 +1,1 @@
+LINEUPS_ADD["Central Conn. St."] = {"players":["Shemik Thompson","Devan Bailey","Markeys Deans","David Simmons","Joe Seymore","Vince Rosario","Robby Ptacek","Joe Efese","Chris Baskerville","Ross Pentland"],"rows":[]};

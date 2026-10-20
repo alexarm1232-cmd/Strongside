@@ -1,0 +1,1 @@
+LINEUPS_ADD["Northern Colo."] = {"players":["Will Figures","Yahosh Bonner","Devon Beitzel","Mike Proctor","Taylor Montgomery","Neal Kingman","Chris Kaba","Elliott Lloyd"],"rows":[[30,[6,3,4,0,1],63.79,81,73,62.93,78,68],[31,[6,3,4,0,1],63.27,59,63,63.27,59,63]]};

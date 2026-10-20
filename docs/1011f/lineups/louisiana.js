@@ -1,0 +1,1 @@
+LINEUPS_ADD["Louisiana"] = {"players":["Travis Bureau","Raymone Andrews","Randell Daigle","J.J. Thomas","La'Ryan Gary","Josh Brown","Bryant Mbamalu","David Perez","Scottie Farrington","Javan Mitchell","Courtney Wallace","Colby Batiste","Phillip Jones"],"rows":[]};

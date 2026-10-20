@@ -1,0 +1,1 @@
+LINEUPS_ADD["Yale"] = {"players":["Greg Mangano","Austin Morgan","Porter Braswell","Reggie Willhite","Jeremiah Kreisberg","Rhett Anderson","Sam Martin","Isaiah Salafia","Raffi Mantilla","Jesse Pritchard","Michael Grace","Brian Katz","Will Bartlett","Alfonso Costa"],"rows":[]};

@@ -1,0 +1,1 @@
+LINEUPS_ADD["Ohio St."] = {"players":["Jon Diebler","David Lighty","William Buford","Evan Turner","Dallas Lauderdale","Kyle Madsen","Jeremie Simmons","P.J. Hill"],"rows":[[33,[4,1,3,0,2],61.63,68,51,57.37,64,46],[34,[4,1,3,0,2],74.44,75,66,73.85,75,66],[35,[4,1,3,0,2],66.02,73,76,66.02,73,76]]};

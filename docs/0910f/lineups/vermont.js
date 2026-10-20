@@ -1,0 +1,1 @@
+LINEUPS_ADD["Vermont"] = {"players":["Marqus Blakely","Maurice Joseph","Evan Fjeld","Garvey Young","Nick Vier","Joey Accaoui","Garrett Kissel","Brendan Bald","Simeon Marsalis","Ben Crenca"],"rows":[[34,[2,3,0,1,4],62.88,56,79,55.95,47,68]]};

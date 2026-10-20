@@ -1,0 +1,1 @@
+LINEUPS_ADD["La Salle"] = {"players":["Rodney Green","Yves Mekongo Mbala","Jerrell Williams","Aaric Murray","Steve Weingarten","Kimmani Barrett","Parrish Grant","Devon White","T.T. Carey","Terrell Williams","Ruben Guillandeaux"],"rows":[]};

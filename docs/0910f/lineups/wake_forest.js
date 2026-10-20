@@ -1,0 +1,1 @@
+LINEUPS_ADD["Wake Forest"] = {"players":["Ishmael Smith","Al-Farouq Aminu","L.D. Williams","C.J. Harris","Chas McFarland","Ari Stewart","Tony Woods","David Weaver","Gary Clark"],"rows":[[29,[1,4,3,0,2],80.45,81,80,80.45,81,80],[30,[1,3,0,2,6],68.07,60,90,48.35,37,70]]};

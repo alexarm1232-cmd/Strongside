@@ -1,0 +1,1 @@
+LINEUPS_ADD["Ole Miss"] = {"players":["Chris Warren","Terrico White","Murphy Holloway","Zach Graham","Eniel Polynice","Terrance Henry","DeAundre Cranston","Reginald Buckner","Trevor Gaskins"],"rows":[[31,[0,6,2,1,3],65.43,84,65,56.93,80,56],[32,[0,2,5,1,3],73.19,90,81,72.52,86,78],[33,[0,2,5,1,3],86.75,90,87,86.75,90,87],[34,[0,2,5,1,3],72.91,63,68,72.91,63,68]]};

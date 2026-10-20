@@ -1,0 +1,1 @@
+LINEUPS_ADD["Southern U."] = {"players":["Jazz Williams","Quinton Doggett","Nick Walls","Jameel Grace","Doug Scott","Earnest Jones","Julius Ingram","Brandon White","Norm Nixon, Jr.","Tony McGilveary","Madut Bol","Blake Sanford","Bobby Lee","Horace Dixon"],"rows":[]};

@@ -1,0 +1,1 @@
+LINEUPS_ADD["UConn"] = {"players":["Kemba Walker","Stanley Robinson","Jerome Dyson","Gavin Edwards","Alex Oriakhi","Ater Majok","Jamal Coombs-McDaniel","Donnell Beverly","Charles Okwandu"],"rows":[[31,[4,3,2,0,1],57.29,59,57,57.29,59,57],[32,[4,3,2,0,1],64.26,63,65,64.26,63,65]]};

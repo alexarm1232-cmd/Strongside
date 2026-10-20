@@ -1,0 +1,1 @@
+LINEUPS_ADD["UT Martin"] = {"players":["Terence Smith","Reuben Clayton","Troy King","Andres Irarrazabal","Mike Liabo","Benzor Simmons","Dane Smith","Chris Richardson","Omari Minor","Ronald Spencer","Pierre Mopo","Daron Hood","Trey Edwards"],"rows":[]};

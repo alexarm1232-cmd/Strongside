@@ -1,0 +1,1 @@
+LINEUPS_ADD["UMES"] = {"players":["Kevin White","Hillary Haley","Dishawn Bradshaw","Tyler Hines","Lyvann Obame Obame","Mark Robertson","Louis Bell","Joseph Swift","Tim Burns","Diyaaldin Kelley","Josh Bright","Michael Spence","Robert Tucker","Kevin Williams","Freddy Obame Obame"],"rows":[]};

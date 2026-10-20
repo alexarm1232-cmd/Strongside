@@ -1,0 +1,1 @@
+LINEUPS_ADD["George Mason"] = {"players":["Cameron Long","Andre Cornelius","Ryan Pearson","Michael Morrison","Luke Hancock","Isaiah Tate","Sherrod Wright","Louis Birdsong","Kevin Foster","Johnny Williams"],"rows":[[31,[1,5,4,3,2],83.78,96,101,83.74,96,101]]};

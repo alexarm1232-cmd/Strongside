@@ -1,0 +1,1 @@
+LINEUPS_ADD["Kent St."] = {"players":["Rodriguez Sherman","Justin Greene","Tyree Evans","Anthony Simpson","Chris Singletary","Frank Henery-Ala","Mike McKee","Randal Holt","Brandon Parks"],"rows":[[31,[3,4,1,0,2],67.73,75,74,67.73,75,74],[32,[3,4,1,0,2],64.31,58,75,58.86,53,72]]};

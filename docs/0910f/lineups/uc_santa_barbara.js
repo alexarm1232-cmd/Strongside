@@ -1,0 +1,1 @@
+LINEUPS_ADD["UC Santa Barbara"] = {"players":["Orlando Johnson","James Nunnally","Will Brew","Jaime Sema","James Powell","Jordan Weiner","Justin Joyner","Greg Somogyi","Jon Pastorek","Lucas Devenny","Paul Roemer","Sam Phippen"],"rows":[[28,[7,3,1,4,0],61.63,51,68,57.37,46,64]]};

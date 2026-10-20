@@ -1,0 +1,1 @@
+LINEUPS_ADD["Chicago St."] = {"players":["Carl Montgomery","Antonio Lofton","Jonathan Montgomery","Hajji Martin","Victor Scott","Christian Wall","Ardarius Simmons","Steve Martin","Jamill Harris","Archie Seals","Pawel Kielbasa","Quincy Ukaigwe","Sean Montgomery","Joe Hill"],"rows":[]};

@@ -1,0 +1,1 @@
+LINEUPS_ADD["Boston U."] = {"players":["John Holland","Jake O'Brien","Carlos Strong","Corey Lowe","Tyler Morris","Jeff Pelage","Valdas Sirutis","Brendan Sullivan","Sherrod Smith","B.J. Bailey"],"rows":[[32,[2,3,1,0,4],78.32,96,78,63.43,83,52],[33,[2,1,0,4,6],82.45,91,89,82.45,91,89],[34,[2,1,5,0,4],69.88,75,88,68.11,73,88]]};

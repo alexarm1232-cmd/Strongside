@@ -1,0 +1,1 @@
+LINEUPS_ADD["Iowa St."] = {"players":["Diante Garrett","Scott Christopherson","Darion Jake Anderson","Melvin Ejim","Jamie Vanderbeken","Calvin Godfrey","Bubu Palo","Jordan Railey","DeMarcus Phillips","Eric McKnight","Andrew Mitchell","Austin McBeth"],"rows":[]};

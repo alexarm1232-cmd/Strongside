@@ -1,0 +1,1 @@
+LINEUPS_ADD["Louisiana"] = {"players":["Tyren Johnson","Randell Daigle","Chris Gradnigo","Travis Bureau","Raymone Andrews","Colby Batiste","Lamar Roberson","Willie Lago","Javan Mitchell","Ryan McCoy","Courtney Wallace"],"rows":[]};

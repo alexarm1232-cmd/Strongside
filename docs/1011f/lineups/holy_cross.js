@@ -1,0 +1,1 @@
+LINEUPS_ADD["Holy Cross"] = {"players":["Mike Cavataio","Andrew Beinert","Devin Brown","Andrew Keister","Eric Obeysekere","Jordan Stevens","Dave Dudzinski","Josh Jones","Dee Goens","R.J. Evans","Phil Beans","Joe O'Shea","Steve Carver","Jeff Harris","Charlie Mills"],"rows":[]};

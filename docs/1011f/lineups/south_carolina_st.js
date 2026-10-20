@@ -1,0 +1,1 @@
+LINEUPS_ADD["South Carolina St."] = {"players":["Khalif Toombs","Darnell Porter","Tyvon Williams","Brandon Riley","Omar Sanders","Presano Bell","Joe Ikhinmwin","Rio Pitt","Carrio Bennett","Westley Telfare","Joseph Wright","Shaquil Barber","Dennis Rowe"],"rows":[]};

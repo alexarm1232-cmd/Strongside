@@ -1,0 +1,1 @@
+LINEUPS_ADD["Lehigh"] = {"players":["C.J. McCollum","Marquis Hall","Gabe Knutson","Zahir Carrington","Dave Buchberger","Michael Ojo","Holden Greiner","Rob Keefer","Prentice Small","John Adams","Justin Maneri","Jordan Hamilton","Matt Shamis"],"rows":[[32,[0,4,2,1,3],72.32,74,90,66.61,60,88]]};

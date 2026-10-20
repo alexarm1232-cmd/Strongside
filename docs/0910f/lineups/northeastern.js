@@ -1,0 +1,1 @@
+LINEUPS_ADD["Northeastern"] = {"players":["Matt Janning","Chaisson Allen","Nkem Ojougboh","Manny Adako","Baptiste Bataille","Alwayne Bigby","Mathiang Muo","Kauri Black","Joel Smith"],"rows":[[32,[5,1,3,0,2],57.29,57,59,57.29,57,59]]};

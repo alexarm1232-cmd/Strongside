@@ -1,0 +1,1 @@
+LINEUPS_ADD["Utah"] = {"players":["Will Clyburn","Josh Watkins","Shawn Glover","David Foster","JJ O'Brien","Jason Washburn","Chris Kupets","Chris Hines","Jay Watkins","Antonio DiMaria","Jace Tavita","Michael Hodgman","Neal Monson"],"rows":[]};

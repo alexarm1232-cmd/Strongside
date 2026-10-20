@@ -1,0 +1,1 @@
+LINEUPS_ADD["Southern U."] = {"players":["Brandon White","Blake Sanford","Julius Ingram","Jameel Grace","Frederick Coleman","Madut Bol","Quinton Doggett","Neal Webb","Ray Ray Chase","Patrick Coleman","Michael Celestin","Marceis Davis","Lloyd Hickinson","John Tatum"],"rows":[]};

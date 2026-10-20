@@ -1,0 +1,1 @@
+LINEUPS_ADD["Centenary (LA)"] = {"players":["Maxx Nakwaasah","Leo Davis","Jeron Trotman","Logan Lowery","Aaron Harwell","Jonathan Blount","Travis Sims","Quin Cooper","Andrew Rebol","Baba Diallo","Roman Tubner","Matt Nichenko","Jeff Latin","Brandon Joseph","Patrick Elledge"],"rows":[]};

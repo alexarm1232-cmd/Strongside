@@ -1,0 +1,1 @@
+LINEUPS_ADD["Central Mich."] = {"players":["Trey Zeigler","Jalin Thomas","Derek Jackson","William McClure","Andre Coimbra","Antonio Weary","Amir Rashid","Finis Craddock","John Morris","Colin Voss","Paris Paramore","Jevon Harden","Nate VanArendonk","Nick Jordan","Luke Wiest"],"rows":[]};

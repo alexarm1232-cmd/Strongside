@@ -1,0 +1,1 @@
+LINEUPS_ADD["UT Arlington"] = {"players":["LaMarcus Reed","Bo Ingram","Cameron Catlett","Jordan Reves","Brandon Edwards","Shaquille White-Miller","Bradley Gay","Darius Richardson","Bryant Smith","Armani Williams","Stuart Lagerson","Daniel Francis","Rivest Aduko"],"rows":[]};

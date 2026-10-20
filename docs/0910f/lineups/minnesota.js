@@ -1,0 +1,1 @@
+LINEUPS_ADD["Minnesota"] = {"players":["Blake Hoffarber","Devoe Joseph","Lawrence Westbrook","Damian Johnson","Ralph Sampson III","Colton Iverson","Paul Carter","Al Nolen","Rodney Williams","Devron Bostick","Dominique Dawson","Trevor Mbakwe"],"rows":[[34,[0,3,1,2,4],61.11,54,65,60.6,54,63]]};

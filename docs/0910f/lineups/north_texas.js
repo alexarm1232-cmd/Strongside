@@ -1,0 +1,1 @@
+LINEUPS_ADD["North Texas"] = {"players":["Josh White","George Odufuwa","Tristan Thompson","Eric Tramiel","Shannon Shorter","Collin Mangrum","Jacob Holmen","Richard Thomas","Cameron Spencer","Dominique Johnson"],"rows":[[30,[5,3,1,0,2],65.26,62,82,58.37,55,75]]};

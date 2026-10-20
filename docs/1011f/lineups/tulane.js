@@ -1,0 +1,1 @@
+LINEUPS_ADD["Tulane"] = {"players":["Kendall Timmons","Kris Richard","Jordan Callahan","David Booker","Johnny Mayhane","Aaron Holmes","Kevin Thomas","Trent Rogers","Geoff Hogan","Ben Cherry","Kevin Brown","Jonathan Frye","Brady Hadden","Kelth Cameron"],"rows":[]};

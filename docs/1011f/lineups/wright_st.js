@@ -1,0 +1,1 @@
+LINEUPS_ADD["Wright St."] = {"players":["Vaughn Duggins","N'Gai Evans","Troy Tabler","Cooper Land","Matt Vest","Johann Mpondo","Cole Darling","AJ Pacher","Armond Battle","Vance Hall","Kegan Clark"],"rows":[]};

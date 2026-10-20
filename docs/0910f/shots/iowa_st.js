@@ -1,0 +1,1 @@
+SHOTS_ADD["Iowa St."] = {"players":[],"o":[],"d":[],"fives":{"players":["Chris Colvin","Craig Brackins","Diante Garrett","Dominique Buckley","Marquis Gilstrap","LaRon Dendy","Scott Christopherson","Justin Hamilton"],"rows":[]}};

@@ -1,0 +1,1 @@
+LINEUPS_ADD["UMBC"] = {"players":["Chris De La Rosa","Justin Fry","Travis King","Adrian Satchell","Bakari Smith","Laurence Jolicoeur","Jamar Wertz","Brian Neller","Chase Plummer","Jake Wasco","Matt Conway","Nick Groce"],"rows":[]};

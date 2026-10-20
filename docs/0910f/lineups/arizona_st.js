@@ -1,0 +1,1 @@
+LINEUPS_ADD["Arizona St."] = {"players":["Derek Glasser","Rihards Kuksiks","Ty Abbott","Eric Boateng","Jamelle McMillan","Trent Lockett","Jerren Shipp","Taylor Rohde","Demetrius Walker","Ruslan Pateev"],"rows":[[32,[0,3,4,1,2],68.49,66,67,68.49,66,67]]};

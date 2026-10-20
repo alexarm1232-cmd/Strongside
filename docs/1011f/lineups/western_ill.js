@@ -1,0 +1,1 @@
+LINEUPS_ADD["Western Ill."] = {"players":["Matt Lander","Jelani Johnson","Jack Houpt","Kaimarr Price","Tommie Tyler","Emeka Okafor Jr.","Brandon Smith","Abdou Niang","Mael Amenyedzi","Ceola Clark","Arsenio Mims","David Gebru"],"rows":[]};

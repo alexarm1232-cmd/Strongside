@@ -1,0 +1,1 @@
+SHOTS_ADD["Manhattan"] = {"players":[],"o":[],"d":[],"fives":{"players":["Andrew Gabriel","Antoine Pearson","Brandon Adams","Darryl Crawford","Rico Pickett","Patrick Bouli","George Beamon","Laurence Jolicoeur","Nick Walsh"],"rows":[]}};

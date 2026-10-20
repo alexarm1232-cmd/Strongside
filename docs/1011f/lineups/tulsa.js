@@ -1,0 +1,1 @@
+LINEUPS_ADD["Tulsa"] = {"players":["Justin Hurtt","Scottie Haralson","Steven Idlet","Joe Richard","Bryson Pope","Jordan Clarkson","D.J. Magley","Kodi Maduka","Tim Peete","Shane Heirman","Blondy Baruti","Glenn Andrews","Ladarrius Whitehead","Will Sanger","Barrett Hunter","Donte Medder","Colter Morgan"],"rows":[]};

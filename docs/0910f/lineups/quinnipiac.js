@@ -1,0 +1,1 @@
+LINEUPS_ADD["Quinnipiac"] = {"players":["James Johnson","James Feldeine","Justin Rutty","Jeremy Baker","Jonathan Cruz","Deontay Twyman","Dave Johnson","Jamee Jackson"],"rows":[[32,[6,7,1,0,2],65.75,61,81,58.65,47,72]]};

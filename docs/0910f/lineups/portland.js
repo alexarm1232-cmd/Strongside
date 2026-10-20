@@ -1,0 +1,1 @@
+LINEUPS_ADD["Portland"] = {"players":["T.J. Campbell","Jared Stohl","Robin Smeulders","Ethan Niedermeyer","Luke Sikma","Kramer Knutson","Nik Raivio","Taishi Ito","Nemanja Mitrovic"],"rows":[[29,[1,4,8,2,0],63.79,73,81,62.93,68,78]]};

@@ -1,0 +1,1 @@
+LINEUPS_ADD["Richmond"] = {"players":["Kevin Anderson","David Gonzalvez","Ryan Butler","Justin Harper","Dan Geriot","Kevin Smith","Darrius Garrett","Francis-Cedric Martel","Josh Duinker","Darien Brothers"],"rows":[[34,[1,7,3,0,2],62.24,71,80,60.6,67,78]]};

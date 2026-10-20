@@ -1,0 +1,1 @@
+LINEUPS_ADD["Texas Tech"] = {"players":["John Roberson","Brad Reese","Mike Singletary","David Tairu","Robert Lewandowski","D'walyn Roberts","Jaye Crockett","Javarez Willis","Paul Cooper","Mike Davis","Jamel Outler","Wally Dunn","Zach Jones"],"rows":[]};

@@ -1,0 +1,1 @@
+LINEUPS_ADD["Southeast Mo. St."] = {"players":["Anthony Allison","Marland Smith","Sam Pearson","LaMont Russell","Derek Thompson","Cameron Butler","Jajuan Maxwell","LaQuentin Miles","Johnny Hill","Lucas Nutt","KaJuan Watson"],"rows":[]};

@@ -1,0 +1,1 @@
+LINEUPS_ADD["BYU"] = {"players":["Jimmer Fredette","Jackson Emery","Tyler Haws","Noah Hartsock","Jonathan Tavernari","Chris Miles","Michael Loyd","Brandon Davies","Charles Abouo","Lamont Morgan Jr."],"rows":[[33,[5,1,0,6,3],84.57,99,92,84.12,97,88],[34,[1,0,4,3,2],69.63,72,84,68.34,70,84]]};

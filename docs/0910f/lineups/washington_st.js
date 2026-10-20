@@ -1,0 +1,1 @@
+LINEUPS_ADD["Washington St."] = {"players":["Klay Thompson","Reggie Moore","DeAngelo Casto","Marcus Capers","Nikola Koprivica","Xavier Thames","Abe Lodwick","Michael Harthun","Charlie Enquist"],"rows":[]};

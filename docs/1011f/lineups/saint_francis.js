@@ -1,0 +1,1 @@
+LINEUPS_ADD["Saint Francis"] = {"players":["Umar Shannon","Chris Johnson","Will Felder","Anthony Ervin","Mislav Jukic","Kameron Ritter","Jon Taylor","Tony Peters","Sorena Orandi","Scott Eatherton","Storm Stanley","Robert Wortman","Daniel Witczak","Anthony Goode","Kyheim Hall"],"rows":[]};

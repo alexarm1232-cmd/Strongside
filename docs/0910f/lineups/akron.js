@@ -1,0 +1,1 @@
+LINEUPS_ADD["Akron"] = {"players":["Steve McNees","Jimmy Conyers","Anthony Humpty Hitchens","Darryl Roberts","Chris McKnight","Nikola Cvetinovic","Brett McKnight","Zeke Marshall","Brett McClanahan"],"rows":[[33,[6,4,3,1,0],61.55,66,70,61.55,66,70]]};

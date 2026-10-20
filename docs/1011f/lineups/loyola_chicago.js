@@ -1,0 +1,1 @@
+LINEUPS_ADD["Loyola Chicago"] = {"players":["Geoff McCammon","Ben Averkamp","Terrance Hill","Courtney Stanley","Andy Polka","Walt Gibler","Gabe Kindred","Jordan Hicks","Denzel Brito","Chim Kadima","Shaun Adams","John Benkoske","Ryan Sterling","Jonathon Gac"],"rows":[]};

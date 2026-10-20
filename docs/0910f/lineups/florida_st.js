@@ -1,0 +1,1 @@
+LINEUPS_ADD["Florida St."] = {"players":["Chris Singleton","Derwin Kitchen","Solomon Alabi","Michael Snaer","Deividas Dulkys","Ryan Reid","Luke Loucks","Xavier Gibson","Jordan Demercy"],"rows":[[31,[0,1,6,3,2],64.72,60,67,64.72,60,67]]};

@@ -1,0 +1,1 @@
+LINEUPS_ADD["FIU"] = {"players":["DeJuan Wright","Phil Gary, Jr.","Marvin Roberts","Eric Frederick","Jeremy Allen","Dominique Ferguson","Alex Legion","Tremayne Russell","Phil Taylor","Brandon Moore","Cameron Bell","Stephon Weaver","Martavis Key","Richaud Pack","Anthony Anderson, Jr."],"rows":[]};

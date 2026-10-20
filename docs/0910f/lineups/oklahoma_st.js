@@ -1,0 +1,1 @@
+LINEUPS_ADD["Oklahoma St."] = {"players":["James Anderson","Keiton Page","Obi Muonelo","Marshall Moses","Fred Gulley","Ray Penn","Matt Pilgrim","Roger Franklin","Nick Sidorakis"],"rows":[[32,[4,0,1,3,2],58.38,59,64,58.38,59,64]]};

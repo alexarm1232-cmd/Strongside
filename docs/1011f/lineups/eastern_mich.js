@@ -1,0 +1,1 @@
+LINEUPS_ADD["Eastern Mich."] = {"players":["Brandon Bowdry","Jay Higgins","Jamell Harris","Antonio Green","Derek Thompson","Darrell Lampley","J.R. Sims","Adrian Burton","Kamil Janton","William Cooper","Kenny Stewart","Matt Balkema","Quintin Dailey","Jake Fosdick"],"rows":[]};

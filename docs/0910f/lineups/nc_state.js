@@ -1,0 +1,1 @@
+LINEUPS_ADD["NC State"] = {"players":["Tracy Smith","Scott Wood","Dennis Horner","Javier Gonzalez","C.J. Williams","Farnold Degand","Julius Mays","Richard Howell","Josh Davis","Jordan Vandenberg"],"rows":[[34,[2,5,3,1,0],62.71,58,57,62.71,58,57],[35,[2,5,7,1,0],66.16,52,72,56.62,32,62]]};

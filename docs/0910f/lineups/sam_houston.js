@@ -1,0 +1,1 @@
+LINEUPS_ADD["Sam Houston"] = {"players":["Corey Allmond","Ashton Mitchell","Josten Crow","Gilberto Clavell","Preston Brown","Lance Pevehouse","Drae Murray","Antuan Bootle","Marco Cooper","Arthur Zulu"],"rows":[[28,[1,0,3,2,4],74.56,59,68,74.44,59,68]]};

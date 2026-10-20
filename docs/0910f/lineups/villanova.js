@@ -1,0 +1,1 @@
+LINEUPS_ADD["Villanova"] = {"players":["Scottie Reynolds","Corey Fisher","Corey Stokes","Antonio Pena","Reggie Redding","Taylor King","Maalik Wayns","Dominic Cheek","Isaiah Armwood","Mouphtaou Yarou","Maurice Sutton"],"rows":[[31,[1,2,9,4,0],76.12,73,70,76.12,73,70],[32,[1,2,7,4,0],66.23,68,75,66.07,68,74]]};

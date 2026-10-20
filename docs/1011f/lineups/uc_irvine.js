@@ -1,0 +1,1 @@
+LINEUPS_ADD["UC Irvine"] = {"players":["Patrick Rembert","Darren Moore","Michael Wilder","Daman Starring","Eric Wise","Chris McNealy","Pavol Losonsky","Derrick Strings","Peter Simek","Emil Kim","Derick Flowers","Jonas Lalehzadeh","Adam Folker"],"rows":[]};

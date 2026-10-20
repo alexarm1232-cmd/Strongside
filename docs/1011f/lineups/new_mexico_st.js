@@ -1,0 +1,1 @@
+LINEUPS_ADD["New Mexico St."] = {"players":["Hernst Laroche","Tyrone Watson","Gordo Castillo","Troy Gillenwater","Christian Kabongo","Tshilidzi Nephawe","Bandja Sy","Hamidu Rahman","Brandon West","Renaldo Dixon","Abdoulaye N'doye","Drew Herig","Makhtar Diop"],"rows":[]};

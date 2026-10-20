@@ -1,0 +1,1 @@
+LINEUPS_ADD["Hofstra"] = {"players":["Charles Jenkins","Chaz Williams","Cornelius Vines","Halil Kanacevic","Nathaniel Lester","Greg Washington","Miklos Szabo","Yves Jules","David Imes"],"rows":[[31,[0,1,2,3,4],68.0,60,74,65.7,51,66]]};

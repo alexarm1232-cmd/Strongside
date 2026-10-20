@@ -1,0 +1,1 @@
+LINEUPS_ADD["South Dakota St."] = {"players":["Nate Wolters","Clint Sargent","Griffan Callahan","Dale Moss","Jordan Dykstra","Chad White","Tony Fiegen","Brayden Carlson","Marcus Heemstra","Payton Tivis","Aireus Stephenson","Dwight Pederson"],"rows":[]};

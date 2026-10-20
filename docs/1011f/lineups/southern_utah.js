@@ -1,0 +1,1 @@
+LINEUPS_ADD["Southern Utah"] = {"players":["Ray Jones, Jr.","Matt Massey","Ryan Brimley","Kyle Davis","Jackson Stevenett","Ramell Taylor","Jake Nielson","Damon Heuir","Jordan Weirick","Matthew Hodgson","Tyson Koehler","Brian Cameron"],"rows":[]};

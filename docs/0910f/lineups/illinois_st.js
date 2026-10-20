@@ -1,0 +1,1 @@
+LINEUPS_ADD["Illinois St."] = {"players":["Osiris Eldridge","Lloyd Phillips","Dinma Odiakosa","Alex Rubin","Tony Lewis","Jackie Carmichael","Austin Hill","Kellen Thornton","Justin Clark"],"rows":[[32,[3,2,7,1,0],65.8,42,63,58.18,38,59]]};

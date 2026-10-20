@@ -1,0 +1,1 @@
+LINEUPS_ADD["Memphis"] = {"players":["Elliot Williams","Roburt Sallie","Willie Kemp","Doneal Mack","Wesley Witherspoon","Will Coleman","Pierre Henderson-Niles"],"rows":[[32,[3,0,1,4,5],61.13,73,71,61.13,73,71],[33,[3,0,1,4,5],73.19,81,90,72.52,78,86]]};

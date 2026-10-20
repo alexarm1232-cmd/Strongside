@@ -1,0 +1,1 @@
+LINEUPS_ADD["Temple"] = {"players":["Ryan Brooks","Lavoy Allen","Luis Guzman","Juan Fernandez","Ramone Moore","Rahlir Hollis-Jefferson","Micheal Eric","Craig Williams","Scootie Randall","Tj DiLeo"],"rows":[[34,[3,1,2,4,0],59.03,65,78,54.52,59,78]]};

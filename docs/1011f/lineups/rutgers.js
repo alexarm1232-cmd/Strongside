@@ -1,0 +1,1 @@
+LINEUPS_ADD["Rutgers"] = {"players":["Mike Coburn","James Beatty","Jonathan Mitchell","Dane Miller","Gilvydas Biruta","Mike Poole","Austin Johnson","Robert Lumpkins","Austin Carroll","Charlie Rigoglioso","Mike Kuhn","Frank Mitchell","Matthew Schiff","Soo Soo Taulelei"],"rows":[]};

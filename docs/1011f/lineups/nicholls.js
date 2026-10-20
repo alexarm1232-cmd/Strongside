@@ -1,0 +1,1 @@
+LINEUPS_ADD["Nicholls"] = {"players":["Anatoly Bose","Ben Martin","Kenny Franklin, Jr.","Kellan Carter","Dantrell Thomas","Fred Hunter","Bryan Hammond","Elridge Moore","Justin Ayers","Chris Talkington","Andy Roethle","Bryson Triggs","Keelan Garrett"],"rows":[]};

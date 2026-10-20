@@ -1,0 +1,1 @@
+LINEUPS_ADD["Cincinnati"] = {"players":["Deonta Vaughn","Lance Stephenson","Yancy Gates","Rashad Bishop","Cashmere Wright","Steve Toyloy","Dion Dixon","Ibrahima Thomas","Larry Davis","Jaquon Parker","Darnell Wilks"],"rows":[[33,[0,7,9,1,2],72.41,76,62,68.16,74,55],[34,[4,10,0,7,1],69.69,66,81,67.65,59,73]]};

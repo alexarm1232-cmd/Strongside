@@ -1,0 +1,1 @@
+LINEUPS_ADD["Saint Mary's (CA)"] = {"players":["Matthew Dellavedova","Mickey McConnell","Omar Samhan","Ben Allen","Clint Steindl","Jorden Page","Mitchell Young","Wayne Hunter"],"rows":[[29,[3,4,0,1,2],62.24,80,71,60.6,78,67],[30,[3,4,0,1,2],66.23,75,68,66.07,74,68],[31,[3,4,0,1,2],57.32,49,72,38.73,25,63]]};

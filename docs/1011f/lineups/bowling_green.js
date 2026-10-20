@@ -1,0 +1,1 @@
+LINEUPS_ADD["Bowling Green"] = {"players":["Scott Thomas","Dee Brown","A'Uston Calhoun","Jordon Crawford","Danny McElroy","Luke Kraus","Joe Jakubowski","Cameron Black","Torian Oglesby","Mike Dabney","James Erger","Craig Sealey","Wiley Roberts","Anthony Henderson"],"rows":[]};

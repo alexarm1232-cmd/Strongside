@@ -1,0 +1,1 @@
+LINEUPS_ADD["St. Francis Brooklyn"] = {"players":["Akeem Bennett","Ricky Cadell","Stefan Perunicic","Dre Calloway","Akeem Johnson","Justin Newton","Matt Milk","Adam Chmielewski","Travis Nichols","Alexander Harrington","Milos Trivic","Richard Clark"],"rows":[]};

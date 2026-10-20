@@ -1,0 +1,1 @@
+LINEUPS_ADD["LMU (CA)"] = {"players":["Vernon Teel","Drew Viney","Kevin Young","Jarred DuBois","Ashley Hamilton","Larry Davis","Tim Diederichs","Given Kalipinde","Alex Osborne","LaRon Armstead","Edgar Garibay"],"rows":[[32,[4,1,3,2,0],67.64,76,86,65.55,63,81]]};

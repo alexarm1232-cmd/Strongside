@@ -1,0 +1,1 @@
+LINEUPS_ADD["Evansville"] = {"players":["Colt Ryan","Denver Holmes","James Haarsma","Kavon Lacey","Troy Taylor","Ned Cox","Clint Hopf","Pieter van Tongeren","Bryan Bouchie","Lewis Jones","Monie Hudson"],"rows":[]};

@@ -1,0 +1,1 @@
+LINEUPS_ADD["Western Ill."] = {"players":["David Nurse","Ceola Clark","James Granstra","Quenton Kirby","Matt Lander","Tommie Tyler","David Gebru","Emeka Okafor Jr.","Jelani Johnson","Abdou Niang","Arsenio Mims","Jeremy Felton"],"rows":[]};
