@@ -4329,14 +4329,16 @@ const SC_FIELD = new Set(REAL_BRACKET ? REAL_BRACKET.slots : []);
 // The Trapezoid of Excellence is Ryan Hammer's idea: title teams have a high net rating and a pace that is neither
 // too fast nor too slow, and the better the team the more pace it can get away with, so the zone widens upward. He
 // draws it by hand on KenPom's adjusted tempo and does not publish the lines, so this is Strongside's version, worked
-// out from each season's own numbers: the floor is the top 5% of net ratings; at the floor the pace window is one
-// standard deviation either side of the average pace, widening to two at the top of the chart.
+// out from each season's own numbers: the floor is the 10th-best net rating (his 2024 line sits there, leaving out
+// Creighton, 11th); at the floor the pace window is one standard deviation either side of the average pace, widening to
+// two at the top of the chart.
+const TRAP_FLOOR_RANK = 10;
 function scTrapezoid() {
   const tempos = teams.map(t => t.t).filter(v => v != null), nets = teams.map(t => t.n).filter(v => v != null).sort((a, b) => a - b);
   if (!tempos.length || !nets.length) return null;
   const mu = tempos.reduce((s, v) => s + v, 0) / tempos.length;
   const sd = Math.sqrt(tempos.reduce((s, v) => s + (v - mu) ** 2, 0) / tempos.length);
-  const floor = nets[Math.floor(0.95 * (nets.length - 1))], top = nets[nets.length - 1] + 4;
+  const floor = nets[Math.max(0, nets.length - TRAP_FLOOR_RANK)], top = nets[nets.length - 1] + 4;
   const half = n => sd * (1 + Math.max(0, Math.min(1, (n - floor) / (top - floor))));
   return { mu, sd, floor, top, corners: [[mu - sd, floor], [mu + sd, floor], [mu + 2 * sd, top], [mu - 2 * sd, top]],
            inside: t => t.n != null && t.t != null && t.n >= floor && Math.abs(t.t - mu) <= half(t.n) };
