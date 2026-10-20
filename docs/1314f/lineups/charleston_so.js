@@ -1,1 +1,1 @@
-LINEUPS_ADD["Charleston So."] = {"players":["Matt Kennedy","Sheldon Strickland","Arlon Harper","Will Saunders","Paul Gombwer","Saah Nimley","Cedrick Bowen","Alhaji Fullah","Malcolm Bernard","Ty'Quan Biting","Mitchell Deter","Bakari Copeland","Thomas Odom","Greg Dorleus"],"rows":[]};
+LINEUPS_ADD["Charleston So."] = {"players":["Matt Kennedy","Sheldon Strickland","Arlon Harper","Will Saunders","Paul Gombwer","Saah Nimley","Cedrick Bowen","Alhaji Fullah","Malcolm Bernard","Ty'Quan Biting","Mitchell Deter","Bakari Copeland","Greg Dorleus","Thomas Odom"],"rows":[]};

@@ -1,1 +1,1 @@
-SHOTS_ADD["Lehigh"] = {"players":[],"o":[],"d":[],"fives":{"players":["Dominic Parolin","Evan Taylor","Jalin Sinclair","Jeameril Wilson","Reed Fenton","Ben Li","Jake Betlow","Marques Wilson","Jakob Alamudun","Nic Lynch","Jayshen Saigal","Andrei Arion"],"rows":[]}};
+SHOTS_ADD["Lehigh"] = {"players":[],"o":[],"d":[],"fives":{"players":["Andrei Arion","Ben Li","Dominic Parolin","Jalin Sinclair","Jayshen Saigal","Reed Fenton","Evan Taylor","Nic Lynch","Jake Betlow","Marques Wilson","Jakob Alamudun","Jeameril Wilson"],"rows":[]}};

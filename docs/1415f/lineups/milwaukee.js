@@ -1,1 +1,1 @@
-LINEUPS_ADD["Milwaukee"] = {"players":["Steve McWhorter","Matt Tiby","Akeem Springs","Cody Wichmann","Justin Jordan","J.J. Panoske","Trinson White","Brett Prahl","Alex Prahl","Evan Richard","Dan Studer","Jimmy Stamas","Brock Stull","Lyle","Derek Rongstad"],"rows":[]};
+LINEUPS_ADD["Milwaukee"] = {"players":["Steve McWhorter","Matt Tiby","Akeem Springs","Cody Wichmann","Justin Jordan","J.J. Panoske","Trinson White","Brett Prahl","Alex Prahl","Evan Richard","Dan Studer","Jimmy Stamas","Brock Stull","Derek Rongstad","Lyle"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["N.C. A&T"] = {"players":["Jahnathan Lamothe","Camian Shell","Nikolaos Chitikoudis","Landon Glasper","Ryan Forrest","Efstratios Kalliontzis","Bryson Ogletree","Jalal McKie","Jason Murphy","William Felton","Jordan Martin","Julius Reese","Chanler Montgomery"],"rows":[]};
+LINEUPS_ADD["N.C. A&T"] = {"players":["Jahnathan Lamothe","Camian Shell","Nikolaos Chitikoudis","Landon Glasper","Ryan Forrest","Efstratios Kalliontzis","Bryson Ogletree","Jalal McKie","Jason Murphy","William Felton","Jordan Martin","Chanler Montgomery","Julius Reese"],"rows":[]};

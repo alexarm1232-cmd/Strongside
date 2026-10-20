@@ -1,1 +1,1 @@
-LINEUPS_ADD["Northern Colo."] = {"players":["Jonah Radebaugh","Jordan Davis","Bodie Hume","Sam Masten","Trent Harris","Kai Edwards","Jalen Sanders","Cole Bergan","Kur Jongkuch","Matej Drgon","Johnatan Reyes","Matt Johnson II","Treshon Smoots","David Jabedo"],"rows":[]};
+LINEUPS_ADD["Northern Colo."] = {"players":["Jonah Radebaugh","Jordan Davis","Bodie Hume","Sam Masten","Trent Harris","Kai Edwards","Jalen Sanders","Cole Bergan","Kur Jongkuch","Matej Drgon","Johnatan Reyes","Matt Johnson II","David Jabedo","Treshon Smoots"],"rows":[]};

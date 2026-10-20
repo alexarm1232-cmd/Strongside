@@ -1,1 +1,1 @@
-LINEUPS_ADD["App State"] = {"players":["Nathan Healy","Jay Canty","Tab Hamilton","Mike Neal","Jamaal Trice","Michael Obacha","Tevin Baskin","Chris Burgess","Brian Okam","Tommy Spagnolo","Rantavious Gilbert","Frank Eaves","Bennett Rutherford"],"rows":[]};
+LINEUPS_ADD["App State"] = {"players":["Nathan Healy","Jay Canty","Tab Hamilton","Mike Neal","Jamaal Trice","Michael Obacha","Tevin Baskin","Chris Burgess","Brian Okam","Tommy Spagnolo","Frank Eaves","Rantavious Gilbert","Bennett Rutherford"],"rows":[]};

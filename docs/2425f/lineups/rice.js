@@ -1,1 +1,1 @@
-LINEUPS_ADD["Rice"] = {"players":["Trae Broadnax","Alem Huseinovic","Caden Powell","Kellen Amos","Denver Anglin","Andrew Akuchie","Jacob Dar","Emory Lanier","Jimmy Oladokun Jr.","Aaron Powell","Trey Patterson","Jackson Peakes","George Perkins","Cole Andrews-Heitz"],"rows":[]};
+LINEUPS_ADD["Rice"] = {"players":["Trae Broadnax","Alem Huseinovic","Caden Powell","Kellen Amos","Denver Anglin","Andrew Akuchie","Jacob Dar","Emory Lanier","Jimmy Oladokun Jr.","Aaron Powell","Trey Patterson","Jackson Peakes","Cole Andrews-Heitz","George Perkins"],"rows":[]};

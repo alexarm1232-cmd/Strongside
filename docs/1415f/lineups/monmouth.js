@@ -1,1 +1,1 @@
-LINEUPS_ADD["Monmouth"] = {"players":["Justin Robinson","Deon Jones","Max Dileo","Brice Kofane","Andrew Nicholas","Chris Brady","Austin Tilghman","Zac Tillman","Collin Stewart","Josh James","Ba'Shawn Mickens","Mike DeLorenzo","Daniel Pillari"],"rows":[]};
+LINEUPS_ADD["Monmouth"] = {"players":["Justin Robinson","Deon Jones","Max Dileo","Brice Kofane","Andrew Nicholas","Chris Brady","Austin Tilghman","Zac Tillman","Collin Stewart","Josh James","Ba'Shawn Mickens","Daniel Pillari","Mike DeLorenzo"],"rows":[]};

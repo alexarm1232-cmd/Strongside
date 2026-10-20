@@ -533,6 +533,49 @@
   .quad.q2 { background: rgba(var(--good-rgb), .4); border-color: transparent; }
   .quad.q3 { background: rgba(var(--good-rgb), .14); border-color: transparent; }
   .pp-sub { color: var(--muted); font-size: 13px; padding: 0 18px 12px; }
+  /* quad records: the Quads table's record buttons, the games under them, the team page's four cards */
+  button.qrec { font: inherit; font-size: 14px; font-weight: 650; color: var(--ink); background: none; border: 1px solid var(--line);
+    border-radius: 99px; padding: 2px 10px; cursor: pointer; white-space: nowrap; }
+  button.qrec:hover, button.qrec.open { border-color: var(--accent); color: var(--accent); }
+  .qnone { color: var(--muted); }
+  tr.qrow > td { padding: 4px 8px 14px; background: var(--surface-2, transparent); }
+  .qgames { border: 1px solid var(--line); border-radius: 12px; overflow-x: auto; background: var(--surface); }
+  .qgames-h { padding: 10px 14px; font-size: 14px; display: flex; flex-wrap: wrap; align-items: center; gap: 4px 10px; }
+  .qgames-h span:last-child { color: var(--muted); font-size: 12.5px; flex-basis: 100%; }
+  .qgames table { font-size: 13.5px; }
+  .qgames .rk { color: var(--muted); font-size: 12px; display: inline-block; min-width: 24px; text-align: right; }
+  .qcards { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; padding: 4px 18px 12px; }
+  .qcard { font: inherit; display: flex; align-items: center; justify-content: center; gap: 10px; padding: 12px; border-radius: 12px;
+    border: 1px solid var(--line); background: none; color: var(--ink); cursor: pointer; }
+  .qcard b { font-size: 20px; font-weight: 750; }
+  .qcard[aria-pressed="true"] { border-color: var(--accent); box-shadow: inset 0 0 0 1px var(--accent); }
+  #tp-quadgames { padding: 0 18px 16px; }
+  .tp-scroll { overflow-x: auto; }
+  @media (max-width: 700px) { .qcards { grid-template-columns: repeat(2, 1fr); padding: 4px 12px 12px; } #tp-quadgames { padding: 0 12px 14px; } }
+  /* box score: a score you can click, and the window it opens */
+  button.boxlink { font: inherit; color: inherit; background: none; border: 0; padding: 0; cursor: pointer; text-decoration: underline;
+    text-decoration-color: var(--line); text-underline-offset: 3px; }
+  button.boxlink:hover { color: var(--accent); text-decoration-color: var(--accent); }
+  #box-modal { position: fixed; inset: 0; z-index: 100; background: rgba(0, 0, 0, .55); display: flex; align-items: flex-start; justify-content: center;
+    padding: 4vh 16px; overflow-y: auto; }
+  #box-modal[hidden] { display: none; }
+  body.box-open { overflow: hidden; }
+  .box-card { position: relative; width: min(980px, 100%); background: var(--surface); color: var(--ink); border: 1px solid var(--line);
+    border-radius: 16px; padding: 18px 0 8px; box-shadow: 0 20px 60px rgba(0, 0, 0, .35); }
+  .box-close { position: absolute; top: 8px; right: 10px; font: inherit; font-size: 26px; line-height: 1; background: none; border: 0; color: var(--muted); cursor: pointer; padding: 4px 8px; }
+  .box-close:hover { color: var(--ink); }
+  .box-head { padding: 0 48px 10px 18px; }
+  .box-score { display: flex; flex-wrap: wrap; gap: 4px 22px; font-size: 22px; font-weight: 750; }
+  .box-score span { color: var(--muted); }
+  .box-score span.w { color: var(--ink); }
+  .box-meta { color: var(--muted); font-size: 13px; margin-top: 4px; }
+  .box-scroll { overflow-x: auto; padding: 0 18px; margin-bottom: 14px; }
+  table.box td, table.box-team td { white-space: nowrap; }
+  #box-modal td.l, #box-modal th.l, #box-modal tr.grp td { text-align: left; }
+  #box-modal td.l { font-weight: 600; }
+  table.box tr.grp td { font-size: 12px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); padding-top: 10px; }
+  table.box-team { max-width: 560px; }
+  @media (max-width: 700px) { #box-modal { padding: 0; } .box-card { border-radius: 0; min-height: 100%; } .box-scroll { padding: 0 12px; } .box-head { padding: 0 48px 10px 12px; } }
   tr.total td { font-weight: 700; border-top: 2px solid var(--line); }
   table.pt { font-size: 14px; }
   table.pt tbody td { padding: 6px 7px; }
@@ -671,6 +714,7 @@
       <button data-view="ratings" aria-pressed="true">Ratings</button>
       <button data-view="factors" aria-pressed="false">Four Factors</button>
       <button data-view="roster" aria-pressed="false">Roster Makeup</button>
+      <button data-view="quads" aria-pressed="false">Quads</button>
       <button data-view="players" aria-pressed="false">Players</button>
       <button data-view="confs" aria-pressed="false">Conference Breakdowns</button>
     </div>
@@ -781,6 +825,8 @@ const VIEWS = {
   ratings: { cols: ['n', 'o', 'd', 't', 'hc', 'sos', 'sos_o', 'sos_d', 'ncsos'], groups: [['', 5], ['Strength of schedule', 3], ['Non-conf SOS', 1]], extra: 'rec' },
   factors: { cols: FACTORS, groups: [['Offense', 4], ['Defense', 4]] },
   roster:  { cols: ['exp', 'cont', 'ht', 'ht_g', 'ht_f'], groups: [['', 2], ['Height', 3]], extra: 'rec' },
+  // each team's record in Quad 1 to 4 (the four record columns come after these); a record opens its games
+  quads:   { cols: ['n', 'sos'], groups: [['', 1], ['Schedule', 1]], extra: 'rec', quads: true },
   confs:   { cols: ['n', 'o', 'd', 't', ...FACTORS], groups: [['Efficiency', 4], ['Offense', 4], ['Defense', 4]], extra: 'size', confs: true },
   // the same players with their basic per-game numbers (the switch above the Players table)
   playersBox: { cols: ['mpg', 'ppg', 'rpg', 'apg', 'spg', 'bpg', 'tpg', 'fgp', 'tpp', 'ftp'], groups: [['', 1], ['Per game', 6], ['Shooting', 3]], extra: 'cls', players: true, rankKey: 'bpm' },
@@ -788,6 +834,56 @@ const VIEWS = {
 };
 // Tables this long are slow to draw, so they are split into pages of this many rows
 const PAGE_ROWS = 500;
+
+// ---------- quads ----------
+// Quadrants by the opponent's net-rating rank and where the game was played
+const QUAD_CUTS = { H: [30, 75, 160], N: [50, 100, 200], A: [75, 135, 240] };
+const QUAD_TIP = 'Quad 1: home vs 1–30, neutral vs 1–50, away vs 1–75. Quad 2: 31–75, 51–100, 76–135. Quad 3: 76–160, 101–200, 136–240. Quad 4: everyone else.';
+const QUAD_KEYS = ['q1', 'q2', 'q3', 'q4'];
+function quadOf(opp, loc) {
+  if (!opp || !opp.rank.n) return null;
+  const cut = QUAD_CUTS[loc];
+  return opp.rank.n <= cut[0] ? 1 : opp.rank.n <= cut[1] ? 2 : opp.rank.n <= cut[2] ? 3 : 4;
+}
+const quadPill = (opp, loc) => { const q = quadOf(opp, loc); return q ? `<span class="quad q${q}">Q${q}</span>` : ''; };
+// A team's games in each quad and its record in each: { games: [[...], ...], rec: [[wins, losses], ...] }
+function teamQuads(t) {
+  if (!t.quadsCache) {
+    const games = [[], [], [], []];
+    for (const g of t.sched || []) { const q = quadOf(teamByName[g.opp], g.loc); if (q) games[q - 1].push(g); }
+    t.quadsCache = { games, rec: games.map(list => { const w = list.filter(g => g.pf > g.pa).length; return [w, list.length - w]; }) };
+  }
+  return t.quadsCache;
+}
+// Net ratings going into a game (g.nt this team's, g.no the opponent's, from the games before it) and the gap
+const netText = v => v == null ? '–' : (v > 0 ? '+' : '') + v.toFixed(1).replace('-', '−');
+function gameThen(g) {
+  const gap = g.nt != null && g.no != null ? g.nt - g.no : null;
+  return { gap, cells: `<td>${netText(g.nt)}</td><td>${netText(g.no)}</td><td><b>${netText(gap)}</b></td>` };
+}
+const thenHead = name => `<th><button disabled title="${esc(name)}’s net rating going into the game">${esc(name)} then</button></th>` +
+  `<th><button disabled title="The opponent’s net rating going into the game">Opp then</button></th>` +
+  `<th><button disabled title="${esc(name)}’s net rating minus the opponent’s, going into the game (no home court)">Gap</button></th>`;
+// The games behind one quad record
+function quadGamesTable(t, i) {
+  const list = teamQuads(t).games[i];
+  const rows = list.map(g => {
+    const opp = teamByName[g.opp], won = g.pf > g.pa;
+    return `<tr><td class="lbl">${fmtDate(g.d)}</td><td class="mid">${{ H: 'Home', A: 'Away', N: 'Neutral' }[g.loc]}</td>` +
+      `<td class="l"><span class="rk">${opp && opp.rank.n ? opp.rank.n : ''}</span> ${teamLink(g.opp, esc(g.opp))}</td>` +
+      `<td class="mid res ${won ? 'w' : 'l'}"><b>${won ? 'W' : 'L'}</b> ${scoreButton(t, t.sched.indexOf(g))}</td>${gameThen(g).cells}</tr>`;
+  }).join('');
+  const [w, l] = teamQuads(t).rec[i];
+  return `<div class="qgames"><div class="qgames-h"><span class="quad q${i + 1}">Q${i + 1}</span> <b>${esc(t.name)}</b> ${w}–${l}` +
+      `<span>${THEN_NOTE(t.name)}</span></div>` +
+    (list.length ? `<table><thead><tr><th class="l"><button disabled>Date</button></th><th class="c"><button disabled>Site</button></th>` +
+      `<th class="l"><button disabled title="Rank now, by net rating">Opponent</button></th><th class="c"><button disabled>Result</button></th>` +
+      thenHead(t.name) + `</tr></thead><tbody>${rows}</tbody></table>`
+      : `<div class="empty">No Quad ${i + 1} games.</div>`) + `</div>`;
+}
+const RATED_AFTER = 3;      // games a team needs before it has a net rating (Kenstat.RATED_AFTER)
+const THEN_NOTE = name => `“Then” is each team’s net rating going into the game, from the games before it (– until a team has played ${RATED_AFTER}). ` +
+  `Gap = ${esc(name)} minus the opponent, before home court.`;
 
 const $ = id => document.getElementById(id);
 const esc = s => String(s).replace(/[&<>"']/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
@@ -895,7 +991,7 @@ confSel.innerHTML = '<option value="">All conferences</option>' +
 // ---------- sorting ----------
 function defaultDir(key) {
   if (key === 'team' || key === 'conf' || key === 'pos' || key === 'pteam') return 1;
-  if (key === 'rec' || key === 'size' || key === 'cls') return -1;
+  if (key === 'rec' || key === 'size' || key === 'cls' || QUAD_KEYS.includes(key)) return -1;
   return STATS[key].better === 'low' ? 1 : -1;
 }
 function compare(a, b) {
@@ -909,6 +1005,10 @@ function compare(a, b) {
   if (k === 'pos') return dir * byNet;
   if (k === 'rec') return dir * (winPct(a) - winPct(b) || a.w - b.w) || byNet;
   if (k === 'size') return dir * (a.size - b.size) || byNet;
+  if (QUAD_KEYS.includes(k)) {      // most wins in that quad first, then fewest losses
+    const i = QUAD_KEYS.indexOf(k), [aw, al] = teamQuads(a).rec[i], [bw, bl] = teamQuads(b).rec[i];
+    return dir * (aw - bw || bl - al) || byNet;
+  }
   if (a[k] == null || b[k] == null) return (a[k] == null) - (b[k] == null);
   // players below the usage needed to be ranked on this column come after everyone who is ranked
   const min = STATS[k] && STATS[k].minUsg;
@@ -939,7 +1039,8 @@ function renderHead() {
   let html = '';
   if (view.groups) {
     html += `<tr class="groups"><th colspan="${lead}"></th>` +
-      view.groups.map(([name, span]) => name ? `<th class="g sep" colspan="${span}">${name}</th>` : `<th colspan="${span}"></th>`).join('') + '</tr>';
+      view.groups.map(([name, span]) => name ? `<th class="g sep" colspan="${span}">${name}</th>` : `<th colspan="${span}"></th>`).join('') +
+      (view.quads ? `<th class="g sep" colspan="${QUAD_KEYS.length}">Quad records</th>` : '') + '</tr>';
   }
   html += '<tr>' + th('pos', 'Rk', 'c', view.players ? 'Rank by box plus/minus' : 'Rank by net rating');
   if (view.players) {
@@ -952,6 +1053,7 @@ function renderHead() {
     if (view.extra === 'rec') html += th('rec', 'W–L', 'c', 'Record (sorts by win percentage)');
   }
   for (const key of view.cols) html += th(key, STATS[key].label, starts.has(key) ? 'sep' : '', STATS[key].tip);
+  if (view.quads) QUAD_KEYS.forEach((key, i) => { html += th(key, `Q${i + 1}`, 'c' + (i ? '' : ' sep'), `Quad ${i + 1} record (sorts by wins). ${QUAD_TIP} Click a record to see its games.`); });
   $('thead').innerHTML = html + '</tr>';
 }
 function statCell(row, key, sep) {
@@ -992,7 +1094,16 @@ function renderBody() {
         (view.extra === 'rec' ? `<td class="mid">${r.w}–${r.l}</td>` : '');
     }
     for (const key of view.cols) html += statCell(r, key, starts.has(key));
+    if (view.quads) {
+      const { rec } = teamQuads(r);
+      html += rec.map(([w, l], i) => `<td class="mid${i ? '' : ' sep'}">${w + l ? `<button class="qrec${state.qOpen === r.name + '|' + i ? ' open' : ''}" ` +
+        `data-qopen="${esc(r.name)}|${i}" title="Show the Quad ${i + 1} games">${w}–${l}</button>` : '<span class="qnone">–</span>'}</td>`).join('');
+    }
     html += '</tr>';
+    // the games behind a record that was clicked, in a row of their own under the team
+    if (view.quads && state.qOpen && state.qOpen.startsWith(r.name + '|')) {
+      html += `<tr class="qrow"><td colspan="${4 + view.cols.length + QUAD_KEYS.length}">${quadGamesTable(r, +state.qOpen.split('|').pop())}</td></tr>`;
+    }
   }
   const noun = view.players ? 'players' : view.confs ? 'conferences' : 'teams';
   $('tbody').innerHTML = html;
@@ -1026,6 +1137,8 @@ function render() {
     ? 'Each number is the average of the conference’s teams; small numbers rank the conferences. Click a conference to see its teams.'
     : state.view === 'roster'
     ? 'All three are weighted by minutes played. Small numbers are national ranks (1 = most experienced, most continuity, tallest).'
+    : state.view === 'quads'
+    ? `Quads go by the opponent’s net-rating rank now and where the game was played: ${QUAD_TIP} Games against teams outside Division I are in no quad. Click a record to see the games.`
     : 'Small numbers are national ranks (1 = best; for tempo, 1 = fastest; for schedule, 1 = toughest).';
   renderHead();
   renderBody();
@@ -1034,7 +1147,8 @@ function setView(v) {
   state.view = v;
   for (const b of document.querySelectorAll('.seg button')) b.setAttribute('aria-pressed', b.dataset.view === (v === 'playersBox' ? 'players' : v));
   const view = VIEWS[v];
-  const valid = ['pos', 'team', ...view.cols, ...(view.players ? ['pteam', 'cls'] : view.confs ? ['size'] : ['conf']), ...(view.extra === 'rec' ? ['rec'] : [])];
+  const valid = ['pos', 'team', ...view.cols, ...(view.players ? ['pteam', 'cls'] : view.confs ? ['size'] : ['conf']), ...(view.extra === 'rec' ? ['rec'] : []),
+                 ...(view.quads ? QUAD_KEYS : [])];
   if (!valid.includes(state.sort)) { state.sort = 'pos'; state.dir = 1; }
   state.page = 0;
   render();
@@ -1062,6 +1176,8 @@ $('thead').addEventListener('click', e => {
   render();
 });
 $('tbody').addEventListener('click', e => {
+  const open = e.target.closest('button[data-qopen]');
+  if (open) { state.qOpen = state.qOpen === open.dataset.qopen ? null : open.dataset.qopen; renderBody(); return; }
   const target = e.target.closest('[data-conf]');
   if (!target) return;
   state.conf = target.dataset.conf;
@@ -1200,7 +1316,7 @@ function playerTable(kind, cols, rows) {
 
 function renderTeam() {
   const t = teamByName[state.team];
-  if (shownTeam !== t.name) { shownTeam = t.name; teamTab = 'profile'; outPlayers = new Set(); }
+  if (shownTeam !== t.name) { shownTeam = t.name; teamTab = 'profile'; outPlayers = new Set(); teamQuad = 0; }
   const logo = t.logo ? `<img src="${esc(t.logo)}" alt="">` : '';
   const tile = (key, label) => `<div class="tp-tile"><div class="k">${label}</div><div class="v">${fmt(key, t[key])}</div>` +
     `<div class="s">${t.rank[key] ? ordinal(t.rank[key]) + ' of ' + teams.length : ''}</div>` +
@@ -1214,8 +1330,9 @@ function renderTeam() {
   const single = [['Experience', 'exp'], ['Continuity', 'cont'], ['Average height', 'ht'], ['Guard height', 'ht_g'], ['Frontcourt height', 'ht_f'],
                   ['Non-conference schedule', 'ncsos']];
 
-  let wins = 0, losses = 0, sched = '';
+  let wins = 0, losses = 0, sched = '', gi = -1;
   for (const g of t.sched) {
+    gi++;
     const won = g.pf > g.pa;
     won ? wins++ : losses++;
     const opp = teamByName[g.opp];
@@ -1224,12 +1341,14 @@ function renderTeam() {
     sched += `<tr><td class="lbl">${fmtDate(g.d)}</td><td class="mid"${g.arena ? ` title="${esc(g.arena)}"` : ''}>${{ H: 'Home', A: 'Away', N: 'Neutral' }[g.loc]}</td>` +
       `<td class="l"><span class="opp"><span class="rk">${opp && opp.rank.n ? opp.rank.n : ''}</span><span class="badge"${oppLogo ? '' : ' style="visibility:hidden"'}>${oppLogo}</span>${teamLink(g.opp, esc(g.opp))}</span></td>` +
       `<td class="mid">${quadPill(opp, g.loc)}</td>` +
-      `<td class="mid res ${won ? 'w' : 'l'}"><b>${won ? 'W' : 'L'}</b> ${g.pf}–${g.pa}</td><td class="mid">${wins}–${losses}</td>` +
+      `<td class="mid res ${won ? 'w' : 'l'}"><b>${won ? 'W' : 'L'}</b> ${scoreButton(t, gi)}</td><td class="mid">${wins}–${losses}</td>` +
       `<td>${g.poss.toFixed(0)}</td>` +
       `<td>${cellHtml(off.toFixed(1), clamp01(0.5 + (off - AVG_EFF) / 70))}</td>` +
       `<td>${cellHtml(def.toFixed(1), clamp01(0.5 - (def - AVG_EFF) / 70))}</td>` +
-      `<td>${cellHtml((off - def > 0 ? '+' : '') + (off - def).toFixed(1).replace('-', '−'), clamp01(0.5 + (off - def) / 80))}</td></tr>`;
+      `<td>${cellHtml((off - def > 0 ? '+' : '') + (off - def).toFixed(1).replace('-', '−'), clamp01(0.5 + (off - def) / 80))}</td>` +
+      gameThen(g).cells + `</tr>`;
   }
+  const quadRec = teamQuads(t).rec;
 
   const roster = allPlayers.filter(p => p.team === t.name);
   $('team-view').innerHTML =
@@ -1257,12 +1376,16 @@ function renderTeam() {
       `<div class="seg" role="group" aria-label="Detail" style="margin-left:auto"><button data-playview="basic">Basic</button><button data-playview="advanced">Advanced</button></div>` +
       `<div class="seg" role="group" aria-label="Side of the ball" style="margin-left:0"><button data-shotside="o">Offense</button><button data-shotside="d">Defense</button></div></div>` +
       `<div id="tp-plays"></div></div>` +
+    `<div class="card tp-card"><h3>Quad records<span>by the opponent’s rank now and where the game was played; click one to see its games</span></h3>` +
+      `<div class="qcards">${quadRec.map(([w, l], i) => `<button class="qcard" data-tquad="${i}" aria-pressed="${i === teamQuad}"><span class="quad q${i + 1}">Q${i + 1}</span><b>${w}–${l}</b></button>`).join('')}</div>` +
+      `<div class="pp-sub">${QUAD_TIP} Games against teams outside Division I are in no quad.</div><div id="tp-quadgames">${quadGamesTable(t, teamQuad)}</div></div>` +
     `<div class="card tp-card"><h3>Schedule<span>${t.sched.length} games · efficiency is points per 100 possessions in that game</span></h3>` +
+      `<div class="pp-sub">${THEN_NOTE(t.name)}</div><div class="tp-scroll">` +
       `<table><thead><tr><th class="l"><button disabled>Date</button></th><th class="c"><button disabled>Site</button></th>` +
       `<th class="l"><button disabled>Opponent</button></th><th class="c"><button disabled title="${QUAD_TIP}">Quad</button></th>` +
       `<th class="c"><button disabled>Result</button></th><th class="c"><button disabled>Record</button></th>` +
       `<th><button disabled>Poss</button></th><th><button disabled>Off</button></th><th><button disabled>Def</button></th><th><button disabled>Net</button></th>` +
-      `</tr></thead><tbody>${sched}</tbody></table></div>` +
+      thenHead(t.name) + `</tr></thead><tbody>${sched}</tbody></table></div></div>` +
     `<div class="card tp-card"><div class="tp-bar"><h3>Players<span id="tp-note"></span></h3>` +
       `<div class="seg" role="group" aria-label="Player stats"><button data-ptab="box">Per game</button><button data-ptab="adv">Advanced</button></div></div>` +
       `<div id="tp-players"></div></div>` +
@@ -1756,6 +1879,7 @@ function drawPlayerShots(p, t) {
 // ---------- "without a player" ----------
 let shownTeam = null;
 let teamTab = 'profile';        // 'profile' or 'without'
+let teamQuad = 0;               // which quad's games show on the team page (0 = Quad 1)
 let outPlayers = new Set();     // names picked as unavailable
 window.LINEUPS = {};
 const lineupRequests = {};
@@ -1947,15 +2071,6 @@ function renderPlayers() {
 }
 
 // ---------- player page ----------
-// Quadrants by the opponent's net-rating rank and where the game was played
-const QUAD_CUTS = { H: [30, 75, 160], N: [50, 100, 200], A: [75, 135, 240] };
-const QUAD_TIP = 'Quad 1: home vs 1–30, neutral vs 1–50, away vs 1–75. Quad 2: 31–75, 51–100, 76–135. Quad 3: 76–160, 101–200, 136–240. Quad 4: everyone else.';
-function quadOf(opp, loc) {
-  if (!opp || !opp.rank.n) return null;
-  const cut = QUAD_CUTS[loc];
-  return opp.rank.n <= cut[0] ? 1 : opp.rank.n <= cut[1] ? 2 : opp.rank.n <= cut[2] ? 3 : 4;
-}
-const quadPill = (opp, loc) => { const q = quadOf(opp, loc); return q ? `<span class="quad q${q}">Q${q}</span>` : ''; };
 
 // Each team's game logs sit in their own file and are fetched the first time one of its players is opened
 window.GAMELOGS = {};
@@ -1967,6 +2082,115 @@ function loadGameLog(team) {
 }
 // A game log row is [game number, started, min, pts, reb, ast, stl, blk, to, pf, fgm, fga, 3pm, 3pa, ftm, fta]
 const madeOf = (m, a) => `${m}–${a}`;
+
+// ---------- box score of one game ----------
+// Built from both teams' game log files (each player's line in the game); the opponent's own schedule entry for the
+// game is the one on the same date against this team. Rebounds and turnovers credited to the team rather than a
+// player are not in the player lines, so the totals are the players' totals.
+const scoreButton = (t, i) => { const g = t.sched[i]; return `<button class="boxlink" data-box="${esc(t.name)}|${i}" title="Box score">${g.pf}–${g.pa}</button>`; };
+function boxSide(team, index) {
+  if (!team || index < 0) return Promise.resolve(null);
+  return loadGameLog(team).then(logs => {
+    const lines = [];
+    for (const [name, entry] of Object.entries(logs)) {
+      const r = (entry.log || []).find(row => row[0] === index);
+      if (r) lines.push([name, r]);
+    }
+    lines.sort((a, b) => b[1][1] - a[1][1] || b[1][2] - a[1][2]);      // starters first, then by minutes
+    return lines;
+  }).catch(() => null);
+}
+function boxTotals(lines) {
+  const sum = i => lines.reduce((s, [, r]) => s + r[i], 0);
+  return { min: sum(2), pts: sum(3), reb: sum(4), ast: sum(5), stl: sum(6), blk: sum(7), to: sum(8), pf: sum(9),
+           fgm: sum(10), fga: sum(11), tpm: sum(12), tpa: sum(13), ftm: sum(14), fta: sum(15) };
+}
+function boxTable(team, name, lines) {
+  if (!lines || !lines.length) return `<div class="empty">No player lines for ${esc(name)}${team ? '' : ' (not a Division I team)'}.</div>`;
+  const tot = boxTotals(lines);
+  const head = ['Min', 'Pts', 'Reb', 'Ast', 'Stl', 'Blk', 'TO', 'PF', 'FG', '3PT', 'FT'].map(h => `<th><button disabled>${h}</button></th>`).join('');
+  const minutes = v => Number.isInteger(v) ? v : v.toFixed(1);
+  const row = ([n, r]) => `<tr${r[1] ? ' class="starter"' : ''}><td class="l">${team ? playerLink({ team: team.name, name: n }) : esc(n)}</td>` +
+    `<td>${minutes(r[2])}</td>` + [3, 4, 5, 6, 7, 8, 9].map(i => `<td>${r[i]}</td>`).join('') +
+    `<td>${madeOf(r[10], r[11])}</td><td>${madeOf(r[12], r[13])}</td><td>${madeOf(r[14], r[15])}</td></tr>`;
+  const starters = lines.filter(l => l[1][1]), bench = lines.filter(l => !l[1][1]);
+  return `<table class="pt box"><thead><tr><th class="l"><button disabled>${esc(name)}</button></th>${head}</tr></thead><tbody>` +
+    (starters.length ? `<tr class="grp"><td colspan="12">Starters</td></tr>` + starters.map(row).join('') : '') +
+    (bench.length ? `<tr class="grp"><td colspan="12">Bench</td></tr>` + bench.map(row).join('') : '') +
+    `<tr class="total"><td class="l">Totals</td><td>${Math.round(tot.min)}</td><td>${tot.pts}</td><td>${tot.reb}</td><td>${tot.ast}</td><td>${tot.stl}</td>` +
+    `<td>${tot.blk}</td><td>${tot.to}</td><td>${tot.pf}</td><td>${madeOf(tot.fgm, tot.fga)}</td><td>${madeOf(tot.tpm, tot.tpa)}</td><td>${madeOf(tot.ftm, tot.fta)}</td></tr>` +
+    `</tbody></table>`;
+}
+// The two teams' numbers side by side
+function boxTeamStats(t, g, mine, theirs) {
+  const a = mine && mine.length ? boxTotals(mine) : null, b = theirs && theirs.length ? boxTotals(theirs) : null;
+  const pct = (m, n) => n ? (100 * m / n).toFixed(1) + '%' : '–';
+  const per = (v, poss) => poss ? (100 * v / poss).toFixed(1) : '–';
+  const lines = [
+    ['Points', g.pf, g.pa],
+    ['Possessions', g.poss.toFixed(0), g.poss.toFixed(0)],
+    ['Points per 100 possessions', per(g.pf, g.poss), per(g.pa, g.poss)],
+    ['Net rating going in', netText(g.nt), netText(g.no)],
+    ['FG', a ? `${madeOf(a.fgm, a.fga)} (${pct(a.fgm, a.fga)})` : '–', b ? `${madeOf(b.fgm, b.fga)} (${pct(b.fgm, b.fga)})` : '–'],
+    ['3PT', a ? `${madeOf(a.tpm, a.tpa)} (${pct(a.tpm, a.tpa)})` : '–', b ? `${madeOf(b.tpm, b.tpa)} (${pct(b.tpm, b.tpa)})` : '–'],
+    ['FT', a ? `${madeOf(a.ftm, a.fta)} (${pct(a.ftm, a.fta)})` : '–', b ? `${madeOf(b.ftm, b.fta)} (${pct(b.ftm, b.fta)})` : '–'],
+    ['Effective FG%', a ? pct(a.fgm + 0.5 * a.tpm, a.fga) : '–', b ? pct(b.fgm + 0.5 * b.tpm, b.fga) : '–'],
+    ['Turnover %', a ? pct(a.to, g.poss) : '–', b ? pct(b.to, g.poss) : '–'],
+    ['Free throw rate (FTA per FGA)', a ? pct(a.fta, a.fga) : '–', b ? pct(b.fta, b.fga) : '–'],
+    ['Rebounds', a ? a.reb : '–', b ? b.reb : '–'],
+    ['Assists', a ? a.ast : '–', b ? b.ast : '–'],
+    ['Steals', a ? a.stl : '–', b ? b.stl : '–'],
+    ['Blocks', a ? a.blk : '–', b ? b.blk : '–'],
+    ['Turnovers', a ? a.to : '–', b ? b.to : '–'],
+    ['Fouls', a ? a.pf : '–', b ? b.pf : '–'],
+  ];
+  return `<table class="pt box-team"><thead><tr><th class="l"><button disabled>Team stats</button></th><th><button disabled>${esc(t.name)}</button></th>` +
+    `<th><button disabled>${esc(g.opp)}</button></th></tr></thead><tbody>` +
+    lines.map(([label, x, y]) => `<tr><td class="l">${label}</td><td>${x}</td><td>${y}</td></tr>`).join('') + `</tbody></table>`;
+}
+function openBox(teamName, index) {
+  const t = teamByName[teamName], g = t && t.sched[index];
+  if (!g) return;
+  const opp = teamByName[g.opp];
+  const oppIndex = opp ? opp.sched.findIndex(x => x.d === g.d && x.opp === t.name) : -1;
+  let modal = $('box-modal');
+  if (!modal) {
+    modal = document.createElement('div');
+    modal.id = 'box-modal';
+    modal.innerHTML = `<div class="box-card" role="dialog" aria-modal="true" aria-label="Box score"><button class="box-close" aria-label="Close">×</button><div id="box-body"></div></div>`;
+    document.body.appendChild(modal);
+    modal.addEventListener('click', e => { if (e.target === modal || e.target.closest('.box-close') || e.target.closest('a.tlink')) closeBox(); });
+  }
+  const won = g.pf > g.pa, site = { H: `at ${esc(t.name)}`, A: `at ${esc(g.opp)}`, N: 'neutral floor' }[g.loc];
+  $('box-body').innerHTML = `<div class="box-head"><div class="box-score"><span class="${won ? 'w' : ''}">${esc(t.name)} ${g.pf}</span>` +
+      `<span class="${won ? '' : 'w'}">${esc(g.opp)} ${g.pa}</span></div>` +
+      `<div class="box-meta">${fmtDate(g.d)} · ${site}${g.arena ? ' · ' + esc(g.arena) : ''} · ${quadPill(opp, g.loc)}</div></div>` +
+    `<div class="empty">Loading box score…</div>`;
+  modal.hidden = false;
+  document.body.classList.add('box-open');
+  const shown = teamName + '|' + index;
+  modal.dataset.game = shown;
+  Promise.all([boxSide(t, index), boxSide(opp, oppIndex)]).then(([mine, theirs]) => {
+    if (modal.dataset.game !== shown || modal.hidden) return;
+    $('box-body').querySelector('.empty').outerHTML =
+      `<div class="box-scroll">${boxTeamStats(t, g, mine, theirs)}</div>` +
+      `<div class="box-scroll">${boxTable(t, t.name, mine)}</div><div class="box-scroll">${boxTable(opp, g.opp, theirs)}</div>` +
+      `<div class="pp-sub">Totals are the players’ own; rebounds and turnovers credited only to the team are not in them. Net rating going in is from the games before this one.</div>`;
+  });
+}
+function closeBox() {
+  const modal = $('box-modal');
+  if (modal) { modal.hidden = true; modal.dataset.game = ''; }
+  document.body.classList.remove('box-open');
+}
+document.addEventListener('click', e => {
+  const b = e.target.closest('button[data-box]');
+  if (!b) return;
+  e.stopPropagation();
+  const at = b.dataset.box.lastIndexOf('|');
+  openBox(b.dataset.box.slice(0, at), +b.dataset.box.slice(at + 1));
+}, true);
+document.addEventListener('keydown', e => { if (e.key === 'Escape' && document.body.classList.contains('box-open')) closeBox(); });
 function averageRow(label, rows, cls) {
   if (!rows.length) return `<tr class="${cls || ''}"><td class="l">${label}</td><td>0</td>` + '<td>–</td>'.repeat(11) + '</tr>';
   const sum = i => rows.reduce((total, r) => total + r[i], 0);
@@ -2019,7 +2243,7 @@ function renderPlayer() {
       const oppLogo = opp && opp.logo ? `<img src="${esc(opp.logo)}" alt="" loading="lazy">` : '';
       games += `<tr><td class="lbl">${fmtDate(g.d)}</td><td class="mid"${g.arena ? ` title="${esc(g.arena)}"` : ''}>${{ H: 'Home', A: 'Away', N: 'Neutral' }[g.loc]}</td>` +
         `<td class="l"><span class="opp"><span class="rk">${opp && opp.rank.n ? opp.rank.n : ''}</span><span class="badge"${oppLogo ? '' : ' style="visibility:hidden"'}>${oppLogo}</span>${teamLink(g.opp, esc(g.opp))}</span></td>` +
-        `<td class="mid">${quadPill(opp, g.loc)}</td><td class="mid res ${won ? 'w' : 'l'}"><b>${won ? 'W' : 'L'}</b> ${g.pf}–${g.pa}</td>` +
+        `<td class="mid">${quadPill(opp, g.loc)}</td><td class="mid res ${won ? 'w' : 'l'}"><b>${won ? 'W' : 'L'}</b> ${scoreButton(t, r[0])}</td>` +
         `<td class="mid">${r[1] ? 'Yes' : ''}</td>` + [2, 3, 4, 5, 6, 7, 8, 9].map(i => `<td>${r[i]}</td>`).join('') +
         `<td>${madeOf(r[10], r[11])}</td><td>${madeOf(r[12], r[13])}</td><td>${madeOf(r[14], r[15])}</td></tr>`;
     }
@@ -3716,7 +3940,8 @@ const GUIDE = [
     ['SOS|Strength of schedule', 'The net rating of a team that would win half its games against this schedule.', 'Shown on the ratings table; its offense and defense halves adjust the play-type numbers.', 'Puts a record in context and lets play types be corrected for the opponents faced.'],
     ['SOS ORtg / DRtg', 'The average offensive and defensive rating of the opponents faced.', 'A team’s points on each play type are scaled by how the defenses it faced compare with average.', 'Scoring 1.1 a play against top defenses is better than 1.1 against poor ones.'],
     ['Non-conf SOS', 'The same schedule measure, counting only games outside the conference.', 'Shown on the ratings table.', 'The non-conference schedule is the part a team chooses.'],
-    ['Record and quadrants', 'Wins and losses, and the record split into Quad 1 to 4 by the opponent’s rank and where the game was played.', 'Shown on team pages; player stats are also split by quadrant.', 'Shows whether a team or player did it against good opponents.'],
+    ['Record and quadrants', 'Wins and losses, and the record split into Quad 1 to 4 by the opponent’s rank and where the game was played.', 'The Quads table and team pages, where each record opens its games; player stats are also split by quadrant.', 'Shows whether a team or player did it against good opponents.'],
+    ['Net rating then|and the gap', 'Both teams’ net ratings going into a game, worked out again each game day from only the games before it (a team needs 3 games first), and the gap between them.', 'Every game on the team pages and in the quad lists, for spotting upsets.', 'The ratings at the end of the season know how things turned out; to judge a result, it has to be set against how the teams looked when they played.'],
   ]],
   ['Four factors', 'Why an offense or defense is good. Each is shown for the team and for its opponents.', [
     ['eFG%|Effective field goal %', 'Field goal percentage with a made three counting 1.5.', 'Explains a rating; the simulator’s shot-making is checked against it.', 'Plain field goal percentage treats a three and a two as the same make.'],
@@ -4332,6 +4557,13 @@ $('team-view').addEventListener('click', e => {
   if (playViewButton) { playView = playViewButton.dataset.playview; renderTeamShots(); return; }
   const sideButton = e.target.closest('button[data-shotside]');
   if (sideButton) { shotSide = sideButton.dataset.shotside; renderTeamShots(); return; }
+  const quadButton = e.target.closest('button[data-tquad]');
+  if (quadButton) {
+    teamQuad = +quadButton.dataset.tquad;
+    for (const b of document.querySelectorAll('#team-view button[data-tquad]')) b.setAttribute('aria-pressed', +b.dataset.tquad === teamQuad);
+    $('tp-quadgames').innerHTML = quadGamesTable(teamByName[state.team], teamQuad);
+    return;
+  }
   const teamTabButton = e.target.closest('button[data-ttab]');
   if (teamTabButton) { teamTab = teamTabButton.dataset.ttab; showTeamTab(); return; }
   const pick = e.target.closest('button[data-out]');

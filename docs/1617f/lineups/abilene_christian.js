@@ -1,1 +1,1 @@
-LINEUPS_ADD["Abilene Christian"] = {"players":["Jaren Lewis","Jaylen Franklin","Isaiah Tripp","Drake Green","Jalone Friday","Hayden Howell","Hayden Farquhar","Payten Ricks","Jovan Crnic","Trey Lenox","Diamante Langston","B.J. Maxwell","Jadon Reynolds"],"rows":[]};
+LINEUPS_ADD["Abilene Christian"] = {"players":["Jaren Lewis","Jaylen Franklin","Isaiah Tripp","Drake Green","Jalone Friday","Hayden Howell","Hayden Farquhar","Payten Ricks","Jovan Crnic","Diamante Langston","Trey Lenox","B.J. Maxwell","Jadon Reynolds"],"rows":[]};

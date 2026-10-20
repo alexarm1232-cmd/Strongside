@@ -1,1 +1,1 @@
-LINEUPS_ADD["Campbell"] = {"players":["Reco McCarter","Andrew Ryan","Leek Leek","Darius Leonard","Quinton Ray","Kyre' Hamer","Antwon Oliver","Luke Moyer","D.J. Mason","Marvelle Harris","Casey Perrin","Antonio Kalpic","Lance Brown","Jordan Faciane"],"rows":[]};
+LINEUPS_ADD["Campbell"] = {"players":["Reco McCarter","Andrew Ryan","Leek Leek","Darius Leonard","Quinton Ray","Kyre' Hamer","Antwon Oliver","Luke Moyer","D.J. Mason","Marvelle Harris","Casey Perrin","Antonio Kalpic","Jordan Faciane","Lance Brown"],"rows":[]};

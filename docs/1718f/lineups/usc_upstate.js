@@ -1,1 +1,1 @@
-LINEUPS_ADD["USC Upstate"] = {"players":["Mike Cunningham","Ramel Thompkins","Malik Moore","Jure Span","Deion Holmes","Carson Smith","Avery Diggs","Isaiah Anderson","Thomas Booker","Pat Welch","Yeskin Walker-Williams","Austin Nelson"],"rows":[]};
+LINEUPS_ADD["USC Upstate"] = {"players":["Mike Cunningham","Ramel Thompkins","Malik Moore","Jure Span","Deion Holmes","Carson Smith","Avery Diggs","Isaiah Anderson","Thomas Booker","Pat Welch","Austin Nelson","Yeskin Walker-Williams"],"rows":[]};

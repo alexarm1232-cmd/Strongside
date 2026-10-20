@@ -1,1 +1,1 @@
-LINEUPS_ADD["Northern Ariz."] = {"players":["Bernie Andre","Carlos Hines","Cam Shelton","Luke Avdalovic","Brooks DeBisschop","Ted McCree","Nik Mains","Davon Bolton","Chris Bowling","Isaiah Thomas","Aziz Seck","Malcolm Allen","Jojo Anderson","Karl Harris","Jonathan Andre"],"rows":[]};
+LINEUPS_ADD["Northern Ariz."] = {"players":["Bernie Andre","Carlos Hines","Cam Shelton","Luke Avdalovic","Brooks DeBisschop","Ted McCree","Nik Mains","Davon Bolton","Chris Bowling","Isaiah Thomas","Aziz Seck","Malcolm Allen","Jojo Anderson","Jonathan Andre","Karl Harris"],"rows":[]};

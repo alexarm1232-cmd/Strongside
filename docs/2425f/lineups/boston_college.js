@@ -1,1 +1,1 @@
-LINEUPS_ADD["Boston College"] = {"players":["Donald Hand Jr.","Dion Brown","Chad Venning","Roger McFarlane","Elijah Strong","Chas Kelley III","Joshua Beadle","Fred Payne","Jayden Hastings","Luka Toews","Kany Tchanda","Ethan Soares Rodriguez","Will Eggemeier","Jack DiDonna"],"rows":[]};
+LINEUPS_ADD["Boston College"] = {"players":["Donald Hand Jr.","Dion Brown","Chad Venning","Roger McFarlane","Elijah Strong","Chas Kelley III","Joshua Beadle","Fred Payne","Jayden Hastings","Luka Toews","Kany Tchanda","Ethan Soares Rodriguez","Jack DiDonna","Will Eggemeier"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["Louisiana Tech"] = {"players":["Amorie Archibald","Anthony Duruji","Daquan Bracey","Jacolby Pemberton","Oliver Powell","Ra'Shawn Langston","Mo Muhammed","Derric Jean","Stacey Thomas","Exavian Christon","Kyle McKinley","Kale Walters"],"rows":[]};
+LINEUPS_ADD["Louisiana Tech"] = {"players":["Amorie Archibald","Anthony Duruji","Daquan Bracey","Jacolby Pemberton","Oliver Powell","Ra'Shawn Langston","Mo Muhammed","Derric Jean","Stacey Thomas","Exavian Christon","Kale Walters","Kyle McKinley"],"rows":[]};

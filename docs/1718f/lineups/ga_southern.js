@@ -1,1 +1,1 @@
-LINEUPS_ADD["Ga. Southern"] = {"players":["Tookie Brown","Mike Hughes","Jake Allsmiller","Montae Glenn","Ike Smith","Quan Jackson","Shawn O'Connell","Coye Simmons","B.J. Gladden","David-Lee Jones Jr.","Jared Hamilton","Tione Jones","Dede Reynolds"],"rows":[]};
+LINEUPS_ADD["Ga. Southern"] = {"players":["Tookie Brown","Mike Hughes","Jake Allsmiller","Montae Glenn","Ike Smith","Quan Jackson","Shawn O'Connell","Coye Simmons","B.J. Gladden","David-Lee Jones Jr.","Jared Hamilton","Dede Reynolds","Tione Jones"],"rows":[]};

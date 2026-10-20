@@ -1,1 +1,1 @@
-LINEUPS_ADD["Syracuse"] = {"players":["JJ Starling","Judah Mintz","Maliq Brown","Chris Bell","Justin Taylor","Quadir Copeland","Benny Williams","Kyle Cuffe Jr.","Naheem McLeod","Peter Carey","Mounir Hima","Niko Ruffin","Anthony Clayton"],"rows":[]};
+LINEUPS_ADD["Syracuse"] = {"players":["JJ Starling","Judah Mintz","Maliq Brown","Chris Bell","Justin Taylor","Quadir Copeland","Benny Williams","Kyle Cuffe Jr.","Naheem McLeod","Peter Carey","Mounir Hima","Anthony Clayton","Niko Ruffin"],"rows":[]};

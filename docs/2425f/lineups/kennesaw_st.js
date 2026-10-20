@@ -1,1 +1,1 @@
-LINEUPS_ADD["Kennesaw St."] = {"players":["Adrian Wooley","Simeon Cottle","Braedan Lue","Rongie Gordon","Jamil Miller","Frankquon Sherman","Ricardo Wright","Delaney Heard","Andre Weir","Ramone Seals","Mekhi Turner","Eric Holland","Charles Stone","Dozie Onyirimba"],"rows":[]};
+LINEUPS_ADD["Kennesaw St."] = {"players":["Adrian Wooley","Simeon Cottle","Braedan Lue","Rongie Gordon","Jamil Miller","Frankquon Sherman","Ricardo Wright","Delaney Heard","Andre Weir","Ramone Seals","Mekhi Turner","Charles Stone","Eric Holland","Dozie Onyirimba"],"rows":[]};

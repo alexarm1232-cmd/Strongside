@@ -1,1 +1,1 @@
-LINEUPS_ADD["UCF"] = {"players":["A.J. Davis","Terrell Allen","Dayon Griffin","Ceasar DeJesus","Chad Brown","B.J. Taylor","Tacko Fall","Djordjije Mumin","Chance McSpadden","Rokas Ulvydas","Myles Douglas","Nathan Laing"],"rows":[]};
+LINEUPS_ADD["UCF"] = {"players":["A.J. Davis","Terrell Allen","Ceasar DeJesus","Dayon Griffin","Chad Brown","B.J. Taylor","Tacko Fall","Djordjije Mumin","Chance McSpadden","Rokas Ulvydas","Myles Douglas","Nathan Laing"],"rows":[]};

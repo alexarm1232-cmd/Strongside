@@ -1,1 +1,1 @@
-LINEUPS_ADD["Rhode Island"] = {"players":["Luis Kortright","Jaden House","Zek Montgomery","Cam Estevez","David Fuchs","Tyson Brown","Brandon Weston","David Green","Always Wright","Jeremy Foumena","Connor Dubsky","Josaphat Bilau","Rory Stewart","Jimmy Ball"],"rows":[]};
+LINEUPS_ADD["Rhode Island"] = {"players":["Luis Kortright","Jaden House","Zek Montgomery","Cam Estevez","David Fuchs","Brandon Weston","Tyson Brown","David Green","Always Wright","Jeremy Foumena","Connor Dubsky","Josaphat Bilau","Rory Stewart","Jimmy Ball"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["Green Bay"] = {"players":["Noah Reynolds","Elijah Jones","Preston Ruedinger","Marcus Hall","Foster Wonders","David Douglas Jr.","Rich Byhre","Clarence Cummings III","Will Eames","Ryan Wade","Amari Jedkins","Jacob Antchak"],"rows":[]};
+LINEUPS_ADD["Green Bay"] = {"players":["Noah Reynolds","Elijah Jones","Preston Ruedinger","Marcus Hall","Foster Wonders","David Douglas Jr.","Clarence Cummings III","Rich Byhre","Will Eames","Ryan Wade","Amari Jedkins","Jacob Antchak"],"rows":[]};

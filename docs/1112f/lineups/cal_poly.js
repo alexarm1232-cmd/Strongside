@@ -1,1 +1,1 @@
-LINEUPS_ADD["Cal Poly"] = {"players":["David Hanson","Amaurys Fermin","Dylan Royer","Will Taylor","Chris Eversley","Drake U'u","Will Donahue","Jamal Johnson","Maliik Love","Jordan Lewis","Kyle Odister","Matt Titchenal","Joel Awich","Chris Obrien"],"rows":[]};
+LINEUPS_ADD["Cal Poly"] = {"players":["David Hanson","Amaurys Fermin","Dylan Royer","Will Taylor","Chris Eversley","Drake U'u","Will Donahue","Jamal Johnson","Maliik Love","Jordan Lewis","Kyle Odister","Matt Titchenal","Chris Obrien","Joel Awich"],"rows":[]};

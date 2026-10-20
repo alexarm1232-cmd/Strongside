@@ -1,1 +1,1 @@
-LINEUPS_ADD["VMI"] = {"players":["Bubba Parham","Austin Vereen","Keith Smith","Garrett Gilkeson","Tyler Creammer","Fred Iruafemi","Jordan Ratliffe","Will Miller","Greg Parham II","Sarju Patel","Myles Lewis","Tragen Fahl","Ta'Vonne Bond"],"rows":[]};
+LINEUPS_ADD["VMI"] = {"players":["Bubba Parham","Austin Vereen","Keith Smith","Garrett Gilkeson","Tyler Creammer","Fred Iruafemi","Jordan Ratliffe","Will Miller","Greg Parham II","Sarju Patel","Myles Lewis","Ta'Vonne Bond","Tragen Fahl"],"rows":[]};

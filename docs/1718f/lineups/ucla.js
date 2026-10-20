@@ -1,1 +1,1 @@
-LINEUPS_ADD["UCLA"] = {"players":["Aaron Holiday","Thomas Welsh","Kris Wilkes","Gyorgy Goloman","Jaylen Hands","Prince Ali","Alex Olesinski","Chris Smith","Ikenna Okwarabizie","Alec Wulff","Isaac Wulff","Joseph Wallace","Armani Dodson","Cody Riley"],"rows":[]};
+LINEUPS_ADD["UCLA"] = {"players":["Aaron Holiday","Thomas Welsh","Kris Wilkes","Gyorgy Goloman","Jaylen Hands","Prince Ali","Alex Olesinski","Chris Smith","Ikenna Okwarabizie","Alec Wulff","Armani Dodson","Isaac Wulff","Joseph Wallace","Cody Riley"],"rows":[]};

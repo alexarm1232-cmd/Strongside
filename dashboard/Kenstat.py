@@ -280,6 +280,102 @@ def get_efficiency_ratings(root_folder, iterations=30):
     return stats_output
 
 # ---------------------------
+# NET RATINGS GOING INTO EACH GAME
+# ---------------------------
+# The same ratings, worked out again the morning of each game day from the games played before it, so a game can be
+# judged by how good both teams looked at the time. A team needs RATED_AFTER games before it gets a number. Each day
+# starts from the day before's ratings, so a few passes are enough.
+RATED_AFTER = 3
+DAILY_PASSES = 6
+
+def nets_before_games(root_folder):
+    """game file name -> {team name (no trailing dots): its net rating going into that game, or None while it has
+    too few games}. Uses the home edges set by measure_home_court, as the final ratings do."""
+    dates = {}
+    for root, dirs, files in os.walk(root_folder):
+        if 'game_scores.json' in files:
+            try:
+                with open(os.path.join(root, 'game_scores.json'), 'r', encoding='utf-8') as open_f:
+                    for g in json.load(open_f):
+                        dates.setdefault(str(g['game_id']), g['date'])
+            except: continue
+    home_teams = load_home_teams(root_folder)
+    by_day = defaultdict(list)      # date -> [(game id, (team, opp, raw_o, raw_d) for each side, pts, poss)]
+    for root, dirs, files in os.walk(root_folder):
+        if root.split(os.sep)[-1].lower() != 'boxscores': continue
+        for f in files:
+            if not f.endswith('.json'): continue
+            try:
+                with open(os.path.join(root, f), 'r', encoding='utf-8') as open_f:
+                    data = json.load(open_f)
+                g_id = f[:-5]       # the file name, as the schedules on the team pages use
+                date = dates.get(g_id) or dates.get(str(data.get('game_id') or '').strip())
+                if not date: continue
+                t0, t1 = data['teams'][0], data['teams'][1]
+                n0, n1 = t0['team_name'].rstrip('. '), t1['team_name'].rstrip('. ')
+                s0, s1 = t0['team_totals'], t1['team_totals']
+                poss0 = parse_attempts(s0['FG']) - s0['OREB'] + s0['TO'] + 0.475 * parse_attempts(s0['FT'])
+                poss1 = parse_attempts(s1['FG']) - s1['OREB'] + s1['TO'] + 0.475 * parse_attempts(s1['FT'])
+                poss = (poss0 + poss1) / 2
+                eff0, eff1 = s0['PTS'] / poss * 100, s1['PTS'] / poss * 100
+                home = home_teams.get(f[:-5])
+                h0 = h1 = 0
+                if home == n0: h0, h1 = home_edge(home), -home_edge(home)
+                elif home == n1: h0, h1 = -home_edge(home), home_edge(home)
+                by_day[date].append((g_id, [(n0, n1, eff0 - h0, eff1 - h1), (n1, n0, eff1 - h1, eff0 - h0)], s0['PTS'] + s1['PTS'], poss0 + poss1))
+            except: continue
+
+    perfs, counts, adj_o, adj_d = [], defaultdict(int), {}, {}
+    total_pts = total_poss = 0
+    league_avg = 100.0
+    out = {}
+    for date in sorted(by_day):
+        # the morning of the game day: what the ratings said, from the games before it
+        for g_id, sides, _, _ in by_day[date]:
+            entry = out.setdefault(g_id, {})
+            for team, _, _, _ in sides:
+                rated = counts[team] >= RATED_AFTER and team in adj_o
+                entry[team] = round(adj_o[team] - adj_d[team], 1) if rated else None
+        # then the day's games go in, and the ratings are brought up to date for the next day
+        seen = set()
+        for g_id, sides, pts, poss in by_day[date]:
+            perfs.extend(sides)
+            for team, _, _, _ in sides: counts[team] += 1
+            if g_id not in seen:
+                seen.add(g_id)
+                total_pts += pts
+                total_poss += poss
+        league_avg = total_pts / total_poss * 100
+        real = {name for name, count in counts.items() if count >= RATED_AFTER and name not in BLACKLIST}
+        for name in real:
+            adj_o.setdefault(name, league_avg)
+            adj_d.setdefault(name, league_avg)
+        for _ in range(DAILY_PASSES):
+            temp_o, temp_d, temp_w = defaultdict(float), defaultdict(float), defaultdict(float)
+            for t, o, raw_o, raw_d in perfs:
+                if t not in real: continue
+                opp_o, opp_d = (adj_o[o], adj_d[o]) if o in real else (league_avg, league_avg)
+                expected = (adj_o[t] - adj_d[t]) - (opp_o - opp_d)
+                actual = raw_o - raw_d
+                if expected < 0:
+                    expected, actual = -expected, -actual
+                weight = 1 / (1 + (max(0, min(expected, actual)) / LOPSIDED_SCALE) ** 2)
+                temp_o[t] += weight * (raw_o - (opp_d - league_avg))
+                temp_d[t] += weight * (raw_d - (opp_o - league_avg))
+                temp_w[t] += weight
+            for name in real:
+                if temp_w[name]:
+                    adj_o[name] = temp_o[name] / temp_w[name]
+                    adj_d[name] = temp_d[name] / temp_w[name]
+            if real:
+                mean_o = sum(adj_o[n] for n in real) / len(real)
+                mean_d = sum(adj_d[n] for n in real) / len(real)
+                for name in real:
+                    adj_o[name] += league_avg - mean_o
+                    adj_d[name] += league_avg - mean_d
+    return out
+
+# ---------------------------
 # HOME COURT, TEAM BY TEAM
 # ---------------------------
 # The ratings give every team the same home edge (HOME_ADV). This measures it from the games themselves: how much

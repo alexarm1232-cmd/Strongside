@@ -1,1 +1,1 @@
-LINEUPS_ADD["Western Mich."] = {"players":["Markhi Strickland","JaVaughn Hannah","Chansey Willis Jr.","Donovan Williams","Max Burton","Owen Lobsinger","Brandon Muntu","EJ Ryans","Seryee Lewis","Marquese Josephs","Michael Sulaka","Josh Thomas","Jack Stefanski","Hutch Ward"],"rows":[]};
+LINEUPS_ADD["Western Mich."] = {"players":["Markhi Strickland","JaVaughn Hannah","Chansey Willis Jr.","Donovan Williams","Max Burton","Owen Lobsinger","Brandon Muntu","EJ Ryans","Marquese Josephs","Seryee Lewis","Michael Sulaka","Josh Thomas","Jack Stefanski","Hutch Ward"],"rows":[]};

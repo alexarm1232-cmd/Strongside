@@ -1,1 +1,1 @@
-LINEUPS_ADD["UNC Asheville"] = {"players":["Andrew Rowsey","Jaron Lane","David Robertson","Corey Littlejohn","Sam Hughes","D,J. Cunnigham","Jaleel Roberts","Giacomo Zilli","Chudier Pal","Will Weeks","Ethan Wilmoth","Alex Biggerstaff","Mike Bedulskis","Jacob Casper"],"rows":[]};
+LINEUPS_ADD["UNC Asheville"] = {"players":["Andrew Rowsey","Jaron Lane","David Robertson","Corey Littlejohn","Sam Hughes","D,J. Cunnigham","Jaleel Roberts","Giacomo Zilli","Chudier Pal","Will Weeks","Ethan Wilmoth","Alex Biggerstaff","Jacob Casper","Mike Bedulskis"],"rows":[]};

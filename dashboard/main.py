@@ -157,6 +157,12 @@ def load_teams():
     except Exception as e:
         print(f"Kenstat Error: {e}")
         kenstat_results = {}
+    # both teams' net ratings going into each game (the team pages' quad lists show the gap)
+    try:
+        nets_before = Kenstat.nets_before_games(TEAMS_FOLDER)
+    except Exception as e:
+        print(f"Ratings-before-each-game Error: {e}")
+        nets_before = {}
 
     # Windows drops trailing dots/spaces from folder names ("Alabama St." -> "Alabama St"),
     # so strip them from the Kenstat names before matching.
@@ -320,6 +326,9 @@ def load_teams():
         counted = set(shots["used"]) if shots else set()
         shot_games = [game for game in team["sched"] if game.get("id") in counted]
         for game in team["sched"]:
+            # "nt" / "no": this team's and the opponent's net rating going into the game (None early in the season)
+            before = nets_before.get(game.get("id"), {})
+            game["nt"], game["no"] = before.get(folder.rstrip(". ")), before.get(game["opp"].rstrip(". "))
             game["opp"] = shown_name(game["opp"])
             game.pop("id", None)
         # each team's game logs go in their own small file, which the dashboard only loads when a player is opened
