@@ -1,8 +1,8 @@
 # Strongside: college basketball ratings and simulators
 
 A KenPom-style site for NCAA Division I men's basketball, built game by game from box scores and play-by-play.
-Live at https://alexarm1232-cmd.github.io/Strongside/ . Seasons 2012-13 through 2025-26 are built; the data
-collection reaches back to 2009-10.
+Live at https://alexarm1232-cmd.github.io/Strongside/ . Seasons 2009-10 through 2025-26 are built (2019-20
+has no tournament).
 
 ## What the site has
 
