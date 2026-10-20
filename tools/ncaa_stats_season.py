@@ -206,6 +206,8 @@ def main():
         if before:
             cid, neutral, arena = before[0], bool(before[1]), before[2] or arena
             matched += 1
+        if g["date"] > sunday:
+            neutral = True      # every postseason game counts as a neutral floor (tools/neutral_postseason.py)
         hb, ab = g["boxes"][clean(home)], g["boxes"][clean(away)]
         row = {"game_id": cid, "date": g["date"].strftime("%Y/%m/%d"), "away_team": away, "away_score": str(ab["team_totals"]["PTS"]),
                "home_team": home, "home_score": str(hb["team_totals"]["PTS"]), "neutral": neutral, "arena": arena, "source": SOURCE}
