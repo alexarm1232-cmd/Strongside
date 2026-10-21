@@ -1,1 +1,1 @@
-LINEUPS_ADD["Fresno St."] = {"players":["Tyler Johnson","Allen Huddleston","Jerry Brown","Kevin Olekaibe","Marvelle Harris","Kevin Foster","Tanner Giddings","Aaron Anderson","Robert Upshaw","Braeden Anderson","Garrett Johnson","Brad Ely","Broderick Newbill"],"rows":[]};
+LINEUPS_ADD["Fresno St."] = {"players":["Tyler Johnson","Allen Huddleston","Kevin Olekaibe","Jerry Brown","Marvelle Harris","Kevin Foster","Tanner Giddings","Aaron Anderson","Robert Upshaw","Garrett Johnson","Braeden Anderson","Brad Ely","Broderick Newbill"],"rows":[]};

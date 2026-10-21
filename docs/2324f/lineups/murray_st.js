@@ -1,1 +1,1 @@
-LINEUPS_ADD["Murray St."] = {"players":["JaCobi Wood","Rob Perry","Nick Ellington","Quincy Anderson","Justin Morgan","Brian Moore Jr.","Alden Applewhite","Shawn Walker Jr.","Malek Abdelgowad","Sam Murray II","Lawrent Rice","Patrick Chew","Fletcher Boatright"],"rows":[]};
+LINEUPS_ADD["Murray St."] = {"players":["JaCobi Wood","Rob Perry","Nick Ellington","Quincy Anderson","Justin Morgan","Brian Moore Jr.","Shawn Walker Jr.","Alden Applewhite","Malek Abdelgowad","Sam Murray II","Lawrent Rice","Patrick Chew","Fletcher Boatright"],"rows":[]};

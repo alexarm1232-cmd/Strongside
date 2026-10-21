@@ -1,1 +1,1 @@
-LINEUPS_ADD["Kansas City"] = {"players":["Evan Gilyard II","Marvin Nesbitt Jr.","Shemarri Allen","Anderson Kopp","Arkel Lamar","Josiah Allick","Jacob Johnson","Jack Chapman","Caden Boser","Sam Martin","Timothy Barnes","Justus Peuser","Trace Evans"],"rows":[]};
+LINEUPS_ADD["Kansas City"] = {"players":["Evan Gilyard II","Marvin Nesbitt Jr.","Shemarri Allen","Anderson Kopp","Arkel Lamar","Jacob Johnson","Josiah Allick","Jack Chapman","Sam Martin","Caden Boser","Timothy Barnes","Justus Peuser","Trace Evans"],"rows":[]};

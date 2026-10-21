@@ -1,1 +1,1 @@
-LINEUPS_ADD["Green Bay"] = {"players":["Alec Brown","Keifer Sykes","Brennan Cougill","Kam Cerroni","Steve Baker","Terry Johnson","Aaron Armstead","Josh Humphrey","Greg Mays","Daniel Turner","Jarvis Williams","Clayton Heuer","Eric Valentin"],"rows":[]};
+LINEUPS_ADD["Green Bay"] = {"players":["Alec Brown","Keifer Sykes","Brennan Cougill","Steve Baker","Kam Cerroni","Terry Johnson","Aaron Armstead","Daniel Turner","Greg Mays","Josh Humphrey","Jarvis Williams","Clayton Heuer","Eric Valentin"],"rows":[]};

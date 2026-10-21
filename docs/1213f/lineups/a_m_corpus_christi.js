@@ -1,1 +1,1 @@
-LINEUPS_ADD["A&M-Corpus Christi"] = {"players":["John Jordan","Hameed Ali","William Nelson","Joy Williamson","Brandon Pye","Dale Francis","Nate Maxey","Zane Knowles","Jelani Currie","James King","Cole Martinez","Kennon Dvorak","Ted Wang"],"rows":[]};
+LINEUPS_ADD["A&M-Corpus Christi"] = {"players":["John Jordan","William Nelson","Hameed Ali","Joy Williamson","Brandon Pye","Dale Francis","Nate Maxey","Zane Knowles","Jelani Currie","James King","Cole Martinez","Kennon Dvorak","Ted Wang"],"rows":[]};

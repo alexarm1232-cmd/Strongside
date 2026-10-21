@@ -1,1 +1,1 @@
-LINEUPS_ADD["Tennessee St."] = {"players":["Delano Spencer","Christian Mekowulu","Armani Chaney","Darreon Reddick","Ken'Darrius Hamilton","Kamar McKnight","Stokley Chaffee","Daniel Cummings","Samson Oyediran","Tripp Davis","Jalen Duke","A.C. Reid","Hampus Ahlin"],"rows":[]};
+LINEUPS_ADD["Tennessee St."] = {"players":["Delano Spencer","Christian Mekowulu","Armani Chaney","Darreon Reddick","Kamar McKnight","Ken'Darrius Hamilton","Stokley Chaffee","Daniel Cummings","Tripp Davis","Samson Oyediran","Jalen Duke","A.C. Reid","Hampus Ahlin"],"rows":[]};

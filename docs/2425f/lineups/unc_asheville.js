@@ -1,1 +1,1 @@
-LINEUPS_ADD["UNC Asheville"] = {"players":["Toyaz Solomon","Josh Banks","Fletcher Abee","Jordan Marsh","Greg Gantt","Kameron Taylor","Jemal Davis","Connor Dubsky","Julian Clarke","Aidan Rubio","Sage Tolentino","Javoy Thompson","Corey Jones"],"rows":[]};
+LINEUPS_ADD["UNC Asheville"] = {"players":["Toyaz Solomon","Josh Banks","Jordan Marsh","Fletcher Abee","Greg Gantt","Kameron Taylor","Jemal Davis","Connor Dubsky","Julian Clarke","Sage Tolentino","Javoy Thompson","Aidan Rubio","Corey Jones"],"rows":[]};

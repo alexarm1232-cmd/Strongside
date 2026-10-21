@@ -1,1 +1,1 @@
-LINEUPS_ADD["Buffalo"] = {"players":["Tony Watson","Javon McCrea","Auraum Nuiriankh","Jarryn Skeete","Will Regan","Cameron Downing","Jarod Oldham","Raphell Thomas-Edwards","Xavier Ford","Corey Raley-Ross","Richie Sebuharara","Andre McPhail"],"rows":[]};
+LINEUPS_ADD["Buffalo"] = {"players":["Tony Watson","Javon McCrea","Auraum Nuiriankh","Will Regan","Jarryn Skeete","Cameron Downing","Jarod Oldham","Raphell Thomas-Edwards","Xavier Ford","Corey Raley-Ross","Richie Sebuharara","Andre McPhail"],"rows":[]};

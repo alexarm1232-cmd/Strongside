@@ -1,1 +1,1 @@
-LINEUPS_ADD["Southern Ind."] = {"players":["Jack Mielke","Jeremiah Hernandez","AJ Smith","Jack Campion","Ryan Hall","Sam Mervis","Kiyron Powell","Nolan Causwell","Javius Moore","Nick Hittle","Jordan Tillmon","Johnny Semany","Yarin Hasson","Luther Smith"],"rows":[]};
+LINEUPS_ADD["Southern Ind."] = {"players":["Jack Mielke","Jeremiah Hernandez","AJ Smith","Jack Campion","Ryan Hall","Sam Mervis","Kiyron Powell","Nolan Causwell","Javius Moore","Nick Hittle","Jordan Tillmon","Luther Smith","Yarin Hasson","Johnny Semany"],"rows":[]};

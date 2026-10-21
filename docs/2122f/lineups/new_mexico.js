@@ -1,1 +1,1 @@
-LINEUPS_ADD["New Mexico"] = {"players":["Jamal Mashburn, Jr.","Jaelen House","Javont\u00e9 Johnson","Jay Allen-Tovar","KJ Jenkins","Saquan Singleton","Taryn Todd","Sebastian Forsling","Gethro Muscadin","Birima Seck","Emmanuel Kuac","Jordan Arroyo","Jeremiah Francis"],"rows":[]};
+LINEUPS_ADD["New Mexico"] = {"players":["Jamal Mashburn, Jr.","Jaelen House","Javont\u00e9 Johnson","Jay Allen-Tovar","KJ Jenkins","Saquan Singleton","Taryn Todd","Sebastian Forsling","Gethro Muscadin","Birima Seck","Emmanuel Kuac","Jeremiah Francis","Jordan Arroyo"],"rows":[]};

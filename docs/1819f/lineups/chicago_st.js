@@ -1,1 +1,1 @@
-LINEUPS_ADD["Chicago St."] = {"players":["Rob Shaw","Anthony Harris","Cameron Bowles","Travon Bell","Patrick Szpir","Delshon Strickland","Christian Jacob","Eugene Witherspoon","Noah Bigirumwami","Ken Odiase","Michael Johnson","Jordan Reed","Miles Oliver"],"rows":[]};
+LINEUPS_ADD["Chicago St."] = {"players":["Rob Shaw","Anthony Harris","Cameron Bowles","Travon Bell","Delshon Strickland","Patrick Szpir","Christian Jacob","Eugene Witherspoon","Noah Bigirumwami","Ken Odiase","Michael Johnson","Jordan Reed","Miles Oliver"],"rows":[]};

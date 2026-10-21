@@ -1,1 +1,1 @@
-LINEUPS_ADD["Delaware St."] = {"players":["Martaz Robinson","Jevin Muniz","Corey Perkins","Raymond Somerville","Kyle Johnson","Khyrie Staten","Brandon Stone","Cameron Stitt","O'Koye Parker","Aaron Lemon-Warren","Ronald Lucas","Corey Barnes","Ricky Deadwyler III"],"rows":[]};
+LINEUPS_ADD["Delaware St."] = {"players":["Martaz Robinson","Jevin Muniz","Corey Perkins","Raymond Somerville","Khyrie Staten","Kyle Johnson","Brandon Stone","Cameron Stitt","O'Koye Parker","Aaron Lemon-Warren","Ronald Lucas","Corey Barnes","Ricky Deadwyler III"],"rows":[]};

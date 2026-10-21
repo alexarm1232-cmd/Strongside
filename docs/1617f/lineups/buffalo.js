@@ -1,1 +1,1 @@
-LINEUPS_ADD["Buffalo"] = {"players":["Willie Conner","Blake Hamilton","CJ Massinburg","Nick Perkins","Dontay Caruthers","David Kadiri","Davonta Jordan","Ikenna Smart","Raheem Johnson","Quate McKinzie","Nikola Rakicevic","James Jones","Christian Pino"],"rows":[]};
+LINEUPS_ADD["Buffalo"] = {"players":["Willie Conner","Blake Hamilton","Nick Perkins","CJ Massinburg","Dontay Caruthers","David Kadiri","Davonta Jordan","Ikenna Smart","Quate McKinzie","Raheem Johnson","Nikola Rakicevic","James Jones","Christian Pino"],"rows":[]};

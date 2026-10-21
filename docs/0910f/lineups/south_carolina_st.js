@@ -1,1 +1,1 @@
-LINEUPS_ADD["South Carolina St."] = {"players":["Jason Flagler","Darnell Porter","Khalif Toombs","Carrio Bennett","Arsenio Williams","Brandon Smalls","Tyvon Williams","Rio Pitt","Jodd Maxey","Westley Telfare"],"rows":[]};
+LINEUPS_ADD["South Carolina St."] = {"players":["Jason Flagler","Carrio Bennett","Khalif Toombs","Darnell Porter","Arsenio Williams","Tyvon Williams","Brandon Smalls","Rio Pitt","Westley Telfare","Jodd Maxey"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["Jacksonville"] = {"players":["JD Notae","Aamahne Santos","Jace Hogan","Tyreese Davis","Jalyn Hinton","David Bell","Deanthony McCallum","Tanner Rubio","Derrick Flowers","Bryce Workman","Corey Romich","Quinton Forrest","KJ Fitzgerald"],"rows":[]};
+LINEUPS_ADD["Jacksonville"] = {"players":["JD Notae","Aamahne Santos","Jace Hogan","Tyreese Davis","Jalyn Hinton","David Bell","Deanthony McCallum","Tanner Rubio","Derrick Flowers","Bryce Workman","Corey Romich","KJ Fitzgerald","Quinton Forrest"],"rows":[]};

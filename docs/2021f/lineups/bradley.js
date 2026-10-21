@@ -1,1 +1,1 @@
-LINEUPS_ADD["Bradley"] = {"players":["Ville Tahvanainen","Elijah Childs","Rienk Mast","Sean East II","Terry Nolan Jr.","Ja'Shon Henry","Danya Kingsby","Kevin McAdoo","Darius Hannah","Antonio Thomas","Jayson Kent","Ari Boya","Connor Linke","Thomas Hall","Riley Burger"],"rows":[]};
+LINEUPS_ADD["Bradley"] = {"players":["Ville Tahvanainen","Elijah Childs","Sean East II","Rienk Mast","Terry Nolan Jr.","Ja'Shon Henry","Danya Kingsby","Kevin McAdoo","Darius Hannah","Antonio Thomas","Jayson Kent","Ari Boya","Connor Linke","Thomas Hall","Riley Burger"],"rows":[]};

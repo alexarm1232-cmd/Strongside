@@ -1,1 +1,1 @@
-LINEUPS_ADD["Weber St."] = {"players":["Damian Lillard","Franklin Session","Nick Hansen","Kyle Bullinger","Steve Panos","Lindsey Hughey","Trevor Morris","Darin Mahoney"],"rows":[[28,[0,3,2,4,6],72.41,62,76,68.16,55,74]]};
+LINEUPS_ADD["Weber St."] = {"players":["Damian Lillard","Franklin Session","Nick Hansen","Kyle Bullinger","Steve Panos","Lindsey Hughey","Trevor Morris","Darin Mahoney"],"rows":[[30,[0,3,2,4,6],72.41,62,76,68.16,55,74]]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["Samford"] = {"players":["Ques Glover","Jaden Campbell","Cooper Kaifes","Jermaine Marshall","Wesley Cardet","Logan Dye","Jaron Rillie","Jacob Tryon","Richardson Maitre","Quinn Richey","Daniel Lobach","Marcellus Vail","A.J. Staton-McCray","Angel Smith"],"rows":[]};
+LINEUPS_ADD["Samford"] = {"players":["Ques Glover","Jaden Campbell","Cooper Kaifes","Jermaine Marshall","Wesley Cardet","Jaron Rillie","Logan Dye","Jacob Tryon","Richardson Maitre","Quinn Richey","Daniel Lobach","Marcellus Vail","A.J. Staton-McCray","Angel Smith"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["VMI"] = {"players":["Kamdyn Curfman","Greg Parham II","Jake Stephens","Sean Conway","Myles Lewis","Trey Bonham","Tanner Mans","DJ Nussbaum","Ta'Vonne Bond","Tragen Fahl","Louis Tang","Connor Arnold","Devin Butler","Caleb Moss"],"rows":[]};
+LINEUPS_ADD["VMI"] = {"players":["Kamdyn Curfman","Greg Parham II","Jake Stephens","Sean Conway","Myles Lewis","Trey Bonham","Tanner Mans","Ta'Vonne Bond","DJ Nussbaum","Tragen Fahl","Connor Arnold","Devin Butler","Louis Tang","Caleb Moss"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["Winthrop"] = {"players":["Kelton Talford","Cory Hightower","Kasen Harrison","Sin'Cere McMahon","Chase Claxton","Toneari Lane","Howie Fleming Jr.","Xavier McKelvy","Isaiah Wilson","Michael Moore","Cameron Whiteside","Clay Howard"],"rows":[]};
+LINEUPS_ADD["Winthrop"] = {"players":["Cory Hightower","Kelton Talford","Sin'Cere McMahon","Kasen Harrison","Chase Claxton","Toneari Lane","Xavier McKelvy","Howie Fleming Jr.","Michael Moore","Isaiah Wilson","Cameron Whiteside","Clay Howard"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["UIC"] = {"players":["Jordan Mason","Filip Skobalj","Tyem Freeman","Javon Jackson","Ahmad Henderson II","Modestas Kancleris","Sa\u0161a Ciani","Ethan Pickett","Koby Jeffries","Josh Reaves","Khaled Khaled","Jayce Nathaniel"],"rows":[]};
+LINEUPS_ADD["UIC"] = {"players":["Jordan Mason","Filip Skobalj","Tyem Freeman","Javon Jackson","Ahmad Henderson II","Modestas Kancleris","Ethan Pickett","Sa\u0161a Ciani","Koby Jeffries","Josh Reaves","Jayce Nathaniel","Khaled Khaled"],"rows":[]};

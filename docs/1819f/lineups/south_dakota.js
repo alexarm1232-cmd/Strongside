@@ -1,1 +1,1 @@
-LINEUPS_ADD["South Dakota"] = {"players":["Triston Simpson","Tyler Peterson","Cody Kelley","Stanley Umude","Trey Burch-Manning","Brandon Armstrong","Matt Johns","Logan Power","Nathan Robinson","Dan Jech","Jay Harvey","Caleb Cline"],"rows":[]};
+LINEUPS_ADD["South Dakota"] = {"players":["Triston Simpson","Tyler Peterson","Cody Kelley","Trey Burch-Manning","Stanley Umude","Brandon Armstrong","Matt Johns","Logan Power","Nathan Robinson","Dan Jech","Jay Harvey","Caleb Cline"],"rows":[]};

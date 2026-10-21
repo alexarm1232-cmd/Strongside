@@ -1,1 +1,1 @@
-LINEUPS_ADD["Seattle U"] = {"players":["Maleek Arington","Matthew-Alexander Moncrieffe","John Christofilis","Paris Dawson","Brayden Maldonado","Kobe Williamson","Houran Dan","Malek Gomma","DaSean Stevens","Vasja Pandza","Will Heimbrodt","Viktor Rajkovic"],"rows":[]};
+LINEUPS_ADD["Seattle U"] = {"players":["Maleek Arington","Matthew-Alexander Moncrieffe","John Christofilis","Paris Dawson","Brayden Maldonado","Kobe Williamson","DaSean Stevens","Houran Dan","Malek Gomma","Vasja Pandza","Will Heimbrodt","Viktor Rajkovic"],"rows":[]};

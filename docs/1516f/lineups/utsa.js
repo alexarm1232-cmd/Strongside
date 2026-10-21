@@ -1,1 +1,1 @@
-LINEUPS_ADD["UTSA"] = {"players":["Ryan Bowie","J.R. Harris","Christian Wilson","Lucas O'Brien","Austin Karrer","Nick Allen","Gino Littles","A.J. Cockrell","Phillip Jones","James Ringholt","Nick Billingsley","George Matthews","Terrell Scruggs","Kyle Massie"],"rows":[]};
+LINEUPS_ADD["UTSA"] = {"players":["Ryan Bowie","J.R. Harris","Christian Wilson","Lucas O'Brien","Austin Karrer","Gino Littles","Nick Allen","A.J. Cockrell","Phillip Jones","James Ringholt","Nick Billingsley","George Matthews","Terrell Scruggs","Kyle Massie"],"rows":[]};

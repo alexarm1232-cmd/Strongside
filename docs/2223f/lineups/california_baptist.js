@@ -1,1 +1,1 @@
-LINEUPS_ADD["California Baptist"] = {"players":["Taran Armstrong","Riley Battin","Hunter Goodrick","Reed Nottage","Joe Quintana","Tre Armstrong","Blondeau Tchoukuiegno","Timothy Ighoefe","Scotty Washington","Malik Wade","Juhlawnei Stone","Keanu Rasmussen"],"rows":[]};
+LINEUPS_ADD["California Baptist"] = {"players":["Taran Armstrong","Riley Battin","Hunter Goodrick","Reed Nottage","Tre Armstrong","Joe Quintana","Blondeau Tchoukuiegno","Timothy Ighoefe","Scotty Washington","Malik Wade","Juhlawnei Stone","Keanu Rasmussen"],"rows":[]};

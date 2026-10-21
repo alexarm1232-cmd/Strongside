@@ -1,1 +1,1 @@
-LINEUPS_ADD["Alabama A&M"] = {"players":["Jeremy Crutcher","Demarquelle Tabb","Brandon Ellis","Green Hill","Justin Banks","Jose Long","Tyler Davis","Justin Colvin","Justin Wagner","Nicholas West","Arthur Capers","Anthony Lanier","Baryn Houston","David Basil","Jerome Hunter"],"rows":[]};
+LINEUPS_ADD["Alabama A&M"] = {"players":["Jeremy Crutcher","Demarquelle Tabb","Brandon Ellis","Green Hill","Justin Banks","Jose Long","Tyler Davis","Justin Colvin","Justin Wagner","Nicholas West","Arthur Capers","Baryn Houston","Anthony Lanier","David Basil","Jerome Hunter"],"rows":[]};

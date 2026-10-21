@@ -1,1 +1,1 @@
-LINEUPS_ADD["Eastern Ill."] = {"players":["Josiah Wallace","Mack Smith","Shareef Smith","Rade Kukobat","JaQualis Matlock","Ben Harvey","Cam Burrell","Kashawn Charles","Aboubacar Diallo","Lucas Jones","Logan Koch","Shawn Wilson","Braxton Shaw","Terrell Lewis","Edwyn Brown"],"rows":[]};
+LINEUPS_ADD["Eastern Ill."] = {"players":["Josiah Wallace","Mack Smith","Shareef Smith","Rade Kukobat","JaQualis Matlock","Ben Harvey","Cam Burrell","Kashawn Charles","Aboubacar Diallo","Lucas Jones","Logan Koch","Braxton Shaw","Shawn Wilson","Terrell Lewis","Edwyn Brown"],"rows":[]};

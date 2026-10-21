@@ -1,1 +1,1 @@
-LINEUPS_ADD["Delaware St."] = {"players":["Ponce James","Corey Perkins","Miles Webb","Bessanty Saragba","Rahmir Moore","Zion Bethea","Ademar Santos","Jalen StClair","Cyril Obasogie","Dean Shepherd","Muazibini Adamu","Kareem Watson","John Clemmons","Camian Shell","Omar Stephen"],"rows":[]};
+LINEUPS_ADD["Delaware St."] = {"players":["Ponce James","Corey Perkins","Miles Webb","Rahmir Moore","Bessanty Saragba","Zion Bethea","Ademar Santos","Jalen StClair","Cyril Obasogie","Muazibini Adamu","Dean Shepherd","Kareem Watson","Camian Shell","John Clemmons","Omar Stephen"],"rows":[]};

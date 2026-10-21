@@ -1,1 +1,1 @@
-LINEUPS_ADD["The Citadel"] = {"players":["Mike Groselle","Devontae Wright","Ashton Moore","Bo Holston","Marshall Harris III","Lawrence Miller","C.J. Bray","Cosmo Morabbi","Jordan Robertson","Barry Smith","P.J. Horgan","Nathan Conley","Will Keistler","Michael Hundley"],"rows":[]};
+LINEUPS_ADD["The Citadel"] = {"players":["Mike Groselle","Devontae Wright","Ashton Moore","Bo Holston","Marshall Harris III","Lawrence Miller","Cosmo Morabbi","C.J. Bray","Jordan Robertson","Barry Smith","P.J. Horgan","Nathan Conley","Will Keistler","Michael Hundley"],"rows":[]};

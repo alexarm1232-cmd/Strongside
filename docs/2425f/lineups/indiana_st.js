@@ -1,1 +1,1 @@
-LINEUPS_ADD["Indiana St."] = {"players":["Samage Teel","Camp Wagner","Kmani Doughty","Bruno Alocen","Aaron Gray","Jaden Daughtry","Markus Harding","Josiah LeGree","Jahni Summers","Jayan Walker","Derek Vorst","Tyran Cook","Merritt Alderink","Cooper Bean"],"rows":[]};
+LINEUPS_ADD["Indiana St."] = {"players":["Samage Teel","Camp Wagner","Bruno Alocen","Kmani Doughty","Jaden Daughtry","Aaron Gray","Markus Harding","Josiah LeGree","Jahni Summers","Jayan Walker","Derek Vorst","Tyran Cook","Merritt Alderink","Cooper Bean"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["NJIT"] = {"players":["Miles Coleman","Dylan O'Hearn","Booty Butler","Mekhi Gray","Souleymane Diakite","James Lee","Matt Faw","Kjell de Graaf","Eyal Nankin","Keeshawn Mason","Da'mir Faison","Jason Murphy","Chauncey Sterling","Jacob Mansson","Antwuan Butler"],"rows":[]};
+LINEUPS_ADD["NJIT"] = {"players":["Miles Coleman","Dylan O'Hearn","Booty Butler","Mekhi Gray","Souleymane Diakite","James Lee","Matt Faw","Kjell de Graaf","Da'mir Faison","Eyal Nankin","Keeshawn Mason","Jason Murphy","Chauncey Sterling","Jacob Mansson","Antwuan Butler"],"rows":[]};

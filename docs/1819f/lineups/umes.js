@@ -1,1 +1,1 @@
-LINEUPS_ADD["UMES"] = {"players":["Bryan Urrutia","Ryan Andino","Canaan Bartley","Gabriel Gyamfi","Ahmad Frost","Tyler Jones","AJ Cheeseman","Isaac Taylor","Dontae Caldwell","Montraz Oliver","Colen Gaynor","Derrick Green","Marlon Adams"],"rows":[]};
+LINEUPS_ADD["UMES"] = {"players":["Bryan Urrutia","Ryan Andino","Gabriel Gyamfi","Canaan Bartley","Ahmad Frost","Tyler Jones","AJ Cheeseman","Isaac Taylor","Dontae Caldwell","Montraz Oliver","Colen Gaynor","Derrick Green","Marlon Adams"],"rows":[]};

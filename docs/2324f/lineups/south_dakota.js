@@ -1,1 +1,1 @@
-LINEUPS_ADD["South Dakota"] = {"players":["Bostyn Holt","Paul Bruns","Lahat Thioune","Max Burchill","Kaleb Stewart","Steven Kramer","Isaac Bruns","Jevon Hill","Mayuom Buom","Jake Brack","Felix Brostrom","Jamil Safieddine"],"rows":[]};
+LINEUPS_ADD["South Dakota"] = {"players":["Bostyn Holt","Paul Bruns","Max Burchill","Lahat Thioune","Kaleb Stewart","Steven Kramer","Isaac Bruns","Mayuom Buom","Jake Brack","Jevon Hill","Felix Brostrom","Jamil Safieddine"],"rows":[]};

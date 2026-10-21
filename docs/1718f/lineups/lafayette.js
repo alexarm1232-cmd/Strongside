@@ -1,1 +1,1 @@
-LINEUPS_ADD["Lafayette"] = {"players":["Matt Klinewski","Justin Jaworski","Eric Stafford","Alex Petrie","Paulius Zalys","E.J. Stephens","Kyle Stout","Lukas Jarrett","Myles Cherry","Dylan Hastings","Auston Evans","Cal Reichwein"],"rows":[]};
+LINEUPS_ADD["Lafayette"] = {"players":["Justin Jaworski","Matt Klinewski","Eric Stafford","Alex Petrie","Paulius Zalys","E.J. Stephens","Kyle Stout","Lukas Jarrett","Myles Cherry","Dylan Hastings","Auston Evans","Cal Reichwein"],"rows":[]};

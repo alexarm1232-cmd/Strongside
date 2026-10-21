@@ -1,1 +1,1 @@
-LINEUPS_ADD["Stony Brook"] = {"players":["Akwasi Yeboah","UC Iroegbu","Tyrell Sturdivant","Elijah Olaniyi","Junior Saintel","Bryan Sekunda","Jaron Cornish","Jordan McKenzie","Jakub Petras","Michael Almonacy","Anthony Ochefu","Andrew Garcia","Corry Long","Tim Donohoe"],"rows":[]};
+LINEUPS_ADD["Stony Brook"] = {"players":["Akwasi Yeboah","UC Iroegbu","Tyrell Sturdivant","Elijah Olaniyi","Junior Saintel","Bryan Sekunda","Jaron Cornish","Jordan McKenzie","Jakub Petras","Anthony Ochefu","Michael Almonacy","Andrew Garcia","Corry Long","Tim Donohoe"],"rows":[]};

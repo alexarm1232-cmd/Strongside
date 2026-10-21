@@ -1,1 +1,1 @@
-LINEUPS_ADD["LSU New Orleans"] = {"players":["Jordan Johnson","Tyson Jackson","Khaleb Wilson-Rouse","Jamond Vincent","Jah Short","Carlos Hart","James Glisson III","Mason Jones","D'Ante Bell","Kaleb Jenkins","Omarion Henry","Dorian Booker","Darrius Washington","Dorian Hill"],"rows":[]};
+LINEUPS_ADD["LSU New Orleans"] = {"players":["Jordan Johnson","Khaleb Wilson-Rouse","Jamond Vincent","Tyson Jackson","Jah Short","Carlos Hart","James Glisson III","Mason Jones","D'Ante Bell","Kaleb Jenkins","Omarion Henry","Dorian Booker","Darrius Washington","Dorian Hill"],"rows":[]};

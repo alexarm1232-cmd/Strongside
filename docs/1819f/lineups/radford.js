@@ -1,1 +1,1 @@
-LINEUPS_ADD["Radford"] = {"players":["Ed Polite, Jr.","Carlik Jones","Travis Fields","Donald Hicks","Caleb Tanner","Devonnte Holland","Mawdo Sallah","Devin Hutchinson","Leroy Butts","Tristan Owens","Cle'von Greene","Josiah Jeffers","John Caldwell","Anias Saunders"],"rows":[]};
+LINEUPS_ADD["Radford"] = {"players":["Ed Polite, Jr.","Carlik Jones","Travis Fields","Donald Hicks","Caleb Tanner","Mawdo Sallah","Devonnte Holland","Devin Hutchinson","Leroy Butts","Tristan Owens","Cle'von Greene","Josiah Jeffers","John Caldwell","Anias Saunders"],"rows":[]};

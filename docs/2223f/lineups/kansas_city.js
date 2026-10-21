@@ -1,1 +1,1 @@
-LINEUPS_ADD["Kansas City"] = {"players":["RayQuawndis Mitchell","Shemarri Allen","Jeff Ngandu","Promise Idiaru","Allen Mukeba","Babacar Diallo","Tyler Andrews","Jevin Sullivan","Precious Idiaru","Sam Martin","Emmanouil Dimou","Anderson Kopp","Sidy Diallo"],"rows":[]};
+LINEUPS_ADD["Kansas City"] = {"players":["RayQuawndis Mitchell","Shemarri Allen","Jeff Ngandu","Allen Mukeba","Promise Idiaru","Babacar Diallo","Tyler Andrews","Jevin Sullivan","Precious Idiaru","Sam Martin","Emmanouil Dimou","Anderson Kopp","Sidy Diallo"],"rows":[]};

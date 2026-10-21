@@ -1,1 +1,1 @@
-LINEUPS_ADD["Idaho"] = {"players":["Kolton Mitchell","Jack Payne","Tyler Mrus","Kristian Gonzalez","Julius Mims","Tyler Linhardt","Jojo Anderson","Isaiah Brickner","Kyson Rose","Titus Yearout","Takai Hardy","Miles Klapper","Ewan Steele","Jayden Stevens","Jack Hatten"],"rows":[]};
+LINEUPS_ADD["Idaho"] = {"players":["Kolton Mitchell","Tyler Mrus","Jack Payne","Kristian Gonzalez","Julius Mims","Tyler Linhardt","Jojo Anderson","Isaiah Brickner","Kyson Rose","Titus Yearout","Takai Hardy","Miles Klapper","Ewan Steele","Jayden Stevens","Jack Hatten"],"rows":[]};

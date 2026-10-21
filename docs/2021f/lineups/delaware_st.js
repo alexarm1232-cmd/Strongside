@@ -1,1 +1,1 @@
-LINEUPS_ADD["Delaware St."] = {"players":["Pinky Wiley","Myles Carter","Dominik Fragala","Zach Kent","Ameer Bennett","D'Marco Baucum","Martaz Robinson","LJ Stansbury","Ronald Lucas","Omari Peek-Green","Shaft Clark","Christopher Sodom","Christopher Smith","Fahim Jenneto"],"rows":[]};
+LINEUPS_ADD["Delaware St."] = {"players":["Pinky Wiley","Myles Carter","Dominik Fragala","Zach Kent","Ameer Bennett","D'Marco Baucum","LJ Stansbury","Martaz Robinson","Ronald Lucas","Shaft Clark","Omari Peek-Green","Christopher Smith","Christopher Sodom","Fahim Jenneto"],"rows":[]};

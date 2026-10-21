@@ -1,1 +1,1 @@
-LINEUPS_ADD["CSU Bakersfield"] = {"players":["Javonte Maynor","Aly Ahmed","Jaylin Airington","Kevin Mays","Tyrell Corbin","Brent Wrapp","Cortez Conners","Dashawn Richmond","Abdul Ahmed","Kregg Jones","Dee Wallace"],"rows":[]};
+LINEUPS_ADD["CSU Bakersfield"] = {"players":["Javonte Maynor","Jaylin Airington","Aly Ahmed","Kevin Mays","Tyrell Corbin","Brent Wrapp","Cortez Conners","Dashawn Richmond","Abdul Ahmed","Kregg Jones","Dee Wallace"],"rows":[]};

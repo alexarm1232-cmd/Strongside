@@ -1,1 +1,1 @@
-LINEUPS_ADD["Stony Brook"] = {"players":["Tyler Stephenson-Moore","Frankie Policelli","Keenan Fitzmorris","Tanahj Pettway","Kaine Roberts","Kenan Sarvan","Toby Onyekonwu","Rocco Muratori","Leon Nahar","Aaron Clarke","Jared Frey","Andrew Heiden"],"rows":[]};
+LINEUPS_ADD["Stony Brook"] = {"players":["Tyler Stephenson-Moore","Frankie Policelli","Tanahj Pettway","Keenan Fitzmorris","Kaine Roberts","Kenan Sarvan","Toby Onyekonwu","Rocco Muratori","Leon Nahar","Aaron Clarke","Jared Frey","Andrew Heiden"],"rows":[]};

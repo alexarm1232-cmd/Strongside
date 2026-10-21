@@ -1,1 +1,1 @@
-LINEUPS_ADD["Wyoming"] = {"players":["Justin James","Jake Hendricks","Trevon Taylor","Hunter Thompson","A.J. Banks","Trace Young","Jordan Naughton","Brandon Porter","Hunter Maldonado","Nyaires Redding","Austin Mueller","Tariq Johnson","Haize Fornstrom","Lwal Dung","KC Henry"],"rows":[]};
+LINEUPS_ADD["Wyoming"] = {"players":["Justin James","Trevon Taylor","Jake Hendricks","A.J. Banks","Hunter Thompson","Trace Young","Jordan Naughton","Brandon Porter","Hunter Maldonado","Nyaires Redding","Austin Mueller","Tariq Johnson","Haize Fornstrom","Lwal Dung","KC Henry"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["Western Ill."] = {"players":["Garret Covington","Jabari Sandifer","Adam Link","Michael Ochereobia","Mike Miklusak","Tate Stensgaard","Mohamed Conde","Jordan Foster","Remy Roberts-Burnett","Jason Hawthorne"],"rows":[]};
+LINEUPS_ADD["Western Ill."] = {"players":["Garret Covington","Jabari Sandifer","Adam Link","Michael Ochereobia","Mike Miklusak","Tate Stensgaard","Jordan Foster","Mohamed Conde","Remy Roberts-Burnett","Jason Hawthorne"],"rows":[]};

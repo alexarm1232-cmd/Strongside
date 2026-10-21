@@ -1,1 +1,1 @@
-LINEUPS_ADD["Le Moyne"] = {"players":["AJ Dancler","Dwayne Koroma","Nate Fouts","Darrick Jones Jr.","Robby Carmody","Ocypher Owens","Zek Tekin","Will Amica","Deng Garang","Jakob Blakley","Freds Bagatskis","Trent Mosquera","Isaac Nyakundi","Sam Donnelly","Kaelin Thomas"],"rows":[]};
+LINEUPS_ADD["Le Moyne"] = {"players":["AJ Dancler","Dwayne Koroma","Nate Fouts","Darrick Jones Jr.","Robby Carmody","Ocypher Owens","Zek Tekin","Will Amica","Deng Garang","Jakob Blakley","Freds Bagatskis","Trent Mosquera","Isaac Nyakundi","Kaelin Thomas","Sam Donnelly"],"rows":[]};

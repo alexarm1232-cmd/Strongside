@@ -1,1 +1,1 @@
-LINEUPS_ADD["Green Bay"] = {"players":["Khalil Small","Kameron Hankerson","David Jesperson","Sandy Cohen III","PJ Pipes","Sukhjot Bains","Manny Patterson","Hunter Crist","TJ Parham","Trevian Bell","Will Chevalier","Tyrone Powell"],"rows":[]};
+LINEUPS_ADD["Green Bay"] = {"players":["Khalil Small","Kameron Hankerson","David Jesperson","PJ Pipes","Sandy Cohen III","Sukhjot Bains","Manny Patterson","Hunter Crist","TJ Parham","Trevian Bell","Will Chevalier","Tyrone Powell"],"rows":[]};

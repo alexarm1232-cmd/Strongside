@@ -1,1 +1,1 @@
-LINEUPS_ADD["FIU"] = {"players":["Daviyon Draper","Donte McGill","Adrian Diaz","Jason Boswell","Eric Nottage","Kimar Williams","Elmo Stephen","Cameron Smith","Ray Rodriguez","Michael Douglas","Nate Brown Bull","Hassan Hussein"],"rows":[]};
+LINEUPS_ADD["FIU"] = {"players":["Daviyon Draper","Donte McGill","Adrian Diaz","Jason Boswell","Eric Nottage","Kimar Williams","Elmo Stephen","Cameron Smith","Ray Rodriguez","Michael Douglas","Hassan Hussein","Nate Brown Bull"],"rows":[]};

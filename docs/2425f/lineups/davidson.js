@@ -1,1 +1,1 @@
-LINEUPS_ADD["Davidson"] = {"players":["Bobby Durkin","Reed Bailey","Connor Kochera","Zach Laput","Mike Loughnane","Hunter Adam","Roberts Blums","Manie Joses","Sean Logan","Joe Hurlburt","Riccardo Ghedini","Luke Zimmerman","Michael Katsock","Brock Matheny"],"rows":[]};
+LINEUPS_ADD["Davidson"] = {"players":["Bobby Durkin","Reed Bailey","Connor Kochera","Zach Laput","Mike Loughnane","Hunter Adam","Roberts Blums","Manie Joses","Sean Logan","Joe Hurlburt","Riccardo Ghedini","Michael Katsock","Brock Matheny","Luke Zimmerman"],"rows":[]};

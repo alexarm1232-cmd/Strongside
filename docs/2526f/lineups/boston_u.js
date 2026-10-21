@@ -1,1 +1,1 @@
-LINEUPS_ADD["Boston U."] = {"players":["Mike McNair, Jr.","Chance Gladden","Sam Hughes","Azmar Abdullah","Ben Defty","Donte Tisinger Jr.","Ben Roy","Malcolm Chimezie","Quinn Nielsen","Ethan Okwuosa","Kyrone Alexander","Andrew Bhesania","Peter Carr"],"rows":[]};
+LINEUPS_ADD["Boston U."] = {"players":["Mike McNair, Jr.","Chance Gladden","Sam Hughes","Azmar Abdullah","Ben Defty","Donte Tisinger Jr.","Ben Roy","Malcolm Chimezie","Quinn Nielsen","Ethan Okwuosa","Andrew Bhesania","Peter Carr","Kyrone Alexander"],"rows":[]};

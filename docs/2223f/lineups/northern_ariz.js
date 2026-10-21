@@ -1,1 +1,1 @@
-LINEUPS_ADD["Northern Ariz."] = {"players":["Jalen Cone","Xavier Fuller","Nik Mains","Carson Towt","Liam Lloyd","Trenton McLaughlin","Jack Wistrcill","Oakland Fort","Keith Haymon II","Ezekiel Richards","Diego Campisano"],"rows":[]};
+LINEUPS_ADD["Northern Ariz."] = {"players":["Jalen Cone","Xavier Fuller","Nik Mains","Carson Towt","Liam Lloyd","Trenton McLaughlin","Oakland Fort","Jack Wistrcill","Keith Haymon II","Diego Campisano","Ezekiel Richards"],"rows":[]};

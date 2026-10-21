@@ -1,1 +1,1 @@
-LINEUPS_ADD["Nicholls"] = {"players":["Kevin Johnson","Jahvaughn Powell","Tevon Saddler","Roddy Peters","Kimani Jackson","Lafayette Rutledge","Ryghe Lyons","Legend Robertin","Daniel Regis","Stevie Repichowski","Zaquavian Smith","Maurice O'Field","Zach Young","Rafe Blades"],"rows":[]};
+LINEUPS_ADD["Nicholls"] = {"players":["Kevin Johnson","Jahvaughn Powell","Tevon Saddler","Roddy Peters","Kimani Jackson","Lafayette Rutledge","Ryghe Lyons","Legend Robertin","Daniel Regis","Stevie Repichowski","Zaquavian Smith","Zach Young","Maurice O'Field","Rafe Blades"],"rows":[]};

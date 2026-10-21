@@ -1,1 +1,1 @@
-LINEUPS_ADD["Hawaii"] = {"players":["Junior Madut","Justin Webster","Casdon Jardine","Biwali Bayles","James Jean-Marie","Mate Colina","Jovon McClanahan","Noel Coleman","Justin Hemsley","Beon Riley","Bernardo Da Silva","Zoar Nedd","Kameron Ng"],"rows":[]};
+LINEUPS_ADD["Hawaii"] = {"players":["Junior Madut","Justin Webster","Casdon Jardine","Biwali Bayles","James Jean-Marie","Mate Colina","Jovon McClanahan","Noel Coleman","Justin Hemsley","Beon Riley","Bernardo Da Silva","Kameron Ng","Zoar Nedd"],"rows":[]};

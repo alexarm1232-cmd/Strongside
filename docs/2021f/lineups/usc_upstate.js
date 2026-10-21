@@ -1,1 +1,1 @@
-LINEUPS_ADD["USC Upstate"] = {"players":["Tommy Bruner","Everette Hammond","Dalvin White","Nevin Zink","Bryson Mozone","Josh Aldrich","Khydarius Smith","Cartier Jernigan","Jataveous Watson","Quentin Hodge","Mysta Goodloe","Brandon Martin","Thomas Sheida","Dave Dickerson III"],"rows":[]};
+LINEUPS_ADD["USC Upstate"] = {"players":["Everette Hammond","Tommy Bruner","Dalvin White","Nevin Zink","Bryson Mozone","Josh Aldrich","Khydarius Smith","Cartier Jernigan","Jataveous Watson","Quentin Hodge","Mysta Goodloe","Brandon Martin","Thomas Sheida","Dave Dickerson III"],"rows":[]};

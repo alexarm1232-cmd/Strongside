@@ -1,1 +1,1 @@
-LINEUPS_ADD["A&M-Corpus Christi"] = {"players":["Kareem South","Emmanuel Toney","Jashawn Talton","Elijah Schmidt","Jake Babic","Tony Lewis","Tre Gray","Irshaad Hunte","Kyle Brown","Myles Smith","Jalon Clark","Peyton Smith","Javae Lampkins"],"rows":[]};
+LINEUPS_ADD["A&M-Corpus Christi"] = {"players":["Kareem South","Emmanuel Toney","Jashawn Talton","Elijah Schmidt","Jake Babic","Tony Lewis","Tre Gray","Irshaad Hunte","Myles Smith","Kyle Brown","Jalon Clark","Peyton Smith","Javae Lampkins"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["New Mexico St."] = {"players":["Deshawndre Washington","Xavier Pinson","DaJuan Gordon","Issa Muhammad","James Beck","Doctor Bradley","Marchelus Avery","Anthony Roy","Kyle Feit","Shakir Odunewu","Mady Traore","Mike Peake"],"rows":[]};
+LINEUPS_ADD["New Mexico St."] = {"players":["Deshawndre Washington","Xavier Pinson","DaJuan Gordon","Issa Muhammad","James Beck","Marchelus Avery","Doctor Bradley","Anthony Roy","Kyle Feit","Shakir Odunewu","Mady Traore","Mike Peake"],"rows":[]};

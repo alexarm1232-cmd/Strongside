@@ -1,1 +1,1 @@
-LINEUPS_ADD["Colgate"] = {"players":["Nicolas Louis-Jacques","Parker Jones","Jalen Cox","Brady Cummins","Jeff Woodward","Chandler Baker","Sam Wright","Kyle Carlesimo","Julian Scott","Blake Forrest","Josh Ahayere","Cameron Brennan","Cooper Wright","Stevie Clark"],"rows":[]};
+LINEUPS_ADD["Colgate"] = {"players":["Nicolas Louis-Jacques","Jalen Cox","Parker Jones","Brady Cummins","Jeff Woodward","Chandler Baker","Sam Wright","Kyle Carlesimo","Julian Scott","Blake Forrest","Josh Ahayere","Cameron Brennan","Cooper Wright","Stevie Clark"],"rows":[]};

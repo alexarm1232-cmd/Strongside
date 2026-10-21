@@ -1,1 +1,1 @@
-LINEUPS_ADD["N.C. Central"] = {"players":["C.J. Keyser","Nicolas Fennell","Jordan Perkins","Deven Palmer","Jamir Moultrie","Justin Whatley","Mike Melvin","Jahnathan Maxwell","Ty Graves","Cameron Bowles","Kobby Ayetey","Nehemie Kabeya","Alex Caldwell","Justin Wright"],"rows":[]};
+LINEUPS_ADD["N.C. Central"] = {"players":["C.J. Keyser","Nicolas Fennell","Jordan Perkins","Deven Palmer","Jamir Moultrie","Justin Whatley","Mike Melvin","Jahnathan Maxwell","Ty Graves","Cameron Bowles","Kobby Ayetey","Nehemie Kabeya","Justin Wright","Alex Caldwell"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["Samford"] = {"players":["Raijon Kelly","Tim Williams","Connor Miller","Clide Geffrard","Russell Wilson","Tyler Hood","Will Cook","Brandon Hayman","Jaylen Beckham","Levi Barnes","Hamilton Bailey","Gregg Wooten"],"rows":[]};
+LINEUPS_ADD["Samford"] = {"players":["Raijon Kelly","Tim Williams","Connor Miller","Clide Geffrard","Russell Wilson","Tyler Hood","Will Cook","Brandon Hayman","Jaylen Beckham","Levi Barnes","Gregg Wooten","Hamilton Bailey"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["North Florida"] = {"players":["Jarius Hicklen","Jose Placer","Carter Hendricksen","Dorian James","Jadyn Parker","Chaz Lanier","Oscar Berry","Jonathan Aybar","Jah Nze","Max Hrdlicka","Trent Coleman","Mark Flakus","Brandon Rasmussen"],"rows":[]};
+LINEUPS_ADD["North Florida"] = {"players":["Jose Placer","Jarius Hicklen","Carter Hendricksen","Dorian James","Chaz Lanier","Jadyn Parker","Oscar Berry","Jonathan Aybar","Jah Nze","Max Hrdlicka","Trent Coleman","Mark Flakus","Brandon Rasmussen"],"rows":[]};

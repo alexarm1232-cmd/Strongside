@@ -1,1 +1,1 @@
-LINEUPS_ADD["Harvard"] = {"players":["Louis Lesmond","Chisom Okpara","Malik Mack","Chandler Pigg\u00e9","Thomas Batties II","Justice Ajogbor","Denham Wojcik","Tyler Simon","Luca Ace-Nasteski","Xavier Nesbitt","Christian Rich","Greg Cooper","Payton Pitts","Matt Filipowski"],"rows":[]};
+LINEUPS_ADD["Harvard"] = {"players":["Louis Lesmond","Malik Mack","Chisom Okpara","Chandler Pigg\u00e9","Thomas Batties II","Justice Ajogbor","Denham Wojcik","Tyler Simon","Luca Ace-Nasteski","Xavier Nesbitt","Christian Rich","Greg Cooper","Payton Pitts","Matt Filipowski"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["San Francisco"] = {"players":["Cody Doolin","Cole Dickerson","De'End Parker","Tim Derksen","Mark Tollefsen","Chris Adams","Avry Holmes","Tao Xu","Matt Christiansen","Frank Rogers","Gavin Hoffmann","Coltin Gelb"],"rows":[]};
+LINEUPS_ADD["San Francisco"] = {"players":["Cody Doolin","Cole Dickerson","De'End Parker","Tim Derksen","Mark Tollefsen","Avry Holmes","Chris Adams","Tao Xu","Matt Christiansen","Frank Rogers","Gavin Hoffmann","Coltin Gelb"],"rows":[]};

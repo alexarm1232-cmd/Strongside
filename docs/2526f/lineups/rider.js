@@ -1,1 +1,1 @@
-LINEUPS_ADD["Rider"] = {"players":["Flash Burton","Zion Cruz","Caleb Smith","Shemani Fuller","Davis Bynum","AB Coulibaly","Cole McCabe","Antwan Wilson","Jamir McNeil","Daniel Helterhoff","Kristupas Kepezinskas","Mohamad Diallo","Devean Williams","Maurizio D'Alessandro"],"rows":[]};
+LINEUPS_ADD["Rider"] = {"players":["Flash Burton","Zion Cruz","Caleb Smith","Shemani Fuller","Davis Bynum","Cole McCabe","AB Coulibaly","Antwan Wilson","Jamir McNeil","Daniel Helterhoff","Mohamad Diallo","Kristupas Kepezinskas","Devean Williams","Maurizio D'Alessandro"],"rows":[]};

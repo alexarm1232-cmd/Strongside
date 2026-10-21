@@ -1,1 +1,1 @@
-LINEUPS_ADD["Little Rock"] = {"players":["Oliver Black","Jaizec Lottie","Andre Jones","Anthony Black","Cameron Corcoran","Ben Marcus","Ryan Pippins","Kris Bankston","Camron Reedus","Damir Hadzic","Wadly Mompremier","K.J. Gilmore","Brandon Brady","Cezanne Carson","Khari Harley"],"rows":[]};
+LINEUPS_ADD["Little Rock"] = {"players":["Oliver Black","Jaizec Lottie","Andre Jones","Anthony Black","Cameron Corcoran","Ben Marcus","Ryan Pippins","Kris Bankston","Camron Reedus","Damir Hadzic","K.J. Gilmore","Wadly Mompremier","Brandon Brady","Cezanne Carson","Khari Harley"],"rows":[]};

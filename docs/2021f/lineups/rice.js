@@ -1,1 +1,1 @@
-LINEUPS_ADD["Rice"] = {"players":["Quincy Olivari","Travis Evee","Max Fiedler","Riley Abercrombie","Chris Mullins","Cavit Ege Havsa","Cameron Sheffield","Payton Moore","Tre Clark","Mylyjael Poteat","Jake Lieppert","Ben Moffat","Reed Myers"],"rows":[]};
+LINEUPS_ADD["Rice"] = {"players":["Travis Evee","Quincy Olivari","Max Fiedler","Riley Abercrombie","Chris Mullins","Cavit Ege Havsa","Cameron Sheffield","Payton Moore","Tre Clark","Jake Lieppert","Mylyjael Poteat","Ben Moffat","Reed Myers"],"rows":[]};

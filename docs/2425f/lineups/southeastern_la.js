@@ -1,1 +1,1 @@
-LINEUPS_ADD["Southeastern La."] = {"players":["Sam Hines Jr.","Jakevion Buckley","Brody Rowbury","Jeremy Elyzee","Carlos Paez","Kam Burton","Jaiden Lawrence","Kyle Edison","Ahmed Essahaty","Thomas Tut","C.J. Booker","Asher Boney","Ryan Elzy","Max Brackmann"],"rows":[]};
+LINEUPS_ADD["Southeastern La."] = {"players":["Sam Hines Jr.","Jakevion Buckley","Jeremy Elyzee","Brody Rowbury","Carlos Paez","Kam Burton","Jaiden Lawrence","Kyle Edison","Ahmed Essahaty","Thomas Tut","C.J. Booker","Asher Boney","Ryan Elzy","Max Brackmann"],"rows":[]};

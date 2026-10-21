@@ -1,1 +1,1 @@
-LINEUPS_ADD["Texas St."] = {"players":["Mason Harrell","Caleb Asberry","Shelby Adams","Isiah Small","Alonzo Sule","Marlin Davis","Nighael Ceaser","Quentin Scott","Nate Martin","Addison Wallace","Dylan Dawson","Drew Tennial","Deuce Guidry","Mason Hix"],"rows":[]};
+LINEUPS_ADD["Texas St."] = {"players":["Mason Harrell","Caleb Asberry","Isiah Small","Shelby Adams","Alonzo Sule","Marlin Davis","Nighael Ceaser","Quentin Scott","Nate Martin","Addison Wallace","Dylan Dawson","Drew Tennial","Deuce Guidry","Mason Hix"],"rows":[]};

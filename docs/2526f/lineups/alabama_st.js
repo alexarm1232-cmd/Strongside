@@ -1,1 +1,1 @@
-LINEUPS_ADD["Alabama St."] = {"players":["Micah Simpson","Cam Palesse","Jerquarius Stanback","Asjon Anderson","Tyler Byrd","Damarien Yates","R'Chaun King","Tyler Mack","Mario Andrews","Jasteven Walker","Tyler Mason","Trey Miller","Kevin Alabi","Jordon Marshall"],"rows":[]};
+LINEUPS_ADD["Alabama St."] = {"players":["Micah Simpson","Cam Palesse","Jerquarius Stanback","Tyler Byrd","Asjon Anderson","Damarien Yates","R'Chaun King","Tyler Mack","Mario Andrews","Tyler Mason","Jasteven Walker","Trey Miller","Kevin Alabi","Jordon Marshall"],"rows":[]};

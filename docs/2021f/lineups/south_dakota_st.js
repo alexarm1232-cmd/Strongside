@@ -1,1 +1,1 @@
-LINEUPS_ADD["South Dakota St."] = {"players":["Baylor Scheierman","Alex Arians","Matt Dentlinger","Douglas Wilson","Charlie Easley","Noah Freidel","David Wingett","Matt Mims","Luke Appel","Aaron Fiegen","William Mfum","Cooper Cornemann"],"rows":[]};
+LINEUPS_ADD["South Dakota St."] = {"players":["Baylor Scheierman","Alex Arians","Matt Dentlinger","Douglas Wilson","Charlie Easley","Noah Freidel","David Wingett","Matt Mims","Luke Appel","William Mfum","Aaron Fiegen","Cooper Cornemann"],"rows":[]};

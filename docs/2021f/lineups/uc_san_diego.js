@@ -1,1 +1,1 @@
-LINEUPS_ADD["UC San Diego"] = {"players":["Gabe Hadley","Jake Killingsworth","Mikey Howell","Bryce Pope","Jace Roquemore","Hugh Baxter","Toni Rocak","Kaden Rasheed","Matt Gray","Martin Tombe","Jake Kosakowski","Lunden Taylor","Trace Ramsey","Justin Pratt"],"rows":[]};
+LINEUPS_ADD["UC San Diego"] = {"players":["Gabe Hadley","Mikey Howell","Jake Killingsworth","Bryce Pope","Jace Roquemore","Hugh Baxter","Toni Rocak","Kaden Rasheed","Matt Gray","Jake Kosakowski","Martin Tombe","Lunden Taylor","Trace Ramsey","Justin Pratt"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["Wagner"] = {"players":["Kenneth Ortiz","Latif Rivers","Orlando Parker","Dwaun Anderson","Naofall Folahan","Jay Harris","Mario Moody","Marcus Burton","Nolan Long","Greg Senat","Hugo Naurais","Langston Burnette"],"rows":[]};
+LINEUPS_ADD["Wagner"] = {"players":["Kenneth Ortiz","Latif Rivers","Orlando Parker","Dwaun Anderson","Naofall Folahan","Mario Moody","Marcus Burton","Jay Harris","Nolan Long","Greg Senat","Hugo Naurais","Langston Burnette"],"rows":[]};

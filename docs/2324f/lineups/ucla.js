@@ -1,1 +1,1 @@
-LINEUPS_ADD["UCLA"] = {"players":["Lazar Stefanovic","Dylan Andrews","Sebastian Mack","Adem Bona","Will McClendon","Brandon Williams","Berke Buyuktuncel","Kenneth Nwuba","Aday Mara","Jan Vide","Ilane Fibleuil","Devin Williams","Logan Cremonesi"],"rows":[]};
+LINEUPS_ADD["UCLA"] = {"players":["Lazar Stefanovic","Dylan Andrews","Sebastian Mack","Adem Bona","Will McClendon","Brandon Williams","Berke Buyuktuncel","Aday Mara","Kenneth Nwuba","Jan Vide","Ilane Fibleuil","Devin Williams","Logan Cremonesi"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["UNLV"] = {"players":["Caleb Grill","Bryce Hamilton","David Jenkins Jr.","Cheikh Mbacke Diong","Moses Wood","Nick Blake","Devin Tillis","Edoardo Del Cadia","Marvin Coleman","Reece Brown","Donavan Yap Jr.","Kendrick Gilbert","Trey Hurlburt"],"rows":[]};
+LINEUPS_ADD["UNLV"] = {"players":["Caleb Grill","David Jenkins Jr.","Bryce Hamilton","Cheikh Mbacke Diong","Moses Wood","Nick Blake","Devin Tillis","Edoardo Del Cadia","Marvin Coleman","Reece Brown","Donavan Yap Jr.","Kendrick Gilbert","Trey Hurlburt"],"rows":[]};

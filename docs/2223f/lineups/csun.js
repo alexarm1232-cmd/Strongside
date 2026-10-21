@@ -1,1 +1,1 @@
-LINEUPS_ADD["CSUN"] = {"players":["Atin Wright","De'Sean Allen-Eikens","Ethan Igbanugo","Dionte Bostick","Fidelis Okereke","Dearon Tucker","Marcel Stevens","Cam Slaymaker","Onyi Eyisi","Johnnie Walter","Lamine Niang","John Wade III","Adam Afifi","Arman Pezeshkian"],"rows":[]};
+LINEUPS_ADD["CSUN"] = {"players":["Atin Wright","De'Sean Allen-Eikens","Ethan Igbanugo","Dionte Bostick","Fidelis Okereke","Dearon Tucker","Marcel Stevens","Cam Slaymaker","Onyi Eyisi","Johnnie Walter","John Wade III","Lamine Niang","Adam Afifi","Arman Pezeshkian"],"rows":[]};

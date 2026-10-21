@@ -1,1 +1,1 @@
-LINEUPS_ADD["Kent St."] = {"players":["Giovanni Santiago","Malique Jacobs","Danny Pippen","Justyn Hamilton","Tervell Beck","Michael Nuga","Jeremiah Hernandez","Gabe O'Neal","James Jordan","Evan Bainbridge","VonCameron Davis","Michael DiGiulio","Tekorian Smith"],"rows":[]};
+LINEUPS_ADD["Kent St."] = {"players":["Giovanni Santiago","Malique Jacobs","Danny Pippen","Justyn Hamilton","Tervell Beck","Michael Nuga","Jeremiah Hernandez","Gabe O'Neal","James Jordan","Evan Bainbridge","VonCameron Davis","Tekorian Smith","Michael DiGiulio"],"rows":[]};

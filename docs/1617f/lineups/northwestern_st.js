@@ -1,1 +1,1 @@
-LINEUPS_ADD["Northwestern St."] = {"players":["Sabri Thompson","Iziahiah Sweeney","Devonte Hall","Ishmael Lane","Tra'Von Joseph","Josh Boyd","Zeek Woodley","Jordan Bell","Bailey Walker","Tanner Hamilton","Reginald Kissoonlal","Malik Metoyer","Jacob Guest","Cody Cambre"],"rows":[]};
+LINEUPS_ADD["Northwestern St."] = {"players":["Sabri Thompson","Devonte Hall","Iziahiah Sweeney","Ishmael Lane","Tra'Von Joseph","Josh Boyd","Zeek Woodley","Jordan Bell","Bailey Walker","Tanner Hamilton","Reginald Kissoonlal","Malik Metoyer","Jacob Guest","Cody Cambre"],"rows":[]};

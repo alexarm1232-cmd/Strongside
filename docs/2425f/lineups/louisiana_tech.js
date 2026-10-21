@@ -1,1 +1,1 @@
-LINEUPS_ADD["Louisiana Tech"] = {"players":["Amaree Abram","Sean Newman Jr.","Kaden Cooper","Daniel Batcho","Al Green","AJ Bates","Devin Ree","Jordan Crawford","Sean Elkinton","Will Allen","Landren Blocker","William Jeffress","Ben Ponder"],"rows":[]};
+LINEUPS_ADD["Louisiana Tech"] = {"players":["Sean Newman Jr.","Amaree Abram","Kaden Cooper","Daniel Batcho","Al Green","AJ Bates","Devin Ree","Jordan Crawford","Sean Elkinton","Will Allen","William Jeffress","Landren Blocker","Ben Ponder"],"rows":[]};

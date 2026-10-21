@@ -1,1 +1,1 @@
-LINEUPS_ADD["Furman"] = {"players":["Alex Hunter","Mike Bothwell","Jalen Slawson","Conley Garrison","Marcus Foster","Garrett Hien","Joe Anderson","JP Pegues","Tyrese Hughey","Alex Williams","Jaylon Pugh","James Repass","Robert Swanson","Ben Beeker","Rett Lister"],"rows":[]};
+LINEUPS_ADD["Furman"] = {"players":["Alex Hunter","Mike Bothwell","Jalen Slawson","Conley Garrison","Marcus Foster","Garrett Hien","Joe Anderson","JP Pegues","Tyrese Hughey","Alex Williams","Jaylon Pugh","James Repass","Ben Beeker","Robert Swanson","Rett Lister"],"rows":[]};

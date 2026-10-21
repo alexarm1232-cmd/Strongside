@@ -1,1 +1,1 @@
-LINEUPS_ADD["ETSU"] = {"players":["Tommy Hubbard","Justin Tubbs","Micah Williams","Isiah Brown","Jocolby Davis","Sheldon Cooley","Adam Sollazzo","JC Ward","Jarvis Jones","Lukas Poderis","Bruce Grimm","Mike Smith"],"rows":[[33,[6,3,1,2,0],79.83,71,100,47.98,35,69]]};
+LINEUPS_ADD["ETSU"] = {"players":["Tommy Hubbard","Justin Tubbs","Micah Williams","Isiah Brown","Jocolby Davis","Sheldon Cooley","Adam Sollazzo","JC Ward","Jarvis Jones","Lukas Poderis","Bruce Grimm","Mike Smith"],"rows":[[34,[6,3,1,2,0],79.83,71,100,47.98,35,69]]};

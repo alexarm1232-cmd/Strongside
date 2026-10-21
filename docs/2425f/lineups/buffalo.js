@@ -1,1 +1,1 @@
-LINEUPS_ADD["Buffalo"] = {"players":["Ryan Sabol","Noah Batchelor","Tyson Dunn","Anquan Boldin Jr.","Ben Michaels","Bryson Wilson","Tim Oboh","Kavon Bradford","Frederiks Meinarts","Brayden Jackson","Lloyd McVeigh","Omar Migues-Hibelji\u0107","Sam Akot"],"rows":[]};
+LINEUPS_ADD["Buffalo"] = {"players":["Ryan Sabol","Tyson Dunn","Noah Batchelor","Anquan Boldin Jr.","Ben Michaels","Bryson Wilson","Tim Oboh","Kavon Bradford","Frederiks Meinarts","Brayden Jackson","Lloyd McVeigh","Omar Migues-Hibelji\u0107","Sam Akot"],"rows":[]};

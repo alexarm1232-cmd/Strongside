@@ -1,1 +1,1 @@
-LINEUPS_ADD["Louisiana"] = {"players":["Mylik Wilson","Cedric Russell","Theo Akwuba","Dou Gueye","Brayan Au","Ty Harper","Devin Butts","Isaiah Richards","Jacobi Gordon","Kentrell Garnett","Kobe Julien","Michael Thomas","Chris Spenkuch"],"rows":[]};
+LINEUPS_ADD["Louisiana"] = {"players":["Mylik Wilson","Cedric Russell","Theo Akwuba","Dou Gueye","Brayan Au","Devin Butts","Ty Harper","Isaiah Richards","Jacobi Gordon","Kentrell Garnett","Michael Thomas","Kobe Julien","Chris Spenkuch"],"rows":[]};

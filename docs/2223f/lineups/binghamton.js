@@ -1,1 +1,1 @@
-LINEUPS_ADD["Binghamton"] = {"players":["Jacob Falko","Dan Petcash","Miles Gibson","Armon Harried","Christian Hinckson","Taveion White","John McGriff","Tariq Balogun","Ogheneyole Akuwovo","Matt Solomon","Masud Stewart","Ador Athuai"],"rows":[]};
+LINEUPS_ADD["Binghamton"] = {"players":["Jacob Falko","Miles Gibson","Dan Petcash","Armon Harried","Christian Hinckson","Taveion White","John McGriff","Tariq Balogun","Ogheneyole Akuwovo","Matt Solomon","Masud Stewart","Ador Athuai"],"rows":[]};

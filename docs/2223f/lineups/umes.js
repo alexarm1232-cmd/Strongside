@@ -1,1 +1,1 @@
-LINEUPS_ADD["UMES"] = {"players":["Da'Shawn Phillip","Zion Styles","Nathaniel Pollard, Jr.","Ahamadou Fofana","Chace Davis","Donchevell Nugent","Kohen Thompson","Kevon Voyles","Troy Hupstead","Glen Anderson","Dionte Johnson","Victory Naboya","Toby Nnadozie"],"rows":[]};
+LINEUPS_ADD["UMES"] = {"players":["Da'Shawn Phillip","Zion Styles","Nathaniel Pollard, Jr.","Ahamadou Fofana","Chace Davis","Donchevell Nugent","Kohen Thompson","Kevon Voyles","Troy Hupstead","Dionte Johnson","Glen Anderson","Victory Naboya","Toby Nnadozie"],"rows":[]};

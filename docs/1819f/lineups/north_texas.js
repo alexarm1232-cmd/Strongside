@@ -1,1 +1,1 @@
-LINEUPS_ADD["North Texas"] = {"players":["Ryan Woolridge","Umoja Gibson","Zachary Simmons","Michael Miller","Roosevelt Smart","Jorden Duffy","DJ Draper","Jahmiah Simmons","Tope Arikawe","Shakeem Alcindor","Mark Tikhonenko","John Weger"],"rows":[]};
+LINEUPS_ADD["North Texas"] = {"players":["Ryan Woolridge","Umoja Gibson","Zachary Simmons","Michael Miller","Roosevelt Smart","Jorden Duffy","DJ Draper","Jahmiah Simmons","Tope Arikawe","Mark Tikhonenko","Shakeem Alcindor","John Weger"],"rows":[]};

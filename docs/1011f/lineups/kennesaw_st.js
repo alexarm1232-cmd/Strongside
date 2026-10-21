@@ -1,1 +1,1 @@
-LINEUPS_ADD["Kennesaw St."] = {"players":["Markeith Cummings","Spencer Dixon","Kelvin McConnell","LaDaris Green","Aaron Anderson","Matt Heramb","Artie Marine","Andrew Osemhen","Nick Turner","Brandon Dawson","Mirza Sabic","Romain Henry","Rj Hall"],"rows":[]};
+LINEUPS_ADD["Kennesaw St."] = {"players":["Markeith Cummings","Spencer Dixon","Kelvin McConnell","LaDaris Green","Aaron Anderson","Matt Heramb","Artie Marine","Andrew Osemhen","Brandon Dawson","Nick Turner","Mirza Sabic","Romain Henry","Rj Hall"],"rows":[]};

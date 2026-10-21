@@ -1,1 +1,1 @@
-LINEUPS_ADD["Omaha"] = {"players":["Tony Osburn","Lance Waddles","Grant Stubblefield","Ja'Sean Glover","Paul Djobet","Kamryn Thomas","Brock Scholl","Christian Richardson","Khamani Cooper","Valentino Simon","Julian Margrave","Aidan Skradis"],"rows":[]};
+LINEUPS_ADD["Omaha"] = {"players":["Lance Waddles","Tony Osburn","Ja'Sean Glover","Grant Stubblefield","Paul Djobet","Kamryn Thomas","Brock Scholl","Christian Richardson","Khamani Cooper","Valentino Simon","Julian Margrave","Aidan Skradis"],"rows":[]};

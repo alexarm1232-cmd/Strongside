@@ -1,1 +1,1 @@
-LINEUPS_ADD["UAlbany"] = {"players":["Gerald Drumgoole Jr.","Jonathan Beagle","Sarju Patel","Da'Kquan Davis","Aaron Reddish","Trey Hutcheson","Marcus Jackson","Malik Edmead","Japannah Kellogg","Tairi Ketner","Ny'Mire Little","Will Amica","Justin Neely"],"rows":[]};
+LINEUPS_ADD["UAlbany"] = {"players":["Gerald Drumgoole Jr.","Jonathan Beagle","Sarju Patel","Da'Kquan Davis","Aaron Reddish","Marcus Jackson","Trey Hutcheson","Malik Edmead","Tairi Ketner","Japannah Kellogg","Ny'Mire Little","Will Amica","Justin Neely"],"rows":[]};

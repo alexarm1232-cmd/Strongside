@@ -1,1 +1,1 @@
-LINEUPS_ADD["UMBC"] = {"players":["Ryan Cook","Brian Neller","Chase Plummer","Aaron Morgan","Adrian Satchell","Malik Garner","Quentin Jones","Brett Roseboro","Joey Getz","Jamar Wertz","Jarrel Lane","Jordan Wejnert","William Wise"],"rows":[]};
+LINEUPS_ADD["UMBC"] = {"players":["Ryan Cook","Brian Neller","Chase Plummer","Aaron Morgan","Adrian Satchell","Malik Garner","Brett Roseboro","Quentin Jones","Joey Getz","Jamar Wertz","Jarrel Lane","Jordan Wejnert","William Wise"],"rows":[]};

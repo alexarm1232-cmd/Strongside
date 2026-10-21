@@ -1,1 +1,1 @@
-LINEUPS_ADD["Central Ark."] = {"players":["Camren Hunter","Collin Cooper","Jared Chatham","Darious Hall","Eddy Kayouloud","Ibbe Klintman","Jaxson Baker","Masai Olowokere","VJ Reeves","Elias Cato","SK Shittu","Churchilll Bounds","Lewis McDaniel","Brendan Simmons","Jonas Munson"],"rows":[]};
+LINEUPS_ADD["Central Ark."] = {"players":["Camren Hunter","Collin Cooper","Jared Chatham","Darious Hall","Eddy Kayouloud","Ibbe Klintman","Jaxson Baker","Masai Olowokere","Elias Cato","VJ Reeves","Churchilll Bounds","SK Shittu","Lewis McDaniel","Brendan Simmons","Jonas Munson"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["South Carolina St."] = {"players":["Edward Stephens","Darryl Palmer","Greg Mortimer","Tashombe Riley","Karon Wright","Jalen White","Tyvoris Soloman","Gabe McCray","Devin Joint","Gerdarius Troutman","Radin Hughes","Patrick Myers","Patrick Kirksey","Ty Solomon"],"rows":[]};
+LINEUPS_ADD["South Carolina St."] = {"players":["Edward Stephens","Darryl Palmer","Greg Mortimer","Tashombe Riley","Karon Wright","Tyvoris Soloman","Gabe McCray","Jalen White","Devin Joint","Gerdarius Troutman","Radin Hughes","Patrick Myers","Patrick Kirksey","Ty Solomon"],"rows":[]};

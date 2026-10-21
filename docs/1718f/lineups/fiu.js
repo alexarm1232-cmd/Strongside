@@ -1,1 +1,1 @@
-LINEUPS_ADD["FIU"] = {"players":["Eric Lockett","Brian Beard Jr.","Trejon Jacob","Michael Douglas","Hassan Hussein","Jay Harvey","Osasumwen Osaghae","John Stamps","Elhadji Dieng","Cordell Veira","Willy Nunez Jr.","Isaiah Banks","Ronald Whitaker","Kasper Christensen"],"rows":[]};
+LINEUPS_ADD["FIU"] = {"players":["Eric Lockett","Brian Beard Jr.","Trejon Jacob","Michael Douglas","Hassan Hussein","Jay Harvey","Osasumwen Osaghae","John Stamps","Cordell Veira","Elhadji Dieng","Isaiah Banks","Willy Nunez Jr.","Ronald Whitaker","Kasper Christensen"],"rows":[]};

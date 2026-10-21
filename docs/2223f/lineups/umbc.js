@@ -1,1 +1,1 @@
-LINEUPS_ADD["UMBC"] = {"players":["Craig Beaudion","Jacob Boonyasith","Colton Lawrence","Yaw Obeng-Mensah","Matteo Picarelli","Jarvis Doles","Tra'Von Fagan","Dion Brown","Mason Docks","Devan Sapp","Tre Edwards","Regimantas Ciunys","Anyang Garang","JC Harris","Patrick Jones"],"rows":[]};
+LINEUPS_ADD["UMBC"] = {"players":["Craig Beaudion","Jacob Boonyasith","Colton Lawrence","Yaw Obeng-Mensah","Matteo Picarelli","Jarvis Doles","Tra'Von Fagan","Dion Brown","Mason Docks","Devan Sapp","Tre Edwards","Anyang Garang","Regimantas Ciunys","JC Harris","Patrick Jones"],"rows":[]};

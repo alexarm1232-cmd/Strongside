@@ -1,1 +1,1 @@
-LINEUPS_ADD["American"] = {"players":["Greg Jones","Matt Mayock","Geoff Sprouse","Julen Iturbe","Wyatt Nausadis","Madden Collins","Kade Sebastian","Chris Eagan","Dean Hogans","Luke Brown","Carson McDonald","Jack Anderson","Matthew Casey"],"rows":[]};
+LINEUPS_ADD["American"] = {"players":["Greg Jones","Matt Mayock","Geoff Sprouse","Julen Iturbe","Wyatt Nausadis","Madden Collins","Kade Sebastian","Chris Eagan","Dean Hogans","Luke Brown","Carson McDonald","Matthew Casey","Jack Anderson"],"rows":[]};

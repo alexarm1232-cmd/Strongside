@@ -1,1 +1,1 @@
-LINEUPS_ADD["Northern Ariz."] = {"players":["Cameron Jones","Nick Larson","Julian Olubuyi","Gabe Rogers","Shane Johannsen","DeAngelo Jones","Stallon Saldivar","Josh Lepley","Reid Wallace","Eric Platt"],"rows":[]};
+LINEUPS_ADD["Northern Ariz."] = {"players":["Cameron Jones","Nick Larson","Gabe Rogers","Julian Olubuyi","Shane Johannsen","DeAngelo Jones","Stallon Saldivar","Josh Lepley","Eric Platt","Reid Wallace"],"rows":[]};

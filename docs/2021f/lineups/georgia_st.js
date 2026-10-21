@@ -1,1 +1,1 @@
-LINEUPS_ADD["Georgia St."] = {"players":["Corey Allen","Justin Roberts","Kane Williams","Eliel Nsoseme","Jalen Thomas","Evan Johnson","Ryan Boyce","Collin Moore","JoJo Toppin","Kalik Brooks","Kaleb Scott","Zach Pina"],"rows":[]};
+LINEUPS_ADD["Georgia St."] = {"players":["Corey Allen","Justin Roberts","Kane Williams","Eliel Nsoseme","Jalen Thomas","Evan Johnson","Ryan Boyce","Collin Moore","JoJo Toppin","Kaleb Scott","Kalik Brooks","Zach Pina"],"rows":[]};

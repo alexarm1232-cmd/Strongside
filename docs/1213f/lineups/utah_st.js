@@ -1,1 +1,1 @@
-LINEUPS_ADD["Utah St."] = {"players":["Jarred Shaw","Marcel Davis","Spencer Butterfield","Marvin Jean","Tenale Roland","Ben Clifford","Preston Medlin","Kyisean Reed","Jordan Stone","Matt Lopez","Danny Berger","Quincy Bair","Conner Garner"],"rows":[]};
+LINEUPS_ADD["Utah St."] = {"players":["Jarred Shaw","Spencer Butterfield","Marcel Davis","Marvin Jean","Tenale Roland","Ben Clifford","Preston Medlin","Kyisean Reed","Jordan Stone","Matt Lopez","Danny Berger","Quincy Bair","Conner Garner"],"rows":[]};

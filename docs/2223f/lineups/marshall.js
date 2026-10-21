@@ -1,1 +1,1 @@
-LINEUPS_ADD["Marshall"] = {"players":["Taevion Kinsey","Andrew Taylor","Kamdyn Curfman","Micah Handlogten","Obinna Anochili-Killen","Jacob Conner","Wyatt Fricks","David Early","Goran Miladinovic","Aymeric Toussaint","Marko Sarenac","Kyle Braun","Creighton Thieneman"],"rows":[]};
+LINEUPS_ADD["Marshall"] = {"players":["Taevion Kinsey","Andrew Taylor","Kamdyn Curfman","Obinna Anochili-Killen","Micah Handlogten","Jacob Conner","Wyatt Fricks","David Early","Goran Miladinovic","Aymeric Toussaint","Marko Sarenac","Kyle Braun","Creighton Thieneman"],"rows":[]};

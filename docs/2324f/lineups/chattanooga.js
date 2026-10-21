@@ -1,1 +1,1 @@
-LINEUPS_ADD["Chattanooga"] = {"players":["Honor Huff","Sam Alexis","Tyler Millin","Trey Bonham","Jan Zidek","Randy Brady","Myles Che","Demetrius Davis","Noah Melson","Rudy Fitzgibbons III","Sean Cusano","Ryan Lopez","TJ Kolbe"],"rows":[]};
+LINEUPS_ADD["Chattanooga"] = {"players":["Honor Huff","Sam Alexis","Tyler Millin","Jan Zidek","Randy Brady","Trey Bonham","Myles Che","Demetrius Davis","Noah Melson","Rudy Fitzgibbons III","Sean Cusano","Ryan Lopez","TJ Kolbe"],"rows":[]};

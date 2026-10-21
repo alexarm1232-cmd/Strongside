@@ -1,1 +1,1 @@
-LINEUPS_ADD["Louisiana"] = {"players":["Elfrid Payton","Shawn Long","Bryant Mbamalu","Elridge Moore","Steven Wronkoski","Alan-Michael Thompson","Kasey Shepherd","Josh Soto","Braylon Lazare","Kevin Brown","Cornell Barnett","Aaron Leblanc","Matthew Moss","Donovan Williams"],"rows":[]};
+LINEUPS_ADD["Louisiana"] = {"players":["Elfrid Payton","Shawn Long","Bryant Mbamalu","Elridge Moore","Steven Wronkoski","Alan-Michael Thompson","Kasey Shepherd","Josh Soto","Kevin Brown","Braylon Lazare","Cornell Barnett","Aaron Leblanc","Matthew Moss","Donovan Williams"],"rows":[]};

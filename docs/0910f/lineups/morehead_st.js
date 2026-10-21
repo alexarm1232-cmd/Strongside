@@ -1,1 +1,1 @@
-LINEUPS_ADD["Morehead St."] = {"players":["Maze Stallworth","Kenneth Faried","Demonte Harper","Brandon Shingles","Steve Peterson","Terrance Hill","Sam Goodman","Les Simmons","Ty Proffitt"],"rows":[[31,[2,1,0,6,5],66.86,74,60,64.72,71,58],[32,[2,1,0,4,5],82.45,89,91,82.45,89,91]]};
+LINEUPS_ADD["Morehead St."] = {"players":["Maze Stallworth","Kenneth Faried","Demonte Harper","Brandon Shingles","Steve Peterson","Terrance Hill","Sam Goodman","Les Simmons","Ty Proffitt"],"rows":[[33,[2,1,0,6,5],66.86,74,60,64.72,71,58],[34,[2,1,0,4,5],82.45,89,91,82.45,89,91]]};

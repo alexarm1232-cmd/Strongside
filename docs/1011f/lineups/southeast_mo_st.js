@@ -1,1 +1,1 @@
-LINEUPS_ADD["Southeast Mo. St."] = {"players":["Leon Powell","Anthony Allison","Lucas Nutt","Marland Smith","Marcus Brister","Cameron Butler","Zach House","Waylon Jones","Nate Schulte","Nick Niemczyk","Rae-Vonn Banks"],"rows":[]};
+LINEUPS_ADD["Southeast Mo. St."] = {"players":["Leon Powell","Anthony Allison","Marland Smith","Lucas Nutt","Marcus Brister","Cameron Butler","Zach House","Waylon Jones","Nate Schulte","Nick Niemczyk","Rae-Vonn Banks"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["Portland St."] = {"players":["Bobby Harvey","Jorell Saterfield","KJ Allen","Ismail Habib","Isaiah Johnson","Kendall Munson","Isiah Kirby","Hunter Woods","Cole Farrell","Hayden Curtiss","Keshaun Saunders","Tre-Vaughn Minott"],"rows":[]};
+LINEUPS_ADD["Portland St."] = {"players":["Jorell Saterfield","KJ Allen","Bobby Harvey","Ismail Habib","Isaiah Johnson","Isiah Kirby","Kendall Munson","Hunter Woods","Cole Farrell","Hayden Curtiss","Keshaun Saunders","Tre-Vaughn Minott"],"rows":[]};

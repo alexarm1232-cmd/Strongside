@@ -1,1 +1,1 @@
-LINEUPS_ADD["Liberty"] = {"players":["Lovell Cabbil","Ryan Kemrite","Anthony Fields","A.C. Reid","John Dawson","Evan Maxwell","Caleb Homesley","Ezra Talbert","Ryan Hiepler","Hansel Atencia","Calvin Hoffman","Sam Worman"],"rows":[]};
+LINEUPS_ADD["Liberty"] = {"players":["Lovell Cabbil","Ryan Kemrite","Anthony Fields","A.C. Reid","Evan Maxwell","John Dawson","Caleb Homesley","Ezra Talbert","Ryan Hiepler","Hansel Atencia","Calvin Hoffman","Sam Worman"],"rows":[]};

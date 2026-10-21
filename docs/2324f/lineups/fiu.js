@@ -1,1 +1,1 @@
-LINEUPS_ADD["FIU"] = {"players":["Javaunte Hawkins","Arturo Dean","Petar Krivokapic","Dashon Gittens","Seth Pinkney","Jayden Brewer","Jaidon Lipscomb","Jaden Grant","Dante Wilcox","Jonathan Aybar","Mohamed Sanogo","George Pridgett","Okechukwu Okeke"],"rows":[]};
+LINEUPS_ADD["FIU"] = {"players":["Arturo Dean","Javaunte Hawkins","Petar Krivokapic","Dashon Gittens","Seth Pinkney","Jayden Brewer","Jaidon Lipscomb","Jaden Grant","Dante Wilcox","Mohamed Sanogo","Jonathan Aybar","George Pridgett","Okechukwu Okeke"],"rows":[]};

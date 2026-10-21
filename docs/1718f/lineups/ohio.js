@@ -1,1 +1,1 @@
-LINEUPS_ADD["Ohio"] = {"players":["Mike Laster","Teyvion Kirk","Gavin Block","Jordan Dartis","Doug Taylor","James Gollon","Kevin Mickle","Zach Butler","A.J. Gareri","Jason Carter","Ellis Dozier","Jaylin Mcdonald","Sam Frayer","Antonio Bisutti","C.J. Rhodes"],"rows":[]};
+LINEUPS_ADD["Ohio"] = {"players":["Teyvion Kirk","Mike Laster","Gavin Block","Jordan Dartis","Doug Taylor","James Gollon","Kevin Mickle","Zach Butler","A.J. Gareri","Jason Carter","Ellis Dozier","Jaylin Mcdonald","Sam Frayer","Antonio Bisutti","C.J. Rhodes"],"rows":[]};

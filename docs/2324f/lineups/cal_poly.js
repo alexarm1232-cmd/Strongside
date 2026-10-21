@@ -1,1 +1,1 @@
-LINEUPS_ADD["Cal Poly"] = {"players":["Quentin Jones","Kobe Sanders","Jarred Hyder","Justin Page","Joel Armotrading","Tuukka Jaakkola","Aaron Price Jr.","Paul Bizimana","Aidan Prukop","Isaac Spears","Hayden Jory","Cole Haller","Cam Malray","Jackson Mosley"],"rows":[]};
+LINEUPS_ADD["Cal Poly"] = {"players":["Quentin Jones","Kobe Sanders","Jarred Hyder","Justin Page","Joel Armotrading","Tuukka Jaakkola","Aaron Price Jr.","Paul Bizimana","Isaac Spears","Aidan Prukop","Hayden Jory","Cam Malray","Cole Haller","Jackson Mosley"],"rows":[]};

@@ -33,7 +33,8 @@ DATE = re.compile(r"^(\d\d)/(\d\d)/(\d{4})")
 csv.field_size_limit(10 ** 9)
 
 def clean(name):
-    return re.sub(r"[^a-z0-9]", "", str(name).lower())
+    # "&" counts as "and", so "Missouri S&T" (Division II) does not come out the same as "Missouri St"
+    return re.sub(r"[^a-z0-9]", "", str(name).lower().replace("&", "and"))
 
 def number(text):
     try:

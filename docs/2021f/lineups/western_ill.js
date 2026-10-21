@@ -1,1 +1,1 @@
-LINEUPS_ADD["Western Ill."] = {"players":["Will Carius","Tamell Pearson","Cam Burrell","Colton Sandage","Rod Johnson","Anthony Jones","Justin Brookens","Ramean Hinton","Adam Anhold","Marcus Watson","Erik Talton","Braden Lamar","Jadrian Flores","Robert Jeter IV","Matthew Wade"],"rows":[]};
+LINEUPS_ADD["Western Ill."] = {"players":["Will Carius","Tamell Pearson","Cam Burrell","Colton Sandage","Rod Johnson","Anthony Jones","Ramean Hinton","Justin Brookens","Adam Anhold","Marcus Watson","Erik Talton","Braden Lamar","Jadrian Flores","Robert Jeter IV","Matthew Wade"],"rows":[]};

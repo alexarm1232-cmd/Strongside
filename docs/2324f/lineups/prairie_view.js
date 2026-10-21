@@ -1,1 +1,1 @@
-LINEUPS_ADD["Prairie View"] = {"players":["Javontae Hopkins","Brian Myles","Charles Smith IV","CJ Lane","Kevin McGaskey","Nick Gazelas","Andre Nunley","Chris Felix Jr.","Orlando Horton Jr.","Mckinley Harris","Justin Nimmer","Syrus Grisby","Ronell Giles Jr.","Jonathan Nash"],"rows":[]};
+LINEUPS_ADD["Prairie View"] = {"players":["Javontae Hopkins","Brian Myles","Charles Smith IV","CJ Lane","Kevin McGaskey","Nick Gazelas","Chris Felix Jr.","Andre Nunley","Orlando Horton Jr.","Mckinley Harris","Justin Nimmer","Syrus Grisby","Ronell Giles Jr.","Jonathan Nash"],"rows":[]};

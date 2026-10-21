@@ -1,1 +1,1 @@
-LINEUPS_ADD["Oakland"] = {"players":["Johnathon Jones","Keith Benson","Derick Nelson","Larry Wright","Will Hudson","Blake Cushingberry","Ledrick Eackles","Drew Maynard","Drew Valentine"],"rows":[[32,[2,0,1,3,6],78.45,66,89,72.52,64,82]]};
+LINEUPS_ADD["Oakland"] = {"players":["Johnathon Jones","Keith Benson","Derick Nelson","Larry Wright","Will Hudson","Blake Cushingberry","Ledrick Eackles","Drew Maynard","Drew Valentine"],"rows":[[34,[2,0,1,3,6],78.45,66,89,72.52,64,82]]};

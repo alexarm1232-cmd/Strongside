@@ -1,1 +1,1 @@
-LINEUPS_ADD["Montana"] = {"players":["Anthony Johnson","Ryan Staudacher","Brian Qvale","Will Cherry","Derek Selvig","Jack McGillis","Michael Taylor","Rasason Young","Vassy Banny","Shawn Stockton"],"rows":[[29,[0,2,4,1,3],60.19,57,62,60.19,57,62]]};
+LINEUPS_ADD["Montana"] = {"players":["Anthony Johnson","Ryan Staudacher","Brian Qvale","Will Cherry","Derek Selvig","Jack McGillis","Michael Taylor","Rasason Young","Vassy Banny","Shawn Stockton"],"rows":[[31,[0,2,4,1,3],60.19,57,62,60.19,57,62]]};

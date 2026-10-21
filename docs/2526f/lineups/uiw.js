@@ -1,1 +1,1 @@
-LINEUPS_ADD["UIW"] = {"players":["Davion Bailey","Tahj Staveskie","Harold Woods","Jordan Pyke","Love Bettis","Marcus Glover","Lewis Rowe","Esteban Mann","Harrison Reede","Mihael Tomic","Jayden Williams","Amani Drummond","Tyler Simon","Drew Barbee"],"rows":[]};
+LINEUPS_ADD["UIW"] = {"players":["Tahj Staveskie","Davion Bailey","Harold Woods","Jordan Pyke","Love Bettis","Marcus Glover","Lewis Rowe","Harrison Reede","Esteban Mann","Mihael Tomic","Jayden Williams","Amani Drummond","Drew Barbee","Tyler Simon"],"rows":[]};

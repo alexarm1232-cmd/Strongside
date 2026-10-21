@@ -1,1 +1,1 @@
-LINEUPS_ADD["Fordham"] = {"players":["Nick Honor","Antwon Portley","Jalen Cobb","Chuba Ohams","Jesse Bunting","Ivan Raut","Onyi Eyisi","Tyrone Perry","David Pekarek","Erten Gazi","Chris Austin","Chris Downing","Lazar Skoric","Peter Burquest","Mason Williams","Luka Radovich"],"rows":[]};
+LINEUPS_ADD["Fordham"] = {"players":["Nick Honor","Antwon Portley","Jalen Cobb","Chuba Ohams","Jesse Bunting","Ivan Raut","Onyi Eyisi","Tyrone Perry","David Pekarek","Erten Gazi","Chris Austin","Lazar Skoric","Chris Downing","Peter Burquest","Mason Williams","Luka Radovich"],"rows":[]};

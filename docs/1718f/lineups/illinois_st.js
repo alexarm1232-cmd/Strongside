@@ -1,1 +1,1 @@
-LINEUPS_ADD["Illinois St."] = {"players":["Keyshawn Evans","Milik Yarbrough","Phil Fayne","William Tinsley","Madison Williams","Matt Hein","Taylor Bruninga","Isaac Gassman","Daouda Ndiaye","Elijah Clarance","Jerron Martin","Luke Litwiller"],"rows":[]};
+LINEUPS_ADD["Illinois St."] = {"players":["Keyshawn Evans","Milik Yarbrough","William Tinsley","Phil Fayne","Madison Williams","Matt Hein","Taylor Bruninga","Isaac Gassman","Daouda Ndiaye","Elijah Clarance","Jerron Martin","Luke Litwiller"],"rows":[]};

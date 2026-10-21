@@ -1,1 +1,1 @@
-LINEUPS_ADD["Western Ill."] = {"players":["Alec Rosner","Trenton Massner","Jesiah West","Vuk Stevanic","Quinlan Bennett","KJ Lee","Elijah Farr","Steph Gabriel","JJ Kalakon","Cody Collinsworth","Robert Jeter IV","Matthew Wade"],"rows":[]};
+LINEUPS_ADD["Western Ill."] = {"players":["Alec Rosner","Trenton Massner","Jesiah West","Vuk Stevanic","Quinlan Bennett","KJ Lee","Elijah Farr","Steph Gabriel","JJ Kalakon","Cody Collinsworth","Matthew Wade","Robert Jeter IV"],"rows":[]};

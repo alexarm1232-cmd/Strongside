@@ -1,1 +1,1 @@
-LINEUPS_ADD["Seattle U"] = {"players":["Brendan Westendorf","William Powell","Emmanuel Chibuogwu","Zack Moore","Morgan Means","Matej Kavas","Scott Ulaneo","Jack Shaughnessy","Aaron Menzies","Mattia Da Campo","Malik Montoya","Latio Cosmos","Manny Chibuogwu"],"rows":[]};
+LINEUPS_ADD["Seattle U"] = {"players":["Brendan Westendorf","William Powell","Emmanuel Chibuogwu","Zack Moore","Morgan Means","Matej Kavas","Scott Ulaneo","Aaron Menzies","Jack Shaughnessy","Malik Montoya","Mattia Da Campo","Latio Cosmos","Manny Chibuogwu"],"rows":[]};

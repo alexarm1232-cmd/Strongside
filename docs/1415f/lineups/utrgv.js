@@ -1,1 +1,1 @@
-LINEUPS_ADD["UTRGV"] = {"players":["Shaquille Boga","Janari Joesaar","Shaquille Hines","Dan Kimasa","Elijah Watson","Everett Osborne","Isaiah Hobbs","Andreas Bigum","Maurice McDonald","Joaquin Pistokache","Shaun Noriega","Mike Lopez"],"rows":[]};
+LINEUPS_ADD["UTRGV"] = {"players":["Janari Joesaar","Shaquille Hines","Shaquille Boga","Dan Kimasa","Elijah Watson","Everett Osborne","Isaiah Hobbs","Andreas Bigum","Maurice McDonald","Shaun Noriega","Joaquin Pistokache","Mike Lopez"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["Jacksonville"] = {"players":["Devin Harris","Cody Helgeland","JD Notae","Jace Hogan","Tanner Rubio","Jalyn Hinton","Antwon Clayton","Radwan Bakkali","Corey Romich","Damien Sears","Derrick Flowers","Lee Richmond"],"rows":[]};
+LINEUPS_ADD["Jacksonville"] = {"players":["Devin Harris","Cody Helgeland","JD Notae","Tanner Rubio","Jace Hogan","Jalyn Hinton","Antwon Clayton","Radwan Bakkali","Damien Sears","Corey Romich","Derrick Flowers","Lee Richmond"],"rows":[]};

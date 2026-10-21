@@ -1,1 +1,1 @@
-LINEUPS_ADD["The Citadel"] = {"players":["Kaiden Rice","Hayden Brown","Fletcher Abee","Tyler Moffe","Stephen Clark","Derek Webster, Jr.","Brent Davis","Rudy Fitzgibbons III","Brady Spence","Jerry Higgins III","Owen Spencer","Jackson Gammons","Dylan Engler","Robert Guyton"],"rows":[]};
+LINEUPS_ADD["The Citadel"] = {"players":["Kaiden Rice","Hayden Brown","Fletcher Abee","Tyler Moffe","Stephen Clark","Derek Webster, Jr.","Rudy Fitzgibbons III","Brent Davis","Brady Spence","Jerry Higgins III","Jackson Gammons","Owen Spencer","Dylan Engler","Robert Guyton"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["High Point"] = {"players":["John-Michael Wright","Zack Austin","Bryant Randleman","Jaden House","Emmanuel Izunabor","Rob Peterson III","Alex Holt","Bryson Childress","Brock Williams","Caden Sanchez","Caleb Wright","David Caraher","John-Michael Hughes","AJ Hoynack"],"rows":[]};
+LINEUPS_ADD["High Point"] = {"players":["John-Michael Wright","Zack Austin","Bryant Randleman","Jaden House","Emmanuel Izunabor","Rob Peterson III","Alex Holt","Bryson Childress","Brock Williams","Caleb Wright","Caden Sanchez","John-Michael Hughes","AJ Hoynack","David Caraher"],"rows":[]};

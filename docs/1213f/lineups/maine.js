@@ -1,1 +1,1 @@
-LINEUPS_ADD["Maine"] = {"players":["Alasdair Fraser","Justin Edwards","Mike Allison","Xavier Pollard","Jon Mesghna","Zarko Valjarevic","Till Gloger","Shaun Lawton","Jon McAllian","Dimitry Coronel","Kilian Cato","Leon Cooper","Stefan Micovic","Luke Hetterman"],"rows":[]};
+LINEUPS_ADD["Maine"] = {"players":["Alasdair Fraser","Justin Edwards","Xavier Pollard","Mike Allison","Jon Mesghna","Zarko Valjarevic","Till Gloger","Shaun Lawton","Jon McAllian","Dimitry Coronel","Kilian Cato","Leon Cooper","Stefan Micovic","Luke Hetterman"],"rows":[]};

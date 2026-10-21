@@ -1,1 +1,1 @@
-LINEUPS_ADD["Denver"] = {"players":["Carson Johnson","Jeremiah Burke","Logan Kinsey","Gabe Oldham","Zane Nelson","Julius Rollins","Shaun Wysocki","Josh Lee","Didier Maleng","Corleone Dandridge","Devin Carney","Loch Cunningham"],"rows":[]};
+LINEUPS_ADD["Denver"] = {"players":["Carson Johnson","Jeremiah Burke","Logan Kinsey","Gabe Oldham","Zane Nelson","Julius Rollins","Shaun Wysocki","Josh Lee","Didier Maleng","Corleone Dandridge","Loch Cunningham","Devin Carney"],"rows":[]};

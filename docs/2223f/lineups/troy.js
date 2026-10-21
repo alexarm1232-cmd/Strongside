@@ -1,1 +1,1 @@
-LINEUPS_ADD["Troy"] = {"players":["Zay Williams","Christyon Eugene","Aamer Muhammad","Kieffer Punter","Christian Turner","Nelson Phillips","Darius McNeill","Jackson Fields","Nate Tshimanga","Duke Miles","Lydell Geffrard","Kirk Cole","Kameryn Mitchell","Remy Graham"],"rows":[]};
+LINEUPS_ADD["Troy"] = {"players":["Zay Williams","Christyon Eugene","Aamer Muhammad","Kieffer Punter","Nelson Phillips","Christian Turner","Darius McNeill","Jackson Fields","Nate Tshimanga","Duke Miles","Lydell Geffrard","Kirk Cole","Kameryn Mitchell","Remy Graham"],"rows":[]};

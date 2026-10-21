@@ -1,1 +1,1 @@
-LINEUPS_ADD["Lipscomb"] = {"players":["Garrison Mathews","Josh Williams","Nathan Moran","Rob Marberry","Kenny Cooper","Eli Pepper","Michael Buckland","Cam Miller","Aaron Korn","George Brammeier","Brett Wishon","Kenny Bunton"],"rows":[]};
+LINEUPS_ADD["Lipscomb"] = {"players":["Garrison Mathews","Nathan Moran","Josh Williams","Rob Marberry","Kenny Cooper","Eli Pepper","Michael Buckland","Aaron Korn","George Brammeier","Cam Miller","Brett Wishon","Kenny Bunton"],"rows":[]};

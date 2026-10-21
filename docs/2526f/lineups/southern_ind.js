@@ -1,1 +1,1 @@
-LINEUPS_ADD["Southern Ind."] = {"players":["Ismail Habib","Tolu Samuels","Ola Ajiboye","Cardell Bailey","Sheridan Sharp","Amaree Brown","Josiah Dunham","Steven Clay","Kaden Brown","Devin Curtis","Ben Ezeagu","Alem Fejzic","Trey Thomas","Braxton Jones","Cayden Gehlhausen"],"rows":[]};
+LINEUPS_ADD["Southern Ind."] = {"players":["Ismail Habib","Tolu Samuels","Ola Ajiboye","Cardell Bailey","Sheridan Sharp","Steven Clay","Amaree Brown","Josiah Dunham","Kaden Brown","Devin Curtis","Ben Ezeagu","Alem Fejzic","Trey Thomas","Braxton Jones","Cayden Gehlhausen"],"rows":[]};

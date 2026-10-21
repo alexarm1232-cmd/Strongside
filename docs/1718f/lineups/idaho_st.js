@@ -1,1 +1,1 @@
-LINEUPS_ADD["Idaho St."] = {"players":["Geno Luzcando","Brandon Boyd","Jared Stutzman","Balint Mocsan","Novak Topalovic","Gary Chivichyan","Blake Truman","Sam Dowd","Kyle Ingram","Erik Nakken","Jacob McCord","Hayes Garrity","Lyle Sutton","Callum Kimberley","Houston Wahlen"],"rows":[]};
+LINEUPS_ADD["Idaho St."] = {"players":["Geno Luzcando","Jared Stutzman","Brandon Boyd","Balint Mocsan","Novak Topalovic","Gary Chivichyan","Blake Truman","Kyle Ingram","Sam Dowd","Erik Nakken","Jacob McCord","Hayes Garrity","Lyle Sutton","Callum Kimberley","Houston Wahlen"],"rows":[]};

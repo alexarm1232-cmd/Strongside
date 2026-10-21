@@ -1,1 +1,1 @@
-LINEUPS_ADD["Northern Ky."] = {"players":["Tayler Persons","Tyler White","Chad Jackson","Jalen Billups","Todd Johnson","Anthony Monaco","Jordan Jackson","Deontae Cole","Jake Giesler","Cole Murray","Daniel Camps","Jordan Garnett","Dean Danos","Jared Bryant","Matt Rosenwinkel"],"rows":[]};
+LINEUPS_ADD["Northern Ky."] = {"players":["Tayler Persons","Tyler White","Chad Jackson","Jalen Billups","Todd Johnson","Anthony Monaco","Jordan Jackson","Deontae Cole","Jake Giesler","Cole Murray","Daniel Camps","Dean Danos","Jordan Garnett","Jared Bryant","Matt Rosenwinkel"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["North Dakota"] = {"players":["B.J. Omot","Tsotne Tsartsidze","Treysen Eaglestaff","Eli King","Tyree Ihenacho","Amar Kuljuhovic","Brady Danielson","Elijah Brooks","Deng Mayar","Brian Mathews","Mambourou Mara","Daniel Hong"],"rows":[]};
+LINEUPS_ADD["North Dakota"] = {"players":["B.J. Omot","Treysen Eaglestaff","Tsotne Tsartsidze","Eli King","Amar Kuljuhovic","Tyree Ihenacho","Brady Danielson","Elijah Brooks","Deng Mayar","Brian Mathews","Mambourou Mara","Daniel Hong"],"rows":[]};

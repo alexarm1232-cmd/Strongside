@@ -1,1 +1,1 @@
-LINEUPS_ADD["Pepperdine"] = {"players":["Jordan Baker","Stacy Davis","Lorne Jackson","Nikolas Skouen","Jett Raines","Moriba De Freitas","Caleb Willis","Atif Russell","Austin Mills","Jan Maehlen","Manny Ochenje","Malte Kramer","Allen Stevens"],"rows":[]};
+LINEUPS_ADD["Pepperdine"] = {"players":["Jordan Baker","Stacy Davis","Lorne Jackson","Nikolas Skouen","Jett Raines","Moriba De Freitas","Caleb Willis","Atif Russell","Austin Mills","Jan Maehlen","Malte Kramer","Manny Ochenje","Allen Stevens"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["Coppin St."] = {"players":["Toby Nnadozie","Peter Oduro","Julius Ellerbe","Cam'Ron Brown","Khali Horton","Jonathan Dunn","Camaren Sparrow","Zahree Harrison","Derrius Ward","Aa'reyon Jones","Darius Leonard","Ryan Archey","Cam Liggins"],"rows":[]};
+LINEUPS_ADD["Coppin St."] = {"players":["Toby Nnadozie","Peter Oduro","Julius Ellerbe","Khali Horton","Cam'Ron Brown","Jonathan Dunn","Camaren Sparrow","Zahree Harrison","Derrius Ward","Aa'reyon Jones","Darius Leonard","Ryan Archey","Cam Liggins"],"rows":[]};

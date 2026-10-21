@@ -1,1 +1,1 @@
-LINEUPS_ADD["Manhattan"] = {"players":["Ant Nelson","Nick Brennen","Josh Roberts","Marques Watson","Samir Stewart","Logan Padgett","Raziel Hayun","Adam Cisse","Elijah Buchanan","Adam Walden","James Jewell","Daniel Schreier","Matthew Glassman","Aryan Arora","Daniel Hackett"],"rows":[]};
+LINEUPS_ADD["Manhattan"] = {"players":["Ant Nelson","Nick Brennen","Josh Roberts","Marques Watson","Samir Stewart","Logan Padgett","Raziel Hayun","Adam Cisse","Elijah Buchanan","Adam Walden","James Jewell","Matthew Glassman","Daniel Schreier","Aryan Arora","Daniel Hackett"],"rows":[]};

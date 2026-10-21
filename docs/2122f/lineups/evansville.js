@@ -1,1 +1,1 @@
-LINEUPS_ADD["Evansville"] = {"players":["Shamar Givance","Noah Frederking","Evan Kuhlman","Jawaun Newton","Blaise Beauchamp","Preston Phillips","Blake Sisley","Antoine Smith Jr.","Gage Bobe","Iyen Enaruna","Emmette Page"],"rows":[]};
+LINEUPS_ADD["Evansville"] = {"players":["Shamar Givance","Noah Frederking","Evan Kuhlman","Jawaun Newton","Blaise Beauchamp","Preston Phillips","Antoine Smith Jr.","Blake Sisley","Gage Bobe","Iyen Enaruna","Emmette Page"],"rows":[]};

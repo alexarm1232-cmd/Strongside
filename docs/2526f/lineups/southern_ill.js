@@ -1,1 +1,1 @@
-LINEUPS_ADD["Southern Ill."] = {"players":["Drew Steffe","Quel'Ron House","Damien Mayo Jr.","Rolyns Aligbe","Jalen Haynes","Prince Aligbe","Davion Sykes","Max Pikaar","Isaiah Stafford","Jorge Moreno","Jaheem Webber","Caden Hawkins"],"rows":[]};
+LINEUPS_ADD["Southern Ill."] = {"players":["Drew Steffe","Quel'Ron House","Damien Mayo Jr.","Rolyns Aligbe","Jalen Haynes","Prince Aligbe","Davion Sykes","Isaiah Stafford","Max Pikaar","Jorge Moreno","Jaheem Webber","Caden Hawkins"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["UTEP"] = {"players":["Souley Boum","Jamal Bieniemy","Keonte Kennedy","Bryson Williams","Tydus Verhoeven","Christian Agnew","Kristian Sjolund","Efe Odigie","Vuk Vulikic","Gilles Dekoninck","Adam Hess","Cam Clardy","Ze'rik Onyema"],"rows":[]};
+LINEUPS_ADD["UTEP"] = {"players":["Souley Boum","Keonte Kennedy","Bryson Williams","Jamal Bieniemy","Tydus Verhoeven","Christian Agnew","Kristian Sjolund","Efe Odigie","Vuk Vulikic","Adam Hess","Gilles Dekoninck","Ze'rik Onyema","Cam Clardy"],"rows":[]};

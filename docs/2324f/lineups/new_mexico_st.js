@@ -1,1 +1,1 @@
-LINEUPS_ADD["New Mexico St."] = {"players":["Christian Cook","Jordan Rawls","Kaosi Ezeagu","Femi Odukale","Jaden Harris","Jaylin Jackson-Posey","Robert Carpenter","Tanahj Pettway","Jonathan Kanyanga","Brandon Suggs","Clarence Jackson","Keylon Dorsey","Yaak Yaak","Chris Biekeu"],"rows":[]};
+LINEUPS_ADD["New Mexico St."] = {"players":["Christian Cook","Jordan Rawls","Kaosi Ezeagu","Jaden Harris","Femi Odukale","Jaylin Jackson-Posey","Robert Carpenter","Jonathan Kanyanga","Tanahj Pettway","Brandon Suggs","Clarence Jackson","Keylon Dorsey","Yaak Yaak","Chris Biekeu"],"rows":[]};

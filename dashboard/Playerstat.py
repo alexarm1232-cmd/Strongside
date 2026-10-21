@@ -176,7 +176,11 @@ def load_team_boxscores(team_path, team_folder, same=None):
                 line['G'] += 1
                 line['GS'] += key in starters
                 team['MP'] += mp
+            # the other team's player lines too, for the box score of a game against a school outside Division I
+            # (a Division I opponent's lines are in its own game logs)
+            other_starters = {p['Name'] for p in other.get('starters_table', [])}
             games[f[:-5]] = {"poss": poss, "minutes": minutes, "lines": lines, "team_name": mine['team_name'],
+                             "op_lines": [(p['Name'] in other_starters, p) for p in player_lines(other) if float(p['MIN'] or 0) > 0],
                              "tm": mine['team_totals'], "op": other['team_totals'],
                              "opp": other['team_name'], "pts": mine['team_totals']['PTS'], "opp_pts": other['team_totals']['PTS']}
         except: continue
@@ -653,6 +657,22 @@ def game_log(key, schedule, games):
                      parse_made(p['FT']), parse_attempts(p['FT'])])
     return rows
 
+OPPONENT_LINES = "__opp__"      # the game-log entry holding the other team's lines in games against schools outside Division I
+
+def opponent_log(schedule, games, rated):
+    """The other team's player lines in each game against a school outside Division I (rated: the Division I teams'
+    names), as game-log rows with the player's name on the end."""
+    rows = []
+    for i, scheduled in enumerate(schedule):
+        if scheduled["opp"].rstrip('. ') in rated: continue
+        for started, p in games[scheduled["id"]].get("op_lines", []):
+            minutes = float(p['MIN'] or 0)
+            rows.append([i, int(started), int(minutes) if minutes == int(minutes) else round(minutes, 1),
+                         p['PTS'], p['REB'], p['AST'], p['STL'], p['BLK'], p['TO'], p['PF'],
+                         parse_made(p['FG']), parse_attempts(p['FG']), parse_made(p['3PT']), parse_attempts(p['3PT']),
+                         parse_made(p['FT']), parse_attempts(p['FT']), p['Name']])
+    return rows
+
 def get_player_stats(root_folder, team_ratings):
     """Returns (players, schedules, game_logs, lineups). lineups: team folder name -> who was on the floor together and
     what happened (see team_on_off). players: every player who got on the floor, with box score and
@@ -711,6 +731,9 @@ def get_player_stats(root_folder, team_ratings):
             splits = quad_splits(schedules[team_folder], games, team_ratings, ranks, listed, on_off_games)
             game_logs[team_folder] = {p['name']: {"log": game_log(k, schedules[team_folder], games), "quad": splits.get(k, [None] * 4)}
                                       for k, p in players.items()}
+            outside = opponent_log(schedules[team_folder], games, {name.rstrip('. ') for name in team_ratings})
+            if outside:
+                game_logs[team_folder][OPPONENT_LINES] = {"log": outside}
             for k, p in players.items():
                 share = p['MP'] / (tm['MP'] / 5)
                 ortg, used = offensive_rating(p, tm, opp)

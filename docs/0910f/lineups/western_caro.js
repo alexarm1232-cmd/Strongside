@@ -1,1 +1,1 @@
-LINEUPS_ADD["Western Caro."] = {"players":["Brigham Waginger","Harouna Mutombo","Brandon Giles","Jake Robinson","Richie Gordon","Mike Williams","Kendall Russell","Adrian Gailliard","Keaton Cole"],"rows":[[30,[2,0,1,3,5],80.18,88,90,80.18,88,90]]};
+LINEUPS_ADD["Western Caro."] = {"players":["Brigham Waginger","Harouna Mutombo","Brandon Giles","Jake Robinson","Mike Williams","Richie Gordon","Kendall Russell","Adrian Gailliard","Keaton Cole"],"rows":[[33,[2,0,1,3,4],80.18,88,90,80.18,88,90]]};

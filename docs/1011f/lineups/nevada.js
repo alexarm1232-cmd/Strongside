@@ -1,1 +1,1 @@
-LINEUPS_ADD["Nevada"] = {"players":["Malik Story","Dario Hunt","Deonte Burton","Olek Czyz","Jerry Evans, Jr.","Derrell Conner","Devonte Elliott","Kevin Panzer","Jordan Burris","Jordan Finn","Patrick Nyeko","Illiwa Baldwin","Marko Cukic","Adam Carp","Keith Fuetsch"],"rows":[]};
+LINEUPS_ADD["Nevada"] = {"players":["Malik Story","Dario Hunt","Deonte Burton","Olek Czyz","Jerry Evans, Jr.","Derrell Conner","Kevin Panzer","Devonte Elliott","Jordan Burris","Jordan Finn","Patrick Nyeko","Illiwa Baldwin","Marko Cukic","Adam Carp","Keith Fuetsch"],"rows":[]};

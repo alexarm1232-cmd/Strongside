@@ -1,1 +1,1 @@
-LINEUPS_ADD["Morehead St."] = {"players":["Ta'lon Cooper","Johni Broome","Skyelar Potter","Tray Hollowell","Jake Wolfe","Jaylon Hall","Jaylen Sebree","LJ Bryan","Drew Thelwell","Tyzhaun Claude","Tucson Redding","Braden May"],"rows":[]};
+LINEUPS_ADD["Morehead St."] = {"players":["Ta'lon Cooper","Skyelar Potter","Johni Broome","Tray Hollowell","Jake Wolfe","Jaylon Hall","Jaylen Sebree","LJ Bryan","Drew Thelwell","Tyzhaun Claude","Tucson Redding","Braden May"],"rows":[]};

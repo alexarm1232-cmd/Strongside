@@ -1,1 +1,1 @@
-LINEUPS_ADD["Elon"] = {"players":["Hunter McIntosh","Darius Burford","Hunter Woods","Zac Ervin","Michael Graham","Chuck Hannah","Kris Wooten","Torrence Watson","Andrew Junkin","Sam Sherry","Jerald Gillens-Butler","RJ Noord","Ben Daugherty","Charlie Mendys","Reece Clark"],"rows":[]};
+LINEUPS_ADD["Elon"] = {"players":["Hunter McIntosh","Darius Burford","Hunter Woods","Zac Ervin","Michael Graham","Kris Wooten","Chuck Hannah","Torrence Watson","Sam Sherry","Andrew Junkin","Jerald Gillens-Butler","RJ Noord","Ben Daugherty","Charlie Mendys","Reece Clark"],"rows":[]};

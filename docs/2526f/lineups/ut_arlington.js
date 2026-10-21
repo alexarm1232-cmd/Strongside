@@ -1,1 +1,1 @@
-LINEUPS_ADD["UT Arlington"] = {"players":["Raysean Seamster","Marcell McCreary","Casmir Chavis","Bahsil Laster","Marcus Rigsby Jr.","Cameron Jackson","Tyran Mason","Jordan Lowery","Miles Goodman","Amari Reed","Jayden Smoot","Alex Bossinakis"],"rows":[]};
+LINEUPS_ADD["UT Arlington"] = {"players":["Raysean Seamster","Marcell McCreary","Casmir Chavis","Bahsil Laster","Marcus Rigsby Jr.","Tyran Mason","Cameron Jackson","Jordan Lowery","Miles Goodman","Amari Reed","Jayden Smoot","Alex Bossinakis"],"rows":[]};

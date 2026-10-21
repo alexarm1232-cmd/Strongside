@@ -1,1 +1,1 @@
-LINEUPS_ADD["N.C. A&T"] = {"players":["Kameron Langley","Tyrone Lyons","Tyler Maye","Blake Harris","Fred Cleveland Jr.","Kenyon Duling","Webster Filmore","Quentin Jones","Kwe Parker","Tyler Jones","Jeremy Robinson","Harry Morrice","Milton Matthews","David Greer","Darus Maddox"],"rows":[]};
+LINEUPS_ADD["N.C. A&T"] = {"players":["Kameron Langley","Tyrone Lyons","Blake Harris","Tyler Maye","Kenyon Duling","Fred Cleveland Jr.","Quentin Jones","Webster Filmore","Kwe Parker","Tyler Jones","Jeremy Robinson","Harry Morrice","Milton Matthews","Darus Maddox","David Greer"],"rows":[]};

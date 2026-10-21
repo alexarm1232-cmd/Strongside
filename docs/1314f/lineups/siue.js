@@ -1,1 +1,1 @@
-LINEUPS_ADD["SIUE"] = {"players":["Donivine Stewart","Kris Davis","Rozell Nunn","Christian Salecich","Maurice Wiltz","Ray Lester","Keaton Jackson","Tim Johnson","Michael Messer","Grant Fiorentinos","Cameron Craig","Keaton Scheer"],"rows":[]};
+LINEUPS_ADD["SIUE"] = {"players":["Donivine Stewart","Kris Davis","Rozell Nunn","Christian Salecich","Maurice Wiltz","Keaton Jackson","Ray Lester","Tim Johnson","Michael Messer","Cameron Craig","Grant Fiorentinos","Keaton Scheer"],"rows":[]};

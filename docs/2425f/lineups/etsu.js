@@ -1,1 +1,1 @@
-LINEUPS_ADD["ETSU"] = {"players":["Quimari Peterson","Karon Boyd","Jaden Seymour","John Buggs III","Allen Strothers","Maki Johnson","D.J. Hughes","Gabe Sisk","Davion Bradford","Roosevelt Wheeler","Curt Lewis","Jaxson Jones","Timmy Fasehun","David Meriwether"],"rows":[]};
+LINEUPS_ADD["ETSU"] = {"players":["Quimari Peterson","Karon Boyd","Jaden Seymour","John Buggs III","Allen Strothers","Maki Johnson","D.J. Hughes","Gabe Sisk","Davion Bradford","Roosevelt Wheeler","Curt Lewis","Jaxson Jones","David Meriwether","Timmy Fasehun"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["Western Mich."] = {"players":["Lamar Norman Jr.","Markeese Hastings","Mack Smith","Mileek McMillan","Titus Wright","Josiah Freeman","Adrian Martin","B. Artis White","Gus Etchison","Danny Kolp","Owen Lobsinger","Cameron Kimble"],"rows":[]};
+LINEUPS_ADD["Western Mich."] = {"players":["Lamar Norman Jr.","Markeese Hastings","Mack Smith","Titus Wright","Mileek McMillan","Josiah Freeman","Adrian Martin","B. Artis White","Gus Etchison","Danny Kolp","Cameron Kimble","Owen Lobsinger"],"rows":[]};

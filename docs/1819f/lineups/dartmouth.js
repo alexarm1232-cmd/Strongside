@@ -1,1 +1,1 @@
-LINEUPS_ADD["Dartmouth"] = {"players":["Brendan Barry","James Foye","Chris Knight","Ian Sistare","Aaryn Rai","Taurus Samuels","Adrease Jackson","Wes Slajchert","Guilien Smith","Will Emery","Ian Carter","Isaac Letoa","Garrison Wade","Ben Swett"],"rows":[]};
+LINEUPS_ADD["Dartmouth"] = {"players":["Brendan Barry","James Foye","Chris Knight","Ian Sistare","Aaryn Rai","Taurus Samuels","Adrease Jackson","Wes Slajchert","Guilien Smith","Will Emery","Ian Carter","Garrison Wade","Isaac Letoa","Ben Swett"],"rows":[]};

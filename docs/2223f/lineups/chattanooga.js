@@ -1,1 +1,1 @@
-LINEUPS_ADD["Chattanooga"] = {"players":["Jamal Johnson","A.J. Caldwell","Dalvin White","Jake Stephens","Demetrius Davis","Jamaal Walker","Khristion Courseault","Randy Brady","KC Hankton","Sam Alexis","Brody Robinson","Grant Ledford","Johnny Taylor, Jr."],"rows":[]};
+LINEUPS_ADD["Chattanooga"] = {"players":["Jamal Johnson","A.J. Caldwell","Dalvin White","Jake Stephens","Demetrius Davis","Jamaal Walker","Khristion Courseault","Randy Brady","Sam Alexis","Brody Robinson","KC Hankton","Grant Ledford","Johnny Taylor, Jr."],"rows":[]};

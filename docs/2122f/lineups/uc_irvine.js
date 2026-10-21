@@ -1,1 +1,1 @@
-LINEUPS_ADD["UC Irvine"] = {"players":["Collin Welp","Justin Hohn","JC Butler","DJ Davis","Austin Johnson","Dawson Baker","Isaiah Lee","Ofure Ujadughele","Emmanuel Tshimanga","Langston Redfield","Bent Leuchten","Andre Henry","Dean Keeler","Hunter Ruck"],"rows":[]};
+LINEUPS_ADD["UC Irvine"] = {"players":["Collin Welp","Justin Hohn","JC Butler","Austin Johnson","DJ Davis","Dawson Baker","Isaiah Lee","Ofure Ujadughele","Emmanuel Tshimanga","Langston Redfield","Bent Leuchten","Andre Henry","Dean Keeler","Hunter Ruck"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["James Madison"] = {"players":["Stuckey Mosley","Matt Lewis","Ramone Snowden","Darius Banks","Develle Phillips","Joey McLean","Zach Jacobs","Greg Jones","Dwight Wilson","Antanee Pinkard","Cameron Smith","Gerron Scissum"],"rows":[]};
+LINEUPS_ADD["James Madison"] = {"players":["Stuckey Mosley","Matt Lewis","Darius Banks","Ramone Snowden","Develle Phillips","Joey McLean","Zach Jacobs","Greg Jones","Dwight Wilson","Cameron Smith","Gerron Scissum","Antanee Pinkard"],"rows":[]};

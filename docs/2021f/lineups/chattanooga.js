@@ -1,1 +1,1 @@
-LINEUPS_ADD["Chattanooga"] = {"players":["Malachi Smith","A.J. Caldwell","David Jean-Baptiste","Stefan Kenic","Jamaal Walker","Darius Banks","KC Hankton","Josh Ayeni","Trey Doomes","Jaden Frazier","Grant Ledford","Mark Tikhonenko","Alex Tostado","Prosper Obidiebube"],"rows":[]};
+LINEUPS_ADD["Chattanooga"] = {"players":["Malachi Smith","A.J. Caldwell","David Jean-Baptiste","Stefan Kenic","Jamaal Walker","Darius Banks","KC Hankton","Josh Ayeni","Trey Doomes","Jaden Frazier","Mark Tikhonenko","Prosper Obidiebube","Grant Ledford","Alex Tostado"],"rows":[]};

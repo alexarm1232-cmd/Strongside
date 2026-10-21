@@ -1,1 +1,1 @@
-LINEUPS_ADD["Troy"] = {"players":["Michael Vogler","Richard Delk","Brandon Hazzard","Antywan Jones","Yamene Coleman","Vernon Taylor","Bernard Toombs"],"rows":[[29,[3,2,0,1,4],65.43,65,84,56.93,56,80]]};
+LINEUPS_ADD["Troy"] = {"players":["Michael Vogler","Brandon Hazzard","Richard Delk","Antywan Jones","Yamene Coleman","Vernon Taylor","Bernard Toombs"],"rows":[[32,[3,1,0,2,4],65.43,65,84,56.93,56,80]]};

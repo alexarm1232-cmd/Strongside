@@ -1,1 +1,1 @@
-LINEUPS_ADD["Utah"] = {"players":["Jordan Loveridge","Jarred DuBois","Jason Washburn","Cedric Martin","Glen Dean","Brandon Taylor","Dallin Bachynski","Justin Seymour","Dakarai Tucker","Renan Lenz","Jeremy Olsen","Aaron Dotson","Ryan Osterloh","Alex Mortensen","Xan Ricketts"],"rows":[]};
+LINEUPS_ADD["Utah"] = {"players":["Jordan Loveridge","Jarred DuBois","Jason Washburn","Glen Dean","Cedric Martin","Brandon Taylor","Dallin Bachynski","Justin Seymour","Dakarai Tucker","Renan Lenz","Jeremy Olsen","Aaron Dotson","Ryan Osterloh","Alex Mortensen","Xan Ricketts"],"rows":[]};

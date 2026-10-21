@@ -1,1 +1,1 @@
-LINEUPS_ADD["Portland"] = {"players":["Eddie Davis","Latrell Jones","Michael Henn","Ahmed Ali","Isiah Dasher","Chase Adams","Clythus Griffith Jr.","Takiula Fahrensohn","Hayden Curtiss","Zac Triplett","Quincy Ferebee","Hunter Seymour","Wyatt Watson","Miles Turner"],"rows":[]};
+LINEUPS_ADD["Portland"] = {"players":["Eddie Davis","Latrell Jones","Michael Henn","Ahmed Ali","Isiah Dasher","Clythus Griffith Jr.","Chase Adams","Takiula Fahrensohn","Hayden Curtiss","Zac Triplett","Quincy Ferebee","Hunter Seymour","Wyatt Watson","Miles Turner"],"rows":[]};

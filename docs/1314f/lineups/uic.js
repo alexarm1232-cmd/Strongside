@@ -1,1 +1,1 @@
-LINEUPS_ADD["UIC"] = {"players":["Kelsey Barlow","Marc Brown","Hayden Humes","Jordan Harks","Jake Wiegand","Pat Birt","Jay Parker","Markese McGuire","Gabe Snider","Ahman Fells","Will Simonton","Marcus White","Joey Miller","Lance Whitaker","Hans Christian Lauer","Frank Dounis"],"rows":[]};
+LINEUPS_ADD["UIC"] = {"players":["Kelsey Barlow","Marc Brown","Hayden Humes","Jake Wiegand","Jordan Harks","Pat Birt","Jay Parker","Markese McGuire","Gabe Snider","Ahman Fells","Will Simonton","Marcus White","Lance Whitaker","Joey Miller","Hans Christian Lauer","Frank Dounis"],"rows":[]};

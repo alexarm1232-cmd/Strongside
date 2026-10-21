@@ -1,1 +1,1 @@
-LINEUPS_ADD["Texas St."] = {"players":["Dylan Dawson","Jordan Mason","Christian Turner","Brandon Love","Kaden Gumbs","Davion Sykes","Coleton Benson","Joshua O'Garro","Dontae Horne","Chris Nix","Elijah Tate","Tyrel Morgan"],"rows":[]};
+LINEUPS_ADD["Texas St."] = {"players":["Dylan Dawson","Jordan Mason","Christian Turner","Brandon Love","Kaden Gumbs","Davion Sykes","Joshua O'Garro","Coleton Benson","Dontae Horne","Chris Nix","Elijah Tate","Tyrel Morgan"],"rows":[]};

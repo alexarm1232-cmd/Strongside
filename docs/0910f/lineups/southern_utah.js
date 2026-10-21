@@ -1,1 +1,1 @@
-LINEUPS_ADD["Southern Utah"] = {"players":["Davis Baker","Matt Massey","Matthew Hodgson","Ryan Brimley","Jake Nielson","Scott Friel","Jackson Stevenett","Drew Allen","Jordan Weirick","Damon Heuir","Dallin Bachynski"],"rows":[]};
+LINEUPS_ADD["Southern Utah"] = {"players":["Davis Baker","Matt Massey","Ryan Brimley","Matthew Hodgson","Jake Nielson","Scott Friel","Jackson Stevenett","Drew Allen","Jordan Weirick","Damon Heuir","Dallin Bachynski"],"rows":[]};

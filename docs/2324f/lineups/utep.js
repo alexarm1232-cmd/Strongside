@@ -1,1 +1,1 @@
-LINEUPS_ADD["UTEP"] = {"players":["Tae Hardy","Corey Camper Jr.","Otis Frazier III","Yazid Powell","Calvin Solomon","David Terrell Jr.","Kevin Kalu","Jonathan dos Anjos","Elijah Jones","Trey Horton III","Baylor Hebb","Derick Hamilton","Sebastian Cole","Garrett Levesque"],"rows":[]};
+LINEUPS_ADD["UTEP"] = {"players":["Tae Hardy","Corey Camper Jr.","Otis Frazier III","Yazid Powell","David Terrell Jr.","Calvin Solomon","Kevin Kalu","Elijah Jones","Jonathan dos Anjos","Trey Horton III","Baylor Hebb","Derick Hamilton","Sebastian Cole","Garrett Levesque"],"rows":[]};

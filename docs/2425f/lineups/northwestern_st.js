@@ -1,1 +1,1 @@
-LINEUPS_ADD["Northwestern St."] = {"players":["Willie Williams","Addison Patterson","Micah Thomas","Love Bettis","Jerald Colonel","Landyn Jumawan","Jon Sanders","JT Warren","Chris Mubiru","Justin Redmond","Lado Laku","J.C. Riley","Dontae Walker","Micah Williams"],"rows":[]};
+LINEUPS_ADD["Northwestern St."] = {"players":["Willie Williams","Addison Patterson","Micah Thomas","Love Bettis","Landyn Jumawan","Jerald Colonel","Jon Sanders","JT Warren","Chris Mubiru","Justin Redmond","Lado Laku","J.C. Riley","Dontae Walker","Micah Williams"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["Oakland"] = {"players":["Jalen Moore","Trey Townsend","Jamal Cain","Micah Parrish","Blake Lampman","Osei Price","Chris Conway","Will Shepherd","Zion Young","Brody Parker","Emmanuel Newsome","Ty Wyman"],"rows":[]};
+LINEUPS_ADD["Oakland"] = {"players":["Jalen Moore","Trey Townsend","Jamal Cain","Micah Parrish","Blake Lampman","Osei Price","Chris Conway","Will Shepherd","Zion Young","Brody Parker","Ty Wyman","Emmanuel Newsome"],"rows":[]};

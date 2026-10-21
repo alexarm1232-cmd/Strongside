@@ -1,1 +1,1 @@
-LINEUPS_ADD["Lindenwood"] = {"players":["Jadis Jones","Markeith Browning II","Reggie Bass","Anias Futrell","Jordan Wildy","Clayton Jackson","Nathan Johnson Jr.","Aly Tounkara","Jaylon McDaniel","Jalen Bouknight","Colin Ruffin","RJ Horry","Alex Nokes"],"rows":[]};
+LINEUPS_ADD["Lindenwood"] = {"players":["Jadis Jones","Markeith Browning II","Reggie Bass","Anias Futrell","Clayton Jackson","Jordan Wildy","Nathan Johnson Jr.","Aly Tounkara","Jaylon McDaniel","Jalen Bouknight","Colin Ruffin","RJ Horry","Alex Nokes"],"rows":[]};

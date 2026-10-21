@@ -1,1 +1,1 @@
-LINEUPS_ADD["UAlbany"] = {"players":["Byron Joshua","DeMarr Langford Jr.","Kacper Klaczek","Amar'e Marshall","Justin Neely","Amir Lindsey","Kheni Briggs","Zach Matulu","Sultan Adewale","Damon Strand","Aaron Reddish","Bautista Giralt","Zane Adnan","Ma'Kye Taylor","Kani Topuz"],"rows":[]};
+LINEUPS_ADD["UAlbany"] = {"players":["Byron Joshua","DeMarr Langford Jr.","Kacper Klaczek","Amar'e Marshall","Justin Neely","Amir Lindsey","Kheni Briggs","Zach Matulu","Sultan Adewale","Damon Strand","Aaron Reddish","Bautista Giralt","Ma'Kye Taylor","Zane Adnan","Kani Topuz"],"rows":[]};

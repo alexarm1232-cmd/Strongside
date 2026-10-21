@@ -1,1 +1,1 @@
-LINEUPS_ADD["Maine"] = {"players":["Troy Barnies","Gerald McLemore","Raheem Singleton","Terrance Mitchell","Alasdair Fraser","Murphy Burnatowski","Andrew Rogers","Sean McNally","Malachi Peay","Mike Allison","Svetoslav Chetinov","Travon Wilcher","Jon McAllian"],"rows":[]};
+LINEUPS_ADD["Maine"] = {"players":["Troy Barnies","Gerald McLemore","Raheem Singleton","Terrance Mitchell","Alasdair Fraser","Andrew Rogers","Murphy Burnatowski","Sean McNally","Malachi Peay","Mike Allison","Svetoslav Chetinov","Jon McAllian","Travon Wilcher"],"rows":[]};

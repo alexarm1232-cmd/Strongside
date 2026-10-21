@@ -1,1 +1,1 @@
-LINEUPS_ADD["UAlbany"] = {"players":["Joe Cremo","David Nichols","Devonte Campbell","Greig Stire","Travis Charles","Alex Foster","Costa Anderson","Ahmad Clark","Matt Conway","Xavier Cochran","Nick Fruscio"],"rows":[]};
+LINEUPS_ADD["UAlbany"] = {"players":["Joe Cremo","David Nichols","Greig Stire","Devonte Campbell","Travis Charles","Alex Foster","Costa Anderson","Ahmad Clark","Matt Conway","Xavier Cochran","Nick Fruscio"],"rows":[]};

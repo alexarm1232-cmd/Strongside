@@ -1,1 +1,1 @@
-LINEUPS_ADD["Lafayette"] = {"players":["Joey Ptasinski","Bryce Scott","Nick Lindner","Dan Trist","Seth Hinrichs","Zach Rufer","Mike Hoffman","Alan Flannigan","Nathaniel Musters","Monty Boykins","Ben Freeland","Jake Newman","Jack Detmer","Les Smith","Billy Murphy"],"rows":[]};
+LINEUPS_ADD["Lafayette"] = {"players":["Joey Ptasinski","Bryce Scott","Nick Lindner","Dan Trist","Seth Hinrichs","Zach Rufer","Mike Hoffman","Alan Flannigan","Nathaniel Musters","Monty Boykins","Ben Freeland","Jake Newman","Jack Detmer","Billy Murphy","Les Smith"],"rows":[]};

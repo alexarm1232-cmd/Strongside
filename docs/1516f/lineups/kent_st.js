@@ -1,1 +1,1 @@
-LINEUPS_ADD["Kent St."] = {"players":["Kellon Thomas","Jimmy Hall","Chris Ortiz","Galal Cancer","Khaliq Spicer","Xavier Pollard","Deon Edwin","Jaylin Walker","Marvin Jones","Jalen Avery","Raasean Davis","Jon Fleming"],"rows":[]};
+LINEUPS_ADD["Kent St."] = {"players":["Kellon Thomas","Jimmy Hall","Chris Ortiz","Galal Cancer","Khaliq Spicer","Deon Edwin","Xavier Pollard","Jaylin Walker","Jalen Avery","Marvin Jones","Raasean Davis","Jon Fleming"],"rows":[]};

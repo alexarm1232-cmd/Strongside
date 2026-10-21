@@ -1,1 +1,1 @@
-LINEUPS_ADD["Montana"] = {"players":["Money Williams","Tyler Thompson","Te'Jon Sawyer","Kenyon Aguino","Tyler Isaak","Brooklyn Hicks","Grant Kepley","Trae Taylor","Connor Dick","Amari Jedkins","Chase Henderson","Courtney Anderson","Kadyn Betts"],"rows":[]};
+LINEUPS_ADD["Montana"] = {"players":["Money Williams","Tyler Thompson","Te'Jon Sawyer","Kenyon Aguino","Tyler Isaak","Brooklyn Hicks","Grant Kepley","Trae Taylor","Connor Dick","Chase Henderson","Amari Jedkins","Courtney Anderson","Kadyn Betts"],"rows":[]};

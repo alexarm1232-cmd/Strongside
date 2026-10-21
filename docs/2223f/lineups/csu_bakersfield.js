@@ -1,1 +1,1 @@
-LINEUPS_ADD["CSU Bakersfield"] = {"players":["Antavion Collum","Ivan Reynolds","Marvin McGhee III","Cameron Smith","Travis Henson","Kaleb Higgins","Naseem Gaskin","Modestas Kancleris","Dalph Panopio","Kaseem Watson","Ugnius Jarusevicius","Cedquavious Hunter"],"rows":[]};
+LINEUPS_ADD["CSU Bakersfield"] = {"players":["Antavion Collum","Ivan Reynolds","Marvin McGhee III","Cameron Smith","Travis Henson","Kaleb Higgins","Modestas Kancleris","Naseem Gaskin","Dalph Panopio","Kaseem Watson","Ugnius Jarusevicius","Cedquavious Hunter"],"rows":[]};

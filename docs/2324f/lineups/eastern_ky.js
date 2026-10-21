@@ -1,1 +1,1 @@
-LINEUPS_ADD["Eastern Ky."] = {"players":["Isaiah Cozart","Devontae Blanton","Michael Moreno","Leland Walker","Tayshawn Comer","Collin Cooper","John Ukomadu","Turner Buttry","Montavious Myrick","Pierce Thomas","DaShawn Jackson","David Onanina","Robby Todd"],"rows":[]};
+LINEUPS_ADD["Eastern Ky."] = {"players":["Isaiah Cozart","Devontae Blanton","Michael Moreno","Leland Walker","Tayshawn Comer","Collin Cooper","John Ukomadu","Turner Buttry","Montavious Myrick","DaShawn Jackson","Pierce Thomas","David Onanina","Robby Todd"],"rows":[]};

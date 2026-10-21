@@ -1,1 +1,1 @@
-LINEUPS_ADD["Jackson St."] = {"players":["Garrison Johnson","De'Suan Dixon","Cason Burk","Tyrone Hanson","Rod Melvin","Phillip Williams","Gertavian Blake","Raymond Gregory","Grant Maxey"],"rows":[[29,[2,1,0,4,3],68.3,67,81,64.45,51,73]]};
+LINEUPS_ADD["Jackson St."] = {"players":["Garrison Johnson","De'Suan Dixon","Cason Burk","Tyrone Hanson","Rod Melvin","Phillip Williams","Gertavian Blake","Raymond Gregory","Grant Maxey"],"rows":[[30,[2,1,0,4,3],68.3,67,81,64.45,51,73]]};

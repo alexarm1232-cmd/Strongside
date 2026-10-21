@@ -1,1 +1,1 @@
-LINEUPS_ADD["Colorado St."] = {"players":["Nico Carvacho","Anthony Masinton-Bonner","Prentiss Nixon","Che Bob","Deion James","J.D. Paige","Raquan Mitchell","Lorenzo Jenkins","Robbie Berwick","Logan Ryan","Juan Sabino II"],"rows":[]};
+LINEUPS_ADD["Colorado St."] = {"players":["Nico Carvacho","Prentiss Nixon","Anthony Masinton-Bonner","Che Bob","Deion James","J.D. Paige","Raquan Mitchell","Lorenzo Jenkins","Robbie Berwick","Logan Ryan","Juan Sabino II"],"rows":[]};

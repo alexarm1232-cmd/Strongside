@@ -1,1 +1,1 @@
-LINEUPS_ADD["Binghamton"] = {"players":["Jeremiah Quigley","Wes Peterson","Jackson Benigni","Bryson Wilson","Zyier Beverly","Stephan Snagg","Ryan Richardson","Demetrius Lilley","Jake Blackburn","Nevin Ibroci","Jayden Kelsey"],"rows":[]};
+LINEUPS_ADD["Binghamton"] = {"players":["Jeremiah Quigley","Wes Peterson","Jackson Benigni","Bryson Wilson","Zyier Beverly","Ryan Richardson","Stephan Snagg","Demetrius Lilley","Jake Blackburn","Jayden Kelsey","Nevin Ibroci"],"rows":[]};

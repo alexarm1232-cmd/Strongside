@@ -1,1 +1,1 @@
-LINEUPS_ADD["Rider"] = {"players":["Allen Powell","Corey McKeithan","Mervin James","T.J. Weeks Jr.","Tariq Ingraham","JT Langston Jr.","DJ Dudley","Ruben Rodriguez","Anthony McCall","Ife West-Ingram","Moustapha Sanoh","Tyriek Weeks","Jack McFadden","Nic Anthony"],"rows":[]};
+LINEUPS_ADD["Rider"] = {"players":["Allen Powell","Corey McKeithan","Mervin James","T.J. Weeks Jr.","Tariq Ingraham","JT Langston Jr.","DJ Dudley","Ruben Rodriguez","Anthony McCall","Ife West-Ingram","Tyriek Weeks","Moustapha Sanoh","Jack McFadden","Nic Anthony"],"rows":[]};

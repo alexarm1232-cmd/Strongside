@@ -1,1 +1,1 @@
-LINEUPS_ADD["Eastern Ill."] = {"players":["Jeremy Granger","Joey Miller","Alfonzo McKinnie","Zavier Sanders","L.C. Doss","Austin Akers","Josh Piper","James Hollowell","Taylor Jones","Nick McFarlin","Malcolm Herron","Morris Woods","Jonathan Miller","Alex Lubsey"],"rows":[]};
+LINEUPS_ADD["Eastern Ill."] = {"players":["Jeremy Granger","Joey Miller","Alfonzo McKinnie","L.C. Doss","Zavier Sanders","Austin Akers","Josh Piper","James Hollowell","Taylor Jones","Nick McFarlin","Malcolm Herron","Morris Woods","Jonathan Miller","Alex Lubsey"],"rows":[]};

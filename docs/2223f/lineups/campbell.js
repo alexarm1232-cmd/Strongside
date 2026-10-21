@@ -1,1 +1,1 @@
-LINEUPS_ADD["Campbell"] = {"players":["Ricky Clemons","Jay Pal","Anthony Dell'Orso","Gediminas Mokseckas","Joshua Lusane","Laurynas Vaistaras","Juan Reyna","Devon Dunn","Jasin Sinani","Mason Grant","Jesus Carralero Martin","Darwin Randolph","Omar Harris","Elijah Walsh"],"rows":[]};
+LINEUPS_ADD["Campbell"] = {"players":["Ricky Clemons","Jay Pal","Anthony Dell'Orso","Gediminas Mokseckas","Joshua Lusane","Laurynas Vaistaras","Juan Reyna","Devon Dunn","Jasin Sinani","Mason Grant","Jesus Carralero Martin","Darwin Randolph","Elijah Walsh","Omar Harris"],"rows":[]};

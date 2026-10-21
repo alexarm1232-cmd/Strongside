@@ -1,1 +1,1 @@
-LINEUPS_ADD["Sacramento St."] = {"players":["Bailey Nunn","Jacob Holt","EJ Neal","Lachlan Brewer","Emil Skytta","Julian Vaughns","Michael Wilson","Chudi Dioramma","Leo Ricketts","Bowyn Beatty","Deonte Williams","Alex Kovatchev","Jalen Pitre","Kiir Kiir Chol Deng"],"rows":[]};
+LINEUPS_ADD["Sacramento St."] = {"players":["Bailey Nunn","Jacob Holt","Lachlan Brewer","EJ Neal","Emil Skytta","Julian Vaughns","Michael Wilson","Chudi Dioramma","Leo Ricketts","Bowyn Beatty","Deonte Williams","Alex Kovatchev","Jalen Pitre","Kiir Kiir Chol Deng"],"rows":[]};

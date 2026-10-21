@@ -1,1 +1,1 @@
-LINEUPS_ADD["Hawaii"] = {"players":["Jack Purchase","Drew Buggs","Zigmars Raimo","Brocke Stepteau","Eddie Stansberry","Sheriff Drammeh","Samuta Avea","Leland Green","Dawson Carper","Mate Colina","Brandon Thomas","Owen Hulland","Justin Hemsley","Huthifah Abdeljawad"],"rows":[]};
+LINEUPS_ADD["Hawaii"] = {"players":["Jack Purchase","Drew Buggs","Brocke Stepteau","Zigmars Raimo","Eddie Stansberry","Sheriff Drammeh","Samuta Avea","Leland Green","Dawson Carper","Mate Colina","Brandon Thomas","Owen Hulland","Justin Hemsley","Huthifah Abdeljawad"],"rows":[]};

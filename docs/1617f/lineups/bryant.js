@@ -1,1 +1,1 @@
-LINEUPS_ADD["Bryant"] = {"players":["Adam Grant","Nisr\u00e9 Zouzoua","Marcel Pettway","Ikenna Ndugba","Bosko Kostur","Dan Garvin","Taylor McHugh","Sabastian Townes","Hunter Ware","Gus Riley","Tanner Johnson","Justin Brickman","Terrill Toe"],"rows":[]};
+LINEUPS_ADD["Bryant"] = {"players":["Adam Grant","Nisr\u00e9 Zouzoua","Marcel Pettway","Ikenna Ndugba","Bosko Kostur","Dan Garvin","Sabastian Townes","Taylor McHugh","Hunter Ware","Gus Riley","Tanner Johnson","Justin Brickman","Terrill Toe"],"rows":[]};

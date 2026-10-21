@@ -1,1 +1,1 @@
-LINEUPS_ADD["Eastern Mich."] = {"players":["James Thompson IV","Tim Bond","Ty Toney","Brandon Nazione","Willie Mangum IV","Raven Lee","Jodan Price","Jordan Nobles","Ethan Alvano","Trent Perry","Blake Brown","Jordan Martin","Lamonta Stone II"],"rows":[]};
+LINEUPS_ADD["Eastern Mich."] = {"players":["James Thompson IV","Tim Bond","Ty Toney","Brandon Nazione","Willie Mangum IV","Raven Lee","Jodan Price","Jordan Nobles","Ethan Alvano","Trent Perry","Jordan Martin","Blake Brown","Lamonta Stone II"],"rows":[]};

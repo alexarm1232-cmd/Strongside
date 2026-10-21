@@ -1,1 +1,1 @@
-LINEUPS_ADD["Radford"] = {"players":["R.J. Price","Javonte Green","Kyle Noreen","Ya Ya Anderson","Rashun Davis","Blake Smith","Brandon Holcomb","Jalen Carethers","Kion Brown","Lucas Dyer","Juwan Wells","Taj Owens","Allen Dickerson","Matt Murphy"],"rows":[]};
+LINEUPS_ADD["Radford"] = {"players":["R.J. Price","Javonte Green","Kyle Noreen","Ya Ya Anderson","Rashun Davis","Blake Smith","Brandon Holcomb","Kion Brown","Jalen Carethers","Lucas Dyer","Juwan Wells","Taj Owens","Allen Dickerson","Matt Murphy"],"rows":[]};

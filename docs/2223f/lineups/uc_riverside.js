@@ -1,1 +1,1 @@
-LINEUPS_ADD["UC Riverside"] = {"players":["Flynn Cameron","Zyon Pullin","Lachlan Olbrich","Wil Tattersall","Jamal Hartwell II","Luke Turner","Kyle Owens","Vladimer Salaridze","Jhaylon Martinez","Nate Pickens","Niyi Olabode","Anthony Bell","Kobe Jerome"],"rows":[]};
+LINEUPS_ADD["UC Riverside"] = {"players":["Flynn Cameron","Zyon Pullin","Lachlan Olbrich","Wil Tattersall","Jamal Hartwell II","Luke Turner","Kyle Owens","Vladimer Salaridze","Jhaylon Martinez","Nate Pickens","Niyi Olabode","Kobe Jerome","Anthony Bell"],"rows":[]};

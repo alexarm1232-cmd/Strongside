@@ -1,1 +1,1 @@
-LINEUPS_ADD["Charlotte"] = {"players":["Jon Davis","Braxton Ogbueze","Andrien White","Anthony Vanhook","Hudson Price","Austin Ajukwa","Quentin Jackson","Najee Garvin","Benas Griciunas","Reid Aube","JC Washington","Lukas Bergang","Corey Bias"],"rows":[]};
+LINEUPS_ADD["Charlotte"] = {"players":["Jon Davis","Braxton Ogbueze","Andrien White","Anthony Vanhook","Hudson Price","Austin Ajukwa","Quentin Jackson","Najee Garvin","Benas Griciunas","JC Washington","Reid Aube","Lukas Bergang","Corey Bias"],"rows":[]};

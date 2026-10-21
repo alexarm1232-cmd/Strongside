@@ -1,1 +1,1 @@
-LINEUPS_ADD["New Hampshire"] = {"players":["Jayden Martinez","Blondeau Tchoukuiegno","Nick Guadarrama","Nick Johnson","Marque Maultsby","Qon Murphy","Chris Lester","Tayler Mattos","KJ McClurg","Josh Hopkins","Meekness Payne","Jon Willeman"],"rows":[]};
+LINEUPS_ADD["New Hampshire"] = {"players":["Jayden Martinez","Blondeau Tchoukuiegno","Nick Guadarrama","Nick Johnson","Marque Maultsby","Qon Murphy","Chris Lester","Tayler Mattos","KJ McClurg","Meekness Payne","Josh Hopkins","Jon Willeman"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["NJIT"] = {"players":["Isaiah Wilkerson","Chris Flores","Lamar Kearse","PJ Miller","Ryan Woods","Arjun Ohri","Ryan Regis","Kherel Silcott","Sammy Schickel","Marques Jones","Garret Frick","Sean McCarthy","Daquan Holiday","Odera Nweke","Teddy Schickel"],"rows":[]};
+LINEUPS_ADD["NJIT"] = {"players":["Isaiah Wilkerson","Chris Flores","PJ Miller","Lamar Kearse","Ryan Woods","Arjun Ohri","Ryan Regis","Kherel Silcott","Sammy Schickel","Marques Jones","Garret Frick","Daquan Holiday","Odera Nweke","Sean McCarthy","Teddy Schickel"],"rows":[]};

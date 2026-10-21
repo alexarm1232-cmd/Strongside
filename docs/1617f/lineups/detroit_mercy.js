@@ -1,1 +1,1 @@
-LINEUPS_ADD["Detroit Mercy"] = {"players":["Corey Allen","Josh McFolley","Chris Jenkins","Jaleel Hogan","Jarod Williams","Deshawndre Black","Gerald Blackshear","Cole Long","Patrick Robinson","Malik Eichler","Matthew Grant","Ed Carter III","Aaron Foster-Smith"],"rows":[]};
+LINEUPS_ADD["Detroit Mercy"] = {"players":["Corey Allen","Josh McFolley","Chris Jenkins","Jaleel Hogan","Jarod Williams","Deshawndre Black","Gerald Blackshear","Cole Long","Patrick Robinson","Malik Eichler","Ed Carter III","Matthew Grant","Aaron Foster-Smith"],"rows":[]};

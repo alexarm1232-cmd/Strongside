@@ -1,1 +1,1 @@
-LINEUPS_ADD["Vanderbilt"] = {"players":["Jermaine Beal","Jeffery Taylor","Brad Tinsley","Andre Walker","A.J. Ogilvy","John Jenkins","Festus Ezeli","Lance Goulbourne","Steve Tchiengang"],"rows":[[31,[4,3,1,0,5],63.92,65,66,63.92,65,66]]};
+LINEUPS_ADD["Vanderbilt"] = {"players":["Jermaine Beal","Jeffery Taylor","Brad Tinsley","Andre Walker","A.J. Ogilvy","John Jenkins","Festus Ezeli","Lance Goulbourne","Steve Tchiengang"],"rows":[[32,[4,3,1,0,5],63.92,65,66,63.92,65,66]]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["Col. of Charleston"] = {"players":["Payton Willis","Zep Jasper","Osinachi Smart","Brenden Tucker","DeAngelo Epps","Lorenzo Edwards","Cameron Copeland","Dontavius King","Keegan Harvey","Brevin Galloway","DA Houston","Samba Ndiaye","Jeffrey Pizano-McInnis"],"rows":[]};
+LINEUPS_ADD["Col. of Charleston"] = {"players":["Payton Willis","Zep Jasper","Osinachi Smart","Brenden Tucker","DeAngelo Epps","Lorenzo Edwards","Cameron Copeland","Dontavius King","Keegan Harvey","DA Houston","Brevin Galloway","Samba Ndiaye","Jeffrey Pizano-McInnis"],"rows":[]};

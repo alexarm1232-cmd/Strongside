@@ -1,1 +1,1 @@
-LINEUPS_ADD["Southern Ill."] = {"players":["Marcus Domask","Lance Jones","Xavier Johnson","Jawaun Newton","Troy D'Amico","Clarence Rupert","Trent Brown","Dalton Banks","JD Muila","Foster Wonders","Scottie Ebube","AJ Ferguson","Cade Hornecker","Chris Cross"],"rows":[]};
+LINEUPS_ADD["Southern Ill."] = {"players":["Marcus Domask","Lance Jones","Xavier Johnson","Jawaun Newton","Troy D'Amico","Clarence Rupert","Trent Brown","Dalton Banks","JD Muila","Foster Wonders","AJ Ferguson","Scottie Ebube","Cade Hornecker","Chris Cross"],"rows":[]};

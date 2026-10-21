@@ -1,1 +1,1 @@
-LINEUPS_ADD["Missouri St."] = {"players":["Austin Ruder","Dorrian Williams","Chris Kendrix","Camyn Boone","Loomis Gerring","Shawn Roundtree","Gavin Thurman","Marcus Marshall","Christian Kirk","Tyler McCullough","Robin Thompson","Ron Mvouika","Cameron Maes"],"rows":[]};
+LINEUPS_ADD["Missouri St."] = {"players":["Austin Ruder","Dorrian Williams","Camyn Boone","Chris Kendrix","Loomis Gerring","Shawn Roundtree","Marcus Marshall","Gavin Thurman","Christian Kirk","Tyler McCullough","Robin Thompson","Ron Mvouika","Cameron Maes"],"rows":[]};

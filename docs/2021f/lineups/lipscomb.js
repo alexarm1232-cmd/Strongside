@@ -1,1 +1,1 @@
-LINEUPS_ADD["Lipscomb"] = {"players":["Romeao Ferguson","Ahsan Asadullah","Greg Jones","Jake Wolfe","KJ Johnson","Parker Hazen","Miles Miller","Will Pruitt","Carson Cary","Alex Jones","Kaleb Coleman","Tanner Shulman","Tommy Murr","Jacob Hobbs"],"rows":[]};
+LINEUPS_ADD["Lipscomb"] = {"players":["Romeao Ferguson","Ahsan Asadullah","Jake Wolfe","KJ Johnson","Greg Jones","Parker Hazen","Miles Miller","Carson Cary","Will Pruitt","Alex Jones","Kaleb Coleman","Tanner Shulman","Tommy Murr","Jacob Hobbs"],"rows":[]};

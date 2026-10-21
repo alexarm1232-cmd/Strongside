@@ -1,1 +1,1 @@
-LINEUPS_ADD["Southeast Mo. St."] = {"players":["Eric Reed, Jr.","Phillip Russell","Nygal Russell","Chris Harris","DQ Nicholas","Nana Akenten","Dylan Branson","Manny Patterson","Sam Thompson","Chase Thompson","Parker Long","Nate Johnson"],"rows":[]};
+LINEUPS_ADD["Southeast Mo. St."] = {"players":["Eric Reed, Jr.","Phillip Russell","Nygal Russell","Chris Harris","DQ Nicholas","Dylan Branson","Nana Akenten","Manny Patterson","Sam Thompson","Chase Thompson","Parker Long","Nate Johnson"],"rows":[]};

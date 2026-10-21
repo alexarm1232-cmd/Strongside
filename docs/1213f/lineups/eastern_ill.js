@@ -1,1 +1,1 @@
-LINEUPS_ADD["Eastern Ill."] = {"players":["Austin Akers","Taylor Jones","Josh Piper","Sherman Blanford","Alex Austin","Morris Woods","Malcolm Herron","Cameron Harvey","Keenen Anderson","Alex Lubsey","R.J. McGhee"],"rows":[]};
+LINEUPS_ADD["Eastern Ill."] = {"players":["Austin Akers","Josh Piper","Taylor Jones","Sherman Blanford","Alex Austin","Morris Woods","Malcolm Herron","Cameron Harvey","Keenen Anderson","Alex Lubsey","R.J. McGhee"],"rows":[]};

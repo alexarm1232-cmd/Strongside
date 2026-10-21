@@ -1,1 +1,1 @@
-LINEUPS_ADD["VMI"] = {"players":["Rickey Bradley","TJ Johnson","Augustinas Kiudulas","Tan Yildizoglu","AJ Clark","Linus Holmstrom","Kaden Stuckey","Cal Liston","Jaylen Pazon","Robert Peters","Walker Andrews","Maurice Wright Jr.","Cyprian Hyde"],"rows":[]};
+LINEUPS_ADD["VMI"] = {"players":["Rickey Bradley","TJ Johnson","Tan Yildizoglu","Augustinas Kiudulas","Linus Holmstrom","AJ Clark","Kaden Stuckey","Cal Liston","Robert Peters","Jaylen Pazon","Walker Andrews","Maurice Wright Jr.","Cyprian Hyde"],"rows":[]};

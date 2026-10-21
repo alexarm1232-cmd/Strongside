@@ -1,1 +1,1 @@
-LINEUPS_ADD["High Point"] = {"players":["Jahaad Proctor","Andre Fox","Brandon Kamga","Denny Slay","Jordan Whitehead","Justyn Mutts","Austin White","Ricky Madison","Luke Vargo","Jamal Wright","Cliff Thomas Jr","Sam Berlin","Dexter Gooding"],"rows":[]};
+LINEUPS_ADD["High Point"] = {"players":["Andre Fox","Jahaad Proctor","Brandon Kamga","Denny Slay","Jordan Whitehead","Justyn Mutts","Austin White","Ricky Madison","Luke Vargo","Jamal Wright","Cliff Thomas Jr","Sam Berlin","Dexter Gooding"],"rows":[]};

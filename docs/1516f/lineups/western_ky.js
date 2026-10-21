@@ -1,1 +1,1 @@
-LINEUPS_ADD["Western Ky."] = {"players":["Aaron Cosby","Justin Johnson","Chris McNeal","Fredrick Edmond","Nigel Snipes","Ben Lawson","Anton Waters","Chris Harrison-Docks","Marlon Hunter","Aleksej Rostov","Nathan Smith","Dylan Sanford","Keifer Dalton"],"rows":[]};
+LINEUPS_ADD["Western Ky."] = {"players":["Aaron Cosby","Justin Johnson","Fredrick Edmond","Chris McNeal","Nigel Snipes","Ben Lawson","Anton Waters","Chris Harrison-Docks","Marlon Hunter","Aleksej Rostov","Nathan Smith","Dylan Sanford","Keifer Dalton"],"rows":[]};

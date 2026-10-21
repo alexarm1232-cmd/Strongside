@@ -1,1 +1,1 @@
-LINEUPS_ADD["South Dakota"] = {"players":["Tyler Cain","Jake Thomas","Roman Gentry","Kendall Cutler","Louie Krogman","Steve Smith","Mitchell Bouie"],"rows":[[27,[1,3,4,2,0],75.04,78,89,68.55,65,87]]};
+LINEUPS_ADD["South Dakota"] = {"players":["Jake Thomas","Tyler Cain","Roman Gentry","Louie Krogman","Steve Smith","Kendall Cutler","Mitchell Bouie"],"rows":[[31,[0,5,3,2,1],75.04,78,89,68.55,65,87]]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["Ga. Southern"] = {"players":["Jelani Hewitt","Mike Hughes","Trent Wiedeman","Curtis Diamond","Angel Matias","Jake Allsmiller","Eric Ferguson","Kyle Doyle","Devonte Boykins","Coye Simmons","Grayson Clark","Scott Kelly","D.J. Suter","Zach Altany","Amonte Potter"],"rows":[]};
+LINEUPS_ADD["Ga. Southern"] = {"players":["Jelani Hewitt","Mike Hughes","Trent Wiedeman","Curtis Diamond","Angel Matias","Jake Allsmiller","Eric Ferguson","Kyle Doyle","Devonte Boykins","Coye Simmons","Grayson Clark","D.J. Suter","Scott Kelly","Zach Altany","Amonte Potter"],"rows":[]};

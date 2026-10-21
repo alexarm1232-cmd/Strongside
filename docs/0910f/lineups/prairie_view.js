@@ -1,1 +1,1 @@
-LINEUPS_ADD["Prairie View"] = {"players":["Chris Jones","Tim Meadows","Dorian McDaniel","Michael Griffin","Darnell Hugee","Duwan Kornegay","Chris Sights","Tarrence Garrison","Alex Richman","Brandon Webb"],"rows":[]};
+LINEUPS_ADD["Prairie View"] = {"players":["Tim Meadows","Chris Jones","Dorian McDaniel","Michael Griffin","Darnell Hugee","Duwan Kornegay","Chris Sights","Alex Richman","Tarrence Garrison","Brandon Webb"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["Western Ill."] = {"players":["Kobe Webster","C.J. Duff","Brandon Gilbeck","Ben Pyle","Isaac Johnson","Zion Young","Jeremiah Usiosefe","James Claar","Keshon Montague","Jordan Hughes","Ryan Maas","Perion Little","Otis Dortch","Jake Weyhrich"],"rows":[]};
+LINEUPS_ADD["Western Ill."] = {"players":["Kobe Webster","C.J. Duff","Ben Pyle","Brandon Gilbeck","Isaac Johnson","Zion Young","Jeremiah Usiosefe","James Claar","Keshon Montague","Jordan Hughes","Ryan Maas","Perion Little","Otis Dortch","Jake Weyhrich"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["Evansville"] = {"players":["K.J. Riley","John Hall","Marty Hill","Evan Kuhlman","Shea Feehan","Noah Frederking","Shamar Givance","Dainius Chatkevicius","Jawaun Newton","Devan Straub","Jared Chestnut"],"rows":[]};
+LINEUPS_ADD["Evansville"] = {"players":["K.J. Riley","John Hall","Marty Hill","Shea Feehan","Evan Kuhlman","Noah Frederking","Shamar Givance","Dainius Chatkevicius","Jawaun Newton","Devan Straub","Jared Chestnut"],"rows":[]};

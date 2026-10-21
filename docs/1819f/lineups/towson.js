@@ -1,1 +1,1 @@
-LINEUPS_ADD["Towson"] = {"players":["Brian Fobbs","Dennis Tunstall","Tobias Howard Jr.","Jordan McNeil","Nakye Sanders","Allen Betrand","Jakigh Dottin","Solomon Uyaelunmo","Alex Thomas","Nicolas Timberlake","Quinton Drayton","Yagizhan Selcuk","Chris Caliguiran"],"rows":[]};
+LINEUPS_ADD["Towson"] = {"players":["Brian Fobbs","Dennis Tunstall","Tobias Howard Jr.","Nakye Sanders","Jordan McNeil","Allen Betrand","Jakigh Dottin","Solomon Uyaelunmo","Alex Thomas","Nicolas Timberlake","Quinton Drayton","Yagizhan Selcuk","Chris Caliguiran"],"rows":[]};

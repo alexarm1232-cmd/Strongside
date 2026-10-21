@@ -1,1 +1,1 @@
-LINEUPS_ADD["Western Mich."] = {"players":["Lamar Norman Jr.","Markeese Hastings","Tray Maddox Jr.","Titus Wright","JaVaughn Hannah","Seth Hubbard","Jefferson De La Cruz Monegro","Tafari Simms","Owen Lobsinger","Shemani Fuller","Gus Etchison","Max Burton","Jack Stefanski"],"rows":[]};
+LINEUPS_ADD["Western Mich."] = {"players":["Lamar Norman Jr.","Markeese Hastings","Tray Maddox Jr.","JaVaughn Hannah","Seth Hubbard","Titus Wright","Jefferson De La Cruz Monegro","Tafari Simms","Owen Lobsinger","Gus Etchison","Shemani Fuller","Max Burton","Jack Stefanski"],"rows":[]};

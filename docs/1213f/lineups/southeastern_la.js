@@ -1,1 +1,1 @@
-LINEUPS_ADD["Southeastern La."] = {"players":["Brandon Fortenberry","Dre Evans","Jeffery Ricard","Roosevelt Johnson","Antonnio Benton","Roger Woods","Todd Nelson","Onochie Ochie","Jeremy Campbell","Jamaal James","Jan Petrovcic"],"rows":[]};
+LINEUPS_ADD["Southeastern La."] = {"players":["Brandon Fortenberry","Dre Evans","Jeffery Ricard","Roosevelt Johnson","Antonnio Benton","Roger Woods","Todd Nelson","Jeremy Campbell","Onochie Ochie","Jamaal James","Jan Petrovcic"],"rows":[]};

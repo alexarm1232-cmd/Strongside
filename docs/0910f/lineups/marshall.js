@@ -1,1 +1,1 @@
-LINEUPS_ADD["Marshall"] = {"players":["Tyler Wilkerson","Chris Lutz","Hassan Whiteside","Shaquille Johnson","Damier Pitts","Dago Pena","Darryl Merthie","Tirrell Baines","Antonio Haymon"],"rows":[[29,[5,4,6,7,0],80.18,90,88,80.18,90,88],[30,[5,4,2,7,0],64.23,72,80,62.43,66,78]]};
+LINEUPS_ADD["Marshall"] = {"players":["Chris Lutz","Hassan Whiteside","Shaquille Johnson","Tyler Wilkerson","Damier Pitts","Dago Pena","Darryl Merthie","Tirrell Baines","Antonio Haymon"],"rows":[[32,[5,4,6,7,3],80.18,90,88,80.18,90,88],[33,[5,4,1,7,3],64.23,72,80,62.43,66,78]]};

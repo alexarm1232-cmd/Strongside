@@ -1,1 +1,1 @@
-LINEUPS_ADD["Bellarmine"] = {"players":["Juston Betz","CJ Fleming","Dylan Penn","Curt Hopf","Ethan Claycomb","Alec Pfriem","Garrett Tipton","Sam DeVault","Bash Wieland","Nick Thelen","Zac Jennings","Baylor Younker","Drew Comer","Eli Roberts"],"rows":[]};
+LINEUPS_ADD["Bellarmine"] = {"players":["CJ Fleming","Juston Betz","Dylan Penn","Ethan Claycomb","Curt Hopf","Alec Pfriem","Garrett Tipton","Sam DeVault","Bash Wieland","Zac Jennings","Nick Thelen","Baylor Younker","Eli Roberts","Drew Comer"],"rows":[]};

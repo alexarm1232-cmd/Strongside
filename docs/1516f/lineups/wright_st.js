@@ -1,1 +1,1 @@
-LINEUPS_ADD["Wright St."] = {"players":["JT Yoho","Joe Thomasson","Mark Alstork","Grant Benzinger","Biggie Minnis","Michael Karena","Mark Hughes","Parker Ernsthausen","Justin Mitchell","Alan Vest","Daniel Mortensen","Daniel Collie","Roderick Davis","Brandon Neel","Trey Stacey"],"rows":[]};
+LINEUPS_ADD["Wright St."] = {"players":["Joe Thomasson","JT Yoho","Mark Alstork","Grant Benzinger","Biggie Minnis","Michael Karena","Mark Hughes","Justin Mitchell","Parker Ernsthausen","Alan Vest","Daniel Mortensen","Daniel Collie","Brandon Neel","Roderick Davis","Trey Stacey"],"rows":[]};

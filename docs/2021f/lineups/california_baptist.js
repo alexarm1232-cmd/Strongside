@@ -1,1 +1,1 @@
-LINEUPS_ADD["California Baptist"] = {"players":["Ty Rowell","Tre Armstrong","Reed Nottage","Gorjok Gak","Elijah Thomas","Mark Carbone","Malik Wade","Te'Jon Sawyer","Freddie Dybala","Jordan Caruso","Jermaine Miranda","Tobin Kund","Russell Barlow"],"rows":[]};
+LINEUPS_ADD["California Baptist"] = {"players":["Ty Rowell","Reed Nottage","Tre Armstrong","Gorjok Gak","Elijah Thomas","Mark Carbone","Malik Wade","Te'Jon Sawyer","Jordan Caruso","Freddie Dybala","Jermaine Miranda","Tobin Kund","Russell Barlow"],"rows":[]};

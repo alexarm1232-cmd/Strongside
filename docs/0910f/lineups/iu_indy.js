@@ -1,1 +1,1 @@
-LINEUPS_ADD["IU Indy"] = {"players":["Leroy Nobles","John Ashworth","Billy Pettiford","Alex Young","Robert Glenn","Jon Avery","Greg Rice"],"rows":[[32,[3,2,1,0,4],68.0,74,60,65.7,66,51],[33,[3,1,5,0,4],70.71,68,74,70.71,68,74]]};
+LINEUPS_ADD["IU Indy"] = {"players":["John Ashworth","Leroy Nobles","Billy Pettiford","Alex Young","Robert Glenn","Jon Avery","Greg Rice"],"rows":[[34,[3,2,0,1,4],68.0,74,60,65.7,66,51],[35,[3,0,5,1,4],70.71,68,74,70.71,68,74]]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["Gonzaga"] = {"players":["Matt Bouldin","Steven Gray","Elias Harris","Demetri Goodson","Robert Sacre","Kelly Olynyk","Bol Kong","Mangisto Arop","Will Foster","Grant Gibbs"],"rows":[[31,[3,2,0,4,1],64.72,67,60,64.72,67,60],[32,[3,2,0,4,1],70.04,65,87,51.55,41,73]]};
+LINEUPS_ADD["Gonzaga"] = {"players":["Matt Bouldin","Steven Gray","Elias Harris","Demetri Goodson","Robert Sacre","Kelly Olynyk","Bol Kong","Mangisto Arop","Grant Gibbs","Will Foster"],"rows":[[32,[3,2,0,4,1],64.72,67,60,64.72,67,60],[33,[3,2,0,4,1],70.04,65,87,51.55,41,73]]};

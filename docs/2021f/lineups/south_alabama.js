@@ -1,1 +1,1 @@
-LINEUPS_ADD["South Alabama"] = {"players":["Michael Flowers","John Pettway","Tyreke Locure","Kayo Goncalves","Jamal West Jr.","Sam Iorio","KK Curry","David Walker","Zondrick Garrett","Andrew Anderson","Adam Sizemore"],"rows":[]};
+LINEUPS_ADD["South Alabama"] = {"players":["Michael Flowers","John Pettway","Tyreke Locure","Kayo Goncalves","Jamal West Jr.","Sam Iorio","KK Curry","David Walker","Andrew Anderson","Adam Sizemore","Zondrick Garrett"],"rows":[]};

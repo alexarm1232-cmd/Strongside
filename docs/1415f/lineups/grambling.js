@@ -1,1 +1,1 @@
-LINEUPS_ADD["Grambling"] = {"players":["A'Torri Shine","Remond Brown","Mark Gary","Chase Cormier","Richard Freeman","Kyle Williams","Robert Wiley","Jefkin Agyeman-Budu","Valerio Altheimer","Carlton Lowe","Isiah Patterson","Lonnie McElwain","Telvin Marshall"],"rows":[]};
+LINEUPS_ADD["Grambling"] = {"players":["A'Torri Shine","Remond Brown","Mark Gary","Chase Cormier","Richard Freeman","Kyle Williams","Jefkin Agyeman-Budu","Robert Wiley","Valerio Altheimer","Carlton Lowe","Lonnie McElwain","Isiah Patterson","Telvin Marshall"],"rows":[]};

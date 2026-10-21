@@ -1,1 +1,1 @@
-LINEUPS_ADD["Brown"] = {"players":["Jeremiah Jenkins","Adrian Uchidiuno","Landon Lewis","N'famara Dabo","Malcolm Wrisby-Jefferson","Isaiah Langham","David Rochester","Luke Paragon","Brady Loughlin","Charlie OSullivan","Wyatt DeGraaf","Drew Kania","Jonah Drezner"],"rows":[]};
+LINEUPS_ADD["Brown"] = {"players":["Jeremiah Jenkins","Adrian Uchidiuno","Landon Lewis","N'famara Dabo","Malcolm Wrisby-Jefferson","Isaiah Langham","David Rochester","Luke Paragon","Charlie OSullivan","Brady Loughlin","Wyatt DeGraaf","Drew Kania","Jonah Drezner"],"rows":[]};

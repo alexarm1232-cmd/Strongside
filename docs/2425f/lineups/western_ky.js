@@ -1,1 +1,1 @@
-LINEUPS_ADD["Western Ky."] = {"players":["Don McHenry","Tyrone Marshall","Khristian Lander","Braxton Bayless","Jalen Jackson","Enoch Kalambay","Leeroy Odiahi","Julius Thedford","Blaise Keita","Jack Edelen","Babacar Faye","Jaylen Dorsey","Tyler Olden"],"rows":[]};
+LINEUPS_ADD["Western Ky."] = {"players":["Don McHenry","Tyrone Marshall","Khristian Lander","Braxton Bayless","Jalen Jackson","Enoch Kalambay","Leeroy Odiahi","Julius Thedford","Jack Edelen","Blaise Keita","Babacar Faye","Jaylen Dorsey","Tyler Olden"],"rows":[]};

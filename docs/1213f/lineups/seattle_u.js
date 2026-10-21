@@ -1,1 +1,1 @@
-LINEUPS_ADD["Seattle U"] = {"players":["Prince Obasi","Chad Rasmussen","D'Vonne Pickett","Deshaun Sunderhaus","Clarence Trent","Louis Green","Jarell Flora","Allen Tate","Luiz Bidart","Jack Crook","T.J. Diop","Sterling Carter","David Trimble"],"rows":[]};
+LINEUPS_ADD["Seattle U"] = {"players":["Prince Obasi","Chad Rasmussen","D'Vonne Pickett","Deshaun Sunderhaus","Clarence Trent","Louis Green","Jarell Flora","Allen Tate","Luiz Bidart","Jack Crook","Sterling Carter","T.J. Diop","David Trimble"],"rows":[]};

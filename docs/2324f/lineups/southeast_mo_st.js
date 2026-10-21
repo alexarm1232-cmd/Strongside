@@ -1,1 +1,1 @@
-LINEUPS_ADD["Southeast Mo. St."] = {"players":["Rob Martin","Josh Earley","Evan Eursher","Braxton Stacker","Aquan Smart","Adam Larson","BJ Ward","TJ Biel","Marqueas Bell","David Idada","Mason Hanback","Dylan Branson","Gavyn Elkamil","Kobe Clark"],"rows":[]};
+LINEUPS_ADD["Southeast Mo. St."] = {"players":["Rob Martin","Aquan Smart","Adam Larson","Evan Eursher","Braxton Stacker","Josh Earley","BJ Ward","TJ Biel","Marqueas Bell","David Idada","Mason Hanback","Dylan Branson","Gavyn Elkamil","Kobe Clark"],"rows":[]};

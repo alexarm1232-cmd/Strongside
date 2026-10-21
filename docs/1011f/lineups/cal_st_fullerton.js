@@ -1,1 +1,1 @@
-LINEUPS_ADD["Cal St. Fullerton"] = {"players":["Devon Peltier","Orane Chin","Perry Webster","Jer'Vaughn Johnson","Isiah Umipig","Orlando Brown","Andre Hardy","Sedric Martin","Steve Jurich","Eric Williams","Roger Guardia"],"rows":[]};
+LINEUPS_ADD["Cal St. Fullerton"] = {"players":["Devon Peltier","Orane Chin","Perry Webster","Jer'Vaughn Johnson","Isiah Umipig","Orlando Brown","Andre Hardy","Sedric Martin","Steve Jurich","Roger Guardia","Eric Williams"],"rows":[]};

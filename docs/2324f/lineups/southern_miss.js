@@ -1,1 +1,1 @@
-LINEUPS_ADD["Southern Miss."] = {"players":["Austin Crowley","Mo Arnold","Victor Iwuakor","Donovan Ivory","Cobie Montgomery","Victor Hart","Tegra Izay","Andre Curbelo","Bryson Hall","Jeffery Armstrong","Jose Benitez","Tate Ryder","Trey Alfonso","Luke Ladner"],"rows":[]};
+LINEUPS_ADD["Southern Miss."] = {"players":["Austin Crowley","Mo Arnold","Victor Iwuakor","Donovan Ivory","Victor Hart","Cobie Montgomery","Tegra Izay","Andre Curbelo","Bryson Hall","Jeffery Armstrong","Jose Benitez","Tate Ryder","Trey Alfonso","Luke Ladner"],"rows":[]};

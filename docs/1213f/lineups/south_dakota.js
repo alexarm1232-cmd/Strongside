@@ -1,1 +1,1 @@
-LINEUPS_ADD["South Dakota"] = {"players":["Juevol Myles","Trevor Gruis","Brandon Bos","Casey Kasperbauer","Karim Rowson","Steve Tecker","Tyler Flack","Jordan Boots","Eric Robertson","Jared Bartling","Jack Foley"],"rows":[]};
+LINEUPS_ADD["South Dakota"] = {"players":["Trevor Gruis","Juevol Myles","Brandon Bos","Casey Kasperbauer","Karim Rowson","Tyler Flack","Steve Tecker","Jordan Boots","Eric Robertson","Jared Bartling","Jack Foley"],"rows":[]};

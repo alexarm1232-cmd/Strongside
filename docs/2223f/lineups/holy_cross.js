@@ -1,1 +1,1 @@
-LINEUPS_ADD["Holy Cross"] = {"players":["Gerrale Gates","Bo Montgomery","Will Batchelder","Nolan Dorsey","Joe Octave","Caleb Kenney","Jade Tse","Jaden Kirkwood","Simon Wilbar","Austin Lewis","Louth Coulibaly","Michael Rabinovich","Mike Piwko","Ben Capron"],"rows":[]};
+LINEUPS_ADD["Holy Cross"] = {"players":["Gerrale Gates","Will Batchelder","Bo Montgomery","Nolan Dorsey","Joe Octave","Caleb Kenney","Jade Tse","Jaden Kirkwood","Simon Wilbar","Louth Coulibaly","Austin Lewis","Michael Rabinovich","Mike Piwko","Ben Capron"],"rows":[]};

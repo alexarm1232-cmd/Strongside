@@ -1,1 +1,1 @@
-LINEUPS_ADD["Omaha"] = {"players":["Zach Jackson","Daniel Norl","JT Gibson","KJ Robinson","Matt Pile","Mitch Hahn","Lamar Wofford-Humphrey","Ayo Akinwole","Daniel Meyer","Alex Allbery","Renard Suggs"],"rows":[]};
+LINEUPS_ADD["Omaha"] = {"players":["Zach Jackson","Daniel Norl","JT Gibson","KJ Robinson","Matt Pile","Lamar Wofford-Humphrey","Ayo Akinwole","Mitch Hahn","Daniel Meyer","Alex Allbery","Renard Suggs"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["Western Ky."] = {"players":["Dayvion McKnight","Camron Justice","Luke Frampton","Jamarion Sharp","Josh Anderson","Jairus Hamilton","Sherman Brashear","Jaylen Butz","Isaiah Cozart","Noah Stansbury","Darrius Miles","Bailey Conrad","Tyler Olden"],"rows":[]};
+LINEUPS_ADD["Western Ky."] = {"players":["Dayvion McKnight","Luke Frampton","Camron Justice","Jamarion Sharp","Jairus Hamilton","Josh Anderson","Sherman Brashear","Jaylen Butz","Isaiah Cozart","Noah Stansbury","Bailey Conrad","Tyler Olden","Darrius Miles"],"rows":[]};

@@ -71,8 +71,7 @@ GAMELOG_FOLDER = os.path.join(MAIN_FOLDER, SEASON["data"] + "gamelogs")
 LINEUP_FOLDER = os.path.join(MAIN_FOLDER, SEASON["data"] + "lineups")
 # Every shot with its spot on the floor, one file per team, for the shot charts
 SHOT_FOLDER = os.path.join(MAIN_FOLDER, SEASON["data"] + "shots")
-HOME_COURT_USUAL = Kenstat.HOME_ADV      # the measured usual home edge, set when the teams are loaded
-# The saved on/off tallies are kept apart for each season
+HOME_COURT_USUAL = Kenstat.HOME_ADV      # the measured usual home edge, set when the teams are loaded# The saved on/off tallies are kept apart for each season
 if SEASON["data"]:
     Playerstat.ONOFF_CACHE = os.path.join(MAIN_FOLDER, f"onoff_cache_{SEASON_KEY}.json")
 # Kenstat keys sent to the dashboard
@@ -157,6 +156,9 @@ def load_teams():
     except Exception as e:
         print(f"Kenstat Error: {e}")
         kenstat_results = {}
+    # the schools outside Division I, rated together as one opponent so their games count: not a team on the site,
+    # so it is not in the lists or the ranks, and its number is not shown anywhere
+    kenstat_results.pop(Kenstat.NON_D1, None)
     # both teams' net ratings going into each game (the team pages' quad lists show the gap)
     try:
         nets_before = Kenstat.nets_before_games(TEAMS_FOLDER)

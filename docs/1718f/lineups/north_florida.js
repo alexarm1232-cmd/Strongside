@@ -1,1 +1,1 @@
-LINEUPS_ADD["North Florida"] = {"players":["Ivan Gandia-Rosa","J.T. Escobar","Noah Horchler","Garrett Sams","Osborn Blount","Wajid Aminu","Trip Day","Ryan Burkhardt","Emmanuel Lambright","Brian Coffey II","Benedikt Haid","Chase Driscoll"],"rows":[]};
+LINEUPS_ADD["North Florida"] = {"players":["Ivan Gandia-Rosa","J.T. Escobar","Noah Horchler","Garrett Sams","Wajid Aminu","Osborn Blount","Trip Day","Ryan Burkhardt","Emmanuel Lambright","Brian Coffey II","Benedikt Haid","Chase Driscoll"],"rows":[]};

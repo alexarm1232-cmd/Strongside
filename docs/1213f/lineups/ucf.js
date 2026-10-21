@@ -1,1 +1,1 @@
-LINEUPS_ADD["UCF"] = {"players":["Keith Clanton","Isaiah Sykes","Tristan Spurlock","Calvin Newell","Kasey Wilson","Daiquan Walker","Matt Williams","Staphon Blair","Rod Days","Dylan Karell","Tyler Coons","Bobby Horodyski","Isaac Lang","Rob King"],"rows":[]};
+LINEUPS_ADD["UCF"] = {"players":["Keith Clanton","Isaiah Sykes","Tristan Spurlock","Calvin Newell","Kasey Wilson","Daiquan Walker","Matt Williams","Staphon Blair","Rod Days","Dylan Karell","Bobby Horodyski","Tyler Coons","Isaac Lang","Rob King"],"rows":[]};

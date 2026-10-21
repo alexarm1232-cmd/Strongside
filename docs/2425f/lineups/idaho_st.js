@@ -1,1 +1,1 @@
-LINEUPS_ADD["Idaho St."] = {"players":["Jake O'Neil","Dylan Darling","Isaiah Griffin","Connor Hollenbeck","Evan Otten","Jackson Greene","AJ Burgin","Blake Daberkow","Quentin Meza","Jaedyn Brown","Joey Madimba","Justin Graham","Covy Kelly"],"rows":[]};
+LINEUPS_ADD["Idaho St."] = {"players":["Jake O'Neil","Dylan Darling","Isaiah Griffin","Connor Hollenbeck","Evan Otten","Jackson Greene","AJ Burgin","Blake Daberkow","Quentin Meza","Jaedyn Brown","Covy Kelly","Joey Madimba","Justin Graham"],"rows":[]};

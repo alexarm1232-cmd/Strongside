@@ -1,1 +1,1 @@
-LINEUPS_ADD["Portland St."] = {"players":["Chehales Tapscott","Charles Odum","Lateef McMullan","Michael Harthun","Nate Lozeau","Renado Parker","Gary Winston","Martin Whitmore","Michael Harvey","Brandon Cataldo","Kidus Ephrem","Jerron Smith","Joel King"],"rows":[]};
+LINEUPS_ADD["Portland St."] = {"players":["Chehales Tapscott","Charles Odum","Lateef McMullan","Michael Harthun","Nate Lozeau","Gary Winston","Renado Parker","Michael Harvey","Martin Whitmore","Brandon Cataldo","Kidus Ephrem","Jerron Smith","Joel King"],"rows":[]};

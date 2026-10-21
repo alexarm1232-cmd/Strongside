@@ -1,1 +1,1 @@
-LINEUPS_ADD["UMBC"] = {"players":["Joe Sherburne","K.J. Jackson","Arkel Lamar","RJ Eytle-Rock","Brandon Horvath","Jose Placer","Ricky Council","Sam Schwietz","Max Curran","Nolan Gerrity","Dan Akin","Josh Rosario","Jack Schwietz","Isaiah Rogers"],"rows":[]};
+LINEUPS_ADD["UMBC"] = {"players":["Joe Sherburne","K.J. Jackson","Arkel Lamar","RJ Eytle-Rock","Brandon Horvath","Jose Placer","Ricky Council","Sam Schwietz","Max Curran","Dan Akin","Nolan Gerrity","Josh Rosario","Jack Schwietz","Isaiah Rogers"],"rows":[]};

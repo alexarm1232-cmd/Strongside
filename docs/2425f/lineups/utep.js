@@ -1,1 +1,1 @@
-LINEUPS_ADD["UTEP"] = {"players":["David Terrell Jr.","Corey Camper Jr.","Otis Frazier III","Devon Barnes","Kevin Kalu","Ahamad Bynum","Elijah Jones","Trey Horton III","Derick Hamilton","Baylor Hebb","KJ Thomas","Babacar Mbengue","DaCannon Wickware","Antwonne Holmes"],"rows":[]};
+LINEUPS_ADD["UTEP"] = {"players":["David Terrell Jr.","Corey Camper Jr.","Otis Frazier III","Devon Barnes","Kevin Kalu","Ahamad Bynum","Trey Horton III","Elijah Jones","Derick Hamilton","Baylor Hebb","KJ Thomas","Babacar Mbengue","Antwonne Holmes","DaCannon Wickware"],"rows":[]};

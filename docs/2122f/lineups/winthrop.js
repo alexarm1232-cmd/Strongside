@@ -1,1 +1,1 @@
-LINEUPS_ADD["Winthrop"] = {"players":["Micheal Anumba","Cory Hightower","Drew Buggs","Patrick Good","Chase Claxton","D.J. Burns Jr.","Kelton Talford","Russell Jones Jr.","Sin'Cere McMahon","Josh Corbin","Jamal King","Nate Buss"],"rows":[]};
+LINEUPS_ADD["Winthrop"] = {"players":["Micheal Anumba","Drew Buggs","Patrick Good","Cory Hightower","Chase Claxton","D.J. Burns Jr.","Russell Jones Jr.","Kelton Talford","Sin'Cere McMahon","Josh Corbin","Jamal King","Nate Buss"],"rows":[]};

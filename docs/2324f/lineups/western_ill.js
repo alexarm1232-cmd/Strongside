@@ -1,1 +1,1 @@
-LINEUPS_ADD["Western Ill."] = {"players":["Ryan Myers","Jesiah West","Quinlan Bennett","Drew Cisse","James Dent Jr.","JJ Kalakon","Tay Knox","KJ Lee","Braden Lamar","Shay Davis","Joe Petrakis","De'Meiko Anderson","Rodrick Payne","Jacksun Hamilton","Dirin Bihiray"],"rows":[]};
+LINEUPS_ADD["Western Ill."] = {"players":["Ryan Myers","Jesiah West","Quinlan Bennett","Drew Cisse","James Dent Jr.","JJ Kalakon","Tay Knox","KJ Lee","Shay Davis","Braden Lamar","Joe Petrakis","De'Meiko Anderson","Rodrick Payne","Jacksun Hamilton","Dirin Bihiray"],"rows":[]};

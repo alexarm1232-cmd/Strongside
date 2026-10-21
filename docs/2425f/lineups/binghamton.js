@@ -1,1 +1,1 @@
-LINEUPS_ADD["Binghamton"] = {"players":["Tymu Chenery","Gavin Walsh","Chris Walker","Wes Peterson","Nehemiah Benson","Ben Callahan-Gold","Evan Ashe","Jayden Lemond","Jackson Benigni","Max Sims","Stephan Snagg","Robby Phillips","Dominic Capriotti"],"rows":[]};
+LINEUPS_ADD["Binghamton"] = {"players":["Tymu Chenery","Gavin Walsh","Chris Walker","Nehemiah Benson","Wes Peterson","Ben Callahan-Gold","Evan Ashe","Jayden Lemond","Jackson Benigni","Max Sims","Stephan Snagg","Robby Phillips","Dominic Capriotti"],"rows":[]};

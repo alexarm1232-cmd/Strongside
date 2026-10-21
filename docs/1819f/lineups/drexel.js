@@ -1,1 +1,1 @@
-LINEUPS_ADD["Drexel"] = {"players":["Camren Wynter","Trevor John","Alihan Demir","James Butler","Troy Harper","Tim Perry, Jr.","Jarvis Doles","Matey Juric","Coletrane Washington","Kurk Lee","Zach Walton","Tadas Kararinas","Sam Green","Kevin Doi","Jesse Reid III","Julian Adams"],"rows":[]};
+LINEUPS_ADD["Drexel"] = {"players":["Camren Wynter","Trevor John","Alihan Demir","James Butler","Troy Harper","Tim Perry, Jr.","Jarvis Doles","Matey Juric","Coletrane Washington","Zach Walton","Kurk Lee","Tadas Kararinas","Kevin Doi","Sam Green","Julian Adams","Jesse Reid III"],"rows":[]};

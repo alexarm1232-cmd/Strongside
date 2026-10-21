@@ -1,1 +1,1 @@
-LINEUPS_ADD["Jacksonville"] = {"players":["Jordan Davis","Kevion Nolan","Tyreese Davis","Mike Marsh","Bryce Workman","Osayi Osifo","Gyasi Powell","Rod Brown","George Pridgett Jr.","Tommy Bruner","Isaiah Broady","Thomas Owen","Carson Brown"],"rows":[]};
+LINEUPS_ADD["Jacksonville"] = {"players":["Jordan Davis","Tyreese Davis","Kevion Nolan","Mike Marsh","Bryce Workman","Osayi Osifo","Gyasi Powell","Rod Brown","George Pridgett Jr.","Tommy Bruner","Isaiah Broady","Thomas Owen","Carson Brown"],"rows":[]};

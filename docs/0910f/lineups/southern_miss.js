@@ -1,1 +1,1 @@
-LINEUPS_ADD["Southern Miss."] = {"players":["Angelo Johnson","R.L. Horton","Gary Flowers","Sai'Quon Stone","Maurice Bolden","Buchi Awaji","Torye Pelham","Josimar Ayarza"],"rows":[[29,[0,7,4,1,3],61.32,57,66,60.73,52,64]]};
+LINEUPS_ADD["Southern Miss."] = {"players":["Angelo Johnson","R.L. Horton","Gary Flowers","Sai'Quon Stone","Maurice Bolden","Buchi Awaji","Torye Pelham","Josimar Ayarza"],"rows":[[33,[0,7,4,1,3],61.32,57,66,60.73,52,64]]};

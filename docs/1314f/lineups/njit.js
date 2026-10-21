@@ -1,1 +1,1 @@
-LINEUPS_ADD["NJIT"] = {"players":["Damon Lynn","Terrence Smith","Ky Howard","Winfield Willis","Tim Coleman","Nigel Sydnor","Daquan Holiday","Odera Nweke","Emmanuel Tselentakis","Jake Duncan","Montana Mayfield","Rob Ukawuba"],"rows":[]};
+LINEUPS_ADD["NJIT"] = {"players":["Damon Lynn","Terrence Smith","Ky Howard","Winfield Willis","Tim Coleman","Daquan Holiday","Nigel Sydnor","Odera Nweke","Emmanuel Tselentakis","Jake Duncan","Montana Mayfield","Rob Ukawuba"],"rows":[]};

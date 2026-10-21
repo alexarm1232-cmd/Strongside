@@ -1,1 +1,1 @@
-LINEUPS_ADD["NJIT"] = {"players":["Tariq Francis","Sebastian Robinson","Ari Fulton","Tim Moore","Jordan Rogers","Levi Lawal","Cameron Piggee","John Kelly","Triston Wennersten","Malachi Arrington","Walt Andrews Jr.","Jake Goldberg","Quentin Duncan","Stefan Jimenez-Vojnic"],"rows":[]};
+LINEUPS_ADD["NJIT"] = {"players":["Sebastian Robinson","Tariq Francis","Ari Fulton","Tim Moore","Jordan Rogers","Levi Lawal","Cameron Piggee","John Kelly","Triston Wennersten","Malachi Arrington","Walt Andrews Jr.","Jake Goldberg","Quentin Duncan","Stefan Jimenez-Vojnic"],"rows":[]};

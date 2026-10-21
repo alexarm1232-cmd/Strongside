@@ -1,1 +1,1 @@
-LINEUPS_ADD["New Hampshire"] = {"players":["Davide Poser","Jack Graham","John Squire","Belal El Shakery","Tyler Bike","KiJan Robinson","R.J. Kennedy","Comeh Emuobor","Giannos Xanthopoulos","Jon O'Neill","Dylan Saunders","Myles Blackley","Nick Sanford","Antoni Siewruk"],"rows":[]};
+LINEUPS_ADD["New Hampshire"] = {"players":["Davide Poser","Jack Graham","John Squire","Belal El Shakery","Tyler Bike","KiJan Robinson","R.J. Kennedy","Comeh Emuobor","Giannos Xanthopoulos","Jon O'Neill","Dylan Saunders","Myles Blackley","Antoni Siewruk","Nick Sanford"],"rows":[]};

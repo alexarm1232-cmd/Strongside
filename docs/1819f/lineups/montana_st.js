@@ -1,1 +1,1 @@
-LINEUPS_ADD["Montana St."] = {"players":["Tyler Hall","Harald Frey","Keljin Blevins","Devin Kirby","Ladan Ricketts","Sam Neumann","Lassi Nikkarinen","Russell Daniels","Zeke Quinlan","Quentin Guliford","Usman Haruna","Maximilian Schuecker"],"rows":[]};
+LINEUPS_ADD["Montana St."] = {"players":["Tyler Hall","Harald Frey","Keljin Blevins","Devin Kirby","Ladan Ricketts","Sam Neumann","Russell Daniels","Lassi Nikkarinen","Zeke Quinlan","Quentin Guliford","Usman Haruna","Maximilian Schuecker"],"rows":[]};

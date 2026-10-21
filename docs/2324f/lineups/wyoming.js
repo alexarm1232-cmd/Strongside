@@ -1,1 +1,1 @@
-LINEUPS_ADD["Wyoming"] = {"players":["Brendan Wenzel","Sam Griffin","Akuel Kot","Mason Walters","Cam Manyawu","Caden Powell","Kobe Newton","Kael Combs","Oleg Kojenets","Kenny Foster","Jacob Theodosiou","Cort Roberson"],"rows":[]};
+LINEUPS_ADD["Wyoming"] = {"players":["Brendan Wenzel","Sam Griffin","Akuel Kot","Cam Manyawu","Mason Walters","Caden Powell","Kobe Newton","Kael Combs","Oleg Kojenets","Kenny Foster","Jacob Theodosiou","Cort Roberson"],"rows":[]};

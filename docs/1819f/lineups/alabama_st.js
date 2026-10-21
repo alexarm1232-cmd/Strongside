@@ -1,1 +1,1 @@
-LINEUPS_ADD["Alabama St."] = {"players":["Jacoby Ross","Reginald Gee","Leon Daniels","Tobi Ewuosho","Fausto Pichardo","Kevin Holston","Branden Johnson","AJ Farrar","Gene Davis","Ed Jones","Austin Rogers","Azariah Seay","Therrell Gosier"],"rows":[]};
+LINEUPS_ADD["Alabama St."] = {"players":["Jacoby Ross","Reginald Gee","Leon Daniels","Tobi Ewuosho","Fausto Pichardo","Kevin Holston","Branden Johnson","AJ Farrar","Austin Rogers","Gene Davis","Ed Jones","Azariah Seay","Therrell Gosier"],"rows":[]};

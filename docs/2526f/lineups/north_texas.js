@@ -1,1 +1,1 @@
-LINEUPS_ADD["North Texas"] = {"players":["David Terrell Jr.","Je'Shawn Stevenson","Dylan Arnett","Cole Franklin","Reece Robinson","Demarion Watson","Buddy Hammer Jr.","Cahmai Crosby","Josiah Shackleford","EJ Horton","Curtis Stinson Jr.","Will McClendon"],"rows":[]};
+LINEUPS_ADD["North Texas"] = {"players":["David Terrell Jr.","Je'Shawn Stevenson","Dylan Arnett","Cole Franklin","Reece Robinson","Demarion Watson","Buddy Hammer Jr.","Cahmai Crosby","EJ Horton","Josiah Shackleford","Curtis Stinson Jr.","Will McClendon"],"rows":[]};

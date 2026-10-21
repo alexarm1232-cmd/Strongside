@@ -1,1 +1,1 @@
-LINEUPS_ADD["Campbell"] = {"players":["Jordan Whitfield","Cedric Henderson Jr.","Ricky Clemons","Messiah Thompson","Joshua Lusane","Gediminas Mokseckas","Austin McCullough","Jesus Carralero Martin","Milos Stajcic","Draylan Burton","PJ Carter","Laurynas Vaistaras","Ethan Lynch"],"rows":[]};
+LINEUPS_ADD["Campbell"] = {"players":["Jordan Whitfield","Cedric Henderson Jr.","Ricky Clemons","Messiah Thompson","Joshua Lusane","Austin McCullough","Gediminas Mokseckas","Jesus Carralero Martin","Milos Stajcic","Draylan Burton","PJ Carter","Laurynas Vaistaras","Ethan Lynch"],"rows":[]};

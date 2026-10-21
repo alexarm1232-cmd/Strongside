@@ -1,1 +1,1 @@
-LINEUPS_ADD["Little Rock"] = {"players":["Rayjon Tucker","Nikola Maric","Markquis Nowell","Jaizec Lottie","Deondre Burns","Kris Bankston","Kamani Johnson","Ryan Pippins","Dani Koljanin","Horace Wyatt","Damir Hadzic","Terrell Curtis II"],"rows":[]};
+LINEUPS_ADD["Little Rock"] = {"players":["Rayjon Tucker","Markquis Nowell","Nikola Maric","Jaizec Lottie","Kris Bankston","Deondre Burns","Kamani Johnson","Ryan Pippins","Dani Koljanin","Horace Wyatt","Damir Hadzic","Terrell Curtis II"],"rows":[]};

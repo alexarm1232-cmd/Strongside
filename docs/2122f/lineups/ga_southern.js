@@ -1,1 +1,1 @@
-LINEUPS_ADD["Ga. Southern"] = {"players":["Kamari Brown","Elijah McCadden","Andrei Savrasov","Gedi Juozapaitis","Kaden Archie","Cam Bryant","Tre Cobbs","Prince Toyambi","Grant Weatherford","Carlos Curry","Derrick Harris Jr.","Mannie Harris"],"rows":[]};
+LINEUPS_ADD["Ga. Southern"] = {"players":["Kamari Brown","Elijah McCadden","Gedi Juozapaitis","Andrei Savrasov","Cam Bryant","Kaden Archie","Tre Cobbs","Prince Toyambi","Grant Weatherford","Carlos Curry","Derrick Harris Jr.","Mannie Harris"],"rows":[]};

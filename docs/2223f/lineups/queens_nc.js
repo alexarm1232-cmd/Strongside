@@ -1,1 +1,1 @@
-LINEUPS_ADD["Queens (NC)"] = {"players":["Kenny Dye","AJ McKee","Kalib Mathews","Jay'Den Turner","BJ McLaurin","Chris Ashby","Quan McCluney","Gavin Rains","Mike Fowler","Elijah Wyche","Trey Hubbard","Logan Threatt"],"rows":[]};
+LINEUPS_ADD["Queens (NC)"] = {"players":["Kenny Dye","AJ McKee","Kalib Mathews","Jay'Den Turner","BJ McLaurin","Chris Ashby","Gavin Rains","Quan McCluney","Mike Fowler","Elijah Wyche","Trey Hubbard","Logan Threatt"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["Radford"] = {"players":["DaQuan Smith","Kenyon Giles","Bryan Antoine","Justin Archer","Chandler Turner","D'Auntray Pierce","Truth Harris","Josiah Harris","Trenton Walters","TJ NeSmith","Kyle Burns","Hunter Castleberry","David Vidor"],"rows":[]};
+LINEUPS_ADD["Radford"] = {"players":["Kenyon Giles","DaQuan Smith","Bryan Antoine","Justin Archer","Chandler Turner","D'Auntray Pierce","Truth Harris","Josiah Harris","Trenton Walters","TJ NeSmith","Kyle Burns","Hunter Castleberry","David Vidor"],"rows":[]};

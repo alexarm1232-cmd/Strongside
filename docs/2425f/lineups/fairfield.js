@@ -1,1 +1,1 @@
-LINEUPS_ADD["Fairfield"] = {"players":["Jamie Bergens","Prophet Johnson","Braden Sparks","Louis Bleechmore","Deon Perry","Peyton Smith","Kyle Jenkins","Isaac Munkadi","Michael Rogan","Birima Seck","Noah Best","Makuei Riek","Matt Curtis"],"rows":[]};
+LINEUPS_ADD["Fairfield"] = {"players":["Jamie Bergens","Prophet Johnson","Louis Bleechmore","Braden Sparks","Deon Perry","Peyton Smith","Kyle Jenkins","Isaac Munkadi","Michael Rogan","Birima Seck","Noah Best","Makuei Riek","Matt Curtis"],"rows":[]};

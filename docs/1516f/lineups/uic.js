@@ -1,1 +1,1 @@
-LINEUPS_ADD["UIC"] = {"players":["Dikembe Dixson","Lance Whitaker","Tai Odiase","Najeal Young","Michael Kolawole","Paris Burns","Jake Wiegand","Gabe Snider","Julian Torres","Markese McGuire","Dominique Matthews","Drew Hackett","Hassan Thomas","Hanschristian Lauer"],"rows":[]};
+LINEUPS_ADD["UIC"] = {"players":["Dikembe Dixson","Lance Whitaker","Tai Odiase","Najeal Young","Michael Kolawole","Paris Burns","Jake Wiegand","Gabe Snider","Julian Torres","Markese McGuire","Dominique Matthews","Drew Hackett","Hassan Thomas","Hans Christian Lauer"],"rows":[]};

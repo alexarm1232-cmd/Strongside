@@ -1,1 +1,1 @@
-LINEUPS_ADD["Utah Tech"] = {"players":["Noa Gonsalves","Tanner Christensen","Jaylen Searles","Beon Riley","Aric Demings","Unisa Turay","Tennessee Rainwater","Caleb Stearman","Angelo Kambala","David Elliott IV","Trey Hall","Stone Hutchings","Kade Madsen","Hamed Olayinka"],"rows":[]};
+LINEUPS_ADD["Utah Tech"] = {"players":["Noa Gonsalves","Tanner Christensen","Jaylen Searles","Beon Riley","Aric Demings","Unisa Turay","Tennessee Rainwater","Caleb Stearman","Angelo Kambala","David Elliott IV","Trey Hall","Stone Hutchings","Hamed Olayinka","Kade Madsen"],"rows":[]};

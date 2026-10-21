@@ -1,1 +1,1 @@
-LINEUPS_ADD["St. Thomas (MN)"] = {"players":["Drake Dobbs","Raheem Anthony","Kendall Blue","Brooks Allen","Parker Bjorklund","Ben Nau","Ahjany Lee","Carter Bjerke","Ryan Dufault","Dom Martinelli","Courtney Brown Jr.","Bennett Kwiecinski"],"rows":[]};
+LINEUPS_ADD["St. Thomas (MN)"] = {"players":["Drake Dobbs","Raheem Anthony","Kendall Blue","Brooks Allen","Parker Bjorklund","Ben Nau","Carter Bjerke","Ahjany Lee","Ryan Dufault","Dom Martinelli","Bennett Kwiecinski","Courtney Brown Jr."],"rows":[]};

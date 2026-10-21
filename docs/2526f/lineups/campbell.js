@@ -1,1 +1,1 @@
-LINEUPS_ADD["Campbell"] = {"players":["D.J. Smith","Cam Gregory","Jeremiah Johnson","Dovydas Butka","Tasos Cook","Muneer Newton","Chris Fields Jr.","Dominykas Butka","Enoch Kalambay","Terren Frank","Broc Bidwell","Daniel Marcellinus","Mutombo Kalambay"],"rows":[]};
+LINEUPS_ADD["Campbell"] = {"players":["D.J. Smith","Cam Gregory","Jeremiah Johnson","Dovydas Butka","Tasos Cook","Muneer Newton","Chris Fields Jr.","Dominykas Butka","Enoch Kalambay","Broc Bidwell","Terren Frank","Daniel Marcellinus","Mutombo Kalambay"],"rows":[]};

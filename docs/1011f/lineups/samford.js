@@ -1,1 +1,1 @@
-LINEUPS_ADD["Samford"] = {"players":["Jeffrey Merritt","Josh Davis","Josh Bedwell","Gregg Wooten","Andy King","Gaby Bermudez","Kaylin Johnson","John Peterson","Drew Windler","Will Cook","Matthew Friday","Levi Barnes"],"rows":[]};
+LINEUPS_ADD["Samford"] = {"players":["Jeffrey Merritt","Josh Davis","Josh Bedwell","Gregg Wooten","Andy King","Gaby Bermudez","Kaylin Johnson","Drew Windler","John Peterson","Will Cook","Matthew Friday","Levi Barnes"],"rows":[]};

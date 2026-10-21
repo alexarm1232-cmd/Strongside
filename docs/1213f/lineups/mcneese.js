@@ -1,1 +1,1 @@
-LINEUPS_ADD["McNeese"] = {"players":["Kevin Hardy","Dontae Cannon","Desharick Guidry","Jeremie Mitchell","Craig McFerrin","Adrian Fields","Austin Lewis","Ledrick Eackles","Jordan Wells","Pete Kpan","Keelan Garrett","Brandon Regis","Shaun Johnson","Josh Jagneaux"],"rows":[]};
+LINEUPS_ADD["McNeese"] = {"players":["Kevin Hardy","Dontae Cannon","Desharick Guidry","Jeremie Mitchell","Craig McFerrin","Adrian Fields","Austin Lewis","Jordan Wells","Ledrick Eackles","Pete Kpan","Brandon Regis","Keelan Garrett","Shaun Johnson","Josh Jagneaux"],"rows":[]};

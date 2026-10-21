@@ -1,1 +1,1 @@
-LINEUPS_ADD["UMES"] = {"players":["Dionte Johnson","Troy Hupstead","Devon Ellis","Elijah Wilson","Chace Davis","Tyler Mack","Toby Nnadozie","Damani Claxton","Israel Yaw","Kelechi Okworogwo","Malang Athian","Victory Naboya","Antwan Wilson"],"rows":[]};
+LINEUPS_ADD["UMES"] = {"players":["Dionte Johnson","Devon Ellis","Troy Hupstead","Chace Davis","Elijah Wilson","Tyler Mack","Toby Nnadozie","Damani Claxton","Israel Yaw","Kelechi Okworogwo","Malang Athian","Victory Naboya","Antwan Wilson"],"rows":[]};

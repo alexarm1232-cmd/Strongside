@@ -1,1 +1,1 @@
-LINEUPS_ADD["East Carolina"] = {"players":["RJ Felton","Jordan Riley","C.J. Walker","Cam Hayes","Jayshayne Woodard","Trevion LaBeaux","Yann Farell","Cyr Malonga","Reid Cason","Julien Soumaoro","Tybo Bailey","Bencao Vungo","Callum Richard","Grant Smith"],"rows":[]};
+LINEUPS_ADD["East Carolina"] = {"players":["RJ Felton","Jordan Riley","C.J. Walker","Cam Hayes","Jayshayne Woodard","Trevion LaBeaux","Yann Farell","Julien Soumaoro","Cyr Malonga","Reid Cason","Tybo Bailey","Bencao Vungo","Callum Richard","Grant Smith"],"rows":[]};

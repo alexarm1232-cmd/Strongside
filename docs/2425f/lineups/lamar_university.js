@@ -1,1 +1,1 @@
-LINEUPS_ADD["Lamar University"] = {"players":["Alexis Marmolejos","Andrew Holifield","Ja'Sean Jackson","Cody Pennebaker","Adam Hamilton","Errol White","Danquez Dawsey","Janko Bulajic","Terrance Dixon Jr.","Jayden Barrs","Brian Knight","Braden East"],"rows":[]};
+LINEUPS_ADD["Lamar University"] = {"players":["Alexis Marmolejos","Ja'Sean Jackson","Andrew Holifield","Cody Pennebaker","Adam Hamilton","Errol White","Danquez Dawsey","Janko Bulajic","Terrance Dixon Jr.","Jayden Barrs","Brian Knight","Braden East"],"rows":[]};

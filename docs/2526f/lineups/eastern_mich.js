@@ -1,1 +1,1 @@
-LINEUPS_ADD["Eastern Mich."] = {"players":["Mohammad Habhab","Addison Patterson","Carlos Hart","Godslove Nwabude","Braelon Green","Gregory Lawson","Jon Sanders","Mak Manciel","Mehki Ellison","Aidan Rubio","John Shanu II","Merritt Alderink","Mbaye N'Diaye","Cooper Smith"],"rows":[]};
+LINEUPS_ADD["Eastern Mich."] = {"players":["Mohammad Habhab","Addison Patterson","Godslove Nwabude","Carlos Hart","Braelon Green","Gregory Lawson","Jon Sanders","Mak Manciel","Mehki Ellison","Aidan Rubio","John Shanu II","Merritt Alderink","Mbaye N'Diaye","Cooper Smith"],"rows":[]};

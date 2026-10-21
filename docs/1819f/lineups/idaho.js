@@ -1,1 +1,1 @@
-LINEUPS_ADD["Idaho"] = {"players":["Trevon Allen","Jared Rodriguez","Cameron Tyson","Scott Blakney","RayQuawndis Mitchell","Geno West","Xavier Smith","Cassius Smits-Francisco","Khadim Samb","Loseni Kamara","Marquell Fraser","Chance Garvin"],"rows":[]};
+LINEUPS_ADD["Idaho"] = {"players":["Trevon Allen","Jared Rodriguez","Cameron Tyson","Scott Blakney","RayQuawndis Mitchell","Geno West","Xavier Smith","Cassius Smits-Francisco","Loseni Kamara","Khadim Samb","Chance Garvin","Marquell Fraser"],"rows":[]};

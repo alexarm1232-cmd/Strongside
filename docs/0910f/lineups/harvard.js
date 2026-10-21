@@ -1,1 +1,1 @@
-LINEUPS_ADD["Harvard"] = {"players":["Jeremy Lin","Christian Webster","Brandyn Curry","Kyle Casey","Oliver McNally","Doug Miller","Keith Wright","Dee Giger","Pat Magnarelli","Max Kenyi"],"rows":[[27,[2,1,0,3,4],67.52,71,93,61.26,68,86]]};
+LINEUPS_ADD["Harvard"] = {"players":["Jeremy Lin","Christian Webster","Brandyn Curry","Kyle Casey","Oliver McNally","Doug Miller","Keith Wright","Dee Giger","Pat Magnarelli","Max Kenyi"],"rows":[[28,[2,1,0,3,4],67.52,71,93,61.26,68,86]]};

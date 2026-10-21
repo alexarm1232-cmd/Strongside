@@ -1,1 +1,1 @@
-LINEUPS_ADD["Bryant"] = {"players":["Sherif Gross-Bullock","Daniel Rivera","Earl Timberlake","Rafael Pinzon","Connor Withers","Tyler Brelsford","Doug Edert","Miles Latimer","Keyshawn Mitchell","Todd Rochelle","John Shannon","Timmy Kiggins","Aaron Davis"],"rows":[]};
+LINEUPS_ADD["Bryant"] = {"players":["Sherif Gross-Bullock","Daniel Rivera","Earl Timberlake","Rafael Pinzon","Connor Withers","Tyler Brelsford","Doug Edert","Miles Latimer","Keyshawn Mitchell","Todd Rochelle","Aaron Davis","John Shannon","Timmy Kiggins"],"rows":[]};

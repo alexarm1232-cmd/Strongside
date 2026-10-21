@@ -1,1 +1,1 @@
-LINEUPS_ADD["Mercer"] = {"players":["Jake Davis","Jah Quinones","David Thomas","Jalyn McCreary","Jalen Cobb","Alex Holt","Caleb Hunter","Robby Carmody","Anthony Benard","Amanze Ngumezi","TJ Grant","Michael Zanoni","Lukas Platauna","Earnest Ofremu"],"rows":[]};
+LINEUPS_ADD["Mercer"] = {"players":["Jake Davis","Jah Quinones","David Thomas","Jalyn McCreary","Jalen Cobb","Caleb Hunter","Alex Holt","Robby Carmody","Anthony Benard","Amanze Ngumezi","TJ Grant","Michael Zanoni","Lukas Platauna","Earnest Ofremu"],"rows":[]};

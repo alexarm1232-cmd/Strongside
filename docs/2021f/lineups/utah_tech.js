@@ -1,1 +1,1 @@
-LINEUPS_ADD["Utah Tech"] = {"players":["Cameron Gooden","Frank Staine","Hunter Schofield","Jacob Nicolds","Dason Youngblood","Isaiah Pope","Andre Mulibea","Jarod Greene","Brock Gilbert","Lleyton Parker","Trevon Allfrey","Emad Elniel","Mikey Frazier","Mark Hatch","Jamar Ergas"],"rows":[]};
+LINEUPS_ADD["Utah Tech"] = {"players":["Cameron Gooden","Frank Staine","Hunter Schofield","Jacob Nicolds","Dason Youngblood","Isaiah Pope","Andre Mulibea","Jarod Greene","Lleyton Parker","Brock Gilbert","Trevon Allfrey","Emad Elniel","Mikey Frazier","Jamar Ergas","Mark Hatch"],"rows":[]};

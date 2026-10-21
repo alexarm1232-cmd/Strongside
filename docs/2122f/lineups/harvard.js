@@ -1,1 +1,1 @@
-LINEUPS_ADD["Harvard"] = {"players":["Noah Kirkwood","Luka Sakota","Kale Catchings","Sam Silverstein","Louis Lesmond","Denham Wojcik","Chris Ledlum","Mason Forbes","Evan Nelson","Idan Tretout","Spencer Freedman","Josh Hemmings","Justice Ajogbor","Tyler Simon","Tommy O'Neil"],"rows":[]};
+LINEUPS_ADD["Harvard"] = {"players":["Noah Kirkwood","Luka Sakota","Kale Catchings","Sam Silverstein","Louis Lesmond","Denham Wojcik","Chris Ledlum","Idan Tretout","Mason Forbes","Evan Nelson","Spencer Freedman","Josh Hemmings","Justice Ajogbor","Tyler Simon","Tommy O'Neil"],"rows":[]};

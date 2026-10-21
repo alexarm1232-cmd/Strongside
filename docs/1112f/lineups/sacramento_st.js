@@ -1,1 +1,1 @@
-LINEUPS_ADD["Sacramento St."] = {"players":["Joe Eberhard","Dylan Garrity","John Dickson","Heath Hoffman","Konner Veteto","Josh McCarver","Jackson Carbajal","Jordan Estrada","Julian Demalleville","Walter Jackson","Kendell Groom","Pete Rakocevic","Magd Owayed"],"rows":[]};
+LINEUPS_ADD["Sacramento St."] = {"players":["Joe Eberhard","Dylan Garrity","John Dickson","Heath Hoffman","Konner Veteto","Josh McCarver","Jordan Estrada","Jackson Carbajal","Walter Jackson","Julian Demalleville","Pete Rakocevic","Kendell Groom","Magd Owayed"],"rows":[]};

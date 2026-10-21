@@ -1,1 +1,1 @@
-LINEUPS_ADD["Long Beach St."] = {"players":["Gabe Levin","Deishuan Booker","Bryan Alberts","KJ Byers","Mason Riggins","Temidayo Yussuf","Edon Maxhuni","Jordan Roberts","Jordan Griffin","Barry Ogalue","L.J. Williams","Javonntie Jackson","Quentin Shropshire","Breamon Richard"],"rows":[]};
+LINEUPS_ADD["Long Beach St."] = {"players":["Gabe Levin","Deishuan Booker","Bryan Alberts","KJ Byers","Edon Maxhuni","Mason Riggins","Temidayo Yussuf","Jordan Roberts","Jordan Griffin","Barry Ogalue","L.J. Williams","Breamon Richard","Javonntie Jackson","Quentin Shropshire"],"rows":[]};

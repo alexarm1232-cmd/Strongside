@@ -1,1 +1,1 @@
-LINEUPS_ADD["Northern Ky."] = {"players":["Sam Vinson","Trey Robinson","Josh Dilling","Keeyan Itejere","LJ Wells","Dan Gherezgher Jr.","Randall Pettus II","Hubertas Pivorius","Paulis Rapolis","Jeramiah Israel","Cesar Tchilombo","Bryce Darbyshire","Jake Evans"],"rows":[]};
+LINEUPS_ADD["Northern Ky."] = {"players":["Sam Vinson","Josh Dilling","Trey Robinson","Keeyan Itejere","LJ Wells","Randall Pettus II","Dan Gherezgher Jr.","Hubertas Pivorius","Paulis Rapolis","Jeramiah Israel","Cesar Tchilombo","Bryce Darbyshire","Jake Evans"],"rows":[]};

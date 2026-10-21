@@ -1,1 +1,1 @@
-LINEUPS_ADD["Liberty"] = {"players":["Kaden Metheny","Kyle Rode","Colin Porter","Zach Cleveland","Joseph Venzant","Brody Peebles","Shiloh Robinson","Gabriel McKay","Ben Southerland","Zander Yates","Bryson Spell","JC Shirer Jr."],"rows":[]};
+LINEUPS_ADD["Liberty"] = {"players":["Kaden Metheny","Colin Porter","Kyle Rode","Zach Cleveland","Joseph Venzant","Brody Peebles","Shiloh Robinson","Gabriel McKay","Ben Southerland","Zander Yates","Bryson Spell","JC Shirer Jr."],"rows":[]};

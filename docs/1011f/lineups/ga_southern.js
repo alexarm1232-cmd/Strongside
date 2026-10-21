@@ -1,1 +1,1 @@
-LINEUPS_ADD["Ga. Southern"] = {"players":["Ben Drayton","Jelani Hewitt","Eric Ferguson","Zuri James","Tr\u00e9 Bussey","Marvin Baynham","Rory Spencer","Cameron Baskerville","Sam Mike","Justin Taylor","Austin Younker"],"rows":[]};
+LINEUPS_ADD["Ga. Southern"] = {"players":["Ben Drayton","Jelani Hewitt","Eric Ferguson","Rory Spencer","Tr\u00e9 Bussey","Zuri James","Marvin Baynham","Cameron Baskerville","Sam Mike","Justin Taylor","Austin Younker"],"rows":[]};

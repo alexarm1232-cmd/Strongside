@@ -1,1 +1,1 @@
-LINEUPS_ADD["UNLV"] = {"players":["Bryce Hamilton","Jordan McCabe","Royce Hamm Jr.","Michael Nuga","Donovan Williams","Justin Webster","Keshon Gilbert","Josh Baker","David Muoka","Victor Iwuakor","Marvin Coleman","Reece Brown","Cameron Burist","Trey Hurlburt"],"rows":[]};
+LINEUPS_ADD["UNLV"] = {"players":["Bryce Hamilton","Jordan McCabe","Royce Hamm Jr.","Michael Nuga","Donovan Williams","Justin Webster","Keshon Gilbert","David Muoka","Josh Baker","Victor Iwuakor","Marvin Coleman","Reece Brown","Cameron Burist","Trey Hurlburt"],"rows":[]};

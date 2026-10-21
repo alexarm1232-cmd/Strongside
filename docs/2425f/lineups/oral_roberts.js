@@ -1,1 +1,1 @@
-LINEUPS_ADD["Oral Roberts"] = {"players":["Issac McBride","Jalen Miller","JoJo Moore","Darius Robinson Jr.","Sam Alajiki","Josh Jones","Jackson Skipper","Luke Gray","Carlos Rosario","Mathok Majok","Braeden Moore","Pablo Navarro"],"rows":[]};
+LINEUPS_ADD["Oral Roberts"] = {"players":["Issac McBride","Jalen Miller","JoJo Moore","Darius Robinson Jr.","Sam Alajiki","Josh Jones","Jackson Skipper","Luke Gray","Carlos Rosario","Mathok Majok","Pablo Navarro","Braeden Moore"],"rows":[]};

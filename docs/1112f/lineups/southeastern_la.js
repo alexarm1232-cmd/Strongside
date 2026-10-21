@@ -1,1 +1,1 @@
-LINEUPS_ADD["Southeastern La."] = {"players":["DeShawn Patterson","Jeremy Campbell","Daron Populist","Roosevelt Johnson","Todd Nelson","Elgin Bailey","Antonnio Benton","Jan Petrovcic","Brandon Fortenberry","Onochie Ochie","Donovan Ross","Quin Cooper","Michael Harrel"],"rows":[]};
+LINEUPS_ADD["Southeastern La."] = {"players":["DeShawn Patterson","Jeremy Campbell","Daron Populist","Roosevelt Johnson","Todd Nelson","Jan Petrovcic","Antonnio Benton","Elgin Bailey","Brandon Fortenberry","Donovan Ross","Quin Cooper","Onochie Ochie","Michael Harrel"],"rows":[]};

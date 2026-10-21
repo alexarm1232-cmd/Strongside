@@ -1,1 +1,1 @@
-LINEUPS_ADD["Nicholls"] = {"players":["Latrell Jones","Caleb Huffman","Marek Nelson","Manny Littles","Pierce Spencer","Lance-Amir Paul","Micah Thomas","Edoardo Del Cadia","Tyrease Terrell","Jalen White","Ryan Maxwell","Mekhi Collins","Quinn Strander"],"rows":[]};
+LINEUPS_ADD["Nicholls"] = {"players":["Latrell Jones","Caleb Huffman","Marek Nelson","Manny Littles","Pierce Spencer","Micah Thomas","Lance-Amir Paul","Edoardo Del Cadia","Tyrease Terrell","Jalen White","Ryan Maxwell","Mekhi Collins","Quinn Strander"],"rows":[]};

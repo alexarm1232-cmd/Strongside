@@ -1,1 +1,1 @@
-LINEUPS_ADD["St. Thomas (MN)"] = {"players":["Riley Miller","Ryan Lindberg","Anders Nelson","Brooks Allen","Burt Hedstrom","Parker Bjorklund","Kevin Cunningham","Ben Nau","Dom Martinelli","Will Engels","Zach Theisen","Bennett Kwiecinski"],"rows":[]};
+LINEUPS_ADD["St. Thomas (MN)"] = {"players":["Ryan Lindberg","Riley Miller","Anders Nelson","Brooks Allen","Burt Hedstrom","Parker Bjorklund","Kevin Cunningham","Ben Nau","Dom Martinelli","Will Engels","Zach Theisen","Bennett Kwiecinski"],"rows":[]};

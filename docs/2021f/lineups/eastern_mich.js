@@ -1,1 +1,1 @@
-LINEUPS_ADD["Eastern Mich."] = {"players":["Ty Groce","Bryce McBride","Yeikson Montero","Darion Spottsville","Noah Morgan","Miles Gibson","Chris James","Drew Lowder","Derek Ballard","Axel Okongo","James Love III","Andrew Wells","Luis Pacheco"],"rows":[]};
+LINEUPS_ADD["Eastern Mich."] = {"players":["Ty Groce","Bryce McBride","Yeikson Montero","Darion Spottsville","Miles Gibson","Noah Morgan","Chris James","Drew Lowder","Derek Ballard","Axel Okongo","James Love III","Andrew Wells","Luis Pacheco"],"rows":[]};

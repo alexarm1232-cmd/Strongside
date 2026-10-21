@@ -1,1 +1,1 @@
-LINEUPS_ADD["UTRGV"] = {"players":["Elijah Elliott","Daylen Williams","C.J. Booker","J.J. Howard","Hasan Abdul-Hakim","Sherman Brashear","Ahren Freeman","Saliou Seye","Isaiah Barganier","Roy Jones III","Alex Horiuk","Deanthony Tipler","C.J. Jackson","Fadi Mougharbel"],"rows":[]};
+LINEUPS_ADD["UTRGV"] = {"players":["Elijah Elliott","Daylen Williams","C.J. Booker","J.J. Howard","Hasan Abdul-Hakim","Sherman Brashear","Ahren Freeman","Saliou Seye","Isaiah Barganier","Roy Jones III","Deanthony Tipler","Alex Horiuk","C.J. Jackson","Fadi Mougharbel"],"rows":[]};

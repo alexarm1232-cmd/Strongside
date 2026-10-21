@@ -1,1 +1,1 @@
-LINEUPS_ADD["Louisiana Tech"] = {"players":["Amorie Archibald","Keaston Willis","Cobe Williams","Kenneth Lofton, Jr.","Exavian Christon","David Green","LaDamien Bradford","Kenny Hunter","Kaleb Stewart","Isaiah Crawford","Stacey Thomas","Terran Williams","Ben Ponder"],"rows":[]};
+LINEUPS_ADD["Louisiana Tech"] = {"players":["Amorie Archibald","Cobe Williams","Keaston Willis","Kenneth Lofton, Jr.","Exavian Christon","David Green","LaDamien Bradford","Kenny Hunter","Kaleb Stewart","Terran Williams","Stacey Thomas","Isaiah Crawford","Ben Ponder"],"rows":[]};

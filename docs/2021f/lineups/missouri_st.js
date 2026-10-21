@@ -1,1 +1,1 @@
-LINEUPS_ADD["Missouri St."] = {"players":["Isiaih Mosley","Ja'Monta Black","Gaige Prim","Demarcus Sharp","Keaton Hervey","Jared Ridder","Lu'cye Patterson","Nic Tata","Darian Scott","Spencer Brown","Raphe Ayres","Dawson Carper","Melvyn Ebonkoli","Skylar Wicks","Elijah Bridgers"],"rows":[]};
+LINEUPS_ADD["Missouri St."] = {"players":["Isiaih Mosley","Ja'Monta Black","Gaige Prim","Demarcus Sharp","Keaton Hervey","Jared Ridder","Lu'cye Patterson","Nic Tata","Darian Scott","Raphe Ayres","Spencer Brown","Skylar Wicks","Melvyn Ebonkoli","Dawson Carper","Elijah Bridgers"],"rows":[]};

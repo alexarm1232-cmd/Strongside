@@ -1,1 +1,1 @@
-LINEUPS_ADD["Cornell"] = {"players":["Matt Morgan","Steve Julian","Stone Gettings","Terrance McBride","Jack Gordon","Joel Davis","Josh Warren","Jimmy Boeheim","Wil Bathurst","Bryan Knapp","Jake Kuhn","Kyle Brown","Jordan Abdur-Ra'oof","Riley Voss","Pat Smith"],"rows":[]};
+LINEUPS_ADD["Cornell"] = {"players":["Matt Morgan","Steve Julian","Stone Gettings","Jack Gordon","Terrance McBride","Joel Davis","Josh Warren","Jimmy Boeheim","Wil Bathurst","Bryan Knapp","Jake Kuhn","Kyle Brown","Jordan Abdur-Ra'oof","Riley Voss","Pat Smith"],"rows":[]};

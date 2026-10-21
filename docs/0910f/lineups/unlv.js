@@ -1,1 +1,1 @@
-LINEUPS_ADD["UNLV"] = {"players":["Tre'Von Willis","Oscar Bellfield","Chace Stanback","Kendall Wallace","Anthony Marshall","Derrick Jasper","Brice Massamba","Matt Shaw","Darris Santee","Justin Hawkins","Steve Jones"],"rows":[[32,[4,2,7,1,0],57.74,66,69,57.74,66,69]]};
+LINEUPS_ADD["UNLV"] = {"players":["Tre'Von Willis","Oscar Bellfield","Chace Stanback","Anthony Marshall","Kendall Wallace","Derrick Jasper","Brice Massamba","Matt Shaw","Darris Santee","Justin Hawkins","Steve Jones"],"rows":[[33,[3,2,7,1,0],57.74,66,69,57.74,66,69]]};

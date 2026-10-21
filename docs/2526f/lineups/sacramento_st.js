@@ -1,1 +1,1 @@
-LINEUPS_ADD["Sacramento St."] = {"players":["Prophet Johnson","Mark Lavrenov","Jahni Summers","Mikey Williams","Arman Madi","Shaqir O'Neal","Taj Glover","Jayden Teat","Romari Robinson","Brandon Gardner","Jeremiah Cherry","Jeremiah Nyarko","Isaiah Bronson"],"rows":[]};
+LINEUPS_ADD["Sacramento St."] = {"players":["Prophet Johnson","Mark Lavrenov","Jahni Summers","Mikey Williams","Arman Madi","Shaqir O'Neal","Jayden Teat","Taj Glover","Romari Robinson","Brandon Gardner","Jeremiah Cherry","Jeremiah Nyarko","Isaiah Bronson"],"rows":[]};

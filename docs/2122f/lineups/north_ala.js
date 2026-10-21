@@ -1,1 +1,1 @@
-LINEUPS_ADD["North Ala."] = {"players":["C.J. Brim","Daniel Ortiz","Jamari Blackmon","Detalian Brown","Isaac Chatman","Will Soucie","Damian Forrest","Dallas Howell","Pape Momar Cisse","Payton Youngblood","Aleksa Matic","Omar Figueroa","Deraje Agbaosi","Sawyer Wright"],"rows":[]};
+LINEUPS_ADD["North Ala."] = {"players":["C.J. Brim","Daniel Ortiz","Jamari Blackmon","Detalian Brown","Isaac Chatman","Will Soucie","Damian Forrest","Dallas Howell","Pape Momar Cisse","Payton Youngblood","Omar Figueroa","Aleksa Matic","Deraje Agbaosi","Sawyer Wright"],"rows":[]};

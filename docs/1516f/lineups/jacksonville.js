@@ -1,1 +1,1 @@
-LINEUPS_ADD["Jacksonville"] = {"players":["Kori Babineaux","Marcel White","J.R. Holder","Darien Fernandez","Josh Adeyeye","Antwon Clayton","Darius Dawkins","Omar El Manasterly","Demontrez Austin","Cartree Pettis","Marcellous Bell","Shea Jones"],"rows":[]};
+LINEUPS_ADD["Jacksonville"] = {"players":["Kori Babineaux","Marcel White","Darien Fernandez","J.R. Holder","Josh Adeyeye","Antwon Clayton","Darius Dawkins","Omar El Manasterly","Demontrez Austin","Cartree Pettis","Marcellous Bell","Shea Jones"],"rows":[]};

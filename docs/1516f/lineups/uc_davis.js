@@ -1,1 +1,1 @@
-LINEUPS_ADD["UC Davis"] = {"players":["Darius Graham","Brynton Lemar","Josh Fox","Siler Schneider","Neal Monson","Lawrence White","Garrison Goode","Rogers Printup","Nolan Berry","Georgi Funtarov","Michael Onyebalu"],"rows":[]};
+LINEUPS_ADD["UC Davis"] = {"players":["Darius Graham","Brynton Lemar","Siler Schneider","Josh Fox","Neal Monson","Lawrence White","Garrison Goode","Rogers Printup","Nolan Berry","Georgi Funtarov","Michael Onyebalu"],"rows":[]};

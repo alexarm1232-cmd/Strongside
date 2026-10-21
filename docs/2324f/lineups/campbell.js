@@ -1,1 +1,1 @@
-LINEUPS_ADD["Campbell"] = {"players":["Anthony Dell'Orso","Jasin Sinani","Gediminas Mokseckas","Laurynas Vaistaras","Elijah Walsh","Alex Kotov","Tasos Cook","Colby Duggan","Mason Grant","Omar Harris","Broc Bidwell","Sam Perez"],"rows":[]};
+LINEUPS_ADD["Campbell"] = {"players":["Anthony Dell'Orso","Jasin Sinani","Gediminas Mokseckas","Laurynas Vaistaras","Elijah Walsh","Tasos Cook","Alex Kotov","Colby Duggan","Mason Grant","Broc Bidwell","Omar Harris","Sam Perez"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["Tennessee St."] = {"players":["Jr. Clay","Marcus Fitzgerald Jr.","Dedric Boyd","Zion Griffin","Adong Makuoi","Justin Williams","Zool Kueth","David Acosta","Christian Brown","Ethan Riggs Abner","Tajik Bartholomew","Emmanuel Dowuona","Jaylen Anglin"],"rows":[]};
+LINEUPS_ADD["Tennessee St."] = {"players":["Jr. Clay","Marcus Fitzgerald Jr.","Dedric Boyd","Adong Makuoi","Justin Williams","Zion Griffin","Zool Kueth","David Acosta","Christian Brown","Ethan Riggs Abner","Tajik Bartholomew","Emmanuel Dowuona","Jaylen Anglin"],"rows":[]};

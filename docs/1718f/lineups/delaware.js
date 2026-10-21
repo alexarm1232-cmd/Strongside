@@ -1,1 +1,1 @@
-LINEUPS_ADD["Delaware"] = {"players":["Ryan Allen","Ryan Daly","Anthony Mosley","Darian Bryant","Eric Carter","Chryee Walker","Skye Johnson","Jacob Cushing","Kevin Anderson","Derrick Woods","Connor Rufo","Curtis Lochner"],"rows":[]};
+LINEUPS_ADD["Delaware"] = {"players":["Ryan Allen","Ryan Daly","Anthony Mosley","Darian Bryant","Eric Carter","Chryee Walker","Kevin Anderson","Jacob Cushing","Skye Johnson","Derrick Woods","Connor Rufo","Curtis Lochner"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["Stetson"] = {"players":["Wheza Panzo","Jalen Blackmon","Stephan Swenson","Luke Brown","Josh Smith","Sam Peek","Alec Oglesby","Mahamadou Diawara","Cyncier Harrison","Aubin Gateretse","Alvin Tumblin","GianCarlo Valdez"],"rows":[[28,[6,1,7,2,0],82.41,83,87,82.41,83,87]]};
+LINEUPS_ADD["Stetson"] = {"players":["Wheza Panzo","Jalen Blackmon","Stephan Swenson","Luke Brown","Josh Smith","Alec Oglesby","Sam Peek","Mahamadou Diawara","Cyncier Harrison","Aubin Gateretse","Alvin Tumblin","GianCarlo Valdez"],"rows":[[30,[5,1,7,2,0],82.41,83,87,82.41,83,87]]};

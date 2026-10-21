@@ -1,1 +1,1 @@
-LINEUPS_ADD["SFA"] = {"players":["Antonio Bostic","Desmond Haymon","Jereal Scott","Jonathan King","Taylor Smith","Hal Bateman","Jacob Parker","Joe Bright","Micah Delph","Kevin Broussard","Darius Gardner"],"rows":[]};
+LINEUPS_ADD["SFA"] = {"players":["Antonio Bostic","Desmond Haymon","Jereal Scott","Jonathan King","Taylor Smith","Hal Bateman","Jacob Parker","Joe Bright","Kevin Broussard","Micah Delph","Darius Gardner"],"rows":[]};

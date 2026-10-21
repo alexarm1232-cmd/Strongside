@@ -1,1 +1,1 @@
-LINEUPS_ADD["UNLV"] = {"players":["Elijah Harkless","Keshon Gilbert","Justin Webster","Luis Rodriguez","David Muoka","Victor Iwuakor","Jordan McCabe","Elijah Parquet","Jackie Johnson III","Shane Nowell","Keyshawn Hall","Cameron Burist","Karl Jones","Nick Walters"],"rows":[]};
+LINEUPS_ADD["UNLV"] = {"players":["Elijah Harkless","Keshon Gilbert","Justin Webster","Luis Rodriguez","David Muoka","Victor Iwuakor","Jordan McCabe","Elijah Parquet","Jackie Johnson III","Shane Nowell","Keyshawn Hall","Karl Jones","Cameron Burist","Nick Walters"],"rows":[]};

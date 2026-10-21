@@ -1,1 +1,1 @@
-LINEUPS_ADD["Utah Valley"] = {"players":["Jaden Jackson","Marcel Davis","Konner Frey","Ivory Young","Hayden Schenck","Dayon Goodman","Andrew Bastien","Cory Cardwell","Darrious Hamilton","Alex Carr","Hayes Garrity","Tyler Ott","Telly Davenport","Josh Pollard"],"rows":[]};
+LINEUPS_ADD["Utah Valley"] = {"players":["Jaden Jackson","Marcel Davis","Konner Frey","Ivory Young","Hayden Schenck","Dayon Goodman","Andrew Bastien","Cory Cardwell","Alex Carr","Darrious Hamilton","Telly Davenport","Tyler Ott","Hayes Garrity","Josh Pollard"],"rows":[]};

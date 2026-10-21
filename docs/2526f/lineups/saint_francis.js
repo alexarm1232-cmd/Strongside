@@ -1,1 +1,1 @@
-LINEUPS_ADD["Saint Francis"] = {"players":["Skylar Wicks","Zion Russell","Ahmad Harrison","Gestin Liberis","Victor Payne","Chris Moncrief","Cameron Tweedy","Ralph Martino Jr.","Brandon Russell","Paris Papadatos","KJ Swain","Trey Weiand","Melvin Weaver III"],"rows":[]};
+LINEUPS_ADD["Saint Francis"] = {"players":["Skylar Wicks","Zion Russell","Ahmad Harrison","Gestin Liberis","Victor Payne","Chris Moncrief","Ralph Martino Jr.","Cameron Tweedy","Brandon Russell","Paris Papadatos","KJ Swain","Trey Weiand","Melvin Weaver III"],"rows":[]};

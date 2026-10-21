@@ -1,1 +1,1 @@
-LINEUPS_ADD["McNeese"] = {"players":["Jamaya Burr","Jarren Greenwood","Stephen Ugochukwu","Kalob Ledoux","James Harvey","Lance Potier","Labarrius Hill","Adrian Brown","Richard Laku","Jacob Ledoux","Howard Thomas"],"rows":[]};
+LINEUPS_ADD["McNeese"] = {"players":["Jamaya Burr","Jarren Greenwood","Stephen Ugochukwu","James Harvey","Kalob Ledoux","Lance Potier","Labarrius Hill","Adrian Brown","Richard Laku","Jacob Ledoux","Howard Thomas"],"rows":[]};

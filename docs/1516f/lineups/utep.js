@@ -1,1 +1,1 @@
-LINEUPS_ADD["UTEP"] = {"players":["Dominic Artis","Lee Moore","Earvin Morris","Omega Harris","Terry Winn III","Hooper Vint","Jake Flaggert","Tevin Caldwell","Trey Touchet","Paul Thomas","Brodricks Jones","Christian Romine","Ivan Venegas","Matt Willms","Victor Mbachu"],"rows":[]};
+LINEUPS_ADD["UTEP"] = {"players":["Dominic Artis","Lee Moore","Earvin Morris","Omega Harris","Terry Winn III","Hooper Vint","Jake Flaggert","Tevin Caldwell","Trey Touchet","Paul Thomas","Brodricks Jones","Christian Romine","Matt Willms","Ivan Venegas","Victor Mbachu"],"rows":[]};

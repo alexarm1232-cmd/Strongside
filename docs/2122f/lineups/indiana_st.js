@@ -1,1 +1,1 @@
-LINEUPS_ADD["Indiana St."] = {"players":["Cooper Neese","Julian Larry","Cameron Henry","Kailex Stephens","Micah Thomas","Xavier Bledson","Zach Hobbs","Simon Wilbar","Cameron Crawford","Dearon Tucker","Nick Hittle","Quimari Peterson","Sam Mervis"],"rows":[]};
+LINEUPS_ADD["Indiana St."] = {"players":["Cooper Neese","Julian Larry","Cameron Henry","Kailex Stephens","Micah Thomas","Xavier Bledson","Zach Hobbs","Simon Wilbar","Cameron Crawford","Dearon Tucker","Nick Hittle","Sam Mervis","Quimari Peterson"],"rows":[]};

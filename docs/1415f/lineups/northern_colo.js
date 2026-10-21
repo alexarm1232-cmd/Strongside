@@ -1,1 +1,1 @@
-LINEUPS_ADD["Northern Colo."] = {"players":["Tevin Svihovec","Cameron Michael","Dominique Lee","Jordan Wilson","Tim Huskisson","Corey Spence","Cody McDavis","Jeremy Verhagen","Anthony Johnson","Jon'Te Dotson","Dwight Smith","Spencer Mathis","Drew Bender"],"rows":[]};
+LINEUPS_ADD["Northern Colo."] = {"players":["Tevin Svihovec","Cameron Michael","Jordan Wilson","Dominique Lee","Corey Spence","Tim Huskisson","Cody McDavis","Jeremy Verhagen","Anthony Johnson","Dwight Smith","Jon'Te Dotson","Spencer Mathis","Drew Bender"],"rows":[]};

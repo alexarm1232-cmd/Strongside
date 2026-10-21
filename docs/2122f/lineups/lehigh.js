@@ -1,1 +1,1 @@
-LINEUPS_ADD["Lehigh"] = {"players":["Evan Taylor","Jeameril Wilson","Keith Higgins Jr.","Nic Lynch","Tyler Whitney-Sidney","Marques Wilson","Dominic Parolin","Reed Fenton","Ben Knostman","Jake Betlow","Jakob Alamudun","JT Tan","Burke Chebuhar","Jayshen Saigal"],"rows":[]};
+LINEUPS_ADD["Lehigh"] = {"players":["Evan Taylor","Jeameril Wilson","Keith Higgins Jr.","Nic Lynch","Tyler Whitney-Sidney","Dominic Parolin","Marques Wilson","Reed Fenton","Ben Knostman","Jake Betlow","Jakob Alamudun","JT Tan","Burke Chebuhar","Jayshen Saigal"],"rows":[]};

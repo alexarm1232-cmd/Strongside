@@ -1,1 +1,1 @@
-LINEUPS_ADD["Grambling"] = {"players":["Tra'Michael Moton","Shawndarius Cowart","Cameron Christon","Prince Moss","AJ Taylor","Terreon Randolph","Eric Parrish","Danya Kingsby","Zahad Munford","A'mari McCray","Malik Lamin","Chanse Robinson","Quintin Murrell","Tyson Duncan"],"rows":[]};
+LINEUPS_ADD["Grambling"] = {"players":["Tra'Michael Moton","Cameron Christon","Shawndarius Cowart","Prince Moss","AJ Taylor","Terreon Randolph","Danya Kingsby","Eric Parrish","Zahad Munford","Malik Lamin","A'mari McCray","Quintin Murrell","Chanse Robinson","Tyson Duncan"],"rows":[]};

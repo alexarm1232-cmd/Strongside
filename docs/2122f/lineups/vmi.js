@@ -1,1 +1,1 @@
-LINEUPS_ADD["VMI"] = {"players":["Kamdyn Curfman","Jake Stephens","Honor Huff","Sean Conway","Trey Bonham","Tanner Mans","Brennan Watkins","Louis Tang","Lewis Rowe","Connor Arnold","Cooper Sisco","DJ Nussbaum","Sam Wolfe","KC Etienne"],"rows":[[28,[2,1,0,3,4],76.65,78,93,73.48,72,89]]};
+LINEUPS_ADD["VMI"] = {"players":["Kamdyn Curfman","Jake Stephens","Honor Huff","Sean Conway","Trey Bonham","Tanner Mans","Brennan Watkins","Louis Tang","Lewis Rowe","Connor Arnold","Cooper Sisco","DJ Nussbaum","Sam Wolfe","KC Etienne"],"rows":[[31,[2,1,0,3,4],76.65,78,93,73.48,72,89]]};

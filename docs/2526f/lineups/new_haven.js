@@ -1,1 +1,1 @@
-LINEUPS_ADD["New Haven"] = {"players":["Jabri Fitzpatrick","Najimi George","Andre Pasha","Stefano Faloppa","Kheni Briggs","Maison Adeleye","Teshaun Steele","Aidan Losiewicz","Vere Anthony","Zoumana Traore","Kyle Kearson","Tristan Burth","Dior Kennedy"],"rows":[]};
+LINEUPS_ADD["New Haven"] = {"players":["Jabri Fitzpatrick","Najimi George","Andre Pasha","Stefano Faloppa","Kheni Briggs","Maison Adeleye","Teshaun Steele","Vere Anthony","Zoumana Traore","Aidan Losiewicz","Tristan Burth","Kyle Kearson","Dior Kennedy"],"rows":[]};

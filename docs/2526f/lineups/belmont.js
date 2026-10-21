@@ -1,1 +1,1 @@
-LINEUPS_ADD["Belmont"] = {"players":["Tyler Lundblade","Jabez Jenkins","Sam Orme","Drew Scharnowski","Brigham Rogers","Jack Smiley","Isaiah West","Eoin Dillon","Nic McClain","Win Miller","Aidan Noyes","Cooper Haynes","Jake Dykstra","Keith Robbins","Graydon Lemke"],"rows":[]};
+LINEUPS_ADD["Belmont"] = {"players":["Tyler Lundblade","Jabez Jenkins","Sam Orme","Drew Scharnowski","Brigham Rogers","Isaiah West","Jack Smiley","Eoin Dillon","Nic McClain","Win Miller","Aidan Noyes","Cooper Haynes","Jake Dykstra","Keith Robbins","Graydon Lemke"],"rows":[]};

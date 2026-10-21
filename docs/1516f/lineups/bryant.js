@@ -1,1 +1,1 @@
-LINEUPS_ADD["Bryant"] = {"players":["Shane McLaughlin","Marcel Pettway","Hunter Ware","Nisr\u00e9 Zouzoua","Dan Garvin","Curtis Oakley","Gus Riley","Bosko Kostur","Justin Brickman","Andrew Scocca","Dennis Levene","Taylor McHugh","Zach Chionuma","Terrill Toe"],"rows":[]};
+LINEUPS_ADD["Bryant"] = {"players":["Shane McLaughlin","Hunter Ware","Marcel Pettway","Nisr\u00e9 Zouzoua","Dan Garvin","Curtis Oakley","Bosko Kostur","Gus Riley","Justin Brickman","Andrew Scocca","Dennis Levene","Taylor McHugh","Zach Chionuma","Terrill Toe"],"rows":[]};

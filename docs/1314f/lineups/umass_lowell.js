@@ -1,1 +1,1 @@
-LINEUPS_ADD["UMass Lowell"] = {"players":["Akeem Williams","Chad Holley","DJ Mlachnik","Tyler Livingston","Kerry Weldon","Mark Cornelius","Antonio Bivins","Parris Massey","Kennedy Chukwuocha","Carlos Taylor","James McDonnell","Michael Gelineau"],"rows":[]};
+LINEUPS_ADD["UMass Lowell"] = {"players":["Akeem Williams","Chad Holley","DJ Mlachnik","Tyler Livingston","Kerry Weldon","Mark Cornelius","Antonio Bivins","Parris Massey","Kennedy Chukwuocha","Carlos Taylor","James McDonnell","Mike Gelineau"],"rows":[]};

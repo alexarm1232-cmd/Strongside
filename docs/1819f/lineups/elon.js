@@ -1,1 +1,1 @@
-LINEUPS_ADD["Elon"] = {"players":["Tyler Seibring","Steven Santa Ana","Nathan Priddy","Sheldon Eberhardt","Kris Wooten","Chuck Hannah","Federico Poser","Andy Pack","Simon Wright","Seth Fuller","Karolis Kundrotas","Dainan Swoope","Duje Radja","Christian Scott"],"rows":[]};
+LINEUPS_ADD["Elon"] = {"players":["Tyler Seibring","Steven Santa Ana","Sheldon Eberhardt","Nathan Priddy","Kris Wooten","Chuck Hannah","Federico Poser","Andy Pack","Simon Wright","Seth Fuller","Karolis Kundrotas","Dainan Swoope","Duje Radja","Christian Scott"],"rows":[]};

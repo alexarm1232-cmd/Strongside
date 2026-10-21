@@ -1,1 +1,1 @@
-LINEUPS_ADD["Lafayette"] = {"players":["Caleb Williams","Andrew Phillips","Justin Vander Baan","Alex Chaikin","Mark Butler","Ryan Pettit","Luka Savicevic","Mike Bednostin","Malik Rasul","T.J. Berger","Devin Hines","Joshua Wyche","Chris Rubayo","Folabomi Fayemi"],"rows":[]};
+LINEUPS_ADD["Lafayette"] = {"players":["Caleb Williams","Andrew Phillips","Alex Chaikin","Justin Vander Baan","Mark Butler","Ryan Pettit","Luka Savicevic","Mike Bednostin","Malik Rasul","T.J. Berger","Devin Hines","Joshua Wyche","Folabomi Fayemi","Chris Rubayo"],"rows":[]};

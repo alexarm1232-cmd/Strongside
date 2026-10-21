@@ -1,1 +1,1 @@
-LINEUPS_ADD["SFA"] = {"players":["Cameron Johnson","Roti Ware","Gavin Kensmil","David Kachelries","Calvin Solomon","Nigel Hawkins","Charlie Daniels","Nana Antwi-Boasiako","Deandre Heckard","Kharee McDaniel","Demiere Brown","Russell Hyman","Elijah Elliott"],"rows":[]};
+LINEUPS_ADD["SFA"] = {"players":["Cameron Johnson","Roti Ware","Gavin Kensmil","David Kachelries","Calvin Solomon","Nigel Hawkins","Charlie Daniels","Nana Antwi-Boasiako","Deandre Heckard","Kharee McDaniel","Demiere Brown","Elijah Elliott","Russell Hyman"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["Loyola Chicago"] = {"players":["Ben Averkamp","Denzel Brito","Joe Crisman","Christian Thomas","Chim Kadima","Walt Gibler","Jordan Hicks","London Dokubo","John Benkoske","Jonathon Gac","Bill Clark","Derrick Boone","Adam Cooper"],"rows":[]};
+LINEUPS_ADD["Loyola Chicago"] = {"players":["Ben Averkamp","Denzel Brito","Joe Crisman","Christian Thomas","Chim Kadima","Walt Gibler","Jordan Hicks","John Benkoske","London Dokubo","Jonathon Gac","Bill Clark","Derrick Boone","Adam Cooper"],"rows":[]};

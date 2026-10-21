@@ -1,1 +1,1 @@
-LINEUPS_ADD["Texas St."] = {"players":["Joshua O'Garro","Kaden Gumbs","Tylan Pope","Tyrel Morgan","Christian Turner","Drue Drinnon","Dylan Dawson","Coleton Benson","Austin Green","Mark Drone","Nate Deer","Bessanty Saragba","Jaylen Jones"],"rows":[]};
+LINEUPS_ADD["Texas St."] = {"players":["Joshua O'Garro","Kaden Gumbs","Tylan Pope","Tyrel Morgan","Christian Turner","Drue Drinnon","Dylan Dawson","Coleton Benson","Austin Green","Mark Drone","Bessanty Saragba","Nate Deer","Jaylen Jones"],"rows":[]};

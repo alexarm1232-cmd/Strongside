@@ -1,1 +1,1 @@
-LINEUPS_ADD["William & Mary"] = {"players":["Anders Nelson","Chris Mullins","Ben Wight","Gabe Dorsey","Matteus Case","Noah Collier","Jack Karasinski","Miguel Ayesa","Chase Lowe","Tyler Rice","Jake Milkereit","Charlie Williams","Miles Hicks"],"rows":[]};
+LINEUPS_ADD["William & Mary"] = {"players":["Anders Nelson","Chris Mullins","Ben Wight","Gabe Dorsey","Matteus Case","Noah Collier","Jack Karasinski","Chase Lowe","Miguel Ayesa","Tyler Rice","Jake Milkereit","Charlie Williams","Miles Hicks"],"rows":[]};

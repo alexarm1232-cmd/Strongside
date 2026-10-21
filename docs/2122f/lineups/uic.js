@@ -1,1 +1,1 @@
-LINEUPS_ADD["UIC"] = {"players":["Kevin Johnson","Damaria Franklin","Zion Griffin","Jamie Ahale","Jalen Warren","Michael Diggins","Filip Skobalj","Jace Carter","Brandon Battle","Jalen Johnson","Marcus Larsson","Griffin Yaklich","Brad Bowditch"],"rows":[]};
+LINEUPS_ADD["UIC"] = {"players":["Kevin Johnson","Damaria Franklin","Zion Griffin","Jamie Ahale","Jalen Warren","Michael Diggins","Filip Skobalj","Jace Carter","Brandon Battle","Jalen Johnson","Griffin Yaklich","Marcus Larsson","Brad Bowditch"],"rows":[]};

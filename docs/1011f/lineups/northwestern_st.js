@@ -1,1 +1,1 @@
-LINEUPS_ADD["Northwestern St."] = {"players":["William Mosley","Devon Baker","Will Pratt","Shamir Davis","Louis Ellis","James Hulbin","Patrick Robinson","Logan McConathy","Gary Stewart","Dominic Knight","O.J. Evans","Tyler Washington","Charles Clark"],"rows":[]};
+LINEUPS_ADD["Northwestern St."] = {"players":["William Mosley","Devon Baker","Will Pratt","Shamir Davis","Louis Ellis","James Hulbin","Logan McConathy","Patrick Robinson","Gary Stewart","Dominic Knight","O.J. Evans","Tyler Washington","Charles Clark"],"rows":[]};

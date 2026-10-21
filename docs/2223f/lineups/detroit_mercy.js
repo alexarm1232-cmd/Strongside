@@ -1,1 +1,1 @@
-LINEUPS_ADD["Detroit Mercy"] = {"players":["Antoine Davis","Damezi Anderson","TJ Moss","A.J. Oliver","Gerald Liddell","Kyle LeGreair","Jayden Stone","Arashma Parks","Isaiah Jones","Jordan Phillips","Buay Koka","Marcus Tankersley","Jamail Pink","Tobin Schwannecke"],"rows":[]};
+LINEUPS_ADD["Detroit Mercy"] = {"players":["Antoine Davis","Damezi Anderson","TJ Moss","A.J. Oliver","Gerald Liddell","Kyle LeGreair","Jayden Stone","Jordan Phillips","Arashma Parks","Isaiah Jones","Buay Koka","Marcus Tankersley","Jamail Pink","Tobin Schwannecke"],"rows":[]};

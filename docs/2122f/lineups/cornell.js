@@ -1,1 +1,1 @@
-LINEUPS_ADD["Cornell"] = {"players":["Keller Boothby","Dean Noll","Sarju Patel","Kobe Dickson","Chris Manon","Jordan Jones","Nazir Williams","Greg Dolan","Sean Hansen","Marcus Filien","Guy Ragland Jr.","Isaiah Gray","Max Samberg","Evan Williams","Darius Ervin","Chris Cain"],"rows":[]};
+LINEUPS_ADD["Cornell"] = {"players":["Keller Boothby","Sarju Patel","Dean Noll","Kobe Dickson","Chris Manon","Nazir Williams","Jordan Jones","Greg Dolan","Sean Hansen","Isaiah Gray","Marcus Filien","Guy Ragland Jr.","Max Samberg","Darius Ervin","Evan Williams","Chris Cain"],"rows":[]};

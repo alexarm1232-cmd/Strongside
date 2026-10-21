@@ -1,1 +1,1 @@
-LINEUPS_ADD["Drexel"] = {"players":["Kobe MaGee","Cole Hargrove","Yame Butler","Jason Drake","Shane Blakeney","Victor Panov","Villiam Garcia Adsten","Kevon Vanderhorst","Clem Edomwonyin","Horace Simmons","Josh Reed","Ralph Akuta"],"rows":[]};
+LINEUPS_ADD["Drexel"] = {"players":["Kobe MaGee","Cole Hargrove","Yame Butler","Jason Drake","Shane Blakeney","Victor Panov","Villiam Garcia Adsten","Kevon Vanderhorst","Clem Edomwonyin","Josh Reed","Horace Simmons","Ralph Akuta"],"rows":[]};

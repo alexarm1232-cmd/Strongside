@@ -1,1 +1,1 @@
-LINEUPS_ADD["Stetson"] = {"players":["Divine Myles","Angel Rivera","Luke Doyle","B.J. Glasford","Abayomi Iyiola","Larry Dennis","Christiaan Jones","Leo Goodman","Kenny Aninye","Keith Matthews","Adam Webb","Raine McKeython","Brady Moses","Matthew Cioce"],"rows":[]};
+LINEUPS_ADD["Stetson"] = {"players":["Divine Myles","Angel Rivera","Luke Doyle","B.J. Glasford","Abayomi Iyiola","Larry Dennis","Christiaan Jones","Kenny Aninye","Leo Goodman","Keith Matthews","Adam Webb","Raine McKeython","Brady Moses","Matthew Cioce"],"rows":[]};

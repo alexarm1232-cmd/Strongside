@@ -1,1 +1,1 @@
-LINEUPS_ADD["Eastern Mich."] = {"players":["Darrell Lampley","Jamell Harris","Antonio Green","J.R. Sims","Matt Balkema","Derek Thompson","Anthony Strickland","Quintin Dailey","Da'Shonte Riley","Austin Harper","Kamil Janton","Chandler Antoine","Glenn Bryant"],"rows":[]};
+LINEUPS_ADD["Eastern Mich."] = {"players":["Darrell Lampley","Jamell Harris","Antonio Green","J.R. Sims","Matt Balkema","Anthony Strickland","Derek Thompson","Quintin Dailey","Da'Shonte Riley","Austin Harper","Kamil Janton","Chandler Antoine","Glenn Bryant"],"rows":[]};

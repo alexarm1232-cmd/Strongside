@@ -1,1 +1,1 @@
-LINEUPS_ADD["Ball St."] = {"players":["Randy Davis","Jarrod Jones","Jauwan Scaife","Malik Perry","Jesse Berry","Chris Bond","Tyrae Robinson","Pierre Sneed","Matt Kamieniecki","Maurice Hubbard","Jay Copeland","Zach Fields","Adrian Tucker","John Green"],"rows":[]};
+LINEUPS_ADD["Ball St."] = {"players":["Randy Davis","Jarrod Jones","Jauwan Scaife","Malik Perry","Jesse Berry","Chris Bond","Tyrae Robinson","Pierre Sneed","Matt Kamieniecki","Maurice Hubbard","Zach Fields","Jay Copeland","Adrian Tucker","John Green"],"rows":[]};

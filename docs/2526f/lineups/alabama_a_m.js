@@ -1,1 +1,1 @@
-LINEUPS_ADD["Alabama A&M"] = {"players":["Kintavious Dozier","Koron Davis","Sami Pissis","P.J. Eason","James Graham","Louis Hutchinson III","Gabe Kincy","Bilal Abdur-Rahman","James Flippin","Angok Anyang","Samuel Onu","Jalen Carruth","Tajden Davis","Peyton Daniels"],"rows":[]};
+LINEUPS_ADD["Alabama A&M"] = {"players":["Kintavious Dozier","Koron Davis","Sami Pissis","P.J. Eason","James Graham","Louis Hutchinson III","Gabe Kincy","Bilal Abdur-Rahman","James Flippin","Angok Anyang","Jalen Carruth","Samuel Onu","Tajden Davis","Peyton Daniels"],"rows":[]};

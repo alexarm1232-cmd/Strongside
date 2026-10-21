@@ -1,1 +1,1 @@
-LINEUPS_ADD["Drexel"] = {"players":["Kurk Lee","Sammy Mojica","Rodney Williams","Kari Jonsson","Austin Williams","Miles Overton","John Moran","Mohamed Bah","Tyshawn Myles","Major Canady","Jeremy Peck","Sam Green","Elgin Ford","Andrew Cartwright","Kris Alford"],"rows":[]};
+LINEUPS_ADD["Drexel"] = {"players":["Kurk Lee","Sammy Mojica","Rodney Williams","Kari Jonsson","Austin Williams","Miles Overton","John Moran","Tyshawn Myles","Mohamed Bah","Major Canady","Jeremy Peck","Sam Green","Kris Alford","Andrew Cartwright","Elgin Ford"],"rows":[]};

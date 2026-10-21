@@ -1,1 +1,1 @@
-LINEUPS_ADD["Weber St."] = {"players":["Cody John","Jerrick Harding","Brekkott Chapman","Israel Barnes","Zach Braxton","Caleb Nero","Michal Kozak","Ricky Nelson","Donatas Kupsas","Dima Zdor","Jordan Dallas","Brenden Morris","Alan Lang"],"rows":[]};
+LINEUPS_ADD["Weber St."] = {"players":["Cody John","Jerrick Harding","Brekkott Chapman","Israel Barnes","Zach Braxton","Caleb Nero","Michal Kozak","Ricky Nelson","Donatas Kupsas","Dima Zdor","Brenden Morris","Jordan Dallas","Alan Lang"],"rows":[]};

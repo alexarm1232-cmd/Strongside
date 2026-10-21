@@ -1,1 +1,1 @@
-LINEUPS_ADD["Fla. Atlantic"] = {"players":["Ronald Delph","Gerdarius Troutman","Justin Massey","William Pfister","Jailyn Ingram","Payton Hulsey","Anthony Adger","Amir Smith","Devorious Brown","Je'Quan Perry","Simeon Lepichev","Tre' Maloney","Chisom Obidike"],"rows":[]};
+LINEUPS_ADD["Fla. Atlantic"] = {"players":["Ronald Delph","Gerdarius Troutman","William Pfister","Justin Massey","Jailyn Ingram","Payton Hulsey","Anthony Adger","Amir Smith","Devorious Brown","Je'Quan Perry","Simeon Lepichev","Tre' Maloney","Chisom Obidike"],"rows":[]};

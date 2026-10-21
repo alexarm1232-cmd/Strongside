@@ -1,1 +1,1 @@
-LINEUPS_ADD["Coastal Carolina"] = {"players":["Jaylen Shaw","Zac Cuthbertson","Artur Labinowicz","Demario Beck","Ajay Sanders","Josh Coleman","Amidou Bamba","Christian Adams","Tre Brown","Matt Lindsey","Tyrell Gumbs-Frater","Bill Muse"],"rows":[]};
+LINEUPS_ADD["Coastal Carolina"] = {"players":["Jaylen Shaw","Zac Cuthbertson","Artur Labinowicz","Demario Beck","Ajay Sanders","Josh Coleman","Amidou Bamba","Christian Adams","Matt Lindsey","Tre Brown","Tyrell Gumbs-Frater","Bill Muse"],"rows":[]};

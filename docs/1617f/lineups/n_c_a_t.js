@@ -1,1 +1,1 @@
-LINEUPS_ADD["N.C. A&T"] = {"players":["Sam Hunt","Davaris McGowens","Aaron Scales","Eliel Gonzalez","Amari Hamilton","Raymon Pratt","James Whitaker","Austin Williams","Donte Watson","Nick Reese","Mike Owona","Martin Jones","Joshua Mullins","Charles Carrington"],"rows":[]};
+LINEUPS_ADD["N.C. A&T"] = {"players":["Sam Hunt","Davaris McGowens","Aaron Scales","Eliel Gonzalez","Amari Hamilton","Raymon Pratt","James Whitaker","Donte Watson","Austin Williams","Nick Reese","Mike Owona","Martin Jones","Joshua Mullins","Charles Carrington"],"rows":[]};

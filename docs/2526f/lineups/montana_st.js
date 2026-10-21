@@ -1,1 +1,1 @@
-LINEUPS_ADD["Montana St."] = {"players":["Jed Miller","Patrick McMahon","Christian King","Chris Hodges","Jeremiah Davis","Seth Amunrud","Davian Brown","Jaden Steppe","Howie Keene","Cavin Holden","Waka Mbatch","Grayson Gaddis","Calum Rutherfurd"],"rows":[]};
+LINEUPS_ADD["Montana St."] = {"players":["Jed Miller","Patrick McMahon","Jeremiah Davis","Christian King","Chris Hodges","Davian Brown","Seth Amunrud","Jaden Steppe","Howie Keene","Cavin Holden","Waka Mbatch","Grayson Gaddis","Calum Rutherfurd"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["Hofstra"] = {"players":["Cruz Davis","Jean Aranguren","German Plotnikov","Michael Graham","TJ Gadsden","Khalil Farmer","Silas Sunday","Jaquan Sanders","KiJan Robinson","Joshua DeCady","Eric Parnell","Jayden Henriquez"],"rows":[]};
+LINEUPS_ADD["Hofstra"] = {"players":["Cruz Davis","Jean Aranguren","German Plotnikov","Michael Graham","TJ Gadsden","Khalil Farmer","Jaquan Sanders","KiJan Robinson","Silas Sunday","Joshua DeCady","Eric Parnell","Jayden Henriquez"],"rows":[]};

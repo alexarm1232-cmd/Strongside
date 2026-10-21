@@ -1,1 +1,1 @@
-LINEUPS_ADD["A&M-Corpus Christi"] = {"players":["Garry Clark","Owen Dease","Jaden Walker","Damarion Dennis","Stephen Giwa","Isaac Williams","Jordan Roberts","Dian Wright-Forde","Kam Parker","Leo Torbor","Sheldon Williams","Shilo Jackson","Aaron Potter","Christian Villegas"],"rows":[]};
+LINEUPS_ADD["A&M-Corpus Christi"] = {"players":["Garry Clark","Owen Dease","Jaden Walker","Damarion Dennis","Stephen Giwa","Jordan Roberts","Isaac Williams","Dian Wright-Forde","Kam Parker","Leo Torbor","Sheldon Williams","Shilo Jackson","Aaron Potter","Christian Villegas"],"rows":[]};

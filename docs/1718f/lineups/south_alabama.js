@@ -1,1 +1,1 @@
-LINEUPS_ADD["South Alabama"] = {"players":["Rodrick Sikes","Trhae Mitchell","Josh Ajayi","Herb McGee","Nick Davis","Dederick Lee","Jordan Andrews","Joe Thompson","Kevin Morris","John Pettway","Rozelle Nix","A.J. Caldwell","Devin Epps","Ethan Haslam"],"rows":[]};
+LINEUPS_ADD["South Alabama"] = {"players":["Rodrick Sikes","Trhae Mitchell","Josh Ajayi","Herb McGee","Nick Davis","Dederick Lee","Jordan Andrews","Joe Thompson","Kevin Morris","John Pettway","Rozelle Nix","A.J. Caldwell","Ethan Haslam","Devin Epps"],"rows":[]};

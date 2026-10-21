@@ -1,1 +1,1 @@
-LINEUPS_ADD["Southern Utah"] = {"players":["Ray Jones, Jr.","Jackson Stevenett","Damon Heuir","Ramell Taylor","Matt Massey","Wade Collie","Jordan Johnson","Tyson Koehler","Jaren Jeffery","Julian Scott","Chris Nsenki","Brian Cameron","Cal Hanks","Matt Gardner"],"rows":[]};
+LINEUPS_ADD["Southern Utah"] = {"players":["Jackson Stevenett","Ray Jones, Jr.","Damon Heuir","Ramell Taylor","Matt Massey","Wade Collie","Jordan Johnson","Tyson Koehler","Jaren Jeffery","Julian Scott","Chris Nsenki","Brian Cameron","Cal Hanks","Matt Gardner"],"rows":[]};

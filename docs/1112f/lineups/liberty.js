@@ -1,1 +1,1 @@
-LINEUPS_ADD["Liberty"] = {"players":["Jesse Sanders","Tavares Speaks","David Minaya","Antwan Burrus","John Caleb Sanders","Joel Vander Pol","Tomasz Gielo","Chene Phillips","Ethan Layer","Andrew Smith","Stephen Baird","Kelly Assinesi","Walt Aikens","Hart Gliedman","Tanner Hoyt"],"rows":[]};
+LINEUPS_ADD["Liberty"] = {"players":["Jesse Sanders","Tavares Speaks","Antwan Burrus","David Minaya","John Caleb Sanders","Joel Vander Pol","Tomasz Gielo","Chene Phillips","Ethan Layer","Stephen Baird","Andrew Smith","Kelly Assinesi","Walt Aikens","Hart Gliedman","Tanner Hoyt"],"rows":[]};

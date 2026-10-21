@@ -1,1 +1,1 @@
-LINEUPS_ADD["Marshall"] = {"players":["Austin Loop","Ryan Taylor","Aleksa Nikolic","Justin Edmonds","Cheikh Sane","Tamron Manning","JP Kambola","Jay Johnson","Devince Boykins","Milan Mijovic","Shawn Smith","Brett Bowling"],"rows":[]};
+LINEUPS_ADD["Marshall"] = {"players":["Austin Loop","Ryan Taylor","Aleksa Nikolic","Justin Edmonds","Cheikh Sane","Tamron Manning","Jay Johnson","JP Kambola","Devince Boykins","Milan Mijovic","Shawn Smith","Brett Bowling"],"rows":[]};

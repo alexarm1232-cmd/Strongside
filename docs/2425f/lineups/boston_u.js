@@ -1,1 +1,1 @@
-LINEUPS_ADD["Boston U."] = {"players":["Kyrone Alexander","Michael McNair","Miles Brewster","Malcolm Chimezie","Ben Roy","Nic Nobili","Azmar Abdullah","Ben Defty","Otto Landrum","Ben Palacios","Matai Baptiste","Ethan Okwuosa","Spencer Joyner","Quinn Nielsen","Ryan Sutliff"],"rows":[]};
+LINEUPS_ADD["Boston U."] = {"players":["Kyrone Alexander","Michael McNair","Miles Brewster","Malcolm Chimezie","Ben Roy","Nic Nobili","Azmar Abdullah","Ben Defty","Otto Landrum","Ben Palacios","Matai Baptiste","Ethan Okwuosa","Ryan Sutliff","Spencer Joyner","Quinn Nielsen"],"rows":[]};

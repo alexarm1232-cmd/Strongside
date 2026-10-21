@@ -1,1 +1,1 @@
-LINEUPS_ADD["FGCU"] = {"players":["Caleb Catto","Cyrus Largie","Eli Abaev","Jalen Warren","Dakota Rivers","Zach Anderson","Luis Rolon","Franco Miller Jr.","Dom London","Justus Rainwater","Victor Rosa","Sam Gagliardi","Qwanzi Samuels","Chance Jackson","Lenny Ricca"],"rows":[]};
+LINEUPS_ADD["FGCU"] = {"players":["Caleb Catto","Cyrus Largie","Eli Abaev","Jalen Warren","Dakota Rivers","Zach Anderson","Luis Rolon","Franco Miller Jr.","Dom London","Justus Rainwater","Victor Rosa","Qwanzi Samuels","Sam Gagliardi","Lenny Ricca","Chance Jackson"],"rows":[]};

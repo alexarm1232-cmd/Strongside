@@ -1,1 +1,1 @@
-LINEUPS_ADD["SIUE"] = {"players":["Kris Davis","Michael Messer","Mark Yelovich","Jerome Jones","Derian Shaffer","Tim Johnson","Reggie Reed","Ray Lester","Maurice Wiltz","Charles Joy","Zeke Schneider","Kyle Heck","Michael Birts"],"rows":[]};
+LINEUPS_ADD["SIUE"] = {"players":["Kris Davis","Michael Messer","Jerome Jones","Mark Yelovich","Derian Shaffer","Tim Johnson","Reggie Reed","Ray Lester","Maurice Wiltz","Charles Joy","Zeke Schneider","Kyle Heck","Michael Birts"],"rows":[]};

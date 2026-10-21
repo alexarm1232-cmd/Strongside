@@ -1,1 +1,1 @@
-LINEUPS_ADD["Princeton"] = {"players":["Xaivian Lee","Caden Pierce","Blake Peters","Dalen Davis","Jackson Hicke","Philip Byriel","Malik Abdullahi","CJ Happy","Jack Scott","Jack Stanton","Jacob Huggins","Peyton Seals","Darius Gakwasi","Ryan Duncan","Zio Kim"],"rows":[]};
+LINEUPS_ADD["Princeton"] = {"players":["Xaivian Lee","Caden Pierce","Blake Peters","Dalen Davis","Jackson Hicke","Philip Byriel","Malik Abdullahi","CJ Happy","Jack Stanton","Jack Scott","Peyton Seals","Jacob Huggins","Darius Gakwasi","Ryan Duncan","Zio Kim"],"rows":[]};

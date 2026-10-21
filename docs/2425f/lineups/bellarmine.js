@@ -1,1 +1,1 @@
-LINEUPS_ADD["Bellarmine"] = {"players":["Billy Smith","Tyler Doyle","Curt Hopf","Kenyon Goodin","Jack Karasinski","Landin Hacker","Ben Johnson","Myles Watkins","Grant Whitaker","Dezmond McKinney","AJ Lux","Dylan Branson","Luke Anderson","Zach Reed"],"rows":[]};
+LINEUPS_ADD["Bellarmine"] = {"players":["Billy Smith","Tyler Doyle","Curt Hopf","Kenyon Goodin","Ben Johnson","Landin Hacker","Jack Karasinski","Myles Watkins","Grant Whitaker","Dezmond McKinney","AJ Lux","Dylan Branson","Luke Anderson","Zach Reed"],"rows":[]};

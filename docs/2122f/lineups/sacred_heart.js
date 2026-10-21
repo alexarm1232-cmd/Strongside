@@ -1,1 +1,1 @@
-LINEUPS_ADD["Sacred Heart"] = {"players":["Tyler Thomas","Nico Galette","Aaron Clarke","Alex Watson","Bryce Johnson","Cantavio Dutreil","Joey Reilly","Mike Sixsmith","Tanner Thomas","Zach Pfaffenberger","Matas Spokas","Kenneth Womack","Quest Harris"],"rows":[]};
+LINEUPS_ADD["Sacred Heart"] = {"players":["Tyler Thomas","Nico Galette","Aaron Clarke","Alex Watson","Bryce Johnson","Cantavio Dutreil","Joey Reilly","Mike Sixsmith","Tanner Thomas","Zach Pfaffenberger","Matas Spokas","Quest Harris","Kenneth Womack"],"rows":[]};

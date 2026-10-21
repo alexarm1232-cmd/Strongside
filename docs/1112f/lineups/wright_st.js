@@ -1,1 +1,1 @@
-LINEUPS_ADD["Wright St."] = {"players":["Julius Mays","Reggie Arceneaux","Armond Battle","Cole Darling","Vance Hall","Johann Mpondo","John Balwigaire","AJ Pacher","Tavares Sledge","Kendall Griffin","Matt Vest","Jason Cuffee","Ulysses Thomas","Stephen Gossard","Alex Pritchett"],"rows":[]};
+LINEUPS_ADD["Wright St."] = {"players":["Julius Mays","Reggie Arceneaux","Armond Battle","Cole Darling","Vance Hall","Johann Mpondo","John Balwigaire","AJ Pacher","Tavares Sledge","Kendall Griffin","Matt Vest","Jason Cuffee","Stephen Gossard","Ulysses Thomas","Alex Pritchett"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["Ga. Southern"] = {"players":["Tookie Brown","Quan Jackson","Isaiah Crawley","Montae Glenn","David-Lee Jones Jr.","Elijah McCadden","Calvin Wishart","Simeon Carter","Ike Smith","Trey Dawkins","Tyshaun Crawford","Eito Yuminami","Jordan Walker","Daniel Cooper"],"rows":[]};
+LINEUPS_ADD["Ga. Southern"] = {"players":["Tookie Brown","Quan Jackson","Isaiah Crawley","David-Lee Jones Jr.","Montae Glenn","Elijah McCadden","Calvin Wishart","Simeon Carter","Ike Smith","Trey Dawkins","Tyshaun Crawford","Eito Yuminami","Daniel Cooper","Jordan Walker"],"rows":[]};

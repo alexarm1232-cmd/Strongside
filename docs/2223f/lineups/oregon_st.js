@@ -1,1 +1,1 @@
-LINEUPS_ADD["Oregon St."] = {"players":["Jordan Pope","Glenn Taylor Jr.","Dexter Akanno","Michael Rataj","Tyler Bilodeau","Dzmitry Ryuny","Rodrigue Andela","Christian Wright","Nick Krass","KC Ibekwe","Jayden Stevens","Justin Rochelin","Chol Marial"],"rows":[]};
+LINEUPS_ADD["Oregon St."] = {"players":["Jordan Pope","Glenn Taylor Jr.","Dexter Akanno","Michael Rataj","Tyler Bilodeau","Dzmitry Ryuny","Rodrigue Andela","Christian Wright","Nick Krass","Jayden Stevens","KC Ibekwe","Justin Rochelin","Chol Marial"],"rows":[]};

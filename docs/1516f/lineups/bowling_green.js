@@ -1,1 +1,1 @@
-LINEUPS_ADD["Bowling Green"] = {"players":["Spencer Parker","Wes Alcegaire","Zack Denny","Antwon Lillard","David Joseph","Ismail Ali","Rasheed Worrell","Demajeo Wiggins","JD Tisdale","Matt Fox","Garrett Mayleben","Josh Gomez","Malik Hluchoweckyj","Brandon Busuttil"],"rows":[]};
+LINEUPS_ADD["Bowling Green"] = {"players":["Spencer Parker","Zack Denny","Wes Alcegaire","Ismail Ali","Antwon Lillard","David Joseph","Rasheed Worrell","Demajeo Wiggins","JD Tisdale","Matt Fox","Garrett Mayleben","Malik Hluchoweckyj","Josh Gomez","Brandon Busuttil"],"rows":[]};

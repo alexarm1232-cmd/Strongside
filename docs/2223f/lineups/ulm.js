@@ -1,1 +1,1 @@
-LINEUPS_ADD["ULM"] = {"players":["Jamari Blackmon","Thomas Howell","Tyreke Locure","Victor Bafutto","Langston Powell","Savion Gallion","Devon Hancock","Jalen Bolden","Jacob Wilson","Nika Metskhvarishvili","Johnnie Williams","Edwin Litolff"],"rows":[]};
+LINEUPS_ADD["ULM"] = {"players":["Thomas Howell","Jamari Blackmon","Tyreke Locure","Victor Bafutto","Langston Powell","Savion Gallion","Devon Hancock","Jalen Bolden","Jacob Wilson","Nika Metskhvarishvili","Johnnie Williams","Edwin Litolff"],"rows":[]};

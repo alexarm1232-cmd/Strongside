@@ -1,1 +1,1 @@
-LINEUPS_ADD["Little Rock"] = {"players":["Marcus Johnson Jr.","Maurius Hill","Kemy Osse","Jalen Jackson","Lis Shoshi","Deondre Burns","Oliver Black","Stetson Billings","Andre Jones","Ben Marcus","Ryan Pippins","Evan Moorman","Shandon Goldman","Brandon Brady","Kanaan Jackson"],"rows":[]};
+LINEUPS_ADD["Little Rock"] = {"players":["Marcus Johnson Jr.","Maurius Hill","Kemy Osse","Jalen Jackson","Lis Shoshi","Deondre Burns","Oliver Black","Stetson Billings","Andre Jones","Ben Marcus","Ryan Pippins","Shandon Goldman","Evan Moorman","Brandon Brady","Kanaan Jackson"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["UC Riverside"] = {"players":["Marqui Worthy","Andrew Henderson","Osiris Grady","BJ Kolly","De'Undrae Perteete","Jailen Daniel-Dalton","Tyler Jones","Ben Waller","Dylan Godfrey","Denzel Hines","EJ Spillman","Daniel Tobiloba"],"rows":[]};
+LINEUPS_ADD["UC Riverside"] = {"players":["Marqui Worthy","Andrew Henderson","Osiris Grady","De'Undrae Perteete","BJ Kolly","Jailen Daniel-Dalton","Tyler Jones","Ben Waller","Dylan Godfrey","Denzel Hines","EJ Spillman","Daniel Tobiloba"],"rows":[]};

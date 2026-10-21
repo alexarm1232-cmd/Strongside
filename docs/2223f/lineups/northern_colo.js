@@ -1,1 +1,1 @@
-LINEUPS_ADD["Northern Colo."] = {"players":["Dalton Knecht","Daylen Kountz","Matt Johnson II","Riley Abercrombie","Caleb Shaw","Brock Wisne","Theo Hughes","Connor Creech","Langston Reynolds","Juju Ramirez","Bryce Kennedy","Jamel Melvin","Jalen Page","Dawson Mohr"],"rows":[]};
+LINEUPS_ADD["Northern Colo."] = {"players":["Dalton Knecht","Matt Johnson II","Daylen Kountz","Riley Abercrombie","Caleb Shaw","Brock Wisne","Theo Hughes","Connor Creech","Langston Reynolds","Juju Ramirez","Bryce Kennedy","Jamel Melvin","Jalen Page","Dawson Mohr"],"rows":[]};

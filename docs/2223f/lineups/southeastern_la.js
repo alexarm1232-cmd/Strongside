@@ -1,1 +1,1 @@
-LINEUPS_ADD["Southeastern La."] = {"players":["Boogie Anderson","Roger McFarlane","Alec Woodard","Roscoe Eastmond","Nick Caldwell","Brody Rowbury","Matt Strange","Christian Agnew","Sami Pissis","Mehdi Pissis","Donte Houston Jr.","Max Brackmann"],"rows":[]};
+LINEUPS_ADD["Southeastern La."] = {"players":["Boogie Anderson","Roger McFarlane","Alec Woodard","Roscoe Eastmond","Nick Caldwell","Matt Strange","Brody Rowbury","Christian Agnew","Sami Pissis","Mehdi Pissis","Donte Houston Jr.","Max Brackmann"],"rows":[]};

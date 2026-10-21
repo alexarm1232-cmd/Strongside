@@ -1,1 +1,1 @@
-LINEUPS_ADD["USC Upstate"] = {"players":["Trae Broadnax","Justin Bailey","Ahmir Langlais","Nick Alves","Jalen Breazeale","Miguel Ayesa","Floyd Rideau Jr.","Jordyn Surratt","Jorge Ochoa","Patrick Iriel","Eduardo Placer","Thomas Sheida","CJ Rich","Dave Dickerson III"],"rows":[]};
+LINEUPS_ADD["USC Upstate"] = {"players":["Trae Broadnax","Justin Bailey","Ahmir Langlais","Nick Alves","Miguel Ayesa","Jalen Breazeale","Floyd Rideau Jr.","Jordyn Surratt","Jorge Ochoa","Eduardo Placer","Patrick Iriel","Thomas Sheida","Dave Dickerson III","CJ Rich"],"rows":[]};

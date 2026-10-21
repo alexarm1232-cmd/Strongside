@@ -1,1 +1,1 @@
-LINEUPS_ADD["Northwestern St."] = {"players":["Chase Forte","Cliff Davis","Braelon Bush","Justin Wilson","Jimel Lane","Duane Posey","Chris Mubiru","Jae Slack","Jamison Epps","J.C. Riley","Ryan Forrest","JT Warren","Anthony Thomas","Karlin Hardy","Micah Williams"],"rows":[]};
+LINEUPS_ADD["Northwestern St."] = {"players":["Chase Forte","Braelon Bush","Cliff Davis","Justin Wilson","Jimel Lane","Duane Posey","Chris Mubiru","Jae Slack","Jamison Epps","J.C. Riley","Ryan Forrest","Anthony Thomas","JT Warren","Karlin Hardy","Micah Williams"],"rows":[]};

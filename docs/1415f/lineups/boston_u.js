@@ -1,1 +1,1 @@
-LINEUPS_ADD["Boston U."] = {"players":["John Papale","Cedric Hankerson","Nathan Dieudonne","Justin Alston","Cheddi Mosely","Eric Fanning","Blaise Mbargorba","Will Goff","Cameron Curry","Nick Havener","Eric Johnson","Dylan Haines","Braiten Madrigal"],"rows":[]};
+LINEUPS_ADD["Boston U."] = {"players":["John Papale","Cedric Hankerson","Nathan Dieudonne","Justin Alston","Cheddi Mosely","Eric Fanning","Blaise Mbargorba","Will Goff","Nick Havener","Cameron Curry","Eric Johnson","Dylan Haines","Braiten Madrigal"],"rows":[]};

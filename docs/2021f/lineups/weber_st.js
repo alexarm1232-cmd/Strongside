@@ -1,1 +1,1 @@
-LINEUPS_ADD["Weber St."] = {"players":["Sigu Sisoho Jawara","Isiah Brown","Zahir Porter","Michal Kozak","Dillon Jones","Cody Carlson","Dontay Bassett","KJ Cunningham","Kham Davis","David Nzekwesi","Darweshi Hunter","Donatas Kupsas","Josh Sanders","Mitch Brizee"],"rows":[]};
+LINEUPS_ADD["Weber St."] = {"players":["Sigu Sisoho Jawara","Isiah Brown","Zahir Porter","Michal Kozak","Cody Carlson","Dillon Jones","Dontay Bassett","KJ Cunningham","Kham Davis","David Nzekwesi","Darweshi Hunter","Donatas Kupsas","Josh Sanders","Mitch Brizee"],"rows":[]};

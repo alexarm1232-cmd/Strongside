@@ -1,1 +1,1 @@
-LINEUPS_ADD["Merrimack"] = {"players":["Ziggy Reid","Javon Bennett","Jordan Minor","Jordan Derkack","Jordan McKoy","Devon Savage","Jaylen Stinson","Mykel Derring","Nick Filchner","Bryan Etumnu","Chevalier Emery","Elliott Black","Brandon Legris","Thomas Hall","Ryan Isaacson"],"rows":[]};
+LINEUPS_ADD["Merrimack"] = {"players":["Ziggy Reid","Javon Bennett","Jordan Minor","Jordan Derkack","Devon Savage","Jordan McKoy","Jaylen Stinson","Mykel Derring","Nick Filchner","Bryan Etumnu","Chevalier Emery","Elliott Black","Thomas Hall","Brandon Legris","Ryan Isaacson"],"rows":[]};

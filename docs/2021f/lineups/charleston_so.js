@@ -1,1 +1,1 @@
-LINEUPS_ADD["Charleston So."] = {"players":["Phlandrous Fleming Jr.","Emorie Knox","Sean Price","Ja'Quavian Florence","Melvin Edwards Jr.","TJ Porter","Jamir Moore","Darius Bowser","Malik Battle","Ty Jones","Travis Anderson","Matt Davis","Matt Kormylo"],"rows":[]};
+LINEUPS_ADD["Charleston So."] = {"players":["Phlandrous Fleming Jr.","Emorie Knox","Sean Price","Ja'Quavian Florence","Melvin Edwards Jr.","Jamir Moore","TJ Porter","Darius Bowser","Malik Battle","Ty Jones","Travis Anderson","Matt Davis","Matt Kormylo"],"rows":[]};

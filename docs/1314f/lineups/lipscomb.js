@@ -1,1 +1,1 @@
-LINEUPS_ADD["Lipscomb"] = {"players":["Martin Smith","J.C. Hampton","Josh Williams","Malcolm Smith","Talbott Denny","Khion Sankey","J.J. Butler","Carter Sanderson","Chad Johnson","Cam Miller","Charles Smith","Dylan Green"],"rows":[]};
+LINEUPS_ADD["Lipscomb"] = {"players":["Martin Smith","J.C. Hampton","Malcolm Smith","Josh Williams","Talbott Denny","Khion Sankey","J.J. Butler","Carter Sanderson","Chad Johnson","Cam Miller","Charles Smith","Dylan Green"],"rows":[]};

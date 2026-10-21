@@ -1,1 +1,1 @@
-LINEUPS_ADD["Arkansas St."] = {"players":["Ty Cockfield","Rashad Lindsey","Deven Simms","Tamas Bruce","Tristin Walley","Grantham Gillard","Marquis Eaton","Connor Kern","Salif Boudie","Jake Scoggins","C.J. Foster","Shaquillo Fritz","Andrew Riley","Christian Willis"],"rows":[]};
+LINEUPS_ADD["Arkansas St."] = {"players":["Ty Cockfield","Rashad Lindsey","Deven Simms","Tamas Bruce","Tristin Walley","Grantham Gillard","Marquis Eaton","Connor Kern","Salif Boudie","Jake Scoggins","C.J. Foster","Andrew Riley","Shaquillo Fritz","Christian Willis"],"rows":[]};

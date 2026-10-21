@@ -1,1 +1,1 @@
-LINEUPS_ADD["Central Conn. St."] = {"players":["Jordan Jones","Joe Ostrowsky","Jayden Brown","Devin Haid","Abdul Momoh","Davonte Sweatman","Darin Smith Jr.","Max Frazier","James Jones","Jaelen McGlone","Brody Limric"],"rows":[]};
+LINEUPS_ADD["Central Conn. St."] = {"players":["Jordan Jones","Joe Ostrowsky","Devin Haid","Jayden Brown","Abdul Momoh","Davonte Sweatman","Darin Smith Jr.","Max Frazier","James Jones","Jaelen McGlone","Brody Limric"],"rows":[]};

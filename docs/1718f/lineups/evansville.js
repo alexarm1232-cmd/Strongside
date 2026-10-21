@@ -1,1 +1,1 @@
-LINEUPS_ADD["Evansville"] = {"players":["Blake Simmons","Ryan Taylor","K.J. Riley","Dru Smith","Noah Frederking","Dainius Chatkevicius","Duane Gibson","John Hall","Dalen Tradre","Evan Kuhlman","Marty Hill","Solomon Hainna"],"rows":[]};
+LINEUPS_ADD["Evansville"] = {"players":["Blake Simmons","Ryan Taylor","K.J. Riley","Noah Frederking","Dru Smith","Dainius Chatkevicius","Duane Gibson","John Hall","Dalen Tradre","Evan Kuhlman","Marty Hill","Solomon Hainna"],"rows":[]};

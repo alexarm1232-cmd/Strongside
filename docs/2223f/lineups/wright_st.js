@@ -1,1 +1,1 @@
-LINEUPS_ADD["Wright St."] = {"players":["Tim Finke","Trey Calvin","Brandon Noel","Alex Huibregtse","AJ Braun","Keaton Norris","Amari Davis","Andrew Welage","Blake Sisley","C.J. Wilbourn","Andy Neff"],"rows":[]};
+LINEUPS_ADD["Wright St."] = {"players":["Tim Finke","Trey Calvin","Brandon Noel","Alex Huibregtse","AJ Braun","Keaton Norris","Amari Davis","Andrew Welage","Blake Sisley","Andy Neff","C.J. Wilbourn"],"rows":[]};

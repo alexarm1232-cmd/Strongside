@@ -1,1 +1,1 @@
-LINEUPS_ADD["San Diego"] = {"players":["Christopher Anderson","Johnny Dee","Ken Rancifer","Chris Manresa","Jito Kok","Cameron Miles","John Sinis","Dennis Kramer","Mike Davis","Simi Fajemisin","Keith Stackhouse","Trey Guidry","Thomas Jacobs"],"rows":[]};
+LINEUPS_ADD["San Diego"] = {"players":["Johnny Dee","Christopher Anderson","Ken Rancifer","Chris Manresa","Jito Kok","Cameron Miles","John Sinis","Dennis Kramer","Mike Davis","Simi Fajemisin","Keith Stackhouse","Trey Guidry","Thomas Jacobs"],"rows":[]};

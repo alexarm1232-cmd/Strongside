@@ -1,1 +1,1 @@
-LINEUPS_ADD["Mercyhurst"] = {"players":["Jeff Planutis","Aidan Reichert","Shemar Rathan-Mayes","Bernie Blunt III","Max Jusianiec","Jake Lemelman","Mykolaus Ivanauskas","Christian Gamble","Deshaun Jackson Jr.","James Thomas","Sean Lang","Qadir Martin","Charles McClennehan Jr."],"rows":[]};
+LINEUPS_ADD["Mercyhurst"] = {"players":["Jeff Planutis","Aidan Reichert","Shemar Rathan-Mayes","Bernie Blunt III","Max Jusianiec","Jake Lemelman","Mykolaus Ivanauskas","Christian Gamble","Deshaun Jackson Jr.","Sean Lang","James Thomas","Qadir Martin","Charles McClennehan Jr."],"rows":[]};

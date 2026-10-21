@@ -1,1 +1,1 @@
-LINEUPS_ADD["Northwestern"] = {"players":["Scottie Lindsey","Dererk Pardon","Bryant McIntosh","Vic Law","Gavin Skelly","Anthony Gaines","Aaron Falzon","Jordan Ash","Barret Benson","Isiah Brown","Rapolas Ivanauskas","Charlie Hall","Tino Malnati"],"rows":[]};
+LINEUPS_ADD["Northwestern"] = {"players":["Scottie Lindsey","Dererk Pardon","Bryant McIntosh","Vic Law","Gavin Skelly","Anthony Gaines","Aaron Falzon","Jordan Ash","Barret Benson","Isiah Brown","Charlie Hall","Tino Malnati","Rapolas Ivanauskas"],"rows":[]};

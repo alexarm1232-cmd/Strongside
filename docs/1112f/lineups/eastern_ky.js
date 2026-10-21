@@ -1,1 +1,1 @@
-LINEUPS_ADD["Eastern Ky."] = {"players":["Jaron Jones","Joshua Jones","Mike DiNunno","D'Mitri Riggs","Eric Stutz","Jeff Johnson","Jeff Allgood","Timmy Knipp","Jabs Newby","Taylor Filipek","Robbie Stenzel","Ryan Parsons"],"rows":[]};
+LINEUPS_ADD["Eastern Ky."] = {"players":["Jaron Jones","Joshua Jones","Mike DiNunno","D'Mitri Riggs","Eric Stutz","Jeff Johnson","Jeff Allgood","Jabs Newby","Timmy Knipp","Taylor Filipek","Robbie Stenzel","Ryan Parsons"],"rows":[]};

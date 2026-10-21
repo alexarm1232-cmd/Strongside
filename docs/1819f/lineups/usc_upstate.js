@@ -1,1 +1,1 @@
-LINEUPS_ADD["USC Upstate"] = {"players":["Deion Holmes","Malik Moore","Jure Span","Dalvin White","Nevin Zink","Josh Aldrich","Everette Hammond","Pat Welch","Brandon Martin","Bryson Mozone","Ross Ryan","Thomas Booker","Andrew Tate","Jordan Furlough"],"rows":[]};
+LINEUPS_ADD["USC Upstate"] = {"players":["Deion Holmes","Malik Moore","Jure Span","Dalvin White","Josh Aldrich","Everette Hammond","Nevin Zink","Pat Welch","Brandon Martin","Bryson Mozone","Ross Ryan","Thomas Booker","Andrew Tate","Jordan Furlough"],"rows":[]};

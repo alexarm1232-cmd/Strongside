@@ -1,1 +1,1 @@
-LINEUPS_ADD["Utah St."] = {"players":["Jared Quayle","Tyler Newbold","Tai Wesley","Pooh Williams","Nate Bendall","Brian Green","Brady Jardine","Matt Formisano","Jaxon Myaer","Preston Medlin","Modou Niang"],"rows":[[33,[0,4,3,2,1],61.45,53,69,58.3,47,67]]};
+LINEUPS_ADD["Utah St."] = {"players":["Jared Quayle","Tyler Newbold","Tai Wesley","Pooh Williams","Nate Bendall","Brian Green","Brady Jardine","Matt Formisano","Jaxon Myaer","Preston Medlin","Modou Niang"],"rows":[[34,[0,4,3,2,1],61.45,53,69,58.3,47,67]]};

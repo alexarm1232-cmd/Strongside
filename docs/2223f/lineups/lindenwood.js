@@ -1,1 +1,1 @@
-LINEUPS_ADD["Lindenwood"] = {"players":["Kevin Caldwell Jr.","Chris Childs","Cam Burrell","Brandon Trimble","Keenon Cole","Jacob Tracey","David Ware","Tommie Williams","Remy Lemovou","Brayden Wampler-Foust"],"rows":[]};
+LINEUPS_ADD["Lindenwood"] = {"players":["Chris Childs","Kevin Caldwell Jr.","Cam Burrell","Brandon Trimble","Keenon Cole","Jacob Tracey","David Ware","Tommie Williams","Remy Lemovou","Brayden Wampler-Foust"],"rows":[]};

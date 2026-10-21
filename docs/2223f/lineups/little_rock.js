@@ -1,1 +1,1 @@
-LINEUPS_ADD["Little Rock"] = {"players":["DeAntoni Gordon","D.J. Smith","Myron Gardner","CJ White","Jordan Jefferson","Isaiah Palermo","Ethan Speaker","Nigel John","Chris Walker","Ante Beljan","Daniel Egbuniwe","Jovan Stulic","Shota Abashidze"],"rows":[]};
+LINEUPS_ADD["Little Rock"] = {"players":["DeAntoni Gordon","D.J. Smith","Myron Gardner","CJ White","Jordan Jefferson","Isaiah Palermo","Nigel John","Ethan Speaker","Chris Walker","Ante Beljan","Daniel Egbuniwe","Jovan Stulic","Shota Abashidze"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["Western Mich."] = {"players":["EJ Ryans","Jayden Brewer","Max Burton","Jalen Griffith","Justice Williams","Trey Lewis","Brady Swartz","Carson Vis","Sharod Barnes","Michael Sulaka","Declan Peterson","Hudson Ward","Junior Sileu","Nicholas Errica"],"rows":[]};
+LINEUPS_ADD["Western Mich."] = {"players":["EJ Ryans","Jayden Brewer","Max Burton","Jalen Griffith","Trey Lewis","Justice Williams","Brady Swartz","Carson Vis","Sharod Barnes","Michael Sulaka","Declan Peterson","Hudson Ward","Junior Sileu","Nicholas Errica"],"rows":[]};

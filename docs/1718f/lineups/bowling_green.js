@@ -1,1 +1,1 @@
-LINEUPS_ADD["Bowling Green"] = {"players":["Justin Turner","Dylan Frye","Demajeo Wiggins","Rodrick Caldwell","Derek Koch","Antwon Lillard","Matt Fox","Daeqwon Plowden","Nelly Cummings","Jeffrey Uju","Joniya Gadson","De Andre' Austin","Ethan Good"],"rows":[]};
+LINEUPS_ADD["Bowling Green"] = {"players":["Justin Turner","Dylan Frye","Demajeo Wiggins","Rodrick Caldwell","Derek Koch","Antwon Lillard","Matt Fox","Daeqwon Plowden","Nelly Cummings","Jeffrey Uju","Joniya Gadson","Ethan Good","De Andre' Austin"],"rows":[]};

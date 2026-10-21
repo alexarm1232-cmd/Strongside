@@ -1,1 +1,1 @@
-LINEUPS_ADD["Utah Tech"] = {"players":["Noa Gonsalves","Isaiah Pope","Cameron Gooden","Frank Staine","Jacob Nicolds","Tanner Christensen","Dancell Leter","Trey Edmonds","Hagen Wright","Asjon Anderson","Trevon Snoddy","Trevon Allfrey","Caleb Stearman"],"rows":[]};
+LINEUPS_ADD["Utah Tech"] = {"players":["Noa Gonsalves","Isaiah Pope","Cameron Gooden","Frank Staine","Tanner Christensen","Jacob Nicolds","Dancell Leter","Trey Edmonds","Hagen Wright","Asjon Anderson","Trevon Snoddy","Trevon Allfrey","Caleb Stearman"],"rows":[]};

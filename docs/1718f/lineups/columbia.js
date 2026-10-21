@@ -1,1 +1,1 @@
-LINEUPS_ADD["Columbia"] = {"players":["Mike Smith","Quinton Adlesh","Nate Hickman","Lukas Meisner","Patrick Tape","Kyle Castlin","Jaron Faulds","Gabe Stefanini","Rodney Hunter","Myles Hanson","Tai Bibbs","Peter Barba","Randy Brumant","Jake Killingsworth","Luke Bolster"],"rows":[]};
+LINEUPS_ADD["Columbia"] = {"players":["Mike Smith","Quinton Adlesh","Nate Hickman","Lukas Meisner","Patrick Tape","Kyle Castlin","Jaron Faulds","Gabe Stefanini","Rodney Hunter","Myles Hanson","Tai Bibbs","Peter Barba","Randy Brumant","Luke Bolster","Jake Killingsworth"],"rows":[]};

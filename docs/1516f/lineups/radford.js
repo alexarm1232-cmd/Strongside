@@ -1,1 +1,1 @@
-LINEUPS_ADD["Radford"] = {"players":["Rashun Davis","Cameron Jones","Ed Polite, Jr.","Ya Ya Anderson","Brandon Holcomb","Kion Brown","Justin Cousin","Taj Owens","Darius Bolstad","Christian Lutete","Sterling Christy","Caleb Tanner","Kyle Gonzalez","Devin Cooper"],"rows":[]};
+LINEUPS_ADD["Radford"] = {"players":["Rashun Davis","Cameron Jones","Ed Polite, Jr.","Ya Ya Anderson","Brandon Holcomb","Kion Brown","Justin Cousin","Taj Owens","Darius Bolstad","Christian Lutete","Caleb Tanner","Sterling Christy","Kyle Gonzalez","Devin Cooper"],"rows":[]};

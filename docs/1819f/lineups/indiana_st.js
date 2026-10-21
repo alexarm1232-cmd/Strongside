@@ -1,1 +1,1 @@
-LINEUPS_ADD["Indiana St."] = {"players":["Tyreke Key","Jordan Barnes","Christian Williams","Allante Holston","Cooper Neese","Bronson Kessinger","Emondre Rickman","Clayton Hughes","De'Avion Washington","Devin Thomas","Tyeshon Martin","Daniel Huenermann","Blake Brinkmeyer"],"rows":[]};
+LINEUPS_ADD["Indiana St."] = {"players":["Tyreke Key","Jordan Barnes","Christian Williams","Allante Holston","Cooper Neese","Bronson Kessinger","Emondre Rickman","Clayton Hughes","De'Avion Washington","Devin Thomas","Tyeshon Martin","Blake Brinkmeyer","Daniel Huenermann"],"rows":[]};

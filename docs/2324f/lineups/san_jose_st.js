@@ -1,1 +1,1 @@
-LINEUPS_ADD["San Jose St."] = {"players":["Alvaro Cardenas","Tibet Gorener","MJ Amey Jr.","Trey Anderson","Latrell Davis","Adrame Diongue","Diogo Seixas","Garrett Anderson","William Humer","Rickey Mitchell Jr.","Christian Wise","Ryen Perry","Bennett Blackerby","Pasha Goodarzi"],"rows":[]};
+LINEUPS_ADD["San Jose St."] = {"players":["Alvaro Cardenas","Tibet Gorener","MJ Amey Jr.","Trey Anderson","Latrell Davis","Adrame Diongue","Diogo Seixas","Garrett Anderson","William Humer","Rickey Mitchell Jr.","Christian Wise","Ryen Perry","Pasha Goodarzi","Bennett Blackerby"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["ETSU"] = {"players":["Desonta Bradford","Jalan McCloud","Devontavius Payne","David Burrell","Bo Hodges","Jermaine Long","Mladen Armus","Peter Jurkin","Jason Williams","Kanayo Obi-Rapu","James Harrison","Andre Edwards","Dillon Reppart","Karl Overstreet"],"rows":[]};
+LINEUPS_ADD["ETSU"] = {"players":["Desonta Bradford","Jalan McCloud","Devontavius Payne","David Burrell","Jermaine Long","Bo Hodges","Mladen Armus","Peter Jurkin","Jason Williams","Kanayo Obi-Rapu","James Harrison","Andre Edwards","Dillon Reppart","Karl Overstreet"],"rows":[]};

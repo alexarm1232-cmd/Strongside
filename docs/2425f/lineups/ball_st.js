@@ -1,1 +1,1 @@
-LINEUPS_ADD["Ball St."] = {"players":["Jermahri Hill","Mickey Pearson Jr.","Ethan Brittain-Watts","Juan Sebastian Gorosito","Payton Sparks","Jeremiah Hernandez","Ben Hendriks","Mason Jones","Joey Hart","TJ Burch","Zane Doughty","Kody Clancy","Jurica Zagorsak"],"rows":[]};
+LINEUPS_ADD["Ball St."] = {"players":["Jermahri Hill","Mickey Pearson Jr.","Juan Sebastian Gorosito","Ethan Brittain-Watts","Payton Sparks","Jeremiah Hernandez","Ben Hendriks","Mason Jones","Joey Hart","TJ Burch","Zane Doughty","Jurica Zagorsak","Kody Clancy"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["Quinnipiac"] = {"players":["Matt Balanc","Tymu Chenery","Dezi Jones","Kevin Marfo","Jacob Rigoni","Tyrese Williams","Brendan McGuire","Luis Kortright","Jamil Riggins","Savion Lewis","Bernie Blunt","Elias King","Quinn Guth","Brendan Martin"],"rows":[]};
+LINEUPS_ADD["Quinnipiac"] = {"players":["Matt Balanc","Tymu Chenery","Dezi Jones","Kevin Marfo","Jacob Rigoni","Tyrese Williams","Brendan McGuire","Jamil Riggins","Luis Kortright","Savion Lewis","Bernie Blunt","Elias King","Quinn Guth","Brendan Martin"],"rows":[]};

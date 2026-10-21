@@ -1,1 +1,1 @@
-LINEUPS_ADD["Richmond"] = {"players":["Mikkel Tyne","Dusan Neskovic","B. Artis White","Jason Roche","Michael Walz","Apostolos Roumoglou","Collin Tanner","Delonnie Hunt","Jonathan Beagle","Jack d'Entremont","Ryan Soulis","Jack Graham","George Washington III"],"rows":[]};
+LINEUPS_ADD["Richmond"] = {"players":["Mikkel Tyne","Dusan Neskovic","Jason Roche","Michael Walz","B. Artis White","Apostolos Roumoglou","Delonnie Hunt","Collin Tanner","Jonathan Beagle","Jack d'Entremont","Ryan Soulis","Jack Graham","George Washington III"],"rows":[]};

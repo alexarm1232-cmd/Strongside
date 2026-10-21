@@ -1,1 +1,1 @@
-LINEUPS_ADD["UTEP"] = {"players":["Nigel Hawkins","Evan Gilyard II","Jordan Lathon","Paul Thomas","Efe Odigie","Ountae Campbell","Kobe Magee","Kaosi Ezeagu","Gilles Dekoninck","Jakobe Dill","Garrett Sullivan","Brandon Averitt"],"rows":[]};
+LINEUPS_ADD["UTEP"] = {"players":["Nigel Hawkins","Evan Gilyard II","Jordan Lathon","Paul Thomas","Efe Odigie","Kobe Magee","Ountae Campbell","Kaosi Ezeagu","Gilles Dekoninck","Jakobe Dill","Brandon Averitt","Garrett Sullivan"],"rows":[]};

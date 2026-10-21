@@ -1,1 +1,1 @@
-LINEUPS_ADD["UNC Asheville"] = {"players":["Kameron Taylor","Toyaz Solomon","Justin Wright","DJ Patrick","Myles Mayfield","Daniel Thomas","Julian Clarke","Sage Tolentino","Corey Jones","David Hermes","Jakel Powell","Rasheed Baldwin"],"rows":[]};
+LINEUPS_ADD["UNC Asheville"] = {"players":["Kameron Taylor","Toyaz Solomon","Justin Wright","DJ Patrick","Myles Mayfield","Daniel Thomas","Julian Clarke","Sage Tolentino","Corey Jones","Jakel Powell","David Hermes","Rasheed Baldwin"],"rows":[]};

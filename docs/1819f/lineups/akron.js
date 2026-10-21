@@ -1,1 +1,1 @@
-LINEUPS_ADD["Akron"] = {"players":["Daniel Utomi","Jimond Ivey","Loren Cristian Jackson","Tyler Cheese","Deng Riak","Channel Banks","Jeremy Roscoe","Emmanuel Olojakpoke","Jaden Sayles","Scott Walter","LePear Toles","Mark Kostelac","Marquelle McIntyre","Jake Fischer"],"rows":[]};
+LINEUPS_ADD["Akron"] = {"players":["Daniel Utomi","Jimond Ivey","Loren Cristian Jackson","Tyler Cheese","Deng Riak","Channel Banks","Jeremy Roscoe","Emmanuel Olojakpoke","Jaden Sayles","Scott Walter","Mark Kostelac","LePear Toles","Marquelle McIntyre","Jake Fischer"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["BYU"] = {"players":["Jaxson Robinson","Gideon George","Fousseyni Traore","Rudi Williams","Spencer Johnson","Dallin Hall","Noah Waterman","Richie Saunders","Atiki Ally Atiki","Trey Stewart","Tredyn Christensen","Tanner Toolson","Jared McGregor","Hao Dong"],"rows":[]};
+LINEUPS_ADD["BYU"] = {"players":["Jaxson Robinson","Gideon George","Fousseyni Traore","Rudi Williams","Spencer Johnson","Dallin Hall","Noah Waterman","Richie Saunders","Atiki Ally Atiki","Trey Stewart","Tanner Toolson","Tredyn Christensen","Jared McGregor","Hao Dong"],"rows":[]};

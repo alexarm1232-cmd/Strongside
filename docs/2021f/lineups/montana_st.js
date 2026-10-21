@@ -1,1 +1,1 @@
-LINEUPS_ADD["Montana St."] = {"players":["Xavier Bishop","Amin Adamu","Jubrile Belo","Abdul Mohamed","Borja Fernandez","Tyler Patterson","Nick Gazelas","Mike Hood","Devin Kirby","Kellen Tynes","Finn Fleute","Bilal Shabazz","Caleb Bellach","Jesse Owens"],"rows":[]};
+LINEUPS_ADD["Montana St."] = {"players":["Xavier Bishop","Amin Adamu","Jubrile Belo","Abdul Mohamed","Tyler Patterson","Borja Fernandez","Nick Gazelas","Mike Hood","Devin Kirby","Kellen Tynes","Finn Fleute","Caleb Bellach","Bilal Shabazz","Jesse Owens"],"rows":[]};

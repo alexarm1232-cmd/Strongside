@@ -1,1 +1,1 @@
-LINEUPS_ADD["Hawaii"] = {"players":["Tom Beattie","Tanner Christensen","Ryan Rapp","Gytis Nemeik\u0161a","Marcus Greene","Kody Williams","Akira Jacobs","Harry Rouhliadeff","Aaron Hunkin-Claytor","Jerome Palm","Osa Obasohan","AJ Economou","Logan Robeson","Jacopo Van der Knaap"],"rows":[]};
+LINEUPS_ADD["Hawaii"] = {"players":["Tom Beattie","Tanner Christensen","Ryan Rapp","Gytis Nemeik\u0161a","Marcus Greene","Kody Williams","Harry Rouhliadeff","Akira Jacobs","Aaron Hunkin-Claytor","Jerome Palm","Osa Obasohan","AJ Economou","Logan Robeson","Jacopo Van der Knaap"],"rows":[]};

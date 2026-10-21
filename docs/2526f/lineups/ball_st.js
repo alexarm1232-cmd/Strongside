@@ -1,1 +1,1 @@
-LINEUPS_ADD["Ball St."] = {"players":["Armoni Zeigler","Mason Jones","Davion Hill","Elmore James","Devon Barnes","Preston Copeland","Kayden Fish","Juwan Maxey","Cam Denson","Joey Hart","Jai Anthoni Bearden","Kody Clancy","Easton Foster","Alex Farley"],"rows":[]};
+LINEUPS_ADD["Ball St."] = {"players":["Armoni Zeigler","Mason Jones","Davion Hill","Elmore James","Devon Barnes","Preston Copeland","Juwan Maxey","Kayden Fish","Cam Denson","Jai Anthoni Bearden","Joey Hart","Kody Clancy","Easton Foster","Alex Farley"],"rows":[]};

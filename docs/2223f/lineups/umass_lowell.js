@@ -1,1 +1,1 @@
-LINEUPS_ADD["UMass Lowell"] = {"players":["Everette Hammond","Allin Blunt","Ayinde Hikim","Abdoul Karim Coulibaly","Max Brooks","Mikey Watkins","Yuri Covington","Cam Morris III","Connor Withers","Brayden O'Connor","Quinton Mincey","Darion Jordan-Thomas"],"rows":[]};
+LINEUPS_ADD["UMass Lowell"] = {"players":["Everette Hammond","Allin Blunt","Ayinde Hikim","Abdoul Karim Coulibaly","Max Brooks","Mikey Watkins","Yuri Covington","Connor Withers","Cam Morris III","Brayden O'Connor","Quinton Mincey","Darion Jordan-Thomas"],"rows":[]};

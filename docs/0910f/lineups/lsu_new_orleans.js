@@ -1,1 +1,1 @@
-LINEUPS_ADD["LSU New Orleans"] = {"players":["Charles Carmouche","Carl Blair","Devin McDonald","Johann Mpondo","Jaroslav Tyrna","Ejike Hart","Billy Humphrey","Quincy Diggs","J.L. Lewis","Destin Damachoua"],"rows":[]};
+LINEUPS_ADD["LSU New Orleans"] = {"players":["Charles Carmouche","Carl Blair","Devin McDonald","Jaroslav Tyrna","Ejike Hart","Johann Mpondo","Billy Humphrey","Quincy Diggs","J.L. Lewis","Destin Damachoua"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["Northwestern St."] = {"players":["Micah Thomas","Chris Mubiru","Willie Williams","Izzy Miles","Landyn Jumawan","CJ Larry","Kordrick Turner","Justin Redmond","Chip Brunt","Omar Adegbola","J.C. Riley Jr.","Moustapha Loum","Quentin Bolton Jr."],"rows":[]};
+LINEUPS_ADD["Northwestern St."] = {"players":["Micah Thomas","Chris Mubiru","Izzy Miles","Willie Williams","Landyn Jumawan","CJ Larry","Kordrick Turner","Justin Redmond","Chip Brunt","Omar Adegbola","Moustapha Loum","J.C. Riley Jr.","Quentin Bolton Jr."],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["UT Arlington"] = {"players":["David Azore","Javon Levi","Patrick Mwamba","Kaodirichi Akobundu-Ehiogu","Nicolas Elame","Jack Hoiberg","Carson Bischoff","Montez Young Jr.","Shemar Wilson","Lazaro Rojas","Brandyn Talbot","Pedro Castro","Antonio Romanelli"],"rows":[]};
+LINEUPS_ADD["UT Arlington"] = {"players":["David Azore","Javon Levi","Patrick Mwamba","Kaodirichi Akobundu-Ehiogu","Nicolas Elame","Jack Hoiberg","Carson Bischoff","Montez Young Jr.","Shemar Wilson","Brandyn Talbot","Lazaro Rojas","Pedro Castro","Antonio Romanelli"],"rows":[]};

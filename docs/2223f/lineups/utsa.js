@@ -1,1 +1,1 @@
-LINEUPS_ADD["UTSA"] = {"players":["John Buggs III","DJ Richards","Japhet Medor","Jacob Germany","Josh Farmer","Christian Tucker","Isaiah Addo-Ankrah","Erik Czumbel","Massal Diouf","Aleu Aleu","Lamin Sabally","Lachlan Bofinger","Azavier Johnson"],"rows":[]};
+LINEUPS_ADD["UTSA"] = {"players":["John Buggs III","DJ Richards","Japhet Medor","Jacob Germany","Josh Farmer","Isaiah Addo-Ankrah","Erik Czumbel","Christian Tucker","Massal Diouf","Aleu Aleu","Lamin Sabally","Lachlan Bofinger","Azavier Johnson"],"rows":[]};

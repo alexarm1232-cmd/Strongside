@@ -1,1 +1,1 @@
-LINEUPS_ADD["UIW"] = {"players":["Kyle Hittle","Mitchell Badillo","Derail Green","Shawn Johnson","Jontrell Walker","Sam Burmeister","Simi Socks","Tyler Singleton","Jerred Kite","Phillip Johnson","Tavin Askew"],"rows":[]};
+LINEUPS_ADD["UIW"] = {"players":["Kyle Hittle","Mitchell Badillo","Derail Green","Shawn Johnson","Jontrell Walker","Sam Burmeister","Tyler Singleton","Simi Socks","Jerred Kite","Phillip Johnson","Tavin Askew"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["UC Davis"] = {"players":["Elijah Pepper","Kane Milling","Ty Johnson","Ade Adebayo","Christian Anigwe","Robby Beasley","Leo DeBruhl","Sione Lose","Niko Rocak","Francesco Borra","Sam Manu","Jac Mani","DeAndre Henry","Patrick Lambey"],"rows":[]};
+LINEUPS_ADD["UC Davis"] = {"players":["Elijah Pepper","Ty Johnson","Kane Milling","Christian Anigwe","Ade Adebayo","Robby Beasley","Leo DeBruhl","Sione Lose","Niko Rocak","Francesco Borra","Sam Manu","DeAndre Henry","Jac Mani","Patrick Lambey"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["Western Ill."] = {"players":["Sean Smith","Ryan Myers","Julius Rollins","Marko Maletic","Trey Deveaux","Kayden Carter","Rodrick Payne","Tay Knox","Massal Diouf","Caleb Thompson","Kiyron Powell"],"rows":[]};
+LINEUPS_ADD["Western Ill."] = {"players":["Sean Smith","Ryan Myers","Julius Rollins","Marko Maletic","Trey Deveaux","Kayden Carter","Tay Knox","Rodrick Payne","Massal Diouf","Caleb Thompson","Kiyron Powell"],"rows":[]};

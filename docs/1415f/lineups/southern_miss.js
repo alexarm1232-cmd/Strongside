@@ -1,1 +1,1 @@
-LINEUPS_ADD["Southern Miss."] = {"players":["Chip Armelin","Matt Bingaya","Norville Carey","Kevin Holland","Rasham Suarez","Jeremiah Eason","Keljin Blevins","Shadell Millinghaus","Davon Hayes","Jamie Chapman","Michael O'Donnell","Dallas Anglin","Eddie Davis, III"],"rows":[]};
+LINEUPS_ADD["Southern Miss."] = {"players":["Chip Armelin","Matt Bingaya","Norville Carey","Kevin Holland","Rasham Suarez","Jeremiah Eason","Keljin Blevins","Davon Hayes","Shadell Millinghaus","Jamie Chapman","Michael O'Donnell","Dallas Anglin","Eddie Davis, III"],"rows":[]};

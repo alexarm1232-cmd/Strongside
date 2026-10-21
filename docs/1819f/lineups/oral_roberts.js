@@ -1,1 +1,1 @@
-LINEUPS_ADD["Oral Roberts"] = {"players":["DeShang Weaver","Sam Kearns","Kaelen Malone","Kerwin Smith","Emmanuel Nzekwesi","Kevin Obanor","Carlos J\u00fcrgens","Aidan Saunders","Francis L\u0101cis","Emir Ahmedic","Christopher Miller","Chaz Schneider"],"rows":[]};
+LINEUPS_ADD["Oral Roberts"] = {"players":["DeShang Weaver","Sam Kearns","Kaelen Malone","Kerwin Smith","Emmanuel Nzekwesi","Carlos J\u00fcrgens","Kevin Obanor","Aidan Saunders","Francis L\u0101cis","Emir Ahmedic","Christopher Miller","Chaz Schneider"],"rows":[]};

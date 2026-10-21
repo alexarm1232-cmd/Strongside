@@ -1,1 +1,1 @@
-LINEUPS_ADD["Illinois"] = {"players":["Trent Frazier","Leron Black","Mark Alstork","Michael Finke","Aaron Jordan","Te'Jon Lucas","Kipper Nichols","Mark Smith","Da'Monte Williams","Greg Eboigbodin","Matic Vesel","Drew Cayce","Cameron Liss","Samson Oladimeji"],"rows":[]};
+LINEUPS_ADD["Illinois"] = {"players":["Trent Frazier","Leron Black","Mark Alstork","Michael Finke","Aaron Jordan","Te'Jon Lucas","Mark Smith","Kipper Nichols","Da'Monte Williams","Greg Eboigbodin","Matic Vesel","Drew Cayce","Cameron Liss","Samson Oladimeji"],"rows":[]};

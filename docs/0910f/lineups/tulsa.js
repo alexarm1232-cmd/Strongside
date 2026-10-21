@@ -1,1 +1,1 @@
-LINEUPS_ADD["Tulsa"] = {"players":["Ben Uzoh","Justin Hurtt","Jerome Jordan","Bishop Wheatley","Joe Richard","Steven Idlet","Bryson Pope","Donte Medder"],"rows":[[33,[0,3,2,4,1],67.73,74,75,67.73,74,75]]};
+LINEUPS_ADD["Tulsa"] = {"players":["Ben Uzoh","Justin Hurtt","Jerome Jordan","Joe Richard","Bishop Wheatley","Steven Idlet","Bryson Pope","Donte Medder"],"rows":[[34,[0,4,2,3,1],67.73,74,75,67.73,74,75]]};

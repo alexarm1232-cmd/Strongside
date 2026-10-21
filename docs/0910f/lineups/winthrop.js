@@ -1,1 +1,1 @@
-LINEUPS_ADD["Winthrop"] = {"players":["Mantoris Robinson","Reggie Middleton","Matt Morgan","Andy Buechert","Robbie Dreher","Andre Jones","Charles Corbin","Gideon Gamble","Justin Burton","Chris Malcolm","George Valentine"],"rows":[[30,[6,0,2,1,4],56.76,44,61,55.31,44,57]]};
+LINEUPS_ADD["Winthrop"] = {"players":["Mantoris Robinson","Reggie Middleton","Matt Morgan","Andy Buechert","Robbie Dreher","Andre Jones","Charles Corbin","Justin Burton","Gideon Gamble","Chris Malcolm","George Valentine"],"rows":[[32,[6,0,2,1,4],56.76,44,61,55.31,44,57]]};

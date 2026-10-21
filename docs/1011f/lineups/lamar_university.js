@@ -1,1 +1,1 @@
-LINEUPS_ADD["Lamar University"] = {"players":["Anthony Miles","Devon Lamb","Kendrick Harris","Brandon Davis","Coy Custer","Charlie Harper","Mike James","Donley Minor","Stan Brown","Orlando Brazier","Tremell Adams","Osas Ebomwonyi","Vincenzo Nelson","Tre Lynch","Darius Harris"],"rows":[]};
+LINEUPS_ADD["Lamar University"] = {"players":["Anthony Miles","Devon Lamb","Kendrick Harris","Brandon Davis","Charlie Harper","Coy Custer","Mike James","Donley Minor","Stan Brown","Orlando Brazier","Tremell Adams","Vincenzo Nelson","Osas Ebomwonyi","Tre Lynch","Darius Harris"],"rows":[]};

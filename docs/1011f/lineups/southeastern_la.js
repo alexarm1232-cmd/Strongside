@@ -1,1 +1,1 @@
-LINEUPS_ADD["Southeastern La."] = {"players":["Brandon Fortenberry","David Ndoumba","Trent Hutchin","DeShawn Patterson","Gary Dixon","Jason Marks","Roosevelt Johnson","Rodney Jones","Antonnio Benton","Jeremy Campbell","Josh Lockett","Jonathan Curtis","Michael Harrel"],"rows":[]};
+LINEUPS_ADD["Southeastern La."] = {"players":["Trent Hutchin","Brandon Fortenberry","David Ndoumba","DeShawn Patterson","Gary Dixon","Jason Marks","Roosevelt Johnson","Rodney Jones","Antonnio Benton","Jeremy Campbell","Josh Lockett","Jonathan Curtis","Michael Harrel"],"rows":[]};

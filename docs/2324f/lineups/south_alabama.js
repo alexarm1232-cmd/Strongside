@@ -1,1 +1,1 @@
-LINEUPS_ADD["South Alabama"] = {"players":["Tyrell Jones","Isiah Gaiter","Marcus Millender","Thomas Howell","Samuel Tabe","Elijah Ormiston","Julian Margrave","Judah Brown","Marshall Kearing","Maxwell Land","Ethan Kizer"],"rows":[]};
+LINEUPS_ADD["South Alabama"] = {"players":["Tyrell Jones","Isiah Gaiter","Marcus Millender","Thomas Howell","Samuel Tabe","Julian Margrave","Elijah Ormiston","Judah Brown","Maxwell Land","Marshall Kearing","Ethan Kizer"],"rows":[]};

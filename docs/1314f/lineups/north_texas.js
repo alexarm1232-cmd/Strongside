@@ -1,1 +1,1 @@
-LINEUPS_ADD["North Texas"] = {"players":["Alzee Williams","Colin Voss","Jordan Williams","Chris Jones","T.J. Taylor","Vertrail Vaughns","Maurice Aniefiok","Brandan Walton","Keith Coleman","Armani Flannigan","Kelvin Gaines","Greg Wesley"],"rows":[]};
+LINEUPS_ADD["North Texas"] = {"players":["Alzee Williams","Colin Voss","Jordan Williams","Chris Jones","Maurice Aniefiok","Vertrail Vaughns","T.J. Taylor","Brandan Walton","Keith Coleman","Armani Flannigan","Kelvin Gaines","Greg Wesley"],"rows":[]};

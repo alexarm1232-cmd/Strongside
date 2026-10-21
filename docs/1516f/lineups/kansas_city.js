@@ -1,1 +1,1 @@
-LINEUPS_ADD["Kansas City"] = {"players":["Lavell Boyd","Martez Harrison","Darius Austin","Kyle Steward","Shayok Shayok","Dashawn King","Darnell Tillman","Thaddeus Smith","Broderick Newbill","Grant Leach","Aleer Leek","Ikem Eriobuna","Noah Knight","Lavell Bell","Wyatt Voorhes"],"rows":[]};
+LINEUPS_ADD["Kansas City"] = {"players":["Lavell Boyd","Martez Harrison","Darius Austin","Kyle Steward","Shayok Shayok","Dashawn King","Darnell Tillman","Thaddeus Smith","Broderick Newbill","Aleer Leek","Grant Leach","Noah Knight","Ikem Eriobuna","Lavell Bell","Wyatt Voorhes"],"rows":[]};

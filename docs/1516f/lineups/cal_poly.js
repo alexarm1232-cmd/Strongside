@@ -1,1 +1,1 @@
-LINEUPS_ADD["Cal Poly"] = {"players":["David Nwaba","Reese Morgan","Ridge Shipley","Taylor Sutlive","Joel Awich","Jaylen Shead","Luke Meikle","Brian Bennett","Zach Gordon","Josh Martin","Trevor John","Aleks Abrams","Mark Patterson","Alec Raven"],"rows":[]};
+LINEUPS_ADD["Cal Poly"] = {"players":["David Nwaba","Reese Morgan","Ridge Shipley","Taylor Sutlive","Joel Awich","Luke Meikle","Jaylen Shead","Brian Bennett","Zach Gordon","Josh Martin","Trevor John","Aleks Abrams","Mark Patterson","Alec Raven"],"rows":[]};

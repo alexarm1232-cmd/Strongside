@@ -1,1 +1,1 @@
-LINEUPS_ADD["San Diego St."] = {"players":["D.J. Gay","Malcolm Thomas","Kawhi Leonard","Billy White","Chase Tapley","Kelvin Davis","Tyrone Shelley","Brian Carlwell","Tim Shelton"],"rows":[[31,[3,0,2,5,1],59.69,59,62,59.69,59,62]]};
+LINEUPS_ADD["San Diego St."] = {"players":["D.J. Gay","Kawhi Leonard","Malcolm Thomas","Billy White","Chase Tapley","Kelvin Davis","Tyrone Shelley","Brian Carlwell","Tim Shelton"],"rows":[[33,[3,0,1,5,2],59.69,59,62,59.69,59,62]]};

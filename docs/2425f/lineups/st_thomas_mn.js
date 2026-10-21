@@ -1,1 +1,1 @@
-LINEUPS_ADD["St. Thomas (MN)"] = {"players":["Drake Dobbs","Miles Barnstable","Kendall Blue","Nolan Minessale","Carter Bjerke","Ben Nau","Ben Oosterbaan","Rich Byhre","Ryan Dufault","Ryan Lafferty","Jermaine Coleman","Ramogi Nyagudi","Hayden Tibbits","Adam Tauer"],"rows":[]};
+LINEUPS_ADD["St. Thomas (MN)"] = {"players":["Drake Dobbs","Miles Barnstable","Kendall Blue","Nolan Minessale","Carter Bjerke","Ben Oosterbaan","Ben Nau","Rich Byhre","Ryan Dufault","Ryan Lafferty","Jermaine Coleman","Hayden Tibbits","Ramogi Nyagudi","Adam Tauer"],"rows":[]};

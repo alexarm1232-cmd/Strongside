@@ -1,1 +1,1 @@
-LINEUPS_ADD["Drake"] = {"players":["Ben Simons","Chris Hines","Jordan Clarke","Richard Carter","Seth VanDeest","Joey King","Micah Mason","Gary Ricks, Jr.","Jeremy Jeffers","Kori Babineaux","Daddy Ugbede","Matt Bowie","Mitch McLaughlin","Karl Madison"],"rows":[]};
+LINEUPS_ADD["Drake"] = {"players":["Ben Simons","Jordan Clarke","Chris Hines","Richard Carter","Seth VanDeest","Joey King","Micah Mason","Gary Ricks, Jr.","Jeremy Jeffers","Kori Babineaux","Daddy Ugbede","Mitch McLaughlin","Matt Bowie","Karl Madison"],"rows":[]};

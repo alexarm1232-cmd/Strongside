@@ -1,1 +1,1 @@
-LINEUPS_ADD["Ball St."] = {"players":["Jalin Anderson","Mickey Pearson Jr.","Basheer Jihad","Mason Jones","Davion Bailey","Trent Middleton","Ben Hendriks","Joey Brown","Jurica Zagorsak","Zane Doughty","Micah Bell","Jack Futa","Quincy Adams"],"rows":[]};
+LINEUPS_ADD["Ball St."] = {"players":["Jalin Anderson","Mickey Pearson Jr.","Basheer Jihad","Mason Jones","Davion Bailey","Trent Middleton","Ben Hendriks","Joey Brown","Jurica Zagorsak","Micah Bell","Zane Doughty","Quincy Adams","Jack Futa"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["Tennessee Tech"] = {"players":["Jayvis Harvey","Josiah Davis","Daniel Egbuniwe","Rodney Johnson Jr.","Diante Wood","Kyle Layton","David Early","Rylee Samons","Bogdan Zimonjic","Grant Strong","David Craig","Jerome Beya","Erik Oliver"],"rows":[]};
+LINEUPS_ADD["Tennessee Tech"] = {"players":["Jayvis Harvey","Josiah Davis","Daniel Egbuniwe","Rodney Johnson Jr.","Kyle Layton","Diante Wood","David Early","Rylee Samons","Bogdan Zimonjic","Grant Strong","David Craig","Jerome Beya","Erik Oliver"],"rows":[]};

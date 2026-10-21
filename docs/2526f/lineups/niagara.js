@@ -1,1 +1,1 @@
-LINEUPS_ADD["Niagara"] = {"players":["Reggie Prudhomme","Justin Hawkins","Justin Page","Vice Zanki","Josiah Sabino","Will Shortt","Trenton Walters","Landon Williams","Brian Griffith","Kabeya Tshibangu","Drew Larson","Gael Dalmau","AJ McBride"],"rows":[]};
+LINEUPS_ADD["Niagara"] = {"players":["Reggie Prudhomme","Justin Hawkins","Justin Page","Vice Zanki","Josiah Sabino","Will Shortt","Landon Williams","Trenton Walters","Brian Griffith","Kabeya Tshibangu","Drew Larson","Gael Dalmau","AJ McBride"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["Eastern Ky."] = {"players":["Montavious Myrick","Turner Buttry","Juan Cranford, Jr.","MJ Williams","Jackson Holt","Austin Ball","Jalen Cooper","Yvens Paul","Jayden Harris","Tyler Jackson","Asa White","Mason Miles"],"rows":[]};
+LINEUPS_ADD["Eastern Ky."] = {"players":["Montavious Myrick","Turner Buttry","Juan Cranford, Jr.","MJ Williams","Austin Ball","Jackson Holt","Jalen Cooper","Yvens Paul","Jayden Harris","Tyler Jackson","Asa White","Mason Miles"],"rows":[]};

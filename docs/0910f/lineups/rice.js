@@ -1,1 +1,1 @@
-LINEUPS_ADD["Rice"] = {"players":["Tamir Jackson","Connor Frizzelle","Lawrence Ghoram","Arsalan Kazemi","Lucas Kuipers","Trey Stanton","Suleiman Braimoh","A.J. Holland","Emerson Herndon","Chris Eversley"],"rows":[]};
+LINEUPS_ADD["Rice"] = {"players":["Tamir Jackson","Connor Frizzelle","Arsalan Kazemi","Lawrence Ghoram","Lucas Kuipers","Trey Stanton","Suleiman Braimoh","A.J. Holland","Emerson Herndon","Chris Eversley"],"rows":[]};

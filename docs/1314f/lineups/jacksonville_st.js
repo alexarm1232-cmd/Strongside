@@ -1,1 +1,1 @@
-LINEUPS_ADD["Jacksonville St."] = {"players":["Brian Williams","Darion Rackley","Nick Cook","Jamal Hunter","D.J. Felder","Undra Mitchem","Avery Moore","Grant White","Teraes Clemmons","Giovanni Smith","Rico Sanders","Joe Kuligoski","Mike Louder","Rod Mcreynolds"],"rows":[]};
+LINEUPS_ADD["Jacksonville St."] = {"players":["Brian Williams","Darion Rackley","Nick Cook","Undra Mitchem","Jamal Hunter","D.J. Felder","Avery Moore","Grant White","Teraes Clemmons","Giovanni Smith","Rico Sanders","Joe Kuligoski","Mike Louder","Rod Mcreynolds"],"rows":[]};

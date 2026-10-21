@@ -1,1 +1,1 @@
-LINEUPS_ADD["Wofford"] = {"players":["Spencer Collins","Eric Garcia","CJ Neumann","Fletcher Magee","Justin Gordon","Jaylen Allen","Ryan Sawvell","Derrick Brooks","Matt Pegram","Cameron Jackson","Trevor Stumpe","Zach Korkowski","Bobby Perez","Eric Wagenlander","Jimmy Jent"],"rows":[]};
+LINEUPS_ADD["Wofford"] = {"players":["Spencer Collins","Eric Garcia","CJ Neumann","Fletcher Magee","Justin Gordon","Ryan Sawvell","Jaylen Allen","Derrick Brooks","Matt Pegram","Trevor Stumpe","Cameron Jackson","Zach Korkowski","Bobby Perez","Eric Wagenlander","Jimmy Jent"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["North Dakota"] = {"players":["Treysen Eaglestaff","Eli King","Mier Panoam","Amar Kuljuhovic","Dariyus Woodson","Deng Mayar","Mambourou Mara","Zach Kraft","Reggie Thomas","Brian Mathews","George Natsvishvili","Ryan Erikson","Matthew Bothun","Anthony Doppler"],"rows":[]};
+LINEUPS_ADD["North Dakota"] = {"players":["Treysen Eaglestaff","Eli King","Mier Panoam","Amar Kuljuhovic","Dariyus Woodson","Deng Mayar","Mambourou Mara","Zach Kraft","Reggie Thomas","Brian Mathews","George Natsvishvili","Ryan Erikson","Anthony Doppler","Matthew Bothun"],"rows":[]};

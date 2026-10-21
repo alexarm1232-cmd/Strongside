@@ -1,1 +1,1 @@
-LINEUPS_ADD["Ark.-Pine Bluff"] = {"players":["Shaun Doss Jr.","Kylen Milton","Brahm Harris","Trejon Ware","Chris Greene","AC Curry","Ismael Plet","Zach Reinhart","Robert Lewis","Orion Virden","Caleb Stokes","Rafael Martinez","Samuel Da Cruz","Kuron Coleman","trent harris"],"rows":[]};
+LINEUPS_ADD["Ark.-Pine Bluff"] = {"players":["Shaun Doss Jr.","Kylen Milton","Chris Greene","Brahm Harris","Trejon Ware","AC Curry","Ismael Plet","Zach Reinhart","Robert Lewis","Orion Virden","Caleb Stokes","Rafael Martinez","Samuel Da Cruz","Kuron Coleman","trent harris"],"rows":[]};

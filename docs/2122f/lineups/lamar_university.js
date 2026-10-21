@@ -1,1 +1,1 @@
-LINEUPS_ADD["Lamar University"] = {"players":["C.J. Roberts","Brock McClure","Lincoln Smith","Kasen Harrison","Jordyn Adams","Davion Buster","Ellis Jefferson","Valentin Catt","Avontez Ledet","Deiman Reyes","Clayton Carpenter","Corey Nickerson","Mason Senigaur","Casey Brooks"],"rows":[]};
+LINEUPS_ADD["Lamar University"] = {"players":["C.J. Roberts","Brock McClure","Lincoln Smith","Kasen Harrison","Ellis Jefferson","Davion Buster","Jordyn Adams","Valentin Catt","Avontez Ledet","Deiman Reyes","Clayton Carpenter","Corey Nickerson","Mason Senigaur","Casey Brooks"],"rows":[]};

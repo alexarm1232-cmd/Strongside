@@ -1,1 +1,1 @@
-LINEUPS_ADD["Akron"] = {"players":["Daniel Utomi","Jimond Ivey","Malcolm Duvivier","Eric Parrish","Virshon Cotton","Torrey Patton","Mark Kostelac","Lucas Smith","Emmanuel Olojakpoke","Jaden Sayles","Sina Gbadebo","Craig Eubanks","Marquelle McIntyre"],"rows":[]};
+LINEUPS_ADD["Akron"] = {"players":["Daniel Utomi","Jimond Ivey","Malcolm Duvivier","Eric Parrish","Virshon Cotton","Torrey Patton","Mark Kostelac","Emmanuel Olojakpoke","Lucas Smith","Jaden Sayles","Sina Gbadebo","Craig Eubanks","Marquelle McIntyre"],"rows":[]};

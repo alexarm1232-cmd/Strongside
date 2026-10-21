@@ -1,1 +1,1 @@
-LINEUPS_ADD["ULM"] = {"players":["Tyreke Locure","Nika Metskhvarishvili","Jalen Bolden","Tyreese Watson","Savion Gallion","Jerry Ngopot","AD Diedhiou","Jacob Wilson","Makai Willis","Devon Hancock","Patrick McCraney","Kelton Williams","Ajay Tew"],"rows":[]};
+LINEUPS_ADD["ULM"] = {"players":["Tyreke Locure","Nika Metskhvarishvili","Jalen Bolden","Tyreese Watson","Jerry Ngopot","Savion Gallion","Jacob Wilson","AD Diedhiou","Makai Willis","Patrick McCraney","Devon Hancock","Kelton Williams","Ajay Tew"],"rows":[]};

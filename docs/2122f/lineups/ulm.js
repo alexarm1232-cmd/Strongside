@@ -1,1 +1,1 @@
-LINEUPS_ADD["ULM"] = {"players":["Russell Harrison","Andre Jones","Koreem Ozier","Elijah Gonzales","Thomas Howell","Nika Metskhvarishvili","Langston Powell","Luke Phillips","Johnnie Williams","Trey Boston","Reginald Gee","D'Marcus Hall","Justin Gibson"],"rows":[]};
+LINEUPS_ADD["ULM"] = {"players":["Russell Harrison","Andre Jones","Koreem Ozier","Elijah Gonzales","Thomas Howell","Nika Metskhvarishvili","Langston Powell","Luke Phillips","Trey Boston","Johnnie Williams","D'Marcus Hall","Reginald Gee","Justin Gibson"],"rows":[]};

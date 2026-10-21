@@ -1,1 +1,1 @@
-LINEUPS_ADD["Boise St."] = {"players":["Anthony Drmic","Jeff Elorriaga","Westly Perryman","Derrick Marks","Kenny Buckner","Thomas Bropleh","Drew Wiley","Ryan Watkins","Tre Nichols","Joe Hanstad","Igor Hadziomerovic","Jarrell Crayton"],"rows":[]};
+LINEUPS_ADD["Boise St."] = {"players":["Anthony Drmic","Jeff Elorriaga","Westly Perryman","Derrick Marks","Kenny Buckner","Thomas Bropleh","Drew Wiley","Ryan Watkins","Tre Nichols","Igor Hadziomerovic","Joe Hanstad","Jarrell Crayton"],"rows":[]};

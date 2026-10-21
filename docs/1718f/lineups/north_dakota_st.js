@@ -1,1 +1,1 @@
-LINEUPS_ADD["North Dakota St."] = {"players":["Paul Miller","Cameron Hunter","Tyson Ward","A.J. Jacobson","Spencer Eliason","Jared Samuelson","Chris Quayle","Deng Geu","Rocky Kreuser","Dylan Miller","Nnamdi Van Dulm"],"rows":[]};
+LINEUPS_ADD["North Dakota St."] = {"players":["Paul Miller","Tyson Ward","Cameron Hunter","A.J. Jacobson","Jared Samuelson","Spencer Eliason","Chris Quayle","Deng Geu","Rocky Kreuser","Dylan Miller","Nnamdi Van Dulm"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["Eastern Ky."] = {"players":["Nick Mayo","Tay Weaver","Jomaru Brown","Kelvin Robinson","Tre King","Houston King","Lachlan Anderson","Peyton Broughton","Jacquess Hobbs","Cameron Carmical","Jordan Oakley","Pedro Bradshaw","Mason Cooper","Dujuanta Weaver"],"rows":[]};
+LINEUPS_ADD["Eastern Ky."] = {"players":["Nick Mayo","Tay Weaver","Jomaru Brown","Kelvin Robinson","Tre King","Lachlan Anderson","Houston King","Peyton Broughton","Jacquess Hobbs","Cameron Carmical","Jordan Oakley","Pedro Bradshaw","Mason Cooper","Dujuanta Weaver"],"rows":[]};

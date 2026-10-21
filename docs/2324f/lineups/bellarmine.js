@@ -1,1 +1,1 @@
-LINEUPS_ADD["Bellarmine"] = {"players":["Peter Suder","Garrett Tipton","Ben Johnson","Langdon Hatton","Bash Wieland","Billy Smith","Dezmond McKinney","Alec Pfriem","Landin Hacker","Eli Roberts","Zac Jennings"],"rows":[]};
+LINEUPS_ADD["Bellarmine"] = {"players":["Peter Suder","Garrett Tipton","Ben Johnson","Langdon Hatton","Bash Wieland","Billy Smith","Dezmond McKinney","Alec Pfriem","Landin Hacker","Zac Jennings","Eli Roberts"],"rows":[]};

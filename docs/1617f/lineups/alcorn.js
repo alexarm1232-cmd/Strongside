@@ -1,1 +1,1 @@
-LINEUPS_ADD["Alcorn"] = {"players":["A.J. Mosby","Denzel Dulin","Marquis Vance","Reginal Johnson","Maurice Howard","Deandre Davis","Avery Patterson","Juwan Henderson","Yalen Reed","Tyler Carter","Rahamanh Katumbusi","Devon Brewer","Tyquaylon Smith","Kobe Wilson"],"rows":[]};
+LINEUPS_ADD["Alcorn"] = {"players":["A.J. Mosby","Marquis Vance","Denzel Dulin","Reginal Johnson","Maurice Howard","Deandre Davis","Avery Patterson","Juwan Henderson","Yalen Reed","Tyler Carter","Rahamanh Katumbusi","Devon Brewer","Tyquaylon Smith","Kobe Wilson"],"rows":[]};

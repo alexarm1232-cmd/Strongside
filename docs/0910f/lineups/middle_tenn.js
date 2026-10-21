@@ -1,1 +1,1 @@
-LINEUPS_ADD["Middle Tenn."] = {"players":["James Washington","Calvin O'Neil","Montarrio Haddock","Desmond Yates","James Gallman","Rod Emanuel","Trevor Ottley","JT Sulton","Theryn Hudson"],"rows":[[30,[1,3,0,2,5],62.71,79,87,62.71,79,87]]};
+LINEUPS_ADD["Middle Tenn."] = {"players":["James Washington","Calvin O'Neil","Montarrio Haddock","Desmond Yates","James Gallman","Rod Emanuel","JT Sulton","Trevor Ottley","Theryn Hudson"],"rows":[[32,[1,3,0,2,5],62.71,79,87,62.71,79,87]]};

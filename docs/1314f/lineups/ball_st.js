@@ -1,1 +1,1 @@
-LINEUPS_ADD["Ball St."] = {"players":["Zavier Turner","Chris Bond","Majok Majok","Jesse Berry","Franko House","Mark Alstork","Quinten Payne","Tyler Koch","Bo Calhoun","Kindon Crowder","Mading Thok","Kameran Madison","Chase Brogna","Kaleb Mallory","Rocco Belcaster"],"rows":[]};
+LINEUPS_ADD["Ball St."] = {"players":["Zavier Turner","Chris Bond","Majok Majok","Jesse Berry","Mark Alstork","Franko House","Quinten Payne","Tyler Koch","Bo Calhoun","Kindon Crowder","Mading Thok","Kameran Madison","Chase Brogna","Kaleb Mallory","Rocco Belcaster"],"rows":[]};

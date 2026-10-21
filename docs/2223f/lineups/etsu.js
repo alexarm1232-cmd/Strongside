@@ -1,1 +1,1 @@
-LINEUPS_ADD["ETSU"] = {"players":["Jordan King","Jalen Haynes","Jaden Seymour","Allen Strothers","Justice Smith","DeAnthony Tipler Jr.","Jamarius Hairston","Josh Taylor","Brock Jancek","Braden Ilic","Jeremy Gregory","Kristian Shaw","Cam George"],"rows":[]};
+LINEUPS_ADD["ETSU"] = {"players":["Jordan King","Jalen Haynes","Jaden Seymour","Allen Strothers","Justice Smith","DeAnthony Tipler Jr.","Josh Taylor","Jamarius Hairston","Brock Jancek","Braden Ilic","Jeremy Gregory","Kristian Shaw","Cam George"],"rows":[]};

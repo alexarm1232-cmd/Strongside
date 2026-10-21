@@ -1,1 +1,1 @@
-LINEUPS_ADD["Little Rock"] = {"players":["Johnathan Lawson","Mwani Wilkinson","Isaiah Lewis","Ante Beljan","Tuongthach Gatkek","Jordan Jefferson","Caleb Pennyfeather","Christian Hughes","Kristiyan Popov","Creed Williamson","Travonne Jackson","Nikola Milosevic"],"rows":[]};
+LINEUPS_ADD["Little Rock"] = {"players":["Johnathan Lawson","Mwani Wilkinson","Isaiah Lewis","Ante Beljan","Tuongthach Gatkek","Jordan Jefferson","Caleb Pennyfeather","Christian Hughes","Travonne Jackson","Creed Williamson","Kristiyan Popov","Nikola Milosevic"],"rows":[]};

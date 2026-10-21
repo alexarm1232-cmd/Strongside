@@ -1,1 +1,1 @@
-LINEUPS_ADD["Maryland"] = {"players":["Greivis Vasquez","Eric Hayes","Landon Milbourne","Sean Mosley","Jordan Williams","Dino Gregory","Adrian Bowie","Cliff Tucker","James Padgett"],"rows":[[30,[6,1,0,4,2],71.72,89,77,71.06,87,77],[31,[6,1,0,4,2],71.02,83,85,71.02,83,85]]};
+LINEUPS_ADD["Maryland"] = {"players":["Greivis Vasquez","Eric Hayes","Landon Milbourne","Sean Mosley","Jordan Williams","Adrian Bowie","Dino Gregory","Cliff Tucker","James Padgett"],"rows":[[31,[5,1,0,4,2],71.72,89,77,71.06,87,77],[32,[5,1,0,4,2],71.02,83,85,71.02,83,85]]};

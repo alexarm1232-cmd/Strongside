@@ -1,1 +1,1 @@
-LINEUPS_ADD["UMass Lowell"] = {"players":["Xavier Spencer","Darrel Yepdo","Angel Montas Jr.","Shawn Simmons II","Austin Green","Victor Okojie","JJ Massaquoi","Khalil Farmer","Jared Frey","Isaiah Walter","Jerrell Roberson II","Kris Johnson","Keenan Bey"],"rows":[]};
+LINEUPS_ADD["UMass Lowell"] = {"players":["Xavier Spencer","Darrel Yepdo","Angel Montas Jr.","Austin Green","Shawn Simmons II","Victor Okojie","JJ Massaquoi","Khalil Farmer","Jared Frey","Isaiah Walter","Jerrell Roberson II","Keenan Bey","Kris Johnson"],"rows":[]};

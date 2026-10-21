@@ -1,1 +1,1 @@
-LINEUPS_ADD["A&M-Corpus Christi"] = {"players":["Joseph Kilgore","Kareem South","Sean Rhea","Myles Smith","Elijah Schmidt","Colin Hale","Perry Francois","Tre Gray","Deion Rhea","Kyle Brown","David Bloom","York Benjamin","Emmanuel Toney","Jamell Bradley","Peyton Smith"],"rows":[]};
+LINEUPS_ADD["A&M-Corpus Christi"] = {"players":["Joseph Kilgore","Kareem South","Sean Rhea","Elijah Schmidt","Myles Smith","Colin Hale","Perry Francois","Tre Gray","Deion Rhea","Kyle Brown","York Benjamin","Emmanuel Toney","David Bloom","Jamell Bradley","Peyton Smith"],"rows":[]};

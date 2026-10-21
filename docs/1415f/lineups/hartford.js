@@ -1,1 +1,1 @@
-LINEUPS_ADD["Hartford"] = {"players":["Corban Wroe","Yolonzo Moore II","Justin Graham","Mark Nwakamma","Taylor Dyson","Nate Sikma","John Carroll","Wes Cole","Jamie Schneck","Jack Hobbs","Dougal Weir","Noah Arciero","Mark Plousis","Andrew Crowley"],"rows":[]};
+LINEUPS_ADD["Hartford"] = {"players":["Corban Wroe","Yolonzo Moore II","Justin Graham","Mark Nwakamma","Taylor Dyson","Nate Sikma","Wes Cole","John Carroll","Jamie Schneck","Jack Hobbs","Dougal Weir","Noah Arciero","Mark Plousis","Andrew Crowley"],"rows":[]};

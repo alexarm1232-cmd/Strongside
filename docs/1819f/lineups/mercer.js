@@ -1,1 +1,1 @@
-LINEUPS_ADD["Mercer"] = {"players":["Ross Cummings","Ethan Stair","Jaylen Stowe","Djordje Dimitrijevic","Cory Kilby","Marcus Cohen","Fardaws Aimaq","Luke Hamilton","Victor Bafutto","Daniel Love","CJ Williamson","DJ Peavy","Breck Cuddy"],"rows":[]};
+LINEUPS_ADD["Mercer"] = {"players":["Ross Cummings","Ethan Stair","Jaylen Stowe","Djordje Dimitrijevic","Cory Kilby","Marcus Cohen","Fardaws Aimaq","Victor Bafutto","Luke Hamilton","Daniel Love","DJ Peavy","CJ Williamson","Breck Cuddy"],"rows":[]};

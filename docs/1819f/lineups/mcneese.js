@@ -1,1 +1,1 @@
-LINEUPS_ADD["McNeese"] = {"players":["James Harvey","Shamarkus Kennedy","Trey Touchet","Jarren Greenwood","Kevin Hunt","Roydell Brown","Will Robinson Jr.","Malik Hines","Trey Johnson","Adrian Brown","Myles Hutchinson","Richard Laku"],"rows":[]};
+LINEUPS_ADD["McNeese"] = {"players":["James Harvey","Shamarkus Kennedy","Jarren Greenwood","Trey Touchet","Kevin Hunt","Roydell Brown","Malik Hines","Will Robinson Jr.","Trey Johnson","Adrian Brown","Myles Hutchinson","Richard Laku"],"rows":[]};

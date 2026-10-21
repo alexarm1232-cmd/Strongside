@@ -1,1 +1,1 @@
-LINEUPS_ADD["Troy"] = {"players":["Wesley Person","B.J. Miller","Alex Hicks","Jordon Varnado","Kevin Baker","Juan Davis","Javan Johnson","Darian Adams","Shawn Hopkins","Malik Burnett","Whit Moreman","Jaroslav Moravek"],"rows":[]};
+LINEUPS_ADD["Troy"] = {"players":["Wesley Person","B.J. Miller","Alex Hicks","Kevin Baker","Jordon Varnado","Juan Davis","Javan Johnson","Darian Adams","Shawn Hopkins","Malik Burnett","Whit Moreman","Jaroslav Moravek"],"rows":[]};

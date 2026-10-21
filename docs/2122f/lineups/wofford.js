@@ -1,1 +1,1 @@
-LINEUPS_ADD["Wofford"] = {"players":["Ryan Larson","Max Klesmit","B.J. Mack","Morgan Safford","Austin Patterson","Isaiah Bigelow","Sam Godwin","Luke Turner","Corey Tripp","Messiah Jones","David Appelgren","Keaton Turner","Jonathan Steelman","Jackson Gore"],"rows":[]};
+LINEUPS_ADD["Wofford"] = {"players":["Ryan Larson","Max Klesmit","B.J. Mack","Morgan Safford","Austin Patterson","Isaiah Bigelow","Sam Godwin","Luke Turner","Corey Tripp","Messiah Jones","Keaton Turner","David Appelgren","Jonathan Steelman","Jackson Gore"],"rows":[]};

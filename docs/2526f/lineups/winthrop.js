@@ -1,1 +1,1 @@
-LINEUPS_ADD["Winthrop"] = {"players":["Kareem Rozier","Kody Clouet","Logan Duncomb","Daylen Berry","Isaiah Wilson","Josh Meo","Tommy Kamarad","Seifeldin Hendawy","Edward Nnamoko","Pharell Boyogueno","Tai Hamilton","Braylhan Thomas","Cam Christy","Henry Harrison"],"rows":[]};
+LINEUPS_ADD["Winthrop"] = {"players":["Kody Clouet","Kareem Rozier","Logan Duncomb","Daylen Berry","Isaiah Wilson","Josh Meo","Tommy Kamarad","Seifeldin Hendawy","Edward Nnamoko","Pharell Boyogueno","Tai Hamilton","Braylhan Thomas","Cam Christy","Henry Harrison"],"rows":[]};

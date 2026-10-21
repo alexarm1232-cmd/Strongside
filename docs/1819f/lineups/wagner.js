@@ -1,1 +1,1 @@
-LINEUPS_ADD["Wagner"] = {"players":["Romone Saunders","Elijah Davis","Devin Liggeons","Chase Freeman","AJ Sumbry","Nigel Jackson","Jonathan Norfleet","Tyrone Nesby IV","Tyler Plummer","Chance Anderson","Jeff Coulanges","Lonnie Rivera","Tim Graham"],"rows":[]};
+LINEUPS_ADD["Wagner"] = {"players":["Romone Saunders","Elijah Davis","Devin Liggeons","AJ Sumbry","Chase Freeman","Nigel Jackson","Jonathan Norfleet","Tyrone Nesby IV","Tyler Plummer","Chance Anderson","Jeff Coulanges","Tim Graham","Lonnie Rivera"],"rows":[]};

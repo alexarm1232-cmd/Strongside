@@ -1,1 +1,1 @@
-LINEUPS_ADD["Sam Houston"] = {"players":["Davon Barnes","Lamar Wilkerson","Damon Nicholas Jr.","Jaden Ray","Souleymane Doumbia","Marcus Boykin","Kian Scroggins","Cameron Huefner","Anthony Wrzeszcz","Owen McGlashan","Lewis Rowe","CJ Beaumont","Bryce cook","Derrick Brown"],"rows":[]};
+LINEUPS_ADD["Sam Houston"] = {"players":["Davon Barnes","Lamar Wilkerson","Damon Nicholas Jr.","Jaden Ray","Marcus Boykin","Souleymane Doumbia","Kian Scroggins","Cameron Huefner","Anthony Wrzeszcz","Owen McGlashan","Lewis Rowe","CJ Beaumont","Bryce cook","Derrick Brown"],"rows":[]};

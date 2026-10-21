@@ -1,1 +1,1 @@
-LINEUPS_ADD["Chattanooga"] = {"players":["Jonathan Scott","David Jean-Baptiste","Jerry Johnson","Kevin Easley","Donovann Toatley","Ramon Vila","Thomas Smallwood","Maurice Commander","A.J. Caldwell","Keigan Kerby","Justin Brown","Duane Moss","Rod Johnson"],"rows":[]};
+LINEUPS_ADD["Chattanooga"] = {"players":["Jonathan Scott","David Jean-Baptiste","Jerry Johnson","Kevin Easley","Donovann Toatley","Ramon Vila","Thomas Smallwood","Maurice Commander","Keigan Kerby","A.J. Caldwell","Justin Brown","Duane Moss","Rod Johnson"],"rows":[]};

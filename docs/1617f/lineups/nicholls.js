@@ -1,1 +1,1 @@
-LINEUPS_ADD["Nicholls"] = {"players":["Jahvaughn Powell","Ja'Dante' Frye","Johnathan Bell","Liam Thomas","Stevie Repichowski","Lafayette Rutledge","Adam Ward","Tre O'Neal","Deandre Harris","Zach Young","Luka Kamber","Brett Weaver"],"rows":[]};
+LINEUPS_ADD["Nicholls"] = {"players":["Ja'Dante' Frye","Jahvaughn Powell","Johnathan Bell","Liam Thomas","Stevie Repichowski","Lafayette Rutledge","Adam Ward","Deandre Harris","Tre O'Neal","Zach Young","Luka Kamber","Brett Weaver"],"rows":[]};

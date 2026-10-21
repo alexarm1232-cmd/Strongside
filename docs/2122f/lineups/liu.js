@@ -1,1 +1,1 @@
-LINEUPS_ADD["LIU"] = {"players":["Tyrn Flowers","Eral Penn","Tre Wood","Isaac Kante","Kyndall Davis","Alex Rivera","Quion Burns","Andre Washington","Noble Crawford","Jake Cook","Tyree Pickron","Devin Nicholson","James Kamich","Zaid Wague"],"rows":[]};
+LINEUPS_ADD["LIU"] = {"players":["Tyrn Flowers","Eral Penn","Tre Wood","Isaac Kante","Kyndall Davis","Alex Rivera","Quion Burns","Andre Washington","Noble Crawford","Jake Cook","Devin Nicholson","James Kamich","Tyree Pickron","Zaid Wague"],"rows":[]};

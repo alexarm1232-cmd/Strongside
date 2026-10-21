@@ -1,1 +1,1 @@
-LINEUPS_ADD["Northwestern St."] = {"players":["Ishmael Lane","LaTerrance Reed","C. J. Jones","Deandre Love","Malik Metoyer","John Norvel","Larry Owens","Darian Dixon","Vontay Ott","Brandon Hutton","Brian White","Dalin Williams","Jacob Guest","Alex Comanita"],"rows":[]};
+LINEUPS_ADD["Northwestern St."] = {"players":["Ishmael Lane","LaTerrance Reed","C. J. Jones","Deandre Love","Malik Metoyer","John Norvel","Larry Owens","Darian Dixon","Vontay Ott","Brandon Hutton","Dalin Williams","Brian White","Jacob Guest","Alex Comanita"],"rows":[]};

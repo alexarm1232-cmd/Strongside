@@ -1,1 +1,1 @@
-LINEUPS_ADD["Lamar University"] = {"players":["Josh Nzeakor","Nick Garth","Jordan Hunter","V.J. Holmes","Christian Barrett","Michael Kolawole","T.J. Atwood","Edwin Jeudy","Davion Buster","Grehlon Easter","Laquarious Paige","Jordan Foster","Avery Sullivan"],"rows":[]};
+LINEUPS_ADD["Lamar University"] = {"players":["Josh Nzeakor","Nick Garth","V.J. Holmes","Jordan Hunter","Michael Kolawole","Christian Barrett","T.J. Atwood","Edwin Jeudy","Grehlon Easter","Davion Buster","Laquarious Paige","Jordan Foster","Avery Sullivan"],"rows":[]};

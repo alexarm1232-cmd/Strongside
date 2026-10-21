@@ -1,1 +1,1 @@
-LINEUPS_ADD["UAB"] = {"players":["Michael Ertel","Tavin Lovan","Trey Jemison","Kassim Nicholson","Tyreek Scott-Grayson","Quan Jackson","Jalen Benjamin","Rongie Gordon","Simeon Kirkland","Tony Toney","Koby Jeffries","Tobias Rotegaard","Jon Coleman","Terrell Ard Jr."],"rows":[]};
+LINEUPS_ADD["UAB"] = {"players":["Michael Ertel","Tavin Lovan","Kassim Nicholson","Trey Jemison","Tyreek Scott-Grayson","Quan Jackson","Jalen Benjamin","Rongie Gordon","Simeon Kirkland","Tony Toney","Koby Jeffries","Tobias Rotegaard","Jon Coleman","Terrell Ard Jr."],"rows":[]};

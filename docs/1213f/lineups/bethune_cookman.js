@@ -1,1 +1,1 @@
-LINEUPS_ADD["Bethune-Cookman"] = {"players":["Adrien Coleman","Kevin Dukes","Ricky Johnson","Alex Smith","Javoris Bryant","Paul Scotland","Marc Mack","Malik Jackson","Mikel Trapp","Allen Dempster","Brandon Stewart","Myron Respress"],"rows":[]};
+LINEUPS_ADD["Bethune-Cookman"] = {"players":["Adrien Coleman","Kevin Dukes","Ricky Johnson","Alex Smith","Paul Scotland","Javoris Bryant","Marc Mack","Malik Jackson","Mikel Trapp","Brandon Stewart","Allen Dempster","Myron Respress"],"rows":[]};

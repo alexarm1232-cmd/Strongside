@@ -1,1 +1,1 @@
-LINEUPS_ADD["Hofstra"] = {"players":["Aaron Estrada","Jalen Ray","Darlinstone Dubar","Omar Silverio","Zach Cooks","Abayomi Iyiola","Caleb Burgess","Jarrod Simmons","Kvonn Cramer","Jaquan Carlos"],"rows":[]};
+LINEUPS_ADD["Hofstra"] = {"players":["Aaron Estrada","Jalen Ray","Darlinstone Dubar","Omar Silverio","Zach Cooks","Abayomi Iyiola","Caleb Burgess","Kvonn Cramer","Jarrod Simmons","Jaquan Carlos"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["Northern Ariz."] = {"players":["Ryan Abelman","Chris Komin","Traivar Jackson","Brennan Peterson","Karl Poom","Isaiah Shaw","Diego Campisano","Kavon Bradford","Arne Osojnik","Zack Davidson","Oakland Fort","Erez Poran","JT Amundsen"],"rows":[]};
+LINEUPS_ADD["Northern Ariz."] = {"players":["Ryan Abelman","Chris Komin","Traivar Jackson","Karl Poom","Brennan Peterson","Isaiah Shaw","Arne Osojnik","Diego Campisano","Kavon Bradford","Zack Davidson","Oakland Fort","Erez Poran","JT Amundsen"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["Kennesaw St."] = {"players":["Tyler Hooker","Bryson Lockley","Isaac Mbuyamba","Kyle Clarke","Bobby Parker","Kosta Jankovic","Danny Lewis","Antonio Spencer","Ugo Obineke","C.J. Washington","Pietro Agostini","Adili Kuerban","Markus Smith"],"rows":[]};
+LINEUPS_ADD["Kennesaw St."] = {"players":["Tyler Hooker","Bryson Lockley","Isaac Mbuyamba","Kosta Jankovic","Kyle Clarke","Bobby Parker","Danny Lewis","Ugo Obineke","Antonio Spencer","C.J. Washington","Pietro Agostini","Adili Kuerban","Markus Smith"],"rows":[]};

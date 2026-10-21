@@ -1,1 +1,1 @@
-LINEUPS_ADD["Binghamton"] = {"players":["J.C. Show","Thomas Bruce","Willie Rodriguez","Everson Davis","Timmy Rose","Fard Muhammad","Bobby Ahearn","Tyler Stewart","Caleb Stewart","Albert Odero","Dusan Perovic","John Schurman","Yosef Yacob","Jordan McRae"],"rows":[]};
+LINEUPS_ADD["Binghamton"] = {"players":["J.C. Show","Thomas Bruce","Willie Rodriguez","Everson Davis","Timmy Rose","Fard Muhammad","Bobby Ahearn","Tyler Stewart","Caleb Stewart","Albert Odero","Dusan Perovic","John Schurman","Jordan McRae","Yosef Yacob"],"rows":[]};

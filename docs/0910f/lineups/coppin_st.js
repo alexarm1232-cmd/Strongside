@@ -1,1 +1,1 @@
-LINEUPS_ADD["Coppin St."] = {"players":["Vincent Goldsberry","Kareem Brown","Sam Coleman","Branden Doughty","Quinston Reggins","Michael Harper","Ceslovas Kucinskas","Lenny Young","Edward Hayden","George Jackson","Jonathan Landry"],"rows":[]};
+LINEUPS_ADD["Coppin St."] = {"players":["Vincent Goldsberry","Kareem Brown","Branden Doughty","Sam Coleman","Quinston Reggins","Ceslovas Kucinskas","Michael Harper","Lenny Young","George Jackson","Edward Hayden","Jonathan Landry"],"rows":[]};

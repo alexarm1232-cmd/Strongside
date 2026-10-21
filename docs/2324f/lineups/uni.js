@@ -1,1 +1,1 @@
-LINEUPS_ADD["UNI"] = {"players":["Nate Heise","Trey Campbell","Tytan Anderson","Bowen Born","Jacob Hutson","Michael Duax","Landon Wolf","Kyle Pock","RJ Taylor","Cole Henry","Drew Daniel","Chase Courbat","Charlie Miller"],"rows":[]};
+LINEUPS_ADD["UNI"] = {"players":["Nate Heise","Trey Campbell","Tytan Anderson","Bowen Born","Jacob Hutson","Michael Duax","Landon Wolf","Kyle Pock","RJ Taylor","Cole Henry","Drew Daniel","Charlie Miller","Chase Courbat"],"rows":[]};

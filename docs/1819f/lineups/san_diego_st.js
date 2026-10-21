@@ -1,1 +1,1 @@
-LINEUPS_ADD["San Diego St."] = {"players":["Devin Watson","Jalen McDaniels","Jeremy Hemsley","Matt Mitchell","Jordan Schakel","Nathan Mensah","Aguek Arop","Nolan Narain","Adam Seiko","Joel Mensah","Ed Chang","Michael Sohikish"],"rows":[]};
+LINEUPS_ADD["San Diego St."] = {"players":["Devin Watson","Jalen McDaniels","Jeremy Hemsley","Matt Mitchell","Jordan Schakel","Nathan Mensah","Aguek Arop","Adam Seiko","Nolan Narain","Joel Mensah","Ed Chang","Michael Sohikish"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["SFA"] = {"players":["AJ Cajuste","Sadaidriene Hall","Latrell Jossell","Nana Antwi-Boasiako","Nigel Hawkins","Roti Ware","Derrick Tezeno","Jaylin Jackson-Posey","Robbie Armbrester","Jalil Beaubrun","DaeVeon Scott","Kyle Hayman"],"rows":[]};
+LINEUPS_ADD["SFA"] = {"players":["AJ Cajuste","Sadaidriene Hall","Nana Antwi-Boasiako","Latrell Jossell","Nigel Hawkins","Roti Ware","Derrick Tezeno","Jaylin Jackson-Posey","Robbie Armbrester","Jalil Beaubrun","DaeVeon Scott","Kyle Hayman"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["Rider"] = {"players":["Dwight Murray, Jr.","Allen Powell","Dimencio Vaughn","Ajiri Ogemuno-Johnson","Mervin James","Nehemiah Benson","Corey McKeithan","Sedrick Altman","Jeremiah Pope","Jaelen McGlone","Jordan Smalls","R.J. Weise"],"rows":[]};
+LINEUPS_ADD["Rider"] = {"players":["Dwight Murray, Jr.","Allen Powell","Dimencio Vaughn","Ajiri Ogemuno-Johnson","Mervin James","Nehemiah Benson","Sedrick Altman","Corey McKeithan","Jeremiah Pope","Jaelen McGlone","Jordan Smalls","R.J. Weise"],"rows":[]};

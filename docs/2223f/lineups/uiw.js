@@ -1,1 +1,1 @@
-LINEUPS_ADD["UIW"] = {"players":["Jonathan Cisse","Trey Miller","Niki Krause","Brandon Swaby","Davante Dennis","Josh Morgan","Stephon Payne III","Ben Griscti","Dylan Hayman","Charlie Yoder","Andre Cruz","Luca Barei","Reggie Abram","Gabe Beny Til"],"rows":[]};
+LINEUPS_ADD["UIW"] = {"players":["Jonathan Cisse","Trey Miller","Niki Krause","Brandon Swaby","Josh Morgan","Davante Dennis","Stephon Payne III","Ben Griscti","Dylan Hayman","Charlie Yoder","Andre Cruz","Luca Barei","Reggie Abram","Gabe Beny Til"],"rows":[]};

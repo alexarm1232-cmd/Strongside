@@ -1,1 +1,1 @@
-LINEUPS_ADD["Binghamton"] = {"players":["Willie Rodriguez","Romello Walker","Marlon Beck II","Justin McFadden","Yosef Yacob","Bobby Ahearn","Dusan Perovic","Magnus Richards","Nick Madray","Karon Waller","John Rinaldi","Jordan Reed","Jabrille Williams"],"rows":[]};
+LINEUPS_ADD["Binghamton"] = {"players":["Willie Rodriguez","Romello Walker","Marlon Beck II","Justin McFadden","Yosef Yacob","Bobby Ahearn","Dusan Perovic","Nick Madray","Magnus Richards","Karon Waller","John Rinaldi","Jordan Reed","Jabrille Williams"],"rows":[]};

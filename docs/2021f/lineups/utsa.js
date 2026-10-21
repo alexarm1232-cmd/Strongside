@@ -1,1 +1,1 @@
-LINEUPS_ADD["UTSA"] = {"players":["Keaton Wallace","Jhivvan Jackson","Jacob Germany","Erik Czumbel","Eric Parrish","Jordan Ivy-Curry","Cedrick Alley Jr.","Phoenix Ford","Luka Barisic","Adrian Rodriguez","Lachlan Bofinger","Jaja Sanni","Isaiah Addo-Ankrah","Artan Jabbar"],"rows":[]};
+LINEUPS_ADD["UTSA"] = {"players":["Keaton Wallace","Jhivvan Jackson","Erik Czumbel","Jacob Germany","Eric Parrish","Jordan Ivy-Curry","Cedrick Alley Jr.","Phoenix Ford","Adrian Rodriguez","Lachlan Bofinger","Luka Barisic","Jaja Sanni","Artan Jabbar","Isaiah Addo-Ankrah"],"rows":[]};

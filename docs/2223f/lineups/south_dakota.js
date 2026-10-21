@@ -1,1 +1,1 @@
-LINEUPS_ADD["South Dakota"] = {"players":["Kruz Perrott-Hunt","Mason Archambault","Tasos Kamateros","A.J. Plitzuweit","Damani Hayes","Paul Bruns","Max Burchill","Jeremiah Coleman","Felix Brostrom","Mihai Carcoana","Miles Branch","Keaton Kutcher","Cade Kandolin"],"rows":[]};
+LINEUPS_ADD["South Dakota"] = {"players":["Kruz Perrott-Hunt","Mason Archambault","Tasos Kamateros","A.J. Plitzuweit","Damani Hayes","Paul Bruns","Max Burchill","Jeremiah Coleman","Felix Brostrom","Mihai Carcoana","Keaton Kutcher","Miles Branch","Cade Kandolin"],"rows":[]};

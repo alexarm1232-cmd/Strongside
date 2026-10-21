@@ -1,1 +1,1 @@
-LINEUPS_ADD["North Dakota St."] = {"players":["Boden Skunberg","Grant Nelson","Damari Wheeler-Thomas","Tajavis Miller","Jacari White","Andrew Morgan","Joshua Streit","Lance Waddles","Sam Hastreiter","Luke Yoder","Ryan Sletten"],"rows":[]};
+LINEUPS_ADD["North Dakota St."] = {"players":["Boden Skunberg","Grant Nelson","Damari Wheeler-Thomas","Tajavis Miller","Andrew Morgan","Jacari White","Joshua Streit","Lance Waddles","Sam Hastreiter","Luke Yoder","Ryan Sletten"],"rows":[]};

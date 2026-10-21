@@ -1,1 +1,1 @@
-LINEUPS_ADD["Akron"] = {"players":["Kwan Cheatham, Jr.","Jake Kretzer","Noah Robotham","Pat Forsythe","Nyles Evans","Deji Ibitayo","Reggie McAdams","Isaiah Johnson","Antino Jackson","Aaron Jackson","B.J. Gladden","Malcolm Walters","Demetrius Treadwell","Mark Noble"],"rows":[]};
+LINEUPS_ADD["Akron"] = {"players":["Kwan Cheatham, Jr.","Jake Kretzer","Noah Robotham","Pat Forsythe","Nyles Evans","Deji Ibitayo","Reggie McAdams","Isaiah Johnson","Antino Jackson","B.J. Gladden","Aaron Jackson","Malcolm Walters","Demetrius Treadwell","Mark Noble"],"rows":[]};

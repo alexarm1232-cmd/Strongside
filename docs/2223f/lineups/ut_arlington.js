@@ -1,1 +1,1 @@
-LINEUPS_ADD["UT Arlington"] = {"players":["Chendall Weaver","Kyron Gibson","Marion Humphrey","Aaron Cash","Brandon Walker","Shemar Wilson","Pedro Castro","Brandyn Talbot","Montez Young Jr.","Dario Domingos","Taj Anderson","Damonze Woods","Shaysten Cornish","Cash Clayton"],"rows":[]};
+LINEUPS_ADD["UT Arlington"] = {"players":["Chendall Weaver","Kyron Gibson","Marion Humphrey","Aaron Cash","Brandon Walker","Shemar Wilson","Pedro Castro","Brandyn Talbot","Montez Young Jr.","Taj Anderson","Dario Domingos","Damonze Woods","Shaysten Cornish","Cash Clayton"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["Jacksonville St."] = {"players":["Nick Murphy","Stephen Hall","Jeremy Bynum","Sean Thurston","Brian Williams","B.J. Miller","Dominique Shellman","Brice Jenkins","LeVentrice Gray","Nick Cook","DeAndre Bynum","Frankie Bougher","John Merit","Latiq Agard"],"rows":[]};
+LINEUPS_ADD["Jacksonville St."] = {"players":["Nick Murphy","Stephen Hall","Jeremy Bynum","Sean Thurston","Brian Williams","B.J. Miller","Dominique Shellman","Brice Jenkins","LeVentrice Gray","Nick Cook","DeAndre Bynum","Frankie Bougher","Latiq Agard","John Merit"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["UAlbany"] = {"players":["Amir Lindsey","Okechukwu Okeke","Isaac Abidde","Jaden Kempson","Zach Matulu","Tarique Foster","Miles Rose","Ma'Kye Taylor","Nasir Muhammad","Abdoulaye Fall","Yaya Keita","Ife West-Ingram","Bautista Giralt"],"rows":[]};
+LINEUPS_ADD["UAlbany"] = {"players":["Amir Lindsey","Okechukwu Okeke","Isaac Abidde","Jaden Kempson","Zach Matulu","Miles Rose","Tarique Foster","Ma'Kye Taylor","Nasir Muhammad","Abdoulaye Fall","Ife West-Ingram","Yaya Keita","Bautista Giralt"],"rows":[]};

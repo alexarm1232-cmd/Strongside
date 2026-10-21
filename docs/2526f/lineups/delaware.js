@@ -1,1 +1,1 @@
-LINEUPS_ADD["Delaware"] = {"players":["Christian Bliss","Macon Emory","Justyn Fernandez","Alex Kazanecki","Tyler Houser","Jayden Taylor","Houston Emory","Mason Ellison","Bouna Kebe","Jameel Brown","Nnanna Njoku","Cavan Reilly","Brandon Baffone","Alex McFadden"],"rows":[]};
+LINEUPS_ADD["Delaware"] = {"players":["Christian Bliss","Macon Emory","Justyn Fernandez","Alex Kazanecki","Tyler Houser","Jayden Taylor","Houston Emory","Mason Ellison","Jameel Brown","Bouna Kebe","Nnanna Njoku","Cavan Reilly","Brandon Baffone","Alex McFadden"],"rows":[]};

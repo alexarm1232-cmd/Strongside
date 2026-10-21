@@ -1,1 +1,1 @@
-LINEUPS_ADD["UMES"] = {"players":["Ketron Shaw","Christopher Flippin","Evan Johnson","Cardell Bailey","Kyrell Shaw","Hassan Perkins","Jalen Ware","Jose Cuello","Maurice Vassel","Ralph Martino Jr.","Trey Hall","Lawrence Foreman","Jaiden Lee"],"rows":[]};
+LINEUPS_ADD["UMES"] = {"players":["Ketron Shaw","Christopher Flippin","Evan Johnson","Cardell Bailey","Kyrell Shaw","Hassan Perkins","Jalen Ware","Maurice Vassel","Jose Cuello","Ralph Martino Jr.","Trey Hall","Lawrence Foreman","Jaiden Lee"],"rows":[]};

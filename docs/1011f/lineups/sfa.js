@@ -1,1 +1,1 @@
-LINEUPS_ADD["SFA"] = {"players":["Eddie Williams","Jordan Glynn","Jereal Scott","Antonio Bostic","Dion Prewster","Mark Gomillia","Denzel Barnes","Amos Olatayo","Brandon Cutler","Zac Downing","Desmond Haymon","Darius Gardner"],"rows":[]};
+LINEUPS_ADD["SFA"] = {"players":["Eddie Williams","Jordan Glynn","Jereal Scott","Antonio Bostic","Dion Prewster","Mark Gomillia","Denzel Barnes","Brandon Cutler","Amos Olatayo","Zac Downing","Desmond Haymon","Darius Gardner"],"rows":[]};

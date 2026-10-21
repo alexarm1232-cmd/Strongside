@@ -1,1 +1,1 @@
-LINEUPS_ADD["San Jose St."] = {"players":["Omari Moore","Alvaro Cardenas","Tibet Gorener","Trey Anderson","Trey Smith","Shon Robinson","Myron Amey Jr.","Ibrahima Diallo","Caleb Simmons","Joshua O'Garro","Majok Kuath","Harminder Dhaliwal","Sebastian Mendoza"],"rows":[]};
+LINEUPS_ADD["San Jose St."] = {"players":["Omari Moore","Alvaro Cardenas","Tibet Gorener","Trey Anderson","Trey Smith","Shon Robinson","Myron Amey Jr.","Ibrahima Diallo","Caleb Simmons","Joshua O'Garro","Majok Kuath","Sebastian Mendoza","Harminder Dhaliwal"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["Duquesne"] = {"players":["Damian Saunders","Eric Evans","Bill Clark","B.J. Monteiro","Jason Duty","Melquan Bolding","Sean Johnson","Morakinyo Williams","Rodrigo Peggau","Oliver Lewinson"],"rows":[[30,[3,0,1,4,5],63.5,51,65,60.08,43,60]]};
+LINEUPS_ADD["Duquesne"] = {"players":["Damian Saunders","Eric Evans","Bill Clark","B.J. Monteiro","Jason Duty","Melquan Bolding","Sean Johnson","Morakinyo Williams","Rodrigo Peggau","Oliver Lewinson"],"rows":[[31,[3,0,1,4,5],63.5,51,65,60.08,43,60]]};

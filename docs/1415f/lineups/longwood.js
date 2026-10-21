@@ -1,1 +1,1 @@
-LINEUPS_ADD["Longwood"] = {"players":["Quincy Taylor","Shaquille Johnson","Leron Fisher","Damarion Geter","Ryan Badowski","Darrion Allen","Kanayo Obi-Rapu","Lotanna Nwogbo","Victor Dorsey","Jason Pimentel","Isaac Belton","Tyler Akers","Bryan Gee"],"rows":[]};
+LINEUPS_ADD["Longwood"] = {"players":["Quincy Taylor","Shaquille Johnson","Leron Fisher","Damarion Geter","Ryan Badowski","Darrion Allen","Lotanna Nwogbo","Kanayo Obi-Rapu","Victor Dorsey","Jason Pimentel","Isaac Belton","Tyler Akers","Bryan Gee"],"rows":[]};

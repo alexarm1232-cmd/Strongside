@@ -1,1 +1,1 @@
-LINEUPS_ADD["Southern Miss."] = {"players":["Cortez Edwards","Tyree Griffin","Kevin Holland","Dominic Magee","D'Angelo Richardson","Tim Rowe","Eddie Davis, III","Ladavius Draine","Anfernee Hampton","Clay Weatherspoon","Rodney Gill","Josh Conley"],"rows":[]};
+LINEUPS_ADD["Southern Miss."] = {"players":["Cortez Edwards","Tyree Griffin","Kevin Holland","Dominic Magee","D'Angelo Richardson","Tim Rowe","Eddie Davis, III","Ladavius Draine","Anfernee Hampton","Clay Weatherspoon","Josh Conley","Rodney Gill"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["Georgia Tech"] = {"players":["Derrick Favors","Gani Lawal","Iman Shumpert","D'Andre Bell","Zach Peacock","Mfon Udofia","Glen Rice","Brian Oliver","Maurice Miller","Lance Storrs"],"rows":[[33,[0,1,6,2,8],58.38,64,59,58.38,64,59],[34,[0,1,6,2,4],74.44,66,75,73.85,66,75]]};
+LINEUPS_ADD["Georgia Tech"] = {"players":["Derrick Favors","Gani Lawal","Iman Shumpert","D'Andre Bell","Zach Peacock","Mfon Udofia","Glen Rice","Brian Oliver","Maurice Miller","Lance Storrs"],"rows":[[34,[0,1,6,2,8],58.38,64,59,58.38,64,59],[35,[0,1,6,2,4],74.44,66,75,73.85,66,75]]};

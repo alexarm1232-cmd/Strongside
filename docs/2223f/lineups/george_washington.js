@@ -1,1 +1,1 @@
-LINEUPS_ADD["George Washington"] = {"players":["Brendan Adams","James Bishop IV","Maximus Edwards","Ricky Lindo Jr.","Hunter Dean","Amir Harris","Noel Brown","Qwanzi Samuels","E.J. Clark","Keegan Harvey","Theofanis Stamoulis","Laziz Talipov"],"rows":[]};
+LINEUPS_ADD["George Washington"] = {"players":["James Bishop IV","Brendan Adams","Maximus Edwards","Ricky Lindo Jr.","Hunter Dean","Amir Harris","Noel Brown","Qwanzi Samuels","E.J. Clark","Keegan Harvey","Theofanis Stamoulis","Laziz Talipov"],"rows":[]};

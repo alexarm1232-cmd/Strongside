@@ -1,1 +1,1 @@
-LINEUPS_ADD["Northern Colo."] = {"players":["Zach Bloch","Quinn Denker","Brock Wisne","Ibu Yamazaki","Ring Nyeri","Vincent Delano","Egan Shields","Ariik Mawien","Tanner Braketa","Hunter Caldwell","Chancellor White","Walker Asp","William Humer"],"rows":[]};
+LINEUPS_ADD["Northern Colo."] = {"players":["Zach Bloch","Quinn Denker","Brock Wisne","Ibu Yamazaki","Ring Nyeri","Vincent Delano","Egan Shields","Ariik Mawien","Tanner Braketa","Hunter Caldwell","Chancellor White","William Humer","Walker Asp"],"rows":[]};

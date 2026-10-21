@@ -1,1 +1,1 @@
-LINEUPS_ADD["New Hampshire"] = {"players":["Chandler Rhoads","Alvin Abreu","Brian Benson","Patrick Konan","Jordon Bronner","Ferg Myrick","Chris Matagrano","Scott Morris","Jeron Trotman","Garrett Jones","Ryan Herrion"],"rows":[]};
+LINEUPS_ADD["New Hampshire"] = {"players":["Chandler Rhoads","Alvin Abreu","Brian Benson","Jordon Bronner","Patrick Konan","Ferg Myrick","Chris Matagrano","Scott Morris","Jeron Trotman","Garrett Jones","Ryan Herrion"],"rows":[]};

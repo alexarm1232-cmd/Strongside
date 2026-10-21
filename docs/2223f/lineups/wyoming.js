@@ -1,1 +1,1 @@
-LINEUPS_ADD["Wyoming"] = {"players":["Hunter Maldonado","Xavier DuSell","Jeremiah Oden","Hunter Thompson","Brendan Wenzel","Ethan Anderson","Noah Reynolds","Kenny Foster","Max Agbonkpolo","Caden Powell","Nate Barnhart","Jake Kyman","Cort Roberson"],"rows":[]};
+LINEUPS_ADD["Wyoming"] = {"players":["Hunter Maldonado","Xavier DuSell","Jeremiah Oden","Hunter Thompson","Brendan Wenzel","Ethan Anderson","Noah Reynolds","Kenny Foster","Max Agbonkpolo","Caden Powell","Jake Kyman","Nate Barnhart","Cort Roberson"],"rows":[]};

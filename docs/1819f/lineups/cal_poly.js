@@ -1,1 +1,1 @@
-LINEUPS_ADD["Cal Poly"] = {"players":["Donovan Fields","Mark Crowe","Marcellus Garrick","Hank Hollingsworth","Job Alexander","Kuba Niziol","Daxton Carr","Karlis Garoza","Tuukka Jaakkola","Junior Ballard","Jared Rice"],"rows":[]};
+LINEUPS_ADD["Cal Poly"] = {"players":["Donovan Fields","Mark Crowe","Marcellus Garrick","Hank Hollingsworth","Job Alexander","Kuba Niziol","Daxton Carr","Tuukka Jaakkola","Karlis Garoza","Junior Ballard","Jared Rice"],"rows":[]};

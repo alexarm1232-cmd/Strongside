@@ -1,1 +1,1 @@
-LINEUPS_ADD["Austin Peay"] = {"players":["LJ Thomas","Quan Lax","Tate McCubbin","Anton Brookshire","Isaac Haney","Tekao Carpenter","Sai Witt","Hansel Enmanuel","Javar Daniel","Akili Evans","Daniel Loos","Darius Dawson","Me'Kell Burries","Terrell Gaines","Bowen Hammer"],"rows":[]};
+LINEUPS_ADD["Austin Peay"] = {"players":["LJ Thomas","Quan Lax","Tate McCubbin","Anton Brookshire","Isaac Haney","Tekao Carpenter","Sai Witt","Hansel Enmanuel","Akili Evans","Javar Daniel","Daniel Loos","Darius Dawson","Me'Kell Burries","Terrell Gaines","Bowen Hammer"],"rows":[]};

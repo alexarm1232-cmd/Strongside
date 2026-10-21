@@ -1,1 +1,1 @@
-LINEUPS_ADD["UAB"] = {"players":["Chance Westry","Daniel Rivera","Evan Chatman","Jacob Meyer","KyeRon Lindsay-Martin","Ahmad Robinson","Salim London","Dayjaun Anderson","Quaran McPherson","Ari Gooch","Joao Das Chagas","Lance Carr"],"rows":[]};
+LINEUPS_ADD["UAB"] = {"players":["Chance Westry","Daniel Rivera","Evan Chatman","Jacob Meyer","KyeRon Lindsay-Martin","Salim London","Ahmad Robinson","Dayjaun Anderson","Quaran McPherson","Ari Gooch","Lance Carr","Joao Das Chagas"],"rows":[]};

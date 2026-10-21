@@ -1,1 +1,1 @@
-LINEUPS_ADD["LIU"] = {"players":["Jacob Johnson","RJ Greene","Marko Maletic","Andre Washington","Cheikh Ndiaye","Tre Wood","CJ Delancy","Quion Burns","Jake Cook","Ahmed Essahaty","Elijah Bailey","Tre Booker","Amadou Fall","Noble Crawford","James Kamich"],"rows":[]};
+LINEUPS_ADD["LIU"] = {"players":["Jacob Johnson","RJ Greene","Marko Maletic","Andre Washington","Cheikh Ndiaye","Tre Wood","CJ Delancy","Quion Burns","Jake Cook","Ahmed Essahaty","Tre Booker","Elijah Bailey","Amadou Fall","Noble Crawford","James Kamich"],"rows":[]};

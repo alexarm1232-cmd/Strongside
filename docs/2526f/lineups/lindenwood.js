@@ -1,1 +1,1 @@
-LINEUPS_ADD["Lindenwood"] = {"players":["Anias Futrell","Dontrez Williams","Mekhi Cooper","Jadis Jones","Milos Nenadic","Clayton Jackson","Robert Lewis","Jeremiah Talton","Kevin Anthony","Todd Bieg","Tidiane d'Almeida","Jaylon McDaniel","William Campbell"],"rows":[]};
+LINEUPS_ADD["Lindenwood"] = {"players":["Anias Futrell","Mekhi Cooper","Dontrez Williams","Jadis Jones","Milos Nenadic","Clayton Jackson","Robert Lewis","Jeremiah Talton","Kevin Anthony","Todd Bieg","Tidiane d'Almeida","Jaylon McDaniel","William Campbell"],"rows":[]};

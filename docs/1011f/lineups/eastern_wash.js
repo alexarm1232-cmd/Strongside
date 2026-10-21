@@ -1,1 +1,1 @@
-LINEUPS_ADD["Eastern Wash."] = {"players":["Jeffrey Forbes","Glen Dean","Cliff Ederaine","Kevin Winford","Laron Griffin","Tremayne Johnson","Cliff Colimon","Geoffrey Allen","Rashano McRae","Rocky Brown","Jaylen Henry","Morgan Hyslop"],"rows":[]};
+LINEUPS_ADD["Eastern Wash."] = {"players":["Jeffrey Forbes","Cliff Ederaine","Kevin Winford","Glen Dean","Laron Griffin","Tremayne Johnson","Cliff Colimon","Geoffrey Allen","Rocky Brown","Rashano McRae","Jaylen Henry","Morgan Hyslop"],"rows":[]};

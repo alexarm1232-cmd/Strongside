@@ -1,1 +1,1 @@
-LINEUPS_ADD["USC Upstate"] = {"players":["Karmani Gregory","Carmelo Adkins","Mister Dean","Brit Harris","Chico Johnson","Andrew McConnell","Isaiah Skinner","Nic Book","Breylin Garcia","Daniel Helterhoff","CJ Rich","Kanye Jones"],"rows":[]};
+LINEUPS_ADD["USC Upstate"] = {"players":["Karmani Gregory","Carmelo Adkins","Brit Harris","Mister Dean","Chico Johnson","Isaiah Skinner","Andrew McConnell","Nic Book","Breylin Garcia","Daniel Helterhoff","CJ Rich","Kanye Jones"],"rows":[]};

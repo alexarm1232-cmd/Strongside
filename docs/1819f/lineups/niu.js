@@ -1,1 +1,1 @@
-LINEUPS_ADD["NIU"] = {"players":["Dante Thorpe","Eugene German","Levi Bradley","Lacey James","Rod Henry-Hayes","Noah McCarty","Trendon Hankerson","Jaylen Key","Gairges Daow","Austin Richie","Zaire Mateen","Alize Travis","Anastasios Demogerontas","L J","Caleb Oehlberg"],"rows":[]};
+LINEUPS_ADD["NIU"] = {"players":["Dante Thorpe","Eugene German","Levi Bradley","Lacey James","Rod Henry-Hayes","Noah McCarty","Trendon Hankerson","Jaylen Key","Gairges Daow","Austin Richie","Zaire Mateen","Anastasios Demogerontas","Alize Travis","L J","Caleb Oehlberg"],"rows":[]};

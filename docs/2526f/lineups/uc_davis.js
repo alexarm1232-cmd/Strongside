@@ -1,1 +1,1 @@
-LINEUPS_ADD["UC Davis"] = {"players":["Connor Sevilla","Marcus Wilson","Brayden Fagbemi","Isaiah Chappell","Niko Rocak","Nils Cooper","Carl Daughtery Jr.","Omer Suljanovic","Jalen Stokes","Cyril Franklin Jr.","Chase Rawlins","Abdullah Amzil","Jonathan Noudjihidi"],"rows":[]};
+LINEUPS_ADD["UC Davis"] = {"players":["Connor Sevilla","Marcus Wilson","Isaiah Chappell","Brayden Fagbemi","Niko Rocak","Nils Cooper","Carl Daughtery Jr.","Omer Suljanovic","Jalen Stokes","Cyril Franklin Jr.","Chase Rawlins","Abdullah Amzil","Jonathan Noudjihidi"],"rows":[]};

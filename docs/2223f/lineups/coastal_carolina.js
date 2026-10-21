@@ -1,1 +1,1 @@
-LINEUPS_ADD["Coastal Carolina"] = {"players":["Josh Uduje","Essam Mostafa","Henry Abraham","Antonio Daye, Jr.","Wilfried Likayi","Linton Brown","Jimmy Nichols Jr.","Jomaru Brown","Kylan Blackmon","D.J. Basey","Seth Dawson","Marcus Saunders","Joey Kahn"],"rows":[]};
+LINEUPS_ADD["Coastal Carolina"] = {"players":["Josh Uduje","Essam Mostafa","Henry Abraham","Wilfried Likayi","Antonio Daye, Jr.","Jimmy Nichols Jr.","Linton Brown","Jomaru Brown","Kylan Blackmon","D.J. Basey","Marcus Saunders","Seth Dawson","Joey Kahn"],"rows":[]};

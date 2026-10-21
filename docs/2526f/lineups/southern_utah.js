@@ -1,1 +1,1 @@
-LINEUPS_ADD["Southern Utah"] = {"players":["Jaiden Feroah","Tanner Hayhurst","Elijah Duval","Isaiah Cottrell","Dylan Jones","Cale Barclay","Kai Burdick","Lorenzo Abellar","Jalen Lee","Zach Bell","Logan Stephens","Brayden Johnson","Zeplin Kidd","Chuks Isitua","Langston Binns"],"rows":[]};
+LINEUPS_ADD["Southern Utah"] = {"players":["Jaiden Feroah","Tanner Hayhurst","Elijah Duval","Isaiah Cottrell","Dylan Jones","Cale Barclay","Kai Burdick","Lorenzo Abellar","Jalen Lee","Zach Bell","Logan Stephens","Zeplin Kidd","Brayden Johnson","Chuks Isitua","Langston Binns"],"rows":[]};

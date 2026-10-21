@@ -1,1 +1,1 @@
-LINEUPS_ADD["Eastern Ky."] = {"players":["Justin Stommes","Josh Taylor","Joshua Jones","Papa Oppong","Spencer Perrin","Dayvon Ellis","Josh Daniel","Willie Cruz"],"rows":[[30,[1,2,0,3,4],62.52,79,82,62.52,79,82]]};
+LINEUPS_ADD["Eastern Ky."] = {"players":["Justin Stommes","Josh Taylor","Joshua Jones","Papa Oppong","Spencer Perrin","Dayvon Ellis","Josh Daniel","Willie Cruz"],"rows":[[32,[1,2,0,3,4],62.52,79,82,62.52,79,82]]};

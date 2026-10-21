@@ -1,1 +1,1 @@
-LINEUPS_ADD["VMI"] = {"players":["Asher Woods","Rickey Bradley","Sean Conway","Tony Felder","Tyler Houser","Taeshaud Jackson","Devin Butler","Sam Wolfe","DJ Nussbaum","Jake Johnston","Josh Tuell"],"rows":[]};
+LINEUPS_ADD["VMI"] = {"players":["Asher Woods","Rickey Bradley","Tony Felder","Sean Conway","Tyler Houser","Taeshaud Jackson","Devin Butler","Sam Wolfe","DJ Nussbaum","Jake Johnston","Josh Tuell"],"rows":[]};

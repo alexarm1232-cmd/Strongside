@@ -1,1 +1,1 @@
-LINEUPS_ADD["UT Martin"] = {"players":["Jaron Williams","Ajani Kennedy","Kenton Eskridge","Cameron Holden","Anthony Thomas","Eman Sertovic","Eden Holt","Hannes Polla","Vinnie Viana","Jonte Coleman","La-Quiem Walker","Dante Gonzales","Trey Fort","Eric Rustin","Malik Mooving"],"rows":[]};
+LINEUPS_ADD["UT Martin"] = {"players":["Jaron Williams","Ajani Kennedy","Kenton Eskridge","Cameron Holden","Anthony Thomas","Eman Sertovic","Eden Holt","Hannes Polla","Vinnie Viana","Jonte Coleman","La-Quiem Walker","Dante Gonzales","Eric Rustin","Trey Fort","Malik Mooving"],"rows":[]};

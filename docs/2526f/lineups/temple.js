@@ -1,1 +1,1 @@
-LINEUPS_ADD["Temple"] = {"players":["Aiden Tobiason","Derrian Ford","Jordan Mason","Gavin Griffiths","Babatunde Durodola","Masiah Gilyard","Jamai Felt","Ayuba Bryant Jr.","AJ Smith","Cam Wallace","Mohamed Keita","Spencer Mahoney","Connor Gal"],"rows":[]};
+LINEUPS_ADD["Temple"] = {"players":["Aiden Tobiason","Derrian Ford","Jordan Mason","Gavin Griffiths","Babatunde Durodola","Masiah Gilyard","Jamai Felt","Ayuba Bryant Jr.","Cam Wallace","AJ Smith","Mohamed Keita","Spencer Mahoney","Connor Gal"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["La Salle"] = {"players":["Jhamir Brickus","Christian Ray","Jack Clark","David Beatty","Jared Kimbrough","Clifton Moore","Anwar Gill","Scott Spencer","Ayinde Hikim","Tegra Izay","Brandon Stone","Andrew Lafond","Derrius Ward","Kyle Thompson","Sherif Kenney"],"rows":[]};
+LINEUPS_ADD["La Salle"] = {"players":["Jhamir Brickus","Christian Ray","Jack Clark","David Beatty","Anwar Gill","Clifton Moore","Jared Kimbrough","Scott Spencer","Ayinde Hikim","Tegra Izay","Brandon Stone","Derrius Ward","Andrew Lafond","Kyle Thompson","Sherif Kenney"],"rows":[]};

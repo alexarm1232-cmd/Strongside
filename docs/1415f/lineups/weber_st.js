@@ -1,1 +1,1 @@
-LINEUPS_ADD["Weber St."] = {"players":["Joel Bolomboy","Richaud Gittens","Jeremy Senglin","Kyndahl Hill","Chris Golden","James Hajek","Ryan Richardson","Hayden Hunter","Jaelyn Johnson-Coston","Jordan Brown"],"rows":[]};
+LINEUPS_ADD["Weber St."] = {"players":["Joel Bolomboy","Richaud Gittens","Jeremy Senglin","Kyndahl Hill","Chris Golden","James Hajek","Hayden Hunter","Ryan Richardson","Jaelyn Johnson-Coston","Jordan Brown"],"rows":[]};

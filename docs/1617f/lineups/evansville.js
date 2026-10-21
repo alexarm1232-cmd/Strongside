@@ -1,1 +1,1 @@
-LINEUPS_ADD["Evansville"] = {"players":["Jaylon Brown","Ryan Taylor","Duane Gibson","Christian Benzon","David Howard","Dru Smith","Willie Wiley","Solomon Hainna","Sergej Vucetic","Dalen Tradre","Jaiveon Eaves"],"rows":[]};
+LINEUPS_ADD["Evansville"] = {"players":["Jaylon Brown","Ryan Taylor","Christian Benzon","Duane Gibson","David Howard","Dru Smith","Willie Wiley","Solomon Hainna","Sergej Vucetic","Dalen Tradre","Jaiveon Eaves"],"rows":[]};

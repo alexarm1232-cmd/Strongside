@@ -1,1 +1,1 @@
-LINEUPS_ADD["UC San Diego"] = {"players":["Tom Beattie","Leo Beath","Alex Chaikin","Hudson Mayes","Bol Dengdit","Aidan Burke","Emanuel Prospere II","Jaden Vance","Trap Johnson","Dimitrije Vukicevic","Cade Pendleton","Ryder Elisaldez","Christopher Cox"],"rows":[]};
+LINEUPS_ADD["UC San Diego"] = {"players":["Tom Beattie","Leo Beath","Alex Chaikin","Bol Dengdit","Hudson Mayes","Aidan Burke","Emanuel Prospere II","Jaden Vance","Trap Johnson","Dimitrije Vukicevic","Cade Pendleton","Ryder Elisaldez","Christopher Cox"],"rows":[]};

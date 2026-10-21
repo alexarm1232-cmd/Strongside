@@ -1,1 +1,1 @@
-LINEUPS_ADD["CSU Bakersfield"] = {"players":["Stephon Carter","Javonte Maynor","Brandon Barnes","Adam Young","Tyrone White","Britton Williams","Corey Hall","Erik Kinney","Matt Ratto","Mo Hughley","Kregg Jones","Zach Lamb","Justin Omogun","Dee Wallace"],"rows":[]};
+LINEUPS_ADD["CSU Bakersfield"] = {"players":["Stephon Carter","Javonte Maynor","Brandon Barnes","Adam Young","Tyrone White","Britton Williams","Corey Hall","Erik Kinney","Matt Ratto","Kregg Jones","Mo Hughley","Zach Lamb","Justin Omogun","Dee Wallace"],"rows":[]};

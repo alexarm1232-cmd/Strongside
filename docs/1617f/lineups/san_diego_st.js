@@ -1,1 +1,1 @@
-LINEUPS_ADD["San Diego St."] = {"players":["Trey Kell","Dakarai Allen","Jeremy Hemsley","Zylan Cheatham","Malik Pope","Matt Shrigley","Valentine Izundu","Montaque Gill-Caesar","D'Erryl Williams","Nolan Narain","Emmanuel Wilson","Max Hoetzel"],"rows":[]};
+LINEUPS_ADD["San Diego St."] = {"players":["Trey Kell","Dakarai Allen","Jeremy Hemsley","Zylan Cheatham","Malik Pope","Matt Shrigley","Valentine Izundu","D'Erryl Williams","Montaque Gill-Caesar","Nolan Narain","Emmanuel Wilson","Max Hoetzel"],"rows":[]};

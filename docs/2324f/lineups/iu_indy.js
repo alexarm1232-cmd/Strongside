@@ -1,1 +1,1 @@
-LINEUPS_ADD["IU Indy"] = {"players":["Bryce Monroe","Vincent Brady II","Jlynn Counter","DJ Jackson","Kidtrell Blocker","Qwanzi Samuels","Abdou Samb","John Egbuta","Cooper Dewitt","Yves Nkomba","Braden Allen","Daylan Hamilton","Armon Jarrard","Derek Petersen"],"rows":[]};
+LINEUPS_ADD["IU Indy"] = {"players":["Vincent Brady II","Bryce Monroe","Jlynn Counter","Kidtrell Blocker","DJ Jackson","Qwanzi Samuels","Abdou Samb","John Egbuta","Cooper Dewitt","Yves Nkomba","Braden Allen","Daylan Hamilton","Armon Jarrard","Derek Petersen"],"rows":[]};

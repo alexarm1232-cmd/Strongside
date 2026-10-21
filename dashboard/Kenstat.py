@@ -33,6 +33,20 @@ LOPSIDED_SCALE = 20
 # ratings predict. 16 per 100 is about 11 points a game; it turns a rating gap into a win chance.
 SOS_SIGMA = 16
 
+# Schools outside Division I (their games come from tools/non_d1_games.py) are rated together as one opponent, from
+# all their games against Division I teams: one at a time they play too few games to rate, and left unrated they would
+# count as an average Division I team. A school is outside Division I when it has no team folder in the season.
+NON_D1 = "Non-D1"
+
+def d1_names(root_folder):
+    """The season's Division I teams: its team folder names (no trailing dots)."""
+    names = set()
+    for conf in os.listdir(root_folder):
+        conf_path = os.path.join(root_folder, conf)
+        if os.path.isdir(conf_path):
+            names.update(team.rstrip('. ') for team in os.listdir(conf_path) if os.path.isdir(os.path.join(conf_path, team)))
+    return names
+
 def load_home_teams(root_folder):
     """game_id -> home team name, for games played at a school's own arena."""
     home_teams = {}
@@ -144,6 +158,7 @@ def get_efficiency_ratings(root_folder, iterations=30):
     team_conf = {}
     factor_totals = defaultdict(lambda: defaultdict(float))
     home_teams = load_home_teams(root_folder)
+    d1 = d1_names(root_folder)
 
     for root, dirs, files in os.walk(root_folder):
         if root.split(os.sep)[-1].lower() == 'boxscores':
@@ -157,7 +172,10 @@ def get_efficiency_ratings(root_folder, iterations=30):
                             data = json.load(open_f)
                             g_id = str(data.get('game_id') or f).strip()
                             t0, t1 = data['teams'][0], data['teams'][1]
-                            n0, n1 = t0['team_name'], t1['team_name']
+                            raw0, raw1 = t0['team_name'], t1['team_name']
+                            # a school outside Division I is rated as the one pooled opponent
+                            n0 = raw0 if raw0.rstrip('. ') in d1 else NON_D1
+                            n1 = raw1 if raw1.rstrip('. ') in d1 else NON_D1
 
                             def get_raw_stats(tm):
                                 s = tm['team_totals']
@@ -195,9 +213,9 @@ def get_efficiency_ratings(root_folder, iterations=30):
                             # Shift each side's scoring back to a neutral floor (0 = neutral site)
                             home = home_teams.get(f[:-5])
                             h0 = h1 = 0
-                            if home == n0.rstrip('. '):
+                            if home == raw0.rstrip('. '):
                                 h0, h1 = home_edge(home), -home_edge(home)
-                            elif home == n1.rstrip('. '):
+                            elif home == raw1.rstrip('. '):
                                 h0, h1 = -home_edge(home), home_edge(home)
 
                             all_game_performances.append({'team': n0, 'opp': n1, 'raw_o': eff0 - h0, 'raw_d': eff1 - h1})
@@ -300,7 +318,8 @@ def nets_before_games(root_folder):
                         dates.setdefault(str(g['game_id']), g['date'])
             except: continue
     home_teams = load_home_teams(root_folder)
-    by_day = defaultdict(list)      # date -> [(game id, (team, opp, raw_o, raw_d) for each side, pts, poss)]
+    d1 = d1_names(root_folder)
+    by_day = defaultdict(list)      # date -> [(game id, (team, opp, raw_o, raw_d) for each side, pts, poss, the two schools' own names)]
     for root, dirs, files in os.walk(root_folder):
         if root.split(os.sep)[-1].lower() != 'boxscores': continue
         for f in files:
@@ -322,7 +341,9 @@ def nets_before_games(root_folder):
                 h0 = h1 = 0
                 if home == n0: h0, h1 = home_edge(home), -home_edge(home)
                 elif home == n1: h0, h1 = -home_edge(home), home_edge(home)
-                by_day[date].append((g_id, [(n0, n1, eff0 - h0, eff1 - h1), (n1, n0, eff1 - h1, eff0 - h0)], s0['PTS'] + s1['PTS'], poss0 + poss1))
+                schools = (n0, n1)
+                n0, n1 = (n if n in d1 else NON_D1 for n in (n0, n1))      # outside Division I: the pooled opponent
+                by_day[date].append((g_id, [(n0, n1, eff0 - h0, eff1 - h1), (n1, n0, eff1 - h1, eff0 - h0)], s0['PTS'] + s1['PTS'], poss0 + poss1, schools))
             except: continue
 
     perfs, counts, adj_o, adj_d = [], defaultdict(int), {}, {}
@@ -331,14 +352,15 @@ def nets_before_games(root_folder):
     out = {}
     for date in sorted(by_day):
         # the morning of the game day: what the ratings said, from the games before it
-        for g_id, sides, _, _ in by_day[date]:
+        for g_id, sides, _, _, schools in by_day[date]:
             entry = out.setdefault(g_id, {})
-            for team, _, _, _ in sides:
-                rated = counts[team] >= RATED_AFTER and team in adj_o
-                entry[team] = round(adj_o[team] - adj_d[team], 1) if rated else None
+            for (team, _, _, _), school in zip(sides, schools):
+                # a school outside Division I gets no number of its own: it only plays its part in the others'
+                rated = team != NON_D1 and counts[team] >= RATED_AFTER and team in adj_o
+                entry[school] = round(adj_o[team] - adj_d[team], 1) if rated else None
         # then the day's games go in, and the ratings are brought up to date for the next day
         seen = set()
-        for g_id, sides, pts, poss in by_day[date]:
+        for g_id, sides, pts, poss, _ in by_day[date]:
             perfs.extend(sides)
             for team, _, _, _ in sides: counts[team] += 1
             if g_id not in seen:

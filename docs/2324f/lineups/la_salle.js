@@ -1,1 +1,1 @@
-LINEUPS_ADD["La Salle"] = {"players":["Jhamir Brickus","Khalil Brantley","Daeshon Shepherd","Tunde Vahlberg Fasasi","Rokas Jocius","Anwar Gill","Andres Marrero","Ryan Zan","Tommy Gardler","Lucas Mercandino","Milos Kovacevic","Jay Joseph","Efe Tahmaz"],"rows":[]};
+LINEUPS_ADD["La Salle"] = {"players":["Jhamir Brickus","Khalil Brantley","Daeshon Shepherd","Tunde Vahlberg Fasasi","Rokas Jocius","Anwar Gill","Andres Marrero","Ryan Zan","Tommy Gardler","Lucas Mercandino","Efe Tahmaz","Milos Kovacevic","Jay Joseph"],"rows":[]};

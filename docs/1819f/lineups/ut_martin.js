@@ -1,1 +1,1 @@
-LINEUPS_ADD["UT Martin"] = {"players":["Delfincko Bogan","Preston Parks","Derek Hawthorne, Jr.","Quintin Dove","Kevin Little","Jailen Gill","Fatodd Lewis","Craig Randall II","Parrish Hewitt","Minfeke Sanoe","Jeremy Joyner","Charles Henderson, Jr."],"rows":[]};
+LINEUPS_ADD["UT Martin"] = {"players":["Delfincko Bogan","Preston Parks","Derek Hawthorne, Jr.","Quintin Dove","Kevin Little","Jailen Gill","Fatodd Lewis","Parrish Hewitt","Craig Randall II","Minfeke Sanoe","Jeremy Joyner","Charles Henderson, Jr."],"rows":[]};

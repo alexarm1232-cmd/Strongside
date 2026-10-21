@@ -1,1 +1,1 @@
-LINEUPS_ADD["Loyola Maryland"] = {"players":["R.J. Williams","Eric Laster","Dylon Cormier","Jarred Jones","Jordan Latham","Franz Rassman","Denzel Brito","Tyler Hubbard","Nick Gorski","Damion Rashford","Jevon Patton","Josh Forney","Sean Tuohy Jr.","Chido Onyiuke"],"rows":[]};
+LINEUPS_ADD["Loyola Maryland"] = {"players":["Eric Laster","R.J. Williams","Dylon Cormier","Jarred Jones","Jordan Latham","Franz Rassman","Denzel Brito","Tyler Hubbard","Nick Gorski","Damion Rashford","Jevon Patton","Josh Forney","Sean Tuohy Jr.","Chido Onyiuke"],"rows":[]};

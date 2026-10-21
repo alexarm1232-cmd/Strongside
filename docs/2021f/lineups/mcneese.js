@@ -1,1 +1,1 @@
-LINEUPS_ADD["McNeese"] = {"players":["Dru Kuxhausen","A.J. Lawson","KeyShawn Feazell","Carlos Rosario","Collin Warren","Harwin Francois","Braelon Bush","Chris Orlina","Zach Scott","Jeremy Harrell","Myles Hutchinson","Ra'Shawn Langston","Evan Palmquist","Luis Rivas"],"rows":[]};
+LINEUPS_ADD["McNeese"] = {"players":["Dru Kuxhausen","A.J. Lawson","KeyShawn Feazell","Carlos Rosario","Collin Warren","Braelon Bush","Chris Orlina","Harwin Francois","Zach Scott","Jeremy Harrell","Ra'Shawn Langston","Myles Hutchinson","Evan Palmquist","Luis Rivas"],"rows":[]};

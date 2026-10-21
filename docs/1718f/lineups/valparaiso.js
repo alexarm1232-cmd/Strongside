@@ -1,1 +1,1 @@
-LINEUPS_ADD["Valparaiso"] = {"players":["Bakari Evelyn","Tevonn Walker","Max Joseph","Markus Golder","Derrik Smits","Jaume Sorolla","Micah Bradford","John Kiser","Mileek McMillan","Joe Burton","Parker Hazen","Marten Linssen"],"rows":[]};
+LINEUPS_ADD["Valparaiso"] = {"players":["Bakari Evelyn","Tevonn Walker","Max Joseph","Markus Golder","Derrik Smits","Micah Bradford","Jaume Sorolla","John Kiser","Mileek McMillan","Joe Burton","Parker Hazen","Marten Linssen"],"rows":[]};

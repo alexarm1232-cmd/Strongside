@@ -1,1 +1,1 @@
-LINEUPS_ADD["CSUN"] = {"players":["Atin Wright","Elijah Hardy","Onyi Eyisi","Christian Gray","Fidelis Okereke","Darius Beane","Kailen Rains","Miles James","Brendan Harrick","Marcel Stevens","Darius Brown II","Miles Brookins","Arman Pezeshkian","Elijah Uche"],"rows":[]};
+LINEUPS_ADD["CSUN"] = {"players":["Atin Wright","Elijah Hardy","Christian Gray","Onyi Eyisi","Fidelis Okereke","Darius Beane","Kailen Rains","Miles James","Brendan Harrick","Marcel Stevens","Darius Brown II","Miles Brookins","Arman Pezeshkian","Elijah Uche"],"rows":[]};

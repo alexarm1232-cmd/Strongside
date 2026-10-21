@@ -1,1 +1,1 @@
-LINEUPS_ADD["Stony Brook"] = {"players":["Bryan Dougher","Tommy Brenton","Muhammad El-Amin","Dallis Joyner","Chris Martin","Marcus Rouse","Eddie Castellanos","Danny Carter","Desmond Adedeji"],"rows":[[30,[0,4,3,2,1],65.84,66,76,64.88,59,74]]};
+LINEUPS_ADD["Stony Brook"] = {"players":["Bryan Dougher","Tommy Brenton","Muhammad El-Amin","Dallis Joyner","Chris Martin","Marcus Rouse","Eddie Castellanos","Danny Carter","Desmond Adedeji"],"rows":[[31,[0,4,3,2,1],65.84,66,76,64.88,59,74]]};

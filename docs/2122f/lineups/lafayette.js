@@ -1,1 +1,1 @@
-LINEUPS_ADD["Lafayette"] = {"players":["Kyle Jenkins","Ty Perry","Neal Quinn","CJ Fulton","Leo O'Boyle","Jon Brantley","Tomas Verbinskis","Chris Rubayo","Eric Sondberg","Devin Hines","Jay Vaughan","Isaiah Thompson","Sean Good","Ryan Zambie"],"rows":[]};
+LINEUPS_ADD["Lafayette"] = {"players":["Kyle Jenkins","Ty Perry","Neal Quinn","CJ Fulton","Leo O'Boyle","Jon Brantley","Tomas Verbinskis","Chris Rubayo","Eric Sondberg","Devin Hines","Jay Vaughan","Isaiah Thompson","Ryan Zambie","Sean Good"],"rows":[]};

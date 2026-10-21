@@ -1,1 +1,1 @@
-LINEUPS_ADD["NIU"] = {"players":["Travon Baker","Darrell Bowie","Aksel Bolin","Jordan Threloff","Aaric Armstead","Aaron Armstead","Daveon Balls","Pete Rakocevic","Kevin Gray","Dontel Highsmith","J.J. Cravatta","Antone Christian","Marin Maric"],"rows":[]};
+LINEUPS_ADD["NIU"] = {"players":["Travon Baker","Darrell Bowie","Aksel Bolin","Jordan Threloff","Aaric Armstead","Aaron Armstead","Daveon Balls","Pete Rakocevic","Dontel Highsmith","Kevin Gray","J.J. Cravatta","Antone Christian","Marin Maric"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["Montana St."] = {"players":["Tyler Hall","Harald Frey","Sam Neumann","Devonte Klines","Zach Green","Quinton Everett","Joe Mvuezolo Jr.","Benson Osayande","Devin Kirby","Mandrell Worthy","Sarp Gobeloglu","Cooper Olson","Dallas Lussier"],"rows":[]};
+LINEUPS_ADD["Montana St."] = {"players":["Tyler Hall","Harald Frey","Sam Neumann","Devonte Klines","Zach Green","Quinton Everett","Joe Mvuezolo Jr.","Benson Osayande","Devin Kirby","Sarp Gobeloglu","Mandrell Worthy","Cooper Olson","Dallas Lussier"],"rows":[]};

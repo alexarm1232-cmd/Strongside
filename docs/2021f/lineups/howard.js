@@ -1,1 +1,1 @@
-LINEUPS_ADD["Howard"] = {"players":["Steve Settle","Sam Green","Khalil Robinson","Kyle Foster","Jordan Wood","Deven Richmond","Rahim Ali, Jr.","Cam Timmons","Makur Maker","Liwayne Richardson","Isaac Suffren","Thomas Weaver","Spencer Hayes"],"rows":[]};
+LINEUPS_ADD["Howard"] = {"players":["Steve Settle","Sam Green","Khalil Robinson","Kyle Foster","Rahim Ali, Jr.","Deven Richmond","Jordan Wood","Cam Timmons","Makur Maker","Isaac Suffren","Liwayne Richardson","Thomas Weaver","Spencer Hayes"],"rows":[]};

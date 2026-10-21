@@ -1,1 +1,1 @@
-LINEUPS_ADD["Alabama St."] = {"players":["TJ Madlock","Isaiah Range","CJ Hines","Micah Octave","Ubong Okon","Sean Smith","Amarr Knox","Eric Coleman Jr.","Jasteven Walker","Kendal Parker","Darrell Reed","D'Ante Bass","Jabari Williams","Londan Coleman"],"rows":[]};
+LINEUPS_ADD["Alabama St."] = {"players":["TJ Madlock","CJ Hines","Isaiah Range","Micah Octave","Ubong Okon","Sean Smith","Amarr Knox","Eric Coleman Jr.","Kendal Parker","Jasteven Walker","Darrell Reed","D'Ante Bass","Jabari Williams","Londan Coleman"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["Butler"] = {"players":["Aaron Thompson","Chuck Harris","Bryce Golden","Jayden Taylor","Bryce Nze","Simas Lukosius","Bo Hodges","Jair Bolden","Ty Groce","Myles Wilmoth","D.J. Hughes","Christian David","John-Michael Mulloy","Myles Tate","Mike Parker"],"rows":[]};
+LINEUPS_ADD["Butler"] = {"players":["Aaron Thompson","Chuck Harris","Jayden Taylor","Bryce Golden","Bryce Nze","Simas Lukosius","Bo Hodges","Jair Bolden","Ty Groce","Myles Wilmoth","D.J. Hughes","Christian David","John-Michael Mulloy","Myles Tate","Mike Parker"],"rows":[]};

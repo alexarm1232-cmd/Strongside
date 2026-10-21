@@ -1,1 +1,1 @@
-LINEUPS_ADD["UTSA"] = {"players":["Jamir Simpson","Dorian Hayes","Brent Moss","Baboucarr Njie","Austin Nunez","Matheo Coffi","Kaidon Rayfield","Daniel Akitoby","LJ Brown","Mo Njie","Macaleab Rich","Pierce Spencer","Stanley Borden","Jackson Fazande"],"rows":[]};
+LINEUPS_ADD["UTSA"] = {"players":["Jamir Simpson","Dorian Hayes","Brent Moss","Baboucarr Njie","Austin Nunez","Matheo Coffi","Kaidon Rayfield","Daniel Akitoby","LJ Brown","Macaleab Rich","Mo Njie","Pierce Spencer","Stanley Borden","Jackson Fazande"],"rows":[]};

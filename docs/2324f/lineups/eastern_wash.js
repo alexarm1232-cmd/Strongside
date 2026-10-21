@@ -1,1 +1,1 @@
-LINEUPS_ADD["Eastern Wash."] = {"players":["Cedric Coward","Jake Kyman","Casey Jones","Ethan Price","Ellis Magnuson","LeJuan Watts","Dane Erikstrup","Sebastian Hartmann","Mason Williams","Andre Mulibea","Vice Zanki","Nic McClain"],"rows":[]};
+LINEUPS_ADD["Eastern Wash."] = {"players":["Cedric Coward","Jake Kyman","Casey Jones","Ethan Price","Ellis Magnuson","LeJuan Watts","Dane Erikstrup","Sebastian Hartmann","Mason Williams","Vice Zanki","Andre Mulibea","Nic McClain"],"rows":[]};

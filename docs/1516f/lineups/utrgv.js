@@ -1,1 +1,1 @@
-LINEUPS_ADD["UTRGV"] = {"players":["Shaquille Hines","Dakota Slaughter","J.J. Thompson","Antonio Green","Dan Kimasa","Everett Osborne","Ot Elmore","Adonis Rwabigwi","Christopher Ikuenobe","Walter Jones","Nick Dixon","Joaquin Pistokache","Rafiki Muhamad","Mike Hoffman"],"rows":[]};
+LINEUPS_ADD["UTRGV"] = {"players":["Shaquille Hines","Dakota Slaughter","J.J. Thompson","Antonio Green","Dan Kimasa","Everett Osborne","Ot Elmore","Adonis Rwabigwi","Walter Jones","Christopher Ikuenobe","Nick Dixon","Joaquin Pistokache","Rafiki Muhamad","Mike Hoffman"],"rows":[]};

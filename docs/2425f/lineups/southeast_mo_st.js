@@ -1,1 +1,1 @@
-LINEUPS_ADD["Southeast Mo. St."] = {"players":["Tedrick Washington","Rob Martin","BJ Ward","Brendan Terry","Braxton Stacker","Troy Cole Jr.","TJ Biel","David Idada","Damarion Walkup","Elliot Lowndes","Marqueas Bell","Saxton Hoepker","Mason Hanback"],"rows":[]};
+LINEUPS_ADD["Southeast Mo. St."] = {"players":["Tedrick Washington","Rob Martin","BJ Ward","Brendan Terry","Troy Cole Jr.","Braxton Stacker","TJ Biel","David Idada","Damarion Walkup","Elliot Lowndes","Marqueas Bell","Saxton Hoepker","Mason Hanback"],"rows":[]};

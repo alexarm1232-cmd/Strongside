@@ -1,1 +1,1 @@
-LINEUPS_ADD["UIC"] = {"players":["Jay Harris","Marc Brown","Ahman Fells","Jake Wiegand","Paris Burns","Markese McGuire","Tai Odiase","Lance Whitaker","D'Juan Miller","Jason McClellan","Gabe Snider","Marcus White","Hans Christian Lauer","Jay Parker"],"rows":[]};
+LINEUPS_ADD["UIC"] = {"players":["Jay Harris","Marc Brown","Ahman Fells","Jake Wiegand","Paris Burns","Markese McGuire","Lance Whitaker","Tai Odiase","D'Juan Miller","Jason McClellan","Gabe Snider","Marcus White","Hans Christian Lauer","Jay Parker"],"rows":[]};

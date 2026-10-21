@@ -1,1 +1,1 @@
-LINEUPS_ADD["Denver"] = {"players":["Tommy Bruner","Justin Mullins","Touko Tainamo","Tevin Smith","Lukas Kisunas","Marko Lukic","Tyree Corbett","Benjamin Bowen","Pedro Lopez Sanvicente","James Sanders","Javonni Bickham","Korey Hess","Dan Mukuna","Carlos Fuentes"],"rows":[]};
+LINEUPS_ADD["Denver"] = {"players":["Tommy Bruner","Justin Mullins","Touko Tainamo","Lukas Kisunas","Tevin Smith","Marko Lukic","Tyree Corbett","Benjamin Bowen","Pedro Lopez Sanvicente","James Sanders","Javonni Bickham","Korey Hess","Dan Mukuna","Carlos Fuentes"],"rows":[]};

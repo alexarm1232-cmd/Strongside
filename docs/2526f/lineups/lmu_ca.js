@@ -1,1 +1,1 @@
-LINEUPS_ADD["LMU (CA)"] = {"players":["Rodney Brown Jr.","Myron Amey Jr.","Aaron McBride","Jalen Shelley","Jan Vide","Rick Issanza","AJ Thomas","Rokas Jocius","Joshua Dalton","Nakyel Shelton","Jael Martin","Kevin Carney","George Tupy","Cooper Smith"],"rows":[]};
+LINEUPS_ADD["LMU (CA)"] = {"players":["Rodney Brown Jr.","Myron Amey Jr.","Aaron McBride","Jalen Shelley","Jan Vide","Rick Issanza","AJ Thomas","Rokas Jocius","Joshua Dalton","Nakyel Shelton","Jael Martin","George Tupy","Kevin Carney","Cooper Smith"],"rows":[]};

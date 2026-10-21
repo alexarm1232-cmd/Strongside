@@ -1,1 +1,1 @@
-LINEUPS_ADD["Utah Valley"] = {"players":["Holton Hunsaker","Ben Aird","Nick Thompson","Jason Johnson","Alfonzo Hubbard","Taylor Brown","Antoine Hosley","Zach Jones","Keawe Enos","Will Sinclair"],"rows":[]};
+LINEUPS_ADD["Utah Valley"] = {"players":["Holton Hunsaker","Nick Thompson","Ben Aird","Jason Johnson","Alfonzo Hubbard","Taylor Brown","Antoine Hosley","Zach Jones","Keawe Enos","Will Sinclair"],"rows":[]};

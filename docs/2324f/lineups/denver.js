@@ -1,1 +1,1 @@
-LINEUPS_ADD["Denver"] = {"players":["Tommy Bruner","Jaxon Brenchley","Touko Tainamo","Isaiah Addo-Ankrah","DeAndre Craig","Pedro Lopez Sanvicente","Isaiah Carr","Tyson Garff","Ben Bowen","Josh Lee","Dan Mukuna","Devin Carney","Drake Muller","Keean Lloyd","Carlos Fuentes"],"rows":[]};
+LINEUPS_ADD["Denver"] = {"players":["Tommy Bruner","Touko Tainamo","Jaxon Brenchley","Isaiah Addo-Ankrah","DeAndre Craig","Pedro Lopez Sanvicente","Isaiah Carr","Tyson Garff","Ben Bowen","Josh Lee","Dan Mukuna","Devin Carney","Drake Muller","Keean Lloyd","Carlos Fuentes"],"rows":[]};

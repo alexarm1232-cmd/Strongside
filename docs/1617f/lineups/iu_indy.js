@@ -1,1 +1,1 @@
-LINEUPS_ADD["IU Indy"] = {"players":["Darell Combs","Matt O'Leary","Kellon Thomas","Ron Patterson","D.J. McCall","Evan Hall","Aaron Brennan","T.J. Henderson","Josh James","Giovanni Fraser","Chad Hudson","Noah Thomas","Grant Sinn"],"rows":[]};
+LINEUPS_ADD["IU Indy"] = {"players":["Darell Combs","Matt O'Leary","Kellon Thomas","Ron Patterson","D.J. McCall","Aaron Brennan","Evan Hall","T.J. Henderson","Josh James","Giovanni Fraser","Chad Hudson","Noah Thomas","Grant Sinn"],"rows":[]};

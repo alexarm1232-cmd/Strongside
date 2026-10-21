@@ -1,1 +1,1 @@
-LINEUPS_ADD["Wofford"] = {"players":["Noah Dahlman","Brad Loesing","Jamar Diggs","Junior Salters","Tim Johnson","Cameron Rundles","Jason Dawson","Terry Martin","Corey Godzinski"],"rows":[[33,[5,2,3,0,7],55.6,49,53,55.6,49,53]]};
+LINEUPS_ADD["Wofford"] = {"players":["Noah Dahlman","Brad Loesing","Jamar Diggs","Junior Salters","Tim Johnson","Cameron Rundles","Jason Dawson","Terry Martin","Corey Godzinski"],"rows":[[34,[5,2,3,0,7],55.6,49,53,55.6,49,53]]};

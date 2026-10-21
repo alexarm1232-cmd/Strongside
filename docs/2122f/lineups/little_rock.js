@@ -1,1 +1,1 @@
-LINEUPS_ADD["Little Rock"] = {"players":["Isaiah Palermo","Jovan Stulic","D.J. Smith","Myron Gardner","CJ White","Jordan Jefferson","Kevin Osawe","Nikola Maric","Marko Lukic","Admir Besovic","DeAntoni Gordon","Marko Andric","Alsean Evans","Terrell Curtis II"],"rows":[]};
+LINEUPS_ADD["Little Rock"] = {"players":["Isaiah Palermo","Jovan Stulic","D.J. Smith","CJ White","Kevin Osawe","Myron Gardner","Jordan Jefferson","Nikola Maric","Marko Lukic","Admir Besovic","DeAntoni Gordon","Marko Andric","Alsean Evans","Terrell Curtis II"],"rows":[]};

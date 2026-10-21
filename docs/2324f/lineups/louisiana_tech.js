@@ -1,1 +1,1 @@
-LINEUPS_ADD["Louisiana Tech"] = {"players":["Isaiah Crawford","Tahlik Chavez","Daniel Batcho","Sean Newman Jr.","Dravon Mangum","Jordan Crawford","Tyler Henry","Jaylin Henderson","Devin Ree","Will Allen","Terri Miller Jr.","Jordan Turner"],"rows":[]};
+LINEUPS_ADD["Louisiana Tech"] = {"players":["Isaiah Crawford","Tahlik Chavez","Sean Newman Jr.","Daniel Batcho","Dravon Mangum","Jordan Crawford","Jaylin Henderson","Tyler Henry","Devin Ree","Will Allen","Terri Miller Jr.","Jordan Turner"],"rows":[]};

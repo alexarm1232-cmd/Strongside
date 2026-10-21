@@ -1,1 +1,1 @@
-LINEUPS_ADD["Middle Tenn."] = {"players":["Eli Lawrence","Camryn Weston","Teafale Lenard","DeAndre Dishman","Elias King","Justin Bufford","Jestin Porter","Tyler Millin","Jared Coleman-Jones","Trevon Smith","Christian Fussell","Tre Green","Jack Jubenville","Isiah Lightsy"],"rows":[]};
+LINEUPS_ADD["Middle Tenn."] = {"players":["Eli Lawrence","Teafale Lenard","Camryn Weston","DeAndre Dishman","Elias King","Justin Bufford","Jestin Porter","Tyler Millin","Jared Coleman-Jones","Trevon Smith","Christian Fussell","Tre Green","Jack Jubenville","Isiah Lightsy"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["Omaha"] = {"players":["Felix Lemetti","Frankie Fidler","Marco Smith","Kyle Luedtke","Darrius Hughes","Akol Arop","Nick Ferrarini","Dylan Brougham","Sam'i Roe","Devin Evans","Wanjang Tut","Isaiah Poor Bear-Chandler","Grant Frickenstein"],"rows":[]};
+LINEUPS_ADD["Omaha"] = {"players":["Felix Lemetti","Frankie Fidler","Marco Smith","Kyle Luedtke","Darrius Hughes","Akol Arop","Nick Ferrarini","Dylan Brougham","Sam'i Roe","Devin Evans","Isaiah Poor Bear-Chandler","Wanjang Tut","Grant Frickenstein"],"rows":[]};

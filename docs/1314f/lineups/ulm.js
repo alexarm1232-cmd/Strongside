@@ -1,1 +1,1 @@
-LINEUPS_ADD["ULM"] = {"players":["Nick Coppola","Tylor Ongwae","Jayon James","Marvin Williams","Chinedu Amajoyi","Demondre Harvey","Amos Olatayo","R.J. McCray","Daniel Grieves","Kyle Koszuta","Millaun Brown","Evan Sims","Leon Carswell II","Colton Ponder"],"rows":[]};
+LINEUPS_ADD["ULM"] = {"players":["Nick Coppola","Tylor Ongwae","Jayon James","Marvin Williams","Amos Olatayo","Demondre Harvey","Chinedu Amajoyi","R.J. McCray","Daniel Grieves","Kyle Koszuta","Millaun Brown","Evan Sims","Leon Carswell II","Colton Ponder"],"rows":[]};

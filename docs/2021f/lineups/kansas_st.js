@@ -1,1 +1,1 @@
-LINEUPS_ADD["Kansas St."] = {"players":["Mike McGuirl","Selton Miguel","Nijel Pack","DaJuan Gordon","Davion Bradford","Antonio Gordon","Rudi Williams","Kaosi Ezeagu","Luke Kasubke","Carlton Linguard, Jr.","Seryee Lewis","Montavious Murphy","Joe Petrakis","Drew Honas"],"rows":[]};
+LINEUPS_ADD["Kansas St."] = {"players":["Mike McGuirl","Nijel Pack","Selton Miguel","DaJuan Gordon","Davion Bradford","Antonio Gordon","Rudi Williams","Kaosi Ezeagu","Luke Kasubke","Carlton Linguard, Jr.","Seryee Lewis","Montavious Murphy","Joe Petrakis","Drew Honas"],"rows":[]};

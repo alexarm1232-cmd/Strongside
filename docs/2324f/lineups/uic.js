@@ -1,1 +1,1 @@
-LINEUPS_ADD["UIC"] = {"players":["Isaiah Rivera","Christian Jones","Toby Okani","Filip Skobalj","Ethan Pickett","Steven Clay","Jaden Brownell","Marquise Kennedy","Yusef Salih","Nathan Ojukwu","Cameron Fens","Andrew King","Ethyn Brown","Grant Welch"],"rows":[]};
+LINEUPS_ADD["UIC"] = {"players":["Isaiah Rivera","Christian Jones","Toby Okani","Filip Skobalj","Ethan Pickett","Steven Clay","Jaden Brownell","Marquise Kennedy","Yusef Salih","Nathan Ojukwu","Cameron Fens","Ethyn Brown","Andrew King","Grant Welch"],"rows":[]};

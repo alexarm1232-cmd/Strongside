@@ -1,1 +1,1 @@
-LINEUPS_ADD["Idaho"] = {"players":["Divant'e Moffitt","Isaac Jones","Yusef Salih","Trey Smith","Nigel Burris","Rashad Smith","Dominique Ford","John Harge","Terren Frank","Michael Hanshaw","RJ Walker","Jack Hatten"],"rows":[]};
+LINEUPS_ADD["Idaho"] = {"players":["Divant'e Moffitt","Isaac Jones","Yusef Salih","Nigel Burris","Trey Smith","Rashad Smith","Dominique Ford","John Harge","Terren Frank","Michael Hanshaw","RJ Walker","Jack Hatten"],"rows":[]};

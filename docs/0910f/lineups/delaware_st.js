@@ -1,1 +1,1 @@
-LINEUPS_ADD["Delaware St."] = {"players":["Jay Threatt","Marcus Neal","Frisco Sandidge","Chad Wilson","Marques Oliver","Greg Smith","Trevor Welcher","Brandon Baylor","Terron Stowe","Alibaba Odd","James Marcellus","Kris Douse"],"rows":[]};
+LINEUPS_ADD["Delaware St."] = {"players":["Jay Threatt","Frisco Sandidge","Marcus Neal","Chad Wilson","Marques Oliver","Greg Smith","Trevor Welcher","Alibaba Odd","Brandon Baylor","Terron Stowe","James Marcellus","Kris Douse"],"rows":[]};

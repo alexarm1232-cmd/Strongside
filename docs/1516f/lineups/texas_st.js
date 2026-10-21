@@ -1,1 +1,1 @@
-LINEUPS_ADD["Texas St."] = {"players":["Ojai Black","Kavin Gilder-Tilbury","Ethan Montalvo","Emani Gant","Cameron Naylor","Anthony Roberson","Bobby Conley","K.J. Malveau","Maljhum McCrea","Kendell Ramlal","D'Angelo West","Courtney Julien","Austin Evans","Nathan Josephs"],"rows":[]};
+LINEUPS_ADD["Texas St."] = {"players":["Ojai Black","Kavin Gilder-Tilbury","Ethan Montalvo","Emani Gant","Cameron Naylor","Anthony Roberson","Bobby Conley","Maljhum McCrea","K.J. Malveau","Kendell Ramlal","D'Angelo West","Courtney Julien","Nathan Josephs","Austin Evans"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["Idaho"] = {"players":["Connor Hill","Mike Scott","Sekou Wiggs","Bira Seck","Perrion Callandret","Arkadiy Mkrtychyan","Paulin Mpawe","Victor Sanders","Ty Egbert","Jordan Scott","Nahshon George","Nate Sherwood","Chad Sherwood"],"rows":[]};
+LINEUPS_ADD["Idaho"] = {"players":["Connor Hill","Mike Scott","Sekou Wiggs","Bira Seck","Perrion Callandret","Arkadiy Mkrtychyan","Paulin Mpawe","Victor Sanders","Ty Egbert","Jordan Scott","Nahshon George","Chad Sherwood","Nate Sherwood"],"rows":[]};

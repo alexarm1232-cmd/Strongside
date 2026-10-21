@@ -1,1 +1,1 @@
-LINEUPS_ADD["The Citadel"] = {"players":["Matt Frierson","Frankie Johnson","Zane Najdawi","Kaelon Harris","Leandro Allende","Quayson Williams","Tariq Simmons","Alexander Reed","Hayden Brown","Rob Johnson","Kaiden Rice","Derek Webster, Jr.","Preston Parks"],"rows":[]};
+LINEUPS_ADD["The Citadel"] = {"players":["Matt Frierson","Frankie Johnson","Zane Najdawi","Kaelon Harris","Leandro Allende","Quayson Williams","Tariq Simmons","Alexander Reed","Hayden Brown","Rob Johnson","Derek Webster, Jr.","Kaiden Rice","Preston Parks"],"rows":[]};

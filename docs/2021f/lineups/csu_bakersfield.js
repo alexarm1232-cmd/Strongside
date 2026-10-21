@@ -1,1 +1,1 @@
-LINEUPS_ADD["CSU Bakersfield"] = {"players":["Czar Perry","Justin Edler-Davis","Justin McCall","Taze Moore","De'Monte Buckingham","Ronne Readus","Shaun Williams","Shawn Stith","Cameron Smith","Travis Henson","Grehlon Easter","Ray Somerville","Jack Schoemann"],"rows":[]};
+LINEUPS_ADD["CSU Bakersfield"] = {"players":["Czar Perry","Justin Edler-Davis","Justin McCall","De'Monte Buckingham","Taze Moore","Ronne Readus","Shaun Williams","Shawn Stith","Cameron Smith","Grehlon Easter","Travis Henson","Ray Somerville","Jack Schoemann"],"rows":[]};

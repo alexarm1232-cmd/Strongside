@@ -1,1 +1,1 @@
-LINEUPS_ADD["Louisiana"] = {"players":["Marcus Stroman","Jakeenan Gant","Cedric Russell","Justin Miller","P.J. Hardy","Jerekius Davis","Trajan Wesley","Malik Marquetti","Jeremy Hayes","R.J. Gladney","Kristian Lafayette","Mason Aucoin","Eli Mouton"],"rows":[]};
+LINEUPS_ADD["Louisiana"] = {"players":["Marcus Stroman","Jakeenan Gant","Cedric Russell","Justin Miller","P.J. Hardy","Jerekius Davis","Trajan Wesley","Malik Marquetti","Jeremy Hayes","Mason Aucoin","Kristian Lafayette","R.J. Gladney","Eli Mouton"],"rows":[]};

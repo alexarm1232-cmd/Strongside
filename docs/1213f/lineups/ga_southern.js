@@ -1,1 +1,1 @@
-LINEUPS_ADD["Ga. Southern"] = {"players":["C.J. Reed","Eric Ferguson","Tr\u00e9 Bussey","Cleon Roberts","Cameron Baskerville","Marvin Baynham","Brian Holmes","Kameron Dunnican","Sam Mike","Jessie Pernell","Chris Daniels","Cole Rives"],"rows":[]};
+LINEUPS_ADD["Ga. Southern"] = {"players":["C.J. Reed","Tr\u00e9 Bussey","Eric Ferguson","Cleon Roberts","Cameron Baskerville","Marvin Baynham","Brian Holmes","Kameron Dunnican","Sam Mike","Chris Daniels","Jessie Pernell","Cole Rives"],"rows":[]};

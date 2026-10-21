@@ -1,1 +1,1 @@
-LINEUPS_ADD["Lafayette"] = {"players":["Mark Butler","Kyle Jenkins","Devin Hines","Justin Vander Baan","Eric Sondberg","Ryan Pettit","Luka Savicevic","Chris Rubayo","Luke Rasmussen","Joshua Wyche","Andrew Phillips","Jon Brantley","Mike Bednostin","Isaiah Thompson"],"rows":[]};
+LINEUPS_ADD["Lafayette"] = {"players":["Mark Butler","Kyle Jenkins","Devin Hines","Justin Vander Baan","Eric Sondberg","Ryan Pettit","Luka Savicevic","Chris Rubayo","Joshua Wyche","Luke Rasmussen","Andrew Phillips","Jon Brantley","Mike Bednostin","Isaiah Thompson"],"rows":[]};

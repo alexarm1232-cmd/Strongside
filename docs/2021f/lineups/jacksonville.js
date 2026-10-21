@@ -1,1 +1,1 @@
-LINEUPS_ADD["Jacksonville"] = {"players":["Tyreese Davis","Mo Arnold","Dontarius James","Trey Sides","Bryce Workman","Kevion Nolan","Corey Romich","Loseni Kamara","Derrick Flowers","Diante Wood","Cameron Boozer","Zameron Boozer","Connor Thompson","Thomas Owen","Nick Erickson"],"rows":[]};
+LINEUPS_ADD["Jacksonville"] = {"players":["Tyreese Davis","Mo Arnold","Dontarius James","Trey Sides","Bryce Workman","Corey Romich","Kevion Nolan","Loseni Kamara","Derrick Flowers","Diante Wood","Cameron Boozer","Zameron Boozer","Connor Thompson","Thomas Owen","Nick Erickson"],"rows":[]};

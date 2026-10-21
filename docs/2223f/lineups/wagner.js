@@ -1,1 +1,1 @@
-LINEUPS_ADD["Wagner"] = {"players":["Delonnie Hunt","Brandon Brown","Javier Ezquerra","Rahmir Moore","Zaire Williams","Jahbril Price-Noel","Keyontae Lewis","Rob Taylor II","Ja'Mier Fletcher","Julian Brown","Darrius Hughes","Jordan Mason","Lavell Brodnex"],"rows":[]};
+LINEUPS_ADD["Wagner"] = {"players":["Delonnie Hunt","Brandon Brown","Javier Ezquerra","Rahmir Moore","Zaire Williams","Jahbril Price-Noel","Keyontae Lewis","Rob Taylor II","Julian Brown","Ja'Mier Fletcher","Darrius Hughes","Jordan Mason","Lavell Brodnex"],"rows":[]};

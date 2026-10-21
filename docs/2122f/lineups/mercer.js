@@ -1,1 +1,1 @@
-LINEUPS_ADD["Mercer"] = {"players":["Felipe Haase","Jalen Johnson","Shawn Walker Jr.","James Glisson III","Kamar Robertson","Jovan Tucker","Jordan Jones","Shannon Grant","Neftali Alvarez","Jacksen Greco","Victor Bafutto","Harrison Drake","Diego Rivera"],"rows":[]};
+LINEUPS_ADD["Mercer"] = {"players":["Felipe Haase","Jalen Johnson","Shawn Walker Jr.","James Glisson III","Kamar Robertson","Jovan Tucker","Jordan Jones","Neftali Alvarez","Shannon Grant","Jacksen Greco","Victor Bafutto","Diego Rivera","Harrison Drake"],"rows":[]};

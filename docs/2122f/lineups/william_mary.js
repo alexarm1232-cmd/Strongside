@@ -1,1 +1,1 @@
-LINEUPS_ADD["William & Mary"] = {"players":["Connor Kochera","Julian Lewis","Tyler Rice","Ben Wight","Yuri Covington","Brandon Carroll","Langdon Hatton","Quinn Blair","Jake Milkereit","Miguel Ayesa","Mehkel Harvey","Rainers Hermanovskis","Austin Washburn","Kurt Samuels Jr."],"rows":[]};
+LINEUPS_ADD["William & Mary"] = {"players":["Connor Kochera","Julian Lewis","Tyler Rice","Ben Wight","Yuri Covington","Brandon Carroll","Langdon Hatton","Quinn Blair","Jake Milkereit","Miguel Ayesa","Rainers Hermanovskis","Mehkel Harvey","Austin Washburn","Kurt Samuels Jr."],"rows":[]};

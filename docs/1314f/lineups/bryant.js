@@ -1,1 +1,1 @@
-LINEUPS_ADD["Bryant"] = {"players":["Alex Francis","Dyami Starks","Corey Maynard","Joe O'Shea","Shane McLaughlin","Dan Garvin","Curtis Oakley","Claybrin McMath","Ellis Williams","Declan Soukup","Bosko Kostur","Tim McKinney","Justin Brickman","Andrew Scocca"],"rows":[]};
+LINEUPS_ADD["Bryant"] = {"players":["Alex Francis","Corey Maynard","Dyami Starks","Joe O'Shea","Shane McLaughlin","Dan Garvin","Curtis Oakley","Claybrin McMath","Ellis Williams","Declan Soukup","Bosko Kostur","Justin Brickman","Tim McKinney","Andrew Scocca"],"rows":[]};

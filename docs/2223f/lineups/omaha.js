@@ -1,1 +1,1 @@
-LINEUPS_ADD["Omaha"] = {"players":["Frankie Fidler","JJ White","Marquel Sutton","Ja'Sean Glover","Luke Jungers","Tony Osburn","Dylan Brougham","Jaeden Marshall","Akol Arop","Kennedy Brown","Kyle Luedtke","La'Mel Robinson","Louis Fidler","Grant Frickenstein","Zander Beard"],"rows":[]};
+LINEUPS_ADD["Omaha"] = {"players":["Frankie Fidler","JJ White","Marquel Sutton","Ja'Sean Glover","Tony Osburn","Luke Jungers","Dylan Brougham","Jaeden Marshall","Akol Arop","Kennedy Brown","Kyle Luedtke","La'Mel Robinson","Louis Fidler","Grant Frickenstein","Zander Beard"],"rows":[]};

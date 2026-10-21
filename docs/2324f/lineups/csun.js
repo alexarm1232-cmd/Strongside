@@ -1,1 +1,1 @@
-LINEUPS_ADD["CSUN"] = {"players":["Dionte Bostick","De'Sean Allen-Eikens","Keonte Jones","Gianni Hunt","Mahmoud Fofana","Jasman Sangha","Dearon Tucker","Jared Barnett","Bryan Ndjonga","Jordan Brinson","Kyle Frelow"],"rows":[]};
+LINEUPS_ADD["CSUN"] = {"players":["Dionte Bostick","De'Sean Allen-Eikens","Keonte Jones","Gianni Hunt","Mahmoud Fofana","Jared Barnett","Jasman Sangha","Dearon Tucker","Bryan Ndjonga","Jordan Brinson","Kyle Frelow"],"rows":[]};

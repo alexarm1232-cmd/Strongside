@@ -1,1 +1,1 @@
-LINEUPS_ADD["NIU"] = {"players":["Makhai Valentine","Gianni Cobb","Dylan Ducommun","Taj Walters","Gustav Winther","Daemar Kelly","Hassan Washington","Jao Ituka","Carlos Coronado Jr.","Jaylen Wharton","Ladji Kante","Isaiah Washington","JJ Taylor","Isaiah Stewart","Max Laskey"],"rows":[]};
+LINEUPS_ADD["NIU"] = {"players":["Makhai Valentine","Gianni Cobb","Dylan Ducommun","Taj Walters","Gustav Winther","Daemar Kelly","Hassan Washington","Jao Ituka","Carlos Coronado Jr.","Ladji Kante","Jaylen Wharton","Isaiah Washington","Isaiah Stewart","JJ Taylor","Max Laskey"],"rows":[]};
