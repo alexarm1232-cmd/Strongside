@@ -1,0 +1,1161 @@
+season,year,team,conf,bid,net,net_rank,pure_seed,our_seed,real_seed,gap,pure_gap,first_four,in
+2009-10,2010,Kansas,Big 12,auto,31.6,1,1,1,1,0,0,,both
+2009-10,2010,Duke,ACC,auto,30.2,2,1,1,1,0,0,,both
+2009-10,2010,Syracuse,Big East,at-large,26.8,3,1,1,1,0,0,,both
+2009-10,2010,Ohio St.,Big Ten,auto,25.3,4,1,1,2,1,1,,both
+2009-10,2010,West Virginia,Big East,auto,24.8,5,2,2,2,0,0,,both
+2009-10,2010,Wisconsin,Big Ten,at-large,24.3,6,2,2,4,2,2,,both
+2009-10,2010,Kentucky,SEC,auto,24.1,7,2,2,1,-1,-1,,both
+2009-10,2010,Georgetown,Big East,at-large,23.6,8,2,2,3,1,1,,both
+2009-10,2010,BYU,Mountain West,at-large,23.2,9,3,3,7,4,4,,both
+2009-10,2010,Kansas St.,Big 12,at-large,23.0,10,3,3,2,-1,-1,,both
+2009-10,2010,Villanova,Big East,at-large,22.7,11,3,3,2,-1,-1,,both
+2009-10,2010,Baylor,Big 12,at-large,22.4,12,3,3,3,0,0,,both
+2009-10,2010,Purdue,Big Ten,at-large,22.4,13,4,4,4,0,0,,both
+2009-10,2010,Maryland,ACC,at-large,22.3,14,4,4,4,0,0,,both
+2009-10,2010,California,Pac-10,at-large,21.3,15,4,4,8,4,4,,both
+2009-10,2010,Texas,Big 12,at-large,21.3,16,4,4,8,4,4,,both
+2009-10,2010,Marquette,Big East,at-large,20.9,17,5,5,6,1,1,,both
+2009-10,2010,Michigan St.,Big Ten,at-large,20.2,18,5,5,5,0,0,,both
+2009-10,2010,Temple,Atlantic 10,auto,20.0,19,5,5,5,0,0,,both
+2009-10,2010,Missouri,Big 12,at-large,19.8,20,5,5,10,5,5,,both
+2009-10,2010,Clemson,ACC,at-large,19.6,21,6,6,7,1,1,,both
+2009-10,2010,Texas A&M,Big 12,at-large,19.5,22,6,6,5,-1,-1,,both
+2009-10,2010,Butler,Horizon,auto,19.0,23,6,6,5,-1,-1,,both
+2009-10,2010,Saint Mary's (CA),WCC,auto,19.0,24,6,6,10,4,4,,both
+2009-10,2010,Minnesota,Big Ten,at-large,19.0,25,7,7,11,4,4,,both
+2009-10,2010,Xavier,Atlantic 10,at-large,18.9,26,7,7,6,-1,-1,,both
+2009-10,2010,Notre Dame,Big East,at-large,18.6,27,7,7,6,-1,-1,,both
+2009-10,2010,Florida St.,ACC,at-large,18.4,28,7,7,9,2,2,,both
+2009-10,2010,Utah St.,WAC,at-large,18.4,29,8,8,12,4,4,,both
+2009-10,2010,Pittsburgh,Big East,at-large,18.4,30,8,8,3,-5,-5,,both
+2009-10,2010,Vanderbilt,SEC,at-large,18.3,31,8,8,4,-4,-4,,both
+2009-10,2010,Georgia Tech,ACC,at-large,17.9,32,8,8,10,2,2,,both
+2009-10,2010,Louisville,Big East,at-large,17.9,33,9,9,9,0,0,,both
+2009-10,2010,Tennessee,SEC,at-large,17.8,34,9,9,6,-3,-3,,both
+2009-10,2010,Washington,Pac-10,auto,17.6,35,9,9,11,2,2,,both
+2009-10,2010,UNI,MVC,auto,17.0,36,9,9,9,0,0,,both
+2009-10,2010,New Mexico,Mountain West,at-large,16.8,37,10,10,3,-7,-7,,both
+2009-10,2010,UTEP,CUSA,at-large,16.6,38,10,10,12,2,2,,both
+2009-10,2010,Dayton,Atlantic 10,at-large,16.5,39,10,,,,,,ours only
+2009-10,2010,Virginia Tech,ACC,at-large,16.5,40,10,,,,,,ours only
+2009-10,2010,Mississippi St.,SEC,at-large,16.4,41,11,,,,,,ours only
+2009-10,2010,UNLV,Mountain West,at-large,16.4,42,11,10,8,-2,-3,,both
+2009-10,2010,Old Dominion,CAA,auto,16.3,43,11,10,11,1,0,,both
+2009-10,2010,Gonzaga,WCC,at-large,16.2,44,11,11,8,-3,-3,,both
+2009-10,2010,Memphis,CUSA,at-large,16.2,45,12,,,,,,ours only
+2009-10,2010,Oklahoma St.,Big 12,at-large,16.0,48,,11,7,-4,,,real only
+2009-10,2010,San Diego St.,Mountain West,auto,15.9,50,12,11,11,0,-1,,both
+2009-10,2010,Florida,SEC,at-large,15.6,51,,11,10,-1,,,real only
+2009-10,2010,Wake Forest,ACC,at-large,15.2,52,,12,9,-3,,,real only
+2009-10,2010,Richmond,Atlantic 10,at-large,15.0,55,,12,7,-5,,,real only
+2009-10,2010,Cornell,Ivy League,auto,13.8,57,12,12,12,0,0,,both
+2009-10,2010,Murray St.,OVC,auto,13.8,59,12,12,13,1,1,,both
+2009-10,2010,Siena,MAAC,auto,12.8,63,13,13,13,0,0,,both
+2009-10,2010,Houston,CUSA,auto,9.1,85,13,13,13,0,0,,both
+2009-10,2010,Wofford,SoCon,auto,8.3,92,13,13,13,0,0,,both
+2009-10,2010,Montana,Big Sky,auto,7.5,96,13,13,14,1,1,,both
+2009-10,2010,Ohio,MAC,auto,7.1,100,14,14,14,0,0,,both
+2009-10,2010,Sam Houston,Southland,auto,5.4,113,14,14,14,0,0,,both
+2009-10,2010,New Mexico St.,WAC,auto,4.6,124,14,14,12,-2,-2,,both
+2009-10,2010,Oakland,Summit League,auto,3.5,131,14,14,14,0,0,,both
+2009-10,2010,Vermont,America East,auto,1.7,149,15,15,16,1,1,,both
+2009-10,2010,UC Santa Barbara,Big West,auto,1.5,154,15,15,15,0,0,,both
+2009-10,2010,ETSU,ASUN,auto,1.4,155,15,15,16,1,1,,both
+2009-10,2010,Morgan St.,MEAC,auto,1.2,157,15,15,15,0,0,,both
+2009-10,2010,North Texas,Sun Belt,auto,-1.0,180,16,16,15,-1,-1,,both
+2009-10,2010,Lehigh,Patriot,auto,-1.9,190,16,16,16,0,0,,both
+2009-10,2010,Robert Morris,NEC,auto,-2.5,200,16,16,15,-1,-1,,both
+2009-10,2010,Winthrop,Big South,auto,-4.3,217,16,16,16,0,0,yes,both
+2009-10,2010,Ark.-Pine Bluff,SWAC,auto,-8.6,256,16,16,16,0,0,yes,both
+2010-11,2011,Ohio St.,Big Ten,auto,31.6,1,1,1,1,0,0,,both
+2010-11,2011,Duke,ACC,auto,29.0,2,1,1,1,0,0,,both
+2010-11,2011,Kansas,Big 12,auto,27.8,3,1,1,1,0,0,,both
+2010-11,2011,Pittsburgh,Big East,at-large,27.1,4,1,1,1,0,0,,both
+2010-11,2011,Texas,Big 12,at-large,26.0,5,2,2,4,2,2,,both
+2010-11,2011,Kentucky,SEC,auto,25.3,6,2,2,4,2,2,,both
+2010-11,2011,Wisconsin,Big Ten,at-large,25.2,7,2,2,4,2,2,,both
+2010-11,2011,Purdue,Big Ten,at-large,24.9,8,2,2,3,1,1,,both
+2010-11,2011,San Diego St.,Mountain West,auto,23.6,9,3,3,2,-1,-1,,both
+2010-11,2011,Notre Dame,Big East,at-large,23.3,10,3,3,2,-1,-1,,both
+2010-11,2011,Louisville,Big East,at-large,22.3,11,3,3,4,1,1,,both
+2010-11,2011,Syracuse,Big East,at-large,22.2,12,3,3,3,0,0,,both
+2010-11,2011,UConn,Big East,auto,21.9,13,4,4,3,-1,-1,,both
+2010-11,2011,BYU,Mountain West,at-large,21.7,14,4,4,3,-1,-1,,both
+2010-11,2011,Washington,Pac-10,auto,21.7,15,4,4,7,3,3,,both
+2010-11,2011,North Carolina,ACC,at-large,20.8,16,4,4,2,-2,-2,,both
+2010-11,2011,West Virginia,Big East,at-large,19.9,17,5,5,5,0,0,,both
+2010-11,2011,Georgetown,Big East,at-large,19.5,18,5,5,6,1,1,,both
+2010-11,2011,Cincinnati,Big East,at-large,19.4,19,5,5,6,1,1,,both
+2010-11,2011,Florida,SEC,at-large,19.4,20,5,5,2,-3,-3,,both
+2010-11,2011,Illinois,Big Ten,at-large,19.3,21,6,6,9,3,3,,both
+2010-11,2011,Vanderbilt,SEC,at-large,18.3,22,6,6,5,-1,-1,,both
+2010-11,2011,Utah St.,WAC,auto,18.2,23,6,6,12,6,6,,both
+2010-11,2011,Villanova,Big East,at-large,18.1,24,6,6,9,3,3,,both
+2010-11,2011,Arizona,Pac-10,at-large,17.9,25,7,7,5,-2,-2,,both
+2010-11,2011,Marquette,Big East,at-large,17.8,26,7,7,11,4,4,,both
+2010-11,2011,UNLV,Mountain West,at-large,17.6,27,7,7,8,1,1,,both
+2010-11,2011,Clemson,ACC,at-large,17.3,28,7,7,12,5,5,,both
+2010-11,2011,Belmont,ASUN,auto,17.3,29,8,8,13,5,5,,both
+2010-11,2011,George Mason,CAA,at-large,17.1,30,8,8,8,0,0,,both
+2010-11,2011,Kansas St.,Big 12,at-large,17.0,31,8,8,5,-3,-3,,both
+2010-11,2011,Missouri,Big 12,at-large,16.7,32,8,8,11,3,3,,both
+2010-11,2011,St. John's (NY),Big East,at-large,16.4,33,9,9,6,-3,-3,,both
+2010-11,2011,Virginia Tech,ACC,at-large,16.4,34,9,,,,,,ours only
+2010-11,2011,Temple,Atlantic 10,at-large,16.2,35,9,9,7,-2,-2,,both
+2010-11,2011,Maryland,ACC,at-large,16.1,36,9,,,,,,ours only
+2010-11,2011,Texas A&M,Big 12,at-large,16.0,37,10,9,7,-2,-3,,both
+2010-11,2011,Gonzaga,WCC,auto,15.8,38,10,9,11,2,1,,both
+2010-11,2011,Michigan,Big Ten,at-large,15.5,39,10,10,8,-2,-2,,both
+2010-11,2011,Michigan St.,Big Ten,at-large,15.3,40,10,10,10,0,0,,both
+2010-11,2011,Xavier,Atlantic 10,at-large,15.1,41,11,10,6,-4,-5,,both
+2010-11,2011,Saint Mary's (CA),WCC,at-large,15.0,42,11,,,,,,ours only
+2010-11,2011,Richmond,Atlantic 10,auto,14.7,43,11,10,12,2,1,,both
+2010-11,2011,Washington St.,Pac-10,at-large,14.5,44,11,,,,,,ours only
+2010-11,2011,Butler,Horizon,auto,14.4,45,12,11,8,-3,-4,,both
+2010-11,2011,Penn St.,Big Ten,at-large,14.3,46,12,11,10,-1,-2,,both
+2010-11,2011,Tennessee,SEC,at-large,14.2,47,12,11,9,-2,-3,,both
+2010-11,2011,Florida St.,ACC,at-large,14.2,48,12,11,10,-1,-2,,both
+2010-11,2011,Southern California,Pac-10,at-large,13.9,49,12,12,11,-1,-1,,both
+2010-11,2011,UCLA,Pac-10,at-large,13.8,51,,12,7,-5,,yes,real only
+2010-11,2011,Old Dominion,CAA,auto,13.6,52,12,12,9,-3,-3,,both
+2010-11,2011,Georgia,SEC,at-large,13.0,57,,12,10,-2,,yes,real only
+2010-11,2011,UAB,CUSA,at-large,12.4,62,,12,12,0,,yes,real only
+2010-11,2011,Oakland,Summit League,auto,11.3,66,13,13,13,0,0,,both
+2010-11,2011,VCU,CAA,at-large,9.0,80,,12,11,-1,,yes,real only
+2010-11,2011,Princeton,Ivy League,auto,8.0,84,13,13,13,0,0,,both
+2010-11,2011,Wofford,SoCon,auto,6.6,93,13,13,14,1,1,,both
+2010-11,2011,Memphis,CUSA,auto,6.5,97,13,13,12,-1,-1,,both
+2010-11,2011,Bucknell,Patriot,auto,6.1,101,14,14,14,0,0,,both
+2010-11,2011,Morehead St.,OVC,auto,5.9,103,14,14,13,-1,-1,,both
+2010-11,2011,LIU,NEC,auto,5.2,108,14,14,15,1,1,,both
+2010-11,2011,Indiana St.,MVC,auto,5.0,114,14,14,14,0,0,,both
+2010-11,2011,Northern Colo.,Big Sky,auto,4.1,120,15,15,15,0,0,,both
+2010-11,2011,Akron,MAC,auto,3.6,124,15,15,15,0,0,,both
+2010-11,2011,UC Santa Barbara,Big West,auto,3.3,130,15,15,15,0,0,,both
+2010-11,2011,UNC Asheville,Big South,auto,2.5,141,15,15,16,1,1,,both
+2010-11,2011,Saint Peter's,MAAC,auto,1.8,148,16,16,14,-2,-2,,both
+2010-11,2011,Boston U.,America East,auto,-0.5,169,16,16,16,0,0,,both
+2010-11,2011,Hampton,MEAC,auto,-3.6,205,16,16,16,0,0,yes,both
+2010-11,2011,Little Rock,Sun Belt,auto,-3.9,208,16,16,16,0,0,yes,both
+2010-11,2011,UTSA,Southland,auto,-5.3,230,16,16,16,0,0,yes,both
+2010-11,2011,Alabama St.,SWAC,auto,-14.5,313,16,16,16,0,0,yes,both
+2011-12,2012,Kentucky,SEC,at-large,30.4,1,1,1,1,0,0,,both
+2011-12,2012,Ohio St.,Big Ten,at-large,29.6,2,1,1,2,1,1,,both
+2011-12,2012,Michigan St.,Big Ten,auto,27.8,3,1,1,1,0,0,,both
+2011-12,2012,Missouri,Big 12,auto,26.7,4,1,1,2,1,1,,both
+2011-12,2012,Kansas,Big 12,at-large,26.3,5,2,2,2,0,0,,both
+2011-12,2012,North Carolina,ACC,at-large,25.5,6,2,2,1,-1,-1,,both
+2011-12,2012,Syracuse,Big East,at-large,24.8,7,2,2,1,-1,-1,,both
+2011-12,2012,Wisconsin,Big Ten,at-large,23.1,8,2,2,4,2,2,,both
+2011-12,2012,Indiana,Big Ten,at-large,22.3,9,3,3,4,1,1,,both
+2011-12,2012,Baylor,Big 12,at-large,22.1,10,3,3,3,0,0,,both
+2011-12,2012,Wichita St.,MVC,at-large,21.8,11,3,3,5,2,2,,both
+2011-12,2012,Memphis,CUSA,auto,21.4,12,3,3,8,5,5,,both
+2011-12,2012,Duke,ACC,at-large,20.8,13,4,4,2,-2,-2,,both
+2011-12,2012,Florida,SEC,at-large,20.5,14,4,4,7,3,3,,both
+2011-12,2012,Georgetown,Big East,at-large,20.3,15,4,4,3,-1,-1,,both
+2011-12,2012,Vanderbilt,SEC,auto,19.9,16,4,4,5,1,1,,both
+2011-12,2012,Saint Louis,Atlantic 10,at-large,19.2,17,5,5,9,4,4,,both
+2011-12,2012,New Mexico,Mountain West,auto,19.1,18,5,5,5,0,0,,both
+2011-12,2012,Louisville,Big East,auto,19.0,19,5,5,4,-1,-1,,both
+2011-12,2012,Marquette,Big East,at-large,18.6,20,5,5,3,-2,-2,,both
+2011-12,2012,Kansas St.,Big 12,at-large,18.5,21,6,6,8,2,2,,both
+2011-12,2012,Michigan,Big Ten,at-large,18.1,22,6,6,4,-2,-2,,both
+2011-12,2012,Florida St.,ACC,auto,18.1,23,6,6,3,-3,-3,,both
+2011-12,2012,Texas,Big 12,at-large,17.4,24,6,6,11,5,5,,both
+2011-12,2012,Virginia,ACC,at-large,17.1,25,7,7,10,3,3,,both
+2011-12,2012,Gonzaga,WCC,at-large,17.1,26,7,7,7,0,0,,both
+2011-12,2012,Alabama,SEC,at-large,16.7,27,7,7,9,2,2,,both
+2011-12,2012,Creighton,MVC,auto,16.7,28,7,7,8,1,1,,both
+2011-12,2012,UNLV,Mountain West,at-large,16.6,29,8,8,6,-2,-2,,both
+2011-12,2012,Purdue,Big Ten,at-large,16.4,30,8,8,10,2,2,,both
+2011-12,2012,Iowa St.,Big 12,at-large,16.2,31,8,8,8,0,0,,both
+2011-12,2012,California,Pac-12,at-large,16.1,32,8,8,12,4,4,,both
+2011-12,2012,Belmont,ASUN,auto,16.0,33,9,9,14,5,5,,both
+2011-12,2012,Temple,Atlantic 10,at-large,15.1,34,9,9,5,-4,-4,,both
+2011-12,2012,UConn,Big East,at-large,14.8,35,9,9,9,0,0,,both
+2011-12,2012,Saint Mary's (CA),WCC,auto,14.7,36,9,9,7,-2,-2,,both
+2011-12,2012,Long Beach St.,Big West,auto,14.6,37,10,10,12,2,2,,both
+2011-12,2012,Cincinnati,Big East,at-large,14.5,38,10,10,6,-4,-4,,both
+2011-12,2012,Harvard,Ivy League,auto,14.1,39,10,10,12,2,2,,both
+2011-12,2012,Murray St.,OVC,auto,14.0,40,10,10,6,-4,-4,,both
+2011-12,2012,West Virginia,Big East,at-large,13.9,41,11,11,10,-1,-1,,both
+2011-12,2012,Notre Dame,Big East,at-large,13.8,42,11,11,7,-4,-4,,both
+2011-12,2012,Miami (FL),ACC,at-large,13.8,43,11,,,,,,ours only
+2011-12,2012,NC State,ACC,at-large,13.3,44,11,11,11,0,0,,both
+2011-12,2012,Seton Hall,Big East,at-large,13.3,45,12,,,,,,ours only
+2011-12,2012,Middle Tenn.,Sun Belt,at-large,12.6,46,12,,,,,,ours only
+2011-12,2012,VCU,CAA,auto,12.5,48,12,11,12,1,0,,both
+2011-12,2012,Minnesota,Big Ten,at-large,12.5,47,12,,,,,,ours only
+2011-12,2012,BYU,WCC,at-large,12.5,49,12,12,14,2,2,,both
+2011-12,2012,Arizona,Pac-12,at-large,12.4,50,13,,,,,,ours only
+2011-12,2012,San Diego St.,Mountain West,at-large,12.1,51,13,12,6,-6,-7,,both
+2011-12,2012,Xavier,Atlantic 10,at-large,11.5,53,,12,10,-2,,,real only
+2011-12,2012,Southern Miss.,CUSA,at-large,10.9,59,,12,9,-3,,yes,real only
+2011-12,2012,Iona,MAAC,at-large,10.8,60,,12,14,2,,yes,real only
+2011-12,2012,South Fla.,Big East,at-large,10.7,63,,13,12,-1,,yes,real only
+2011-12,2012,St. Bonaventure,Atlantic 10,auto,10.7,62,13,13,14,1,1,,both
+2011-12,2012,Ohio,MAC,auto,10.6,64,13,13,13,0,0,,both
+2011-12,2012,New Mexico St.,WAC,auto,10.6,65,13,13,13,0,0,,both
+2011-12,2012,Davidson,SoCon,auto,10.3,68,14,14,13,-1,-1,,both
+2011-12,2012,South Dakota St.,Summit League,auto,9.7,75,14,14,14,0,0,,both
+2011-12,2012,Colorado St.,Mountain West,at-large,8.7,83,,13,11,-2,,yes,real only
+2011-12,2012,Lehigh,Patriot,auto,8.5,85,14,14,15,1,1,,both
+2011-12,2012,Colorado,Pac-12,auto,7.9,92,14,14,11,-3,-3,,both
+2011-12,2012,Lamar University,Southland,auto,6.5,102,15,15,16,1,1,,both
+2011-12,2012,Montana,Big Sky,auto,5.8,108,15,15,13,-2,-2,,both
+2011-12,2012,UNC Asheville,Big South,auto,5.2,116,15,15,16,1,1,,both
+2011-12,2012,Detroit Mercy,Horizon,auto,4.5,119,15,15,15,0,0,,both
+2011-12,2012,Vermont,America East,auto,2.8,140,16,16,16,0,0,,both
+2011-12,2012,Loyola Maryland,MAAC,auto,2.5,144,16,16,15,-1,-1,,both
+2011-12,2012,LIU,NEC,auto,0.2,166,16,16,16,0,0,yes,both
+2011-12,2012,Western Ky.,Sun Belt,auto,-2.6,198,16,16,16,0,0,yes,both
+2011-12,2012,Norfolk St.,MEAC,auto,-3.1,204,16,16,15,-1,-1,yes,both
+2011-12,2012,Mississippi Val.,SWAC,auto,-6.9,246,16,16,16,0,0,yes,both
+2012-13,2013,Florida,SEC,at-large,30.5,1,1,1,3,2,2,,both
+2012-13,2013,Indiana,Big Ten,at-large,29.3,2,1,1,1,0,0,,both
+2012-13,2013,Louisville,Big East,auto,28.7,3,1,1,1,0,0,,both
+2012-13,2013,Gonzaga,WCC,auto,27.2,4,1,1,1,0,0,,both
+2012-13,2013,Duke,ACC,at-large,26.1,5,2,2,2,0,0,,both
+2012-13,2013,Kansas,Big 12,auto,25.1,6,2,2,1,-1,-1,,both
+2012-13,2013,Michigan,Big Ten,at-large,24.4,7,2,2,4,2,2,,both
+2012-13,2013,Pittsburgh,Big East,at-large,24.4,8,2,2,8,6,6,,both
+2012-13,2013,Ohio St.,Big Ten,auto,23.9,9,3,3,2,-1,-1,,both
+2012-13,2013,Michigan St.,Big Ten,at-large,22.9,10,3,3,3,0,0,,both
+2012-13,2013,Wisconsin,Big Ten,at-large,22.7,11,3,3,5,2,2,,both
+2012-13,2013,Syracuse,Big East,at-large,22.2,12,3,3,4,1,1,,both
+2012-13,2013,Miami (FL),ACC,auto,21.1,13,4,4,2,-2,-2,,both
+2012-13,2013,Creighton,MVC,auto,21.1,14,4,4,7,3,3,,both
+2012-13,2013,Georgetown,Big East,at-large,20.9,15,4,4,2,-2,-2,,both
+2012-13,2013,Arizona,Pac-12,at-large,20.8,16,4,4,6,2,2,,both
+2012-13,2013,Oklahoma St.,Big 12,at-large,19.6,17,5,5,5,0,0,,both
+2012-13,2013,VCU,Atlantic 10,at-large,19.2,18,5,5,5,0,0,,both
+2012-13,2013,Colorado St.,Mountain West,at-large,19.2,19,5,5,8,3,3,,both
+2012-13,2013,Saint Louis,Atlantic 10,auto,19.1,20,5,5,4,-1,-1,,both
+2012-13,2013,New Mexico,Mountain West,auto,18.9,21,6,6,3,-3,-3,,both
+2012-13,2013,Minnesota,Big Ten,at-large,18.9,22,6,6,11,5,5,,both
+2012-13,2013,Missouri,SEC,at-large,18.6,23,6,6,9,3,3,,both
+2012-13,2013,Kansas St.,Big 12,at-large,18.2,24,6,6,4,-2,-2,,both
+2012-13,2013,San Diego St.,Mountain West,at-large,18.1,25,7,7,7,0,0,,both
+2012-13,2013,Marquette,Big East,at-large,18.0,26,7,7,3,-4,-4,,both
+2012-13,2013,Saint Mary's (CA),WCC,at-large,17.7,27,7,7,11,4,4,,both
+2012-13,2013,NC State,ACC,at-large,17.5,28,7,7,8,1,1,,both
+2012-13,2013,UNLV,Mountain West,at-large,17.5,30,8,8,5,-3,-3,,both
+2012-13,2013,Notre Dame,Big East,at-large,17.5,29,8,8,7,-1,-1,,both
+2012-13,2013,Wichita St.,MVC,at-large,17.1,31,8,8,9,1,1,,both
+2012-13,2013,Iowa St.,Big 12,at-large,16.5,32,8,8,10,2,2,,both
+2012-13,2013,Ole Miss,SEC,auto,16.4,33,9,9,12,3,3,,both
+2012-13,2013,North Carolina,ACC,at-large,16.4,34,9,9,8,-1,-1,,both
+2012-13,2013,Cincinnati,Big East,at-large,16.3,35,9,9,10,1,1,,both
+2012-13,2013,Virginia,ACC,at-large,16.2,36,9,,,,,,ours only
+2012-13,2013,Baylor,Big 12,at-large,16.1,37,10,,,,,,ours only
+2012-13,2013,Iowa,Big Ten,at-large,16.1,38,10,,,,,,ours only
+2012-13,2013,Memphis,CUSA,auto,15.9,39,10,9,6,-3,-4,,both
+2012-13,2013,Illinois,Big Ten,at-large,15.2,40,10,10,7,-3,-3,,both
+2012-13,2013,UCLA,Pac-12,at-large,15.2,41,11,10,6,-4,-5,,both
+2012-13,2013,Stanford,Pac-12,at-large,15.2,42,11,,,,,,ours only
+2012-13,2013,Oregon,Pac-12,auto,14.9,43,11,10,12,2,1,,both
+2012-13,2013,Butler,Atlantic 10,at-large,14.9,44,11,10,6,-4,-5,,both
+2012-13,2013,Colorado,Pac-12,at-large,14.8,45,12,11,10,-1,-2,,both
+2012-13,2013,Middle Tenn.,Sun Belt,at-large,14.8,46,12,11,11,0,-1,,both
+2012-13,2013,Belmont,OVC,auto,14.8,47,12,11,11,0,-1,,both
+2012-13,2013,Boise St.,Mountain West,at-large,14.4,48,12,11,13,2,1,,both
+2012-13,2013,Oklahoma,Big 12,at-large,14.0,49,12,12,10,-2,-2,,both
+2012-13,2013,Akron,MAC,auto,12.9,53,12,12,12,0,0,,both
+2012-13,2013,Villanova,Big East,at-large,12.8,54,,12,9,-3,,yes,real only
+2012-13,2013,Bucknell,Patriot,auto,12.7,55,13,12,11,-1,-2,,both
+2012-13,2013,California,Pac-12,at-large,12.6,56,,12,12,0,,yes,real only
+2012-13,2013,La Salle,Atlantic 10,at-large,12.3,58,,13,13,0,,yes,real only
+2012-13,2013,Temple,Atlantic 10,at-large,12.0,59,,13,9,-4,,yes,real only
+2012-13,2013,Valparaiso,Horizon,auto,10.9,64,13,13,14,1,1,,both
+2012-13,2013,Davidson,SoCon,auto,9.3,75,13,13,14,1,1,,both
+2012-13,2013,New Mexico St.,WAC,auto,7.7,87,13,13,13,0,0,,both
+2012-13,2013,Iona,MAAC,auto,7.1,96,14,14,15,1,1,,both
+2012-13,2013,Harvard,Ivy League,auto,6.6,101,14,14,14,0,0,,both
+2012-13,2013,South Dakota St.,Summit League,auto,5.0,115,14,14,13,-1,-1,,both
+2012-13,2013,Pacific,Big West,auto,5.0,117,14,14,15,1,1,,both
+2012-13,2013,Northwestern St.,Southland,auto,2.9,134,15,15,14,-1,-1,,both
+2012-13,2013,FGCU,ASUN,auto,2.8,135,15,15,15,0,0,,both
+2012-13,2013,Montana,Big Sky,auto,1.8,144,15,15,13,-2,-2,,both
+2012-13,2013,UAlbany,America East,auto,0.8,154,15,15,15,0,0,,both
+2012-13,2013,Western Ky.,Sun Belt,auto,-0.1,170,16,16,16,0,0,,both
+2012-13,2013,Southern U.,SWAC,auto,-0.6,174,16,16,16,0,0,,both
+2012-13,2013,LIU,NEC,auto,-1.5,185,16,16,16,0,0,yes,both
+2012-13,2013,James Madison,CAA,auto,-1.6,187,16,16,16,0,0,yes,both
+2012-13,2013,N.C. A&T,MEAC,auto,-5.4,229,16,16,16,0,0,yes,both
+2012-13,2013,Liberty,Big South,auto,-9.6,270,16,16,16,0,0,yes,both
+2013-14,2014,Louisville,American,auto,29.4,1,1,1,4,3,3,,both
+2013-14,2014,Arizona,Pac-12,at-large,28.6,2,1,1,1,0,0,,both
+2013-14,2014,Florida,SEC,auto,27.0,3,1,1,1,0,0,,both
+2013-14,2014,Kansas,Big 12,at-large,24.9,4,1,1,2,1,1,,both
+2013-14,2014,Virginia,ACC,auto,24.8,5,2,2,1,-1,-1,,both
+2013-14,2014,Villanova,Big East,at-large,24.5,6,2,2,2,0,0,,both
+2013-14,2014,Creighton,Big East,at-large,24.4,7,2,2,3,1,1,,both
+2013-14,2014,Duke,ACC,at-large,24.3,8,2,2,3,1,1,,both
+2013-14,2014,Wichita St.,MVC,auto,23.9,9,3,3,1,-2,-2,,both
+2013-14,2014,Michigan St.,Big Ten,auto,23.9,10,3,3,4,1,1,,both
+2013-14,2014,Wisconsin,Big Ten,at-large,23.7,11,3,3,2,-1,-1,,both
+2013-14,2014,Ohio St.,Big Ten,at-large,22.3,12,3,3,6,3,3,,both
+2013-14,2014,Michigan,Big Ten,at-large,22.3,13,4,4,2,-2,-2,,both
+2013-14,2014,Pittsburgh,ACC,at-large,22.2,14,4,4,9,5,5,,both
+2013-14,2014,Iowa,Big Ten,at-large,21.8,15,4,4,11,7,7,,both
+2013-14,2014,Syracuse,ACC,at-large,21.8,16,4,4,3,-1,-1,,both
+2013-14,2014,UCLA,Pac-12,auto,21.7,17,5,5,4,-1,-1,,both
+2013-14,2014,Oklahoma St.,Big 12,at-large,21.6,18,5,5,9,4,4,,both
+2013-14,2014,Kentucky,SEC,at-large,21.2,19,5,5,8,3,3,,both
+2013-14,2014,Tennessee,SEC,at-large,21.2,20,5,5,11,6,6,,both
+2013-14,2014,Iowa St.,Big 12,auto,21.1,21,6,6,3,-3,-3,,both
+2013-14,2014,Gonzaga,WCC,auto,19.3,22,6,6,8,2,2,,both
+2013-14,2014,Cincinnati,American,at-large,19.0,23,6,6,5,-1,-1,,both
+2013-14,2014,UConn,American,at-large,19.0,24,6,6,7,1,1,,both
+2013-14,2014,San Diego St.,Mountain West,at-large,18.9,25,7,7,4,-3,-3,,both
+2013-14,2014,Oklahoma,Big 12,at-large,18.9,26,7,7,5,-2,-2,,both
+2013-14,2014,Oregon,Pac-12,at-large,18.8,27,7,7,7,0,0,,both
+2013-14,2014,VCU,Atlantic 10,at-large,18.6,28,7,7,5,-2,-2,,both
+2013-14,2014,North Carolina,ACC,at-large,18.5,29,8,8,6,-2,-2,,both
+2013-14,2014,Baylor,Big 12,at-large,18.0,30,8,8,6,-2,-2,,both
+2013-14,2014,SMU,American,at-large,17.2,31,8,,,,,,ours only
+2013-14,2014,New Mexico,Mountain West,auto,16.7,32,8,8,7,-1,-1,,both
+2013-14,2014,Utah,Pac-12,at-large,16.2,33,9,,,,,,ours only
+2013-14,2014,Florida St.,ACC,at-large,16.0,34,9,,,,,,ours only
+2013-14,2014,Stanford,Pac-12,at-large,15.9,36,9,8,10,2,1,,both
+2013-14,2014,St. John's (NY),Big East,at-large,15.9,35,9,,,,,,ours only
+2013-14,2014,Saint Louis,Atlantic 10,at-large,15.5,37,10,9,5,-4,-5,,both
+2013-14,2014,Xavier,Big East,at-large,15.4,39,10,9,12,3,2,,both
+2013-14,2014,Memphis,American,at-large,15.4,38,10,9,8,-1,-2,,both
+2013-14,2014,Harvard,Ivy League,auto,15.4,40,10,9,12,3,2,,both
+2013-14,2014,Arizona St.,Pac-12,at-large,15.3,41,11,10,10,0,-1,,both
+2013-14,2014,Texas,Big 12,at-large,14.7,42,11,10,7,-3,-4,,both
+2013-14,2014,Providence,Big East,auto,14.7,43,11,10,11,1,0,,both
+2013-14,2014,Massachusetts,Atlantic 10,at-large,14.5,44,11,10,6,-4,-5,,both
+2013-14,2014,Arkansas,SEC,at-large,14.4,45,11,,,,,,ours only
+2013-14,2014,BYU,WCC,at-large,14.3,46,12,11,10,-1,-2,,both
+2013-14,2014,Kansas St.,Big 12,at-large,14.2,47,12,11,9,-2,-3,,both
+2013-14,2014,George Washington,Atlantic 10,at-large,13.8,49,,11,9,-2,,,real only
+2013-14,2014,Nebraska,Big Ten,at-large,13.1,54,,11,11,0,,yes,real only
+2013-14,2014,Colorado,Pac-12,at-large,12.8,56,,11,8,-3,,yes,real only
+2013-14,2014,Dayton,Atlantic 10,at-large,12.6,58,,12,11,-1,,yes,real only
+2013-14,2014,Saint Joseph's,Atlantic 10,auto,12.2,62,12,12,10,-2,-2,,both
+2013-14,2014,NC State,ACC,at-large,11.3,67,,12,12,0,,yes,real only
+2013-14,2014,North Dakota St.,Summit League,auto,11.2,68,12,12,12,0,0,,both
+2013-14,2014,SFA,Southland,auto,9.4,75,12,12,12,0,0,,both
+2013-14,2014,New Mexico St.,WAC,auto,9.3,76,13,13,13,0,0,,both
+2013-14,2014,Tulsa,CUSA,auto,8.5,85,13,13,13,0,0,,both
+2013-14,2014,Manhattan,MAAC,auto,8.3,88,13,13,13,0,0,,both
+2013-14,2014,Mercer,ASUN,auto,6.8,99,13,13,14,1,1,,both
+2013-14,2014,N.C. Central,MEAC,auto,6.7,103,14,14,14,0,0,,both
+2013-14,2014,Delaware,CAA,auto,5.5,111,14,14,13,-1,-1,,both
+2013-14,2014,Louisiana,Sun Belt,auto,4.8,118,14,14,14,0,0,,both
+2013-14,2014,American,Patriot,auto,4.3,123,14,14,15,1,1,,both
+2013-14,2014,Western Mich.,MAC,auto,3.7,128,15,15,14,-1,-1,,both
+2013-14,2014,Eastern Ky.,OVC,auto,3.1,132,15,15,15,0,0,,both
+2013-14,2014,Milwaukee,Horizon,auto,0.5,164,15,15,15,0,0,,both
+2013-14,2014,Weber St.,Big Sky,auto,-0.1,169,15,15,16,1,1,,both
+2013-14,2014,Cal Poly,Big West,auto,-0.3,171,16,16,16,0,0,,both
+2013-14,2014,UAlbany,America East,auto,-2.7,197,16,16,16,0,0,,both
+2013-14,2014,Wofford,SoCon,auto,-3.4,207,16,16,15,-1,-1,yes,both
+2013-14,2014,Mount St. Mary's,NEC,auto,-4.9,222,16,16,16,0,0,yes,both
+2013-14,2014,Coastal Carolina,Big South,auto,-5.4,229,16,16,16,0,0,yes,both
+2013-14,2014,Texas Southern,SWAC,auto,-7.5,259,16,16,16,0,0,yes,both
+2014-15,2015,Kentucky,SEC,auto,37.1,1,1,1,1,0,0,,both
+2014-15,2015,Wisconsin,Big Ten,auto,32.1,2,1,1,1,0,0,,both
+2014-15,2015,Arizona,Pac-12,auto,30.5,3,1,1,2,1,1,,both
+2014-15,2015,Virginia,ACC,at-large,30.3,4,1,1,2,1,1,,both
+2014-15,2015,Villanova,Big East,auto,29.6,5,2,2,1,-1,-1,,both
+2014-15,2015,Duke,ACC,at-large,29.1,6,2,2,1,-1,-1,,both
+2014-15,2015,Gonzaga,WCC,auto,28.7,7,2,2,2,0,0,,both
+2014-15,2015,Utah,Pac-12,at-large,25.9,8,2,2,5,3,3,,both
+2014-15,2015,North Carolina,ACC,at-large,24.5,9,3,3,4,1,1,,both
+2014-15,2015,Oklahoma,Big 12,at-large,24.1,10,3,3,3,0,0,,both
+2014-15,2015,Notre Dame,ACC,auto,23.6,11,3,3,3,0,0,,both
+2014-15,2015,Kansas,Big 12,at-large,23.1,12,3,3,2,-1,-1,,both
+2014-15,2015,Baylor,Big 12,at-large,22.7,13,4,4,3,-1,-1,,both
+2014-15,2015,Iowa St.,Big 12,auto,22.3,14,4,4,3,-1,-1,,both
+2014-15,2015,Ohio St.,Big Ten,at-large,21.6,15,4,4,10,6,6,,both
+2014-15,2015,Louisville,ACC,at-large,21.0,16,4,4,4,0,0,,both
+2014-15,2015,Michigan St.,Big Ten,at-large,20.8,17,5,5,7,2,2,,both
+2014-15,2015,Wichita St.,MVC,at-large,20.6,18,5,5,7,2,2,,both
+2014-15,2015,Texas,Big 12,at-large,20.4,19,5,5,11,6,6,,both
+2014-15,2015,UNI,MVC,auto,19.8,20,5,5,5,0,0,,both
+2014-15,2015,Butler,Big East,at-large,19.4,21,6,6,6,0,0,,both
+2014-15,2015,Georgetown,Big East,at-large,19.3,22,6,6,4,-2,-2,,both
+2014-15,2015,Xavier,Big East,at-large,18.7,23,6,6,6,0,0,,both
+2014-15,2015,West Virginia,Big 12,at-large,18.2,24,6,6,5,-1,-1,,both
+2014-15,2015,Iowa,Big Ten,at-large,17.9,25,7,7,7,0,0,,both
+2014-15,2015,Providence,Big East,at-large,17.3,26,7,7,6,-1,-1,,both
+2014-15,2015,BYU,WCC,at-large,17.2,27,7,7,11,4,4,,both
+2014-15,2015,Arkansas,SEC,at-large,17.1,28,7,7,5,-2,-2,,both
+2014-15,2015,VCU,Atlantic 10,auto,16.8,29,8,8,7,-1,-1,,both
+2014-15,2015,SMU,American,auto,16.7,30,8,8,6,-2,-2,,both
+2014-15,2015,Maryland,Big Ten,at-large,16.2,31,8,8,4,-4,-4,,both
+2014-15,2015,Oklahoma St.,Big 12,at-large,16.1,32,8,8,9,1,1,,both
+2014-15,2015,NC State,ACC,at-large,15.8,33,9,9,8,-1,-1,,both
+2014-15,2015,Florida,SEC,at-large,15.7,34,9,,,,,,ours only
+2014-15,2015,Georgia,SEC,at-large,15.7,36,9,9,10,1,1,,both
+2014-15,2015,Davidson,Atlantic 10,at-large,15.7,35,9,9,10,1,1,,both
+2014-15,2015,Ole Miss,SEC,at-large,15.0,37,10,9,11,2,1,,both
+2014-15,2015,St. John's (NY),Big East,at-large,14.7,38,10,10,9,-1,-1,,both
+2014-15,2015,San Diego St.,Mountain West,at-large,14.7,39,10,10,8,-2,-2,,both
+2014-15,2015,Stanford,Pac-12,at-large,14.5,40,10,,,,,,ours only
+2014-15,2015,LSU,SEC,at-large,14.5,42,11,10,9,-1,-2,,both
+2014-15,2015,Miami (FL),ACC,at-large,14.5,41,11,,,,,,ours only
+2014-15,2015,Vanderbilt,SEC,at-large,14.3,43,11,,,,,,ours only
+2014-15,2015,Indiana,Big Ten,at-large,14.2,44,11,10,10,0,-1,,both
+2014-15,2015,Purdue,Big Ten,at-large,14.1,45,11,11,9,-2,-2,,both
+2014-15,2015,Cincinnati,American,at-large,13.9,46,11,11,8,-3,-3,,both
+2014-15,2015,UCLA,Pac-12,at-large,13.8,47,,11,11,0,,yes,real only
+2014-15,2015,Dayton,Atlantic 10,at-large,13.6,48,,11,11,0,,yes,real only
+2014-15,2015,Boise St.,Mountain West,at-large,13.3,53,,11,11,0,,yes,real only
+2014-15,2015,SFA,Southland,auto,13.1,54,12,12,12,0,0,,both
+2014-15,2015,Oregon,Pac-12,at-large,12.6,55,,11,8,-3,,yes,real only
+2014-15,2015,Buffalo,MAC,auto,11.5,60,12,12,12,0,0,,both
+2014-15,2015,Valparaiso,Horizon,auto,10.3,67,12,12,13,1,1,,both
+2014-15,2015,Georgia St.,Sun Belt,auto,8.3,81,12,12,14,2,2,,both
+2014-15,2015,Harvard,Ivy League,auto,8.0,84,13,13,13,0,0,,both
+2014-15,2015,Wyoming,Mountain West,auto,7.0,91,13,13,12,-1,-1,,both
+2014-15,2015,UC Irvine,Big West,auto,6.1,100,13,13,13,0,0,,both
+2014-15,2015,Wofford,SoCon,auto,5.6,107,13,13,12,-1,-1,,both
+2014-15,2015,New Mexico St.,WAC,auto,5.5,108,14,14,15,1,1,,both
+2014-15,2015,Northeastern,CAA,auto,4.7,119,14,14,14,0,0,,both
+2014-15,2015,UAB,CUSA,auto,2.4,137,14,14,14,0,0,,both
+2014-15,2015,North Florida,ASUN,auto,2.3,138,14,14,16,2,2,,both
+2014-15,2015,UAlbany,America East,auto,2.2,140,15,15,14,-1,-1,,both
+2014-15,2015,Coastal Carolina,Big South,auto,2.2,142,15,15,16,1,1,,both
+2014-15,2015,Eastern Wash.,Big Sky,auto,2.2,144,15,15,13,-2,-2,,both
+2014-15,2015,Belmont,OVC,auto,1.6,149,15,15,15,0,0,,both
+2014-15,2015,Manhattan,MAAC,auto,0.0,161,16,16,16,0,0,,both
+2014-15,2015,North Dakota St.,Summit League,auto,-0.4,167,16,16,15,-1,-1,,both
+2014-15,2015,Lafayette,Patriot,auto,-1.3,177,16,16,16,0,0,yes,both
+2014-15,2015,Robert Morris,NEC,auto,-1.7,185,16,16,16,0,0,yes,both
+2014-15,2015,Texas Southern,SWAC,auto,-4.5,219,16,16,15,-1,-1,yes,both
+2014-15,2015,Hampton,MEAC,auto,-9.0,279,16,16,16,0,0,yes,both
+2015-16,2016,Virginia,ACC,at-large,28.5,1,1,1,1,0,0,,both
+2015-16,2016,Kansas,Big 12,auto,28.4,2,1,1,1,0,0,,both
+2015-16,2016,Michigan St.,Big Ten,auto,27.8,3,1,1,2,1,1,,both
+2015-16,2016,North Carolina,ACC,auto,27.6,4,1,1,1,0,0,,both
+2015-16,2016,Villanova,Big East,at-large,26.3,5,2,2,2,0,0,,both
+2015-16,2016,West Virginia,Big 12,at-large,25.5,6,2,2,3,1,1,,both
+2015-16,2016,Oklahoma,Big 12,at-large,25.4,7,2,2,2,0,0,,both
+2015-16,2016,Kentucky,SEC,auto,24.3,8,2,2,4,2,2,,both
+2015-16,2016,Purdue,Big Ten,at-large,23.9,9,3,3,5,2,2,,both
+2015-16,2016,Miami (FL),ACC,at-large,23.1,10,3,3,3,0,0,,both
+2015-16,2016,Duke,ACC,at-large,22.5,11,3,3,4,1,1,,both
+2015-16,2016,Xavier,Big East,at-large,21.9,12,3,3,2,-1,-1,,both
+2015-16,2016,Indiana,Big Ten,at-large,21.8,13,4,4,5,1,1,,both
+2015-16,2016,Arizona,Pac-12,at-large,21.7,14,4,4,6,2,2,,both
+2015-16,2016,Iowa,Big Ten,at-large,21.6,15,4,4,7,3,3,,both
+2015-16,2016,Texas A&M,SEC,at-large,21.6,16,4,4,3,-1,-1,,both
+2015-16,2016,Oregon,Pac-12,auto,21.3,17,5,5,1,-4,-4,,both
+2015-16,2016,Iowa St.,Big 12,at-large,21.2,18,5,5,4,-1,-1,,both
+2015-16,2016,Maryland,Big Ten,at-large,21.1,19,5,5,5,0,0,,both
+2015-16,2016,Baylor,Big 12,at-large,20.3,20,5,5,5,0,0,,both
+2015-16,2016,Vanderbilt,SEC,at-large,19.6,21,6,6,11,5,5,,both
+2015-16,2016,Wichita St.,MVC,at-large,19.2,22,6,6,11,5,5,,both
+2015-16,2016,California,Pac-12,at-large,19.1,23,6,6,4,-2,-2,,both
+2015-16,2016,UConn,American,auto,18.8,24,6,6,9,3,3,,both
+2015-16,2016,Gonzaga,WCC,auto,18.0,25,7,7,11,4,4,,both
+2015-16,2016,Texas,Big 12,at-large,17.7,26,7,7,6,-1,-1,,both
+2015-16,2016,Seton Hall,Big East,auto,17.6,27,7,7,6,-1,-1,,both
+2015-16,2016,Saint Mary's (CA),WCC,at-large,17.6,28,7,,,,,,ours only
+2015-16,2016,Cincinnati,American,at-large,17.2,29,8,7,9,2,1,,both
+2015-16,2016,Utah,Pac-12,at-large,17.1,30,8,8,3,-5,-5,,both
+2015-16,2016,Pittsburgh,ACC,at-large,17.0,31,8,8,10,2,2,,both
+2015-16,2016,Butler,Big East,at-large,16.6,33,9,8,9,1,0,,both
+2015-16,2016,Notre Dame,ACC,at-large,16.6,32,8,8,6,-2,-2,,both
+2015-16,2016,Wisconsin,Big Ten,at-large,16.6,34,9,9,7,-2,-2,,both
+2015-16,2016,Florida,SEC,at-large,16.4,35,9,,,,,,ours only
+2015-16,2016,Syracuse,ACC,at-large,16.0,36,9,9,10,1,1,,both
+2015-16,2016,VCU,Atlantic 10,at-large,15.6,37,10,9,10,1,0,,both
+2015-16,2016,Michigan,Big Ten,at-large,15.1,38,10,9,11,2,1,,both
+2015-16,2016,Saint Joseph's,Atlantic 10,auto,14.9,39,10,10,8,-2,-2,,both
+2015-16,2016,Texas Tech,Big 12,at-large,14.7,40,10,10,8,-2,-2,,both
+2015-16,2016,Southern California,Pac-12,at-large,14.6,41,11,10,8,-2,-3,,both
+2015-16,2016,Valparaiso,Horizon,at-large,14.5,42,11,,,,,,ours only
+2015-16,2016,Florida St.,ACC,at-large,14.4,43,11,,,,,,ours only
+2015-16,2016,Creighton,Big East,at-large,14.3,44,11,,,,,,ours only
+2015-16,2016,Kansas St.,Big 12,at-large,14.2,45,11,,,,,,ours only
+2015-16,2016,Providence,Big East,at-large,14.2,46,,10,9,-1,,,real only
+2015-16,2016,Dayton,Atlantic 10,at-large,13.5,50,,11,7,-4,,,real only
+2015-16,2016,Colorado,Pac-12,at-large,13.3,52,,11,8,-3,,yes,real only
+2015-16,2016,Tulsa,American,at-large,12.2,56,,11,11,0,,yes,real only
+2015-16,2016,Oregon St.,Pac-12,at-large,12.1,57,,11,7,-4,,yes,real only
+2015-16,2016,Yale,Ivy League,auto,11.8,58,11,11,12,1,1,,both
+2015-16,2016,Little Rock,Sun Belt,auto,11.5,60,12,12,12,0,0,,both
+2015-16,2016,SFA,Southland,auto,10.9,67,12,12,14,2,2,,both
+2015-16,2016,Hawaii,Big West,auto,10.6,70,12,12,13,1,1,,both
+2015-16,2016,Temple,American,at-large,9.1,82,,11,10,-1,,yes,real only
+2015-16,2016,South Dakota St.,Summit League,auto,9.0,83,12,12,12,0,0,,both
+2015-16,2016,UNI,MVC,auto,8.7,86,13,13,11,-2,-2,,both
+2015-16,2016,UNCW,CAA,auto,8.7,88,13,13,13,0,0,,both
+2015-16,2016,Stony Brook,America East,auto,8.1,95,13,13,13,0,0,,both
+2015-16,2016,Iona,MAAC,auto,7.0,100,13,13,13,0,0,,both
+2015-16,2016,Chattanooga,SoCon,auto,7.0,101,14,14,12,-2,-2,,both
+2015-16,2016,Fresno St.,Mountain West,auto,6.2,106,14,14,14,0,0,,both
+2015-16,2016,CSU Bakersfield,WAC,auto,5.3,110,14,14,15,1,1,,both
+2015-16,2016,UNC Asheville,Big South,auto,4.4,119,14,14,15,1,1,,both
+2015-16,2016,Green Bay,Horizon,auto,3.1,131,15,15,14,-1,-1,,both
+2015-16,2016,Buffalo,MAC,auto,2.8,133,15,15,14,-1,-1,,both
+2015-16,2016,Weber St.,Big Sky,auto,2.7,137,15,15,15,0,0,,both
+2015-16,2016,Middle Tenn.,CUSA,auto,2.3,140,15,15,15,0,0,,both
+2015-16,2016,FGCU,ASUN,auto,-1.2,178,16,16,16,0,0,,both
+2015-16,2016,Austin Peay,OVC,auto,-5.3,225,16,16,16,0,0,,both
+2015-16,2016,Southern U.,SWAC,auto,-5.5,230,16,16,16,0,0,yes,both
+2015-16,2016,Hampton,MEAC,auto,-7.6,249,16,16,16,0,0,yes,both
+2015-16,2016,FDU,NEC,auto,-9.3,267,16,16,16,0,0,yes,both
+2015-16,2016,Holy Cross,Patriot,auto,-11.7,289,16,16,16,0,0,yes,both
+2016-17,2017,Gonzaga,WCC,auto,32.6,1,1,1,1,0,0,,both
+2016-17,2017,Villanova,Big East,auto,30.7,2,1,1,1,0,0,,both
+2016-17,2017,North Carolina,ACC,at-large,27.8,3,1,1,1,0,0,,both
+2016-17,2017,Louisville,ACC,at-large,27.2,4,1,1,2,1,1,,both
+2016-17,2017,Kentucky,SEC,auto,27.2,5,2,2,2,0,0,,both
+2016-17,2017,West Virginia,Big 12,at-large,27.1,6,2,2,4,2,2,,both
+2016-17,2017,Virginia,ACC,at-large,26.6,7,2,2,5,3,3,,both
+2016-17,2017,Kansas,Big 12,at-large,26.3,8,2,2,1,-1,-1,,both
+2016-17,2017,Duke,ACC,auto,25.7,9,3,3,2,-1,-1,,both
+2016-17,2017,Florida,SEC,at-large,25.5,10,3,3,4,1,1,,both
+2016-17,2017,Baylor,Big 12,at-large,25.3,11,3,3,3,0,0,,both
+2016-17,2017,Wichita St.,MVC,auto,25.1,12,3,3,10,7,7,,both
+2016-17,2017,Purdue,Big Ten,at-large,24.4,13,4,4,4,0,0,,both
+2016-17,2017,Saint Mary's (CA),WCC,at-large,23.5,14,4,4,7,3,3,,both
+2016-17,2017,SMU,American,auto,23.5,15,4,4,6,2,2,,both
+2016-17,2017,UCLA,Pac-12,at-large,23.4,16,4,4,3,-1,-1,,both
+2016-17,2017,Michigan,Big Ten,auto,23.2,17,5,5,7,2,2,,both
+2016-17,2017,Florida St.,ACC,at-large,23.2,18,5,5,3,-2,-2,,both
+2016-17,2017,Oregon,Pac-12,at-large,23.2,19,5,5,3,-2,-2,,both
+2016-17,2017,Iowa St.,Big 12,auto,23.1,20,5,5,5,0,0,,both
+2016-17,2017,Arizona,Pac-12,auto,22.6,22,6,6,2,-4,-4,,both
+2016-17,2017,Wisconsin,Big Ten,at-large,22.6,21,6,6,8,2,2,,both
+2016-17,2017,Oklahoma St.,Big 12,at-large,22.1,23,6,6,10,4,4,,both
+2016-17,2017,Notre Dame,ACC,at-large,21.9,24,6,6,5,-1,-1,,both
+2016-17,2017,Cincinnati,American,at-large,21.6,25,7,7,6,-1,-1,,both
+2016-17,2017,Butler,Big East,at-large,21.3,26,7,7,4,-3,-3,,both
+2016-17,2017,Creighton,Big East,at-large,19.9,27,7,7,6,-1,-1,,both
+2016-17,2017,Kansas St.,Big 12,at-large,18.1,28,7,7,11,4,4,,both
+2016-17,2017,Marquette,Big East,at-large,17.9,29,8,8,10,2,2,,both
+2016-17,2017,Wake Forest,ACC,at-large,17.8,30,8,8,11,3,3,,both
+2016-17,2017,Miami (FL),ACC,at-large,17.7,31,8,8,8,0,0,,both
+2016-17,2017,South Carolina,SEC,at-large,17.6,32,8,8,7,-1,-1,,both
+2016-17,2017,Minnesota,Big Ten,at-large,17.2,33,9,9,5,-4,-4,,both
+2016-17,2017,Northwestern,Big Ten,at-large,16.6,34,9,9,8,-1,-1,,both
+2016-17,2017,Xavier,Big East,at-large,16.3,35,9,9,11,2,2,,both
+2016-17,2017,Clemson,ACC,at-large,16.3,36,9,,,,,,ours only
+2016-17,2017,Vanderbilt,SEC,at-large,16.2,37,10,9,9,0,-1,,both
+2016-17,2017,Indiana,Big Ten,at-large,16.0,38,10,,,,,,ours only
+2016-17,2017,Maryland,Big Ten,at-large,16.0,39,10,10,6,-4,-4,,both
+2016-17,2017,Dayton,Atlantic 10,at-large,15.8,40,10,10,7,-3,-3,,both
+2016-17,2017,Rhode Island,Atlantic 10,auto,15.7,41,11,10,11,1,0,,both
+2016-17,2017,Virginia Tech,ACC,at-large,15.6,42,11,10,9,-1,-2,,both
+2016-17,2017,Arkansas,SEC,at-large,15.5,44,11,11,8,-3,-3,,both
+2016-17,2017,TCU,Big 12,at-large,15.5,43,11,,,,,,ours only
+2016-17,2017,Michigan St.,Big Ten,at-large,15.3,45,11,11,9,-2,-2,,both
+2016-17,2017,Texas Tech,Big 12,at-large,15.1,46,11,,,,,,ours only
+2016-17,2017,Seton Hall,Big East,at-large,15.0,47,,11,9,-2,,yes,real only
+2016-17,2017,VCU,Atlantic 10,at-large,14.6,50,,11,10,-1,,yes,real only
+2016-17,2017,Providence,Big East,at-large,13.8,52,,11,11,0,,yes,real only
+2016-17,2017,Middle Tenn.,CUSA,auto,13.5,54,12,12,12,0,0,,both
+2016-17,2017,Southern California,Pac-12,at-large,12.7,59,,11,11,0,,yes,real only
+2016-17,2017,Nevada,Mountain West,auto,12.0,61,12,12,12,0,0,,both
+2016-17,2017,UNCW,CAA,auto,11.2,66,12,12,12,0,0,,both
+2016-17,2017,Vermont,America East,auto,10.8,70,12,12,13,1,1,,both
+2016-17,2017,Princeton,Ivy League,auto,10.5,72,13,13,12,-1,-1,,both
+2016-17,2017,ETSU,SoCon,auto,10.3,73,13,13,13,0,0,,both
+2016-17,2017,Bucknell,Patriot,auto,8.0,84,13,13,13,0,0,,both
+2016-17,2017,New Mexico St.,WAC,auto,6.6,97,13,13,14,1,1,,both
+2016-17,2017,FGCU,ASUN,auto,5.2,106,14,14,14,0,0,,both
+2016-17,2017,Winthrop,Big South,auto,4.9,113,14,14,13,-1,-1,,both
+2016-17,2017,Iona,MAAC,auto,3.5,121,14,14,14,0,0,,both
+2016-17,2017,Troy,Sun Belt,auto,2.1,135,14,14,15,1,1,,both
+2016-17,2017,Kent St.,MAC,auto,1.9,138,15,15,14,-1,-1,,both
+2016-17,2017,Northern Ky.,Horizon,auto,0.8,157,15,15,15,0,0,,both
+2016-17,2017,N.C. Central,MEAC,auto,-0.3,173,15,15,16,1,1,,both
+2016-17,2017,Jacksonville St.,OVC,auto,-0.7,177,15,15,15,0,0,,both
+2016-17,2017,North Dakota,Big Sky,auto,-0.9,180,16,16,15,-1,-1,,both
+2016-17,2017,LSU New Orleans,Southland,auto,-2.1,192,16,16,16,0,0,,both
+2016-17,2017,South Dakota St.,Summit League,auto,-2.1,194,16,16,16,0,0,yes,both
+2016-17,2017,Mount St. Mary's,NEC,auto,-4.1,212,16,16,16,0,0,yes,both
+2016-17,2017,Texas Southern,SWAC,auto,-4.6,217,16,16,16,0,0,yes,both
+2016-17,2017,UC Davis,Big West,auto,-5.6,225,16,16,16,0,0,yes,both
+2017-18,2018,Virginia,ACC,auto,31.3,1,1,1,1,0,0,,both
+2017-18,2018,Villanova,Big East,auto,30.1,2,1,1,1,0,0,,both
+2017-18,2018,Duke,ACC,at-large,28.7,3,1,1,2,1,1,,both
+2017-18,2018,Purdue,Big Ten,at-large,26.5,4,1,1,2,1,1,,both
+2017-18,2018,Michigan St.,Big Ten,at-large,26.4,5,2,2,3,1,1,,both
+2017-18,2018,Cincinnati,American,auto,25.6,6,2,2,2,0,0,,both
+2017-18,2018,North Carolina,ACC,at-large,25.1,7,2,2,2,0,0,,both
+2017-18,2018,Gonzaga,WCC,auto,23.7,8,2,2,4,2,2,,both
+2017-18,2018,Kansas,Big 12,auto,22.9,9,3,3,1,-2,-2,,both
+2017-18,2018,Michigan,Big Ten,auto,22.8,10,3,3,3,0,0,,both
+2017-18,2018,West Virginia,Big 12,at-large,22.4,11,3,3,5,2,2,,both
+2017-18,2018,Texas Tech,Big 12,at-large,21.8,12,3,3,3,0,0,,both
+2017-18,2018,Tennessee,SEC,at-large,21.8,13,4,4,3,-1,-1,,both
+2017-18,2018,Xavier,Big East,at-large,21.4,14,4,4,1,-3,-3,,both
+2017-18,2018,Ohio St.,Big Ten,at-large,20.8,15,4,4,5,1,1,,both
+2017-18,2018,Auburn,SEC,at-large,20.7,16,4,4,4,0,0,,both
+2017-18,2018,Clemson,ACC,at-large,20.6,17,5,5,5,0,0,,both
+2017-18,2018,Wichita St.,American,at-large,20.0,18,5,5,4,-1,-1,,both
+2017-18,2018,Houston,American,at-large,19.9,19,5,5,6,1,1,,both
+2017-18,2018,Kentucky,SEC,auto,19.8,20,5,5,5,0,0,,both
+2017-18,2018,Florida,SEC,at-large,19.1,21,6,6,6,0,0,,both
+2017-18,2018,TCU,Big 12,at-large,19.0,22,6,6,6,0,0,,both
+2017-18,2018,Arizona,Pac-12,auto,18.6,23,6,6,4,-2,-2,,both
+2017-18,2018,Butler,Big East,at-large,17.9,24,6,6,10,4,4,,both
+2017-18,2018,Nevada,Mountain West,at-large,17.9,25,7,7,7,0,0,,both
+2017-18,2018,Texas A&M,SEC,at-large,17.3,27,7,7,7,0,0,,both
+2017-18,2018,Notre Dame,ACC,at-large,17.3,26,7,,,,,,ours only
+2017-18,2018,Seton Hall,Big East,at-large,17.3,28,7,7,8,1,1,,both
+2017-18,2018,Virginia Tech,ACC,at-large,17.1,29,8,7,8,1,0,,both
+2017-18,2018,Creighton,Big East,at-large,16.9,30,8,8,8,0,0,,both
+2017-18,2018,Penn St.,Big Ten,at-large,16.7,31,8,,,,,,ours only
+2017-18,2018,Louisville,ACC,at-large,16.7,32,8,,,,,,ours only
+2017-18,2018,Florida St.,ACC,at-large,16.7,33,9,8,9,1,0,,both
+2017-18,2018,Saint Mary's (CA),WCC,at-large,16.5,34,9,,,,,,ours only
+2017-18,2018,Baylor,Big 12,at-large,16.3,35,9,,,,,,ours only
+2017-18,2018,Texas,Big 12,at-large,16.1,36,9,8,10,2,1,,both
+2017-18,2018,Miami (FL),ACC,at-large,15.8,37,10,8,6,-2,-4,,both
+2017-18,2018,Arkansas,SEC,at-large,15.5,38,10,9,7,-2,-3,,both
+2017-18,2018,Arizona St.,Pac-12,at-large,15.3,39,10,9,11,2,1,,both
+2017-18,2018,NC State,ACC,at-large,15.2,40,10,9,9,0,-1,,both
+2017-18,2018,Kansas St.,Big 12,at-large,15.0,41,11,9,9,0,-2,,both
+2017-18,2018,Missouri,SEC,at-large,15.0,42,11,10,8,-2,-3,,both
+2017-18,2018,Southern California,Pac-12,at-large,15.0,43,11,,,,,,ours only
+2017-18,2018,Oklahoma,Big 12,at-large,14.7,44,11,10,10,0,-1,,both
+2017-18,2018,UCLA,Pac-12,at-large,14.2,46,,10,11,1,,,real only
+2017-18,2018,Rhode Island,Atlantic 10,at-large,14.2,48,,10,7,-3,,,real only
+2017-18,2018,Syracuse,ACC,at-large,14.1,49,,11,11,0,,yes,real only
+2017-18,2018,Davidson,Atlantic 10,auto,14.0,50,11,11,12,1,1,,both
+2017-18,2018,Alabama,SEC,at-large,13.9,51,,11,9,-2,,yes,real only
+2017-18,2018,San Diego St.,Mountain West,auto,13.0,54,11,11,11,0,0,,both
+2017-18,2018,Loyola Chicago,MVC,auto,13.0,55,12,11,11,0,-1,,both
+2017-18,2018,Providence,Big East,at-large,12.2,59,,12,10,-2,,yes,real only
+2017-18,2018,Murray St.,OVC,auto,12.0,61,12,12,12,0,0,,both
+2017-18,2018,New Mexico St.,WAC,auto,11.8,64,12,12,12,0,0,,both
+2017-18,2018,St. Bonaventure,Atlantic 10,at-large,10.9,67,,12,11,-1,,yes,real only
+2017-18,2018,South Dakota St.,Summit League,auto,9.4,80,12,12,12,0,0,,both
+2017-18,2018,Buffalo,MAC,auto,9.2,81,13,13,13,0,0,,both
+2017-18,2018,UNC Greensboro,SoCon,auto,8.6,84,13,13,13,0,0,,both
+2017-18,2018,Montana,Big Sky,auto,8.0,89,13,13,14,1,1,,both
+2017-18,2018,Bucknell,Patriot,auto,6.2,107,13,13,14,1,1,,both
+2017-18,2018,Georgia St.,Sun Belt,auto,6.0,108,14,14,15,1,1,,both
+2017-18,2018,SFA,Southland,auto,5.4,112,14,14,14,0,0,,both
+2017-18,2018,Marshall,CUSA,auto,4.8,117,14,14,13,-1,-1,,both
+2017-18,2018,Col. of Charleston,CAA,auto,4.2,120,14,14,13,-1,-1,,both
+2017-18,2018,Penn,Ivy League,auto,3.6,126,15,15,16,1,1,,both
+2017-18,2018,Iona,MAAC,auto,2.5,138,15,15,15,0,0,,both
+2017-18,2018,Wright St.,Horizon,auto,2.1,142,15,15,14,-1,-1,,both
+2017-18,2018,Cal St. Fullerton,Big West,auto,1.0,159,15,15,15,0,0,,both
+2017-18,2018,Lipscomb,ASUN,auto,0.1,169,16,16,15,-1,-1,,both
+2017-18,2018,Radford,Big South,auto,-0.2,175,16,16,16,0,0,,both
+2017-18,2018,UMBC,America East,auto,-2.2,190,16,16,16,0,0,yes,both
+2017-18,2018,Texas Southern,SWAC,auto,-7.5,251,16,16,16,0,0,yes,both
+2017-18,2018,LIU,NEC,auto,-8.0,259,16,16,16,0,0,yes,both
+2017-18,2018,N.C. Central,MEAC,auto,-12.4,309,16,16,16,0,0,yes,both
+2018-19,2019,Virginia,ACC,at-large,34.5,1,1,1,1,0,0,,both
+2018-19,2019,Duke,ACC,auto,32.3,2,1,1,1,0,0,,both
+2018-19,2019,Gonzaga,WCC,at-large,31.8,3,1,1,1,0,0,,both
+2018-19,2019,Michigan St.,Big Ten,auto,30.9,4,1,1,2,1,1,,both
+2018-19,2019,Michigan,Big Ten,at-large,29.5,5,2,2,2,0,0,,both
+2018-19,2019,North Carolina,ACC,at-large,28.5,6,2,2,1,-1,-1,,both
+2018-19,2019,Tennessee,SEC,at-large,26.8,7,2,2,2,0,0,,both
+2018-19,2019,Kentucky,SEC,at-large,26.4,8,2,2,2,0,0,,both
+2018-19,2019,Texas Tech,Big 12,at-large,26.2,9,3,3,3,0,0,,both
+2018-19,2019,Purdue,Big Ten,at-large,25.7,10,3,3,3,0,0,,both
+2018-19,2019,Virginia Tech,ACC,at-large,24.8,11,3,3,4,1,1,,both
+2018-19,2019,Wisconsin,Big Ten,at-large,23.9,12,3,3,5,2,2,,both
+2018-19,2019,Auburn,SEC,auto,23.5,13,4,4,5,1,1,,both
+2018-19,2019,Florida St.,ACC,at-large,22.7,14,4,4,4,0,0,,both
+2018-19,2019,Iowa St.,Big 12,auto,21.9,15,4,4,6,2,2,,both
+2018-19,2019,Houston,American,at-large,21.7,16,4,4,3,-1,-1,,both
+2018-19,2019,Louisville,ACC,at-large,21.2,17,5,5,7,2,2,,both
+2018-19,2019,LSU,SEC,at-large,21.1,18,5,5,3,-2,-2,,both
+2018-19,2019,Mississippi St.,SEC,at-large,21.0,19,5,5,5,0,0,,both
+2018-19,2019,Maryland,Big Ten,at-large,20.5,20,5,5,6,1,1,,both
+2018-19,2019,Kansas,Big 12,at-large,20.0,21,6,6,4,-2,-2,,both
+2018-19,2019,Buffalo,MAC,auto,19.5,22,6,6,6,0,0,,both
+2018-19,2019,Kansas St.,Big 12,at-large,19.4,23,6,6,4,-2,-2,,both
+2018-19,2019,Villanova,Big East,auto,18.9,24,6,6,6,0,0,,both
+2018-19,2019,Florida,SEC,at-large,18.9,25,7,7,10,3,3,,both
+2018-19,2019,Wofford,SoCon,auto,18.7,26,7,7,7,0,0,,both
+2018-19,2019,Marquette,Big East,at-large,18.4,27,7,7,5,-2,-2,,both
+2018-19,2019,Texas,Big 12,at-large,18.4,28,7,,,,,,ours only
+2018-19,2019,Clemson,ACC,at-large,18.2,29,8,,,,,,ours only
+2018-19,2019,Nevada,Mountain West,at-large,18.1,30,8,7,7,0,-1,,both
+2018-19,2019,NC State,ACC,at-large,17.5,31,8,,,,,,ours only
+2018-19,2019,Cincinnati,American,auto,17.4,32,8,8,7,-1,-1,,both
+2018-19,2019,Syracuse,ACC,at-large,17.0,33,9,8,8,0,-1,,both
+2018-19,2019,Iowa,Big Ten,at-large,16.9,34,9,8,10,2,1,,both
+2018-19,2019,Saint Mary's (CA),WCC,auto,16.6,35,9,8,11,3,2,,both
+2018-19,2019,Nebraska,Big Ten,at-large,16.4,36,9,,,,,,ours only
+2018-19,2019,Ohio St.,Big Ten,at-large,16.4,37,10,9,11,2,1,,both
+2018-19,2019,Indiana,Big Ten,at-large,16.2,38,10,,,,,,ours only
+2018-19,2019,Oklahoma,Big 12,at-large,15.9,39,10,9,9,0,-1,,both
+2018-19,2019,Baylor,Big 12,at-large,15.6,40,10,9,9,0,-1,,both
+2018-19,2019,Utah St.,Mountain West,auto,15.3,41,11,9,8,-1,-3,,both
+2018-19,2019,Penn St.,Big Ten,at-large,15.2,42,11,,,,,,ours only
+2018-19,2019,Oregon,Pac-12,auto,15.0,43,11,10,12,2,1,,both
+2018-19,2019,Minnesota,Big Ten,at-large,15.0,44,11,10,10,0,-1,,both
+2018-19,2019,VCU,Atlantic 10,at-large,15.0,45,11,10,8,-2,-3,,both
+2018-19,2019,UCF,American,at-large,14.8,46,12,10,9,-1,-3,,both
+2018-19,2019,TCU,Big 12,at-large,14.7,47,12,,,,,,ours only
+2018-19,2019,Ole Miss,SEC,at-large,13.9,48,,11,8,-3,,,real only
+2018-19,2019,Washington,Pac-12,at-large,13.6,49,,11,9,-2,,,real only
+2018-19,2019,Seton Hall,Big East,at-large,13.4,51,,11,10,-1,,,real only
+2018-19,2019,New Mexico St.,WAC,auto,12.3,54,12,11,12,1,0,,both
+2018-19,2019,Murray St.,OVC,auto,12.1,56,12,12,12,0,0,,both
+2018-19,2019,Belmont,OVC,at-large,11.7,57,,12,11,-1,,yes,real only
+2018-19,2019,Arizona St.,Pac-12,at-large,11.2,62,,12,11,-1,,yes,real only
+2018-19,2019,St. John's (NY),Big East,at-large,10.3,69,,12,11,-1,,yes,real only
+2018-19,2019,Temple,American,at-large,10.0,72,,12,11,-1,,yes,real only
+2018-19,2019,Liberty,ASUN,auto,9.8,75,12,12,12,0,0,,both
+2018-19,2019,Northeastern,CAA,auto,8.9,80,13,13,13,0,0,,both
+2018-19,2019,Yale,Ivy League,auto,8.3,85,13,13,14,1,1,,both
+2018-19,2019,Vermont,America East,auto,8.2,86,13,13,13,0,0,,both
+2018-19,2019,UC Irvine,Big West,auto,7.8,91,13,13,13,0,0,,both
+2018-19,2019,Saint Louis,Atlantic 10,auto,6.8,102,14,14,13,-1,-1,,both
+2018-19,2019,Northern Ky.,Horizon,auto,6.6,103,14,14,14,0,0,,both
+2018-19,2019,Georgia St.,Sun Belt,auto,5.3,115,14,14,14,0,0,,both
+2018-19,2019,Old Dominion,CUSA,auto,4.9,119,14,14,14,0,0,,both
+2018-19,2019,Colgate,Patriot,auto,3.5,134,15,15,15,0,0,,both
+2018-19,2019,Montana,Big Sky,auto,2.6,140,15,15,15,0,0,,both
+2018-19,2019,Abilene Christian,Southland,auto,1.1,152,15,15,15,0,0,,both
+2018-19,2019,Bradley,MVC,auto,-0.0,160,15,15,15,0,0,,both
+2018-19,2019,Gardner-Webb,Big South,auto,-0.9,172,16,16,16,0,0,,both
+2018-19,2019,North Dakota St.,Summit League,auto,-3.1,199,16,16,16,0,0,,both
+2018-19,2019,Iona,MAAC,auto,-3.6,205,16,16,16,0,0,yes,both
+2018-19,2019,FDU,NEC,auto,-4.1,210,16,16,16,0,0,yes,both
+2018-19,2019,Prairie View,SWAC,auto,-6.0,233,16,16,16,0,0,yes,both
+2018-19,2019,N.C. Central,MEAC,auto,-11.5,302,16,16,16,0,0,yes,both
+2020-21,2021,Gonzaga,WCC,auto,34.8,1,1,1,1,0,0,,both
+2020-21,2021,Michigan,Big Ten,at-large,29.2,2,1,1,1,0,0,,both
+2020-21,2021,Illinois,Big Ten,auto,28.9,3,1,1,1,0,0,,both
+2020-21,2021,Baylor,Big 12,at-large,28.0,4,1,1,1,0,0,,both
+2020-21,2021,Iowa,Big Ten,at-large,27.7,5,2,2,2,0,0,,both
+2020-21,2021,Houston,American,auto,26.6,6,2,2,2,0,0,,both
+2020-21,2021,Ohio St.,Big Ten,at-large,24.7,7,2,2,2,0,0,,both
+2020-21,2021,Alabama,SEC,auto,23.9,8,2,2,2,0,0,,both
+2020-21,2021,Colgate,Patriot,auto,22.7,9,3,3,14,11,11,,both
+2020-21,2021,Villanova,Big East,at-large,21.9,10,3,3,5,2,2,,both
+2020-21,2021,Wisconsin,Big Ten,at-large,21.7,11,3,3,9,6,6,,both
+2020-21,2021,Southern California,Pac-12,at-large,21.5,12,3,3,6,3,3,,both
+2020-21,2021,Virginia,ACC,at-large,21.4,13,4,4,4,0,0,,both
+2020-21,2021,Purdue,Big Ten,at-large,21.1,14,4,4,4,0,0,,both
+2020-21,2021,UConn,Big East,at-large,21.0,15,4,4,7,3,3,,both
+2020-21,2021,Florida St.,ACC,at-large,21.0,16,4,4,4,0,0,,both
+2020-21,2021,Colorado,Pac-12,at-large,20.8,17,5,5,5,0,0,,both
+2020-21,2021,Creighton,Big East,at-large,20.6,18,5,5,5,0,0,,both
+2020-21,2021,Tennessee,SEC,at-large,20.5,19,5,5,5,0,0,,both
+2020-21,2021,Loyola Chicago,MVC,auto,20.5,20,5,5,8,3,3,,both
+2020-21,2021,Arkansas,SEC,at-large,20.4,21,6,6,3,-3,-3,,both
+2020-21,2021,Texas Tech,Big 12,at-large,20.1,22,6,6,6,0,0,,both
+2020-21,2021,Texas,Big 12,auto,19.9,23,6,6,3,-3,-3,,both
+2020-21,2021,San Diego St.,Mountain West,auto,19.6,24,6,6,6,0,0,,both
+2020-21,2021,BYU,WCC,at-large,19.6,25,7,7,6,-1,-1,,both
+2020-21,2021,Kansas,Big 12,at-large,19.4,26,7,7,3,-4,-4,,both
+2020-21,2021,LSU,SEC,at-large,19.3,27,7,7,8,1,1,,both
+2020-21,2021,St. Bonaventure,Atlantic 10,auto,19.3,28,7,7,9,2,2,,both
+2020-21,2021,West Virginia,Big 12,at-large,19.3,29,8,8,3,-5,-5,,both
+2020-21,2021,North Carolina,ACC,at-large,19.0,30,8,8,8,0,0,,both
+2020-21,2021,Maryland,Big Ten,at-large,18.6,31,8,8,10,2,2,,both
+2020-21,2021,Rutgers,Big Ten,at-large,18.0,32,8,8,10,2,2,,both
+2020-21,2021,Oklahoma St.,Big 12,at-large,17.8,33,9,9,4,-5,-5,,both
+2020-21,2021,Penn St.,Big Ten,at-large,17.6,34,9,,,,,,ours only
+2020-21,2021,Georgia Tech,ACC,auto,17.5,35,9,9,9,0,0,,both
+2020-21,2021,Florida,SEC,at-large,17.3,36,9,9,7,-2,-2,,both
+2020-21,2021,Oregon,Pac-12,at-large,17.1,37,10,9,7,-2,-3,,both
+2020-21,2021,UCLA,Pac-12,at-large,16.4,38,10,10,11,1,1,,both
+2020-21,2021,Clemson,ACC,at-large,16.4,39,10,10,7,-3,-3,,both
+2020-21,2021,Arizona,Pac-12,at-large,16.0,40,10,,,,,,ours only
+2020-21,2021,Oklahoma,Big 12,at-large,15.8,42,11,10,8,-2,-3,,both
+2020-21,2021,Memphis,American,at-large,15.8,41,11,,,,,,ours only
+2020-21,2021,Indiana,Big Ten,at-large,15.8,43,11,,,,,,ours only
+2020-21,2021,Duke,ACC,at-large,15.3,44,11,,,,,,ours only
+2020-21,2021,VCU,Atlantic 10,at-large,15.2,45,11,10,10,0,-1,,both
+2020-21,2021,Missouri,SEC,at-large,14.9,46,12,11,9,-2,-3,,both
+2020-21,2021,Syracuse,ACC,at-large,14.8,47,12,11,11,0,-1,,both
+2020-21,2021,Utah St.,Mountain West,at-large,14.6,49,,11,11,0,,,real only
+2020-21,2021,Virginia Tech,ACC,at-large,14.3,53,,11,10,-1,,yes,real only
+2020-21,2021,Georgetown,Big East,auto,13.8,54,12,12,12,0,0,,both
+2020-21,2021,Michigan St.,Big Ten,at-large,12.8,58,,11,11,0,,yes,real only
+2020-21,2021,Drake,MVC,at-large,12.5,61,,12,11,-1,,yes,real only
+2020-21,2021,UC Santa Barbara,Big West,auto,12.1,66,12,12,12,0,0,,both
+2020-21,2021,Wichita St.,American,at-large,11.1,70,,12,11,-1,,yes,real only
+2020-21,2021,Abilene Christian,Southland,auto,10.4,76,12,12,14,2,2,,both
+2020-21,2021,Oregon St.,Pac-12,auto,10.3,79,13,13,12,-1,-1,,both
+2020-21,2021,North Texas,CUSA,auto,10.2,80,13,13,13,0,0,,both
+2020-21,2021,Ohio,MAC,auto,8.4,88,13,13,13,0,0,,both
+2020-21,2021,Grand Canyon,WAC,auto,8.1,90,13,13,15,2,2,,both
+2020-21,2021,Liberty,ASUN,auto,8.1,93,14,14,13,-1,-1,,both
+2020-21,2021,Winthrop,Big South,auto,7.4,101,14,14,12,-2,-2,,both
+2020-21,2021,Eastern Wash.,Big Sky,auto,6.7,107,14,14,14,0,0,,both
+2020-21,2021,UNC Greensboro,SoCon,auto,6.3,110,14,14,13,-1,-1,,both
+2020-21,2021,Morehead St.,OVC,auto,2.4,138,15,15,14,-1,-1,,both
+2020-21,2021,Drexel,CAA,auto,1.5,144,15,15,16,1,1,,both
+2020-21,2021,Oral Roberts,Summit League,auto,1.2,146,15,15,15,0,0,,both
+2020-21,2021,Iona,MAAC,auto,1.2,148,15,15,15,0,0,,both
+2020-21,2021,Hartford,America East,auto,-1.4,182,16,16,16,0,0,,both
+2020-21,2021,Cleveland St.,Horizon,auto,-1.7,185,16,16,15,-1,-1,,both
+2020-21,2021,Mount St. Mary's,NEC,auto,-2.8,197,16,16,16,0,0,yes,both
+2020-21,2021,App State,Sun Belt,auto,-3.5,202,16,16,16,0,0,yes,both
+2020-21,2021,Norfolk St.,MEAC,auto,-5.1,221,16,16,16,0,0,yes,both
+2020-21,2021,Texas Southern,SWAC,auto,-6.3,234,16,16,16,0,0,yes,both
+2021-22,2022,Gonzaga,WCC,auto,32.2,1,1,1,1,0,0,,both
+2021-22,2022,Kentucky,SEC,at-large,26.9,2,1,1,2,1,1,,both
+2021-22,2022,Baylor,Big 12,at-large,26.8,3,1,1,1,0,0,,both
+2021-22,2022,Arizona,Pac-12,auto,26.4,4,1,1,1,0,0,,both
+2021-22,2022,Houston,American,auto,25.6,5,2,2,5,3,3,,both
+2021-22,2022,Kansas,Big 12,auto,25.2,6,2,2,1,-1,-1,,both
+2021-22,2022,Auburn,SEC,at-large,24.8,7,2,2,2,0,0,,both
+2021-22,2022,Texas Tech,Big 12,at-large,24.7,8,2,2,3,1,1,,both
+2021-22,2022,Tennessee,SEC,auto,24.3,9,3,3,3,0,0,,both
+2021-22,2022,UCLA,Pac-12,at-large,24.2,10,3,3,4,1,1,,both
+2021-22,2022,Villanova,Big East,auto,23.9,11,3,3,2,-1,-1,,both
+2021-22,2022,Duke,ACC,at-large,23.6,12,3,3,2,-1,-1,,both
+2021-22,2022,Iowa,Big Ten,auto,23.1,13,4,4,5,1,1,,both
+2021-22,2022,Purdue,Big Ten,at-large,22.8,14,4,4,3,-1,-1,,both
+2021-22,2022,Texas,Big 12,at-large,20.8,15,4,4,6,2,2,,both
+2021-22,2022,UConn,Big East,at-large,20.4,16,4,4,5,1,1,,both
+2021-22,2022,Illinois,Big Ten,at-large,20.2,17,5,5,4,-1,-1,,both
+2021-22,2022,LSU,SEC,at-large,19.9,18,5,5,6,1,1,,both
+2021-22,2022,Arkansas,SEC,at-large,19.1,19,5,5,4,-1,-1,,both
+2021-22,2022,Saint Mary's (CA),WCC,at-large,18.6,20,5,5,5,0,0,,both
+2021-22,2022,Alabama,SEC,at-large,18.1,21,6,6,6,0,0,,both
+2021-22,2022,San Francisco,WCC,at-large,17.8,22,6,6,10,4,4,,both
+2021-22,2022,San Diego St.,Mountain West,at-large,17.6,23,6,6,8,2,2,,both
+2021-22,2022,Virginia Tech,ACC,auto,17.4,24,6,6,11,5,5,,both
+2021-22,2022,Loyola Chicago,MVC,auto,17.1,25,7,7,10,3,3,,both
+2021-22,2022,Wisconsin,Big Ten,at-large,16.7,26,7,7,3,-4,-4,,both
+2021-22,2022,Oklahoma,Big 12,at-large,16.6,27,7,,,,,,ours only
+2021-22,2022,Seton Hall,Big East,at-large,16.5,28,7,7,8,1,1,,both
+2021-22,2022,Memphis,American,at-large,16.4,29,8,7,9,2,1,,both
+2021-22,2022,Ohio St.,Big Ten,at-large,16.4,30,8,8,7,-1,-1,,both
+2021-22,2022,North Carolina,ACC,at-large,15.9,31,8,8,8,0,0,,both
+2021-22,2022,Michigan,Big Ten,at-large,15.8,32,8,8,11,3,3,,both
+2021-22,2022,TCU,Big 12,at-large,15.7,33,9,8,9,1,0,,both
+2021-22,2022,Murray St.,OVC,auto,15.6,34,9,9,7,-2,-2,,both
+2021-22,2022,Boise St.,Mountain West,auto,15.6,35,9,9,8,-1,-1,,both
+2021-22,2022,Michigan St.,Big Ten,at-large,15.4,36,9,9,7,-2,-2,,both
+2021-22,2022,Oklahoma St.,Big 12,at-large,15.4,37,10,,,,,,ours only
+2021-22,2022,Indiana,Big Ten,at-large,15.4,38,10,9,12,3,2,,both
+2021-22,2022,Southern California,Pac-12,at-large,15.3,39,10,10,7,-3,-3,,both
+2021-22,2022,Texas A&M,SEC,at-large,15.2,40,10,,,,,,ours only
+2021-22,2022,Wake Forest,ACC,at-large,15.1,41,11,,,,,,ours only
+2021-22,2022,Colorado St.,Mountain West,at-large,15.1,42,11,10,6,-4,-5,,both
+2021-22,2022,Marquette,Big East,at-large,15.0,43,11,10,9,-1,-2,,both
+2021-22,2022,Iowa St.,Big 12,at-large,14.9,44,11,10,11,1,0,,both
+2021-22,2022,Providence,Big East,at-large,14.8,45,11,11,4,-7,-7,,both
+2021-22,2022,Mississippi St.,SEC,at-large,14.5,46,12,,,,,,ours only
+2021-22,2022,Davidson,Atlantic 10,at-large,14.4,47,12,11,10,-1,-2,,both
+2021-22,2022,UAB,CUSA,auto,13.9,51,12,11,12,1,0,,both
+2021-22,2022,Creighton,Big East,at-large,13.8,52,,11,9,-2,,,real only
+2021-22,2022,Notre Dame,ACC,at-large,13.6,53,,12,11,-1,,yes,real only
+2021-22,2022,Wyoming,Mountain West,at-large,12.9,58,,12,12,0,,yes,real only
+2021-22,2022,Miami (FL),ACC,at-large,12.6,60,,12,10,-2,,yes,real only
+2021-22,2022,Vermont,America East,auto,11.9,65,12,12,13,1,1,,both
+2021-22,2022,Rutgers,Big Ten,at-large,11.1,73,,12,11,-1,,yes,real only
+2021-22,2022,South Dakota St.,Summit League,auto,10.5,77,12,12,13,1,1,,both
+2021-22,2022,Chattanooga,SoCon,auto,10.4,78,13,13,13,0,0,,both
+2021-22,2022,Richmond,Atlantic 10,auto,9.8,82,13,13,12,-1,-1,,both
+2021-22,2022,New Mexico St.,WAC,auto,9.0,88,13,13,12,-1,-1,,both
+2021-22,2022,Saint Peter's,MAAC,auto,3.6,127,13,13,15,2,2,,both
+2021-22,2022,Colgate,Patriot,auto,3.5,128,14,14,14,0,0,,both
+2021-22,2022,Akron,MAC,auto,3.4,132,14,14,13,-1,-1,,both
+2021-22,2022,Montana St.,Big Sky,auto,2.7,138,14,14,14,0,0,,both
+2021-22,2022,Delaware,CAA,auto,2.6,140,14,14,15,1,1,,both
+2021-22,2022,Yale,Ivy League,auto,2.4,141,15,15,14,-1,-1,,both
+2021-22,2022,Jacksonville St.,ASUN,auto,2.2,144,15,15,15,0,0,,both
+2021-22,2022,Longwood,Big South,auto,2.0,146,15,15,14,-1,-1,,both
+2021-22,2022,Georgia St.,Sun Belt,auto,0.8,160,15,15,16,1,1,,both
+2021-22,2022,Cal St. Fullerton,Big West,auto,0.6,163,16,16,15,-1,-1,,both
+2021-22,2022,Norfolk St.,MEAC,auto,-0.4,175,16,16,16,0,0,,both
+2021-22,2022,Wright St.,Horizon,auto,-0.6,179,16,16,16,0,0,yes,both
+2021-22,2022,Bryant,NEC,auto,-1.4,186,16,16,16,0,0,yes,both
+2021-22,2022,Texas Southern,SWAC,auto,-2.6,204,16,16,16,0,0,yes,both
+2021-22,2022,A&M-Corpus Christi,Southland,auto,-6.2,245,16,16,16,0,0,yes,both
+2022-23,2023,Houston,American,at-large,27.1,1,1,1,1,0,0,,both
+2022-23,2023,Alabama,SEC,auto,26.5,2,1,1,1,0,0,,both
+2022-23,2023,UCLA,Pac-12,at-large,26.1,3,1,1,2,1,1,,both
+2022-23,2023,UConn,Big East,at-large,25.5,4,1,1,4,3,3,,both
+2022-23,2023,Purdue,Big Ten,auto,24.6,5,2,2,1,-1,-1,,both
+2022-23,2023,Tennessee,SEC,at-large,23.9,6,2,2,4,2,2,,both
+2022-23,2023,Texas,Big 12,auto,23.7,7,2,2,2,0,0,,both
+2022-23,2023,Gonzaga,WCC,auto,23.4,8,2,2,3,1,1,,both
+2022-23,2023,Kansas,Big 12,at-large,22.0,9,3,3,1,-2,-2,,both
+2022-23,2023,Marquette,Big East,auto,21.8,10,3,3,2,-1,-1,,both
+2022-23,2023,Arizona,Pac-12,auto,21.3,11,3,3,2,-1,-1,,both
+2022-23,2023,Creighton,Big East,at-large,20.6,12,3,3,6,3,3,,both
+2022-23,2023,Saint Mary's (CA),WCC,at-large,20.6,13,4,4,5,1,1,,both
+2022-23,2023,Xavier,Big East,at-large,19.6,14,4,4,3,-1,-1,,both
+2022-23,2023,Baylor,Big 12,at-large,19.1,15,4,4,3,-1,-1,,both
+2022-23,2023,West Virginia,Big 12,at-large,18.9,16,4,4,9,5,5,,both
+2022-23,2023,San Diego St.,Mountain West,auto,18.8,17,5,5,5,0,0,,both
+2022-23,2023,Arkansas,SEC,at-large,18.5,18,5,5,8,3,3,,both
+2022-23,2023,Duke,ACC,auto,18.4,19,5,5,5,0,0,,both
+2022-23,2023,Iowa St.,Big 12,at-large,18.1,20,5,5,6,1,1,,both
+2022-23,2023,Memphis,American,auto,18.1,21,6,6,8,2,2,,both
+2022-23,2023,Maryland,Big Ten,at-large,17.9,22,6,6,8,2,2,,both
+2022-23,2023,Utah St.,Mountain West,at-large,17.6,23,6,6,10,4,4,,both
+2022-23,2023,TCU,Big 12,at-large,17.5,24,6,6,6,0,0,,both
+2022-23,2023,Kansas St.,Big 12,at-large,17.4,25,7,7,3,-4,-4,,both
+2022-23,2023,Kentucky,SEC,at-large,17.4,26,7,7,6,-1,-1,,both
+2022-23,2023,Indiana,Big Ten,at-large,17.2,27,7,7,4,-3,-3,,both
+2022-23,2023,Texas A&M,SEC,at-large,17.0,28,7,7,7,0,0,,both
+2022-23,2023,Auburn,SEC,at-large,17.0,29,8,8,9,1,1,,both
+2022-23,2023,Illinois,Big Ten,at-large,16.9,30,8,8,9,1,1,,both
+2022-23,2023,Virginia,ACC,at-large,16.7,31,8,8,4,-4,-4,,both
+2022-23,2023,Michigan St.,Big Ten,at-large,16.5,32,8,8,7,-1,-1,,both
+2022-23,2023,Rutgers,Big Ten,at-large,16.5,33,9,,,,,,ours only
+2022-23,2023,Boise St.,Mountain West,at-large,16.5,34,9,9,10,1,1,,both
+2022-23,2023,Iowa,Big Ten,at-large,15.9,35,9,9,8,-1,-1,,both
+2022-23,2023,Fla. Atlantic,CUSA,auto,15.8,36,9,9,9,0,0,,both
+2022-23,2023,Penn St.,Big Ten,at-large,15.8,37,10,9,10,1,0,,both
+2022-23,2023,Miami (FL),ACC,at-large,15.2,38,10,10,5,-5,-5,,both
+2022-23,2023,North Carolina,ACC,at-large,15.1,39,10,,,,,,ours only
+2022-23,2023,Northwestern,Big Ten,at-large,14.9,40,10,10,7,-3,-3,,both
+2022-23,2023,Providence,Big East,at-large,14.9,41,11,10,11,1,0,,both
+2022-23,2023,Michigan,Big Ten,at-large,14.8,42,11,,,,,,ours only
+2022-23,2023,Ohio St.,Big Ten,at-large,14.8,43,11,,,,,,ours only
+2022-23,2023,Southern California,Pac-12,at-large,14.6,44,11,10,10,0,-1,,both
+2022-23,2023,Oklahoma St.,Big 12,at-large,14.5,45,11,,,,,,ours only
+2022-23,2023,Nevada,Mountain West,at-large,14.3,46,11,11,11,0,0,,both
+2022-23,2023,Mississippi St.,SEC,at-large,13.6,48,,11,11,0,,,real only
+2022-23,2023,NC State,ACC,at-large,13.5,49,,11,11,0,,yes,real only
+2022-23,2023,Missouri,SEC,at-large,13.5,50,,11,7,-4,,yes,real only
+2022-23,2023,VCU,Atlantic 10,auto,12.0,63,12,11,12,1,0,,both
+2022-23,2023,Arizona St.,Pac-12,at-large,11.9,66,,12,11,-1,,yes,real only
+2022-23,2023,Drake,MVC,auto,11.8,67,12,12,12,0,0,,both
+2022-23,2023,Pittsburgh,ACC,at-large,11.7,69,,12,11,-1,,yes,real only
+2022-23,2023,Iona,MAAC,auto,11.4,72,12,12,13,1,1,,both
+2022-23,2023,Col. of Charleston,CAA,auto,11.2,74,12,12,12,0,0,,both
+2022-23,2023,Kent St.,MAC,auto,10.7,76,13,13,13,0,0,,both
+2022-23,2023,Oral Roberts,Summit League,auto,10.5,77,13,13,12,-1,-1,,both
+2022-23,2023,Louisiana,Sun Belt,auto,7.3,95,13,13,13,0,0,,both
+2022-23,2023,Furman,SoCon,auto,7.3,94,13,13,13,0,0,,both
+2022-23,2023,Grand Canyon,WAC,auto,6.6,101,14,14,14,0,0,,both
+2022-23,2023,Princeton,Ivy League,auto,5.2,113,14,14,15,1,1,,both
+2022-23,2023,UC Santa Barbara,Big West,auto,5.1,114,14,14,14,0,0,,both
+2022-23,2023,Colgate,Patriot,auto,5.0,115,14,14,15,1,1,,both
+2022-23,2023,Montana St.,Big Sky,auto,4.4,118,15,15,14,-1,-1,,both
+2022-23,2023,Vermont,America East,auto,4.1,120,15,15,15,0,0,,both
+2022-23,2023,Kennesaw St.,ASUN,auto,3.1,132,15,15,14,-1,-1,,both
+2022-23,2023,UNC Asheville,Big South,auto,1.0,156,15,15,15,0,0,,both
+2022-23,2023,Northern Ky.,Horizon,auto,0.0,164,16,16,16,0,0,,both
+2022-23,2023,A&M-Corpus Christi,Southland,auto,-0.9,181,16,16,16,0,0,,both
+2022-23,2023,Howard,MEAC,auto,-4.0,224,16,16,16,0,0,yes,both
+2022-23,2023,Southeast Mo. St.,OVC,auto,-6.5,251,16,16,16,0,0,yes,both
+2022-23,2023,Texas Southern,SWAC,auto,-9.7,294,16,16,16,0,0,yes,both
+2022-23,2023,FDU,NEC,auto,-10.6,303,16,16,16,0,0,yes,both
+2023-24,2024,UConn,Big East,auto,31.2,1,1,1,1,0,0,,both
+2023-24,2024,Houston,Big 12,at-large,31.1,2,1,1,1,0,0,,both
+2023-24,2024,Purdue,Big Ten,at-large,29.1,3,1,1,1,0,0,,both
+2023-24,2024,Auburn,SEC,auto,27.9,4,1,1,4,3,3,,both
+2023-24,2024,Arizona,Pac-12,at-large,26.7,5,2,2,2,0,0,,both
+2023-24,2024,Iowa St.,Big 12,auto,26.0,6,2,2,2,0,0,,both
+2023-24,2024,Tennessee,SEC,at-large,25.7,7,2,2,2,0,0,,both
+2023-24,2024,North Carolina,ACC,at-large,24.6,8,2,2,1,-1,-1,,both
+2023-24,2024,Duke,ACC,at-large,24.2,9,3,3,4,1,1,,both
+2023-24,2024,Illinois,Big Ten,auto,23.9,10,3,3,3,0,0,,both
+2023-24,2024,Creighton,Big East,at-large,22.7,11,3,3,3,0,0,,both
+2023-24,2024,Alabama,SEC,at-large,22.6,12,3,3,4,1,1,,both
+2023-24,2024,Marquette,Big East,at-large,22.4,13,4,4,2,-2,-2,,both
+2023-24,2024,Baylor,Big 12,at-large,21.9,14,4,4,3,-1,-1,,both
+2023-24,2024,BYU,Big 12,at-large,21.0,15,4,4,6,2,2,,both
+2023-24,2024,Gonzaga,WCC,at-large,20.8,16,4,4,5,1,1,,both
+2023-24,2024,Wisconsin,Big Ten,at-large,20.6,17,5,5,5,0,0,,both
+2023-24,2024,Michigan St.,Big Ten,at-large,20.1,18,5,5,9,4,4,,both
+2023-24,2024,Kentucky,SEC,at-large,20.0,19,5,5,3,-2,-2,,both
+2023-24,2024,Kansas,Big 12,at-large,19.1,20,5,5,4,-1,-1,,both
+2023-24,2024,San Diego St.,Mountain West,at-large,18.6,21,6,6,5,-1,-1,,both
+2023-24,2024,Saint Mary's (CA),WCC,auto,18.3,22,6,6,5,-1,-1,,both
+2023-24,2024,St. John's (NY),Big East,at-large,18.2,23,6,,,,,,ours only
+2023-24,2024,Texas,Big 12,at-large,18.2,24,6,6,7,1,1,,both
+2023-24,2024,Texas Tech,Big 12,at-large,18.1,25,7,6,6,0,-1,,both
+2023-24,2024,Florida,SEC,at-large,18.1,26,7,7,7,0,0,,both
+2023-24,2024,Colorado,Pac-12,at-large,17.9,27,7,7,10,3,3,,both
+2023-24,2024,Wake Forest,ACC,at-large,17.9,28,7,,,,,,ours only
+2023-24,2024,New Mexico,Mountain West,auto,17.9,29,8,7,11,4,3,,both
+2023-24,2024,Nebraska,Big Ten,at-large,17.7,30,8,7,8,1,0,,both
+2023-24,2024,Mississippi St.,SEC,at-large,17.6,31,8,8,8,0,0,,both
+2023-24,2024,TCU,Big 12,at-large,17.3,32,8,8,9,1,1,,both
+2023-24,2024,Clemson,ACC,at-large,17.2,33,9,8,6,-2,-3,,both
+2023-24,2024,Dayton,Atlantic 10,at-large,17.1,34,9,8,7,-1,-2,,both
+2023-24,2024,Cincinnati,Big 12,at-large,17.0,35,9,,,,,,ours only
+2023-24,2024,Villanova,Big East,at-large,16.8,36,9,,,,,,ours only
+2023-24,2024,Oklahoma,Big 12,at-large,16.5,37,10,,,,,,ours only
+2023-24,2024,Fla. Atlantic,American,at-large,16.4,38,10,9,8,-1,-2,,both
+2023-24,2024,Colorado St.,Mountain West,at-large,16.2,39,10,9,10,1,0,,both
+2023-24,2024,Washington St.,Pac-12,at-large,16.0,41,10,9,7,-2,-3,,both
+2023-24,2024,Pittsburgh,ACC,at-large,16.0,40,10,,,,,,ours only
+2023-24,2024,Nevada,Mountain West,at-large,15.8,42,10,9,10,1,0,,both
+2023-24,2024,Texas A&M,SEC,at-large,15.8,43,,10,9,-1,,,real only
+2023-24,2024,Northwestern,Big Ten,at-large,15.8,44,,10,9,-1,,,real only
+2023-24,2024,Boise St.,Mountain West,at-large,14.9,48,,10,10,0,,yes,real only
+2023-24,2024,South Carolina,SEC,at-large,14.7,49,,10,6,-4,,yes,real only
+2023-24,2024,Utah St.,Mountain West,at-large,14.3,50,,10,8,-2,,yes,real only
+2023-24,2024,Drake,MVC,auto,14.0,52,11,11,10,-1,-1,,both
+2023-24,2024,Oregon,Pac-12,auto,13.5,55,11,11,11,0,0,,both
+2023-24,2024,Grand Canyon,WAC,auto,13.2,57,11,11,12,1,1,,both
+2023-24,2024,NC State,ACC,auto,13.1,58,11,11,11,0,0,,both
+2023-24,2024,James Madison,Sun Belt,auto,12.6,60,12,12,12,0,0,,both
+2023-24,2024,McNeese,Southland,auto,12.3,65,12,12,12,0,0,,both
+2023-24,2024,Virginia,ACC,at-large,11.9,68,,10,10,0,,yes,real only
+2023-24,2024,Duquesne,Atlantic 10,auto,9.3,87,12,12,11,-1,-1,,both
+2023-24,2024,Yale,Ivy League,auto,8.8,92,12,12,13,1,1,,both
+2023-24,2024,Samford,SoCon,auto,8.6,94,13,13,13,0,0,,both
+2023-24,2024,Col. of Charleston,CAA,auto,7.0,103,13,13,13,0,0,,both
+2023-24,2024,Vermont,America East,auto,6.8,104,13,13,13,0,0,,both
+2023-24,2024,UAB,American,auto,6.1,107,13,13,12,-1,-1,,both
+2023-24,2024,Akron,MAC,auto,5.1,114,14,14,14,0,0,,both
+2023-24,2024,Morehead St.,OVC,auto,4.7,117,14,14,14,0,0,,both
+2023-24,2024,Oakland,Horizon,auto,2.6,138,14,14,14,0,0,,both
+2023-24,2024,Western Ky.,CUSA,auto,2.3,139,14,14,15,1,1,,both
+2023-24,2024,Colgate,Patriot,auto,2.1,141,15,15,14,-1,-1,,both
+2023-24,2024,South Dakota St.,Summit League,auto,2.0,144,15,15,15,0,0,,both
+2023-24,2024,Longwood,Big South,auto,0.8,157,15,15,16,1,1,,both
+2023-24,2024,Long Beach St.,Big West,auto,-0.5,168,15,15,15,0,0,,both
+2023-24,2024,Saint Peter's,MAAC,auto,-3.4,208,16,16,15,-1,-1,,both
+2023-24,2024,Stetson,ASUN,auto,-3.7,212,16,16,16,0,0,,both
+2023-24,2024,Montana St.,Big Sky,auto,-5.3,240,16,16,16,0,0,yes,both
+2023-24,2024,Howard,MEAC,auto,-8.3,277,16,16,16,0,0,yes,both
+2023-24,2024,Grambling,SWAC,auto,-8.6,281,16,16,16,0,0,yes,both
+2023-24,2024,Wagner,NEC,auto,-9.7,295,16,16,16,0,0,yes,both
+2024-25,2025,Duke,ACC,auto,37.0,1,1,1,1,0,0,,both
+2024-25,2025,Florida,SEC,auto,35.8,2,1,1,1,0,0,,both
+2024-25,2025,Auburn,SEC,at-large,35.5,3,1,1,1,0,0,,both
+2024-25,2025,Houston,Big 12,auto,34.9,4,1,1,1,0,0,,both
+2024-25,2025,Tennessee,SEC,at-large,31.2,5,2,2,2,0,0,,both
+2024-25,2025,Alabama,SEC,at-large,30.2,6,2,2,2,0,0,,both
+2024-25,2025,Texas Tech,Big 12,at-large,28.0,7,2,2,3,1,1,,both
+2024-25,2025,Michigan St.,Big Ten,at-large,27.5,8,2,2,2,0,0,,both
+2024-25,2025,Iowa St.,Big 12,at-large,26.9,9,3,3,3,0,0,,both
+2024-25,2025,Maryland,Big Ten,at-large,26.6,10,3,3,4,1,1,,both
+2024-25,2025,St. John's (NY),Big East,auto,26.2,11,3,3,2,-1,-1,,both
+2024-25,2025,Gonzaga,WCC,auto,26.2,12,3,3,8,5,5,,both
+2024-25,2025,Arizona,Big 12,at-large,25.8,13,4,4,4,0,0,,both
+2024-25,2025,Wisconsin,Big Ten,at-large,25.6,14,4,4,3,-1,-1,,both
+2024-25,2025,Missouri,SEC,at-large,24.7,15,4,4,6,2,2,,both
+2024-25,2025,Kentucky,SEC,at-large,24.5,16,4,4,3,-1,-1,,both
+2024-25,2025,Purdue,Big Ten,at-large,24.0,17,5,5,4,-1,-1,,both
+2024-25,2025,Texas A&M,SEC,at-large,24.0,18,5,5,4,-1,-1,,both
+2024-25,2025,Illinois,Big Ten,at-large,23.9,19,5,5,6,1,1,,both
+2024-25,2025,Clemson,ACC,at-large,23.7,20,5,5,5,0,0,,both
+2024-25,2025,Kansas,Big 12,at-large,23.4,21,6,6,7,1,1,,both
+2024-25,2025,BYU,Big 12,at-large,22.6,22,6,6,6,0,0,,both
+2024-25,2025,Louisville,ACC,at-large,22.5,23,6,6,8,2,2,,both
+2024-25,2025,Michigan,Big Ten,auto,22.4,24,6,6,5,-1,-1,,both
+2024-25,2025,Ole Miss,SEC,at-large,22.3,25,7,7,6,-1,-1,,both
+2024-25,2025,Saint Mary's (CA),WCC,at-large,22.2,26,7,7,7,0,0,,both
+2024-25,2025,UCLA,Big Ten,at-large,22.0,27,7,7,7,0,0,,both
+2024-25,2025,Marquette,Big East,at-large,21.9,28,7,7,7,0,0,,both
+2024-25,2025,Mississippi St.,SEC,at-large,21.1,29,8,8,8,0,0,,both
+2024-25,2025,Baylor,Big 12,at-large,20.9,30,8,8,9,1,1,,both
+2024-25,2025,UConn,Big East,at-large,20.1,31,8,8,8,0,0,,both
+2024-25,2025,Oregon,Big Ten,at-large,20.0,32,8,8,5,-3,-3,,both
+2024-25,2025,Georgia,SEC,at-large,19.7,33,9,9,9,0,0,,both
+2024-25,2025,VCU,Atlantic 10,auto,19.5,34,9,9,11,2,2,,both
+2024-25,2025,North Carolina,ACC,at-large,19.4,35,9,9,11,2,2,,both
+2024-25,2025,Oklahoma,SEC,at-large,19.3,36,9,9,9,0,0,,both
+2024-25,2025,Ohio St.,Big Ten,at-large,19.0,37,10,,,,,,ours only
+2024-25,2025,Creighton,Big East,at-large,18.5,38,10,10,9,-1,-1,,both
+2024-25,2025,Arkansas,SEC,at-large,18.2,39,10,10,10,0,0,,both
+2024-25,2025,New Mexico,Mountain West,at-large,17.9,40,10,10,10,0,0,,both
+2024-25,2025,Texas,SEC,at-large,17.7,41,11,10,11,1,0,,both
+2024-25,2025,Xavier,Big East,at-large,17.4,42,11,11,11,0,0,yes,both
+2024-25,2025,UC San Diego,Big West,auto,16.7,43,11,11,12,1,1,,both
+2024-25,2025,SMU,ACC,at-large,16.5,44,11,,,,,,ours only
+2024-25,2025,San Diego St.,Mountain West,at-large,16.4,45,11,11,11,0,0,yes,both
+2024-25,2025,Colorado St.,Mountain West,auto,16.2,47,11,11,12,1,1,,both
+2024-25,2025,Vanderbilt,SEC,at-large,16.0,50,,11,10,-1,,yes,real only
+2024-25,2025,Memphis,American,auto,15.7,52,12,12,5,-7,-7,,both
+2024-25,2025,Utah St.,Mountain West,at-large,15.6,53,,11,10,-1,,yes,real only
+2024-25,2025,Drake,MVC,auto,14.1,57,12,12,11,-1,-1,,both
+2024-25,2025,McNeese,Southland,auto,12.4,64,12,12,12,0,0,,both
+2024-25,2025,Liberty,CUSA,auto,12.2,66,12,12,12,0,0,,both
+2024-25,2025,Yale,Ivy League,auto,10.1,81,13,13,13,0,0,,both
+2024-25,2025,High Point,Big South,auto,8.6,89,13,13,13,0,0,,both
+2024-25,2025,Lipscomb,ASUN,auto,8.1,91,13,13,14,1,1,,both
+2024-25,2025,Grand Canyon,Mountain West,auto,7.3,95,13,13,13,0,0,,both
+2024-25,2025,Troy,Sun Belt,auto,5.8,102,14,14,14,0,0,,both
+2024-25,2025,Akron,MAC,auto,5.8,103,14,14,13,-1,-1,,both
+2024-25,2025,UNCW,CAA,auto,4.8,110,14,14,14,0,0,,both
+2024-25,2025,Wofford,SoCon,auto,3.2,124,14,14,15,1,1,,both
+2024-25,2025,Robert Morris,Horizon,auto,1.6,144,15,15,15,0,0,,both
+2024-25,2025,Bryant,America East,auto,1.0,149,15,15,15,0,0,,both
+2024-25,2025,Montana,Big Sky,auto,0.1,158,15,15,14,-1,-1,,both
+2024-25,2025,Omaha,Summit League,auto,-0.4,166,15,15,15,0,0,,both
+2024-25,2025,Norfolk St.,MEAC,auto,-1.4,178,16,16,16,0,0,,both
+2024-25,2025,SIUE,OVC,auto,-4.1,217,16,16,16,0,0,,both
+2024-25,2025,American,Patriot,auto,-6.3,243,16,16,16,0,0,yes,both
+2024-25,2025,Mount St. Mary's,MAAC,auto,-6.5,247,16,16,16,0,0,yes,both
+2024-25,2025,Alabama St.,SWAC,auto,-9.2,275,16,16,16,0,0,yes,both
+2024-25,2025,Saint Francis,NEC,auto,-11.7,303,16,16,16,0,0,yes,both
+2025-26,2026,Duke,ACC,auto,37.9,1,1,1,1,0,0,,both
+2025-26,2026,Arizona,Big 12,auto,37.6,2,1,1,1,0,0,,both
+2025-26,2026,Michigan,Big Ten,at-large,37.4,3,1,1,1,0,0,,both
+2025-26,2026,Florida,SEC,at-large,32.8,4,1,1,1,0,0,,both
+2025-26,2026,Houston,Big 12,at-large,32.8,5,2,2,2,0,0,,both
+2025-26,2026,Iowa St.,Big 12,at-large,32.2,6,2,2,2,0,0,,both
+2025-26,2026,Illinois,Big Ten,at-large,31.9,7,2,2,3,1,1,,both
+2025-26,2026,Purdue,Big Ten,auto,30.8,8,2,2,2,0,0,,both
+2025-26,2026,UConn,Big East,at-large,28.6,9,3,3,2,-1,-1,,both
+2025-26,2026,Michigan St.,Big Ten,at-large,28.5,10,3,3,3,0,0,,both
+2025-26,2026,Gonzaga,WCC,auto,27.8,11,3,3,3,0,0,,both
+2025-26,2026,Virginia,ACC,at-large,27.0,12,3,3,3,0,0,,both
+2025-26,2026,Vanderbilt,SEC,at-large,26.9,13,4,4,5,1,1,,both
+2025-26,2026,Nebraska,Big Ten,at-large,26.5,14,4,4,4,0,0,,both
+2025-26,2026,Tennessee,SEC,at-large,26.1,15,4,4,6,2,2,,both
+2025-26,2026,Texas Tech,Big 12,at-large,25.8,16,5,4,5,1,0,,both
+2025-26,2026,St. John's (NY),Big East,auto,25.8,17,4,5,5,0,1,,both
+2025-26,2026,Alabama,SEC,at-large,25.8,18,5,5,4,-1,-1,,both
+2025-26,2026,Louisville,ACC,at-large,25.5,19,5,5,6,1,1,,both
+2025-26,2026,Arkansas,SEC,auto,25.5,20,5,5,4,-1,-1,,both
+2025-26,2026,Kansas,Big 12,at-large,24.5,21,6,6,4,-2,-2,,both
+2025-26,2026,BYU,Big 12,at-large,24.0,22,6,6,6,0,0,,both
+2025-26,2026,Wisconsin,Big Ten,at-large,22.7,23,6,6,5,-1,-1,,both
+2025-26,2026,Iowa,Big Ten,at-large,22.3,24,6,6,9,3,3,,both
+2025-26,2026,Saint Mary's (CA),WCC,at-large,21.9,25,7,7,7,0,0,,both
+2025-26,2026,Ohio St.,Big Ten,at-large,21.7,26,7,7,8,1,1,,both
+2025-26,2026,Kentucky,SEC,at-large,21.6,27,7,7,7,0,0,,both
+2025-26,2026,North Carolina,ACC,at-large,21.4,28,7,7,6,-1,-1,,both
+2025-26,2026,UCLA,Big Ten,at-large,20.9,29,8,8,7,-1,-1,,both
+2025-26,2026,Georgia,SEC,at-large,20.8,30,8,8,8,0,0,,both
+2025-26,2026,Miami (FL),ACC,at-large,20.5,31,8,8,7,-1,-1,,both
+2025-26,2026,Utah St.,Mountain West,auto,20.4,32,8,8,9,1,1,,both
+2025-26,2026,Villanova,Big East,at-large,19.9,33,9,9,8,-1,-1,,both
+2025-26,2026,NC State,ACC,at-large,19.8,34,9,9,11,2,2,,both
+2025-26,2026,Clemson,ACC,at-large,19.5,35,9,9,8,-1,-1,,both
+2025-26,2026,Auburn,SEC,at-large,19.3,36,9,,,,,,ours only
+2025-26,2026,Texas,SEC,at-large,19.3,37,10,9,11,2,1,,both
+2025-26,2026,Saint Louis,Atlantic 10,at-large,19.1,38,10,10,9,-1,-1,,both
+2025-26,2026,Texas A&M,SEC,at-large,18.5,39,10,10,10,0,0,,both
+2025-26,2026,Oklahoma,SEC,at-large,18.5,40,10,,,,,,ours only
+2025-26,2026,SMU,ACC,at-large,18.2,41,11,10,11,1,0,,both
+2025-26,2026,Santa Clara,WCC,at-large,18.1,42,11,10,10,0,-1,,both
+2025-26,2026,TCU,Big 12,at-large,17.9,43,11,11,9,-2,-2,yes,both
+2025-26,2026,Cincinnati,Big 12,at-large,17.8,44,11,,,,,,ours only
+2025-26,2026,VCU,Atlantic 10,auto,17.2,46,11,11,11,0,0,,both
+2025-26,2026,UCF,Big 12,at-large,15.6,51,,11,10,-1,,yes,real only
+2025-26,2026,South Fla.,American,auto,15.6,52,11,11,11,0,0,,both
+2025-26,2026,Missouri,SEC,at-large,15.3,53,,11,10,-1,,yes,real only
+2025-26,2026,Akron,MAC,auto,12.2,68,12,12,12,0,0,,both
+2025-26,2026,McNeese,Southland,auto,12.1,71,12,12,12,0,0,,both
+2025-26,2026,UNI,MVC,auto,11.4,77,12,12,12,0,0,,both
+2025-26,2026,Hofstra,CAA,auto,8.9,88,12,12,13,1,1,,both
+2025-26,2026,Miami (OH),MAC,at-large,8.8,89,,11,11,0,,yes,real only
+2025-26,2026,High Point,Big South,auto,8.4,94,13,13,12,-1,-1,,both
+2025-26,2026,California Baptist,WAC,auto,5.4,107,13,13,13,0,0,,both
+2025-26,2026,Hawaii,Big West,auto,4.6,116,13,13,13,0,0,,both
+2025-26,2026,North Dakota St.,Summit League,auto,3.3,129,13,13,14,1,1,,both
+2025-26,2026,Wright St.,Horizon,auto,2.3,136,14,14,14,0,0,,both
+2025-26,2026,Troy,Sun Belt,auto,1.6,146,14,14,13,-1,-1,,both
+2025-26,2026,Penn,Ivy League,auto,1.5,147,14,14,14,0,0,,both
+2025-26,2026,Idaho,Big Sky,auto,0.5,162,14,14,15,1,1,,both
+2025-26,2026,Kennesaw St.,CUSA,auto,0.2,166,15,15,14,-1,-1,,both
+2025-26,2026,Furman,SoCon,auto,-1.7,183,15,15,15,0,0,,both
+2025-26,2026,Siena,MAAC,auto,-1.9,187,15,15,16,1,1,,both
+2025-26,2026,Queens (NC),ASUN,auto,-2.0,189,15,15,15,0,0,,both
+2025-26,2026,Tennessee St.,OVC,auto,-2.1,191,16,16,15,-1,-1,,both
+2025-26,2026,UMBC,America East,auto,-2.6,201,16,16,16,0,0,,both
+2025-26,2026,LIU,NEC,auto,-3.5,207,16,16,16,0,0,yes,both
+2025-26,2026,Howard,MEAC,auto,-4.4,217,16,16,16,0,0,yes,both
+2025-26,2026,Prairie View,SWAC,auto,-10.6,289,16,16,16,0,0,yes,both
+2025-26,2026,Lehigh,Patriot,auto,-11.0,296,16,16,16,0,0,yes,both
