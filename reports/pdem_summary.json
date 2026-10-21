@@ -1,0 +1,292 @@
+{
+ "games": 680,
+ "upsets": 169,
+ "holds": 511,
+ "avg_path": {
+  "upsets": [
+   0,
+   0.08,
+   -0.05,
+   0.09,
+   -0.02,
+   0.24,
+   0.59,
+   0.83,
+   1.05,
+   1.06,
+   1.26,
+   1.23,
+   1.51,
+   1.8,
+   1.64,
+   1.79,
+   2.06,
+   2.61,
+   2.94,
+   3.32,
+   3.53,
+   3.56,
+   3.98,
+   3.98,
+   4.31,
+   4.38,
+   4.86,
+   4.73,
+   5.01,
+   5.15,
+   5.28,
+   5.32,
+   5.33,
+   5.44,
+   5.47,
+   5.51,
+   5.79,
+   5.89,
+   6.27,
+   6.64,
+   7.55
+  ],
+  "holds": [
+   0,
+   -0.44,
+   -0.73,
+   -1.11,
+   -1.47,
+   -1.83,
+   -2.28,
+   -2.82,
+   -3.21,
+   -3.68,
+   -3.93,
+   -4.49,
+   -4.95,
+   -5.42,
+   -5.62,
+   -6.05,
+   -6.52,
+   -6.97,
+   -7.35,
+   -7.77,
+   -8.37,
+   -8.73,
+   -9.24,
+   -9.66,
+   -10.09,
+   -10.43,
+   -10.67,
+   -10.93,
+   -11.42,
+   -11.69,
+   -12.02,
+   -12.43,
+   -12.75,
+   -12.99,
+   -13.32,
+   -13.53,
+   -13.69,
+   -13.95,
+   -14.16,
+   -14.5,
+   -14.86
+  ]
+ },
+ "standing": {
+  "m10": {
+   "upsets": {
+    "ahead": 93,
+    "level": 8,
+    "behind": 68,
+    "n": 169
+   },
+   "holds": {
+    "ahead": 128,
+    "level": 31,
+    "behind": 352,
+    "n": 511
+   }
+  },
+  "m20": {
+   "upsets": {
+    "ahead": 111,
+    "level": 9,
+    "behind": 49,
+    "n": 169
+   },
+   "holds": {
+    "ahead": 74,
+    "level": 11,
+    "behind": 426,
+    "n": 511
+   }
+  },
+  "m30": {
+   "upsets": {
+    "ahead": 117,
+    "level": 5,
+    "behind": 47,
+    "n": 169
+   },
+   "holds": {
+    "ahead": 47,
+    "level": 15,
+    "behind": 449,
+    "n": 511
+   }
+  },
+  "m35": {
+   "upsets": {
+    "ahead": 126,
+    "level": 8,
+    "behind": 35,
+    "n": 169
+   },
+   "holds": {
+    "ahead": 34,
+    "level": 10,
+    "behind": 467,
+    "n": 511
+   }
+  }
+ },
+ "win_when": {
+  "m20": {
+   "ahead": {
+    "n": 185,
+    "won": 111
+   },
+   "level": {
+    "n": 20,
+    "won": 9
+   },
+   "behind_1_5": {
+    "n": 155,
+    "won": 35
+   },
+   "behind_6_plus": {
+    "n": 320,
+    "won": 14
+   }
+  },
+  "m30": {
+   "ahead": {
+    "n": 164,
+    "won": 117
+   },
+   "level": {
+    "n": 20,
+    "won": 5
+   },
+   "behind_1_5": {
+    "n": 108,
+    "won": 36
+   },
+   "behind_6_plus": {
+    "n": 388,
+    "won": 11
+   }
+  },
+  "m35": {
+   "ahead": {
+    "n": 160,
+    "won": 126
+   },
+   "level": {
+    "n": 18,
+    "won": 8
+   },
+   "behind_1_5": {
+    "n": 105,
+    "won": 24
+   },
+   "behind_6_plus": {
+    "n": 397,
+    "won": 11
+   }
+  }
+ },
+ "upset_low": {
+  "median": -5,
+  "trailed_10_plus": 30,
+  "never_trailed": 21
+ },
+ "upset_for_good": {
+  "median": 26,
+  "last_5_min_or_ot": 60,
+  "first_half": 72
+ },
+ "upset_share_ahead": 0.635,
+ "comebacks": [
+  {
+   "season": "2017-18",
+   "round": "Second round",
+   "game": "(7) Nevada over (2) Cincinnati",
+   "score": "75-73",
+   "low": -22
+  },
+  {
+   "season": "2025-26",
+   "round": "First round",
+   "game": "(11) VCU over (6) North Carolina",
+   "score": "82-78",
+   "low": -19
+  },
+  {
+   "season": "2015-16",
+   "round": "Elite Eight",
+   "game": "(10) Syracuse over (1) Virginia",
+   "score": "68-62",
+   "low": -16
+  },
+  {
+   "season": "2021-22",
+   "round": "First round",
+   "game": "(11) Michigan over (6) Colorado St.",
+   "score": "75-63",
+   "low": -15
+  },
+  {
+   "season": "2014-15",
+   "round": "First round",
+   "game": "(14) Georgia St. over (3) Baylor",
+   "score": "57-56",
+   "low": -14
+  },
+  {
+   "season": "2015-16",
+   "round": "First round",
+   "game": "(12) Little Rock over (5) Purdue",
+   "score": "85-83",
+   "low": -14
+  }
+ ],
+ "swing_per_minute": {
+  "upsets": 1.71,
+  "holds": 1.79
+ },
+ "by_round": {
+  "First round": [
+   86,
+   298
+  ],
+  "Second round": [
+   46,
+   143
+  ],
+  "Sweet 16": [
+   26,
+   48
+  ],
+  "Championship": [
+   0,
+   3
+  ],
+  "Elite Eight": [
+   8,
+   10
+  ],
+  "Final Four": [
+   3,
+   9
+  ]
+ }
+}
