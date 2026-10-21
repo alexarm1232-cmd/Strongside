@@ -1,0 +1,541 @@
+<style>
+  .ut { font-family: var(--font-anthropic-sans); display: grid; gap: var(--cds-gap-lg); }
+  .ut-head h1 { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); margin: 0; text-wrap: balance; }
+  .ut-head p { margin: var(--cds-gap-xs) 0 0; color: var(--color-fg-muted); font-size: var(--cds-font-size-body); max-width: 70ch; }
+  .ut-tiles { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 11rem), 1fr)); gap: var(--cds-gap-md); }
+  .ut-tile, .ut-card { background: var(--color-panel); border: 1px solid var(--color-border-line); border-radius: var(--cds-radius); padding: var(--cds-pad-lg); min-width: 0; }
+  .ut-tile .k { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+  .ut-tile .v { font-family: var(--font-anthropic-serif); font-weight: 400; font-size: var(--cds-font-size-title); font-variant-numeric: tabular-nums; margin-top: var(--cds-gap-xs); }
+  .ut-tile .s { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin-top: var(--cds-gap-xs); }
+  .ut-card h2 { font-size: var(--cds-font-size-heading); font-weight: var(--cds-font-weight-medium); margin: 0; }
+  .ut-card .note { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin: var(--cds-gap-xs) 0 var(--cds-gap-md); max-width: 75ch; }
+  .ut-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 26rem), 1fr)); gap: var(--cds-gap-md); }
+  .ut-chart { position: relative; min-height: 300px; }
+  .ut-chart svg { display: block; overflow: visible; }
+  .ut-chart text { font-size: var(--cds-font-size-caption); fill: var(--color-fg-muted); }
+  .ut-chart .lbl { fill: var(--color-fg); }
+  .ut-tip { position: absolute; pointer-events: none; background: var(--cds-surface-popover); border: 1px solid var(--cds-border); border-radius: var(--cds-radius);
+    box-shadow: var(--cds-shadow-popover); padding: var(--cds-pad-xs) var(--cds-pad-sm); font-size: var(--cds-font-size-caption); white-space: nowrap; z-index: 2; }
+  .ut-tip .t { color: var(--cds-text-secondary); margin-bottom: 2px; }
+  .ut-tip .sw { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 6px; }
+  .ut-tip b { font-variant-numeric: tabular-nums; }
+  .ut-controls { display: flex; flex-wrap: wrap; gap: var(--cds-gap-sm); margin-bottom: var(--cds-gap-md); }
+  .ut-controls select { font: inherit; font-size: var(--cds-font-size-caption); padding: 4px 8px; border: 1px solid var(--color-border-line); border-radius: var(--cds-radius);
+    background: var(--color-bg); color: var(--color-fg); max-width: 100%; }
+  .ut-controls select.game { flex: 1 1 18rem; min-width: 0; }
+  .ut-pick { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin-top: var(--cds-gap-sm); }
+  .ut-pick b { color: var(--color-fg); font-weight: 600; }
+  .ut-tablebox { max-height: 30rem; overflow: auto; }
+  .ut-table { width: 100%; border-collapse: collapse; font-size: var(--cds-font-size-caption); font-variant-numeric: tabular-nums; }
+  .ut-table th { position: sticky; top: 0; background: var(--color-panel); text-align: right; padding: 0; border-bottom: 1px solid var(--color-border-line); }
+  .ut-table th button { all: unset; cursor: pointer; display: block; padding: 6px 8px; font-weight: 600; color: var(--color-fg-muted); white-space: nowrap; }
+  .ut-table th.l, .ut-table td.l { text-align: left; }
+  .ut-table td { padding: 5px 8px; border-bottom: 1px solid var(--color-border-line); text-align: right; white-space: nowrap; }
+  .ut-table tbody tr { cursor: pointer; }
+  .ut-table tbody tr:hover td, .ut-table tbody tr.on td { background: var(--cds-chart-grid); }
+  .ut-search { font: inherit; font-size: var(--cds-font-size-caption); padding: 5px 8px; border: 1px solid var(--color-border-line); border-radius: var(--cds-radius);
+    background: var(--color-bg); color: var(--color-fg); width: min(100%, 18rem); margin-bottom: var(--cds-gap-sm); }
+  .ut-fail { display: flex; align-items: center; justify-content: center; gap: 6px; min-height: inherit; font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+  .ut-fail::before { content: ""; width: .375rem; height: .375rem; border-radius: 50%; background: var(--color-bad); }
+  .ut-tabs { display: flex; flex-wrap: wrap; gap: var(--cds-gap-xs); border-bottom: 1px solid var(--color-border-line); }
+  .ut-tabs button { all: unset; cursor: pointer; padding: var(--cds-pad-sm) var(--cds-pad-md); font-size: var(--cds-font-size-body); color: var(--color-fg-muted);
+    border-bottom: 2px solid transparent; margin-bottom: -1px; }
+  .ut-tabs button[aria-selected="true"] { color: var(--color-fg); border-bottom-color: var(--color-fg); font-weight: var(--cds-font-weight-medium); }
+  .ut-tabs button:focus-visible { outline: 2px solid var(--color-fg); outline-offset: 2px; }
+  .ut-page { display: grid; gap: var(--cds-gap-lg); }
+  .ud-cols { display: grid; grid-template-columns: minmax(0, 11rem) minmax(0, 1fr); gap: var(--cds-gap-md); }
+  @media (max-width: 640px) { .ud-cols { grid-template-columns: 1fr; } }
+  .ud-years, .ud-games { display: flex; flex-direction: column; gap: 4px; max-height: 26rem; overflow: auto; min-height: 6rem; }
+  .ud-years button, .ud-games button { all: unset; cursor: pointer; display: flex; justify-content: space-between; gap: var(--cds-gap-sm);
+    padding: var(--cds-pad-xs) var(--cds-pad-sm); border-radius: var(--cds-radius); font-size: var(--cds-font-size-body); font-variant-numeric: tabular-nums; }
+  .ud-years button:hover, .ud-games button:hover { background: var(--cds-chart-grid); }
+  .ud-years button[aria-selected="true"], .ud-games button[aria-selected="true"] { background: var(--color-bg); outline: 1px solid var(--color-border-line); font-weight: 600; }
+  .ud-years button:focus-visible, .ud-games button:focus-visible { outline: 2px solid var(--color-fg); }
+  .ud-years .n, .ud-games .n { color: var(--color-fg-muted); font-weight: 400; white-space: nowrap; }
+  .ud-games .m { min-width: 0; }
+  .ud-games .r { display: block; font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); font-weight: 400; }
+  .ud-facts { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 9rem), 1fr)); gap: var(--cds-gap-sm); margin: var(--cds-gap-sm) 0 var(--cds-gap-md); }
+  .ud-facts div { display: flex; flex-direction: column; gap: 2px; }
+  .ud-facts .k { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); }
+  .ud-facts .v { font-size: var(--cds-font-size-heading); font-variant-numeric: tabular-nums; }
+  [data-dash-source-state=empty] { color: transparent; }
+  [data-dash-source-state=refreshing] { opacity: .5; transition: opacity var(--cds-dur-slow); }
+</style>
+
+<div class="ut">
+  <nav class="ut-tabs" role="tablist" aria-label="Pages">
+    <button role="tab" id="tab-overview" data-page="overview" aria-selected="true">Minute by minute</button>
+    <button role="tab" id="tab-lines" data-page="lines" aria-selected="false">Upsets and the line</button>
+  </nav>
+  <section class="ut-page" id="overview" role="tabpanel" aria-labelledby="tab-overview">
+  <header class="ut-head" id="top">
+    <h1>Tournament upsets, minute by minute</h1>
+    <p>NCAA tournament games 2010–2026 between seeds four or more lines apart, followed from the lower seed’s side: below zero it is behind, above zero ahead.
+      The lower seed won <b data-source="summary" data-field="upsets" class="dash-skeleton">—</b> of <b data-source="summary" data-field="games" class="dash-skeleton">—</b>.
+      Ahead at halftime, it won <b data-source="from_spot" data-field="rate_text" data-where="checkpoint=Halftime&amp;spot=Ahead" class="dash-skeleton">—</b> of the time; six or more down at halftime, <b data-source="from_spot" data-field="rate_text" data-where="checkpoint=Halftime&amp;spot=Down%206%20or%20more" class="dash-skeleton">—</b>.</p>
+  </header>
+
+  <section class="ut-tiles" id="tiles">
+    <div class="ut-tile"><div class="k">Games, seeds 4+ lines apart</div><div class="v dash-skeleton" data-source="summary" data-field="games">—</div><div class="s"><span data-source="summary" data-field="tournaments">—</span> tournaments, <span data-source="summary" data-field="span">—</span></div></div>
+    <div class="ut-tile"><div class="k">Won by the lower seed</div><div class="v dash-skeleton" data-source="summary" data-field="upsets">—</div><div class="s"><span data-source="summary" data-field="upset_rate_text">—</span> of those games</div></div>
+    <div class="ut-tile"><div class="k">Upsets led at halftime</div><div class="v dash-skeleton" data-source="summary" data-field="led_half_text">—</div><div class="s"><span data-source="summary" data-field="never_trailed">—</span> never trailed at all</div></div>
+    <div class="ut-tile"><div class="k">Upsets from 10+ points down</div><div class="v dash-skeleton" data-source="summary" data-field="from_10_down">—</div><div class="s">the lead for good came at minute <span data-source="summary" data-field="median_for_good">—</span> (median)</div></div>
+  </section>
+
+  <section class="ut-grid">
+    <div class="ut-card" id="paths">
+      <h2>The average game, minute by minute</h2>
+      <div class="note">The lower seed’s margin after each minute of regulation, averaged over its wins and over its losses. Upsets don’t usually come from late runs: the average upset is ahead from the opening minutes and builds steadily.</div>
+      <div class="ut-chart" id="paths-chart" data-source="avg_path"></div>
+    </div>
+    <div class="ut-card" id="spots">
+      <h2>How often the lower seed wins from each spot</h2>
+      <div class="note">Every game with seeds 4+ lines apart, split by where the lower seed stood at three points of the game. The bar is its win rate from there.</div>
+      <div class="ut-chart" id="spots-chart" data-source="from_spot"></div>
+    </div>
+  </section>
+
+  <section class="ut-card" id="explorer">
+    <h2>Every upset</h2>
+    <div class="note">Each line is one upset from the winner’s side. Pick a game, or click one in the table below, to follow it minute by minute.</div>
+    <div class="ut-controls">
+      <select id="ut-season" aria-label="Season"></select>
+      <select id="ut-round" aria-label="Round"></select>
+      <select id="ut-game" class="game" aria-label="Game"></select>
+    </div>
+    <div class="ut-chart" id="explorer-chart" data-source="games"></div>
+    <div class="ut-pick" id="ut-pick"></div>
+  </section>
+
+  <section class="ut-card" id="table">
+    <h2>The upsets</h2>
+    <div class="note">Margins are the lower seed’s. Low point is its biggest deficit; lead for good is the minute it went ahead and stayed ahead. Sort by any column.</div>
+    <input class="ut-search" id="ut-search" type="search" placeholder="Search a team, season or round" aria-label="Search the upsets">
+    <div class="ut-tablebox">
+      <table class="ut-table" id="ut-table" data-source="upsets" data-row-key="game">
+        <thead><tr>
+          <th class="l" data-field="season"><button data-sort="season">Season</button></th>
+          <th class="l" data-field="round"><button data-sort="round">Round</button></th>
+          <th class="l" data-field="matchup"><button data-sort="matchup">Upset</button></th>
+          <th data-field="score"><button data-sort="final">Final</button></th>
+          <th data-field="half"><button data-sort="half">At half</button></th>
+          <th data-field="low"><button data-sort="low">Low point</button></th>
+          <th data-field="for_good"><button data-sort="for_good">Lead for good</button></th>
+        </tr></thead>
+        <tbody></tbody>
+      </table>
+    </div>
+  </section>
+  </section>
+
+  <section class="ut-page" id="lines" role="tabpanel" aria-labelledby="tab-lines" hidden>
+    <header class="ut-head">
+      <h1>Upsets and the line</h1>
+      <p>The same upsets, set against the Las Vegas closing spread. The line is the lower seed’s: +6.5 means it was getting 6.5 points.
+        In <b data-source="line_summary" data-field="underdog" class="dash-skeleton">—</b> of <b data-source="line_summary" data-field="upsets" class="dash-skeleton">—</b> upsets the lower seed was the betting underdog, by a median of <b data-source="line_summary" data-field="median_line_text" class="dash-skeleton">—</b> points.
+        In <b data-source="line_summary" data-field="not_underdog" class="dash-skeleton">—</b> it was favored or a pick’em, so the market did not see an upset coming.</p>
+    </header>
+
+    <section class="ut-tiles">
+      <div class="ut-tile"><div class="k">Upsets by a betting underdog</div><div class="v dash-skeleton" data-source="line_summary" data-field="underdog">—</div><div class="s"><span data-source="line_summary" data-field="underdog_share">—</span> of the upsets</div></div>
+      <div class="ut-tile"><div class="k">Median line, those underdogs</div><div class="v dash-skeleton" data-source="line_summary" data-field="median_line_text">—</div><div class="s">points the lower seed was getting</div></div>
+      <div class="ut-tile"><div class="k">Lower seed favored or pick’em</div><div class="v dash-skeleton" data-source="line_summary" data-field="not_underdog">—</div><div class="s">seed upsets the market expected</div></div>
+      <div class="ut-tile"><div class="k">Biggest line overcome</div><div class="v dash-skeleton" data-source="line_summary" data-field="biggest_text">—</div><div class="s" data-source="line_summary" data-field="biggest_game">—</div></div>
+    </section>
+
+    <section class="ut-card" id="drill">
+      <h2>Year by year</h2>
+      <div class="note">Pick a tournament, then an upset, to see its margin minute by minute against the line it beat. Margins and lines are the lower seed’s.</div>
+      <div class="ud-cols">
+        <div class="ud-years" id="ud-years" role="listbox" aria-label="Tournaments" data-source="upset_lines"></div>
+        <div class="ud-games" id="ud-games" role="listbox" aria-label="Upsets that year" data-source="upset_lines"></div>
+      </div>
+    </section>
+
+    <section class="ut-card" id="drill-game">
+      <h2 id="ud-title">Pick an upset</h2>
+      <div class="ud-facts" id="ud-facts" data-source="upset_lines"></div>
+      <div class="ut-chart" id="ud-chart" data-source="games"></div>
+      <div class="ut-pick" id="ud-note"></div>
+    </section>
+  </section>
+</div>
+
+<script>
+// ---------- calculations over the games file ----------
+const num = (v) => (v === '' || v == null ? null : Number(v));
+const series = (g) => { const n = Number(g.minutes); const m = []; for (let i = 0; i <= n; i++) m.push(Number(g['m' + i])); return m; };
+const atMin = (m, i) => m[Math.min(i, m.length - 1)];
+
+dash.calc('upsets', {
+  inputs: ['games'], title: 'The upsets, with their key moments',
+  description: 'Games the lower seed won: margin at halftime, biggest deficit, and the minute from which it stayed ahead.',
+  fn: (games) => games.filter((g) => g.lower_won === 'yes').map((g) => {
+    const m = series(g);
+    let last = 0; m.forEach((v, i) => { if (v <= 0) last = i; });
+    return { game: g.game, season: g.season, date: g.date, round: g.round, team: g.lower_team,
+      matchup: `(${g.lower_seed}) ${g.lower_team} over (${g.higher_seed}) ${g.higher_team}`,
+      score: `${g.lower_pts}–${g.higher_pts}${Number(g.minutes) > 40 ? ' OT' : ''}`, final: Number(g.lower_pts) - Number(g.higher_pts),
+      half: m[20], low: Math.min(...m), for_good: last + 1 };
+  }),
+});
+
+dash.calc('avg_path', {
+  inputs: ['games'], title: 'Average margin by minute',
+  description: 'The lower seed’s margin after each minute 0–40, averaged over its wins (upsets) and its losses.',
+  fn: (games) => {
+    const won = games.filter((g) => g.lower_won === 'yes').map(series), lost = games.filter((g) => g.lower_won !== 'yes').map(series);
+    const avg = (list, i) => Math.round(100 * list.reduce((s, m) => s + atMin(m, i), 0) / list.length) / 100;
+    return Array.from({ length: 41 }, (_, i) => ({ minute: i, upsets: avg(won, i), favorite_won: avg(lost, i) }));
+  },
+});
+
+dash.calc('from_spot', {
+  inputs: ['games'], title: 'Win rate from each spot',
+  description: 'How often the lower seed won, by its margin at halftime, with 10 minutes left and with 5 left.',
+  fn: (games) => {
+    const spots = [['Ahead', (v) => v > 0], ['Tied', (v) => v === 0], ['Down 1–5', (v) => v < 0 && v >= -5], ['Down 6 or more', (v) => v < -5]];
+    const rows = [];
+    for (const [checkpoint, minute] of [['Halftime', 20], ['10 minutes left', 30], ['5 minutes left', 35]]) {
+      for (const [spot, test] of spots) {
+        const sel = games.filter((g) => test(atMin(series(g), minute)));
+        const won = sel.filter((g) => g.lower_won === 'yes').length;
+        rows.push({ checkpoint, spot, games: sel.length, won, rate: sel.length ? won / sel.length : null,
+          rate_text: sel.length ? `${Math.round(100 * won / sel.length)}%` : '–' });
+      }
+    }
+    return rows;
+  },
+});
+
+dash.calc('summary', {
+  inputs: ['upsets', 'games'], title: 'Headline figures',
+  description: 'Counts over the games and the upsets: how many, how often, led at the half, never trailed, came from 10+ down, median minute ahead for good, tournaments covered.',
+  fn: (upsets, games) => {
+    const n = upsets.length, sorted = upsets.map((u) => u.for_good).sort((a, b) => a - b);
+    const led = upsets.filter((u) => u.half > 0).length;
+    return [{ games: games.length, upsets: n, upset_rate_text: `${Math.round(100 * n / games.length)}%`,
+      led_half_text: `${Math.round(100 * led / n)}%`, never_trailed: upsets.filter((u) => u.low >= 0).length,
+      from_10_down: upsets.filter((u) => u.low <= -10).length,
+      median_for_good: n ? sorted[Math.floor((n - 1) / 2)] : null,
+      tournaments: new Set(games.map((g) => g.season)).size,
+      span: (() => { const y = games.map((g) => g.date.slice(0, 4)).sort(); return y.length ? `${y[0]}–${y[y.length - 1]}` : ''; })() }];
+  },
+});
+
+// ---------- the upsets and the closing line ----------
+const lineText = (v) => (v > 0 ? `+${v}` : v < 0 ? `−${-v}` : 'PK');
+dash.calc('upset_lines', {
+  inputs: ['spreads', 'upsets'], title: 'The upsets with their closing lines',
+  description: 'Each upset (seeds 4+ lines apart, the lower seed won) with the lower seed’s closing spread from BetIQ, joined by date and winner.',
+  fn: (spreads, upsets) => {
+    const byKey = new Map(upsets.map((u) => [`${u.date}|${u.team}`, u]));
+    return spreads.filter((s) => s.seed_gap !== '' && Number(s.seed_gap) >= 4).map((s) => {
+      const u = byKey.get(`${s.date}|${s.winner}`), line = Number(s.lower_seed_line);
+      return { game: u ? u.game : `${s.date} ${s.winner} v ${s.loser}`, season: s.season, date: s.date, year: s.date.slice(0, 4), round: s.round,
+        matchup: `(${s.winner_seed}) ${s.winner} over (${s.loser_seed}) ${s.loser}`, winner: s.winner, loser: s.loser,
+        favorite: s.favorite, spread: Number(s.spread), total: s.total === '' ? null : Number(s.total), line, line_text: lineText(line),
+        market: line > 0 ? 'Underdog' : line < 0 ? 'Favored' : 'Pick’em', score: u ? u.score : s.score,
+        final: u ? u.final : null, half: u ? u.half : null, low: u ? u.low : null };
+    });
+  },
+});
+dash.calc('line_summary', {
+  inputs: ['upset_lines'], title: 'Headline figures for the lines',
+  description: 'How many upsets came from betting underdogs, their median line, how many had the lower seed favored or at pick’em, and the biggest line overcome.',
+  fn: (upset_lines) => {
+    const dogs = upset_lines.filter((u) => u.line > 0), lines = dogs.map((u) => u.line).sort((a, b) => a - b);
+    const mid = lines.length ? (lines.length % 2 ? lines[(lines.length - 1) / 2] : (lines[lines.length / 2 - 1] + lines[lines.length / 2]) / 2) : null;
+    const top = dogs.reduce((a, b) => (!a || b.line > a.line ? b : a), null);
+    return [{ upsets: upset_lines.length, underdog: dogs.length, underdog_share: upset_lines.length ? `${Math.round(100 * dogs.length / upset_lines.length)}%` : '–',
+      median_line_text: mid == null ? '–' : `+${mid}`, not_underdog: upset_lines.length - dogs.length,
+      biggest_text: top ? `+${top.line}` : '–', biggest_game: top ? `${top.matchup}, ${top.season}` : '' }];
+  },
+});
+
+// ---------- drawing ----------
+const fmtSigned = (v) => (v > 0 ? '+' : v < 0 ? '−' : '') + Math.abs(v).toFixed(Number.isInteger(v) ? 0 : 1);
+const textWidth = (svg, s) => { const t = svg.append('text').text(s); const w = t.node().getComputedTextLength(); t.remove(); return w; };
+const failed = (el) => { el.replaceChildren(); const d = document.createElement('div'); d.className = 'ut-fail'; d.textContent = 'Failed to load'; el.append(d); };
+const tipFor = (box) => { let t = box.querySelector('.ut-tip'); if (!t) { t = document.createElement('div'); t.className = 'ut-tip'; t.hidden = true; box.append(t); } return t; };
+const placeTip = (box, tip, x, y) => {
+  const w = tip.offsetWidth, bw = box.clientWidth;
+  tip.style.left = Math.max(0, Math.min(bw - w, x + 12)) + 'px';
+  tip.style.top = Math.max(0, y - tip.offsetHeight - 8) + 'px';
+};
+const fill = (el, value) => { el.textContent = value == null ? '—' : String(value); el.classList.remove('dash-skeleton'); };
+
+function marginChart(box, opts) {
+  // opts: {lines: [{values, color, width, opacity, name}], domainY, height, hover: (i) => html, ends: [{y, text, color}]}
+  const W = box.clientWidth, H = opts.height || 300;
+  box.querySelectorAll('svg').forEach((n) => n.remove());
+  const svg = d3.select(box).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`).attr('height', H);
+  const yTicks = d3.scaleLinear().domain(opts.domainY).nice().ticks(6);
+  const left = Math.max(...yTicks.map((v) => textWidth(svg, fmtSigned(v)))) + 10;
+  const right = opts.ends ? Math.max(0, ...opts.ends.map((e) => textWidth(svg, e.text))) + 12 : 12;
+  const xMax = opts.xMax || 40;
+  const x = d3.scaleLinear([0, xMax], [left, W - right]);
+  const y = d3.scaleLinear(opts.domainY, [H - 26, 10]).nice();
+  svg.append('g').selectAll('line').data(yTicks).join('line').attr('x1', left).attr('x2', W - right)
+    .attr('y1', (v) => y(v)).attr('y2', (v) => y(v)).attr('stroke', (v) => (v === 0 ? 'var(--cds-chart-reference)' : 'var(--cds-chart-grid)')).attr('stroke-width', 1);
+  svg.append('g').selectAll('text').data(yTicks).join('text').attr('x', left - 8).attr('y', (v) => y(v)).attr('dy', '0.32em').attr('text-anchor', 'end').text(fmtSigned);
+  const xt = [0, 10, 20, 30, 40].concat(xMax > 40 ? [xMax] : []);
+  svg.append('g').selectAll('text').data(xt).join('text').attr('x', (v) => x(v)).attr('y', H - 6).attr('text-anchor', 'middle')
+    .text((v) => (v === 20 ? 'Half' : v === 40 ? '40 min' : v > 40 ? 'OT' : v === 0 ? '0' : v));
+  svg.append('line').attr('x1', x(20)).attr('x2', x(20)).attr('y1', 10).attr('y2', H - 26).attr('stroke', 'var(--cds-chart-grid)').attr('stroke-dasharray', '3 3');
+  // reference lines, such as the margin the closing spread expected
+  for (const r of opts.refs || []) {
+    svg.append('line').attr('x1', left).attr('x2', W - right).attr('y1', y(r.y)).attr('y2', y(r.y))
+      .attr('stroke', 'var(--cds-chart-reference)').attr('stroke-width', 1.5).attr('stroke-dasharray', '6 4');
+    svg.append('text').attr('class', 'lbl').attr('x', left + 6).attr('y', y(r.y) + (r.y < 0 ? 14 : -6)).text(r.text);
+  }
+  const line = d3.line().x((v, i) => x(i)).y((v) => y(v));
+  for (const l of opts.lines) {
+    svg.append('path').attr('d', line(l.values)).attr('fill', 'none').attr('stroke', l.color).attr('stroke-width', l.width || 2)
+      .attr('stroke-opacity', l.opacity ?? 1).attr('stroke-linecap', 'round').attr('stroke-linejoin', 'round');
+  }
+  if (opts.ends) {
+    const placed = [];
+    for (const e of [...opts.ends].sort((a, b) => y(a.y) - y(b.y))) {
+      let ty = y(e.y); for (const p of placed) if (Math.abs(ty - p) < 14) ty = p + 14; placed.push(ty);
+      svg.append('text').attr('class', 'lbl').attr('x', W - right + 6).attr('y', ty).attr('dy', '0.32em').text(e.text);
+    }
+  }
+  if (opts.hover) {
+    const tip = tipFor(box), rule = svg.append('line').attr('y1', 10).attr('y2', H - 26).attr('stroke', 'var(--cds-chart-axis)').attr('opacity', 0);
+    const dots = svg.append('g');
+    svg.append('rect').attr('x', left).attr('y', 0).attr('width', Math.max(0, W - right - left)).attr('height', H).attr('fill', 'transparent')
+      .on('pointermove', (ev) => {
+        const [px, py] = d3.pointer(ev, box); const i = Math.max(0, Math.min(xMax, Math.round(x.invert(d3.pointer(ev)[0]))));
+        rule.attr('x1', x(i)).attr('x2', x(i)).attr('opacity', 1);
+        dots.selectAll('circle').data(opts.lines.filter((l) => l.dot)).join('circle').attr('cx', x(i)).attr('cy', (l) => y(l.values[Math.min(i, l.values.length - 1)]))
+          .attr('r', 4).attr('fill', (l) => l.color).attr('stroke', 'var(--color-panel)').attr('stroke-width', 2);
+        tip.innerHTML = opts.hover(i); tip.hidden = false; placeTip(box, tip, px, py);
+      })
+      .on('pointerleave', () => { tip.hidden = true; rule.attr('opacity', 0); dots.selectAll('circle').remove(); });
+  }
+}
+
+// average paths
+function drawPaths() {
+  const box = document.getElementById('paths-chart'), d = dash.data('avg_path');
+  if (d.status === 'error') return failed(box);
+  if (d.status !== 'ok' || !d.data.length) { box.querySelectorAll('svg').forEach((n) => n.remove()); return; }
+  const rows = d.data, c = dash.colors;
+  const up = rows.map((r) => r.upsets), fav = rows.map((r) => r.favorite_won);
+  marginChart(box, {
+    domainY: [Math.min(...fav, ...up, 0), Math.max(...up, ...fav, 0)],
+    lines: [{ values: up, color: c[0], name: 'Upsets', dot: true }, { values: fav, color: c[1], name: 'Favorite won', dot: true }],
+    ends: [{ y: up[40], text: `Upsets ${fmtSigned(up[40])}` }, { y: fav[40], text: `Favorite won ${fmtSigned(fav[40])}` }],
+    hover: (i) => `<div class="t">Minute ${i}</div>` +
+      `<div><span class="sw" style="background:${c[0]}"></span>Upsets <b>${fmtSigned(up[i])}</b></div>` +
+      `<div><span class="sw" style="background:${c[1]}"></span>Favorite won <b>${fmtSigned(fav[i])}</b></div>`,
+  });
+}
+
+// win rate from each spot: three small panels of horizontal bars
+function drawSpots() {
+  const box = document.getElementById('spots-chart'), d = dash.data('from_spot');
+  if (d.status === 'error') return failed(box);
+  box.querySelectorAll('svg').forEach((n) => n.remove());
+  if (d.status !== 'ok' || !d.data.length) return;
+  const rows = d.data, W = box.clientWidth, checkpoints = [...new Set(rows.map((r) => r.checkpoint))], spots = [...new Set(rows.map((r) => r.spot))];
+  const barH = 18, gap = 6, head = 22, panelGap = 14, H = checkpoints.length * (head + spots.length * (barH + gap)) + (checkpoints.length - 1) * panelGap;
+  const svg = d3.select(box).append('svg').attr('width', '100%').attr('viewBox', `0 0 ${W} ${H}`).attr('height', H);
+  const left = Math.max(...spots.map((s) => textWidth(svg, s))) + 12;
+  const right = Math.max(...rows.map((r) => textWidth(svg, `${r.rate_text} (${r.won} of ${r.games})`))) + 10;
+  const x = d3.scaleLinear([0, 1], [left, Math.max(left + 40, W - right)]);
+  const tip = tipFor(box);
+  let top = 0;
+  for (const cp of checkpoints) {
+    svg.append('text').attr('class', 'lbl').attr('x', 0).attr('y', top + 14).text(cp);
+    let yy = top + head;
+    for (const r of rows.filter((q) => q.checkpoint === cp)) {
+      svg.append('text').attr('x', left - 8).attr('y', yy + barH / 2).attr('dy', '0.32em').attr('text-anchor', 'end').text(r.spot);
+      svg.append('rect').attr('x', left).attr('y', yy).attr('width', Math.max(0, x(1) - left)).attr('height', barH).attr('rx', 4).attr('fill', 'var(--cds-chart-grid)');
+      svg.append('rect').attr('x', left).attr('y', yy).attr('width', Math.max(r.rate ? 2 : 0, x(r.rate || 0) - left)).attr('height', barH).attr('rx', 4).attr('fill', dash.colors[0])
+        .on('pointermove', (ev) => { const [px, py] = d3.pointer(ev, box);
+          tip.innerHTML = `<div class="t">${cp}, ${r.spot.toLowerCase()}</div><div>Lower seed won <b>${r.won}</b> of <b>${r.games}</b> (${r.rate_text})</div>`;
+          tip.hidden = false; placeTip(box, tip, px, py); })
+        .on('pointerleave', () => { tip.hidden = true; });
+      svg.append('text').attr('class', 'lbl').attr('x', x(r.rate || 0) + 6).attr('y', yy + barH / 2).attr('dy', '0.32em').text(`${r.rate_text} (${r.won} of ${r.games})`);
+      yy += barH + gap;
+    }
+    top = yy + panelGap;
+  }
+}
+
+// every upset, with one picked
+const pick = { season: '', round: '', game: '' };
+const ROUND_ORDER = ['First round', 'Second round', 'Sweet 16', 'Elite Eight', 'Final Four', 'Championship'];
+function upsetList() { const d = dash.data('upsets'); return d.status === 'ok' ? d.data : []; }
+function drawControls() {
+  const list = upsetList(), seasonSel = document.getElementById('ut-season'), roundSel = document.getElementById('ut-round'), gameSel = document.getElementById('ut-game');
+  const seasons = [...new Set(list.map((u) => u.season))].sort().reverse(), rounds = ROUND_ORDER.filter((r) => list.some((u) => u.round === r));
+  seasonSel.replaceChildren(new Option('All seasons', ''), ...seasons.map((s) => new Option(s, s)));
+  roundSel.replaceChildren(new Option('All rounds', ''), ...rounds.map((r) => new Option(r, r)));
+  seasonSel.value = pick.season; roundSel.value = pick.round;
+  const shown = list.filter((u) => (!pick.season || u.season === pick.season) && (!pick.round || u.round === pick.round));
+  if (pick.game && !shown.some((u) => u.game === pick.game)) pick.game = '';
+  gameSel.replaceChildren(new Option(`Pick a game (${shown.length})`, ''), ...shown.map((u) => new Option(`${u.season} ${u.round}: ${u.matchup}, ${u.score}`, u.game)));
+  gameSel.value = pick.game;
+  return shown;
+}
+function drawExplorer() {
+  const box = document.getElementById('explorer-chart'), g = dash.data('games'), info = document.getElementById('ut-pick');
+  if (g.status === 'error') { info.textContent = ''; return failed(box); }
+  const shown = drawControls();
+  if (g.status !== 'ok' || !shown.length) { box.querySelectorAll('svg').forEach((n) => n.remove()); info.textContent = ''; return; }
+  const byGame = new Map(g.data.map((r) => [r.game, r])), c = dash.colors;
+  const lines = shown.map((u) => ({ id: u.game, values: series(byGame.get(u.game)) }));
+  const chosen = lines.find((l) => l.id === pick.game);
+  const all = lines.flatMap((l) => l.values), xMax = Math.max(40, ...lines.map((l) => l.values.length - 1));
+  const draw = lines.filter((l) => l !== chosen).map((l) => ({ values: l.values, color: 'var(--cds-chart-muted)', width: 1.25, opacity: chosen ? 0.35 : 0.5 }));
+  const u = chosen && shown.find((q) => q.game === chosen.id);
+  if (chosen) draw.push({ values: chosen.values, color: c[0], width: 2.5, dot: true });
+  marginChart(box, {
+    height: 340, xMax, domainY: [Math.min(...all, -5), Math.max(...all, 5)], lines: draw,
+    ends: chosen ? [{ y: chosen.values[chosen.values.length - 1], text: fmtSigned(chosen.values[chosen.values.length - 1]) }] : null,
+    hover: chosen ? (i) => `<div class="t">Minute ${Math.min(i, chosen.values.length - 1)}</div><div>${u.matchup.replace(/ over .*/, '')} <b>${fmtSigned(chosen.values[Math.min(i, chosen.values.length - 1)])}</b></div>` : null,
+  });
+  info.replaceChildren();
+  if (u) {
+    const b = document.createElement('b'); b.textContent = `${u.matchup}, ${u.score}`;
+    info.append(b, document.createTextNode(` · ${u.season}, ${u.round.toLowerCase()} · at the half ${fmtSigned(u.half)}, low point ${fmtSigned(u.low)}, ahead for good from minute ${u.for_good}`));
+  } else info.textContent = `${shown.length} upsets shown. Pick one to follow it.`;
+}
+document.getElementById('ut-season').addEventListener('change', (e) => { pick.season = e.target.value; drawExplorer(); });
+document.getElementById('ut-round').addEventListener('change', (e) => { pick.round = e.target.value; drawExplorer(); });
+document.getElementById('ut-game').addEventListener('change', (e) => { pick.game = e.target.value; drawExplorer(); drawTable(); });
+
+// the table
+const sort = { key: 'season', dir: -1 }; let query = '';
+function drawTable() {
+  const body = document.querySelector('#ut-table tbody'), d = dash.data('upsets');
+  if (d.status !== 'ok') { body.replaceChildren(); return; }
+  const q = query.trim().toLowerCase();
+  const rows = d.data.filter((u) => !q || `${u.season} ${u.round} ${u.matchup}`.toLowerCase().includes(q));
+  const key = sort.key, val = (u) => (key === 'round' ? ROUND_ORDER.indexOf(u.round) : u[key]);
+  rows.sort((a, b) => { const x = val(a), y = val(b); return (typeof x === 'string' ? x.localeCompare(y) : x - y) * sort.dir || a.date.localeCompare(b.date); });
+  body.replaceChildren(...rows.map((u) => {
+    const tr = document.createElement('tr'); if (u.game === pick.game) tr.className = 'on';
+    for (const [cls, text] of [['l', u.season], ['l', u.round], ['l', u.matchup], ['', u.score], ['', fmtSigned(u.half)], ['', fmtSigned(u.low)], ['', u.for_good]]) {
+      const td = document.createElement('td'); if (cls) td.className = cls; td.textContent = text; tr.append(td);
+    }
+    tr.dataset.key = u.game; return tr;
+  }));
+  // the key column's cell is the matchup; the row carries the game key
+  document.querySelectorAll('#ut-table th').forEach((th) => th.setAttribute('aria-sort', th.querySelector('button').dataset.sort === key ? (sort.dir > 0 ? 'ascending' : 'descending') : 'none'));
+}
+document.querySelector('#ut-table thead').addEventListener('click', (e) => {
+  const b = e.target.closest('button[data-sort]'); if (!b) return;
+  const k = b.dataset.sort; sort.dir = sort.key === k ? -sort.dir : (k === 'season' || k === 'round' || k === 'matchup' ? 1 : -1); sort.key = k; drawTable();
+});
+document.querySelector('#ut-table tbody').addEventListener('click', (e) => {
+  const tr = e.target.closest('tr[data-key]'); if (!tr) return;
+  pick.game = tr.dataset.key; pick.season = ''; pick.round = ''; drawExplorer(); drawTable();
+  document.getElementById('explorer').scrollIntoView({ behavior: 'smooth', block: 'start' });
+});
+document.getElementById('ut-search').addEventListener('input', (e) => { query = e.target.value; drawTable(); });
+
+// headline figures
+function drawFigures() {
+  const s = dash.data('summary'), f = dash.data('from_spot');
+  for (const el of document.querySelectorAll('[data-source="summary"]')) fill(el, s.status === 'ok' && s.data[0] ? s.data[0][el.dataset.field] : null);
+  for (const el of document.querySelectorAll('[data-source="from_spot"][data-where]')) {
+    const where = Object.fromEntries(el.dataset.where.split('&').map((p) => p.split('=').map(decodeURIComponent)));
+    const row = f.status === 'ok' ? f.data.find((r) => r.checkpoint === where.checkpoint && r.spot === where.spot) : null;
+    fill(el, row ? row.rate_text : null);
+  }
+}
+
+// ---------- second page: year, then upset, then its chart and line ----------
+const drill = { year: '', game: '' };
+const ROUND_SHORT = { 'First round': 'R64', 'Second round': 'R32', 'Sweet 16': 'S16', 'Elite Eight': 'E8', 'Final Four': 'F4', 'Championship': 'Final' };
+function lineList() { const d = dash.data('upset_lines'); return d.status === 'ok' ? d.data : []; }
+function drawDrill() {
+  const list = lineList(), yearsBox = document.getElementById('ud-years'), gamesBox = document.getElementById('ud-games');
+  const status = dash.data('upset_lines').status;
+  if (status === 'error') { failed(yearsBox); gamesBox.replaceChildren(); return; }
+  if (!list.length) { yearsBox.replaceChildren(); gamesBox.replaceChildren(); return; }
+  const years = [...new Set(list.map((u) => u.year))].sort().reverse();
+  if (!drill.year || !years.includes(drill.year)) drill.year = years[0];
+  yearsBox.replaceChildren(...years.map((y) => {
+    const b = document.createElement('button'); b.setAttribute('role', 'option'); b.dataset.year = y; b.setAttribute('aria-selected', String(y === drill.year));
+    const n = list.filter((u) => u.year === y).length, a = document.createElement('span'), c = document.createElement('span');
+    a.textContent = y; c.className = 'n'; c.textContent = `${n} upset${n === 1 ? '' : 's'}`; b.append(a, c); return b;
+  }));
+  const order = (r) => ROUND_ORDER.indexOf(r);
+  const games = list.filter((u) => u.year === drill.year).sort((a, b) => order(a.round) - order(b.round) || a.date.localeCompare(b.date));
+  if (!drill.game || !games.some((g) => g.game === drill.game)) drill.game = games.length ? games[0].game : '';
+  gamesBox.replaceChildren(...games.map((u) => {
+    const b = document.createElement('button'); b.setAttribute('role', 'option'); b.dataset.key = u.game; b.setAttribute('aria-selected', String(u.game === drill.game));
+    const m = document.createElement('span'), r = document.createElement('span'), n = document.createElement('span');
+    m.className = 'm'; m.textContent = u.matchup; r.className = 'r'; r.textContent = `${u.round}, ${u.score}`; m.append(r);
+    n.className = 'n'; n.textContent = u.line_text; b.append(m, n); return b;
+  }));
+  drawDrillGame();
+}
+function fact(k, v) { const d = document.createElement('div'), a = document.createElement('span'), b = document.createElement('span'); a.className = 'k'; a.textContent = k; b.className = 'v'; b.textContent = v; d.append(a, b); return d; }
+function drawDrillGame() {
+  const u = lineList().find((x) => x.game === drill.game), box = document.getElementById('ud-chart'), g = dash.data('games');
+  const title = document.getElementById('ud-title'), facts = document.getElementById('ud-facts'), note = document.getElementById('ud-note');
+  if (!u) { title.textContent = 'Pick an upset'; facts.replaceChildren(); note.textContent = ''; box.querySelectorAll('svg').forEach((n) => n.remove()); return; }
+  title.textContent = `${u.matchup}, ${u.year}`;
+  const fav = u.line === 0 ? `Pick’em` : `${u.favorite} −${Math.abs(u.spread)}`;
+  facts.replaceChildren(fact('Round', u.round), fact('Closing line', fav), fact('Lower seed’s line', u.line_text),
+    fact('Total', u.total == null ? '–' : String(u.total)), fact('Final', u.score), fact('At half', u.half == null ? '–' : fmtSigned(u.half)));
+  if (g.status === 'error') return failed(box);
+  const row = g.status === 'ok' ? g.data.find((r) => r.game === u.game) : null;
+  if (!row) { box.querySelectorAll('svg').forEach((n) => n.remove()); note.textContent = ''; return; }
+  const m = series(row), expected = -u.line, xMax = Math.max(40, m.length - 1);
+  marginChart(box, {
+    height: 320, xMax, domainY: [Math.min(...m, expected, -5), Math.max(...m, expected, 5)],
+    lines: [{ values: m, color: dash.colors[0], width: 2.5, dot: true }],
+    refs: u.line === 0 ? [] : [{ y: expected, text: `Line: ${u.winner} ${u.line_text}` }],
+    ends: [{ y: m[m.length - 1], text: fmtSigned(m[m.length - 1]) }],
+    hover: (i) => `<div class="t">Minute ${Math.min(i, m.length - 1)}</div><div>${u.winner} <b>${fmtSigned(m[Math.min(i, m.length - 1)])}</b></div>`,
+  });
+  note.textContent = u.line > 0
+    ? `The line had ${u.winner} losing by ${u.line}; the dashed line marks that finish. ${u.winner} won by ${u.final}, ${u.final + u.line} points better than the line.`
+    : u.line < 0 ? `${u.winner} was the betting favorite by ${-u.line} despite the worse seed, so the market expected this result.`
+    : `A pick’em: the market had no favorite.`;
+}
+document.getElementById('ud-years').addEventListener('click', (e) => {
+  const b = e.target.closest('button[data-year]'); if (!b) return; drill.year = b.dataset.year; drill.game = ''; drawDrill();
+});
+document.getElementById('ud-games').addEventListener('click', (e) => {
+  const b = e.target.closest('button[data-key]'); if (!b) return; drill.game = b.dataset.key; drawDrill();
+});
+
+// ---------- the two pages ----------
+let page = 'overview';
+function showPage(name) {
+  page = name;
+  for (const b of document.querySelectorAll('.ut-tabs button')) b.setAttribute('aria-selected', String(b.dataset.page === name));
+  document.getElementById('overview').hidden = name !== 'overview';
+  document.getElementById('lines').hidden = name !== 'lines';
+  dash.setLink(name);
+  drawAll();
+}
+document.querySelector('.ut-tabs').addEventListener('click', (e) => { const b = e.target.closest('button[data-page]'); if (b) showPage(b.dataset.page); });
+
+function drawLineFigures() {
+  const s = dash.data('line_summary');
+  for (const el of document.querySelectorAll('[data-source="line_summary"]')) fill(el, s.status === 'ok' && s.data[0] ? s.data[0][el.dataset.field] : null);
+}
+let firstPick = true;
+function drawAll() {
+  if (page === 'overview') {
+    drawFigures(); drawPaths(); drawSpots();
+    if (firstPick && upsetList().length) {         // open on the biggest comeback
+      const list = upsetList(); pick.game = list.reduce((a, b) => (b.low < a.low ? b : a)).game; firstPick = false;
+    }
+    drawExplorer(); drawTable();
+  } else {
+    drawLineFigures(); drawDrill();
+  }
+}
+dash.onData(drawAll);
+if (location.hash.slice(1) === 'lines') showPage('lines');
+</script>
