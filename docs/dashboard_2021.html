@@ -544,7 +544,8 @@
   .qgames-h span:last-child { color: var(--muted); font-size: 12.5px; flex-basis: 100%; }
   .qgames table { font-size: 13.5px; }
   .qgames .rk { color: var(--muted); font-size: 12px; display: inline-block; min-width: 24px; text-align: right; }
-  .qcards { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; padding: 4px 18px 12px; }
+  .qcards { display: grid; grid-template-columns: repeat(5, 1fr); gap: 10px; padding: 4px 18px 12px; }
+  .quad.q5 { border-style: dashed; color: var(--muted); }
   .qcard { font: inherit; display: flex; align-items: center; justify-content: center; gap: 10px; padding: 12px; border-radius: 12px;
     border: 1px solid var(--line); background: none; color: var(--ink); cursor: pointer; }
   .qcard b { font-size: 20px; font-weight: 750; }
@@ -839,8 +840,9 @@ const PAGE_ROWS = 500;
 // Quadrants by the opponent's net-rating rank and where the game was played
 const QUAD_CUTS = { H: [30, 75, 160], N: [50, 100, 200], A: [75, 135, 240] };
 const QUAD_TIP = 'Quad 1: home vs 1–30, neutral vs 1–50, away vs 1–75. Quad 2: 31–75, 51–100, 76–135. Quad 3: 76–160, 101–200, 136–240. Quad 4: everyone else.';
-const QUAD_KEYS = ['q1', 'q2', 'q3', 'q4'];
-const quadName = i => `Q${i + 1}`;
+// the four quads, then the record against schools outside Division I (in no quad)
+const QUAD_KEYS = ['q1', 'q2', 'q3', 'q4', 'nd1'];
+const quadName = i => i < 4 ? `Q${i + 1}` : 'Non-D1';
 const quadTag = i => `<span class="quad q${i + 1}">${quadName(i)}</span>`;
 function quadOf(opp, loc) {
   if (!opp || !opp.rank.n) return null;
@@ -848,12 +850,16 @@ function quadOf(opp, loc) {
   return opp.rank.n <= cut[0] ? 1 : opp.rank.n <= cut[1] ? 2 : opp.rank.n <= cut[2] ? 3 : 4;
 }
 const quadPill = (opp, loc) => { const q = quadOf(opp, loc); return q ? `<span class="quad q${q}">Q${q}</span>` : ''; };
-// A team's games in each quad and its record in each: { games: [[...], ...], rec: [[wins, losses], ...] }
-// (games against schools outside Division I are in no quad)
+// A team's games in each quad, then (fifth) against schools outside Division I, and its record in each:
+// { games: [[...], ...], rec: [[wins, losses], ...] }
 function teamQuads(t) {
   if (!t.quadsCache) {
-    const games = [[], [], [], []];
-    for (const g of t.sched || []) { const q = quadOf(teamByName[g.opp], g.loc); if (q) games[q - 1].push(g); }
+    const games = [[], [], [], [], []];
+    for (const g of t.sched || []) {
+      const opp = teamByName[g.opp], q = quadOf(opp, g.loc);
+      if (q) games[q - 1].push(g);
+      else if (!opp) games[4].push(g);          // a school outside Division I
+    }
     t.quadsCache = { games, rec: games.map(list => { const w = list.filter(g => g.pf > g.pa).length; return [w, list.length - w]; }) };
   }
   return t.quadsCache;
@@ -882,7 +888,7 @@ function quadGamesTable(t, i) {
     (list.length ? `<table><thead><tr><th class="l"><button disabled>Date</button></th><th class="c"><button disabled>Site</button></th>` +
       `<th class="l"><button disabled title="Rank now, by net rating">Opponent</button></th><th class="c"><button disabled>Result</button></th>` +
       thenHead(t.name) + `</tr></thead><tbody>${rows}</tbody></table>`
-      : `<div class="empty">No Quad ${i + 1} games.</div>`) + `</div>`;
+      : `<div class="empty">No ${i < 4 ? `Quad ${i + 1} games` : 'games against schools outside Division I'}.</div>`) + `</div>`;
 }
 const RATED_AFTER = 3;      // games a team needs before it has a net rating (Kenstat.RATED_AFTER)
 const THEN_NOTE = name => `“Then” is each team’s net rating going into the game, from the games before it (– until a team has played ${RATED_AFTER}). ` +
@@ -1043,7 +1049,7 @@ function renderHead() {
   if (view.groups) {
     html += `<tr class="groups"><th colspan="${lead}"></th>` +
       view.groups.map(([name, span]) => name ? `<th class="g sep" colspan="${span}">${name}</th>` : `<th colspan="${span}"></th>`).join('') +
-      (view.quads ? `<th class="g sep" colspan="4">Quad records</th>` : '') + '</tr>';
+      (view.quads ? `<th class="g sep" colspan="4">Quad records</th><th class="sep"></th>` : '') + '</tr>';
   }
   html += '<tr>' + th('pos', 'Rk', 'c', view.players ? 'Rank by box plus/minus' : 'Rank by net rating');
   if (view.players) {
@@ -1056,7 +1062,8 @@ function renderHead() {
     if (view.extra === 'rec') html += th('rec', 'W–L', 'c', 'Record (sorts by win percentage)');
   }
   for (const key of view.cols) html += th(key, STATS[key].label, starts.has(key) ? 'sep' : '', STATS[key].tip);
-  if (view.quads) QUAD_KEYS.forEach((key, i) => { html += th(key, quadName(i), 'c' + (i ? '' : ' sep'), `Quad ${i + 1} record (sorts by wins). ${QUAD_TIP} Click a record to see its games.`); });
+  if (view.quads) QUAD_KEYS.forEach((key, i) => { html += th(key, quadName(i), 'c' + (i % 4 ? '' : ' sep'),
+    i < 4 ? `Quad ${i + 1} record (sorts by wins). ${QUAD_TIP} Click a record to see its games.` : 'Record against schools outside Division I (sorts by wins). Click it to see the games.'); });
   $('thead').innerHTML = html + '</tr>';
 }
 function statCell(row, key, sep) {
@@ -1099,7 +1106,7 @@ function renderBody() {
     for (const key of view.cols) html += statCell(r, key, starts.has(key));
     if (view.quads) {
       const { rec } = teamQuads(r);
-      html += rec.map(([w, l], i) => `<td class="mid${i ? '' : ' sep'}">${w + l ? `<button class="qrec${state.qOpen === r.name + '|' + i ? ' open' : ''}" ` +
+      html += rec.map(([w, l], i) => `<td class="mid${i % 4 ? '' : ' sep'}">${w + l ? `<button class="qrec${state.qOpen === r.name + '|' + i ? ' open' : ''}" ` +
         `data-qopen="${esc(r.name)}|${i}" title="Show the ${quadName(i)} games">${w}–${l}</button>` : '<span class="qnone">–</span>'}</td>`).join('');
     }
     html += '</tr>';
@@ -1141,7 +1148,7 @@ function render() {
     : state.view === 'roster'
     ? 'All three are weighted by minutes played. Small numbers are national ranks (1 = most experienced, most continuity, tallest).'
     : state.view === 'quads'
-    ? `Quads go by the opponent’s net-rating rank now and where the game was played: ${QUAD_TIP} Games against schools outside Division I are in no quad (they are in the W–L record). Click a record to see the games.`
+    ? `Quads go by the opponent’s net-rating rank now and where the game was played: ${QUAD_TIP} Games against schools outside Division I are in no quad: they have their own column (Non-D1), and are in the W–L record. Click a record to see the games.`
     : 'Small numbers are national ranks (1 = best; for tempo, 1 = fastest; for schedule, 1 = toughest).';
   renderHead();
   renderBody();
@@ -1381,7 +1388,7 @@ function renderTeam() {
       `<div id="tp-plays"></div></div>` +
     `<div class="card tp-card"><h3>Quad records<span>by the opponent’s rank now and where the game was played; click one to see its games</span></h3>` +
       `<div class="qcards">${quadRec.map(([w, l], i) => `<button class="qcard" data-tquad="${i}" aria-pressed="${i === teamQuad}">${quadTag(i)}<b>${w}–${l}</b></button>`).join('')}</div>` +
-      `<div class="pp-sub">${QUAD_TIP} Games against schools outside Division I are in no quad (they are in the record and on the schedule).</div><div id="tp-quadgames">${quadGamesTable(t, teamQuad)}</div></div>` +
+      `<div class="pp-sub">${QUAD_TIP} Games against schools outside Division I are in no quad: they have their own count (Non-D1), and are in the record.</div><div id="tp-quadgames">${quadGamesTable(t, teamQuad)}</div></div>` +
     `<div class="card tp-card"><h3>Schedule<span>${t.sched.length} games · efficiency is points per 100 possessions in that game</span></h3>` +
       `<div class="pp-sub">${THEN_NOTE(t.name)}</div><div class="tp-scroll">` +
       `<table><thead><tr><th class="l"><button disabled>Date</button></th><th class="c"><button disabled>Site</button></th>` +
@@ -3951,7 +3958,7 @@ const GUIDE = [
     ['SOS|Strength of schedule', 'The net rating of a team that would win half its games against this schedule.', 'Shown on the ratings table; its offense and defense halves adjust the play-type numbers.', 'Puts a record in context and lets play types be corrected for the opponents faced.'],
     ['SOS ORtg / DRtg', 'The average offensive and defensive rating of the opponents faced.', 'A team’s points on each play type are scaled by how the defenses it faced compare with average.', 'Scoring 1.1 a play against top defenses is better than 1.1 against poor ones.'],
     ['Non-conf SOS', 'The same schedule measure, counting only games outside the conference.', 'Shown on the ratings table.', 'The non-conference schedule is the part a team chooses.'],
-    ['Games outside Division I|stats.ncaa.org', 'Games against schools outside Division I, with their box scores. The schools themselves get no page, logo, rank or rating.', 'In the Division I team’s schedule, record, player numbers and rating (for the rating, all such schools together count as one opponent); in no quad.', 'They are part of the season a team played; left out, a team that beat four of them would look like it had played four fewer games.'],
+    ['Games outside Division I|stats.ncaa.org', 'Games against schools outside Division I, with their box scores. The schools themselves get no page, logo, rank or rating.', 'In the Division I team’s schedule, record, player numbers and rating (for the rating, all such schools together count as one opponent); in no quad (they have their own Non-D1 record).', 'They are part of the season a team played; left out, a team that beat four of them would look like it had played four fewer games.'],
     ['Record and quadrants', 'Wins and losses, and the record split into Quad 1 to 4 by the opponent’s rank and where the game was played.', 'The Quads table and team pages, where each record opens its games; player stats are also split by quadrant.', 'Shows whether a team or player did it against good opponents.'],
     ['Net rating then|and the gap', 'Both teams’ net ratings going into a game, worked out again each game day from only the games before it (a team needs 3 games first), and the gap between them.', 'Every game on the team pages and in the quad lists, for spotting upsets.', 'The ratings at the end of the season know how things turned out; to judge a result, it has to be set against how the teams looked when they played.'],
   ]],
