@@ -99,6 +99,7 @@ def get_team_record_data(team_folder_name, team_path):
             with open(json_path, "r") as f:
                 games = json.load(f)
                 f_name_clean = clean_name(team_folder_name)
+                me = team_folder_name.rstrip(". ")
                 for game in games:
                     try:
                         h_name = game.get("home_team", "")
@@ -106,7 +107,13 @@ def get_team_record_data(team_folder_name, team_path):
                         h_score = int(game.get("home_score", 0))
                         a_score = int(game.get("away_score", 0))
 
-                        if similar(f_name_clean, h_name) >= SIMILARITY_THRESHOLD:
+                        # the exact name first: "North Dakota" is 85% like "North Dakota St.", so a game between
+                        # the two would otherwise count as the home team's for both
+                        if h_name.rstrip(". ") == me or a_name.rstrip(". ") == me:
+                            mine, theirs = (h_score, a_score) if h_name.rstrip(". ") == me else (a_score, h_score)
+                            if mine > theirs: wins += 1
+                            elif theirs > mine: losses += 1
+                        elif similar(f_name_clean, h_name) >= SIMILARITY_THRESHOLD:
                             if h_score > a_score: wins += 1
                             elif a_score > h_score: losses += 1
                         elif similar(f_name_clean, a_name) >= SIMILARITY_THRESHOLD:

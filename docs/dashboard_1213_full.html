@@ -913,6 +913,12 @@ function rankRows(rows, rankField = 'rank', pctField = 'pct') {
   }
   return rows;
 }
+// Each team's record is counted from its own schedule, so it always matches the games listed (and the quad records)
+for (const t of DATA.teams) {
+  if (!t.sched || !t.sched.length) continue;
+  t.w = t.sched.filter(g => g.pf > g.pa).length;
+  t.l = t.sched.filter(g => g.pf < g.pa).length;
+}
 const teams = rankRows(DATA.teams);
 
 // A conference's number is the plain average of its teams' numbers
