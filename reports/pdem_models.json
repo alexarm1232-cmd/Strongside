@@ -1,0 +1,142 @@
+{
+ "games": 993,
+ "upsets_4plus": 169,
+ "models": [
+  {
+   "model": "Seed gap",
+   "log_loss": 0.5707,
+   "brier": 0.1948,
+   "right": 0.708
+  },
+  {
+   "model": "Net-rating gap going in",
+   "log_loss": 0.5411,
+   "brier": 0.1831,
+   "right": 0.712
+  },
+  {
+   "model": "Closing line",
+   "log_loss": 0.5428,
+   "brier": 0.1838,
+   "right": 0.713
+  },
+  {
+   "model": "Seed gap + net-rating gap",
+   "log_loss": 0.541,
+   "brier": 0.1831,
+   "right": 0.713
+  },
+  {
+   "model": "Net-rating gap + line",
+   "log_loss": 0.5406,
+   "brier": 0.1828,
+   "right": 0.713
+  },
+  {
+   "model": "Halftime margin",
+   "log_loss": 0.4162,
+   "brier": 0.1361,
+   "right": 0.8016
+  },
+  {
+   "model": "Net-rating gap + halftime margin",
+   "log_loss": 0.4003,
+   "brier": 0.131,
+   "right": 0.8097
+  },
+  {
+   "model": "Line + halftime margin",
+   "log_loss": 0.402,
+   "brier": 0.1316,
+   "right": 0.8147
+  },
+  {
+   "model": "Line + margin, 10 min left",
+   "log_loss": 0.328,
+   "brier": 0.1036,
+   "right": 0.8479
+  }
+ ],
+ "base_rate": 0.292,
+ "base_log_loss": 0.604,
+ "by_net_gap": [
+  {
+   "band": "Lower seed rated higher",
+   "games": 21,
+   "won": 11,
+   "rate": 0.524
+  },
+  {
+   "band": "0 to 5 worse",
+   "games": 97,
+   "won": 46,
+   "rate": 0.474
+  },
+  {
+   "band": "5 to 10 worse",
+   "games": 188,
+   "won": 62,
+   "rate": 0.33
+  },
+  {
+   "band": "10 to 15 worse",
+   "games": 141,
+   "won": 34,
+   "rate": 0.241
+  },
+  {
+   "band": "15 to 20 worse",
+   "games": 101,
+   "won": 10,
+   "rate": 0.099
+  },
+  {
+   "band": "More than 20 worse",
+   "games": 132,
+   "won": 6,
+   "rate": 0.045
+  }
+ ],
+ "net_gap_median": {
+  "upsets": -7.6,
+  "holds": -13.4
+ },
+ "upsets_rated_higher": 11,
+ "upsets_line_underdog": 150,
+ "corr_net_gap_line": -0.961,
+ "vs_line": {
+  "all": {
+   "games": 993,
+   "half_vs_line": -0.42,
+   "final_vs_line": 0.16,
+   "covered": 0.488,
+   "corr_half_final": 0.68
+  },
+  "upsets": {
+   "games": 169,
+   "half_vs_line": 6.38,
+   "final_vs_line": 13.6,
+   "covered": 0.994,
+   "corr_half_final": 0.441
+  },
+  "seed_4plus": {
+   "games": 680,
+   "half_vs_line": -0.65,
+   "final_vs_line": 0.22,
+   "covered": 0.503,
+   "corr_half_final": 0.677
+  }
+ },
+ "half_ahead_of_line": {
+  "ahead": {
+   "games": 470,
+   "covered": 0.73,
+   "won": 0.477
+  },
+  "behind": {
+   "games": 511,
+   "covered": 0.268,
+   "won": 0.125
+  }
+ }
+}

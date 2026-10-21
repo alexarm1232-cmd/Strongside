@@ -1,0 +1,1008 @@
+season,date,round,lower_team,higher_team,lower_seed,higher_seed,seed_gap,net_gap,line,m20,m30,m35,final,lower_won
+2009-10,2010/03/18,First round,Florida,BYU,10,7,3,-7.4,5.0,-2,-10,-6,-7,0
+2009-10,2010/03/18,First round,Sam Houston,Baylor,14,3,11,-17.1,10.0,1,2,-3,-9,0
+2009-10,2010/03/18,First round,UTEP,Butler,12,5,7,-2.3,2.5,6,-10,-17,-18,0
+2009-10,2010/03/18,First round,Lehigh,Kansas,16,1,15,-33.6,25.0,-6,-12,-19,-16,0
+2009-10,2010/03/18,First round,North Texas,Kansas St.,15,2,13,-24.1,15.0,-16,-23,-16,-20,0
+2009-10,2010/03/18,First round,ETSU,Kentucky,16,1,15,-22.5,18.5,-28,-35,-27,-29,0
+2009-10,2010/03/18,First round,Murray St.,Vanderbilt,13,4,9,-4.4,2.5,4,5,1,1,1
+2009-10,2010/03/18,First round,Montana,New Mexico,14,3,11,-9.4,8.5,1,-9,-3,-5,0
+2009-10,2010/03/18,First round,Ohio,Georgetown,14,3,11,-16.4,13.5,12,14,9,14,1
+2009-10,2010/03/18,First round,Old Dominion,Notre Dame,11,6,5,-2.4,2.5,-6,-4,0,1,1
+2009-10,2010/03/18,First round,Saint Mary's (CA),Richmond,10,7,3,3.7,2.0,0,8,15,9,1
+2009-10,2010/03/18,First round,San Diego St.,Tennessee,11,6,5,-2.0,3.0,-8,-1,-3,-3,0
+2009-10,2010/03/18,First round,UNI,UNLV,9,8,1,0.5,-1.0,-1,2,4,3,1
+2009-10,2010/03/18,First round,Robert Morris,Villanova,15,2,13,-25.2,16.5,6,6,4,-3,0
+2009-10,2010/03/18,First round,Wake Forest,Texas,9,8,1,-6.2,5.5,-1,6,7,1,1
+2009-10,2010/03/18,First round,Washington,Marquette,11,6,5,-3.4,1.0,-1,-4,1,2,1
+2009-10,2010/03/19,First round,Louisville,California,9,8,1,-3.6,1.0,-11,-9,-8,-15,0
+2009-10,2010/03/19,First round,Cornell,Temple,12,5,7,-6.5,3.0,8,15,15,13,1
+2009-10,2010/03/19,First round,Ark.-Pine Bluff,Duke,16,1,15,-37.3,24.0,-19,-20,-27,-29,0
+2009-10,2010/03/19,First round,Georgia Tech,Oklahoma St.,10,7,3,1.8,2.0,-5,2,2,5,1
+2009-10,2010/03/19,First round,Florida St.,Gonzaga,9,8,1,2.4,-1.0,-16,-11,-6,-7,0
+2009-10,2010/03/19,First round,Houston,Maryland,13,4,9,-13.3,9.5,-2,-12,-11,-12,0
+2009-10,2010/03/19,First round,New Mexico St.,Michigan St.,12,5,7,-15.6,13.0,-13,0,-2,-3,0
+2009-10,2010/03/19,First round,Missouri,Clemson,10,7,3,0.2,1.5,0,6,9,8,1
+2009-10,2010/03/19,First round,UC Santa Barbara,Ohio St.,15,2,13,-23.8,17.5,-13,-12,-13,-17,0
+2009-10,2010/03/19,First round,Oakland,Pittsburgh,14,3,11,-14.4,9.5,-13,-17,-14,-23,0
+2009-10,2010/03/19,First round,Siena,Purdue,13,4,9,-9.5,4.5,3,-13,-13,-8,0
+2009-10,2010/03/19,First round,Vermont,Syracuse,16,1,15,-24.5,15.5,-12,-17,-19,-23,0
+2009-10,2010/03/19,First round,Utah St.,Texas A&M,12,5,7,-1.0,3.0,-13,-11,-15,-16,0
+2009-10,2010/03/19,First round,Morgan St.,West Virginia,15,2,13,-23.1,17.0,-11,-26,-32,-27,0
+2009-10,2010/03/19,First round,Wofford,Wisconsin,13,4,9,-15.7,10.0,-8,-1,1,-4,0
+2009-10,2010/03/19,First round,Minnesota,Xavier,11,6,5,-0.1,1.5,0,-8,-11,-11,0
+2009-10,2010/03/20,Second round,Old Dominion,Baylor,11,3,8,-6.4,4.0,-10,-1,-2,-8,0
+2009-10,2010/03/20,Second round,Murray St.,Butler,13,5,8,-5.8,4.0,4,1,-2,-2,0
+2009-10,2010/03/20,Second round,BYU,Kansas St.,7,2,5,-0.3,4.0,-10,-6,-8,-12,0
+2009-10,2010/03/20,Second round,Wake Forest,Kentucky,9,1,8,-8.8,9.5,-16,-30,-27,-30,0
+2009-10,2010/03/20,Second round,Saint Mary's (CA),Villanova,10,2,8,-2.4,4.5,7,0,-1,7,1
+2009-10,2010/03/20,Second round,Ohio,Tennessee,14,6,8,-9.7,8.5,-11,-6,-11,-15,0
+2009-10,2010/03/20,Second round,UNI,Kansas,9,1,8,-14.6,11.0,8,11,7,2,1
+2009-10,2010/03/20,Second round,Washington,New Mexico,11,3,8,0.9,-2.0,12,23,18,18,1
+2009-10,2010/03/21,Second round,Cornell,Wisconsin,12,4,8,-9.0,4.5,12,18,21,18,1
+2009-10,2010/03/21,Second round,California,Duke,8,1,7,-8.1,6.5,-13,-15,-15,-15,0
+2009-10,2010/03/21,Second round,Michigan St.,Maryland,5,4,1,-2.4,1.0,9,10,12,2,1
+2009-10,2010/03/21,Second round,Georgia Tech,Ohio St.,10,2,8,-7.1,7.0,-2,-8,-12,-9,0
+2009-10,2010/03/21,Second round,Texas A&M,Purdue,5,4,1,-1.7,-2.0,6,-4,-3,-2,0
+2009-10,2010/03/21,Second round,Gonzaga,Syracuse,8,1,7,-9.9,6.5,-15,-32,-26,-22,0
+2009-10,2010/03/21,Second round,Missouri,West Virginia,10,2,8,-4.3,6.0,-5,-7,-4,-9,0
+2009-10,2010/03/21,Second round,Xavier,Pittsburgh,6,3,3,1.3,2.0,8,3,5,3,1
+2009-10,2010/03/25,Sweet 16,Butler,Syracuse,5,1,4,-7.3,6.0,10,1,-4,4,1
+2009-10,2010/03/25,Sweet 16,Xavier,Kansas St.,6,2,4,-3.9,5.0,1,-3,-1,-5,0
+2009-10,2010/03/25,Sweet 16,Cornell,Kentucky,12,1,11,-8.7,8.0,-16,-12,-6,-17,0
+2009-10,2010/03/25,Sweet 16,Washington,West Virginia,11,2,9,-6.7,4.5,2,-9,-8,-13,0
+2009-10,2010/03/26,Sweet 16,Saint Mary's (CA),Baylor,10,3,7,-3.1,4.5,-29,-31,-28,-23,0
+2009-10,2010/03/26,Sweet 16,Purdue,Duke,4,1,3,-8.3,8.0,-1,-3,-9,-13,0
+2009-10,2010/03/26,Sweet 16,UNI,Michigan St.,9,5,4,-1.8,1.0,7,-1,-4,-7,0
+2009-10,2010/03/26,Sweet 16,Tennessee,Ohio St.,6,2,4,-6.7,4.5,-3,-5,1,3,1
+2009-10,2010/03/27,Elite Eight,Butler,Kansas St.,5,2,3,-3.6,3.5,7,8,2,7,1
+2009-10,2010/03/27,Elite Eight,West Virginia,Kentucky,2,1,1,-0.8,4.0,2,9,14,7,1
+2009-10,2010/03/28,Elite Eight,Baylor,Duke,3,1,2,-6.8,4.5,3,-2,2,-7,0
+2009-10,2010/03/28,Elite Eight,Tennessee,Michigan St.,6,5,1,-1.3,-2.0,2,-4,1,-1,0
+2009-10,2010/04/03,Final Four,Butler,Michigan St.,5,5,0,0.9,-1.5,0,3,4,2,1
+2009-10,2010/04/03,Final Four,West Virginia,Duke,2,1,1,-5.3,2.5,-8,-10,-14,-21,0
+2009-10,2010/04/05,Championship,Butler,Duke,5,1,4,-10.8,7.0,-1,-4,-1,-2,0
+2010-11,2011/03/17,First round,Wofford,BYU,14,3,11,-15.0,8.5,-4,-6,-8,-8,0
+2010-11,2011/03/17,First round,Old Dominion,Butler,9,8,1,-1.0,-2.5,2,-3,-4,-2,0
+2010-11,2011/03/17,First round,Missouri,Cincinnati,11,6,5,-2.8,1.0,-11,-6,-12,-15,0
+2010-11,2011/03/17,First round,UC Santa Barbara,Florida,15,2,13,-16.3,12.5,-24,-31,-28,-28,0
+2010-11,2011/03/17,First round,Gonzaga,St. John's (NY),11,6,5,-0.7,-1.0,11,12,15,15,1
+2010-11,2011/03/17,First round,Utah St.,Kansas St.,12,5,7,1.3,2.5,-10,-13,-13,-5,0
+2010-11,2011/03/17,First round,Princeton,Kentucky,13,4,9,-17.7,13.0,-1,1,-3,-2,0
+2010-11,2011/03/17,First round,Morehead St.,Louisville,13,4,9,-16.3,9.5,0,-4,5,1,1
+2010-11,2011/03/17,First round,UNC Asheville,Pittsburgh,16,1,15,-24.9,17.0,-5,-11,-19,-23,0
+2010-11,2011/03/17,First round,Richmond,Vanderbilt,12,5,7,-3.7,3.0,-3,1,4,3,1
+2010-11,2011/03/17,First round,Northern Colo.,San Diego St.,15,2,13,-19.7,14.5,-6,-11,-18,-18,0
+2010-11,2011/03/17,First round,Penn St.,Temple,10,7,3,-1.8,2.5,-2,-2,0,-2,0
+2010-11,2011/03/17,First round,Michigan St.,UCLA,10,7,3,1.7,-1.5,-18,-18,-13,-2,0
+2010-11,2011/03/17,First round,Bucknell,UConn,14,3,11,-16.0,10.0,-17,-34,-34,-29,0
+2010-11,2011/03/17,First round,Clemson,West Virginia,12,5,7,-1.7,2.5,0,-10,-11,-8,0
+2010-11,2011/03/17,First round,Belmont,Wisconsin,13,4,9,-7.8,4.0,-7,-8,-12,-14,0
+2010-11,2011/03/18,First round,Memphis,Arizona,12,5,7,-11.3,5.5,-3,0,0,-2,0
+2010-11,2011/03/18,First round,Hampton,Duke,16,1,15,-32.8,25.0,-17,-34,-34,-42,0
+2010-11,2011/03/18,First round,Florida St.,Texas A&M,10,7,3,-1.5,-0.0,-3,3,5,7,1
+2010-11,2011/03/18,First round,Villanova,George Mason,9,8,1,1.2,-1.5,6,3,3,-4,0
+2010-11,2011/03/18,First round,Illinois,UNLV,9,8,1,1.7,2.0,22,21,22,11,1
+2010-11,2011/03/18,First round,Boston U.,Kansas,16,1,15,-28.3,22.5,-4,-6,-20,-19,0
+2010-11,2011/03/18,First round,Marquette,Xavier,11,6,5,2.7,-0.0,13,13,13,11,1
+2010-11,2011/03/18,First round,Tennessee,Michigan,9,8,1,-1.4,-1.0,-4,-16,-25,-30,0
+2010-11,2011/03/18,First round,LIU,North Carolina,15,2,13,-15.9,17.0,-11,-15,-17,-15,0
+2010-11,2011/03/18,First round,Akron,Notre Dame,15,2,13,-19.8,13.5,-4,-5,-12,-13,0
+2010-11,2011/03/18,First round,UTSA,Ohio St.,16,1,15,-36.9,21.5,-16,-27,-36,-29,0
+2010-11,2011/03/18,First round,Saint Peter's,Purdue,14,3,11,-23.5,15.0,-16,-16,-23,-22,0
+2010-11,2011/03/18,First round,Indiana St.,Syracuse,14,3,11,-16.5,13.0,-8,-12,-12,-17,0
+2010-11,2011/03/18,First round,Oakland,Texas,13,4,9,-14.7,10.5,-8,-13,-13,-4,0
+2010-11,2011/03/18,First round,VCU,Georgetown,11,6,5,-9.9,5.5,11,18,22,18,1
+2010-11,2011/03/18,First round,Georgia,Washington,10,7,3,-8.5,5.5,0,-10,-8,-3,0
+2010-11,2011/03/19,Second round,Gonzaga,BYU,11,3,8,-4.8,1.0,-7,-14,-18,-22,0
+2010-11,2011/03/19,Second round,Butler,Pittsburgh,8,1,7,-12.7,8.0,8,-4,2,1,1
+2010-11,2011/03/19,Second round,UCLA,Florida,7,2,5,-6.1,6.0,-2,-3,-6,-8,0
+2010-11,2011/03/19,Second round,West Virginia,Kentucky,5,4,1,-4.7,3.5,8,-1,-2,-8,0
+2010-11,2011/03/19,Second round,Morehead St.,Richmond,13,12,1,-8.3,4.5,-9,-8,-10,-17,0
+2010-11,2011/03/19,Second round,Temple,San Diego St.,7,2,5,-7.4,5.5,-5,-7,-5,-7,0
+2010-11,2011/03/19,Second round,Cincinnati,UConn,6,3,3,-2.5,3.5,-8,0,-3,-11,0
+2010-11,2011/03/19,Second round,Kansas St.,Wisconsin,5,4,1,-9.1,3.5,-7,1,1,-5,0
+2010-11,2011/03/20,Second round,Arizona,Texas,5,4,1,-8.2,5.5,11,4,5,1,1
+2010-11,2011/03/20,Second round,Michigan,Duke,8,1,7,-12.0,12.5,-4,-10,-8,-2,0
+2010-11,2011/03/20,Second round,Florida St.,Notre Dame,10,2,8,-8.4,4.5,11,17,15,14,1
+2010-11,2011/03/20,Second round,Illinois,Kansas,9,1,8,-7.3,8.0,-4,-7,-7,-14,0
+2010-11,2011/03/20,Second round,Marquette,Syracuse,11,3,8,-4.2,4.5,3,-1,0,4,1
+2010-11,2011/03/20,Second round,Washington,North Carolina,7,2,5,0.3,4.0,1,0,3,-3,0
+2010-11,2011/03/20,Second round,George Mason,Ohio St.,8,1,7,-15.0,11.0,-26,-29,-35,-32,0
+2010-11,2011/03/20,Second round,VCU,Purdue,11,3,8,-15.0,9.5,10,17,20,18,1
+2010-11,2011/03/24,Sweet 16,Arizona,Duke,5,1,4,-11.3,9.5,-6,10,14,16,1
+2010-11,2011/03/24,Sweet 16,Butler,Wisconsin,8,4,4,-11.3,4.0,9,18,13,7,1
+2010-11,2011/03/24,Sweet 16,BYU,Florida,3,2,1,2.2,2.5,0,-1,-3,-9,0
+2010-11,2011/03/24,Sweet 16,UConn,San Diego St.,3,2,1,-1.2,2.0,9,-2,6,7,1
+2010-11,2011/03/25,Sweet 16,Richmond,Kansas,12,1,11,-12.6,10.0,-19,-22,-22,-20,0
+2010-11,2011/03/25,Sweet 16,Kentucky,Ohio St.,4,1,3,-7.7,6.0,0,1,3,2,1
+2010-11,2011/03/25,Sweet 16,Marquette,North Carolina,11,2,9,-2.7,4.0,-25,-19,-19,-18,0
+2010-11,2011/03/25,Sweet 16,VCU,Florida St.,11,10,1,-4.0,4.5,5,6,5,1,1
+2010-11,2011/03/26,Elite Eight,Butler,Florida,8,2,6,-5.0,4.0,-1,-7,-4,3,1
+2010-11,2011/03/26,Elite Eight,Arizona,UConn,5,3,2,-3.9,3.0,-7,-7,-1,-2,0
+2010-11,2011/03/27,Elite Eight,Kentucky,North Carolina,4,2,2,4.0,-1.5,8,7,5,7,1
+2010-11,2011/03/27,Elite Eight,VCU,Kansas,11,1,10,-16.5,11.0,14,9,5,10,1
+2010-11,2011/04/02,Final Four,VCU,Butler,11,8,3,-2.7,3.5,-6,-2,-6,-8,0
+2010-11,2011/04/02,Final Four,Kentucky,UConn,4,3,1,2.9,-2.0,-10,-2,-2,-1,0
+2010-11,2011/04/04,Championship,Butler,UConn,8,3,5,-7.0,3.0,3,-11,-14,-12,0
+2011-12,2012/03/15,First round,South Dakota St.,Baylor,14,3,11,-12.3,7.5,-8,-7,-10,-8,0
+2011-12,2012/03/15,First round,Colorado,UNLV,11,6,5,-8.6,5.5,11,17,5,4,1
+2011-12,2012/03/15,First round,West Virginia,Gonzaga,10,7,3,-3.2,1.0,-18,-23,-23,-23,0
+2011-12,2012/03/15,First round,New Mexico St.,Indiana,13,4,9,-11.9,6.5,-7,-17,-14,-13,0
+2011-12,2012/03/15,First round,UConn,Iowa St.,9,8,1,-1.4,-1.5,-10,-9,-9,-13,0
+2011-12,2012/03/15,First round,Southern Miss.,Kansas St.,9,8,1,-7.8,5.5,-3,-1,-6,-6,0
+2011-12,2012/03/15,First round,Western Ky.,Kentucky,16,1,15,-33.1,26.5,-19,-25,-28,-15,0
+2011-12,2012/03/15,First round,Davidson,Louisville,13,4,9,-8.7,5.5,-8,-12,-11,-7,0
+2011-12,2012/03/15,First round,BYU,Marquette,14,3,11,-5.9,5.0,-15,-15,-13,-20,0
+2011-12,2012/03/15,First round,Colorado St.,Murray St.,11,6,5,-5.0,5.0,1,-15,-11,-17,0
+2011-12,2012/03/15,First round,Long Beach St.,New Mexico,12,5,7,-4.7,4.0,-4,-2,0,-7,0
+2011-12,2012/03/15,First round,Loyola Maryland,Ohio St.,15,2,13,-26.9,17.5,-11,-17,-20,-19,0
+2011-12,2012/03/15,First round,UNC Asheville,Syracuse,16,1,15,-19.7,15.5,4,1,-5,-7,0
+2011-12,2012/03/15,First round,VCU,Wichita St.,12,5,7,-9.1,7.5,9,9,1,3,1
+2011-12,2012/03/15,First round,Harvard,Vanderbilt,12,5,7,-5.8,5.5,-10,-14,-16,-9,0
+2011-12,2012/03/15,First round,Montana,Wisconsin,13,4,9,-17.3,8.5,-10,-15,-16,-24,0
+2011-12,2012/03/16,First round,Texas,Cincinnati,11,6,5,3.1,3.0,-14,-12,-3,-6,0
+2011-12,2012/03/16,First round,Alabama,Creighton,9,8,1,0.1,-0.0,7,7,-2,-1,0
+2011-12,2012/03/16,First round,Virginia,Florida,10,7,3,-3.1,2.5,-8,-19,-24,-26,0
+2011-12,2012/03/16,First round,St. Bonaventure,Florida St.,14,3,11,-7.4,6.5,6,6,-3,-3,0
+2011-12,2012/03/16,First round,Belmont,Georgetown,14,3,11,-4.3,3.5,-9,-13,-13,-15,0
+2011-12,2012/03/16,First round,Detroit Mercy,Kansas,15,2,13,-22.0,13.5,-10,-16,-16,-15,0
+2011-12,2012/03/16,First round,Lehigh,Duke,15,2,13,-12.2,11.5,-2,3,4,5,1
+2011-12,2012/03/16,First round,LIU,Michigan St.,16,1,15,-27.8,19.0,-5,-16,-20,-22,0
+2011-12,2012/03/16,First round,NC State,San Diego St.,11,6,5,1.6,-2.5,4,7,10,14,1
+2011-12,2012/03/16,First round,Norfolk St.,Missouri,15,2,13,-29.9,21.0,0,-1,-1,2,1
+2011-12,2012/03/16,First round,Vermont,North Carolina,16,1,15,-21.9,16.0,-12,-13,-23,-19,0
+2011-12,2012/03/16,First round,Ohio,Michigan,13,4,9,-7.9,6.0,6,6,3,5,1
+2011-12,2012/03/16,First round,Purdue,Saint Mary's (CA),10,7,3,1.9,2.0,7,11,10,3,1
+2011-12,2012/03/16,First round,Saint Louis,Memphis,9,8,1,-2.1,3.0,0,-6,1,7,1
+2011-12,2012/03/16,First round,South Fla.,Temple,12,5,7,-3.6,3.5,-4,12,6,14,1
+2011-12,2012/03/16,First round,Xavier,Notre Dame,10,7,3,-2.3,2.0,-2,-6,-4,4,1
+2011-12,2012/03/17,Second round,Colorado,Baylor,11,3,8,-13.3,8.0,-2,3,-9,-17,0
+2011-12,2012/03/17,Second round,VCU,Indiana,12,4,8,-9.5,5.5,1,4,6,-2,0
+2011-12,2012/03/17,Second round,Iowa St.,Kentucky,8,1,7,-13.8,11.0,-11,-16,-21,-16,0
+2011-12,2012/03/17,Second round,New Mexico,Louisville,5,4,1,-0.2,1.0,-1,-9,-5,-3,0
+2011-12,2012/03/17,Second round,Murray St.,Marquette,6,3,3,-4.8,5.5,3,-1,-1,-9,0
+2011-12,2012/03/17,Second round,Gonzaga,Ohio St.,7,2,5,-11.3,8.0,-2,-7,-5,-7,0
+2011-12,2012/03/17,Second round,Kansas St.,Syracuse,8,1,7,-6.5,5.5,-1,-7,-16,-16,0
+2011-12,2012/03/17,Second round,Vanderbilt,Wisconsin,5,4,1,-3.3,-0.0,-1,-4,-4,-3,0
+2011-12,2012/03/18,Second round,Cincinnati,Florida St.,6,3,3,-3.0,2.5,-1,-1,0,6,1
+2011-12,2012/03/18,Second round,Norfolk St.,Florida,15,7,8,-23.6,14.0,-28,-27,-32,-34,0
+2011-12,2012/03/18,Second round,Purdue,Kansas,10,2,8,-9.7,8.0,6,3,2,-3,0
+2011-12,2012/03/18,Second round,Saint Louis,Michigan St.,9,1,8,-8.3,7.0,-5,-6,-5,-4,0
+2011-12,2012/03/18,Second round,NC State,Georgetown,11,3,8,-7.3,4.0,3,6,3,3,1
+2011-12,2012/03/18,Second round,Creighton,North Carolina,8,1,7,-9.1,9.5,-8,-17,-12,-14,0
+2011-12,2012/03/18,Second round,Ohio,South Fla.,13,12,1,-1.4,2.0,-6,-3,6,6,1
+2011-12,2012/03/18,Second round,Lehigh,Xavier,15,10,5,-2.3,4.0,4,0,-3,-12,0
+2011-12,2012/03/22,Sweet 16,Florida,Marquette,7,3,4,2.3,1.0,6,8,10,10,1
+2011-12,2012/03/22,Sweet 16,Louisville,Michigan St.,4,1,3,-8.5,5.5,5,6,10,13,1
+2011-12,2012/03/22,Sweet 16,Cincinnati,Ohio St.,6,2,4,-14.3,7.5,-12,-1,-12,-15,0
+2011-12,2012/03/22,Sweet 16,Wisconsin,Syracuse,4,1,3,-1.7,3.0,-6,-4,-1,-1,0
+2011-12,2012/03/23,Sweet 16,Xavier,Baylor,10,3,7,-9.7,6.5,-7,-7,-9,-5,0
+2011-12,2012/03/23,Sweet 16,NC State,Kansas,11,2,9,-11.9,8.5,1,-7,-6,-3,0
+2011-12,2012/03/23,Sweet 16,Indiana,Kentucky,4,1,3,-8.4,10.0,-3,-8,-5,-12,0
+2011-12,2012/03/23,Sweet 16,Ohio,North Carolina,13,1,12,-14.3,10.5,-7,-1,-1,-8,0
+2011-12,2012/03/24,Elite Eight,Florida,Louisville,7,4,3,2.1,-1.0,8,11,3,-4,0
+2011-12,2012/03/24,Elite Eight,Ohio St.,Syracuse,2,1,1,4.1,-2.5,0,6,3,7,1
+2011-12,2012/03/25,Elite Eight,Kansas,North Carolina,2,1,1,0.3,-2.0,0,3,2,13,1
+2011-12,2012/03/25,Elite Eight,Baylor,Kentucky,3,1,2,-9.1,7.5,-20,-16,-17,-12,0
+2011-12,2012/03/31,Final Four,Kansas,Ohio St.,2,2,0,-3.3,3.0,-9,-4,-4,2,1
+2011-12,2012/03/31,Final Four,Louisville,Kentucky,4,1,3,-10.8,8.0,-7,-4,-7,-8,0
+2011-12,2012/04/02,Championship,Kansas,Kentucky,2,1,1,-4.7,6.0,-14,-16,-15,-8,0
+2012-13,2013/03/21,First round,Belmont,Arizona,11,6,5,-6.1,4.5,-11,-17,-12,-17,0
+2012-13,2013/03/21,First round,Bucknell,Butler,11,6,5,-2.1,3.0,-7,6,-5,-12,0
+2012-13,2013/03/21,First round,California,UNLV,12,5,7,-4.7,3.5,0,6,8,3,1
+2012-13,2013/03/21,First round,Missouri,Colorado St.,9,8,1,-0.5,-2.5,-9,-15,-7,-12,0
+2012-13,2013/03/21,First round,Southern U.,Gonzaga,16,1,15,-28.2,22.0,-3,-9,-2,-6,0
+2012-13,2013/03/21,First round,Harvard,New Mexico,14,3,11,-12.2,10.5,4,2,4,6,1
+2012-13,2013/03/21,First round,N.C. A&T,Louisville,16,1,15,-34.1,26.5,-16,-30,-34,-31,0
+2012-13,2013/03/21,First round,Davidson,Marquette,14,3,11,-8.7,3.5,2,2,7,-1,0
+2012-13,2013/03/21,First round,Saint Mary's (CA),Memphis,11,6,5,2.5,1.5,-10,-4,-4,-2,0
+2012-13,2013/03/21,First round,South Dakota St.,Michigan,13,4,9,-19.7,11.5,-4,-11,-13,-15,0
+2012-13,2013/03/21,First round,Valparaiso,Michigan St.,14,3,11,-12.1,9.5,-17,-23,-18,-11,0
+2012-13,2013/03/21,First round,Oregon,Oklahoma St.,12,5,7,-4.8,2.0,11,15,13,13,1
+2012-13,2013/03/21,First round,New Mexico St.,Saint Louis,13,4,9,-11.4,9.0,-13,-13,-20,-20,0
+2012-13,2013/03/21,First round,Montana,Syracuse,13,4,9,-19.9,13.0,-23,-39,-48,-47,0
+2012-13,2013/03/21,First round,Akron,VCU,12,5,7,-6.4,7.5,-25,-43,-45,-46,0
+2012-13,2013/03/21,First round,Wichita St.,Pittsburgh,9,8,1,-7.3,4.5,5,12,15,18,1
+2012-13,2013/03/22,First round,Cincinnati,Creighton,10,7,3,-4.9,3.0,-5,-3,-3,-4,0
+2012-13,2013/03/22,First round,UAlbany,Duke,15,2,13,-25.6,20.5,-9,-13,-10,-12,0
+2012-13,2013/03/22,First round,FGCU,Georgetown,15,2,13,-17.9,13.0,2,17,12,10,1
+2012-13,2013/03/22,First round,Northwestern St.,Florida,14,3,11,-27.3,19.5,-8,-18,-23,-32,0
+2012-13,2013/03/22,First round,Colorado,Illinois,10,7,3,-0.2,1.0,-16,3,-4,-8,0
+2012-13,2013/03/22,First round,James Madison,Indiana,16,1,15,-30.5,21.0,-21,-29,-25,-21,0
+2012-13,2013/03/22,First round,Iowa St.,Notre Dame,10,7,3,-1.0,-1.0,12,19,27,18,1
+2012-13,2013/03/22,First round,Western Ky.,Kansas,16,1,15,-25.4,20.0,1,-6,-8,-7,0
+2012-13,2013/03/22,First round,La Salle,Kansas St.,13,4,9,-5.1,6.0,18,4,0,2,1
+2012-13,2013/03/22,First round,Pacific,Miami (FL),15,2,13,-16.6,14.0,-21,-27,-28,-29,0
+2012-13,2013/03/22,First round,Minnesota,UCLA,11,6,5,3.7,-3.5,10,12,19,20,1
+2012-13,2013/03/22,First round,Villanova,North Carolina,9,8,1,-3.7,5.0,-8,-2,-9,-7,0
+2012-13,2013/03/22,First round,Iona,Ohio St.,15,2,13,-16.8,15.0,-10,-25,-26,-25,0
+2012-13,2013/03/22,First round,Ole Miss,Wisconsin,12,5,7,-6.6,6.0,-3,-3,4,11,1
+2012-13,2013/03/22,First round,Oklahoma,San Diego St.,10,7,3,-4.0,3.0,2,-2,-8,-15,0
+2012-13,2013/03/22,First round,Temple,NC State,9,8,1,-5.5,4.0,16,10,8,4,1
+2012-13,2013/03/23,Second round,Harvard,Arizona,14,6,8,-14.0,10.0,-18,-20,-18,-23,0
+2012-13,2013/03/23,Second round,Colorado St.,Louisville,8,1,7,-9.1,10.5,-14,-19,-20,-26,0
+2012-13,2013/03/23,Second round,Butler,Marquette,6,3,3,-1.8,2.0,8,2,0,-2,0
+2012-13,2013/03/23,Second round,VCU,Michigan,5,4,1,-3.6,3.5,-15,-26,-31,-25,0
+2012-13,2013/03/23,Second round,Memphis,Michigan St.,6,3,3,-7.1,6.0,-3,-10,-12,-22,0
+2012-13,2013/03/23,Second round,Oregon,Saint Louis,12,4,8,-4.4,4.5,16,11,20,17,1
+2012-13,2013/03/23,Second round,California,Syracuse,12,4,8,-9.7,7.0,-8,-13,-9,-6,0
+2012-13,2013/03/23,Second round,Wichita St.,Gonzaga,9,1,8,-8.5,6.5,5,-4,-4,6,1
+2012-13,2013/03/24,Second round,Creighton,Duke,7,2,5,-4.9,5.5,-6,-11,-11,-16,0
+2012-13,2013/03/24,Second round,FGCU,San Diego St.,15,7,8,-14.2,8.0,-1,2,16,10,1
+2012-13,2013/03/24,Second round,Minnesota,Florida,11,3,8,-10.7,7.5,-21,-12,-10,-14,0
+2012-13,2013/03/24,Second round,Temple,Indiana,9,1,8,-17.6,12.0,3,4,1,-6,0
+2012-13,2013/03/24,Second round,North Carolina,Kansas,8,1,7,-7.9,6.5,9,-12,-13,-12,0
+2012-13,2013/03/24,Second round,La Salle,Ole Miss,13,12,1,-4.1,4.0,2,-1,-3,2,1
+2012-13,2013/03/24,Second round,Illinois,Miami (FL),7,2,5,-5.9,8.0,-3,-3,-4,-4,0
+2012-13,2013/03/24,Second round,Iowa St.,Ohio St.,10,2,8,-7.4,7.5,-2,-9,-8,-3,0
+2012-13,2013/03/28,Sweet 16,Marquette,Miami (FL),3,2,1,-4.4,5.5,13,21,18,10,1
+2012-13,2013/03/28,Sweet 16,Arizona,Ohio St.,6,2,4,-2.8,3.5,4,-6,-5,-3,0
+2012-13,2013/03/28,Sweet 16,Syracuse,Indiana,4,1,3,-7.1,5.0,12,9,13,11,1
+2012-13,2013/03/28,Sweet 16,La Salle,Wichita St.,13,9,4,-5.6,4.5,-16,-11,-14,-14,0
+2012-13,2013/03/29,Sweet 16,Michigan St.,Duke,3,2,1,-2.8,2.0,-1,-5,-11,-10,0
+2012-13,2013/03/29,Sweet 16,FGCU,Florida,15,3,12,-26.3,14.0,-4,-8,-9,-12,0
+2012-13,2013/03/29,Sweet 16,Oregon,Louisville,12,1,11,-13.4,11.0,-14,-11,-6,-8,0
+2012-13,2013/03/29,Sweet 16,Michigan,Kansas,4,1,3,0.9,1.5,-6,-11,-9,2,1
+2012-13,2013/03/30,Elite Eight,Syracuse,Marquette,4,3,1,5.1,-4.5,6,11,13,16,1
+2012-13,2013/03/30,Elite Eight,Wichita St.,Ohio St.,9,2,7,-5.2,4.5,13,17,12,4,1
+2012-13,2013/03/31,Elite Eight,Duke,Louisville,2,1,1,-2.4,3.5,-3,-13,-16,-22,0
+2012-13,2013/03/31,Elite Eight,Michigan,Florida,4,3,1,-5.0,3.0,17,20,20,20,1
+2012-13,2013/04/06,Final Four,Wichita St.,Louisville,9,1,8,-11.2,9.5,1,5,0,-4,0
+2012-13,2013/04/06,Final Four,Michigan,Syracuse,4,4,0,2.7,-1.5,11,4,4,5,1
+2012-13,2013/04/08,Championship,Michigan,Louisville,4,1,3,-3.4,4.0,1,-2,-5,-6,0
+2013-14,2014/03/20,First round,Dayton,Ohio St.,11,6,5,-9.4,6.5,3,-2,-3,1,1
+2013-14,2014/03/20,First round,UAlbany,Florida,16,1,15,-30.0,21.5,-6,-9,-10,-12,0
+2013-14,2014/03/20,First round,Harvard,Cincinnati,12,5,7,-3.9,3.0,7,7,3,4,1
+2013-14,2014/03/20,First round,Manhattan,Louisville,13,4,9,-21.2,16.0,-6,-2,-1,-7,0
+2013-14,2014/03/20,First round,Wofford,Michigan,15,2,13,-25.2,15.0,-14,-10,-12,-17,0
+2013-14,2014/03/20,First round,Delaware,Michigan St.,13,4,9,-18.0,14.0,-11,-19,-17,-15,0
+2013-14,2014/03/20,First round,North Dakota St.,Oklahoma,12,5,7,-7.6,3.5,8,2,4,5,1
+2013-14,2014/03/20,First round,BYU,Oregon,10,7,3,-4.2,5.0,-8,-8,-21,-19,0
+2013-14,2014/03/20,First round,Pittsburgh,Colorado,9,8,1,9.8,-6.5,28,29,28,29,1
+2013-14,2014/03/20,First round,NC State,Saint Louis,12,5,7,-3.3,3.0,4,10,14,-3,0
+2013-14,2014/03/20,First round,New Mexico St.,San Diego St.,13,4,9,-9.6,8.0,-12,-2,-7,-4,0
+2013-14,2014/03/20,First round,Western Mich.,Syracuse,14,3,11,-18.2,13.0,-19,-26,-23,-24,0
+2013-14,2014/03/20,First round,Arizona St.,Texas,10,7,3,0.4,2.5,-5,-7,-1,-2,0
+2013-14,2014/03/20,First round,Saint Joseph's,UConn,10,7,3,-6.9,4.5,5,2,5,-8,0
+2013-14,2014/03/20,First round,Milwaukee,Villanova,15,2,13,-23.8,16.5,-4,-12,-10,-20,0
+2013-14,2014/03/20,First round,American,Wisconsin,15,2,13,-19.0,14.0,-10,-28,-38,-40,0
+2013-14,2014/03/21,First round,Weber St.,Arizona,16,1,15,-28.9,19.5,-12,-17,-11,-9,0
+2013-14,2014/03/21,First round,Nebraska,Baylor,11,6,5,-4.8,3.5,-13,-17,-20,-14,0
+2013-14,2014/03/21,First round,Louisiana,Creighton,14,3,11,-19.2,13.5,-6,-4,-6,-10,0
+2013-14,2014/03/21,First round,Oklahoma St.,Gonzaga,9,8,1,2.1,-4.0,-9,-6,-9,-8,0
+2013-14,2014/03/21,First round,N.C. Central,Iowa St.,14,3,11,-14.0,8.0,-6,-17,-16,-18,0
+2013-14,2014/03/21,First round,Eastern Ky.,Kansas,15,2,13,-21.4,13.0,0,-1,-7,-11,0
+2013-14,2014/03/21,First round,Kansas St.,Kentucky,9,8,1,-7.4,6.5,-6,-8,-11,-7,0
+2013-14,2014/03/21,First round,George Washington,Memphis,9,8,1,-1.6,4.0,-5,-8,-7,-5,0
+2013-14,2014/03/21,First round,Mercer,Duke,14,3,11,-17.6,13.0,-1,0,-2,7,1
+2013-14,2014/03/21,First round,Providence,North Carolina,11,6,5,-4.3,4.5,-3,-4,6,-2,0
+2013-14,2014/03/21,First round,SFA,VCU,12,5,7,-9.0,6.0,6,-9,-10,2,1
+2013-14,2014/03/21,First round,Stanford,New Mexico,10,7,3,-1.0,4.5,5,0,5,5,1
+2013-14,2014/03/21,First round,Tennessee,Massachusetts,11,6,5,7.4,-6.0,19,19,20,19,1
+2013-14,2014/03/21,First round,Tulsa,UCLA,13,4,9,-12.9,8.0,-5,-12,-7,-17,0
+2013-14,2014/03/21,First round,Coastal Carolina,Virginia,16,1,15,-30.2,19.5,5,-1,-10,-11,0
+2013-14,2014/03/21,First round,Cal Poly,Wichita St.,16,1,15,-24.1,16.5,-19,-27,-27,-27,0
+2013-14,2014/03/22,Second round,Dayton,Syracuse,11,3,8,-9.3,8.5,2,3,2,2,1
+2013-14,2014/03/22,Second round,Pittsburgh,Florida,9,1,8,-4.0,5.5,-5,-11,-8,-16,0
+2013-14,2014/03/22,Second round,Saint Louis,Louisville,5,4,1,-13.7,10.0,-9,-4,-11,-15,0
+2013-14,2014/03/22,Second round,Texas,Michigan,7,2,5,-7.3,5.0,-13,-9,-10,-14,0
+2013-14,2014/03/22,Second round,Harvard,Michigan St.,12,4,8,-8.2,8.5,-12,-2,-6,-7,0
+2013-14,2014/03/22,Second round,North Dakota St.,San Diego St.,12,4,8,-6.8,4.0,-7,-9,-8,-19,0
+2013-14,2014/03/22,Second round,UConn,Villanova,7,2,5,-5.2,4.0,1,5,7,12,1
+2013-14,2014/03/22,Second round,Oregon,Wisconsin,7,2,5,-5.1,6.0,12,-4,0,-8,0
+2013-14,2014/03/23,Second round,Gonzaga,Arizona,8,1,7,-8.0,7.5,-13,-21,-25,-23,0
+2013-14,2014/03/23,Second round,Baylor,Creighton,6,3,3,-5.6,3.5,20,28,24,30,1
+2013-14,2014/03/23,Second round,North Carolina,Iowa St.,6,3,3,-2.7,1.5,-3,-2,5,-2,0
+2013-14,2014/03/23,Second round,Kentucky,Wichita St.,8,1,7,-2.5,4.5,-6,1,-4,2,1
+2013-14,2014/03/23,Second round,Stanford,Kansas,10,2,8,-8.7,6.5,-2,7,0,3,1
+2013-14,2014/03/23,Second round,Mercer,Tennessee,14,11,3,-14.5,8.5,-15,-16,-15,-20,0
+2013-14,2014/03/23,Second round,SFA,UCLA,12,4,8,-11.6,9.5,-10,-13,-15,-17,0
+2013-14,2014/03/23,Second round,Memphis,Virginia,8,1,7,-8.8,6.5,-15,-20,-23,-18,0
+2013-14,2014/03/27,Sweet 16,San Diego St.,Arizona,4,1,3,-9.3,7.5,4,3,-2,-6,0
+2013-14,2014/03/27,Sweet 16,Dayton,Stanford,11,10,1,-3.2,3.5,10,12,9,10,1
+2013-14,2014/03/27,Sweet 16,UCLA,Florida,4,1,3,-5.9,4.5,-6,-1,-9,-11,0
+2013-14,2014/03/27,Sweet 16,Baylor,Wisconsin,6,2,4,-4.6,4.0,-13,-21,-21,-17,0
+2013-14,2014/03/28,Sweet 16,Kentucky,Louisville,8,4,4,-7.7,4.5,-3,-4,-7,5,1
+2013-14,2014/03/28,Sweet 16,Tennessee,Michigan,11,2,9,0.2,2.0,-11,-13,-9,-2,0
+2013-14,2014/03/28,Sweet 16,Michigan St.,Virginia,4,1,3,-1.3,-2.0,4,-2,7,2,1
+2013-14,2014/03/28,Sweet 16,UConn,Iowa St.,7,3,4,-1.5,-0.0,10,10,10,5,1
+2013-14,2014/03/29,Elite Eight,Dayton,Florida,11,1,10,-14.7,10.5,-14,-17,-10,-10,0
+2013-14,2014/03/29,Elite Eight,Wisconsin,Arizona,2,1,1,-3.6,3.5,-3,0,-1,1,1
+2013-14,2014/03/30,Elite Eight,Kentucky,Michigan,8,2,6,-0.6,-2.5,0,-2,4,3,1
+2013-14,2014/03/30,Elite Eight,UConn,Michigan St.,7,4,3,-4.2,5.0,-4,2,7,6,1
+2013-14,2014/04/05,Final Four,Kentucky,Wisconsin,8,2,6,-2.8,-1.0,-4,-3,-4,1,1
+2013-14,2014/04/05,Final Four,UConn,Florida,7,1,6,-8.2,7.0,3,4,10,10,1
+2013-14,2014/04/07,Championship,Kentucky,UConn,8,7,1,1.4,-2.5,-4,-6,-4,-6,0
+2014-15,2015/03/19,First round,Texas Southern,Arizona,15,2,13,-35.0,23.5,-21,-20,-21,-21,0
+2014-15,2015/03/19,First round,Wofford,Arkansas,12,5,7,-11.6,7.5,1,3,1,-3,0
+2014-15,2015/03/19,First round,Texas,Butler,11,6,5,1.0,-2.5,-2,-8,-5,-8,0
+2014-15,2015/03/19,First round,Purdue,Cincinnati,9,8,1,0.1,1.5,3,1,-1,-1,0
+2014-15,2015/03/19,First round,Eastern Wash.,Georgetown,13,4,9,-17.1,8.0,-10,-20,-13,-10,0
+2014-15,2015/03/19,First round,Georgia St.,Baylor,14,3,11,-14.2,9.5,-7,-2,-10,1,1
+2014-15,2015/03/19,First round,Hampton,Kentucky,16,1,15,-45.7,34.5,-19,-35,-26,-23,0
+2014-15,2015/03/19,First round,LSU,NC State,9,8,1,-1.1,2.0,14,12,4,-1,0
+2014-15,2015/03/19,First round,Harvard,North Carolina,13,4,9,-16.6,9.5,-11,-9,-5,-2,0
+2014-15,2015/03/19,First round,Northeastern,Notre Dame,14,3,11,-19.1,12.0,-4,-9,-8,-4,0
+2014-15,2015/03/19,First round,Ohio St.,VCU,10,7,3,4.6,-3.5,-1,-3,0,3,1
+2014-15,2015/03/19,First round,UAB,Iowa St.,14,3,11,-20.0,14.0,3,-1,2,1,1
+2014-15,2015/03/19,First round,UCLA,SMU,11,6,5,-2.7,4.0,4,9,-7,1,1
+2014-15,2015/03/19,First round,SFA,Utah,12,5,7,-12.6,6.5,-7,-9,-6,-7,0
+2014-15,2015/03/19,First round,Lafayette,Villanova,16,1,15,-30.9,22.0,-23,-40,-44,-41,0
+2014-15,2015/03/19,First round,Ole Miss,Xavier,11,6,5,-3.3,2.0,-12,-13,-15,-19,0
+2014-15,2015/03/20,First round,Dayton,Providence,11,6,5,-3.9,2.5,3,9,5,13,1
+2014-15,2015/03/20,First round,Robert Morris,Duke,16,1,15,-30.4,22.5,-17,-18,-26,-29,0
+2014-15,2015/03/20,First round,North Dakota St.,Gonzaga,15,2,13,-28.4,17.0,-13,-12,-8,-10,0
+2014-15,2015/03/20,First round,Davidson,Iowa,10,7,3,-2.0,2.5,-9,-16,-23,-31,0
+2014-15,2015/03/20,First round,New Mexico St.,Kansas,15,2,13,-17.2,9.5,-13,-14,-22,-19,0
+2014-15,2015/03/20,First round,UC Irvine,Louisville,13,4,9,-15.0,8.5,-2,-1,-3,-2,0
+2014-15,2015/03/20,First round,Valparaiso,Maryland,13,4,9,-5.6,5.0,-4,-1,-6,-3,0
+2014-15,2015/03/20,First round,Georgia,Michigan St.,10,7,3,-4.7,6.0,-13,-6,-10,-7,0
+2014-15,2015/03/20,First round,UAlbany,Oklahoma,14,3,11,-21.6,13.0,-9,-10,-10,-9,0
+2014-15,2015/03/20,First round,Oklahoma St.,Oregon,9,8,1,3.3,-1.0,-4,1,-6,-6,0
+2014-15,2015/03/20,First round,St. John's (NY),San Diego St.,9,8,1,0.4,4.0,-7,-7,-9,-12,0
+2014-15,2015/03/20,First round,Wyoming,UNI,12,5,7,-13.2,6.5,-11,-10,-11,-17,0
+2014-15,2015/03/20,First round,Belmont,Virginia,15,2,13,-28.3,17.0,-8,-3,-3,-12,0
+2014-15,2015/03/20,First round,Buffalo,West Virginia,12,5,7,-6.6,4.5,-10,-9,-4,-6,0
+2014-15,2015/03/20,First round,Indiana,Wichita St.,10,7,3,-6.8,6.5,3,-3,-6,-5,0
+2014-15,2015/03/20,First round,Coastal Carolina,Wisconsin,16,1,15,-29.5,20.0,-15,-17,-16,-14,0
+2014-15,2015/03/21,Second round,Ohio St.,Arizona,10,2,8,-8.9,10.0,-1,-10,-12,-15,0
+2014-15,2015/03/21,Second round,Cincinnati,Kentucky,8,1,7,-23.0,15.0,-7,-9,-12,-13,0
+2014-15,2015/03/21,Second round,NC State,Villanova,8,1,7,-14.2,10.0,4,7,9,3,1
+2014-15,2015/03/21,Second round,Arkansas,North Carolina,5,4,1,-7.1,5.0,-3,-4,-9,-9,0
+2014-15,2015/03/21,Second round,Butler,Notre Dame,6,3,3,-3.1,4.0,-2,2,-1,-3,0
+2014-15,2015/03/21,Second round,UAB,UCLA,14,11,3,-10.9,5.5,-9,-8,-12,-17,0
+2014-15,2015/03/21,Second round,Utah,Georgetown,5,4,1,6.6,-4.5,0,4,2,11,1
+2014-15,2015/03/21,Second round,Georgia St.,Xavier,14,6,8,-10.4,6.0,-4,-8,-6,-8,0
+2014-15,2015/03/22,Second round,San Diego St.,Duke,8,1,7,-14.2,9.0,-13,-14,-21,-19,0
+2014-15,2015/03/22,Second round,Iowa,Gonzaga,7,2,5,-8.8,6.0,-17,-11,-19,-19,0
+2014-15,2015/03/22,Second round,UNI,Louisville,5,4,1,0.0,-2.5,-9,-12,-8,-13,0
+2014-15,2015/03/22,Second round,Michigan St.,Virginia,7,2,5,-9.2,4.5,5,6,4,6,1
+2014-15,2015/03/22,Second round,Dayton,Oklahoma,11,3,8,-9.5,4.0,-2,7,-1,-6,0
+2014-15,2015/03/22,Second round,West Virginia,Maryland,5,4,1,1.9,-1.5,1,5,8,10,1
+2014-15,2015/03/22,Second round,Wichita St.,Kansas,7,2,5,-2.1,-0.0,3,9,10,13,1
+2014-15,2015/03/22,Second round,Oregon,Wisconsin,8,1,7,-18.9,12.0,-3,-7,-3,-7,0
+2014-15,2015/03/26,Sweet 16,Xavier,Arizona,6,2,4,-11.7,11.5,0,-1,-2,-8,0
+2014-15,2015/03/26,Sweet 16,West Virginia,Kentucky,5,1,4,-18.4,13.0,-26,-32,-38,-39,0
+2014-15,2015/03/26,Sweet 16,Wichita St.,Notre Dame,7,3,4,-1.5,-2.0,-3,-10,-17,-11,0
+2014-15,2015/03/26,Sweet 16,North Carolina,Wisconsin,4,1,3,-7.5,6.5,2,4,-2,-7,0
+2014-15,2015/03/27,Sweet 16,Utah,Duke,5,1,4,-3.3,4.5,-5,-11,-8,-6,0
+2014-15,2015/03/27,Sweet 16,UCLA,Gonzaga,11,2,9,-14.1,8.5,-7,-14,-14,-12,0
+2014-15,2015/03/27,Sweet 16,NC State,Louisville,8,4,4,-5.0,2.5,2,-3,-1,-10,0
+2014-15,2015/03/27,Sweet 16,Michigan St.,Oklahoma,7,3,4,-2.2,-1.5,-4,0,5,4,1
+2014-15,2015/03/28,Elite Eight,Notre Dame,Kentucky,3,1,2,-13.9,11.0,0,4,3,-2,0
+2014-15,2015/03/28,Elite Eight,Arizona,Wisconsin,2,1,1,-0.9,-1.5,3,-6,-10,-7,0
+2014-15,2015/03/29,Elite Eight,Gonzaga,Duke,2,1,1,-1.4,1.5,-5,-3,-2,-14,0
+2014-15,2015/03/29,Elite Eight,Michigan St.,Louisville,7,4,3,-0.1,-2.5,-8,-4,4,6,1
+2014-15,2015/04/04,Final Four,Michigan St.,Duke,7,1,6,-8.8,5.5,-11,-17,-16,-20,0
+2014-15,2015/04/04,Final Four,Wisconsin,Kentucky,1,1,0,-5.0,4.5,0,4,-4,7,1
+2014-15,2015/04/06,Championship,Duke,Wisconsin,1,1,0,-1.6,1.0,0,-1,0,5,1
+2015-16,2016/03/17,First round,Butler,Texas Tech,9,8,1,2.2,-3.5,2,2,4,10,1
+2015-16,2016/03/17,First round,UNCW,Duke,13,4,9,-14.1,10.0,3,-7,-6,-8,0
+2015-16,2016/03/17,First round,Gonzaga,Seton Hall,11,6,5,0.1,-2.0,10,10,10,16,1
+2015-16,2016/03/17,First round,Chattanooga,Indiana,12,5,7,-15.0,10.5,-9,-17,-22,-25,0
+2015-16,2016/03/17,First round,Iona,Iowa St.,13,4,9,-14.4,6.5,-12,-17,-12,-13,0
+2015-16,2016/03/17,First round,Austin Peay,Kansas,16,1,15,-33.8,24.5,-20,-31,-29,-26,0
+2015-16,2016/03/17,First round,Stony Brook,Kentucky,13,4,9,-16.1,13.5,-14,-31,-31,-28,0
+2015-16,2016/03/17,First round,Little Rock,Purdue,12,5,7,-12.3,8.0,-3,-10,-14,2,1
+2015-16,2016/03/17,First round,Buffalo,Miami (FL),14,3,11,-20.5,14.0,-2,-7,-12,-7,0
+2015-16,2016/03/17,First round,FGCU,North Carolina,16,1,15,-28.0,22.5,-1,-18,-17,-16,0
+2015-16,2016/03/17,First round,Providence,Southern California,9,8,1,-0.4,-2.5,-1,-5,-1,1,1
+2015-16,2016/03/17,First round,UConn,Colorado,9,8,1,5.4,-3.5,-9,3,6,7,1
+2015-16,2016/03/17,First round,Fresno St.,Utah,14,3,11,-10.9,8.5,-11,1,-12,-11,0
+2015-16,2016/03/17,First round,Hampton,Virginia,16,1,15,-36.4,23.0,-19,-22,-29,-36,0
+2015-16,2016/03/17,First round,Wichita St.,Arizona,11,6,5,-1.4,-0.0,12,19,17,10,1
+2015-16,2016/03/17,First round,Yale,Baylor,12,5,7,-8.3,5.5,5,9,9,4,1
+2015-16,2016/03/18,First round,Hawaii,California,13,4,9,-8.5,5.5,6,5,6,11,1
+2015-16,2016/03/18,First round,Temple,Iowa,10,7,3,-12.8,7.0,-1,-6,-8,-2,0
+2015-16,2016/03/18,First round,South Dakota St.,Maryland,12,5,7,-12.2,9.0,-12,-16,-11,-5,0
+2015-16,2016/03/18,First round,Middle Tenn.,Michigan St.,15,2,13,-25.7,16.5,6,7,4,9,1
+2015-16,2016/03/18,First round,Michigan,Notre Dame,11,6,5,-1.5,3.0,12,0,0,-7,0
+2015-16,2016/03/18,First round,CSU Bakersfield,Oklahoma,15,2,13,-19.8,14.5,-7,-8,-5,-14,0
+2015-16,2016/03/18,First round,Holy Cross,Oregon,16,1,15,-32.6,23.0,-18,-34,-36,-39,0
+2015-16,2016/03/18,First round,SFA,West Virginia,14,3,11,-14.9,6.5,3,3,11,14,1
+2015-16,2016/03/18,First round,Cincinnati,Saint Joseph's,9,8,1,2.2,-3.0,-1,-7,3,-2,0
+2015-16,2016/03/18,First round,Syracuse,Dayton,10,7,3,2.7,-1.0,2,15,17,19,1
+2015-16,2016/03/18,First round,Green Bay,Texas A&M,14,3,11,-18.3,13.0,-8,-18,-25,-27,0
+2015-16,2016/03/18,First round,UNI,Texas,11,6,5,-8.4,3.5,8,-2,1,3,1
+2015-16,2016/03/18,First round,VCU,Oregon St.,10,7,3,3.5,-4.5,8,0,4,8,1
+2015-16,2016/03/18,First round,UNC Asheville,Villanova,15,2,13,-22.1,17.5,-14,-21,-28,-30,0
+2015-16,2016/03/18,First round,Pittsburgh,Wisconsin,10,7,3,0.5,-1.0,6,5,-2,-4,0
+2015-16,2016/03/18,First round,Weber St.,Xavier,15,2,13,-19.2,13.5,-11,-9,-13,-18,0
+2015-16,2016/03/19,Second round,Yale,Duke,12,4,8,-10.1,6.5,-23,-9,-9,-7,0
+2015-16,2016/03/19,Second round,Gonzaga,Utah,11,3,8,1.6,-1.0,15,23,25,23,1
+2015-16,2016/03/19,Second round,Indiana,Kentucky,5,4,1,-2.6,4.0,1,-1,8,6,1
+2015-16,2016/03/19,Second round,Little Rock,Iowa St.,12,4,8,-8.7,5.5,-12,-16,-17,-17,0
+2015-16,2016/03/19,Second round,UConn,Kansas,9,1,8,-9.1,7.5,-20,-11,-14,-12,0
+2015-16,2016/03/19,Second round,Wichita St.,Miami (FL),11,3,8,-2.0,-2.0,-13,1,-4,-8,0
+2015-16,2016/03/19,Second round,Providence,North Carolina,9,1,8,-13.2,11.5,-4,-7,-18,-19,0
+2015-16,2016/03/19,Second round,Butler,Virginia,9,1,8,-11.6,8.5,2,-3,-9,-8,0
+2015-16,2016/03/20,Second round,Hawaii,Maryland,13,5,8,-9.3,7.5,-1,-2,-14,-13,0
+2015-16,2016/03/20,Second round,SFA,Notre Dame,14,6,8,-5.1,1.5,-1,-5,0,-1,0
+2015-16,2016/03/20,Second round,VCU,Oklahoma,10,2,8,-9.4,6.0,-13,-2,-6,-4,0
+2015-16,2016/03/20,Second round,Saint Joseph's,Oregon,8,1,7,-6.2,7.0,-5,0,7,-5,0
+2015-16,2016/03/20,Second round,Middle Tenn.,Syracuse,15,10,5,-13.4,6.0,-4,-11,-19,-25,0
+2015-16,2016/03/20,Second round,UNI,Texas A&M,11,3,8,-12.3,7.0,10,8,8,-4,0
+2015-16,2016/03/20,Second round,Iowa,Villanova,7,2,5,-5.7,6.0,-25,-23,-20,-19,0
+2015-16,2016/03/20,Second round,Wisconsin,Xavier,7,2,5,-5.4,4.5,-3,-2,-8,3,1
+2015-16,2016/03/24,Sweet 16,Maryland,Kansas,5,1,4,-7.2,5.5,-2,-7,-14,-16,0
+2015-16,2016/03/24,Sweet 16,Texas A&M,Oklahoma,3,2,1,-3.5,2.5,-19,-19,-17,-14,0
+2015-16,2016/03/24,Sweet 16,Duke,Oregon,4,1,3,1.5,3.0,-5,-14,-13,-14,0
+2015-16,2016/03/24,Sweet 16,Miami (FL),Villanova,3,2,1,-4.1,4.0,-6,-10,-17,-23,0
+2015-16,2016/03/25,Sweet 16,Indiana,North Carolina,5,1,4,-5.4,5.0,-11,-18,-20,-15,0
+2015-16,2016/03/25,Sweet 16,Wisconsin,Notre Dame,7,6,1,0.2,1.5,4,0,-1,-5,0
+2015-16,2016/03/25,Sweet 16,Gonzaga,Syracuse,11,10,1,2.4,-4.0,1,2,6,-3,0
+2015-16,2016/03/25,Sweet 16,Iowa St.,Virginia,4,1,3,-7.3,6.0,-14,-13,-10,-13,0
+2015-16,2016/03/26,Elite Eight,Oklahoma,Oregon,2,1,1,3.6,1.0,18,14,16,12,1
+2015-16,2016/03/26,Elite Eight,Villanova,Kansas,2,1,1,-0.1,2.0,7,-3,2,5,1
+2015-16,2016/03/27,Elite Eight,Notre Dame,North Carolina,6,1,5,-11.3,9.5,-5,-9,-10,-14,0
+2015-16,2016/03/27,Elite Eight,Syracuse,Virginia,10,1,9,-11.5,8.0,-14,-14,1,6,1
+2015-16,2016/04/02,Final Four,Syracuse,North Carolina,10,1,9,-10.4,10.0,-11,-10,-11,-17,0
+2015-16,2016/04/02,Final Four,Villanova,Oklahoma,2,2,0,2.9,-2.5,14,23,40,44,1
+2015-16,2016/04/04,Championship,Villanova,North Carolina,2,1,1,1.8,2.0,-5,5,10,3,1
+2016-17,2017/03/16,First round,North Dakota,Arizona,15,2,13,-23.1,17.5,-16,-11,-18,-18,0
+2016-17,2017/03/16,First round,Winthrop,Butler,13,4,9,-16.1,10.5,-14,-12,-15,-12,0
+2016-17,2017/03/16,First round,ETSU,Florida,13,4,9,-15.1,10.0,-1,-11,-11,-15,0
+2016-17,2017/03/16,First round,FGCU,Florida St.,14,3,11,-18.0,12.5,-4,-6,-8,-6,0
+2016-17,2017/03/16,First round,South Dakota St.,Gonzaga,16,1,15,-34.4,23.0,-4,-15,-20,-20,0
+2016-17,2017/03/16,First round,Nevada,Iowa St.,12,5,7,-11.1,6.0,-13,-6,-10,-11,0
+2016-17,2017/03/16,First round,Middle Tenn.,Minnesota,12,5,7,-3.7,-1.5,6,14,6,9,1
+2016-17,2017/03/16,First round,Vanderbilt,Northwestern,9,8,1,-0.4,-2.0,-7,-5,-2,-2,0
+2016-17,2017/03/16,First round,Princeton,Notre Dame,12,5,7,-11.5,5.5,-6,-8,-3,-2,0
+2016-17,2017/03/16,First round,Vermont,Purdue,13,4,9,-13.5,8.5,-1,-4,-6,-10,0
+2016-17,2017/03/16,First round,VCU,Saint Mary's (CA),10,7,3,-8.7,4.0,-15,-2,-8,-8,0
+2016-17,2017/03/16,First round,Mount St. Mary's,Villanova,16,1,15,-34.5,25.0,-1,-16,-15,-20,0
+2016-17,2017/03/16,First round,UNCW,Virginia,12,5,7,-15.3,7.5,-1,-6,-5,-5,0
+2016-17,2017/03/16,First round,Bucknell,West Virginia,13,4,9,-19.0,13.5,-9,-5,-6,-6,0
+2016-17,2017/03/16,First round,Virginia Tech,Wisconsin,9,8,1,-7.1,6.0,-4,-2,-4,-10,0
+2016-17,2017/03/16,First round,Xavier,Maryland,11,6,5,0.2,2.0,-1,8,7,11,1
+2016-17,2017/03/17,First round,Seton Hall,Arkansas,9,8,1,-0.3,-0.0,0,6,0,-6,0
+2016-17,2017/03/17,First round,New Mexico St.,Baylor,14,3,11,-18.2,11.5,2,-14,-19,-18,0
+2016-17,2017/03/17,First round,Kansas St.,Cincinnati,11,6,5,-3.2,3.0,-11,-12,-14,-14,0
+2016-17,2017/03/17,First round,Troy,Duke,15,2,13,-23.6,19.5,-14,-16,-18,-22,0
+2016-17,2017/03/17,First round,UC Davis,Kansas,16,1,15,-31.4,23.0,-22,-36,-38,-38,0
+2016-17,2017/03/17,First round,Northern Ky.,Kentucky,15,2,13,-26.3,20.0,-14,-17,-12,-9,0
+2016-17,2017/03/17,First round,Jacksonville St.,Louisville,15,2,13,-27.4,18.0,-7,-12,-13,-15,0
+2016-17,2017/03/17,First round,Oklahoma St.,Michigan,10,7,3,-1.0,2.5,-1,-3,-6,-1,0
+2016-17,2017/03/17,First round,Michigan St.,Miami (FL),9,8,1,-2.3,1.5,11,20,20,20,1
+2016-17,2017/03/17,First round,Texas Southern,North Carolina,16,1,15,-32.1,26.5,-25,-33,-36,-39,0
+2016-17,2017/03/17,First round,Iona,Oregon,14,3,11,-19.5,15.0,-18,-23,-13,-16,0
+2016-17,2017/03/17,First round,Rhode Island,Creighton,11,6,5,-4.4,-2.0,7,9,11,12,1
+2016-17,2017/03/17,First round,Marquette,South Carolina,10,7,3,0.4,-0.0,1,-5,-11,-20,0
+2016-17,2017/03/17,First round,Southern California,SMU,11,6,5,-10.6,7.0,-8,-5,-1,1,1
+2016-17,2017/03/17,First round,Kent St.,UCLA,14,3,11,-21.4,19.5,-8,-9,-17,-17,0
+2016-17,2017/03/17,First round,Wichita St.,Dayton,10,7,3,9.5,-6.5,-2,1,6,6,1
+2016-17,2017/03/18,Second round,Saint Mary's (CA),Arizona,7,2,5,0.8,4.5,1,-3,-5,-9,0
+2016-17,2017/03/18,Second round,Middle Tenn.,Butler,12,4,8,-6.8,2.5,-5,-7,-8,-9,0
+2016-17,2017/03/18,Second round,Virginia,Florida,5,4,1,0.5,1.5,-14,-25,-27,-26,0
+2016-17,2017/03/18,Second round,Northwestern,Gonzaga,8,1,7,-15.8,10.5,-18,-14,-5,-6,0
+2016-17,2017/03/18,Second round,Iowa St.,Purdue,5,4,1,-1.2,1.0,-13,-13,-4,-4,0
+2016-17,2017/03/18,Second round,Notre Dame,West Virginia,5,4,1,-5.3,3.0,-7,-10,-8,-12,0
+2016-17,2017/03/18,Second round,Wisconsin,Villanova,8,1,7,-7.6,5.5,4,-3,-5,3,1
+2016-17,2017/03/18,Second round,Xavier,Florida St.,11,3,8,-6.2,7.5,10,19,20,25,1
+2016-17,2017/03/19,Second round,Southern California,Baylor,11,3,8,-12.3,5.5,-5,1,0,-4,0
+2016-17,2017/03/19,Second round,Michigan St.,Kansas,9,1,8,-10.2,8.0,-5,-7,-10,-20,0
+2016-17,2017/03/19,Second round,Wichita St.,Kentucky,10,2,8,-1.8,3.0,-2,-2,-4,-3,0
+2016-17,2017/03/19,Second round,Michigan,Louisville,7,2,5,-3.3,3.0,-8,-1,4,4,1
+2016-17,2017/03/19,Second round,Arkansas,North Carolina,8,1,7,-11.5,11.5,-5,4,1,-7,0
+2016-17,2017/03/19,Second round,Rhode Island,Oregon,11,3,8,-6.9,4.5,8,5,1,-3,0
+2016-17,2017/03/19,Second round,South Carolina,Duke,7,2,5,-6.7,6.5,-7,2,10,7,1
+2016-17,2017/03/19,Second round,Cincinnati,UCLA,6,3,3,-1.3,3.5,3,-8,-9,-12,0
+2016-17,2017/03/23,Sweet 16,West Virginia,Gonzaga,4,1,3,-4.8,3.0,0,-4,2,-3,0
+2016-17,2017/03/23,Sweet 16,Purdue,Kansas,4,1,3,-2.5,5.0,-7,-16,-24,-32,0
+2016-17,2017/03/23,Sweet 16,Michigan,Oregon,7,3,4,0.4,-0.0,-2,1,-5,-1,0
+2016-17,2017/03/23,Sweet 16,Xavier,Arizona,11,2,9,-5.7,7.5,-2,-2,-3,2,1
+2016-17,2017/03/24,Sweet 16,Wisconsin,Florida,8,4,4,-4.0,1.0,0,1,-11,-1,0
+2016-17,2017/03/24,Sweet 16,UCLA,Kentucky,3,2,1,-2.9,-1.5,-3,-7,-10,-11,0
+2016-17,2017/03/24,Sweet 16,Butler,North Carolina,4,1,3,-5.9,7.0,-16,-18,-15,-12,0
+2016-17,2017/03/24,Sweet 16,South Carolina,Baylor,7,3,4,-6.6,3.0,15,14,20,20,1
+2016-17,2017/03/25,Elite Eight,Xavier,Gonzaga,11,1,10,-14.2,8.5,-10,-18,-21,-24,0
+2016-17,2017/03/25,Elite Eight,Oregon,Kansas,3,1,2,-5.3,6.5,11,13,11,14,1
+2016-17,2017/03/26,Elite Eight,Kentucky,North Carolina,2,1,1,0.1,2.0,-5,-4,5,-2,0
+2016-17,2017/03/26,Elite Eight,South Carolina,Florida,7,4,3,-7.0,3.0,-7,3,0,7,1
+2016-17,2017/04/01,Final Four,South Carolina,Gonzaga,7,1,6,-12.0,6.5,-9,-9,-3,-4,0
+2016-17,2017/04/01,Final Four,Oregon,North Carolina,3,1,2,-3.5,4.0,-3,-7,-8,-1,0
+2016-17,2017/04/03,Championship,North Carolina,Gonzaga,1,1,0,-4.8,-1.0,-3,0,1,6,1
+2017-18,2018/03/15,First round,Alabama,Virginia Tech,9,8,1,-3.0,2.5,-2,0,6,3,1
+2017-18,2018/03/15,First round,Buffalo,Arizona,13,4,9,-9.4,9.0,2,10,17,21,1
+2017-18,2018/03/15,First round,Iona,Duke,15,2,13,-26.3,20.5,-14,-25,-26,-22,0
+2017-18,2018/03/15,First round,St. Bonaventure,Florida,11,6,5,-7.9,6.0,-5,-12,-19,-15,0
+2017-18,2018/03/15,First round,UNC Greensboro,Gonzaga,13,4,9,-15.1,12.5,-9,-6,-2,-4,0
+2017-18,2018/03/15,First round,San Diego St.,Houston,11,6,5,-7.0,4.5,-10,-5,-6,-2,0
+2017-18,2018/03/15,First round,Penn,Kansas,16,1,15,-19.4,13.5,-7,-8,-13,-16,0
+2017-18,2018/03/15,First round,Davidson,Kentucky,12,5,7,-5.8,4.5,-10,-1,-3,-5,0
+2017-18,2018/03/15,First round,Loyola Chicago,Miami (FL),11,6,5,-2.8,1.5,0,-2,-2,2,1
+2017-18,2018/03/15,First round,Montana,Michigan,14,3,11,-14.9,10.0,-3,-12,-12,-14,0
+2017-18,2018/03/15,First round,South Dakota St.,Ohio St.,12,5,7,-11.4,8.0,0,-9,-8,-8,0
+2017-18,2018/03/15,First round,Oklahoma,Rhode Island,10,7,3,0.6,2.0,4,3,-4,-5,0
+2017-18,2018/03/15,First round,NC State,Seton Hall,9,8,1,-2.1,3.5,-10,-4,-9,-11,0
+2017-18,2018/03/15,First round,Wright St.,Tennessee,14,3,11,-19.7,11.5,-11,-18,-21,-26,0
+2017-18,2018/03/15,First round,SFA,Texas Tech,14,3,11,-16.5,11.0,3,7,2,-10,0
+2017-18,2018/03/15,First round,Radford,Villanova,16,1,15,-30.0,22.5,-21,-31,-31,-26,0
+2017-18,2018/03/16,First round,Col. of Charleston,Auburn,13,4,9,-16.7,9.5,0,-4,-1,-4,0
+2017-18,2018/03/16,First round,Butler,Arkansas,10,7,3,2.3,-2.0,5,6,11,17,1
+2017-18,2018/03/16,First round,Georgia St.,Cincinnati,15,2,13,-19.7,14.0,-5,1,-10,-15,0
+2017-18,2018/03/16,First round,New Mexico St.,Clemson,12,5,7,-8.7,3.5,-12,-11,-9,-11,0
+2017-18,2018/03/16,First round,Florida St.,Missouri,9,8,1,1.4,-1.5,22,8,19,13,1
+2017-18,2018/03/16,First round,Kansas St.,Creighton,9,8,1,-1.8,2.0,6,8,11,10,1
+2017-18,2018/03/16,First round,Marshall,Wichita St.,13,4,9,-14.7,13.5,-3,2,1,6,1
+2017-18,2018/03/16,First round,Bucknell,Michigan St.,14,3,11,-20.3,14.5,-4,-9,-16,-4,0
+2017-18,2018/03/16,First round,Texas,Nevada,10,7,3,-1.6,-0.0,9,4,3,-4,0
+2017-18,2018/03/16,First round,Lipscomb,North Carolina,15,2,13,-24.8,22.0,-9,-18,-19,-18,0
+2017-18,2018/03/16,First round,Cal St. Fullerton,Purdue,15,2,13,-25.4,20.0,-10,-21,-29,-26,0
+2017-18,2018/03/16,First round,Syracuse,TCU,11,6,5,-4.7,4.5,-1,1,1,5,1
+2017-18,2018/03/16,First round,Providence,Texas A&M,10,7,3,-5.3,3.0,-1,-2,-3,-4,0
+2017-18,2018/03/16,First round,UMBC,Virginia,16,1,15,-33.8,20.5,0,16,14,20,1
+2017-18,2018/03/16,First round,Murray St.,West Virginia,12,5,7,-10.3,10.0,-9,-14,-14,-17,0
+2017-18,2018/03/16,First round,Texas Southern,Xavier,16,1,15,-28.3,19.0,-12,-19,-23,-19,0
+2017-18,2018/03/17,Second round,Rhode Island,Duke,7,2,5,-14.2,9.5,-17,-25,-27,-25,0
+2017-18,2018/03/17,Second round,Ohio St.,Gonzaga,5,4,1,-2.7,4.0,-11,4,-1,-6,0
+2017-18,2018/03/17,Second round,Seton Hall,Kansas,8,1,7,-5.4,4.5,-5,-11,-9,-4,0
+2017-18,2018/03/17,Second round,Buffalo,Kentucky,13,5,8,-9.2,5.5,-9,-8,-15,-20,0
+2017-18,2018/03/17,Second round,Loyola Chicago,Tennessee,11,3,8,-8.9,5.0,4,9,5,1,1
+2017-18,2018/03/17,Second round,Houston,Michigan,6,3,3,-3.2,3.5,0,3,2,-1,0
+2017-18,2018/03/17,Second round,Florida,Texas Tech,6,3,3,-2.5,1.5,1,-1,-4,-3,0
+2017-18,2018/03/17,Second round,Alabama,Villanova,9,1,8,-16.0,11.5,-5,-24,-26,-23,0
+2017-18,2018/03/18,Second round,Clemson,Auburn,5,4,1,0.0,2.0,24,38,32,31,1
+2017-18,2018/03/18,Second round,Florida St.,Xavier,9,1,8,-4.5,5.5,-2,-10,-5,5,1
+2017-18,2018/03/18,Second round,UMBC,Kansas St.,16,9,7,-16.1,10.0,-5,-1,-3,-7,0
+2017-18,2018/03/18,Second round,Nevada,Cincinnati,7,2,5,-7.7,8.5,-12,-17,-6,2,1
+2017-18,2018/03/18,Second round,Butler,Purdue,10,2,8,-8.0,4.0,-4,-10,-6,-3,0
+2017-18,2018/03/18,Second round,Syracuse,Michigan St.,11,3,8,-11.4,10.0,-3,-1,-3,2,1
+2017-18,2018/03/18,Second round,Texas A&M,North Carolina,7,2,5,-7.4,7.5,14,22,20,21,1
+2017-18,2018/03/18,Second round,Marshall,West Virginia,13,5,8,-16.7,12.5,-17,-24,-25,-23,0
+2017-18,2018/03/22,Sweet 16,Florida St.,Gonzaga,9,4,5,-6.1,6.0,9,4,5,15,1
+2017-18,2018/03/22,Sweet 16,Kansas St.,Kentucky,9,5,4,-4.7,5.5,4,6,2,3,1
+2017-18,2018/03/22,Sweet 16,Loyola Chicago,Nevada,11,7,4,-4.8,1.0,4,10,2,1,1
+2017-18,2018/03/22,Sweet 16,Texas A&M,Michigan,7,3,4,-4.4,2.5,-24,-25,-21,-27,0
+2017-18,2018/03/23,Sweet 16,Syracuse,Duke,11,2,9,-13.9,11.0,-7,-5,-5,-4,0
+2017-18,2018/03/23,Sweet 16,Clemson,Kansas,5,1,4,-1.3,5.0,-13,-16,-13,-4,0
+2017-18,2018/03/23,Sweet 16,Texas Tech,Purdue,3,2,1,-4.6,2.0,5,9,5,13,1
+2017-18,2018/03/23,Sweet 16,West Virginia,Villanova,5,1,4,-7.7,5.5,-2,1,-8,-12,0
+2017-18,2018/03/24,Elite Eight,Loyola Chicago,Kansas St.,11,9,2,-2.1,1.0,12,21,13,16,1
+2017-18,2018/03/24,Elite Eight,Florida St.,Michigan,9,3,6,-5.2,4.5,-1,-4,-5,-4,0
+2017-18,2018/03/25,Elite Eight,Duke,Kansas,2,1,1,5.5,-3.5,3,-2,1,-4,0
+2017-18,2018/03/25,Elite Eight,Texas Tech,Villanova,3,1,2,-8.2,6.0,-13,-11,-7,-12,0
+2017-18,2018/03/31,Final Four,Loyola Chicago,Michigan,11,3,8,-9.1,5.5,7,3,-4,-12,0
+2017-18,2018/03/31,Final Four,Villanova,Kansas,1,1,0,7.7,-5.0,15,17,17,16,1
+2017-18,2018/04/02,Championship,Michigan,Villanova,3,1,2,-7.5,7.0,-9,-14,-19,-17,0
+2018-19,2019/03/21,First round,New Mexico St.,Auburn,12,5,7,-11.0,6.0,-3,-8,-6,-1,0
+2018-19,2019/03/21,First round,Baylor,Syracuse,9,8,1,-1.4,2.5,1,2,9,9,1
+2018-19,2019/03/21,First round,Florida,Nevada,10,7,3,0.3,3.0,9,13,3,9,1
+2018-19,2019/03/21,First round,Vermont,Florida St.,13,4,9,-14.4,8.5,0,-1,-6,-7,0
+2018-19,2019/03/21,First round,FDU,Gonzaga,16,1,15,-35.5,28.5,-36,-38,-42,-38,0
+2018-19,2019/03/21,First round,Northeastern,Kansas,13,4,9,-12.2,6.5,-12,-21,-29,-34,0
+2018-19,2019/03/21,First round,Abilene Christian,Kentucky,15,2,13,-25.6,20.0,-26,-27,-36,-35,0
+2018-19,2019/03/21,First round,Yale,LSU,14,3,11,-12.8,7.0,-16,-7,-9,-5,0
+2018-19,2019/03/21,First round,Belmont,Maryland,11,6,5,-8.1,3.5,6,-1,3,-2,0
+2018-19,2019/03/21,First round,Montana,Michigan,15,2,13,-27.1,15.0,-13,-15,-24,-19,0
+2018-19,2019/03/21,First round,Bradley,Michigan St.,15,2,13,-31.0,17.5,1,-1,-1,-11,0
+2018-19,2019/03/21,First round,Minnesota,Louisville,10,7,3,-6.1,5.5,5,16,12,10,1
+2018-19,2019/03/21,First round,Murray St.,Marquette,12,5,7,-6.0,3.0,7,20,20,19,1
+2018-19,2019/03/21,First round,Old Dominion,Purdue,14,3,11,-21.2,12.5,-13,-13,-11,-13,0
+2018-19,2019/03/21,First round,Saint Mary's (CA),Villanova,11,6,5,-2.4,3.5,2,-5,-4,-4,0
+2018-19,2019/03/21,First round,Seton Hall,Wofford,10,7,3,-5.2,3.5,-10,-1,-2,-16,0
+2018-19,2019/03/22,First round,Arizona St.,Buffalo,11,6,5,-7.8,5.5,-13,-23,-20,-17,0
+2018-19,2019/03/22,First round,North Dakota St.,Duke,16,1,15,-35.2,27.5,-4,-25,-30,-23,0
+2018-19,2019/03/22,First round,Georgia St.,Houston,14,3,11,-16.8,12.5,-9,-22,-27,-29,0
+2018-19,2019/03/22,First round,Iowa,Cincinnati,10,7,3,-0.5,4.5,-5,-1,3,7,1
+2018-19,2019/03/22,First round,Liberty,Mississippi St.,12,5,7,-10.7,7.0,-2,0,-6,4,1
+2018-19,2019/03/22,First round,Iona,North Carolina,16,1,15,-32.0,24.5,5,-14,-18,-15,0
+2018-19,2019/03/22,First round,Ohio St.,Iowa St.,11,6,5,-5.9,5.0,2,5,1,3,1
+2018-19,2019/03/22,First round,Oklahoma,Ole Miss,9,8,1,0.8,1.0,17,18,26,23,1
+2018-19,2019/03/22,First round,Oregon,Wisconsin,12,5,7,-8.8,2.0,0,6,8,18,1
+2018-19,2019/03/22,First round,Colgate,Tennessee,15,2,13,-23.8,17.5,-12,0,-2,-7,0
+2018-19,2019/03/22,First round,Northern Ky.,Texas Tech,14,3,11,-19.8,13.0,-4,-13,-16,-15,0
+2018-19,2019/03/22,First round,UC Irvine,Kansas St.,13,4,9,-12.0,3.5,0,-2,8,6,1
+2018-19,2019/03/22,First round,UCF,VCU,9,8,1,-0.2,-1.5,10,18,10,15,1
+2018-19,2019/03/22,First round,Gardner-Webb,Virginia,16,1,15,-35.0,22.5,6,-14,-14,-15,0
+2018-19,2019/03/22,First round,Saint Louis,Virginia Tech,13,4,9,-17.8,10.0,-22,-10,-14,-14,0
+2018-19,2019/03/22,First round,Washington,Utah St.,9,8,1,-1.6,3.5,12,6,10,17,1
+2018-19,2019/03/23,Second round,Auburn,Kansas,5,4,1,1.8,-2.0,26,22,21,14,1
+2018-19,2019/03/23,Second round,Murray St.,Florida St.,12,4,8,-8.4,4.5,-16,-21,-23,-28,0
+2018-19,2019/03/23,Second round,Baylor,Gonzaga,9,1,8,-15.8,14.5,-16,-13,-12,-12,0
+2018-19,2019/03/23,Second round,Wofford,Kentucky,7,2,5,-7.5,5.0,-2,-4,-6,-6,0
+2018-19,2019/03/23,Second round,Maryland,LSU,6,3,3,-0.4,3.0,-9,-7,3,-2,0
+2018-19,2019/03/23,Second round,Florida,Michigan,10,2,8,-10.9,5.5,-4,-9,-11,-15,0
+2018-19,2019/03/23,Second round,Minnesota,Michigan St.,10,2,8,-15.1,10.5,-14,-20,-23,-20,0
+2018-19,2019/03/23,Second round,Villanova,Purdue,6,3,3,-6.9,3.0,-19,-24,-25,-26,0
+2018-19,2019/03/24,Second round,UCF,Duke,9,1,8,-16.8,13.0,-8,0,-1,-1,0
+2018-19,2019/03/24,Second round,Ohio St.,Houston,11,3,8,-5.3,6.5,-8,-8,-11,-15,0
+2018-19,2019/03/24,Second round,Washington,North Carolina,9,1,8,-13.6,11.5,-8,-14,-21,-22,0
+2018-19,2019/03/24,Second round,UC Irvine,Oregon,13,12,1,-8.0,4.5,-12,-3,-11,-19,0
+2018-19,2019/03/24,Second round,Iowa,Tennessee,10,2,8,-9.3,7.5,-21,-13,-5,-6,0
+2018-19,2019/03/24,Second round,Buffalo,Texas Tech,6,3,3,-6.6,4.0,-8,-26,-26,-20,0
+2018-19,2019/03/24,Second round,Oklahoma,Virginia,9,1,8,-17.3,10.5,-9,-13,-15,-12,0
+2018-19,2019/03/24,Second round,Liberty,Virginia Tech,12,4,8,-13.7,9.5,3,-8,-5,-9,0
+2018-19,2019/03/28,Sweet 16,Florida St.,Gonzaga,4,1,3,-9.1,7.5,-11,-10,-7,-14,0
+2018-19,2019/03/28,Sweet 16,Purdue,Tennessee,3,2,1,-0.3,1.5,12,12,0,5,1
+2018-19,2019/03/28,Sweet 16,Texas Tech,Michigan,3,2,1,-2.6,1.5,8,19,24,19,1
+2018-19,2019/03/28,Sweet 16,Oregon,Virginia,12,1,11,-17.1,8.5,-8,-1,0,-4,0
+2018-19,2019/03/29,Sweet 16,Auburn,North Carolina,5,1,4,-5.1,5.5,2,14,13,17,1
+2018-19,2019/03/29,Sweet 16,Virginia Tech,Duke,4,1,3,-7.1,7.0,4,-6,-2,-2,0
+2018-19,2019/03/29,Sweet 16,Houston,Kentucky,3,2,1,-3.6,2.0,-11,-4,-2,-4,0
+2018-19,2019/03/29,Sweet 16,LSU,Michigan St.,3,2,1,-9.8,6.0,-12,-15,-14,-17,0
+2018-19,2019/03/30,Elite Eight,Texas Tech,Gonzaga,3,1,2,-4.1,5.0,-2,3,0,6,1
+2018-19,2019/03/30,Elite Eight,Purdue,Virginia,3,1,2,-6.9,4.5,1,-5,-3,-5,0
+2018-19,2019/03/31,Elite Eight,Auburn,Kentucky,5,2,3,-2.9,4.5,-7,-7,-7,6,1
+2018-19,2019/03/31,Elite Eight,Michigan St.,Duke,2,1,1,0.0,2.5,4,1,0,1,1
+2018-19,2019/04/06,Final Four,Texas Tech,Michigan St.,3,2,1,-2.5,2.0,2,10,5,10,1
+2018-19,2019/04/06,Final Four,Auburn,Virginia,5,1,4,-9.2,6.0,3,-4,-10,-1,0
+2018-19,2019/04/08,Championship,Texas Tech,Virginia,3,1,2,-3.9,2.0,-3,-10,-6,-8,0
+2020-21,2021/03/19,First round,Colgate,Arkansas,14,3,11,3.0,8.5,-3,-2,-10,-17,0
+2020-21,2021/03/19,First round,Hartford,Baylor,16,1,15,-29.7,25.5,-16,-21,-26,-24,0
+2020-21,2021/03/19,First round,Virginia Tech,Florida,10,7,3,-3.0,-1.5,6,4,0,-5,0
+2020-21,2021/03/19,First round,Cleveland St.,Houston,15,2,13,-28.3,20.5,-8,-28,-34,-31,0
+2020-21,2021/03/19,First round,Drexel,Illinois,16,1,15,-27.6,22.5,-18,-28,-31,-29,0
+2020-21,2021/03/19,First round,Georgia Tech,Loyola Chicago,9,8,1,-3.0,5.5,-5,-5,-8,-11,0
+2020-21,2021/03/19,First round,North Texas,Purdue,13,4,9,-10.9,7.5,8,3,7,9,1
+2020-21,2021/03/19,First round,Liberty,Oklahoma St.,13,4,9,-9.7,7.0,3,-6,-6,-9,0
+2020-21,2021/03/19,First round,Oral Roberts,Ohio St.,15,2,13,-23.4,15.0,3,4,0,3,1
+2020-21,2021/03/19,First round,Oregon St.,Tennessee,12,5,7,-10.1,8.5,14,17,15,14,1
+2020-21,2021/03/19,First round,Rutgers,Clemson,10,7,3,1.5,-2.5,-3,8,4,4,1
+2020-21,2021/03/19,First round,Syracuse,San Diego St.,11,6,5,-4.6,3.0,14,20,23,16,1
+2020-21,2021/03/19,First round,Utah St.,Texas Tech,11,6,5,-5.4,4.0,3,-14,-14,-12,0
+2020-21,2021/03/19,First round,Winthrop,Villanova,12,5,7,-14.6,6.0,-1,-6,-8,-10,0
+2020-21,2021/03/19,First round,Morehead St.,West Virginia,14,3,11,-16.9,13.0,-7,-11,-12,-17,0
+2020-21,2021/03/19,First round,Wisconsin,North Carolina,9,8,1,2.6,2.0,16,16,12,23,1
+2020-21,2021/03/20,First round,Abilene Christian,Texas,14,3,11,-9.5,8.5,-5,5,1,1,1
+2020-21,2021/03/20,First round,Iona,Alabama,15,2,13,-23.0,17.0,-1,-1,-11,-13,0
+2020-21,2021/03/20,First round,Georgetown,Colorado,12,5,7,-7.5,6.0,-24,-20,-29,-23,0
+2020-21,2021/03/20,First round,UC Santa Barbara,Creighton,12,5,7,-8.4,7.5,-4,-1,6,-1,0
+2020-21,2021/03/20,First round,UNC Greensboro,Florida St.,13,4,9,-14.7,10.5,-3,-7,-3,-10,0
+2020-21,2021/03/20,First round,Norfolk St.,Gonzaga,16,1,15,-40.0,33.0,-20,-37,-48,-43,0
+2020-21,2021/03/20,First round,Grand Canyon,Iowa,15,2,13,-19.4,13.5,-11,-15,-17,-12,0
+2020-21,2021/03/20,First round,Eastern Wash.,Kansas,14,3,11,-12.8,10.5,8,2,-9,-9,0
+2020-21,2021/03/20,First round,St. Bonaventure,LSU,9,8,1,-0.3,2.0,-9,-14,-15,-15,0
+2020-21,2021/03/20,First round,Maryland,UConn,10,7,3,-2.6,3.5,11,13,7,9,1
+2020-21,2021/03/20,First round,Texas Southern,Michigan,16,1,15,-34.3,25.0,-18,-17,-19,-16,0
+2020-21,2021/03/20,First round,Ohio,Virginia,13,4,9,-13.2,6.5,-1,-2,5,4,1
+2020-21,2021/03/20,First round,Missouri,Oklahoma,9,8,1,-1.3,-1.5,1,-2,-1,-4,0
+2020-21,2021/03/20,First round,Drake,Southern California,11,6,5,-9.1,7.0,-3,-9,-13,-16,0
+2020-21,2021/03/20,First round,UCLA,BYU,11,6,5,-2.6,3.5,11,11,11,11,1
+2020-21,2021/03/21,Second round,Texas Tech,Arkansas,6,3,3,-0.6,-2.0,-2,-10,-4,-2,0
+2020-21,2021/03/21,Second round,Wisconsin,Baylor,9,1,8,-5.9,6.5,-13,-7,-9,-13,0
+2020-21,2021/03/21,Second round,Rutgers,Houston,10,2,8,-9.0,7.5,3,10,7,-3,0
+2020-21,2021/03/21,Second round,Loyola Chicago,Illinois,8,1,7,-7.8,7.0,9,11,12,13,1
+2020-21,2021/03/21,Second round,Oral Roberts,Florida,15,7,8,-14.6,9.0,-5,-9,-3,3,1
+2020-21,2021/03/21,Second round,Oregon St.,Oklahoma St.,12,4,8,-6.0,6.0,14,4,11,10,1
+2020-21,2021/03/21,Second round,Syracuse,West Virginia,11,3,8,-4.0,4.0,6,2,1,3,1
+2020-21,2021/03/21,Second round,North Texas,Villanova,13,5,8,-9.5,6.0,-20,-20,-23,-23,0
+2020-21,2021/03/22,Second round,Maryland,Alabama,10,2,8,-5.2,6.0,-8,-21,-23,-19,0
+2020-21,2021/03/22,Second round,Ohio,Creighton,13,5,8,-10.9,5.5,-15,-14,-16,-14,0
+2020-21,2021/03/22,Second round,Colorado,Florida St.,5,4,1,2.3,1.0,-4,-5,-14,-18,0
+2020-21,2021/03/22,Second round,Oklahoma,Gonzaga,8,1,7,-18.7,15.5,-12,-15,-10,-16,0
+2020-21,2021/03/22,Second round,LSU,Michigan,8,1,7,-8.6,4.0,-1,3,-6,-8,0
+2020-21,2021/03/22,Second round,Oregon,Iowa,7,2,5,-8.9,5.0,10,16,18,15,1
+2020-21,2021/03/22,Second round,Southern California,Kansas,6,3,3,3.6,-1.5,19,23,32,34,1
+2020-21,2021/03/22,Second round,Abilene Christian,UCLA,14,11,3,-7.1,5.5,-10,-17,-24,-20,0
+2020-21,2021/03/27,Sweet 16,Oral Roberts,Arkansas,15,3,12,-17.8,11.5,7,4,-2,-2,0
+2020-21,2021/03/27,Sweet 16,Villanova,Baylor,5,1,4,-6.1,7.5,7,0,-5,-11,0
+2020-21,2021/03/27,Sweet 16,Syracuse,Houston,11,2,9,-10.9,6.5,-10,-9,-11,-16,0
+2020-21,2021/03/27,Sweet 16,Oregon St.,Loyola Chicago,12,8,4,-8.2,7.0,8,7,6,7,1
+2020-21,2021/03/28,Sweet 16,Creighton,Gonzaga,5,1,4,-15.5,12.5,-10,-20,-26,-18,0
+2020-21,2021/03/28,Sweet 16,Florida St.,Michigan,4,1,3,-6.3,1.5,-11,-13,-19,-18,0
+2020-21,2021/03/28,Sweet 16,Oregon,Southern California,7,6,1,-4.8,2.0,-15,-18,-11,-14,0
+2020-21,2021/03/28,Sweet 16,UCLA,Alabama,11,2,9,-4.4,7.0,11,7,-2,10,1
+2020-21,2021/03/29,Elite Eight,Arkansas,Baylor,3,1,2,-8.3,8.0,-8,-6,-6,-9,0
+2020-21,2021/03/29,Elite Eight,Oregon St.,Houston,12,2,10,-12.6,8.0,-17,-13,-5,-6,0
+2020-21,2021/03/30,Elite Eight,Southern California,Gonzaga,6,1,5,-9.7,8.5,-19,-22,-17,-19,0
+2020-21,2021/03/30,Elite Eight,UCLA,Michigan,11,1,10,-7.9,6.5,4,4,0,2,1
+2020-21,2021/04/03,Final Four,Houston,Baylor,2,1,1,-1.6,5.0,-25,-20,-22,-19,0
+2020-21,2021/04/03,Final Four,UCLA,Gonzaga,11,1,10,-15.4,14.5,-1,-4,1,-3,0
+2020-21,2021/04/05,Championship,Baylor,Gonzaga,1,1,0,-5.6,4.5,10,17,17,16,1
+2021-22,2022/03/17,First round,Vermont,Arkansas,13,4,9,-7.3,5.0,-7,-2,-5,-4,0
+2021-22,2022/03/17,First round,Norfolk St.,Baylor,16,1,15,-27.5,20.5,-16,-23,-25,-36,0
+2021-22,2022/03/17,First round,Creighton,San Diego St.,9,8,1,-3.7,2.5,-7,-8,-6,3,1
+2021-22,2022/03/17,First round,Georgia St.,Gonzaga,16,1,15,-31.5,22.5,-2,-6,-22,-21,0
+2021-22,2022/03/17,First round,Texas Southern,Kansas,16,1,15,-27.7,21.5,-28,-29,-28,-27,0
+2021-22,2022/03/17,First round,Memphis,Boise St.,9,8,1,1.0,-3.5,19,9,6,11,1
+2021-22,2022/03/17,First round,Michigan,Colorado St.,11,6,5,1.0,-1.5,-7,1,4,12,1
+2021-22,2022/03/17,First round,San Francisco,Murray St.,10,7,3,2.3,2.0,1,-4,-3,-5,0
+2021-22,2022/03/17,First round,New Mexico St.,UConn,12,5,7,-11.5,6.5,10,7,2,7,1
+2021-22,2022/03/17,First round,Marquette,North Carolina,9,8,1,-1.1,4.0,-28,-28,-30,-32,0
+2021-22,2022/03/17,First round,South Dakota St.,Providence,13,4,9,-4.3,2.5,-8,-8,-7,-9,0
+2021-22,2022/03/17,First round,Richmond,Iowa,12,5,7,-13.3,9.5,1,1,5,4,1
+2021-22,2022/03/17,First round,Indiana,Saint Mary's (CA),12,5,7,-2.8,2.5,-12,-32,-29,-29,0
+2021-22,2022/03/17,First round,Saint Peter's,Kentucky,15,2,13,-23.5,18.5,0,-2,-2,6,1
+2021-22,2022/03/17,First round,Longwood,Tennessee,14,3,11,-22.3,18.0,-25,-34,-36,-32,0
+2021-22,2022/03/17,First round,Akron,UCLA,13,4,9,-21.1,13.5,1,-1,4,-4,0
+2021-22,2022/03/18,First round,Wright St.,Arizona,16,1,15,-26.7,21.5,-11,-18,-16,-17,0
+2021-22,2022/03/18,First round,Jacksonville St.,Auburn,15,2,13,-22.5,14.5,-12,-21,-15,-19,0
+2021-22,2022/03/18,First round,Cal St. Fullerton,Duke,15,2,13,-23.4,18.5,-10,-20,-15,-17,0
+2021-22,2022/03/18,First round,UAB,Houston,12,5,7,-11.8,8.5,-9,-14,-14,-14,0
+2021-22,2022/03/18,First round,Chattanooga,Illinois,13,4,9,-9.6,8.0,4,1,2,-1,0
+2021-22,2022/03/18,First round,Iowa St.,LSU,11,6,5,-4.8,3.5,5,6,7,5,1
+2021-22,2022/03/18,First round,Miami (FL),Southern California,10,7,3,-2.5,2.0,11,2,1,2,1
+2021-22,2022/03/18,First round,Davidson,Michigan St.,10,7,3,-0.7,-1.5,-1,1,-3,-1,0
+2021-22,2022/03/18,First round,Notre Dame,Alabama,11,6,5,-4.3,4.5,5,10,9,14,1
+2021-22,2022/03/18,First round,Loyola Chicago,Ohio St.,10,7,3,1.0,-0.0,-5,-8,-12,-13,0
+2021-22,2022/03/18,First round,Yale,Purdue,14,3,11,-20.3,16.5,-13,-24,-24,-22,0
+2021-22,2022/03/18,First round,TCU,Seton Hall,9,8,1,-0.4,1.5,9,23,21,27,1
+2021-22,2022/03/18,First round,Virginia Tech,Texas,11,6,5,-3.3,1.5,-2,-12,-17,-8,0
+2021-22,2022/03/18,First round,Montana St.,Texas Tech,14,3,11,-22.2,14.5,-27,-32,-31,-35,0
+2021-22,2022/03/18,First round,Delaware,Villanova,15,2,13,-21.0,15.0,-10,-20,-16,-20,0
+2021-22,2022/03/18,First round,Colgate,Wisconsin,14,3,11,-13.1,7.5,0,2,-4,-7,0
+2021-22,2022/03/19,Second round,New Mexico St.,Arkansas,12,4,8,-9.4,6.5,-9,0,-8,-5,0
+2021-22,2022/03/19,Second round,Memphis,Gonzaga,9,1,8,-15.3,9.5,10,-1,-2,-4,0
+2021-22,2022/03/19,Second round,Creighton,Kansas,9,1,8,-12.4,13.0,-1,-6,-6,-7,0
+2021-22,2022/03/19,Second round,Michigan,Tennessee,11,3,8,-8.4,7.0,-5,-3,-2,8,1
+2021-22,2022/03/19,Second round,North Carolina,Baylor,8,1,7,-10.4,5.5,13,22,9,7,1
+2021-22,2022/03/19,Second round,Richmond,Providence,12,4,8,-4.3,3.5,-15,-28,-29,-28,0
+2021-22,2022/03/19,Second round,Saint Peter's,Murray St.,15,7,8,-11.3,8.0,5,8,7,10,1
+2021-22,2022/03/19,Second round,Saint Mary's (CA),UCLA,5,4,1,-3.9,3.0,-7,-8,-11,-16,0
+2021-22,2022/03/20,Second round,TCU,Arizona,9,1,8,-8.9,10.0,-3,-3,-2,-5,0
+2021-22,2022/03/20,Second round,Michigan St.,Duke,7,2,5,-8.7,6.5,-4,-4,5,-9,0
+2021-22,2022/03/20,Second round,Houston,Illinois,5,4,1,6.1,-3.0,4,4,9,15,1
+2021-22,2022/03/20,Second round,Iowa St.,Wisconsin,11,3,8,-0.9,4.0,1,8,9,5,1
+2021-22,2022/03/20,Second round,Miami (FL),Auburn,10,2,8,-11.5,6.5,1,8,8,18,1
+2021-22,2022/03/20,Second round,Texas,Purdue,6,3,3,-1.4,3.5,-6,-2,-9,-10,0
+2021-22,2022/03/20,Second round,Notre Dame,Texas Tech,11,3,8,-11.0,8.0,-1,-2,1,-6,0
+2021-22,2022/03/20,Second round,Ohio St.,Villanova,7,2,5,-6.8,5.0,-11,-10,-2,-10,0
+2021-22,2022/03/24,Sweet 16,Arkansas,Gonzaga,4,1,3,-12.9,9.5,3,5,5,6,1
+2021-22,2022/03/24,Sweet 16,Texas Tech,Duke,3,2,1,1.1,-0.0,4,0,-3,-5,0
+2021-22,2022/03/24,Sweet 16,Houston,Arizona,5,1,4,0.1,1.5,6,9,10,12,1
+2021-22,2022/03/24,Sweet 16,Michigan,Villanova,11,2,9,-7.4,4.5,-3,-6,-9,-8,0
+2021-22,2022/03/25,Sweet 16,Providence,Kansas,4,1,3,-9.4,6.5,-9,-2,-2,-5,0
+2021-22,2022/03/25,Sweet 16,Iowa St.,Miami (FL),11,10,1,1.6,3.5,-3,-5,-9,-14,0
+2021-22,2022/03/25,Sweet 16,North Carolina,UCLA,8,4,4,-6.3,2.5,-3,-3,-2,7,1
+2021-22,2022/03/25,Sweet 16,Saint Peter's,Purdue,15,3,12,-17.7,13.0,-4,-1,-4,3,1
+2021-22,2022/03/26,Elite Eight,Arkansas,Duke,4,2,2,-5.2,4.5,-12,-13,-15,-9,0
+2021-22,2022/03/26,Elite Eight,Houston,Villanova,5,2,3,2.8,-3.0,-7,-11,-4,-6,0
+2021-22,2022/03/27,Elite Eight,Miami (FL),Kansas,10,1,9,-10.5,5.0,6,-12,-19,-26,0
+2021-22,2022/03/27,Elite Eight,Saint Peter's,North Carolina,15,8,7,-12.2,8.5,-19,-20,-23,-20,0
+2021-22,2022/04/02,Final Four,Villanova,Kansas,2,1,1,-1.3,4.0,-11,-9,-8,-16,0
+2021-22,2022/04/02,Final Four,North Carolina,Duke,8,2,6,-6.0,4.5,-3,3,0,4,1
+2021-22,2022/04/04,Championship,North Carolina,Kansas,8,1,7,-7.7,4.0,15,-6,-2,-3,0
+2022-23,2023/03/16,First round,A&M-Corpus Christi,Alabama,16,1,15,-27.4,24.5,-20,-23,-16,-21,0
+2022-23,2023/03/16,First round,Illinois,Arkansas,9,8,1,-1.4,2.5,-10,-17,-12,-10,0
+2022-23,2023/03/16,First round,Auburn,Iowa,9,8,1,1.0,-1.5,5,15,4,8,1
+2022-23,2023/03/16,First round,Oral Roberts,Duke,12,5,7,-7.8,5.5,-17,-19,-20,-23,0
+2022-23,2023/03/16,First round,Furman,Virginia,13,4,9,-9.2,5.5,-5,-7,2,1,1
+2022-23,2023/03/16,First round,Northern Ky.,Houston,16,1,15,-27.3,19.5,-3,-7,-8,-11,0
+2022-23,2023/03/16,First round,Howard,Kansas,16,1,15,-26.0,21.5,-13,-19,-24,-28,0
+2022-23,2023/03/16,First round,West Virginia,Maryland,9,8,1,0.9,-2.5,-2,1,3,-2,0
+2022-23,2023/03/16,First round,Utah St.,Missouri,10,7,3,3.9,-1.5,-4,2,-6,-11,0
+2022-23,2023/03/16,First round,Boise St.,Northwestern,10,7,3,1.2,2.0,-6,-4,-6,-8,0
+2022-23,2023/03/16,First round,Penn St.,Texas A&M,10,7,3,-1.1,2.5,16,22,21,17,1
+2022-23,2023/03/16,First round,Princeton,Arizona,15,2,13,-16.3,15.0,-1,-8,-3,4,1
+2022-23,2023/03/16,First round,Col. of Charleston,San Diego St.,12,5,7,-7.3,5.5,-3,-5,-6,-6,0
+2022-23,2023/03/16,First round,Louisiana,Tennessee,13,4,9,-16.7,11.5,-11,-15,-7,-3,0
+2022-23,2023/03/16,First round,Colgate,Texas,15,2,13,-18.7,12.5,-9,-15,-11,-20,0
+2022-23,2023/03/16,First round,UNC Asheville,UCLA,15,2,13,-25.2,17.5,-21,-23,-33,-33,0
+2022-23,2023/03/17,First round,UC Santa Barbara,Baylor,14,3,11,-14.2,10.5,1,-8,-14,-18,0
+2022-23,2023/03/17,First round,NC State,Creighton,11,6,5,-7.2,5.5,-2,-3,-5,-9,0
+2022-23,2023/03/17,First round,FDU,Purdue,16,1,15,-34.4,23.0,1,-1,1,5,1
+2022-23,2023/03/17,First round,Fla. Atlantic,Memphis,9,8,1,-2.2,1.5,-4,-7,-1,1,1
+2022-23,2023/03/17,First round,Grand Canyon,Gonzaga,14,3,11,-16.7,15.5,-4,-20,-18,-12,0
+2022-23,2023/03/17,First round,Kent St.,Indiana,13,4,9,-6.7,4.0,-8,-14,-10,-11,0
+2022-23,2023/03/17,First round,Montana St.,Kansas St.,14,3,11,-12.8,7.5,-6,-12,-8,-12,0
+2022-23,2023/03/17,First round,Providence,Kentucky,11,6,5,-2.4,4.5,-7,-8,-6,-8,0
+2022-23,2023/03/17,First round,Vermont,Marquette,15,2,13,-17.7,10.0,-9,-15,-22,-17,0
+2022-23,2023/03/17,First round,Drake,Miami (FL),12,5,7,-3.6,2.5,5,0,8,-7,0
+2022-23,2023/03/17,First round,Southern California,Michigan St.,10,7,3,-1.9,2.5,0,-5,-12,-10,0
+2022-23,2023/03/17,First round,Pittsburgh,Iowa St.,11,6,5,-6.3,4.5,7,12,16,18,1
+2022-23,2023/03/17,First round,VCU,Saint Mary's (CA),12,5,7,-8.4,4.0,-1,-6,-11,-12,0
+2022-23,2023/03/17,First round,Arizona St.,TCU,11,6,5,-4.5,4.5,7,3,5,-2,0
+2022-23,2023/03/17,First round,Iona,UConn,13,4,9,-14.1,9.5,2,-11,-17,-24,0
+2022-23,2023/03/17,First round,Kennesaw St.,Xavier,14,3,11,-16.5,12.0,7,11,0,-5,0
+2022-23,2023/03/18,Second round,Maryland,Alabama,8,1,7,-8.3,8.5,-5,-15,-13,-22,0
+2022-23,2023/03/18,Second round,Arkansas,Kansas,8,1,7,-3.4,3.5,-8,-2,-4,1,1
+2022-23,2023/03/18,Second round,Auburn,Houston,9,1,8,-9.8,5.5,10,2,-8,-17,0
+2022-23,2023/03/18,Second round,Princeton,Missouri,15,7,8,-8.0,6.0,7,7,17,15,1
+2022-23,2023/03/18,Second round,Furman,San Diego St.,13,5,8,-10.6,4.5,-14,-22,-24,-23,0
+2022-23,2023/03/18,Second round,Duke,Tennessee,5,4,1,-4.4,-3.0,-6,-9,-7,-13,0
+2022-23,2023/03/18,Second round,Penn St.,Texas,10,2,8,-7.2,5.5,-8,-7,-1,-5,0
+2022-23,2023/03/18,Second round,Northwestern,UCLA,7,2,5,-10.9,7.5,-10,-2,-4,-5,0
+2022-23,2023/03/19,Second round,Creighton,Baylor,6,3,3,1.6,-1.5,10,14,13,9,1
+2022-23,2023/03/19,Second round,FDU,Fla. Atlantic,16,9,7,-24.4,16.5,-7,-1,-5,-8,0
+2022-23,2023/03/19,Second round,TCU,Gonzaga,6,3,3,-6.1,4.5,5,-3,-5,-3,0
+2022-23,2023/03/19,Second round,Kentucky,Kansas St.,6,3,3,0.4,-3.0,-3,-4,2,-6,0
+2022-23,2023/03/19,Second round,Miami (FL),Indiana,5,4,1,-2.0,1.5,5,4,11,16,1
+2022-23,2023/03/19,Second round,Michigan St.,Marquette,7,2,5,-4.9,3.0,5,0,1,9,1
+2022-23,2023/03/19,Second round,Saint Mary's (CA),UConn,5,4,1,-5.1,3.5,-1,-8,-15,-15,0
+2022-23,2023/03/19,Second round,Pittsburgh,Xavier,11,3,8,-6.5,5.0,-14,-16,-18,-11,0
+2022-23,2023/03/23,Sweet 16,Fla. Atlantic,Tennessee,9,4,5,-7.4,4.5,-5,-1,8,7,1
+2022-23,2023/03/23,Sweet 16,Gonzaga,UCLA,3,2,1,-3.0,-1.0,-13,-1,4,3,1
+2022-23,2023/03/23,Sweet 16,Michigan St.,Kansas St.,7,3,4,0.0,1.0,-5,1,-5,-5,0
+2022-23,2023/03/23,Sweet 16,Arkansas,UConn,8,4,4,-7.7,3.5,-17,-25,-23,-23,0
+2022-23,2023/03/24,Sweet 16,Princeton,Creighton,15,6,9,-14.0,10.0,-4,-13,-10,-11,0
+2022-23,2023/03/24,Sweet 16,Miami (FL),Houston,5,1,4,-11.1,8.0,6,17,14,14,1
+2022-23,2023/03/24,Sweet 16,San Diego St.,Alabama,5,1,4,-8.1,6.5,5,-4,5,7,1
+2022-23,2023/03/24,Sweet 16,Xavier,Texas,3,2,1,-4.1,4.0,-17,-24,-19,-12,0
+2022-23,2023/03/25,Elite Eight,Fla. Atlantic,Kansas St.,9,3,6,-0.7,1.0,4,-5,2,3,1
+2022-23,2023/03/25,Elite Eight,UConn,Gonzaga,4,3,1,3.8,-2.5,7,23,32,28,1
+2022-23,2023/03/26,Elite Eight,Miami (FL),Texas,5,2,3,-6.8,3.5,-8,-11,-2,7,1
+2022-23,2023/03/26,Elite Eight,Creighton,San Diego St.,6,5,1,2.1,-2.5,5,4,0,-1,0
+2022-23,2023/04/01,Final Four,Fla. Atlantic,San Diego St.,9,5,4,-2.2,2.5,7,6,3,-1,0
+2022-23,2023/04/01,Final Four,Miami (FL),UConn,5,4,1,-10.4,5.5,-13,-13,-12,-13,0
+2022-23,2023/04/03,Championship,San Diego St.,UConn,5,4,1,-9.0,7.0,-12,-12,-8,-17,0
+2023-24,2024/03/21,First round,Long Beach St.,Arizona,15,2,13,-27.4,20.5,-6,-16,-23,-20,0
+2023-24,2024/03/21,First round,Akron,Creighton,14,3,11,-17.4,11.5,-5,-18,-17,-17,0
+2023-24,2024/03/21,First round,Nevada,Dayton,10,7,3,-0.9,-1.5,9,15,9,-3,0
+2023-24,2024/03/21,First round,Duquesne,BYU,11,6,5,-11.6,9.0,8,8,1,4,1
+2023-24,2024/03/21,First round,McNeese,Gonzaga,12,5,7,-8.7,6.5,-23,-29,-32,-21,0
+2023-24,2024/03/21,First round,Morehead St.,Illinois,14,3,11,-19.2,11.0,-1,-13,-22,-16,0
+2023-24,2024/03/21,First round,South Dakota St.,Iowa St.,15,2,13,-23.9,16.0,-7,-18,-22,-17,0
+2023-24,2024/03/21,First round,Samford,Kansas,13,4,9,-10.3,7.5,-10,-13,-1,-4,0
+2023-24,2024/03/21,First round,Michigan St.,Mississippi St.,9,8,1,2.5,-1.5,7,11,14,18,1
+2023-24,2024/03/21,First round,NC State,Texas Tech,11,6,5,-4.9,5.0,4,10,10,13,1
+2023-24,2024/03/21,First round,Wagner,North Carolina,16,1,15,-34.2,25.5,-12,-15,-19,-28,0
+2023-24,2024/03/21,First round,Oakland,Kentucky,14,3,11,-17.4,13.0,3,3,2,4,1
+2023-24,2024/03/21,First round,Oregon,South Carolina,11,6,5,-1.2,-2.5,5,11,11,14,1
+2023-24,2024/03/21,First round,Saint Peter's,Tennessee,15,2,13,-29.1,22.0,-26,-31,-28,-34,0
+2023-24,2024/03/21,First round,Colorado St.,Texas,10,7,3,-0.5,3.0,-16,-10,-9,-12,0
+2023-24,2024/03/21,First round,Drake,Washington St.,10,7,3,-2.1,-1.0,-4,6,1,-5,0
+2023-24,2024/03/22,First round,Col. of Charleston,Alabama,13,4,9,-15.5,8.0,-17,-23,-26,-13,0
+2023-24,2024/03/22,First round,Colgate,Baylor,14,3,11,-19.6,14.5,-20,-16,-20,-25,0
+2023-24,2024/03/22,First round,New Mexico,Clemson,11,6,5,0.7,-2.0,-14,-19,-19,-21,0
+2023-24,2024/03/22,First round,Colorado,Florida,10,7,3,0.5,-1.5,0,8,11,2,1
+2023-24,2024/03/22,First round,Vermont,Duke,13,4,9,-17.6,12.5,-5,-9,-9,-17,0
+2023-24,2024/03/22,First round,Grand Canyon,Saint Mary's (CA),12,5,7,-5.2,6.0,1,12,7,9,1
+2023-24,2024/03/22,First round,Longwood,Houston,16,1,15,-30.0,24.0,-27,-39,-37,-40,0
+2023-24,2024/03/22,First round,James Madison,Wisconsin,12,5,7,-8.1,4.5,13,9,12,11,1
+2023-24,2024/03/22,First round,Western Ky.,Marquette,15,2,13,-19.9,14.5,7,-3,-10,-18,0
+2023-24,2024/03/22,First round,Northwestern,Fla. Atlantic,9,8,1,-0.5,4.5,-1,7,4,12,1
+2023-24,2024/03/22,First round,Grambling,Purdue,16,1,15,-37.4,27.0,-9,-20,-23,-28,0
+2023-24,2024/03/22,First round,UAB,San Diego St.,12,5,7,-12.7,6.5,-6,0,1,-4,0
+2023-24,2024/03/22,First round,Texas A&M,Nebraska,9,8,1,-2.4,-1.0,14,17,22,15,1
+2023-24,2024/03/22,First round,Stetson,UConn,16,1,15,-34.9,27.5,-33,-32,-39,-39,0
+2023-24,2024/03/22,First round,TCU,Utah St.,9,8,1,2.6,-4.0,-6,-13,-16,-16,0
+2023-24,2024/03/22,First round,Yale,Auburn,13,4,9,-18.8,13.5,-7,-9,-6,2,1
+2023-24,2024/03/23,Second round,Dayton,Arizona,7,2,5,-9.7,8.5,-7,-5,-9,-10,0
+2023-24,2024/03/23,Second round,Oregon,Creighton,11,3,8,-8.2,4.0,-2,-1,3,-13,0
+2023-24,2024/03/23,Second round,Gonzaga,Kansas,5,4,1,2.8,-3.5,-1,18,22,21,1
+2023-24,2024/03/23,Second round,Duquesne,Illinois,11,3,8,-14.2,10.0,-24,-28,-25,-26,0
+2023-24,2024/03/23,Second round,Washington St.,Iowa St.,7,2,5,-9.4,6.5,0,-5,-8,-11,0
+2023-24,2024/03/23,Second round,Oakland,NC State,14,11,3,-10.6,6.5,-3,-6,-2,-6,0
+2023-24,2024/03/23,Second round,Michigan St.,North Carolina,9,1,8,-4.0,4.0,-9,-4,-12,-16,0
+2023-24,2024/03/23,Second round,Texas,Tennessee,7,2,5,-7.4,6.5,-9,-6,-8,-4,0
+2023-24,2024/03/24,Second round,Grand Canyon,Alabama,12,4,8,-8.3,5.5,-8,-7,-2,-11,0
+2023-24,2024/03/24,Second round,Clemson,Baylor,6,3,3,-3.7,4.5,10,9,10,8,1
+2023-24,2024/03/24,Second round,James Madison,Duke,12,4,8,-11.3,6.0,-22,-25,-30,-38,0
+2023-24,2024/03/24,Second round,Texas A&M,Houston,9,1,8,-15.1,8.5,-5,-6,-8,-5,0
+2023-24,2024/03/24,Second round,Colorado,Marquette,10,2,8,-3.9,4.5,-11,-2,-3,-4,0
+2023-24,2024/03/24,Second round,Utah St.,Purdue,8,1,7,-14.1,11.5,-16,-31,-34,-39,0
+2023-24,2024/03/24,Second round,Yale,San Diego St.,13,5,8,-9.1,5.5,-24,-25,-31,-28,0
+2023-24,2024/03/24,Second round,Northwestern,UConn,9,1,8,-15.1,13.5,-22,-24,-16,-17,0
+2023-24,2024/03/28,Sweet 16,Alabama,North Carolina,4,1,3,-2.8,4.5,-8,0,0,2,1
+2023-24,2024/03/28,Sweet 16,Clemson,Arizona,6,2,4,-8.5,7.0,8,3,7,5,1
+2023-24,2024/03/28,Sweet 16,Illinois,Iowa St.,3,2,1,-1.4,1.5,10,4,5,3,1
+2023-24,2024/03/28,Sweet 16,San Diego St.,UConn,5,1,4,-12.7,12.0,-9,-15,-23,-30,0
+2023-24,2024/03/29,Sweet 16,Duke,Houston,4,1,3,-4.9,4.5,1,5,4,3,1
+2023-24,2024/03/29,Sweet 16,NC State,Marquette,11,2,9,-8.7,7.5,13,13,8,9,1
+2023-24,2024/03/29,Sweet 16,Gonzaga,Purdue,5,1,4,-7.5,4.5,-4,-8,-13,-12,0
+2023-24,2024/03/29,Sweet 16,Creighton,Tennessee,3,2,1,-2.6,3.5,1,-10,-6,-7,0
+2023-24,2024/03/30,Elite Eight,Clemson,Alabama,6,4,2,-3.6,3.0,-3,-3,-9,-7,0
+2023-24,2024/03/30,Elite Eight,Illinois,UConn,3,1,2,-7.7,8.0,-5,-27,-27,-25,0
+2023-24,2024/03/31,Elite Eight,NC State,Duke,11,4,7,-11.4,7.0,-6,4,12,12,1
+2023-24,2024/03/31,Elite Eight,Tennessee,Purdue,2,1,1,-4.2,3.0,-2,-6,0,-6,0
+2023-24,2024/04/06,Final Four,NC State,Purdue,11,1,10,-15.0,9.5,-6,-9,-12,-13,0
+2023-24,2024/04/06,Final Four,Alabama,UConn,4,1,3,-10.5,10.0,-4,-8,-10,-14,0
+2023-24,2024/04/08,Championship,UConn,Purdue,1,1,0,3.2,-7.0,6,13,18,15,1
+2024-25,2025/03/20,First round,Arkansas,Kansas,10,7,3,-5.3,5.0,3,7,-1,7,1
+2024-25,2025/03/20,First round,Alabama St.,Auburn,16,1,15,-44.6,32.0,-10,-17,-21,-20,0
+2024-25,2025/03/20,First round,VCU,BYU,11,6,5,-3.4,2.5,-11,-13,-13,-9,0
+2024-25,2025/03/20,First round,Creighton,Louisville,9,8,1,-4.0,3.5,15,15,12,14,1
+2024-25,2025/03/20,First round,Drake,Missouri,11,6,5,-10.8,6.0,7,13,4,10,1
+2024-25,2025/03/20,First round,Georgia,Gonzaga,9,8,1,-6.5,7.5,-21,-23,-23,-21,0
+2024-25,2025/03/20,First round,SIUE,Houston,16,1,15,-38.9,28.5,-28,-33,-35,-38,0
+2024-25,2025/03/20,First round,McNeese,Clemson,12,5,7,-11.2,7.5,18,19,15,2,1
+2024-25,2025/03/20,First round,UC San Diego,Michigan,12,5,7,-6.0,2.0,-14,-10,-5,-3,0
+2024-25,2025/03/20,First round,High Point,Purdue,13,4,9,-15.4,8.0,-10,-10,-7,-12,0
+2024-25,2025/03/20,First round,Omaha,St. John's (NY),15,2,13,-26.1,18.5,-5,-22,-24,-30,0
+2024-25,2025/03/20,First round,Wofford,Tennessee,15,2,13,-28.2,18.5,-9,-13,-13,-15,0
+2024-25,2025/03/20,First round,Yale,Texas A&M,13,4,9,-14.0,7.0,-11,-9,-13,-9,0
+2024-25,2025/03/20,First round,UNCW,Texas Tech,14,3,11,-23.3,15.5,-4,-2,-6,-10,0
+2024-25,2025/03/20,First round,Utah St.,UCLA,10,7,3,-6.9,5.5,-12,-23,-16,-25,0
+2024-25,2025/03/20,First round,Montana,Wisconsin,14,3,11,-26.0,16.5,-8,-13,-13,-19,0
+2024-25,2025/03/21,First round,Robert Morris,Alabama,15,2,13,-27.9,21.5,-4,-4,-5,-9,0
+2024-25,2025/03/21,First round,Akron,Arizona,13,4,9,-19.6,14.0,-10,-18,-29,-28,0
+2024-25,2025/03/21,First round,Baylor,Mississippi St.,9,8,1,0.1,1.0,5,9,8,3,1
+2024-25,2025/03/21,First round,Colorado St.,Memphis,12,5,7,-0.1,-1.0,-5,4,8,8,1
+2024-25,2025/03/21,First round,Mount St. Mary's,Duke,16,1,15,-43.0,32.5,-26,-32,-43,-44,0
+2024-25,2025/03/21,First round,Norfolk St.,Florida,16,1,15,-37.1,29.0,-21,-20,-22,-26,0
+2024-25,2025/03/21,First round,Xavier,Illinois,11,6,5,-6.1,4.0,-5,-15,-11,-13,0
+2024-25,2025/03/21,First round,Lipscomb,Iowa St.,14,3,11,-19.0,14.0,-16,-27,-33,-27,0
+2024-25,2025/03/21,First round,Troy,Kentucky,14,3,11,-18.2,11.5,-8,-20,-13,-19,0
+2024-25,2025/03/21,First round,Grand Canyon,Maryland,13,4,9,-19.6,10.5,-14,-22,-26,-32,0
+2024-25,2025/03/21,First round,Bryant,Michigan St.,15,2,13,-26.8,17.0,-5,-10,-20,-25,0
+2024-25,2025/03/21,First round,New Mexico,Marquette,10,7,3,-4.6,4.5,3,2,3,9,1
+2024-25,2025/03/21,First round,North Carolina,Ole Miss,11,6,5,-1.9,-1.5,-18,-13,-4,-7,0
+2024-25,2025/03/21,First round,Liberty,Oregon,12,5,7,-7.6,6.5,-24,-29,-30,-29,0
+2024-25,2025/03/21,First round,Vanderbilt,Saint Mary's (CA),10,7,3,-6.6,4.5,7,2,-3,-3,0
+2024-25,2025/03/21,First round,Oklahoma,UConn,9,8,1,-1.2,5.5,-6,-1,-2,-8,0
+2024-25,2025/03/22,Second round,Arkansas,St. John's (NY),10,2,8,-8.0,7.0,3,6,4,9,1
+2024-25,2025/03/22,Second round,Creighton,Auburn,9,1,8,-15.9,9.0,2,-8,-11,-12,0
+2024-25,2025/03/22,Second round,BYU,Wisconsin,6,3,3,-3.3,1.0,11,12,9,2,1
+2024-25,2025/03/22,Second round,Gonzaga,Houston,8,1,7,-8.1,5.0,-8,-9,-9,-5,0
+2024-25,2025/03/22,Second round,Michigan,Texas A&M,5,4,1,-1.0,3.0,-4,-2,5,12,1
+2024-25,2025/03/22,Second round,McNeese,Purdue,12,4,8,-11.4,6.5,-18,-19,-26,-14,0
+2024-25,2025/03/22,Second round,UCLA,Tennessee,7,2,5,-7.5,5.5,-7,-16,-19,-9,0
+2024-25,2025/03/22,Second round,Drake,Texas Tech,11,3,8,-13.0,7.5,-7,-7,-10,-13,0
+2024-25,2025/03/23,Second round,Saint Mary's (CA),Alabama,7,2,5,-7.5,5.5,-13,-8,-10,-14,0
+2024-25,2025/03/23,Second round,Oregon,Arizona,5,4,1,-5.1,4.5,-4,-8,-4,-4,0
+2024-25,2025/03/23,Second round,Baylor,Duke,9,1,8,-15.8,12.5,-17,-17,-20,-23,0
+2024-25,2025/03/23,Second round,UConn,Florida,8,1,7,-15.2,9.0,0,4,1,-2,0
+2024-25,2025/03/23,Second round,Illinois,Kentucky,6,3,3,0.1,-2.5,-5,-15,-10,-9,0
+2024-25,2025/03/23,Second round,Colorado St.,Maryland,12,4,8,-11.5,8.0,7,1,5,-1,0
+2024-25,2025/03/23,Second round,New Mexico,Michigan St.,10,2,8,-9.8,6.5,2,-5,-8,-8,0
+2024-25,2025/03/23,Second round,Ole Miss,Iowa St.,6,3,3,-5.0,5.5,11,19,20,13,1
+2024-25,2025/03/27,Sweet 16,BYU,Alabama,6,2,4,-7.2,4.5,-11,-15,-19,-25,0
+2024-25,2025/03/27,Sweet 16,Arizona,Duke,4,1,3,-11.4,9.0,-6,-15,-9,-7,0
+2024-25,2025/03/27,Sweet 16,Maryland,Florida,4,1,3,-8.1,7.0,-2,-12,-12,-16,0
+2024-25,2025/03/27,Sweet 16,Arkansas,Texas Tech,10,3,7,-8.7,5.5,7,16,9,-2,0
+2024-25,2025/03/28,Sweet 16,Michigan,Auburn,5,1,4,-12.3,8.5,-1,1,-10,-13,0
+2024-25,2025/03/28,Sweet 16,Purdue,Houston,4,1,3,-10.3,8.5,2,-7,-4,-2,0
+2024-25,2025/03/28,Sweet 16,Ole Miss,Michigan St.,6,2,4,-4.7,3.5,2,1,1,-3,0
+2024-25,2025/03/28,Sweet 16,Kentucky,Tennessee,3,2,1,-6.2,5.0,-15,-13,-15,-13,0
+2024-25,2025/03/29,Elite Eight,Alabama,Duke,2,1,1,-6.7,7.0,-9,-13,-12,-20,0
+2024-25,2025/03/29,Elite Eight,Texas Tech,Florida,3,1,2,-8.3,7.0,-3,4,7,-5,0
+2024-25,2025/03/30,Elite Eight,Michigan St.,Auburn,2,1,1,-7.6,5.5,-9,-10,-9,-6,0
+2024-25,2025/03/30,Elite Eight,Tennessee,Houston,2,1,1,-3.0,3.0,-19,-14,-11,-19,0
+2024-25,2025/04/05,Final Four,Florida,Auburn,1,1,0,0.1,-2.0,-8,-1,3,6,1
+2024-25,2025/04/05,Final Four,Houston,Duke,1,1,0,-2.6,4.5,-6,-13,-4,3,1
+2024-25,2025/04/07,Championship,Florida,Houston,1,1,0,0.1,-1.0,-3,-6,-3,2,1
+2025-26,2026/03/19,First round,Hawaii,Arkansas,13,4,9,-20.9,14.5,-18,-15,-19,-19,0
+2025-26,2026/03/19,First round,Siena,Duke,16,1,15,-39.8,28.5,11,3,0,-6,0
+2025-26,2026/03/19,First round,Kennesaw St.,Gonzaga,14,3,11,-27.7,20.5,-6,-6,-10,-9,0
+2025-26,2026/03/19,First round,High Point,Wisconsin,12,5,7,-14.3,10.5,-2,-3,-8,1,1
+2025-26,2026/03/19,First round,Idaho,Houston,15,2,13,-32.3,24.5,-24,-26,-30,-31,0
+2025-26,2026/03/19,First round,Penn,Illinois,14,3,11,-30.4,25.5,-10,-21,-35,-35,0
+2025-26,2026/03/19,First round,South Fla.,Louisville,11,6,5,-9.8,2.5,-10,-19,-9,-4,0
+2025-26,2026/03/19,First round,Howard,Michigan,16,1,15,-41.6,30.5,-4,-13,-29,-21,0
+2025-26,2026/03/19,First round,North Dakota St.,Michigan St.,14,3,11,-25.3,15.5,-20,-20,-17,-25,0
+2025-26,2026/03/19,First round,Troy,Nebraska,13,4,9,-24.9,13.5,-16,-20,-25,-29,0
+2025-26,2026/03/19,First round,Saint Louis,Georgia,9,8,1,-1.6,1.5,17,28,40,25,1
+2025-26,2026/03/19,First round,TCU,Ohio St.,9,8,1,-3.8,2.5,15,9,-2,2,1
+2025-26,2026/03/19,First round,Texas,BYU,11,6,5,-4.7,2.5,9,13,8,8,1
+2025-26,2026/03/19,First round,Texas A&M,Saint Mary's (CA),10,7,3,-3.4,3.5,11,20,15,13,1
+2025-26,2026/03/19,First round,VCU,North Carolina,11,6,5,-4.1,2.5,-11,-12,-11,4,1
+2025-26,2026/03/19,First round,McNeese,Vanderbilt,12,5,7,-14.7,12.5,-3,-4,-5,-10,0
+2025-26,2026/03/20,First round,Hofstra,Alabama,13,4,9,-16.9,12.5,-2,-10,-7,-20,0
+2025-26,2026/03/20,First round,LIU,Arizona,16,1,15,-41.1,30.5,-24,-23,-30,-34,0
+2025-26,2026/03/20,First round,Prairie View,Florida,16,1,15,-42.7,35.5,-39,-51,-53,-59,0
+2025-26,2026/03/20,First round,Iowa,Clemson,9,8,1,2.8,-1.5,7,12,5,6,1
+2025-26,2026/03/20,First round,Tennessee St.,Iowa St.,15,2,13,-34.3,24.5,-26,-35,-35,-34,0
+2025-26,2026/03/20,First round,California Baptist,Kansas,13,4,9,-19.0,13.5,-20,-19,-14,-8,0
+2025-26,2026/03/20,First round,Santa Clara,Kentucky,10,7,3,-3.4,3.5,2,-1,-1,-5,0
+2025-26,2026/03/20,First round,Missouri,Miami (FL),10,7,3,-4.9,1.5,-1,-3,-7,-14,0
+2025-26,2026/03/20,First round,Queens (NC),Purdue,15,2,13,-32.7,25.5,-12,-26,-36,-33,0
+2025-26,2026/03/20,First round,UNI,St. John's (NY),12,5,7,-14.6,10.5,-19,-19,-15,-26,0
+2025-26,2026/03/20,First round,Miami (OH),Tennessee,11,6,5,-16.5,12.5,-19,-21,-21,-22,0
+2025-26,2026/03/20,First round,Akron,Texas Tech,12,5,7,-13.6,6.5,-5,-7,-11,-20,0
+2025-26,2026/03/20,First round,UCF,UCLA,10,7,3,-5.2,5.5,-8,-10,-9,-4,0
+2025-26,2026/03/20,First round,Furman,UConn,15,2,13,-30.2,20.5,-4,-10,-7,-11,0
+2025-26,2026/03/20,First round,Utah St.,Villanova,9,8,1,0.6,-1.5,-2,0,-2,10,1
+2025-26,2026/03/20,First round,Wright St.,Virginia,14,3,11,-24.5,17.5,5,0,1,-9,0
+2025-26,2026/03/21,Second round,High Point,Arkansas,12,4,8,-16.6,12.5,-1,0,-7,-6,0
+2025-26,2026/03/21,Second round,TCU,Duke,9,1,8,-18.8,12.5,-4,-10,-18,-23,0
+2025-26,2026/03/21,Second round,Texas A&M,Houston,10,2,8,-13.6,9.5,-18,-26,-24,-31,0
+2025-26,2026/03/21,Second round,VCU,Illinois,11,3,8,-14.3,11.5,-7,-19,-19,-21,0
+2025-26,2026/03/21,Second round,Saint Louis,Michigan,9,1,8,-16.8,12.5,-9,-12,-24,-23,0
+2025-26,2026/03/21,Second round,Louisville,Michigan St.,6,3,3,-3.3,5.5,-5,-6,-10,-8,0
+2025-26,2026/03/21,Second round,Vanderbilt,Nebraska,5,4,1,0.1,-2.5,-7,-1,3,-2,0
+2025-26,2026/03/21,Second round,Texas,Gonzaga,11,3,8,-7.5,6.5,2,2,4,6,1
+2025-26,2026/03/22,Second round,Texas Tech,Alabama,5,4,1,0.2,1.5,-24,-24,-31,-25,0
+2025-26,2026/03/22,Second round,Utah St.,Arizona,9,1,8,-16.7,11.5,-9,-10,-4,-12,0
+2025-26,2026/03/22,Second round,Iowa,Florida,9,1,8,-10.4,10.5,2,4,-3,1,1
+2025-26,2026/03/22,Second round,Kentucky,Iowa St.,7,2,5,-10.8,5.5,-1,-15,-17,-19,0
+2025-26,2026/03/22,Second round,Miami (FL),Purdue,7,2,5,-10.2,7.5,2,-5,-11,-10,0
+2025-26,2026/03/22,Second round,St. John's (NY),Kansas,5,4,1,1.9,-3.5,8,10,5,2,1
+2025-26,2026/03/22,Second round,Tennessee,Virginia,6,3,3,-0.2,-1.5,5,6,2,7,1
+2025-26,2026/03/22,Second round,UCLA,UConn,7,2,5,-7.4,5.5,-5,-11,-9,-16,0
+2025-26,2026/03/26,Sweet 16,Arkansas,Arizona,4,1,3,-12.3,8.5,-11,-18,-23,-21,0
+2025-26,2026/03/26,Sweet 16,Illinois,Houston,3,2,1,-0.8,2.5,2,13,12,10,1
+2025-26,2026/03/26,Sweet 16,Iowa,Nebraska,9,4,5,-4.1,2.0,-3,-1,0,6,1
+2025-26,2026/03/26,Sweet 16,Texas,Purdue,11,2,9,-10.7,8.5,-4,1,4,-2,0
+2025-26,2026/03/27,Sweet 16,St. John's (NY),Duke,5,1,4,-10.6,6.5,1,2,-2,-5,0
+2025-26,2026/03/27,Sweet 16,Alabama,Michigan,4,1,3,-10.4,9.5,2,-11,-12,-13,0
+2025-26,2026/03/27,Sweet 16,Tennessee,Iowa St.,6,2,4,-5.8,2.5,1,12,11,14,1
+2025-26,2026/03/27,Sweet 16,Michigan St.,UConn,3,2,1,-0.1,2.5,-8,1,-7,-4,0
+2025-26,2026/03/28,Elite Eight,Purdue,Arizona,2,1,1,-7.0,5.5,7,-8,-13,-15,0
+2025-26,2026/03/28,Elite Eight,Iowa,Illinois,9,3,6,-9.8,6.5,4,0,-5,-12,0
+2025-26,2026/03/29,Elite Eight,Tennessee,Michigan,6,1,5,-10.1,8.5,-22,-28,-31,-33,0
+2025-26,2026/03/29,Elite Eight,UConn,Duke,2,1,1,-7.6,4.5,-15,-9,-7,1,1
+2025-26,2026/04/04,Final Four,Michigan,Arizona,1,1,0,-0.1,-1.5,16,28,22,18,1
+2025-26,2026/04/04,Final Four,Illinois,UConn,3,2,1,3.9,-1.5,-8,-11,-4,-9,0
+2025-26,2026/04/06,Championship,UConn,Michigan,2,1,1,-9.0,6.5,-4,-7,-8,-6,0
