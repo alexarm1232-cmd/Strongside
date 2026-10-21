@@ -66,6 +66,7 @@
   <nav class="ut-tabs" role="tablist" aria-label="Pages">
     <button role="tab" id="tab-overview" data-page="overview" aria-selected="true">Minute by minute</button>
     <button role="tab" id="tab-lines" data-page="lines" aria-selected="false">Upsets and the line</button>
+    <button role="tab" id="tab-wide" data-page="wide" aria-selected="false">Close seeds, wide gap</button>
   </nav>
   <section class="ut-page" id="overview" role="tabpanel" aria-labelledby="tab-overview">
   <header class="ut-head" id="top">
@@ -159,6 +160,37 @@
       <div class="ut-pick" id="ud-note"></div>
     </section>
   </section>
+
+  <section class="ut-page" id="wide" role="tabpanel" aria-labelledby="tab-wide" hidden>
+    <header class="ut-head">
+      <h1>Close seeds, wide gap</h1>
+      <p>Tournament games between seeds fewer than four lines apart where the teams were still far apart going in: a net-rating gap of 10 or more, or a closing line of 7 or more.
+        Margins, ratings and lines are the lower seed’s. The higher seed won <b data-source="wide_summary" data-field="higher_won" class="dash-skeleton">—</b> of the <b data-source="wide_summary" data-field="different" class="dash-skeleton">—</b> with different seeds.</p>
+    </header>
+
+    <section class="ut-tiles">
+      <div class="ut-tile"><div class="k">Games, seeds 0–3 lines apart</div><div class="v dash-skeleton" data-source="wide_summary" data-field="games">—</div><div class="s"><span data-source="wide_summary" data-field="equal">—</span> between equal seeds</div></div>
+      <div class="ut-tile"><div class="k">Won by the higher seed</div><div class="v dash-skeleton" data-source="wide_summary" data-field="higher_won_text">—</div><div class="s">of the games with different seeds</div></div>
+      <div class="ut-tile"><div class="k">Upsets</div><div class="v dash-skeleton" data-source="wide_summary" data-field="upsets">—</div><div class="s" data-source="wide_summary" data-field="upset_game">—</div></div>
+      <div class="ut-tile"><div class="k">Lower seed at halftime, average</div><div class="v dash-skeleton" data-source="wide_summary" data-field="half_text">—</div><div class="s">final <span data-source="wide_summary" data-field="final_text">—</span>, against a line of <span data-source="wide_summary" data-field="line_text">—</span></div></div>
+    </section>
+
+    <section class="ut-card" id="wide-drill">
+      <h2>Year by year</h2>
+      <div class="note">Pick a tournament, then a game, to see the lower seed’s margin minute by minute against the closing line and the two teams’ net ratings going in.</div>
+      <div class="ud-cols">
+        <div class="ud-years" id="uw-years" role="listbox" aria-label="Tournaments" data-source="wide_list"></div>
+        <div class="ud-games" id="uw-games" role="listbox" aria-label="Games that year" data-source="wide_list"></div>
+      </div>
+    </section>
+
+    <section class="ut-card" id="wide-game">
+      <h2 id="uw-title">Pick a game</h2>
+      <div class="ud-facts" id="uw-facts" data-source="wide_list"></div>
+      <div class="ut-chart" id="uw-chart" data-source="wide_games"></div>
+      <div class="ut-pick" id="uw-note"></div>
+    </section>
+  </section>
 </div>
 
 <script>
@@ -250,6 +282,33 @@ dash.calc('line_summary', {
     return [{ upsets: upset_lines.length, underdog: dogs.length, underdog_share: upset_lines.length ? `${Math.round(100 * dogs.length / upset_lines.length)}%` : '–',
       median_line_text: mid == null ? '–' : `+${mid}`, not_underdog: upset_lines.length - dogs.length,
       biggest_text: top ? `+${top.line}` : '–', biggest_game: top ? `${top.matchup}, ${top.season}` : '' }];
+  },
+});
+
+// ---------- close seeds, wide gap ----------
+dash.calc('wide_list', {
+  inputs: ['wide_games'], title: 'Close seeds, wide gap: the games',
+  description: 'Each game with seeds 0–3 lines apart and a net-rating gap of 10+ or a closing line of 7+, from the lower seed’s side.',
+  fn: (wide_games) => wide_games.map((g) => {
+    const m = series(g), line = Number(g.line);
+    return { game: g.game, season: g.season, date: g.date, year: g.date.slice(0, 4), round: g.round,
+      lower: g.lower_team, higher: g.higher_team, matchup: `(${g.lower_seed}) ${g.lower_team} vs (${g.higher_seed}) ${g.higher_team}`,
+      equal: g.lower_seed === g.higher_seed, upset: g.upset === 'yes',
+      score: `${g.lower_pts}–${g.higher_pts}${Number(g.minutes) > 40 ? ' OT' : ''}`, final: Number(g.lower_pts) - Number(g.higher_pts),
+      lower_net: Number(g.lower_net), higher_net: Number(g.higher_net), net_gap: Number(g.net_gap), line, line_text: lineText(line), half: m[20] };
+  }),
+});
+dash.calc('wide_summary', {
+  inputs: ['wide_list'], title: 'Close seeds, wide gap: headline figures',
+  description: 'How many games, how many between equal seeds, how often the higher seed won, the upsets, and the lower seed’s average margin at halftime and at the end against its average line.',
+  fn: (wide_list) => {
+    const diff = wide_list.filter((g) => !g.equal), ups = diff.filter((g) => g.upset), n = diff.length;
+    const avg = (f) => (n ? diff.reduce((s, g) => s + f(g), 0) / n : null);
+    const signed = (v) => (v == null ? '–' : (v > 0 ? '+' : v < 0 ? '−' : '') + Math.abs(v).toFixed(1));
+    return [{ games: wide_list.length, equal: wide_list.length - n, different: n, higher_won: n - ups.length,
+      higher_won_text: `${n - ups.length} of ${n}`, upsets: ups.length,
+      upset_game: ups.map((g) => `${g.lower} over ${g.higher}, ${g.year}`).join('; '),
+      half_text: signed(avg((g) => g.half)), final_text: signed(avg((g) => g.final)), line_text: signed(avg((g) => -g.line)) }];
   },
 });
 
@@ -508,13 +567,70 @@ document.getElementById('ud-games').addEventListener('click', (e) => {
   const b = e.target.closest('button[data-key]'); if (!b) return; drill.game = b.dataset.key; drawDrill();
 });
 
-// ---------- the two pages ----------
+// ---------- third page: close seeds, wide gap ----------
+const wide = { year: '', game: '' };
+function wideList() { const d = dash.data('wide_list'); return d.status === 'ok' ? d.data : []; }
+function drawWide() {
+  const s = dash.data('wide_summary');
+  for (const el of document.querySelectorAll('[data-source="wide_summary"]')) fill(el, s.status === 'ok' && s.data[0] ? s.data[0][el.dataset.field] : null);
+  const list = wideList(), yearsBox = document.getElementById('uw-years'), gamesBox = document.getElementById('uw-games');
+  if (dash.data('wide_list').status === 'error') { failed(yearsBox); gamesBox.replaceChildren(); return; }
+  if (!list.length) { yearsBox.replaceChildren(); gamesBox.replaceChildren(); return; }
+  const years = [...new Set(list.map((u) => u.year))].sort().reverse();
+  if (!wide.year || !years.includes(wide.year)) wide.year = years[0];
+  yearsBox.replaceChildren(...years.map((y) => {
+    const b = document.createElement('button'); b.setAttribute('role', 'option'); b.dataset.year = y; b.setAttribute('aria-selected', String(y === wide.year));
+    const n = list.filter((u) => u.year === y).length, a = document.createElement('span'), c = document.createElement('span');
+    a.textContent = y; c.className = 'n'; c.textContent = `${n} game${n === 1 ? '' : 's'}`; b.append(a, c); return b;
+  }));
+  const order = (r) => ROUND_ORDER.indexOf(r);
+  const games = list.filter((u) => u.year === wide.year).sort((a, b) => order(a.round) - order(b.round) || a.date.localeCompare(b.date));
+  if (!wide.game || !games.some((g) => g.game === wide.game)) wide.game = games.length ? games[0].game : '';
+  gamesBox.replaceChildren(...games.map((u) => {
+    const b = document.createElement('button'); b.setAttribute('role', 'option'); b.dataset.key = u.game; b.setAttribute('aria-selected', String(u.game === wide.game));
+    const m = document.createElement('span'), r = document.createElement('span'), n = document.createElement('span');
+    m.className = 'm'; m.textContent = u.matchup; r.className = 'r'; r.textContent = `${u.round}, ${u.score}${u.upset ? ', upset' : ''}`; m.append(r);
+    n.className = 'n'; n.textContent = u.line_text; b.append(m, n); return b;
+  }));
+  drawWideGame();
+}
+function drawWideGame() {
+  const u = wideList().find((x) => x.game === wide.game), box = document.getElementById('uw-chart'), g = dash.data('wide_games');
+  const title = document.getElementById('uw-title'), facts = document.getElementById('uw-facts'), note = document.getElementById('uw-note');
+  if (!u) { title.textContent = 'Pick a game'; facts.replaceChildren(); note.textContent = ''; box.querySelectorAll('svg').forEach((n) => n.remove()); return; }
+  title.textContent = `${u.matchup}, ${u.year}`;
+  facts.replaceChildren(fact('Round', u.round), fact(`${u.lower} net going in`, fmtSigned(u.lower_net)), fact(`${u.higher} net going in`, fmtSigned(u.higher_net)),
+    fact('Net gap', fmtSigned(u.net_gap)), fact(`${u.lower}’s line`, u.line_text), fact('Final', u.score), fact('At half', fmtSigned(u.half)));
+  if (g.status === 'error') return failed(box);
+  const row = g.status === 'ok' ? g.data.find((r) => r.game === u.game) : null;
+  if (!row) { box.querySelectorAll('svg').forEach((n) => n.remove()); note.textContent = ''; return; }
+  const m = series(row), expected = -u.line, xMax = Math.max(40, m.length - 1);
+  marginChart(box, {
+    height: 320, xMax, domainY: [Math.min(...m, expected, -5), Math.max(...m, expected, 5)],
+    lines: [{ values: m, color: dash.colors[0], width: 2.5, dot: true }],
+    refs: u.line === 0 ? [] : [{ y: expected, text: `Line: ${u.lower} ${u.line_text}` }],
+    ends: [{ y: m[m.length - 1], text: fmtSigned(m[m.length - 1]) }],
+    hover: (i) => `<div class="t">Minute ${Math.min(i, m.length - 1)}</div><div>${u.lower} <b>${fmtSigned(m[Math.min(i, m.length - 1)])}</b></div>`,
+  });
+  const vs = u.final + u.line, won = u.final > 0;
+  note.textContent = `${u.lower} ${won ? 'won' : 'lost'} by ${Math.abs(u.final)}, ${Math.abs(vs)} point${Math.abs(vs) === 1 ? '' : 's'} ${vs > 0 ? 'better' : vs < 0 ? 'worse' : 'exactly in line with'}${vs === 0 ? ' the line' : ' than the line'}.`
+    + (u.equal ? ' Both teams had the same seed, so this game is never an upset.' : u.upset ? ' An upset: the lower seed won.' : '');
+}
+document.getElementById('uw-years').addEventListener('click', (e) => {
+  const b = e.target.closest('button[data-year]'); if (!b) return; wide.year = b.dataset.year; wide.game = ''; drawWide();
+});
+document.getElementById('uw-games').addEventListener('click', (e) => {
+  const b = e.target.closest('button[data-key]'); if (!b) return; wide.game = b.dataset.key; drawWide();
+});
+
+// ---------- the pages ----------
 let page = 'overview';
 function showPage(name) {
   page = name;
   for (const b of document.querySelectorAll('.ut-tabs button')) b.setAttribute('aria-selected', String(b.dataset.page === name));
   document.getElementById('overview').hidden = name !== 'overview';
   document.getElementById('lines').hidden = name !== 'lines';
+  document.getElementById('wide').hidden = name !== 'wide';
   dash.setLink(name);
   drawAll();
 }
@@ -532,10 +648,12 @@ function drawAll() {
       const list = upsetList(); pick.game = list.reduce((a, b) => (b.low < a.low ? b : a)).game; firstPick = false;
     }
     drawExplorer(); drawTable();
-  } else {
+  } else if (page === 'lines') {
     drawLineFigures(); drawDrill();
+  } else {
+    drawWide();
   }
 }
 dash.onData(drawAll);
-if (location.hash.slice(1) === 'lines') showPage('lines');
+if (['lines', 'wide'].includes(location.hash.slice(1))) showPage(location.hash.slice(1));
 </script>
