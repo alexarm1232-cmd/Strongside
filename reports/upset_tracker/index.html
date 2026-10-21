@@ -23,6 +23,10 @@
   .ut-controls select { font: inherit; font-size: var(--cds-font-size-caption); padding: 4px 8px; border: 1px solid var(--color-border-line); border-radius: var(--cds-radius);
     background: var(--color-bg); color: var(--color-fg); max-width: 100%; }
   .ut-controls select.game { flex: 1 1 18rem; min-width: 0; }
+  .ut-solo { font: inherit; font-size: var(--cds-font-size-caption); padding: 4px 10px; border: 1px solid var(--color-border-line); border-radius: var(--cds-radius);
+    background: var(--color-bg); color: var(--color-fg); cursor: pointer; }
+  .ut-solo:hover { background: var(--cds-chart-grid); }
+  .ut-solo[aria-pressed="true"] { font-weight: 600; }
   .ut-pick { font-size: var(--cds-font-size-caption); color: var(--color-fg-muted); margin-top: var(--cds-gap-sm); }
   .ut-pick b { color: var(--color-fg); font-weight: 600; }
   .ut-tablebox { max-height: 30rem; overflow: auto; }
@@ -71,38 +75,40 @@
   <section class="ut-page" id="overview" role="tabpanel" aria-labelledby="tab-overview">
   <header class="ut-head" id="top">
     <h1>Tournament upsets, minute by minute</h1>
-    <p>NCAA tournament games 2010–2026 between seeds four or more lines apart, followed from the lower seed’s side: below zero it is behind, above zero ahead.
-      The lower seed won <b data-source="summary" data-field="upsets" class="dash-skeleton">—</b> of <b data-source="summary" data-field="games" class="dash-skeleton">—</b>.
+    <p>NCAA tournament games 2010–2026 between seeds four or more lines apart, plus the games between closer seeds where the teams were still far apart going in (a net-rating gap of 10+ or a closing line of 7+), followed from the lower seed’s side: below zero it is behind, above zero ahead.
+      The upsets are <b data-source="summary" data-field="upsets" class="dash-skeleton">—</b> of the <b data-source="summary" data-field="games" class="dash-skeleton">—</b> games: <b data-source="summary" data-field="seed_upsets" class="dash-skeleton">—</b> wins by a lower seed four or more lines down, and all <b data-source="summary" data-field="wide" class="dash-skeleton">—</b> wide-gap games.
       Ahead at halftime, it won <b data-source="from_spot" data-field="rate_text" data-where="checkpoint=Halftime&amp;spot=Ahead" class="dash-skeleton">—</b> of the time; six or more down at halftime, <b data-source="from_spot" data-field="rate_text" data-where="checkpoint=Halftime&amp;spot=Down%206%20or%20more" class="dash-skeleton">—</b>.</p>
   </header>
 
   <section class="ut-tiles" id="tiles">
-    <div class="ut-tile"><div class="k">Games, seeds 4+ lines apart</div><div class="v dash-skeleton" data-source="summary" data-field="games">—</div><div class="s"><span data-source="summary" data-field="tournaments">—</span> tournaments, <span data-source="summary" data-field="span">—</span></div></div>
-    <div class="ut-tile"><div class="k">Won by the lower seed</div><div class="v dash-skeleton" data-source="summary" data-field="upsets">—</div><div class="s"><span data-source="summary" data-field="upset_rate_text">—</span> of those games</div></div>
+    <div class="ut-tile"><div class="k">Games tracked</div><div class="v dash-skeleton" data-source="summary" data-field="games">—</div><div class="s"><span data-source="summary" data-field="tournaments">—</span> tournaments, <span data-source="summary" data-field="span">—</span></div></div>
+    <div class="ut-tile"><div class="k">Upsets</div><div class="v dash-skeleton" data-source="summary" data-field="upsets">—</div><div class="s"><span data-source="summary" data-field="seed_upsets">—</span> by seed, <span data-source="summary" data-field="wide">—</span> by a wide gap</div></div>
     <div class="ut-tile"><div class="k">Upsets led at halftime</div><div class="v dash-skeleton" data-source="summary" data-field="led_half_text">—</div><div class="s"><span data-source="summary" data-field="never_trailed">—</span> never trailed at all</div></div>
-    <div class="ut-tile"><div class="k">Upsets from 10+ points down</div><div class="v dash-skeleton" data-source="summary" data-field="from_10_down">—</div><div class="s">the lead for good came at minute <span data-source="summary" data-field="median_for_good">—</span> (median)</div></div>
+    <div class="ut-tile"><div class="k">Lower-seed wins from 10+ down</div><div class="v dash-skeleton" data-source="summary" data-field="from_10_down">—</div><div class="s">the lead for good came at minute <span data-source="summary" data-field="median_for_good">—</span> (median)</div></div>
   </section>
 
   <section class="ut-grid">
     <div class="ut-card" id="paths">
       <h2>The average game, minute by minute</h2>
-      <div class="note">The lower seed’s margin after each minute of regulation, averaged over its wins and over its losses. Upsets don’t usually come from late runs: the average upset is ahead from the opening minutes and builds steadily.</div>
+      <div class="note">The lower seed’s margin after each minute of regulation, averaged over the upsets (the wide-gap games included) and over the games the favorite won.</div>
       <div class="ut-chart" id="paths-chart" data-source="avg_path"></div>
     </div>
     <div class="ut-card" id="spots">
       <h2>How often the lower seed wins from each spot</h2>
-      <div class="note">Every game with seeds 4+ lines apart, split by where the lower seed stood at three points of the game. The bar is its win rate from there.</div>
+      <div class="note">Every game here, split by where the lower seed stood at three points of the game. The bar is how often it went on to win from there.</div>
       <div class="ut-chart" id="spots-chart" data-source="from_spot"></div>
     </div>
   </section>
 
   <section class="ut-card" id="explorer">
     <h2>Every upset</h2>
-    <div class="note">Each line is one upset from the winner’s side. Pick a game, or click one in the table below, to follow it minute by minute.</div>
+    <div class="note">Each line is one upset from the lower seed’s side. Pick a game, or click one in the table below, to follow it minute by minute; “Show only this game” clears the others away.</div>
     <div class="ut-controls">
       <select id="ut-season" aria-label="Season"></select>
       <select id="ut-round" aria-label="Round"></select>
+      <select id="ut-kind" aria-label="Type of upset"><option value="">Every upset</option><option value="Seed gap 4+">Seed upsets</option><option value="Wide gap">Wide-gap games</option></select>
       <select id="ut-game" class="game" aria-label="Game"></select>
+      <button id="ut-solo" class="ut-solo" type="button" hidden>Show only this game</button>
     </div>
     <div class="ut-chart" id="explorer-chart" data-source="games"></div>
     <div class="ut-pick" id="ut-pick"></div>
@@ -110,14 +116,15 @@
 
   <section class="ut-card" id="table">
     <h2>The upsets</h2>
-    <div class="note">Margins are the lower seed’s. Low point is its biggest deficit; lead for good is the minute it went ahead and stayed ahead. Sort by any column.</div>
+    <div class="note">Margins are the lower seed’s. Low point is its biggest deficit; lead for good is the minute it went ahead and stayed ahead (blank when it lost). Sort by any column.</div>
     <input class="ut-search" id="ut-search" type="search" placeholder="Search a team, season or round" aria-label="Search the upsets">
     <div class="ut-tablebox">
       <table class="ut-table" id="ut-table" data-source="upsets" data-row-key="game">
         <thead><tr>
           <th class="l" data-field="season"><button data-sort="season">Season</button></th>
           <th class="l" data-field="round"><button data-sort="round">Round</button></th>
-          <th class="l" data-field="matchup"><button data-sort="matchup">Upset</button></th>
+          <th class="l" data-field="matchup"><button data-sort="matchup">Game</button></th>
+          <th class="l" data-field="kind"><button data-sort="kind">Type</button></th>
           <th data-field="score"><button data-sort="final">Final</button></th>
           <th data-field="half"><button data-sort="half">At half</button></th>
           <th data-field="low"><button data-sort="low">Low point</button></th>
@@ -146,7 +153,7 @@
 
     <section class="ut-card" id="drill">
       <h2>Year by year</h2>
-      <div class="note">Pick a tournament, then an upset, to see its margin minute by minute against the line it beat. Margins and lines are the lower seed’s.</div>
+      <div class="note">Pick a tournament, then an upset, to see its margin minute by minute against the closing line. Margins and lines are the lower seed’s; wide-gap games are marked.</div>
       <div class="ud-cols">
         <div class="ud-years" id="ud-years" role="listbox" aria-label="Tournaments" data-source="upset_lines"></div>
         <div class="ud-games" id="ud-games" role="listbox" aria-label="Upsets that year" data-source="upset_lines"></div>
@@ -199,24 +206,27 @@ const num = (v) => (v === '' || v == null ? null : Number(v));
 const series = (g) => { const n = Number(g.minutes); const m = []; for (let i = 0; i <= n; i++) m.push(Number(g['m' + i])); return m; };
 const atMin = (m, i) => m[Math.min(i, m.length - 1)];
 
+// an upset: a win by a lower seed four or more lines down, or any of the wide-gap games (seeds 0–3 lines apart with a
+// net-rating gap of 10+ or a closing line of 7+), which count as upsets whoever won
+const isUpset = (g) => g.kind === 'Wide gap' || g.lower_won === 'yes';
 dash.calc('upsets', {
   inputs: ['games'], title: 'The upsets, with their key moments',
-  description: 'Games the lower seed won: margin at halftime, biggest deficit, and the minute from which it stayed ahead.',
-  fn: (games) => games.filter((g) => g.lower_won === 'yes').map((g) => {
-    const m = series(g);
+  description: 'Lower-seed wins by four or more seed lines, and the wide-gap games: margin at halftime, biggest deficit, and the minute from which the lower seed stayed ahead.',
+  fn: (games) => games.filter(isUpset).map((g) => {
+    const m = series(g), won = g.lower_won === 'yes';
     let last = 0; m.forEach((v, i) => { if (v <= 0) last = i; });
-    return { game: g.game, season: g.season, date: g.date, round: g.round, team: g.lower_team,
-      matchup: `(${g.lower_seed}) ${g.lower_team} over (${g.higher_seed}) ${g.higher_team}`,
+    return { game: g.game, season: g.season, date: g.date, round: g.round, team: g.lower_team, lower: g.lower_team, higher: g.higher_team,
+      kind: g.kind, won, matchup: `(${g.lower_seed}) ${g.lower_team} ${won && g.lower_seed !== g.higher_seed ? 'over' : 'vs'} (${g.higher_seed}) ${g.higher_team}`,
       score: `${g.lower_pts}–${g.higher_pts}${Number(g.minutes) > 40 ? ' OT' : ''}`, final: Number(g.lower_pts) - Number(g.higher_pts),
-      half: m[20], low: Math.min(...m), for_good: last + 1 };
+      half: m[20], low: Math.min(...m), for_good: won ? last + 1 : null };
   }),
 });
 
 dash.calc('avg_path', {
   inputs: ['games'], title: 'Average margin by minute',
-  description: 'The lower seed’s margin after each minute 0–40, averaged over its wins (upsets) and its losses.',
+  description: 'The lower seed’s margin after each minute 0–40, averaged over the upsets and over the other games.',
   fn: (games) => {
-    const won = games.filter((g) => g.lower_won === 'yes').map(series), lost = games.filter((g) => g.lower_won !== 'yes').map(series);
+    const won = games.filter(isUpset).map(series), lost = games.filter((g) => !isUpset(g)).map(series);
     const avg = (list, i) => Math.round(100 * list.reduce((s, m) => s + atMin(m, i), 0) / list.length) / 100;
     return Array.from({ length: 41 }, (_, i) => ({ minute: i, upsets: avg(won, i), favorite_won: avg(lost, i) }));
   },
@@ -242,14 +252,15 @@ dash.calc('from_spot', {
 
 dash.calc('summary', {
   inputs: ['upsets', 'games'], title: 'Headline figures',
-  description: 'Counts over the games and the upsets: how many, how often, led at the half, never trailed, came from 10+ down, median minute ahead for good, tournaments covered.',
+  description: 'Counts over the games and the upsets: how many of each kind, led at the half, never trailed, lower-seed wins from 10+ down, median minute ahead for good in those wins, tournaments covered.',
   fn: (upsets, games) => {
-    const n = upsets.length, sorted = upsets.map((u) => u.for_good).sort((a, b) => a - b);
+    const n = upsets.length, wins = upsets.filter((u) => u.won), sorted = wins.map((u) => u.for_good).sort((a, b) => a - b);
     const led = upsets.filter((u) => u.half > 0).length;
     return [{ games: games.length, upsets: n, upset_rate_text: `${Math.round(100 * n / games.length)}%`,
+      seed_upsets: upsets.filter((u) => u.kind !== 'Wide gap').length, wide: upsets.filter((u) => u.kind === 'Wide gap').length,
       led_half_text: `${Math.round(100 * led / n)}%`, never_trailed: upsets.filter((u) => u.low >= 0).length,
-      from_10_down: upsets.filter((u) => u.low <= -10).length,
-      median_for_good: n ? sorted[Math.floor((n - 1) / 2)] : null,
+      from_10_down: wins.filter((u) => u.low <= -10).length,
+      median_for_good: sorted.length ? sorted[Math.floor((sorted.length - 1) / 2)] : null,
       tournaments: new Set(games.map((g) => g.season)).size,
       span: (() => { const y = games.map((g) => g.date.slice(0, 4)).sort(); return y.length ? `${y[0]}–${y[y.length - 1]}` : ''; })() }];
   },
@@ -259,17 +270,19 @@ dash.calc('summary', {
 const lineText = (v) => (v > 0 ? `+${v}` : v < 0 ? `−${-v}` : 'PK');
 dash.calc('upset_lines', {
   inputs: ['spreads', 'upsets'], title: 'The upsets with their closing lines',
-  description: 'Each upset (seeds 4+ lines apart, the lower seed won) with the lower seed’s closing spread from BetIQ, joined by date and winner.',
+  description: 'Each upset (the lower seed’s wins by 4+ seed lines, and the wide-gap games) with the lower seed’s closing spread from BetIQ, joined by date and team.',
   fn: (spreads, upsets) => {
-    const byKey = new Map(upsets.map((u) => [`${u.date}|${u.team}`, u]));
-    return spreads.filter((s) => s.seed_gap !== '' && Number(s.seed_gap) >= 4).map((s) => {
-      const u = byKey.get(`${s.date}|${s.winner}`), line = Number(s.lower_seed_line);
-      return { game: u ? u.game : `${s.date} ${s.winner} v ${s.loser}`, season: s.season, date: s.date, year: s.date.slice(0, 4), round: s.round,
-        matchup: `(${s.winner_seed}) ${s.winner} over (${s.loser_seed}) ${s.loser}`, winner: s.winner, loser: s.loser,
+    const byTeam = new Map(); for (const s of spreads) { byTeam.set(`${s.date}|${s.winner}`, s); byTeam.set(`${s.date}|${s.loser}`, s); }
+    return upsets.map((u) => {
+      const s = byTeam.get(`${u.date}|${u.lower}`);
+      if (!s) return null;
+      // the lower seed's line; between equal seeds the file has none, so it comes from who was favored
+      const line = s.lower_seed_line !== '' ? Number(s.lower_seed_line) : (s.favorite === u.lower ? 1 : -1) * Number(s.spread);
+      return { game: u.game, season: u.season, date: u.date, year: u.date.slice(0, 4), round: u.round, kind: u.kind, won: u.won,
+        matchup: u.matchup, lower: u.lower, higher: u.higher,
         favorite: s.favorite, spread: Number(s.spread), total: s.total === '' ? null : Number(s.total), line, line_text: lineText(line),
-        market: line > 0 ? 'Underdog' : line < 0 ? 'Favored' : 'Pick’em', score: u ? u.score : s.score,
-        final: u ? u.final : null, half: u ? u.half : null, low: u ? u.low : null };
-    });
+        market: line > 0 ? 'Underdog' : line < 0 ? 'Favored' : 'Pick’em', score: u.score, final: u.final, half: u.half, low: u.low };
+    }).filter(Boolean);
   },
 });
 dash.calc('line_summary', {
@@ -278,7 +291,7 @@ dash.calc('line_summary', {
   fn: (upset_lines) => {
     const dogs = upset_lines.filter((u) => u.line > 0), lines = dogs.map((u) => u.line).sort((a, b) => a - b);
     const mid = lines.length ? (lines.length % 2 ? lines[(lines.length - 1) / 2] : (lines[lines.length / 2 - 1] + lines[lines.length / 2]) / 2) : null;
-    const top = dogs.reduce((a, b) => (!a || b.line > a.line ? b : a), null);
+    const top = dogs.filter((u) => u.won).reduce((a, b) => (!a || b.line > a.line ? b : a), null);
     return [{ upsets: upset_lines.length, underdog: dogs.length, underdog_share: upset_lines.length ? `${Math.round(100 * dogs.length / upset_lines.length)}%` : '–',
       median_line_text: mid == null ? '–' : `+${mid}`, not_underdog: upset_lines.length - dogs.length,
       biggest_text: top ? `+${top.line}` : '–', biggest_game: top ? `${top.matchup}, ${top.season}` : '' }];
@@ -425,7 +438,7 @@ function drawSpots() {
 }
 
 // every upset, with one picked
-const pick = { season: '', round: '', game: '' };
+const pick = { season: '', round: '', kind: '', game: '', solo: false };
 const ROUND_ORDER = ['First round', 'Second round', 'Sweet 16', 'Elite Eight', 'Final Four', 'Championship'];
 function upsetList() { const d = dash.data('upsets'); return d.status === 'ok' ? d.data : []; }
 function drawControls() {
@@ -433,8 +446,8 @@ function drawControls() {
   const seasons = [...new Set(list.map((u) => u.season))].sort().reverse(), rounds = ROUND_ORDER.filter((r) => list.some((u) => u.round === r));
   seasonSel.replaceChildren(new Option('All seasons', ''), ...seasons.map((s) => new Option(s, s)));
   roundSel.replaceChildren(new Option('All rounds', ''), ...rounds.map((r) => new Option(r, r)));
-  seasonSel.value = pick.season; roundSel.value = pick.round;
-  const shown = list.filter((u) => (!pick.season || u.season === pick.season) && (!pick.round || u.round === pick.round));
+  seasonSel.value = pick.season; roundSel.value = pick.round; document.getElementById('ut-kind').value = pick.kind;
+  const shown = list.filter((u) => (!pick.season || u.season === pick.season) && (!pick.round || u.round === pick.round) && (!pick.kind || u.kind === pick.kind));
   if (pick.game && !shown.some((u) => u.game === pick.game)) pick.game = '';
   gameSel.replaceChildren(new Option(`Pick a game (${shown.length})`, ''), ...shown.map((u) => new Option(`${u.season} ${u.round}: ${u.matchup}, ${u.score}`, u.game)));
   gameSel.value = pick.game;
@@ -447,9 +460,12 @@ function drawExplorer() {
   if (g.status !== 'ok' || !shown.length) { box.querySelectorAll('svg').forEach((n) => n.remove()); info.textContent = ''; return; }
   const byGame = new Map(g.data.map((r) => [r.game, r])), c = dash.colors;
   const lines = shown.map((u) => ({ id: u.game, values: series(byGame.get(u.game)) }));
-  const chosen = lines.find((l) => l.id === pick.game);
-  const all = lines.flatMap((l) => l.values), xMax = Math.max(40, ...lines.map((l) => l.values.length - 1));
-  const draw = lines.filter((l) => l !== chosen).map((l) => ({ values: l.values, color: 'var(--cds-chart-muted)', width: 1.25, opacity: chosen ? 0.35 : 0.5 }));
+  const chosen = lines.find((l) => l.id === pick.game), solo = !!(chosen && pick.solo);
+  const soloBtn = document.getElementById('ut-solo');
+  soloBtn.hidden = !chosen; soloBtn.textContent = solo ? 'Show every game' : 'Show only this game'; soloBtn.setAttribute('aria-pressed', String(solo));
+  const kept = solo ? [chosen] : lines;      // "show only this game" clears the other games away
+  const all = kept.flatMap((l) => l.values), xMax = Math.max(40, ...kept.map((l) => l.values.length - 1));
+  const draw = kept.filter((l) => l !== chosen).map((l) => ({ values: l.values, color: 'var(--cds-chart-muted)', width: 1.25, opacity: chosen ? 0.35 : 0.5 }));
   const u = chosen && shown.find((q) => q.game === chosen.id);
   if (chosen) draw.push({ values: chosen.values, color: c[0], width: 2.5, dot: true });
   marginChart(box, {
@@ -460,12 +476,15 @@ function drawExplorer() {
   info.replaceChildren();
   if (u) {
     const b = document.createElement('b'); b.textContent = `${u.matchup}, ${u.score}`;
-    info.append(b, document.createTextNode(` · ${u.season}, ${u.round.toLowerCase()} · at the half ${fmtSigned(u.half)}, low point ${fmtSigned(u.low)}, ahead for good from minute ${u.for_good}`));
+    info.append(b, document.createTextNode(` · ${u.season}, ${u.round.toLowerCase()}${u.kind === 'Wide gap' ? ', wide-gap game' : ''} · at the half ${fmtSigned(u.half)}, low point ${fmtSigned(u.low)}, `
+      + (u.won ? `ahead for good from minute ${u.for_good}` : `${u.lower} lost by ${-u.final}`)));
   } else info.textContent = `${shown.length} upsets shown. Pick one to follow it.`;
 }
 document.getElementById('ut-season').addEventListener('change', (e) => { pick.season = e.target.value; drawExplorer(); });
 document.getElementById('ut-round').addEventListener('change', (e) => { pick.round = e.target.value; drawExplorer(); });
-document.getElementById('ut-game').addEventListener('change', (e) => { pick.game = e.target.value; drawExplorer(); drawTable(); });
+document.getElementById('ut-kind').addEventListener('change', (e) => { pick.kind = e.target.value; drawExplorer(); });
+document.getElementById('ut-game').addEventListener('change', (e) => { pick.game = e.target.value; pick.solo = !!pick.game; drawExplorer(); drawTable(); });
+document.getElementById('ut-solo').addEventListener('click', () => { pick.solo = !pick.solo; drawExplorer(); });
 
 // the table
 const sort = { key: 'season', dir: -1 }; let query = '';
@@ -474,11 +493,12 @@ function drawTable() {
   if (d.status !== 'ok') { body.replaceChildren(); return; }
   const q = query.trim().toLowerCase();
   const rows = d.data.filter((u) => !q || `${u.season} ${u.round} ${u.matchup}`.toLowerCase().includes(q));
-  const key = sort.key, val = (u) => (key === 'round' ? ROUND_ORDER.indexOf(u.round) : u[key]);
+  const key = sort.key, val = (u) => (key === 'round' ? ROUND_ORDER.indexOf(u.round) : u[key] == null ? -Infinity : u[key]);
   rows.sort((a, b) => { const x = val(a), y = val(b); return (typeof x === 'string' ? x.localeCompare(y) : x - y) * sort.dir || a.date.localeCompare(b.date); });
   body.replaceChildren(...rows.map((u) => {
     const tr = document.createElement('tr'); if (u.game === pick.game) tr.className = 'on';
-    for (const [cls, text] of [['l', u.season], ['l', u.round], ['l', u.matchup], ['', u.score], ['', fmtSigned(u.half)], ['', fmtSigned(u.low)], ['', u.for_good]]) {
+    for (const [cls, text] of [['l', u.season], ['l', u.round], ['l', u.matchup], ['l', u.kind === 'Wide gap' ? 'Wide gap' : 'Seed upset'], ['', u.score],
+      ['', fmtSigned(u.half)], ['', fmtSigned(u.low)], ['', u.for_good == null ? '' : u.for_good]]) {
       const td = document.createElement('td'); if (cls) td.className = cls; td.textContent = text; tr.append(td);
     }
     tr.dataset.key = u.game; return tr;
@@ -492,7 +512,7 @@ document.querySelector('#ut-table thead').addEventListener('click', (e) => {
 });
 document.querySelector('#ut-table tbody').addEventListener('click', (e) => {
   const tr = e.target.closest('tr[data-key]'); if (!tr) return;
-  pick.game = tr.dataset.key; pick.season = ''; pick.round = ''; drawExplorer(); drawTable();
+  pick.game = tr.dataset.key; pick.season = ''; pick.round = ''; pick.kind = ''; pick.solo = true; drawExplorer(); drawTable();
   document.getElementById('explorer').scrollIntoView({ behavior: 'smooth', block: 'start' });
 });
 document.getElementById('ut-search').addEventListener('input', (e) => { query = e.target.value; drawTable(); });
@@ -551,14 +571,15 @@ function drawDrillGame() {
   marginChart(box, {
     height: 320, xMax, domainY: [Math.min(...m, expected, -5), Math.max(...m, expected, 5)],
     lines: [{ values: m, color: dash.colors[0], width: 2.5, dot: true }],
-    refs: u.line === 0 ? [] : [{ y: expected, text: `Line: ${u.winner} ${u.line_text}` }],
+    refs: u.line === 0 ? [] : [{ y: expected, text: `Line: ${u.lower} ${u.line_text}` }],
     ends: [{ y: m[m.length - 1], text: fmtSigned(m[m.length - 1]) }],
-    hover: (i) => `<div class="t">Minute ${Math.min(i, m.length - 1)}</div><div>${u.winner} <b>${fmtSigned(m[Math.min(i, m.length - 1)])}</b></div>`,
+    hover: (i) => `<div class="t">Minute ${Math.min(i, m.length - 1)}</div><div>${u.lower} <b>${fmtSigned(m[Math.min(i, m.length - 1)])}</b></div>`,
   });
-  note.textContent = u.line > 0
-    ? `The line had ${u.winner} losing by ${u.line}; the dashed line marks that finish. ${u.winner} won by ${u.final}, ${u.final + u.line} points better than the line.`
-    : u.line < 0 ? `${u.winner} was the betting favorite by ${-u.line} despite the worse seed, so the market expected this result.`
-    : `A pick’em: the market had no favorite.`;
+  const vs = u.final + u.line, by = `${Math.abs(vs)} point${Math.abs(vs) === 1 ? '' : 's'}`;
+  const result = `${u.lower} ${u.won ? 'won' : 'lost'} by ${Math.abs(u.final)}, ${vs > 0 ? by + ' better than' : vs < 0 ? by + ' worse than' : 'exactly'} the line.`;
+  note.textContent = (u.line > 0 ? `The line had ${u.lower} losing by ${u.line}; the dashed line marks that finish. `
+    : u.line < 0 ? `${u.lower} was the betting favorite by ${-u.line}; the dashed line marks that finish. `
+    : `A pick’em: the market had no favorite. `) + result + (u.kind === 'Wide gap' ? ' A wide-gap game.' : '');
 }
 document.getElementById('ud-years').addEventListener('click', (e) => {
   const b = e.target.closest('button[data-year]'); if (!b) return; drill.year = b.dataset.year; drill.game = ''; drawDrill();

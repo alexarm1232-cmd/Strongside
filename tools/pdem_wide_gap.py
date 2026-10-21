@@ -28,7 +28,7 @@ def main():
         side = next(c for c in nets[(g["date"].replace("/", "-"), min(int(lo_pts), int(hi_pts)), max(int(lo_pts), int(hi_pts)))]
                     if c[0] == p["winner"] or c[2] == p["winner"])
         net = {side[0]: side[1], side[2]: side[3]}
-        row = {"game": p["game_id"], "season": g["season"], "date": g["date"], "round": g["round"],
+        row = {"game": f'{g["date"]} {g["lower_team"]} v {g["higher_team"]}', "season": g["season"], "date": g["date"], "round": g["round"],
                "lower_seed": g["lower_seed"], "lower_team": g["lower_team"], "higher_seed": g["higher_seed"], "higher_team": g["higher_team"],
                "lower_pts": lo_pts, "higher_pts": hi_pts, "minutes": p["minutes"],
                "lower_net": net.get(g["lower_team"]), "higher_net": net.get(g["higher_team"]), "net_gap": g["net_gap"],
@@ -41,6 +41,17 @@ def main():
         w.writeheader()
         w.writerows(rows)
     print(f"{len(rows)} games, {sum(r['upset'] == 'yes' for r in rows)} upsets")
+    # the upset tracker's games: every game between seeds 4+ lines apart (tools/pdem_summary.py) and these, which the
+    # tracker counts in its upsets too, marked by "kind"
+    four = list(csv.DictReader(open(os.path.join(REPORTS, "pdem_seed_gap_4plus.csv"), encoding="utf-8")))
+    cols = list(four[0]) + ["kind"]
+    with open(os.path.join(REPORTS, "pdem_upset_games.csv"), "w", encoding="utf-8", newline="") as f:
+        w = csv.DictWriter(f, fieldnames=cols)
+        w.writeheader()
+        w.writerows({**r, "kind": "Seed gap 4+"} for r in four)
+        w.writerows({**{c: r.get(c, "") for c in cols}, "lower_won": "yes" if int(r["lower_pts"]) > int(r["higher_pts"]) else "no",
+                     "kind": "Wide gap"} for r in rows)
+    print(f"{len(four) + len(rows)} games for the upset tracker")
 
 if __name__ == "__main__":
     main()

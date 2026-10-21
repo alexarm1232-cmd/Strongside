@@ -1,0 +1,213 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Strongside · Tournament Upsets</title>
+<style>
+  :root {
+    --bg: #f5f3f3;
+    --surface: #ffffff;
+    --surface-2: #faf7f7;
+    --ink: #1b1819;
+    --ink-2: #454042;
+    --muted: #7a7376;
+    --line: #e6e1e2;
+    --accent: #9e1b32;
+    --accent-ink: #9e1b32;
+    --band-1: #9e1b32;
+    --band-2: #6d1022;
+    --loss: #dc2626;
+    --series-2: #7a8086;
+    --shadow: 0 1px 2px rgba(27, 24, 25, .06), 0 8px 24px rgba(27, 24, 25, .06);
+  }
+  :root[data-theme="dark"] {
+    --bg: #111011;
+    --surface: #1a191a;
+    --surface-2: #222021;
+    --ink: #f3f0f0;
+    --ink-2: #cfc9cb;
+    --muted: #958e91;
+    --line: #2f2c2d;
+    --accent: #c22a46;
+    --accent-ink: #ee7189;
+    --band-1: #8a172b;
+    --band-2: #4d0b18;
+    --loss: #f87171;
+    --series-2: #9aa0a6;
+    --shadow: 0 1px 2px rgba(0, 0, 0, .5), 0 8px 24px rgba(0, 0, 0, .35);
+  }
+  @media (prefers-color-scheme: dark) {
+    :root:not([data-theme="light"]) {
+      --bg: #111011;
+      --surface: #1a191a;
+      --surface-2: #222021;
+      --ink: #f3f0f0;
+      --ink-2: #cfc9cb;
+      --muted: #958e91;
+      --line: #2f2c2d;
+      --accent: #c22a46;
+      --accent-ink: #ee7189;
+      --band-1: #8a172b;
+      --band-2: #4d0b18;
+      --loss: #f87171;
+      --series-2: #9aa0a6;
+      --shadow: 0 1px 2px rgba(0, 0, 0, .5), 0 8px 24px rgba(0, 0, 0, .35);
+    }
+  }
+  /* the tracker's own names for colours and sizes, in Strongside's colours */
+  :root {
+    --font-anthropic-sans: "Segoe UI Variable Text", "Segoe UI", system-ui, -apple-system, Roboto, "Helvetica Neue", Arial, sans-serif;
+    --font-anthropic-serif: var(--font-anthropic-sans);
+    --color-fg: var(--ink); --color-fg-muted: var(--muted); --color-bg: var(--bg); --color-panel: var(--surface);
+    --color-border-line: var(--line); --color-bad: var(--loss);
+    --cds-chart-grid: var(--line); --cds-chart-reference: var(--muted); --cds-chart-muted: var(--muted); --cds-chart-axis: var(--muted);
+    --cds-surface-popover: var(--surface); --cds-border: var(--line); --cds-shadow-popover: var(--shadow); --cds-text-secondary: var(--muted);
+    --cds-radius: 12px; --cds-font-size-title: 26px; --cds-font-size-heading: 17px; --cds-font-size-body: 15px; --cds-font-size-caption: 13px;
+    --cds-font-weight-medium: 650; --cds-gap-xs: 4px; --cds-gap-sm: 8px; --cds-gap-md: 14px; --cds-gap-lg: 22px;
+    --cds-pad-xs: 4px; --cds-pad-sm: 8px; --cds-pad-md: 12px; --cds-pad-lg: 18px; --cds-dur-slow: .3s;
+  }
+
+  * { box-sizing: border-box; }
+  html { -webkit-text-size-adjust: 100%; }
+  body {
+    margin: 0;
+    background: var(--bg);
+    color: var(--ink);
+    font: 15px/1.45 "Segoe UI Variable Text", "Segoe UI", system-ui, -apple-system, Roboto, "Helvetica Neue", Arial, sans-serif;
+  }
+  button, input, select { font: inherit; color: inherit; }
+  .wrap { max-width: 1280px; margin: 0 auto; padding: 0 20px; }
+  main.wrap { padding-top: 22px; padding-bottom: 40px; }
+
+  /* ---------- Header band (as on the season pages) ---------- */
+  .band {
+    background:
+      radial-gradient(800px 240px at 88% -60%, rgba(255, 255, 255, .16), transparent 70%),
+      linear-gradient(135deg, var(--band-1), var(--band-2));
+    color: #fff;
+    padding: 22px 0;
+    border-bottom: 3px solid #fff;
+    box-shadow: 0 3px 0 var(--line);
+  }
+  .band-top { display: flex; align-items: center; gap: 14px; }
+  .logo { width: 44px; height: 44px; flex: none; }
+  .brand { font-size: 28px; font-weight: 750; letter-spacing: -.02em; line-height: 1.1; }
+  .brand span { font-weight: 400; opacity: .82; }
+  .tagline { color: rgba(255, 255, 255, .78); font-size: 14px; margin-top: 2px; }
+  .theme-btn {
+    margin-left: 14px; width: 38px; height: 38px; border-radius: 10px; flex: none;
+    border: 1px solid rgba(255, 255, 255, .3); background: rgba(255, 255, 255, .1); color: #fff;
+    cursor: pointer; display: grid; place-items: center;
+  }
+  .theme-btn:hover { background: rgba(255, 255, 255, .2); }
+  .theme-btn svg { width: 18px; height: 18px; }
+  #theme { margin-left: auto; }
+  .menu-wrap { position: relative; flex: none; }
+  .menu-btn { margin-left: 0; }
+  .menu {
+    position: absolute; top: 46px; left: 0; z-index: 20; min-width: 190px; padding: 6px;
+    background: var(--surface); border: 1px solid var(--line); border-radius: 12px; box-shadow: var(--shadow);
+  }
+  .menu a { display: block; padding: 9px 12px; border-radius: 8px; color: var(--ink); text-decoration: none; font-weight: 600; }
+  .menu a:hover { background: var(--surface-2); }
+  .menu a[aria-current="page"] { color: var(--accent-ink); }
+  .dash-skeleton { color: var(--muted); }
+  @media (max-width: 700px) {
+    .wrap { padding: 0 12px; }
+    .band { padding: 12px 0; }
+    .band-top { gap: 10px; }
+    .logo { width: 34px; height: 34px; }
+    .brand { font-size: 22px; }
+    .tagline { display: none; }
+    .theme-btn { width: 36px; height: 36px; }
+  }
+</style>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.8.5/d3.min.js"></script>
+</head>
+<body>
+
+<header class="band">
+  <div class="wrap band-top">
+    <div class="menu-wrap">
+      <button class="theme-btn menu-btn" id="menu-btn" title="Menu" aria-label="Menu" aria-haspopup="true" aria-expanded="false">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><path d="M4 6.5h16M4 12h16M4 17.5h16"/></svg>
+      </button>
+      <nav class="menu" id="menu" hidden>
+        <a href="dashboard.html#">Team stats</a>
+        <a href="dashboard.html#scatter">Team scatter</a>
+        <a href="dashboard.html#sim">Game sim</a>
+        <a href="dashboard.html#bracket">Tournament sim</a>
+        <a href="dashboard.html#picker">Champion picker</a>
+        <a href="upsets.html" aria-current="page">Tournament upsets</a>
+        <a href="dashboard.html#guide">Stat guide</a>
+      </nav>
+    </div>
+    <svg class="logo" viewBox="0 0 48 48" aria-hidden="true">
+      <circle cx="24" cy="24" r="21" fill="#fff"/>
+      <g fill="none" stroke="#9e1b32" stroke-width="2.4" stroke-linecap="round">
+        <path d="M3.5 24h41M24 3.5v41"/>
+        <path d="M9.5 8.5c7 6 7 25 0 31M38.5 8.5c-7 6-7 25 0 31"/>
+      </g>
+    </svg>
+    <div>
+      <div class="brand">Strong<span>side</span></div>
+      <div class="tagline">College basketball efficiency ratings</div>
+    </div>
+    <button class="theme-btn" id="theme" title="Switch light / dark" aria-label="Switch light or dark theme">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M21 12.8A9 9 0 1 1 11.2 3a7 7 0 0 0 9.8 9.8z"/></svg>
+    </button>
+  </div>
+</header>
+
+<main class="wrap" id="dash-root">
+<script>
+// The tracker below was written for a claude.ai dashboard, which hands its code a `dash` object for its data. This is
+// that object for the website: the three data files are built into the page (tools/make_upset_page.py), and the
+// figures worked out from them (dash.calc) are worked out here, once.
+const UPSET_DATA = __DATA__;
+window.dash = (() => {
+  const calcs = {}, done = {}, draws = [];
+  const get = (id) => {
+    if (id in done) return done[id];
+    if (id in UPSET_DATA) return (done[id] = UPSET_DATA[id]);
+    const c = calcs[id];
+    return (done[id] = c ? c.fn(...c.inputs.map(get)) : []);
+  };
+  let width = innerWidth;
+  addEventListener('resize', () => { if (innerWidth !== width) { width = innerWidth; draws.forEach((fn) => fn()); } });
+  return {
+    data: (id) => { const data = get(id); return { status: 'ok', data, columns: data.length ? Object.keys(data[0]) : [], refreshing: false, meta: [] }; },
+    calc: (id, spec) => { calcs[id] = spec; },
+    loader: () => {},
+    onData: (fn) => { draws.push(fn); fn(); },
+    colors: ['var(--accent)', 'var(--series-2)', '#d97706', '#2563eb', '#0d9488', '#7c3aed', '#db2777', '#65a30d'],
+    setLink: (name) => { try { history.replaceState(null, '', name === 'overview' ? location.pathname : '#' + name); } catch (e) {} },
+    params: () => ({}), setParams: () => {}, resetParams: () => {}, refresh: () => {},
+  };
+})();
+</script>
+__TRACKER__
+</main>
+
+<script>
+(function header() {
+  const $ = (id) => document.getElementById(id), root = document.documentElement;
+  $('menu-btn').addEventListener('click', (e) => {
+    e.stopPropagation();
+    $('menu').hidden = !$('menu').hidden;
+    $('menu-btn').setAttribute('aria-expanded', String(!$('menu').hidden));
+  });
+  document.addEventListener('click', () => { $('menu').hidden = true; $('menu-btn').setAttribute('aria-expanded', 'false'); });
+  let saved = null;
+  try { saved = localStorage.getItem('strongside-theme'); } catch (e) {}
+  if (saved) root.dataset.theme = saved;
+  $('theme').addEventListener('click', () => {
+    const dark = root.dataset.theme ? root.dataset.theme === 'dark' : matchMedia('(prefers-color-scheme: dark)').matches;
+    root.dataset.theme = dark ? 'light' : 'dark';
+    try { localStorage.setItem('strongside-theme', root.dataset.theme); } catch (e) {}
+  });
+})();
+</script>
+</body>
+</html>

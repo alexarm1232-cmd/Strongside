@@ -15,6 +15,7 @@ cbbd_key.txt*
 /dashboard/*
 !/dashboard/*.py
 !/dashboard/dashboard_template.html
+!/dashboard/upsets_template.html
 !/dashboard/logos/
 
 /.claude/
