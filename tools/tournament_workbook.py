@@ -2,7 +2,6 @@ import os
 import csv
 from openpyxl import Workbook
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
-from openpyxl.formatting.rule import ColorScaleRule, FormulaRule
 from openpyxl.utils import get_column_letter
 from upset_high_seeds import seasons, ROUNDS
 
@@ -12,11 +11,11 @@ from upset_high_seeds import seasons, ROUNDS
 #           reports/tournament_spreads.csv (BetIQ; minus = the team was the favorite). First Four included.
 # B Teams   every tournament team: seed, exit round, November record and November record against that season's
 #           pre-tournament top 40 (by Strongside net rating), laid out like reports/upset_high_seeds.xlsx, with Era
-#           (pre/post NIL) and Half (first/second half of the years) columns to filter on; the totals follow the filter.
-# C pages   win % and games by closing spread (rows) and round (columns), counted live from A Games with COUNTIFS,
-#           one page per split: all years, pre-NIL (2010-2021 tournaments), post-NIL (2022 on; NIL began July 2021),
-#           first half (2010-2017) and second half (2018-2026).
-# Writes reports/tournament_workbook.xlsx.
+#           (pre/post NIL) and Half (first/second half of the years) columns to filter on and totals for each split.
+# C pages   win % and games by closing spread (rows) and round (columns), one page per split: all years, pre-NIL
+#           (2010-2021 tournaments), post-NIL (2022 on; NIL began July 2021), first half (2010-2017), second half (2018-2026).
+# Everything is written as plain values with the colours filled in (no formulas or conditional formats), so the sheets
+# read the same in any viewer, including ones that don't calculate. Writes reports/tournament_workbook.xlsx.
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 REPORTS = os.path.join(ROOT, "reports")
@@ -36,8 +35,25 @@ font = lambda **k: Font(name="Arial", **k)
 HEAD_FILL = PatternFill("solid", fgColor="14213D")
 thin = Side(style="thin", color="D5D9E0")
 LOW, MID, HIGH = "A3A8B0", "F4F2EF", "EDBBA0"      # the gradient: grey (low) -> off-white -> peach (high)
+YELLOW, ORANGE, RED = "FFF2A8", "FFC98B", "F4A6A6"
 era = lambda y: "Pre-NIL" if y < NIL else "Post-NIL"
 half = lambda y: "First half" if y < HALF else "Second half"
+_fills = {}
+
+def shade(x, lo, mid, hi):
+    """The gradient's fill for x on a lo / mid / hi scale (clamped at the ends)."""
+    a, b, f = (LOW, MID, (x - lo) / (mid - lo)) if x <= mid else (MID, HIGH, (x - mid) / (hi - mid))
+    f = min(max(f, 0), 1)
+    rgb = "".join(f"{round(int(a[i:i + 2], 16) + (int(b[i:i + 2], 16) - int(a[i:i + 2], 16)) * f):02X}" for i in (0, 2, 4))
+    if rgb not in _fills: _fills[rgb] = PatternFill("solid", fgColor=rgb)
+    return _fills[rgb]
+
+def flag(nov_l, top40_games):
+    """B's highlight: red = both, yellow = 2+ November losses, orange = no November games vs the top 40."""
+    if nov_l >= 2 and top40_games == 0: return RED
+    if nov_l >= 2: return YELLOW
+    if top40_games == 0: return ORANGE
+    return None
 
 def game_rows():
     spreads = {r["game_id"]: r for r in csv.DictReader(open(os.path.join(REPORTS, "tournament_spreads.csv"), encoding="utf-8"))}
@@ -97,42 +113,39 @@ def sheet_a(wb, rows):
     ws = wb.create_sheet("A Games")
     title(ws, "Every NCAA tournament game from both sides, 2010–2026",
           "Each game is listed twice: once as the winner vs the loser, once the other way round. Closing spread from that team's side "
-          "(minus = favorite; BetIQ). Minutes 1–40: the team's score margin at the end of each minute (plus = ahead). First Four included.")
+          "(minus = favorite; BetIQ). Minutes 1–40: the team's score margin at the end of each minute (plus = ahead), shaded grey "
+          "(behind) to peach (ahead). First Four included.")
     head = ["Year", "Date", "Round", "Team", "Seed", "Opponent", "Opp seed", "Closing spread", "Result", "Score", "Final margin", "OT",
             *[f"Min {i}" for i in range(1, 41)]]
     H = 4
     header(ws, H, head, 33)
+    small, center = font(size=10), Alignment(horizontal="center")
     for i, r in enumerate(rows):
         n = H + 1 + i
         for j, v in enumerate(r, 1):
             c = ws.cell(row=n, column=j, value=v)
-            c.font = font(size=10)
+            c.font = small
             if j == 8: c.number_format = '+0.0;−0.0;0.0'
-            if j == 11 or j > 12: c.number_format = '+0;−0;0'
-            if j not in (2, 4, 6): c.alignment = Alignment(horizontal="center")
+            if j == 11 or j > 12:
+                c.number_format = '+0;−0;0'
+                if j > 12: c.fill = shade(v, -20, 0, 20)
+            if j not in (2, 4, 6): c.alignment = center
     last = H + len(rows)
-    # minute margins shaded grey (behind) to peach (ahead)
-    ws.conditional_formatting.add(f"M{H + 1}:{get_column_letter(len(head))}{last}",
-                                  ColorScaleRule(start_type="num", start_value=-20, start_color=LOW,
-                                                 mid_type="num", mid_value=0, mid_color=MID,
-                                                 end_type="num", end_value=20, end_color=HIGH))
     for j, w in enumerate([7, 11, 13, 18, 6, 18, 7, 9, 7, 8, 8, 5], 1):
         ws.column_dimensions[get_column_letter(j)].width = w
     for j in range(13, len(head) + 1):
         ws.column_dimensions[get_column_letter(j)].width = 6
     ws.freeze_panes = f"E{H + 1}"
     ws.auto_filter.ref = f"A{H}:{get_column_letter(len(head))}{last}"
-    return last
 
 def sheet_b(wb, rows):
     """Laid out like reports/upset_high_seeds.xlsx; Era and Half are there to filter on."""
     ws = wb.create_sheet("B Teams")
-    yellow, orange, red = "FFF2A8", "FFC98B", "F4A6A6"
     title(ws, "Every NCAA tournament team, 2010–2026",
           f"{len(rows)} teams (First Four included). November = the team's games in November of that season. Top 40 = that season's "
           "pre-tournament top 40 by Strongside net rating; the top-40 record counts November games only. Filter on Era (NIL began July 2021) "
-          f"or Half (first half 2010–{HALF - 1}, second half {HALF}–2026); the totals under the table follow the filter.")
-    key = [("Key:", None), ("2+ November losses", yellow), ("No November games vs top 40 (not battle tested)", orange), ("Both", red)]
+          f"or Half (first half 2010–{HALF - 1}, second half {HALF}–2026); totals for each split are under the table.")
+    key = [("Key:", None), ("2+ November losses", YELLOW), ("No November games vs top 40 (not battle tested)", ORANGE), ("Both", RED)]
     for i, (text, fill) in enumerate(key):
         c = ws.cell(row=3, column=1 + i * 2, value=text)
         c.font = font(size=9, bold=fill is None)
@@ -143,124 +156,110 @@ def sheet_b(wb, rows):
     header(ws, H, head, 48.75)
     for i, (year, exit_, seed, name, tw, tl, nw, nl, vw, vl) in enumerate(rows):
         n = H + 1 + i
-        for j, v in enumerate([year, exit_, seed, name, era(year), half(year), f"{tw}-{tl}", nw, nl, None, vw, vl], 1):
-            if v is not None: ws.cell(row=n, column=j, value=v)
-        ws.cell(row=n, column=10, value=f'=H{n}&"-"&I{n}')            # November record, e.g. 6-1
-        ws.cell(row=n, column=13, value=f'=K{n}&"-"&L{n}')            # record vs top 40, e.g. 3-5
-        ws.cell(row=n, column=14, value=f"=K{n}+L{n}")
-        for j in range(1, len(head) + 1):
-            c = ws.cell(row=n, column=j)
+        colour = flag(nl, vw + vl)
+        fill = PatternFill("solid", fgColor=colour) if colour else None
+        for j, v in enumerate([year, exit_, seed, name, era(year), half(year), f"{tw}-{tl}", nw, nl, f"{nw}-{nl}",
+                               vw, vl, f"{vw}-{vl}", vw + vl], 1):
+            c = ws.cell(row=n, column=j, value=v)
             c.font = font(size=10)
             c.border = Border(bottom=thin)
             c.alignment = Alignment(horizontal="left" if j in (2, 4, 5, 6) else "center")
-    first, last = H + 1, H + len(rows)
-    rng = f"A{first}:{get_column_letter(len(head))}{last}"
-    # the row colours follow the numbers: red first, so a team meeting both rules is red
-    ws.conditional_formatting.add(rng, FormulaRule(formula=[f"AND($I{first}>=2,$N{first}=0)"], fill=PatternFill("solid", fgColor=red, bgColor=red), stopIfTrue=True))
-    ws.conditional_formatting.add(rng, FormulaRule(formula=[f"$I{first}>=2"], fill=PatternFill("solid", fgColor=yellow, bgColor=yellow), stopIfTrue=True))
-    ws.conditional_formatting.add(rng, FormulaRule(formula=[f"$N{first}=0"], fill=PatternFill("solid", fgColor=orange, bgColor=orange), stopIfTrue=True))
-    # totals under the table, counting only the rows the filter shows (SUBTOTAL skips hidden rows)
-    shown = lambda col: f"SUBTOTAL(103,OFFSET({col}{first},ROW({col}{first}:{col}{last})-ROW({col}{first}),0))"
+            if fill: c.fill = fill
+    last = H + len(rows)
+    # totals for each split, side by side under the table
     t = last + 2
-    ws.cell(row=t, column=1, value="Totals (rows shown)")
-    ws.cell(row=t, column=4, value=f"=SUBTOTAL(103,D{first}:D{last})&\" teams\"")
-    for col in "HIKL":
-        ws[f"{col}{t}"] = f"=SUBTOTAL(109,{col}{first}:{col}{last})"
-    ws[f"J{t}"], ws[f"M{t}"], ws[f"N{t}"] = f'=H{t}&"-"&I{t}', f'=K{t}&"-"&L{t}', f"=K{t}+L{t}"
-    ws.cell(row=t + 1, column=1, value="Teams with 2+ November losses")
-    ws.cell(row=t + 1, column=9, value=f"=SUMPRODUCT({shown('I')}*(I{first}:I{last}>=2))")
-    ws.cell(row=t + 2, column=1, value="Teams with no November games vs top 40")
-    ws.cell(row=t + 2, column=14, value=f"=SUMPRODUCT({shown('N')}*(K{first}:K{last}+L{first}:L{last}=0))")
-    ws.cell(row=t + 3, column=1, value="Both")
-    ws.cell(row=t + 3, column=14, value=f"=SUMPRODUCT({shown('N')}*(I{first}:I{last}>=2)*(K{first}:K{last}+L{first}:L{last}=0))")
-    for rr in range(t, t + 4):
-        for j in range(1, len(head) + 1):
-            c = ws.cell(row=rr, column=j)
-            c.font = font(size=10, bold=rr == t)
-            if j > 4: c.alignment = Alignment(horizontal="center")
+    sub = ["Totals", "Teams", "", "", "", "", "", "Nov W", "Nov L", "November record", "Nov top-40 W", "Nov top-40 L",
+           "November record vs top 40", "Nov top-40 games"]
+    header(ws, t, sub, 33)
+    for k, (split, y0, y1) in enumerate(SPLITS):
+        n = t + 1 + k
+        sel = [r for r in rows if y0 <= r[0] <= y1]
+        nw, nl, vw, vl = (sum(r[i] for r in sel) for i in (6, 7, 8, 9))
+        for j, v in enumerate([f"{split} ({y0}–{y1})", len(sel), "", "", "", "", "", nw, nl, f"{nw}-{nl}", vw, vl, f"{vw}-{vl}", vw + vl], 1):
+            c = ws.cell(row=n, column=j, value=v)
+            c.font = font(size=10, bold=j == 1)
+            c.border = Border(bottom=thin)
+            c.alignment = Alignment(horizontal="left" if j == 1 else "center")
+    t2 = t + len(SPLITS) + 2
+    header(ws, t2, ["Highlighted teams", "Teams", "2+ November losses", "No November games vs top 40", "Both", "", "", "", "", "", "", "", "", ""], 33)
+    for k, (split, y0, y1) in enumerate(SPLITS):
+        n = t2 + 1 + k
+        sel = [r for r in rows if y0 <= r[0] <= y1]
+        counts = [len(sel), sum(r[7] >= 2 for r in sel), sum(r[8] + r[9] == 0 for r in sel),
+                  sum(r[7] >= 2 and r[8] + r[9] == 0 for r in sel)]
+        for j, v in enumerate([f"{split} ({y0}–{y1})"] + counts, 1):
+            c = ws.cell(row=n, column=j, value=v)
+            c.font = font(size=10, bold=j == 1)
+            c.border = Border(bottom=thin)
+            c.alignment = Alignment(horizontal="left" if j == 1 else "center")
+    ws.cell(row=t2 + len(SPLITS) + 1, column=1,
+            value="The 2+ losses and no-top-40 counts each include the teams in Both.").font = font(size=9, italic=True)
     widths = [10.9, 16, 17.7, 19, 12, 13, 11.6, 9.7, 11.6, 15.3, 13.6, 13.6, 15.3, 13.6]
-    for j, w in enumerate(widths, 1):
+    ws.column_dimensions["A"].width = 24                 # wide enough for the split names in the totals
+    for j, w in enumerate(widths[1:], 2):
         ws.column_dimensions[get_column_letter(j)].width = w
     ws.freeze_panes = f"A{H + 1}"
     ws.auto_filter.ref = f"A{H}:{get_column_letter(len(head))}{last}"
 
-def sheet_c(wb, split, y0, y1, a_last):
+def sheet_c(wb, split, y0, y1, games):
     ws = wb.create_sheet(f"C {split}")
     years = f"{y0}–{y1}" + (" (no 2020 tournament)" if y0 <= 2020 <= y1 else "")
     title(ws, f"Win % by closing spread and round — {split.lower()}, {years}",
           "Straight-up wins, not covers. Spread from the team's side (minus = favorite). Every game counts twice, once from each side, "
-          "so each row mirrors its opposite (−9.9 to −5 wins = +5 to +9.9 losses). Counted live from A Games for the years in C3:D3.")
-    ws["A3"], ws["B3"], ws["C3"], ws["D3"] = "Years", "from / to", y0, y1
-    for c in ("A3", "B3", "C3", "D3"):
-        ws[c].font = font(size=10, bold=c in ("A3", "C3", "D3"))
-    rng = lambda col: f"'A Games'!${col}$5:${col}${a_last}"
-    year, rounds, spread, result = rng("A"), rng("C"), rng("H"), rng("I")
+          "so each row mirrors its opposite (−9.9 to −5 wins = +5 to +9.9 losses).")
+    sel = [r for r in games if y0 <= r[0] <= y1]
     cols = ORDER + ["All rounds"]
-    H = 6
-    for c, h in ((1, "Closing spread"), (2, "From"), (3, "To")):
-        ws.merge_cells(start_row=H - 1, start_column=c, end_row=H, end_column=c)
-        ws.cell(row=H - 1, column=c, value=h)
+    H = 5
+    ws.merge_cells(start_row=H - 1, start_column=1, end_row=H, end_column=1)
+    ws.cell(row=H - 1, column=1, value="Closing spread")
     for k, rd in enumerate(cols):
-        j = 4 + 2 * k
+        j = 2 + 2 * k
         ws.merge_cells(start_row=H - 1, start_column=j, end_row=H - 1, end_column=j + 1)
         ws.cell(row=H - 1, column=j, value=rd)
         ws.cell(row=H, column=j, value="Win %")
         ws.cell(row=H, column=j + 1, value="Games")
-    width = 3 + 2 * len(cols)
+    width = 1 + 2 * len(cols)
     for r in (H - 1, H):
         for j in range(1, width + 1):
             c = ws.cell(row=r, column=j)
             c.font = font(bold=True, color="FFFFFF", size=10)
             c.fill = HEAD_FILL
             c.alignment = Alignment(horizontal="center", vertical="center", wrap_text=True)
-            c.border = Border(left=Side(style="thin", color="FFFFFF")) if j >= 4 and j % 2 == 0 else Border()
+            c.border = Border(left=Side(style="thin", color="FFFFFF")) if j >= 2 and j % 2 == 0 else Border()
     ws.row_dimensions[H - 1].height = 30
+    grid = [[[r for r in sel if lo <= r[7] <= hi and (rd == "All rounds" or r[2] == rd)] for rd in cols] for _, lo, hi in BUCKETS]
+    most = max(len(cell) for row in grid for cell in row[:-1]) or 1          # the All rounds column has its own scale
+    most_all = max(len(row[-1]) for row in grid) or 1
     for i, (label, lo, hi) in enumerate(BUCKETS):
         n = H + 1 + i
-        ws.cell(row=n, column=1, value=label)
-        ws.cell(row=n, column=2, value=lo)
-        ws.cell(row=n, column=3, value=hi)
-        for k, rd in enumerate(cols):
-            j = 4 + 2 * k
-            G, W = get_column_letter(j + 1), get_column_letter(j)
-            where = (f'{year},">="&$C$3,{year},"<="&$D$3,{spread},">="&$B{n},{spread},"<="&$C{n}'
-                     + (f',{rounds},{W}${H - 1}' if rd != "All rounds" else ""))
-            ws.cell(row=n, column=j + 1, value=f"=COUNTIFS({where})")
-            ws.cell(row=n, column=j, value=f'=IF({G}{n}=0,"–",COUNTIFS({where},{result},"W")/{G}{n})').number_format = "0%"
-        for j in range(1, width + 1):
-            c = ws.cell(row=n, column=j)
-            c.font = font(size=10, bold=j == 1, color="8A8F98" if j in (2, 3) else None)
-            c.border = Border(bottom=thin, left=Side(style="thin", color="D5D9E0") if j >= 4 and j % 2 == 0 else None)
-            c.alignment = Alignment(horizontal="left" if j == 1 else "center")
+        c = ws.cell(row=n, column=1, value=label)
+        c.font, c.alignment, c.border = font(size=10, bold=True), Alignment(horizontal="left"), Border(bottom=thin)
+        for k, cell in enumerate(grid[i]):
+            j = 2 + 2 * k
+            wins = sum(r[8] == "W" for r in cell)
+            pct = ws.cell(row=n, column=j, value=wins / len(cell) if cell else "–")
+            cnt = ws.cell(row=n, column=j + 1, value=len(cell))
+            pct.number_format = "0%"
+            pct.fill = shade(wins / len(cell), 0, 0.5, 1) if cell else shade(0.5, 0, 0.5, 1)
+            top = most_all if k == len(cols) - 1 else most
+            cnt.fill = shade(len(cell) / top, -1, 0, 1)
+            for c in (pct, cnt):
+                c.font = font(size=10, color="8A8F98" if not cell else None)
+                c.alignment = Alignment(horizontal="center")
+                c.border = Border(bottom=Side(style="thin", color="FFFFFF"), left=Side(style="thin", color="FFFFFF"))
         ws.row_dimensions[n].height = 22
     last = H + len(BUCKETS)
     t = last + 1
     ws.cell(row=t, column=1, value="All spreads").font = font(bold=True, size=10)
     for k in range(len(cols)):
-        G = get_column_letter(5 + 2 * k)
-        c = ws.cell(row=t, column=5 + 2 * k, value=f"=SUM({G}{H + 1}:{G}{last})")
+        c = ws.cell(row=t, column=3 + 2 * k, value=sum(len(row[k]) for row in grid))
         c.font, c.alignment = font(bold=True, size=10), Alignment(horizontal="center")
-    # gradients on every cell: win % 0% grey -> 50% off-white -> 100% peach (the same scale everywhere);
-    # games off-white -> peach, from none to the most games in any one cell (the All rounds column on its own scale)
-    for k in range(len(cols)):
-        W = get_column_letter(4 + 2 * k)
-        ws.conditional_formatting.add(f"{W}{H + 1}:{W}{last}",
-                                      ColorScaleRule(start_type="num", start_value=0, start_color=LOW,
-                                                     mid_type="num", mid_value=0.5, mid_color=MID,
-                                                     end_type="num", end_value=1, end_color=HIGH))
-    games_cells = " ".join(f"{get_column_letter(5 + 2 * k)}{H + 1}:{get_column_letter(5 + 2 * k)}{last}" for k in range(len(cols) - 1))
-    ws.conditional_formatting.add(games_cells, ColorScaleRule(start_type="num", start_value=0, start_color=MID,
-                                                              end_type="max", end_color=HIGH))
-    G = get_column_letter(width)
-    ws.conditional_formatting.add(f"{G}{H + 1}:{G}{last}", ColorScaleRule(start_type="num", start_value=0, start_color=MID,
-                                                                          end_type="max", end_color=HIGH))
     ws.column_dimensions["A"].width = 16
-    ws.column_dimensions["B"].width = ws.column_dimensions["C"].width = 6
-    for j in range(4, width + 1):
+    for j in range(2, width + 1):
         ws.column_dimensions[get_column_letter(j)].width = 9 if j % 2 == 0 else 7
     ws.cell(row=t + 2, column=1, value="Win % is shaded grey (0%) through off-white (50%) to peach (100%); games are shaded off-white to peach "
                                        "by how many there are; – = no games. Cells with few games are noisy.").font = font(size=9, italic=True)
-    ws.freeze_panes = f"D{H + 1}"
+    ws.freeze_panes = f"B{H + 1}"
 
 def readme(wb, n_games, n_teams):
     ws = wb.active
@@ -270,7 +269,7 @@ def readme(wb, n_games, n_teams):
              ("", False),
              ("A Games — every game from both sides, with the team's closing spread and its margin at minutes 1–40.", False),
              ("B Teams — every tournament team: seed, exit round, November record and November record vs the top 40.", False),
-             ("    Filter on Era (Pre-NIL / Post-NIL) or Half (First half / Second half); the totals follow the filter.", False),
+             ("    Filter on Era (Pre-NIL / Post-NIL) or Half (First half / Second half); totals for each split are under the table.", False),
              ("C pages — win % and games by closing spread and round, all shaded, one page per split:", False),
              ("    All years · Pre-NIL (2010–2021) · Post-NIL (2022–2026; NIL began July 2021) · "
               f"First half (2010–{HALF - 1}) · Second half ({HALF}–2026)", False),
@@ -288,10 +287,10 @@ def main():
     teams = team_rows(games)
     wb = Workbook()
     readme(wb, len(games) // 2, len(teams))
-    a_last = sheet_a(wb, games)
+    sheet_a(wb, games)
     sheet_b(wb, teams)
     for split, y0, y1 in SPLITS:
-        sheet_c(wb, split, y0, y1, a_last)
+        sheet_c(wb, split, y0, y1, games)
     path = os.path.join(REPORTS, "tournament_workbook.xlsx")
     wb.save(path)
     print(f"{len(games)} game rows, {len(teams)} team rows -> {path}")
