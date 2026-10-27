@@ -6,8 +6,9 @@ from openpyxl.utils import get_column_letter
 from upset_high_seeds import seasons, ROUNDS
 
 # Every NCAA tournament game 2010-2026, from both sides:   python tools/tournament_workbook.py
-# A Games   each game twice (X vs Y with X's closing spread, then Y vs X with Y's), with the team's margin at minutes 1-40
-#           (from reports/pdem_all_ncaa_tournament.csv; plus = the team was ahead) and the closing line from
+# A Games   each game as two rows side by side (X vs Y with X's closing spread, then Y vs X with Y's), with the team's margin
+#           at the end of every minute, overtimes included (from reports/pdem_all_ncaa_tournament.csv, turned from the lower
+#           seed's side to the team's; plus = the team was ahead) and the closing line from
 #           reports/tournament_spreads.csv (BetIQ; minus = the team was the favorite). First Four included.
 # B Teams   every tournament team: seed, exit round, November record and November record against that season's
 #           pre-tournament top 40 (by Strongside net rating), laid out like reports/upset_high_seeds.xlsx, with Era
@@ -30,6 +31,10 @@ BUCKETS = [("−25+", -99, -25), ("−24.9 to −20", -24.9, -20), ("−19.9 to 
            ("−9.9 to −5", -9.9, -5), ("−4.9 to −0.1", -4.9, -0.1), ("Pick'em (0)", 0, 0), ("+0.1 to +4.9", 0.1, 4.9),
            ("+5 to +9.9", 5, 9.9), ("+10 to +14.9", 10, 14.9), ("+15 to +19.9", 15, 19.9), ("+20 to +24.9", 20, 24.9),
            ("+25+", 25, 99)]
+
+MINUTES = 50                     # regulation plus two overtimes, the longest tournament game here
+OT_LABEL = {45: "1 OT", 50: "2 OT"}
+MINUTE_HEADS = [f"Min {i}" for i in range(1, 41)] + [f"OT{(i - 41) // 5 + 1} min {(i - 41) % 5 + 1}" for i in range(41, MINUTES + 1)]
 
 font = lambda **k: Font(name="Arial", **k)
 HEAD_FILL = PatternFill("solid", fgColor="14213D")
@@ -57,19 +62,26 @@ def flag(nov_l, top40_games):
 
 def game_rows():
     spreads = {r["game_id"]: r for r in csv.DictReader(open(os.path.join(REPORTS, "tournament_spreads.csv"), encoding="utf-8"))}
-    rows = []
+    pairs = []
     for g in csv.DictReader(open(os.path.join(REPORTS, "pdem_all_ncaa_tournament.csv"), encoding="utf-8")):
         s = spreads[g["game_id"]]
         wp, lp = int(g["winner_pts"]), int(g["loser_pts"])
-        margins = [int(g[f"m{i}"]) for i in range(1, 41)]
+        minutes = int(g["minutes"])
+        # PDEM margins are from the lower seed's side (the winner's when the seeds are equal); turn them to the winner's side.
+        # Minutes 1-40, then each overtime's five minutes (41-45, 46-50); blank where the game didn't go that long.
+        side = 1 if int(g["final_margin"]) > 0 else -1
+        margins = [side * int(g[f"m{i}"]) if i <= minutes else None for i in range(1, MINUTES + 1)]
+        pair = []
         for team, opp, seed, oseed, sign, pts, opts in ((g["winner"], g["loser"], g["winner_seed"], g["loser_seed"], 1, wp, lp),
                                                         (g["loser"], g["winner"], g["loser_seed"], g["winner_seed"], -1, lp, wp)):
             line = float(s["spread"]) if team == s["favorite"] else -float(s["spread"])
-            rows.append([int(g["date"][:4]), g["date"].replace("/", "-"), ROUND_NAMES[g["round"]], team, int(seed), opp, int(oseed),
-                         line + 0.0, "W" if sign == 1 else "L", f"{pts}-{opts}", pts - opts, "Yes" if int(g["minutes"]) > 40 else "",
-                         *[sign * m + 0 for m in margins]])
-    rows.sort(key=lambda r: (r[0], r[1], ORDER.index(r[2]), r[3]))
-    return rows
+            pair.append([int(g["date"][:4]), g["date"].replace("/", "-"), ROUND_NAMES[g["round"]], team, int(seed), opp, int(oseed),
+                         line + 0.0, "W" if sign == 1 else "L", f"{pts}-{opts}", pts - opts, OT_LABEL.get(minutes, ""),
+                         *[None if m is None else sign * m + 0 for m in margins]])
+        pairs.append(pair)
+    # each game's two rows stay together, the winner first
+    pairs.sort(key=lambda p: (p[0][0], p[0][1], ORDER.index(p[0][2]), min(p[0][3], p[1][3])))
+    return [row for pair in pairs for row in pair]
 
 def team_rows(games):
     """[year, exit round, seed, team, tourney W, tourney L, Nov W, Nov L, Nov top-40 W, Nov top-40 L]"""
@@ -112,14 +124,15 @@ def title(ws, text, note):
 def sheet_a(wb, rows):
     ws = wb.create_sheet("A Games")
     title(ws, "Every NCAA tournament game from both sides, 2010–2026",
-          "Each game is listed twice: once as the winner vs the loser, once the other way round. Closing spread from that team's side "
-          "(minus = favorite; BetIQ). Minutes 1–40: the team's score margin at the end of each minute (plus = ahead), shaded grey "
-          "(behind) to peach (ahead). First Four included.")
+          "Each game is two rows next to each other: the winner vs the loser, then the loser vs the winner. Closing spread from that team's side "
+          "(minus = favorite; BetIQ). Minutes: the team's point margin at the end of each minute (plus = ahead), shaded grey "
+          "(behind) to peach (ahead); overtime games carry on through each 5-minute overtime (blank if no overtime). First Four included.")
     head = ["Year", "Date", "Round", "Team", "Seed", "Opponent", "Opp seed", "Closing spread", "Result", "Score", "Final margin", "OT",
-            *[f"Min {i}" for i in range(1, 41)]]
+            *MINUTE_HEADS]
     H = 4
     header(ws, H, head, 33)
     small, center = font(size=10), Alignment(horizontal="center")
+    pair_line = Side(style="thin", color="8A8F98")
     for i, r in enumerate(rows):
         n = H + 1 + i
         for j, v in enumerate(r, 1):
@@ -128,13 +141,14 @@ def sheet_a(wb, rows):
             if j == 8: c.number_format = '+0.0;−0.0;0.0'
             if j == 11 or j > 12:
                 c.number_format = '+0;−0;0'
-                if j > 12: c.fill = shade(v, -20, 0, 20)
+                if j > 12 and v is not None: c.fill = shade(v, -20, 0, 20)
             if j not in (2, 4, 6): c.alignment = center
+            if i % 2: c.border = Border(bottom=pair_line)          # a line under each game's pair of rows
     last = H + len(rows)
     for j, w in enumerate([7, 11, 13, 18, 6, 18, 7, 9, 7, 8, 8, 5], 1):
         ws.column_dimensions[get_column_letter(j)].width = w
     for j in range(13, len(head) + 1):
-        ws.column_dimensions[get_column_letter(j)].width = 6
+        ws.column_dimensions[get_column_letter(j)].width = 6 if j < 53 else 8
     ws.freeze_panes = f"E{H + 1}"
     ws.auto_filter.ref = f"A{H}:{get_column_letter(len(head))}{last}"
 
