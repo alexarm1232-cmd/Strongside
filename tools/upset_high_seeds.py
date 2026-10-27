@@ -43,7 +43,7 @@ def main():
                      f'{g["lower_pts"]}–{g["higher_pts"]}', sum(x["pf"] > x["pa"] for x in nov), sum(x["pf"] < x["pa"] for x in nov),
                      None, sum(x["pf"] > x["pa"] for x in vs), sum(x["pf"] < x["pa"] for x in vs)])     # None: the record formula's column
     order = list(ROUNDS.values())
-    rows.sort(key=lambda r: (r[0], order.index(r[1]), r[2]))
+    rows.sort(key=lambda r: (-order.index(r[1]), r[0], r[2]))      # deepest exit round first, then year, then seed
 
     wb = Workbook()
     ws = wb.active
@@ -106,10 +106,11 @@ def main():
     for rr in range(t, t + 4):
         for j in range(1, len(head) + 1):
             ws.cell(row=rr, column=j).font = font(size=10, bold=rr == t)
-    widths = [7, 14, 6, 20, 9, 20, 9, 7, 7, 11, 9, 9, 11, 9]
+    widths = [10.9, 16, 17.7, 19, 40.3, 16.7, 11.6, 9.7, 11.6, 15.3, 13.6, 13.6, 15.3, 13.6]
     for j, w in enumerate(widths, 1):
         ws.column_dimensions[get_column_letter(j)].width = w
-    ws.row_dimensions[H].height = 32
+    ws.row_dimensions[1].height = 16.5
+    ws.row_dimensions[H].height = 48.75
     ws.freeze_panes = f"A{H + 1}"
     ws.auto_filter.ref = f"A{H}:{get_column_letter(len(head))}{last}"
     path = os.path.join(REPORTS, "upset_high_seeds.xlsx")
