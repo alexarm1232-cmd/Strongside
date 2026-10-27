@@ -5,7 +5,7 @@ import sys
 import json
 import glob
 
-# PDEM, point difference each minute: a game's margin at the end of every minute played (minute 0 is the tip, 40 the
+# PMPM, point margin per minute: a game's margin at the end of every minute played (minute 0 is the tip, 40 the
 # end of regulation, each overtime five more). In a tournament game between two seeds it is from the lower seed's side
 # (the bigger seed number): minus while the lower seed is behind, plus while it is ahead. Otherwise it is from the
 # eventual winner's side.

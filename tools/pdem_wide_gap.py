@@ -6,7 +6,7 @@ import pdem_ratings
 # gap of 10+ or a closing line of 7+ points.   python tools/pdem_wide_gap.py
 # Reads reports/tournament_games_model.csv (tools/pdem_ratings.py) and reports/pdem_all_ncaa_tournament.csv (tools/pdem.py)
 # and writes reports/pdem_wide_gap.csv: one row per game from the lower seed's side (the winner's when the seeds are
-# equal, as in the PDEM files), with both teams' net ratings going in, the closing line, the score, whether it was an
+# equal, as in the PMPM files), with both teams' net ratings going in, the closing line, the score, whether it was an
 # upset (different seeds and the lower seed won; equal seeds never are) and the margin after each minute, m0-m50.
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))

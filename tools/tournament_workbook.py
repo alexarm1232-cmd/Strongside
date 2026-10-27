@@ -34,7 +34,7 @@ BUCKETS = [("−25+", -99, -25), ("−24.9 to −20", -24.9, -20), ("−19.9 to 
 
 MINUTES = 50                     # regulation plus two overtimes, the longest tournament game here
 OT_LABEL = {45: "1 OT", 50: "2 OT"}
-MINUTE_HEADS = [f"Min {i}" for i in range(1, 41)] + [f"OT{(i - 41) // 5 + 1} min {(i - 41) % 5 + 1}" for i in range(41, MINUTES + 1)]
+MINUTE_HEADS = [f"PMPM {i}" for i in range(1, 41)] + [f"PMPM OT{(i - 41) // 5 + 1}-{(i - 41) % 5 + 1}" for i in range(41, MINUTES + 1)]
 
 font = lambda **k: Font(name="Arial", **k)
 HEAD_FILL = PatternFill("solid", fgColor="14213D")
@@ -67,7 +67,7 @@ def game_rows():
         s = spreads[g["game_id"]]
         wp, lp = int(g["winner_pts"]), int(g["loser_pts"])
         minutes = int(g["minutes"])
-        # PDEM margins are from the lower seed's side (the winner's when the seeds are equal); turn them to the winner's side.
+        # PMPM margins are from the lower seed's side (the winner's when the seeds are equal); turn them to the winner's side.
         # Minutes 1-40, then each overtime's five minutes (41-45, 46-50); blank where the game didn't go that long.
         side = 1 if int(g["final_margin"]) > 0 else -1
         margins = [side * int(g[f"m{i}"]) if i <= minutes else None for i in range(1, MINUTES + 1)]
@@ -125,12 +125,12 @@ def sheet_a(wb, rows):
     ws = wb.create_sheet("A Games")
     title(ws, "Every NCAA tournament game from both sides, 2010–2026",
           "Each game is two rows next to each other: the winner vs the loser, then the loser vs the winner. Closing spread from that team's side "
-          "(minus = favorite; BetIQ). Minutes: the team's point margin at the end of each minute (plus = ahead), shaded grey "
+          "(minus = favorite; BetIQ). PMPM (point margin per minute): the team's point margin at the end of each minute (plus = ahead), shaded grey "
           "(behind) to peach (ahead); overtime games carry on through each 5-minute overtime (blank if no overtime). First Four included.")
     head = ["Year", "Date", "Round", "Team", "Seed", "Opponent", "Opp seed", "Closing spread", "Result", "Score", "Final margin", "OT",
             *MINUTE_HEADS]
     H = 4
-    header(ws, H, head, 33)
+    header(ws, H, head, 45)
     small, center = font(size=10), Alignment(horizontal="center")
     pair_line = Side(style="thin", color="8A8F98")
     for i, r in enumerate(rows):
@@ -285,14 +285,14 @@ def readme(wb, n_games, n_teams):
     lines = [("NCAA tournament workbook, 2010–2026", True),
              (f"{n_games} games (First Four included; no 2020 tournament), each listed twice, and {n_teams} team seasons.", False),
              ("", False),
-             ("A Games — every game from both sides, with the team's closing spread and its margin at minutes 1–40.", False),
+             ("A Games — every game from both sides, with the team's closing spread and its PMPM (point margin per minute) for minutes 1–40 and any overtime.", False),
              ("B Teams — every tournament team: seed, exit round, November record and November record vs the top 40.", False),
              ("    Filter on Era (Pre-NIL / Post-NIL) or Half (First half / Second half); totals for each split are under the table.", False),
              ("C pages — win % and games by closing spread and round, all shaded, one page per split:", False),
              ("    All years · Pre-NIL (2010–2021) · Post-NIL (2022–2026; NIL began July 2021) · "
               f"First half (2010–{HALF - 1}) · Second half ({HALF}–2026)", False),
              ("", False),
-             ("Sources: minute margins from Strongside's play-by-play (reports/pdem_all_ncaa_tournament.csv); closing lines from BetIQ's", False),
+             ("Sources: PMPM from Strongside's play-by-play (reports/pdem_all_ncaa_tournament.csv); closing lines from BetIQ's", False),
              ("custom trend tool (betiq.teamrankings.com), minus = favorite; November games and the pre-tournament top 40 from the", False),
              ("Strongside pre-tournament pages. BetIQ's game-by-game tool gives closing lines only, so opening lines are not included.", False),
              ("Built by tools/tournament_workbook.py.", False)]

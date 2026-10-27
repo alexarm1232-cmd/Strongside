@@ -55,7 +55,7 @@ def main():
         p = pdem[s["game_id"]]
         m = [int(p[f"m{i}"]) for i in range(int(p["minutes"]) + 1)]
         sign = 1 if p["lower_seed_won"] in ("yes", "") and lower_won or (p["lower_seed_won"] == "no" and not lower_won) else -1
-        # the PDEM file is already from the lower seed's side where the seeds differ, from the winner's where equal
+        # the PMPM file is already from the lower seed's side where the seeds differ, from the winner's where equal
         at = lambda i: m[min(i, len(m) - 1)]
         line = float(s["lower_seed_line"]) if s["lower_seed_line"] != "" else (float(s["spread"]) if s["favorite"] == lower else -float(s["spread"]))
         rows.append({"season": s["season"], "date": s["date"], "round": s["round"], "lower_team": lower, "higher_team": higher,

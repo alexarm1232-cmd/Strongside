@@ -3,7 +3,7 @@ import csv
 import glob
 import difflib
 
-# Closing spreads for every NCAA tournament game, matched to the PDEM games:   python tools/tournament_spreads.py
+# Closing spreads for every NCAA tournament game, matched to the PMPM games:   python tools/tournament_spreads.py
 # The lines come from BetIQ's custom trend tool (betiq.teamrankings.com, game type "NCAA Tournament"), saved in
 # data/betiq/ncaa_tournament_lines_*.tsv, one row per game from the favorite's side:
 #     date, team, opponent, site (N/H/A), spread, total, money line, score (team's points first)

@@ -3,7 +3,7 @@ import csv
 import json
 import statistics as st
 
-# Summary numbers and chart data for the PDEM upset study, from reports/pdem_all_ncaa_tournament.csv
+# Summary numbers and chart data for the PMPM upset study, from reports/pdem_all_ncaa_tournament.csv
 # (python tools/pdem.py all tournament):   python tools/pdem_summary.py
 # The games looked at are the ones between seeds 4 or more lines apart; the margin is always the lower seed's
 # (the bigger seed number). An upset is a game the lower seed won. Writes reports/pdem_summary.json.
