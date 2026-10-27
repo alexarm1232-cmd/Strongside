@@ -215,96 +215,91 @@ def sheet_b(wb, rows):
     ws.freeze_panes = f"A{H + 1}"
     ws.auto_filter.ref = f"A{H}:{get_column_letter(len(head))}{last}"
 
-EXIT_SCORE = {"Round of 64": 1, "Round of 32": 2, "Sweet 16": 3, "Elite Eight": 4, "Final Four": 5, "Championship": 6, "Champion": 7}
-
 def sheet_b_upsets(wb, teams):
     """The 169 higher seeds upset by a team 4+ seed lines worse (as in reports/upset_high_seeds.xlsx) against the average
-    team at their seed in B. Exit score: out in the round of 64 = 1 ... lost the final = 6, champion = 7. First Four losers
-    have no score and are left out of the seed averages (every upset team reached the round of 64)."""
+    team at their seed in B: average tournament, November and November top-40 records, as decimals (e.g. 2.19-0.94).
+    The seed averages count every B team at the seed that reached the round of 64 (First Four losers left out)."""
     ws = wb.create_sheet("B Upset teams vs seed")
     upset = {(int(g["date"][:4]), g["higher_team"]) for g in csv.DictReader(open(os.path.join(REPORTS, "pdem_seed_gap_4plus.csv"), encoding="utf-8"))
              if g["lower_won"] == "yes"}
     by_seed = {}
     for r in teams:
-        if r[1] in EXIT_SCORE: by_seed.setdefault(r[2], []).append(r)
-    avg = lambda rows, f: sum(f(r) for r in rows) / len(rows)
-    stats = [("exit", lambda r: EXIT_SCORE[r[1]]), ("nw", lambda r: r[6]), ("nl", lambda r: r[7]),
-             ("vw", lambda r: r[8]), ("vl", lambda r: r[9]), ("vg", lambda r: r[8] + r[9])]
-    seed_avg = {s: {k: avg(rows, f) for k, f in stats} for s, rows in by_seed.items()}
+        if r[1] != "First Four": by_seed.setdefault(r[2], []).append(r)
+    avg = lambda rows, i: sum(r[i] for r in rows) / len(rows)
+    # (W column, L column) in B's rows: tournament, November, November vs the top 40
+    RECORDS = [("tournament", 4, 5), ("November", 6, 7), ("November vs top 40", 8, 9)]
+    rec = lambda rows, w, l: f"{avg(rows, w):.2f}-{avg(rows, l):.2f}"
     picked = [r for r in teams if (r[0], r[3]) in upset]
     assert len(picked) == len(upset), (len(picked), len(upset))
 
     title(ws, f"The {len(picked)} upset higher seeds against the average team at their seed",
-          "Higher seeds beaten by a team 4+ seed lines worse, 2010–2026 (the teams in upset_high_seeds.xlsx). Exit score: out in the "
-          "round of 64 = 1, round of 32 = 2, Sweet 16 = 3, Elite Eight = 4, Final Four = 5, lost the final = 6, champion = 7. "
-          "Seed average = every B team at that seed that reached the round of 64 (First Four losers left out). Diff = team minus seed average.")
-    key = [("Key:", None), ("2+ November losses", YELLOW), ("No November games vs top 40 (not battle tested)", ORANGE), ("Both", RED)]
-    for i, (text, fill) in enumerate(key):
-        c = ws.cell(row=3, column=1 + i * 2, value=text)
-        c.font = font(size=9, bold=fill is None)
-        if fill: c.fill = PatternFill("solid", fgColor=fill)
+          "Higher seeds beaten by a team 4+ seed lines worse, 2010–2026 (the teams in upset_high_seeds.xlsx). Records are averages "
+          "(wins-losses per team, so they can be decimals). Seed average = every B team at that seed that reached the round of 64 "
+          "(First Four losers left out). November vs top 40 = November games against that season's pre-tournament top 40.")
 
-    def table(top, head, rows, height=48.75, fills=None, fmt=None):
-        header(ws, top, head, height)
+    def table(top, head, rows, fills=None, first_bold=False):
+        header(ws, top, head, 48.75)
         for i, vals in enumerate(rows):
             n = top + 1 + i
             for j, v in enumerate(vals, 1):
-                c = ws.cell(row=n, column=j, value=round(v, 2) if isinstance(v, float) else v)
-                c.font = font(size=10, bold=fmt == "bold" and j == 1)
+                c = ws.cell(row=n, column=j, value=v)
+                c.font = font(size=10, bold=first_bold and j == 1)
                 c.border = Border(bottom=thin)
-                c.alignment = Alignment(horizontal="left" if j in (2, 4) and fmt != "bold" else "center")
-                if isinstance(v, float): c.number_format = '+0.00;−0.00;0.00' if "Diff" in head[j - 1] else "0.00"
+                c.alignment = Alignment(horizontal="left" if j in (2, 4) and not first_bold else "center")
                 if fills and fills[i]: c.fill = fills[i]
         return top + len(rows)
 
-    # per seed: all teams at the seed against the upset teams at the seed
-    seeds = sorted({r[2] for r in picked})
+    # by seed: the average team at the seed next to the average upset team at the seed
+    head = ["Seed", "Teams at seed", "Upset teams"]
+    for name, _, _ in RECORDS:
+        head += [f"Seed avg {name} record", f"Upset teams avg {name} record"]
     seed_rows = []
-    for s in seeds:
+    for s in sorted({r[2] for r in picked}):
         mine = [r for r in picked if r[2] == s]
-        a, u = seed_avg[s], {k: avg(mine, f) for k, f in stats}
-        seed_rows.append([s, len(by_seed[s]), len(mine), a["exit"], u["exit"], u["exit"] - a["exit"], a["nl"], u["nl"], u["nl"] - a["nl"],
-                          a["vg"], u["vg"], u["vg"] - a["vg"], f"{a['vw']:.1f}-{a['vl']:.1f}", f"{u['vw']:.1f}-{u['vl']:.1f}"])
-    ws.cell(row=5, column=1, value="By seed").font = font(bold=True, size=11)
-    end = table(6, ["Seed", "Teams at seed", "Upset teams", "Seed avg exit score", "Upset teams avg exit score", "Diff exit score",
-                    "Seed avg Nov L", "Upset teams avg Nov L", "Diff Nov L", "Seed avg Nov top-40 games",
-                    "Upset teams avg Nov top-40 games", "Diff Nov top-40 games", "Seed avg Nov top-40 record",
-                    "Upset teams avg Nov top-40 record"], seed_rows, fmt="bold")
-    # exit-score difference shaded: grey = went out earlier than the seed's average
-    for i in range(len(seed_rows)):
-        ws.cell(row=7 + i, column=6).fill = shade(seed_rows[i][5], -3, 0, 3)
+        row = [s, len(by_seed[s]), len(mine)]
+        for _, w, l in RECORDS:
+            row += [rec(by_seed[s], w, l), rec(mine, w, l)]
+        seed_rows.append(row)
+    ws.cell(row=4, column=1, value="By seed").font = font(bold=True, size=11)
+    end = table(5, head, seed_rows, first_bold=True)
+    t = end + 1
+    total = ["All", sum(r[1] for r in seed_rows), len(picked)]
+    for _, w, l in RECORDS:
+        # the seed side weighted like the upset teams: each upset team's seed average, averaged
+        sw = sum(avg(by_seed[r[2]], w) for r in picked) / len(picked)
+        sl = sum(avg(by_seed[r[2]], l) for r in picked) / len(picked)
+        total += [f"{sw:.2f}-{sl:.2f}", rec(picked, w, l)]
+    for j, v in enumerate(total, 1):
+        c = ws.cell(row=t, column=j, value=v)
+        c.font, c.alignment = font(bold=True, size=10), Alignment(horizontal="center")
+    ws.cell(row=t + 1, column=1, value="All: the seed averages are weighted by how many upset teams each seed has.").font = font(size=9, italic=True)
 
-    # per team, laid out like upset_high_seeds.xlsx
+    # each upset team, laid out like upset_high_seeds.xlsx, with its seed's average records beside its own
+    top = t + 4
+    ws.cell(row=top - 1, column=1, value="Each upset team").font = font(bold=True, size=11)
+    key = [("Key:", None), ("2+ November losses", YELLOW), ("No November games vs top 40 (not battle tested)", ORANGE), ("Both", RED)]
+    for i, (text, fill) in enumerate(key):
+        c = ws.cell(row=top - 1, column=3 + i * 2, value=text)
+        c.font = font(size=9, bold=fill is None)
+        if fill: c.fill = PatternFill("solid", fgColor=fill)
     order = ORDER + ["Champion"]
     picked.sort(key=lambda r: (-order.index(r[1]), r[0], r[2], r[3]))
-    team_rows_, fills = [], []
-    for year, exit_, seed, name, tw, tl, nw, nl, vw, vl in picked:
-        a = seed_avg[seed]
-        team_rows_.append([year, exit_, seed, name, EXIT_SCORE[exit_], a["exit"], EXIT_SCORE[exit_] - a["exit"],
-                           f"{nw}-{nl}", nl, a["nl"], nl - a["nl"], f"{vw}-{vl}", vw + vl, a["vg"], vw + vl - a["vg"]])
-        colour = flag(nl, vw + vl)
+    rows, fills = [], []
+    for r in picked:
+        row = [r[0], r[1], r[2], r[3]]
+        for _, w, l in RECORDS:
+            row += [f"{r[w]}-{r[l]}", rec(by_seed[r[2]], w, l)]
+        rows.append(row)
+        colour = flag(r[7], r[8] + r[9])
         fills.append(PatternFill("solid", fgColor=colour) if colour else None)
-    top = end + 3
-    ws.cell(row=top - 1, column=1, value="Each upset team").font = font(bold=True, size=11)
-    last = table(top, ["Year", "Exit round", "Seed", "Team (upset)", "Exit score", "Seed avg exit score", "Diff exit score",
-                       "November record", "Nov L", "Seed avg Nov L", "Diff Nov L", "November record vs top 40",
-                       "Nov top-40 games", "Seed avg Nov top-40 games", "Diff Nov top-40 games"], team_rows_, fills=fills)
-    t = last + 2
-    allp = {k: avg(picked, f) for k, f in stats}
-    exp = {k: avg(picked, lambda r, k=k: seed_avg[r[2]][k]) for k, _ in stats}
-    ws.cell(row=t, column=1, value=f"All {len(picked)} upset teams").font = font(bold=True, size=10)
-    for j, v in ((5, allp["exit"]), (6, exp["exit"]), (7, allp["exit"] - exp["exit"]), (9, allp["nl"]), (10, exp["nl"]),
-                 (11, allp["nl"] - exp["nl"]), (13, allp["vg"]), (14, exp["vg"]), (15, allp["vg"] - exp["vg"])):
-        c = ws.cell(row=t, column=j, value=round(v, 2))
-        c.font, c.alignment = font(bold=True, size=10), Alignment(horizontal="center")
-        c.number_format = '+0.00;−0.00;0.00' if j in (7, 11, 15) else "0.00"
-    ws.cell(row=t + 1, column=1, value="Averages over the upset teams; the seed-average columns weight each seed by how many upset teams it has.").font = font(size=9, italic=True)
-    for j, w in enumerate([10.9, 16, 12, 19, 12, 13, 12, 13, 9.7, 12, 11, 15.3, 13.6, 14, 13.6], 1):
+    head = ["Year", "Exit round", "Seed", "Team (upset)"]
+    for name, _, _ in RECORDS:
+        head += [f"Team {name} record", f"Seed avg {name} record"]
+    last = table(top, head, rows, fills=fills)
+    for j, w in enumerate([10.9, 16, 12, 19, 14, 14, 14, 14, 15.3, 15.3], 1):
         ws.column_dimensions[get_column_letter(j)].width = w
     ws.freeze_panes = f"A{top + 1}"
-    ws.auto_filter.ref = f"A{top}:O{last}"
-    print(f"   upset teams: exit score {allp['exit']:.2f} vs seed average {exp['exit']:.2f}; Nov L {allp['nl']:.2f} vs {exp['nl']:.2f};"
-          f" top-40 games {allp['vg']:.2f} vs {exp['vg']:.2f}")
+    ws.auto_filter.ref = f"A{top}:{get_column_letter(len(head))}{last}"
 
 def sheet_c(wb, split, y0, y1, games):
     ws = wb.create_sheet(f"C {split}")
