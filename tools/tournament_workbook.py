@@ -22,10 +22,11 @@ ROUND_NAMES = {"First Four": "First Four", **ROUNDS}
 ORDER = list(ROUND_NAMES.values())
 NIL = 2022                       # first tournament after NIL (July 2021)
 ERAS = [("All years", lambda y: True), ("Pre-NIL", lambda y: y < NIL), ("Post-NIL", lambda y: y >= NIL)]
-# closing-spread rows for C: (label, from, to), half points, mirrored around the pick'em row
-BUCKETS = [("−20 or more", -99, -20), ("−15 to −19.5", -19.5, -15), ("−10 to −14.5", -14.5, -10), ("−5 to −9.5", -9.5, -5),
-           ("−0.5 to −4.5", -4.5, -0.5), ("Pick'em (0)", 0, 0), ("+0.5 to +4.5", 0.5, 4.5), ("+5 to +9.5", 5, 9.5),
-           ("+10 to +14.5", 10, 14.5), ("+15 to +19.5", 15, 19.5), ("+20 or more", 20, 99)]
+# closing-spread rows for C: (label, from, to), 5-point bands mirrored around the pick'em row
+BUCKETS = [("−25+", -99, -25), ("−24.9 to −20", -24.9, -20), ("−19.9 to −15", -19.9, -15), ("−14.9 to −10", -14.9, -10),
+           ("−9.9 to −5", -9.9, -5), ("−4.9 to −0.1", -4.9, -0.1), ("Pick'em (0)", 0, 0), ("+0.1 to +4.9", 0.1, 4.9),
+           ("+5 to +9.9", 5, 9.9), ("+10 to +14.9", 10, 14.9), ("+15 to +19.9", 15, 19.9), ("+20 to +24.9", 20, 24.9),
+           ("+25+", 25, 99)]
 
 font = lambda **k: Font(name="Arial", **k)
 HEAD_FILL = PatternFill("solid", fgColor="14213D")
@@ -156,7 +157,7 @@ def sheet_c(wb, name, era, a_name, a_last):
     ws = wb.create_sheet(name)
     title(ws, f"Win % by closing spread and round — {era.lower()}",
           "Straight-up wins, not covers. Spread from the team's side (minus = favorite). Every game counts twice, once from each side, "
-          "so each row mirrors its opposite (−5 to −9.5 wins = +5 to +9.5 losses). Counted live from the games sheet.")
+          "so each row mirrors its opposite (−9.9 to −5 wins = +5 to +9.9 losses). Counted live from the games sheet.")
     rng = lambda col: f"'{a_name}'!${col}$5:${col}${a_last}"
     rounds, spread, result = rng("C"), rng("H"), rng("I")
     cols = ORDER + ["All rounds"]
