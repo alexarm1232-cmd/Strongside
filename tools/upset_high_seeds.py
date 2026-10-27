@@ -9,9 +9,9 @@ from openpyxl.utils import get_column_letter
 
 # The higher seeds that were upset in the NCAA tournament, 2010-2026:   python tools/upset_high_seeds.py
 # Every game the lower seed won by 4+ seed lines (reports/pdem_seed_gap_4plus.csv, First Four not included), from the
-# beaten higher seed's side: its November record, its record against that season's pre-tournament top 40 (by net
+# beaten higher seed's side: its November record, its November record against that season's pre-tournament top 40 (by net
 # rating, from the pre-tournament page) and the round it went out in (the upset itself). Rows are highlighted:
-# yellow = 2+ November losses, orange = no games against the top 40, red = both. Writes reports/upset_high_seeds.xlsx.
+# yellow = 2+ November losses, orange = no November games against the top 40, red = both. Writes reports/upset_high_seeds.xlsx.
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 REPORTS = os.path.join(ROOT, "reports")
@@ -38,7 +38,7 @@ def main():
         sched, top = pages[g["season"]]
         games = sched.get(g["higher_team"], [])
         nov = [x for x in games if x["d"][5:7] == "11"]
-        vs = [x for x in games if x["opp"] in top]
+        vs = [x for x in nov if x["opp"] in top]          # November games against the top 40 only
         rows.append([int(g["date"][:4]), ROUNDS[g["round"]], int(g["higher_seed"]), g["higher_team"], int(g["lower_seed"]), g["lower_team"],
                      f'{g["lower_pts"]}–{g["higher_pts"]}', sum(x["pf"] > x["pa"] for x in nov), sum(x["pf"] < x["pa"] for x in nov),
                      None, sum(x["pf"] > x["pa"] for x in vs), sum(x["pf"] < x["pa"] for x in vs)])     # None: the record formula's column
@@ -53,16 +53,16 @@ def main():
     ws["A1"] = "Higher seeds upset in the NCAA tournament by a team 4+ seed lines worse, 2010–2026"
     ws["A1"].font = font(bold=True, size=13)
     ws["A2"] = (f"{len(rows)} games (First Four not included). November = the team's games in November of that season. "
-                f"Top 40 = that season's pre-tournament top {TOP} by Strongside net rating; record from games before the tournament.")
+                f"Top 40 = that season's pre-tournament top {TOP} by Strongside net rating; the top-40 record counts November games only.")
     ws["A2"].font = font(size=9, italic=True)
-    key = [("Key:", None), ("2+ November losses", yellow), ("No games vs top 40 (not battle tested)", orange), ("Both", red)]
+    key = [("Key:", None), ("2+ November losses", yellow), ("No November games vs top 40 (not battle tested)", orange), ("Both", red)]
     for i, (text, fill) in enumerate(key):
         c = ws.cell(row=3, column=1 + i * 2, value=text)
         c.font = font(size=9, bold=fill is None)
         if fill: c.fill = PatternFill("solid", fgColor=fill)
 
     head = ["Year", "Exit round", "Seed", "Team (upset)", "Upset by seed", "Upset by", "Score", "Nov W", "Nov L", "November record",
-            "Top-40 W", "Top-40 L", "Record vs top 40", "Top-40 games"]
+            "Nov top-40 W", "Nov top-40 L", "November record vs top 40", "Nov top-40 games"]
     H = 5
     for j, h in enumerate(head, 1):
         c = ws.cell(row=H, column=j, value=h)
@@ -99,7 +99,7 @@ def main():
     ws.cell(row=t, column=13, value=f'=K{t}&"-"&L{t}')
     ws.cell(row=t + 1, column=1, value="Teams with 2+ November losses")
     ws.cell(row=t + 1, column=9, value=f'=COUNTIF(I{H + 1}:I{last},">=2")')
-    ws.cell(row=t + 2, column=1, value="Teams with no games vs top 40")
+    ws.cell(row=t + 2, column=1, value="Teams with no November games vs top 40")
     ws.cell(row=t + 2, column=14, value=f"=COUNTIF(N{H + 1}:N{last},0)")
     ws.cell(row=t + 3, column=1, value="Both")
     ws.cell(row=t + 3, column=14, value=f'=COUNTIFS(I{H + 1}:I{last},">=2",N{H + 1}:N{last},0)')
