@@ -212,20 +212,21 @@ def sheet_c(wb, split, y0, y1, games):
     H = 5
     ws.merge_cells(start_row=H - 1, start_column=1, end_row=H, end_column=1)
     ws.cell(row=H - 1, column=1, value="Closing spread")
+    S = 3                                                # columns per round: win %, record, games
     for k, rd in enumerate(cols):
-        j = 2 + 2 * k
-        ws.merge_cells(start_row=H - 1, start_column=j, end_row=H - 1, end_column=j + 1)
+        j = 2 + S * k
+        ws.merge_cells(start_row=H - 1, start_column=j, end_row=H - 1, end_column=j + S - 1)
         ws.cell(row=H - 1, column=j, value=rd)
-        ws.cell(row=H, column=j, value="Win %")
-        ws.cell(row=H, column=j + 1, value="Games")
-    width = 1 + 2 * len(cols)
+        for d, h in enumerate(("Win %", "Record", "Games")):
+            ws.cell(row=H, column=j + d, value=h)
+    width = 1 + S * len(cols)
     for r in (H - 1, H):
         for j in range(1, width + 1):
             c = ws.cell(row=r, column=j)
             c.font = font(bold=True, color="FFFFFF", size=10)
             c.fill = HEAD_FILL
             c.alignment = Alignment(horizontal="center", vertical="center", wrap_text=True)
-            c.border = Border(left=Side(style="thin", color="FFFFFF")) if j >= 2 and j % 2 == 0 else Border()
+            c.border = Border(left=Side(style="thin", color="FFFFFF")) if j >= 2 and (j - 2) % S == 0 else Border()
     ws.row_dimensions[H - 1].height = 30
     grid = [[[r for r in sel if lo <= r[7] <= hi and (rd == "All rounds" or r[2] == rd)] for rd in cols] for _, lo, hi in BUCKETS]
     most = max(len(cell) for row in grid for cell in row[:-1]) or 1          # the All rounds column has its own scale
@@ -235,15 +236,16 @@ def sheet_c(wb, split, y0, y1, games):
         c = ws.cell(row=n, column=1, value=label)
         c.font, c.alignment, c.border = font(size=10, bold=True), Alignment(horizontal="left"), Border(bottom=thin)
         for k, cell in enumerate(grid[i]):
-            j = 2 + 2 * k
+            j = 2 + S * k
             wins = sum(r[8] == "W" for r in cell)
             pct = ws.cell(row=n, column=j, value=wins / len(cell) if cell else "–")
-            cnt = ws.cell(row=n, column=j + 1, value=len(cell))
+            rec = ws.cell(row=n, column=j + 1, value=f"{wins}-{len(cell) - wins}" if cell else "–")
+            cnt = ws.cell(row=n, column=j + 2, value=len(cell))
             pct.number_format = "0%"
-            pct.fill = shade(wins / len(cell), 0, 0.5, 1) if cell else shade(0.5, 0, 0.5, 1)
+            pct.fill = rec.fill = shade(wins / len(cell), 0, 0.5, 1) if cell else shade(0.5, 0, 0.5, 1)
             top = most_all if k == len(cols) - 1 else most
             cnt.fill = shade(len(cell) / top, -1, 0, 1)
-            for c in (pct, cnt):
+            for c in (pct, rec, cnt):
                 c.font = font(size=10, color="8A8F98" if not cell else None)
                 c.alignment = Alignment(horizontal="center")
                 c.border = Border(bottom=Side(style="thin", color="FFFFFF"), left=Side(style="thin", color="FFFFFF"))
@@ -252,12 +254,14 @@ def sheet_c(wb, split, y0, y1, games):
     t = last + 1
     ws.cell(row=t, column=1, value="All spreads").font = font(bold=True, size=10)
     for k in range(len(cols)):
-        c = ws.cell(row=t, column=3 + 2 * k, value=sum(len(row[k]) for row in grid))
-        c.font, c.alignment = font(bold=True, size=10), Alignment(horizontal="center")
+        for d, v in ((1, f"{sum(sum(r[8] == 'W' for r in row[k]) for row in grid)}-{sum(sum(r[8] == 'L' for r in row[k]) for row in grid)}"),
+                     (2, sum(len(row[k]) for row in grid))):
+            c = ws.cell(row=t, column=2 + S * k + d, value=v)
+            c.font, c.alignment = font(bold=True, size=10), Alignment(horizontal="center")
     ws.column_dimensions["A"].width = 16
     for j in range(2, width + 1):
-        ws.column_dimensions[get_column_letter(j)].width = 9 if j % 2 == 0 else 7
-    ws.cell(row=t + 2, column=1, value="Win % is shaded grey (0%) through off-white (50%) to peach (100%); games are shaded off-white to peach "
+        ws.column_dimensions[get_column_letter(j)].width = (8, 9, 7)[(j - 2) % S]
+    ws.cell(row=t + 2, column=1, value="Win % and record are shaded grey (0%) through off-white (50%) to peach (100%); games are shaded off-white to peach "
                                        "by how many there are; – = no games. Cells with few games are noisy.").font = font(size=9, italic=True)
     ws.freeze_panes = f"B{H + 1}"
 
