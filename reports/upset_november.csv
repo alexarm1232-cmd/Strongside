@@ -1,0 +1,681 @@
+season,date,round,high_seed,high_team,low_seed,low_team,upset,nov_wins,nov_losses
+2009-10,2010/03/18,First round,3,Baylor,14,Sam Houston,no,6,1
+2009-10,2010/03/18,First round,5,Butler,12,UTEP,no,4,2
+2009-10,2010/03/18,First round,1,Kansas,16,Lehigh,no,5,0
+2009-10,2010/03/18,First round,2,Kansas St.,15,North Texas,no,5,1
+2009-10,2010/03/18,First round,1,Kentucky,16,ETSU,no,7,0
+2009-10,2010/03/18,First round,4,Vanderbilt,13,Murray St.,yes,4,1
+2009-10,2010/03/18,First round,3,New Mexico,14,Montana,no,6,0
+2009-10,2010/03/18,First round,3,Georgetown,14,Ohio,yes,5,0
+2009-10,2010/03/18,First round,6,Notre Dame,11,Old Dominion,yes,6,1
+2009-10,2010/03/18,First round,6,Tennessee,11,San Diego St.,no,5,1
+2009-10,2010/03/18,First round,2,Villanova,15,Robert Morris,no,6,0
+2009-10,2010/03/18,First round,6,Marquette,11,Washington,yes,6,1
+2009-10,2010/03/19,First round,5,Temple,12,Cornell,yes,4,2
+2009-10,2010/03/19,First round,1,Duke,16,Ark.-Pine Bluff,no,6,0
+2009-10,2010/03/19,First round,4,Maryland,13,Houston,no,4,2
+2009-10,2010/03/19,First round,5,Michigan St.,12,New Mexico St.,no,5,1
+2009-10,2010/03/19,First round,2,Ohio St.,15,UC Santa Barbara,no,5,0
+2009-10,2010/03/19,First round,3,Pittsburgh,14,Oakland,no,5,1
+2009-10,2010/03/19,First round,4,Purdue,13,Siena,no,5,0
+2009-10,2010/03/19,First round,1,Syracuse,16,Vermont,no,4,0
+2009-10,2010/03/19,First round,5,Texas A&M,12,Utah St.,no,5,1
+2009-10,2010/03/19,First round,2,West Virginia,15,Morgan St.,no,5,0
+2009-10,2010/03/19,First round,4,Wisconsin,13,Wofford,no,4,1
+2009-10,2010/03/19,First round,6,Xavier,11,Minnesota,no,4,2
+2009-10,2010/03/20,Second round,3,Baylor,11,Old Dominion,no,6,1
+2009-10,2010/03/20,Second round,5,Butler,13,Murray St.,no,4,2
+2009-10,2010/03/20,Second round,2,Kansas St.,7,BYU,no,5,1
+2009-10,2010/03/20,Second round,1,Kentucky,9,Wake Forest,no,7,0
+2009-10,2010/03/20,Second round,2,Villanova,10,Saint Mary's (CA),yes,6,0
+2009-10,2010/03/20,Second round,6,Tennessee,14,Ohio,no,5,1
+2009-10,2010/03/20,Second round,1,Kansas,9,UNI,yes,5,0
+2009-10,2010/03/20,Second round,3,New Mexico,11,Washington,yes,6,0
+2009-10,2010/03/21,Second round,4,Wisconsin,12,Cornell,yes,4,1
+2009-10,2010/03/21,Second round,1,Duke,8,California,no,6,0
+2009-10,2010/03/21,Second round,2,Ohio St.,10,Georgia Tech,no,5,0
+2009-10,2010/03/21,Second round,1,Syracuse,8,Gonzaga,no,4,0
+2009-10,2010/03/21,Second round,2,West Virginia,10,Missouri,no,5,0
+2009-10,2010/03/25,Sweet 16,1,Syracuse,5,Butler,yes,4,0
+2009-10,2010/03/25,Sweet 16,2,Kansas St.,6,Xavier,no,5,1
+2009-10,2010/03/25,Sweet 16,1,Kentucky,12,Cornell,no,7,0
+2009-10,2010/03/25,Sweet 16,2,West Virginia,11,Washington,no,5,0
+2009-10,2010/03/26,Sweet 16,3,Baylor,10,Saint Mary's (CA),no,6,1
+2009-10,2010/03/26,Sweet 16,5,Michigan St.,9,UNI,no,5,1
+2009-10,2010/03/26,Sweet 16,2,Ohio St.,6,Tennessee,yes,5,0
+2009-10,2010/04/05,Championship,1,Duke,5,Butler,no,6,0
+2010-11,2011/03/17,First round,3,BYU,14,Wofford,no,6,0
+2010-11,2011/03/17,First round,6,Cincinnati,11,Missouri,no,5,0
+2010-11,2011/03/17,First round,2,Florida,15,UC Santa Barbara,no,5,1
+2010-11,2011/03/17,First round,6,St. John's (NY),11,Gonzaga,yes,4,1
+2010-11,2011/03/17,First round,5,Kansas St.,12,Utah St.,no,6,1
+2010-11,2011/03/17,First round,4,Kentucky,13,Princeton,no,5,1
+2010-11,2011/03/17,First round,4,Louisville,13,Morehead St.,yes,4,0
+2010-11,2011/03/17,First round,1,Pittsburgh,16,UNC Asheville,no,7,0
+2010-11,2011/03/17,First round,5,Vanderbilt,12,Richmond,yes,5,1
+2010-11,2011/03/17,First round,2,San Diego St.,15,Northern Colo.,no,6,0
+2010-11,2011/03/17,First round,3,UConn,14,Bucknell,no,6,0
+2010-11,2011/03/17,First round,5,West Virginia,12,Clemson,no,4,1
+2010-11,2011/03/17,First round,4,Wisconsin,13,Belmont,no,4,2
+2010-11,2011/03/18,First round,5,Arizona,12,Memphis,no,5,1
+2010-11,2011/03/18,First round,1,Duke,16,Hampton,no,6,0
+2010-11,2011/03/18,First round,1,Kansas,16,Boston U.,no,6,0
+2010-11,2011/03/18,First round,6,Xavier,11,Marquette,yes,5,1
+2010-11,2011/03/18,First round,2,North Carolina,15,LIU,no,4,3
+2010-11,2011/03/18,First round,2,Notre Dame,15,Akron,no,8,0
+2010-11,2011/03/18,First round,1,Ohio St.,16,UTSA,no,6,0
+2010-11,2011/03/18,First round,3,Purdue,14,Saint Peter's,no,5,1
+2010-11,2011/03/18,First round,3,Syracuse,14,Indiana St.,no,7,0
+2010-11,2011/03/18,First round,4,Texas,13,Oakland,no,5,1
+2010-11,2011/03/18,First round,6,Georgetown,11,VCU,yes,6,0
+2010-11,2011/03/19,Second round,3,BYU,11,Gonzaga,no,6,0
+2010-11,2011/03/19,Second round,1,Pittsburgh,8,Butler,yes,7,0
+2010-11,2011/03/19,Second round,2,Florida,7,UCLA,no,5,1
+2010-11,2011/03/19,Second round,2,San Diego St.,7,Temple,no,6,0
+2010-11,2011/03/20,Second round,1,Duke,8,Michigan,no,6,0
+2010-11,2011/03/20,Second round,2,Notre Dame,10,Florida St.,yes,8,0
+2010-11,2011/03/20,Second round,1,Kansas,9,Illinois,no,6,0
+2010-11,2011/03/20,Second round,3,Syracuse,11,Marquette,yes,7,0
+2010-11,2011/03/20,Second round,2,North Carolina,7,Washington,no,4,3
+2010-11,2011/03/20,Second round,1,Ohio St.,8,George Mason,no,6,0
+2010-11,2011/03/20,Second round,3,Purdue,11,VCU,yes,5,1
+2010-11,2011/03/24,Sweet 16,1,Duke,5,Arizona,yes,6,0
+2010-11,2011/03/24,Sweet 16,4,Wisconsin,8,Butler,yes,4,2
+2010-11,2011/03/25,Sweet 16,1,Kansas,12,Richmond,no,6,0
+2010-11,2011/03/25,Sweet 16,2,North Carolina,11,Marquette,no,4,3
+2010-11,2011/03/26,Elite Eight,2,Florida,8,Butler,yes,5,1
+2010-11,2011/03/27,Elite Eight,1,Kansas,11,VCU,yes,6,0
+2010-11,2011/04/04,Championship,3,UConn,8,Butler,no,6,0
+2011-12,2012/03/15,First round,3,Baylor,14,South Dakota St.,no,6,0
+2011-12,2012/03/15,First round,6,UNLV,11,Colorado,yes,8,0
+2011-12,2012/03/15,First round,4,Indiana,13,New Mexico St.,no,7,0
+2011-12,2012/03/15,First round,1,Kentucky,16,Western Ky.,no,6,0
+2011-12,2012/03/15,First round,4,Louisville,13,Davidson,no,6,0
+2011-12,2012/03/15,First round,3,Marquette,14,BYU,no,6,0
+2011-12,2012/03/15,First round,6,Murray St.,11,Colorado St.,no,7,0
+2011-12,2012/03/15,First round,5,New Mexico,12,Long Beach St.,no,5,2
+2011-12,2012/03/15,First round,2,Ohio St.,15,Loyola Maryland,no,7,0
+2011-12,2012/03/15,First round,1,Syracuse,16,UNC Asheville,no,7,0
+2011-12,2012/03/15,First round,5,Wichita St.,12,VCU,yes,3,2
+2011-12,2012/03/15,First round,5,Vanderbilt,12,Harvard,no,5,2
+2011-12,2012/03/15,First round,4,Wisconsin,13,Montana,no,6,1
+2011-12,2012/03/16,First round,6,Cincinnati,11,Texas,no,4,2
+2011-12,2012/03/16,First round,3,Florida St.,14,St. Bonaventure,no,5,3
+2011-12,2012/03/16,First round,3,Georgetown,14,Belmont,no,5,1
+2011-12,2012/03/16,First round,2,Kansas,15,Detroit Mercy,no,4,2
+2011-12,2012/03/16,First round,2,Duke,15,Lehigh,yes,7,1
+2011-12,2012/03/16,First round,1,Michigan St.,16,LIU,no,5,2
+2011-12,2012/03/16,First round,6,San Diego St.,11,NC State,yes,7,2
+2011-12,2012/03/16,First round,2,Missouri,15,Norfolk St.,yes,6,0
+2011-12,2012/03/16,First round,1,North Carolina,16,Vermont,no,6,1
+2011-12,2012/03/16,First round,4,Michigan,13,Ohio,yes,5,2
+2011-12,2012/03/16,First round,5,Temple,12,South Fla.,yes,3,2
+2011-12,2012/03/17,Second round,3,Baylor,11,Colorado,no,6,0
+2011-12,2012/03/17,Second round,4,Indiana,12,VCU,no,7,0
+2011-12,2012/03/17,Second round,1,Kentucky,8,Iowa St.,no,6,0
+2011-12,2012/03/17,Second round,2,Ohio St.,7,Gonzaga,no,7,0
+2011-12,2012/03/17,Second round,1,Syracuse,8,Kansas St.,no,7,0
+2011-12,2012/03/18,Second round,7,Florida,15,Norfolk St.,no,5,1
+2011-12,2012/03/18,Second round,2,Kansas,10,Purdue,no,4,2
+2011-12,2012/03/18,Second round,1,Michigan St.,9,Saint Louis,no,5,2
+2011-12,2012/03/18,Second round,3,Georgetown,11,NC State,yes,5,1
+2011-12,2012/03/18,Second round,1,North Carolina,8,Creighton,no,6,1
+2011-12,2012/03/18,Second round,10,Xavier,15,Lehigh,no,5,0
+2011-12,2012/03/22,Sweet 16,3,Marquette,7,Florida,yes,6,0
+2011-12,2012/03/22,Sweet 16,2,Ohio St.,6,Cincinnati,no,7,0
+2011-12,2012/03/23,Sweet 16,3,Baylor,10,Xavier,no,6,0
+2011-12,2012/03/23,Sweet 16,2,Kansas,11,NC State,no,4,2
+2011-12,2012/03/23,Sweet 16,1,North Carolina,13,Ohio,no,6,1
+2012-13,2013/03/21,First round,6,Arizona,11,Belmont,no,4,0
+2012-13,2013/03/21,First round,6,Butler,11,Bucknell,no,4,2
+2012-13,2013/03/21,First round,5,UNLV,12,California,yes,4,1
+2012-13,2013/03/21,First round,1,Gonzaga,16,Southern U.,no,7,0
+2012-13,2013/03/21,First round,3,New Mexico,14,Harvard,yes,7,0
+2012-13,2013/03/21,First round,1,Louisville,16,N.C. A&T,no,5,1
+2012-13,2013/03/21,First round,3,Marquette,14,Davidson,no,5,2
+2012-13,2013/03/21,First round,6,Memphis,11,Saint Mary's (CA),no,4,2
+2012-13,2013/03/21,First round,4,Michigan,13,South Dakota St.,no,6,0
+2012-13,2013/03/21,First round,3,Michigan St.,14,Valparaiso,no,5,2
+2012-13,2013/03/21,First round,5,Oklahoma St.,12,Oregon,yes,5,0
+2012-13,2013/03/21,First round,4,Saint Louis,13,New Mexico St.,no,3,3
+2012-13,2013/03/21,First round,4,Syracuse,13,Montana,no,5,0
+2012-13,2013/03/21,First round,5,VCU,12,Akron,no,4,3
+2012-13,2013/03/22,First round,2,Duke,15,UAlbany,no,7,0
+2012-13,2013/03/22,First round,2,Georgetown,15,FGCU,yes,5,1
+2012-13,2013/03/22,First round,3,Florida,14,Northwestern St.,no,6,0
+2012-13,2013/03/22,First round,1,Indiana,16,James Madison,no,7,0
+2012-13,2013/03/22,First round,1,Kansas,16,Western Ky.,no,6,1
+2012-13,2013/03/22,First round,4,Kansas St.,13,La Salle,yes,5,1
+2012-13,2013/03/22,First round,2,Miami (FL),15,Pacific,no,4,1
+2012-13,2013/03/22,First round,6,UCLA,11,Minnesota,yes,5,2
+2012-13,2013/03/22,First round,2,Ohio St.,15,Iona,no,4,1
+2012-13,2013/03/22,First round,5,Wisconsin,12,Ole Miss,yes,4,3
+2012-13,2013/03/23,Second round,6,Arizona,14,Harvard,no,4,0
+2012-13,2013/03/23,Second round,1,Louisville,8,Colorado St.,no,5,1
+2012-13,2013/03/23,Second round,4,Saint Louis,12,Oregon,yes,3,3
+2012-13,2013/03/23,Second round,4,Syracuse,12,California,no,5,0
+2012-13,2013/03/23,Second round,1,Gonzaga,9,Wichita St.,yes,7,0
+2012-13,2013/03/24,Second round,2,Duke,7,Creighton,no,7,0
+2012-13,2013/03/24,Second round,7,San Diego St.,15,FGCU,yes,4,1
+2012-13,2013/03/24,Second round,3,Florida,11,Minnesota,no,6,0
+2012-13,2013/03/24,Second round,1,Indiana,9,Temple,no,7,0
+2012-13,2013/03/24,Second round,1,Kansas,8,North Carolina,no,6,1
+2012-13,2013/03/24,Second round,2,Miami (FL),7,Illinois,no,4,1
+2012-13,2013/03/24,Second round,2,Ohio St.,10,Iowa St.,no,4,1
+2012-13,2013/03/28,Sweet 16,2,Ohio St.,6,Arizona,no,4,1
+2012-13,2013/03/28,Sweet 16,9,Wichita St.,13,La Salle,no,7,0
+2012-13,2013/03/29,Sweet 16,3,Florida,15,FGCU,no,6,0
+2012-13,2013/03/29,Sweet 16,1,Louisville,12,Oregon,no,5,1
+2012-13,2013/03/30,Elite Eight,2,Ohio St.,9,Wichita St.,yes,4,1
+2012-13,2013/04/06,Final Four,1,Louisville,9,Wichita St.,no,5,1
+2013-14,2014/03/20,First round,6,Ohio St.,11,Dayton,yes,6,0
+2013-14,2014/03/20,First round,1,Florida,16,UAlbany,no,6,1
+2013-14,2014/03/20,First round,5,Cincinnati,12,Harvard,yes,6,0
+2013-14,2014/03/20,First round,4,Louisville,13,Manhattan,no,6,1
+2013-14,2014/03/20,First round,2,Michigan,15,Wofford,no,5,2
+2013-14,2014/03/20,First round,4,Michigan St.,13,Delaware,no,7,0
+2013-14,2014/03/20,First round,5,Oklahoma,12,North Dakota St.,yes,5,1
+2013-14,2014/03/20,First round,5,Saint Louis,12,NC State,no,6,1
+2013-14,2014/03/20,First round,4,San Diego St.,13,New Mexico St.,no,4,1
+2013-14,2014/03/20,First round,3,Syracuse,14,Western Mich.,no,7,0
+2013-14,2014/03/20,First round,2,Villanova,15,Milwaukee,no,7,0
+2013-14,2014/03/20,First round,2,Wisconsin,15,American,no,8,0
+2013-14,2014/03/21,First round,1,Arizona,16,Weber St.,no,7,0
+2013-14,2014/03/21,First round,6,Baylor,11,Nebraska,no,6,1
+2013-14,2014/03/21,First round,3,Creighton,14,Louisiana,no,5,1
+2013-14,2014/03/21,First round,3,Iowa St.,14,N.C. Central,no,5,0
+2013-14,2014/03/21,First round,2,Kansas,15,Eastern Ky.,no,6,1
+2013-14,2014/03/21,First round,3,Duke,14,Mercer,yes,6,2
+2013-14,2014/03/21,First round,6,North Carolina,11,Providence,no,4,1
+2013-14,2014/03/21,First round,5,VCU,12,SFA,yes,5,2
+2013-14,2014/03/21,First round,6,Massachusetts,11,Tennessee,yes,6,0
+2013-14,2014/03/21,First round,4,UCLA,13,Tulsa,no,7,0
+2013-14,2014/03/21,First round,1,Virginia,16,Coastal Carolina,no,7,1
+2013-14,2014/03/21,First round,1,Wichita St.,16,Cal Poly,no,7,0
+2013-14,2014/03/22,Second round,3,Syracuse,11,Dayton,yes,7,0
+2013-14,2014/03/22,Second round,1,Florida,9,Pittsburgh,no,6,1
+2013-14,2014/03/22,Second round,2,Michigan,7,Texas,no,5,2
+2013-14,2014/03/22,Second round,4,Michigan St.,12,Harvard,no,7,0
+2013-14,2014/03/22,Second round,4,San Diego St.,12,North Dakota St.,no,4,1
+2013-14,2014/03/22,Second round,2,Villanova,7,UConn,yes,7,0
+2013-14,2014/03/22,Second round,2,Wisconsin,7,Oregon,no,8,0
+2013-14,2014/03/23,Second round,1,Arizona,8,Gonzaga,no,7,0
+2013-14,2014/03/23,Second round,1,Wichita St.,8,Kentucky,yes,7,0
+2013-14,2014/03/23,Second round,2,Kansas,10,Stanford,yes,6,1
+2013-14,2014/03/23,Second round,4,UCLA,12,SFA,no,7,0
+2013-14,2014/03/23,Second round,1,Virginia,8,Memphis,no,7,1
+2013-14,2014/03/27,Sweet 16,2,Wisconsin,6,Baylor,no,8,0
+2013-14,2014/03/28,Sweet 16,4,Louisville,8,Kentucky,yes,6,1
+2013-14,2014/03/28,Sweet 16,2,Michigan,11,Tennessee,no,5,2
+2013-14,2014/03/28,Sweet 16,3,Iowa St.,7,UConn,yes,5,0
+2013-14,2014/03/29,Elite Eight,1,Florida,11,Dayton,no,6,1
+2013-14,2014/03/30,Elite Eight,2,Michigan,8,Kentucky,yes,5,2
+2013-14,2014/04/05,Final Four,2,Wisconsin,8,Kentucky,yes,8,0
+2013-14,2014/04/05,Final Four,1,Florida,7,UConn,yes,6,1
+2014-15,2015/03/19,First round,2,Arizona,15,Texas Southern,no,6,0
+2014-15,2015/03/19,First round,5,Arkansas,12,Wofford,no,6,0
+2014-15,2015/03/19,First round,6,Butler,11,Texas,no,5,1
+2014-15,2015/03/19,First round,4,Georgetown,13,Eastern Wash.,no,4,2
+2014-15,2015/03/19,First round,3,Baylor,14,Georgia St.,yes,5,1
+2014-15,2015/03/19,First round,1,Kentucky,16,Hampton,no,7,0
+2014-15,2015/03/19,First round,4,North Carolina,13,Harvard,no,5,1
+2014-15,2015/03/19,First round,3,Notre Dame,14,Northeastern,no,6,1
+2014-15,2015/03/19,First round,3,Iowa St.,14,UAB,yes,3,1
+2014-15,2015/03/19,First round,6,SMU,11,UCLA,yes,4,3
+2014-15,2015/03/19,First round,5,Utah,12,SFA,no,5,1
+2014-15,2015/03/19,First round,1,Villanova,16,Lafayette,no,6,0
+2014-15,2015/03/19,First round,6,Xavier,11,Ole Miss,no,5,2
+2014-15,2015/03/20,First round,6,Providence,11,Dayton,yes,6,1
+2014-15,2015/03/20,First round,1,Duke,16,Robert Morris,no,7,0
+2014-15,2015/03/20,First round,2,Gonzaga,15,North Dakota St.,no,6,0
+2014-15,2015/03/20,First round,2,Kansas,15,New Mexico St.,no,5,1
+2014-15,2015/03/20,First round,4,Louisville,13,UC Irvine,no,5,0
+2014-15,2015/03/20,First round,4,Maryland,13,Valparaiso,no,7,0
+2014-15,2015/03/20,First round,3,Oklahoma,14,UAlbany,no,4,2
+2014-15,2015/03/20,First round,5,UNI,12,Wyoming,no,7,0
+2014-15,2015/03/20,First round,2,Virginia,15,Belmont,no,7,0
+2014-15,2015/03/20,First round,5,West Virginia,12,Buffalo,no,7,0
+2014-15,2015/03/20,First round,1,Wisconsin,16,Coastal Carolina,no,7,0
+2014-15,2015/03/21,Second round,2,Arizona,10,Ohio St.,no,6,0
+2014-15,2015/03/21,Second round,1,Kentucky,8,Cincinnati,no,7,0
+2014-15,2015/03/21,Second round,1,Villanova,8,NC State,yes,6,0
+2014-15,2015/03/21,Second round,6,Xavier,14,Georgia St.,no,5,2
+2014-15,2015/03/22,Second round,1,Duke,8,San Diego St.,no,7,0
+2014-15,2015/03/22,Second round,2,Gonzaga,7,Iowa,no,6,0
+2014-15,2015/03/22,Second round,2,Virginia,7,Michigan St.,yes,7,0
+2014-15,2015/03/22,Second round,3,Oklahoma,11,Dayton,no,4,2
+2014-15,2015/03/22,Second round,2,Kansas,7,Wichita St.,yes,5,1
+2014-15,2015/03/22,Second round,1,Wisconsin,8,Oregon,no,7,0
+2014-15,2015/03/26,Sweet 16,2,Arizona,6,Xavier,no,6,0
+2014-15,2015/03/26,Sweet 16,1,Kentucky,5,West Virginia,no,7,0
+2014-15,2015/03/26,Sweet 16,3,Notre Dame,7,Wichita St.,no,6,1
+2014-15,2015/03/27,Sweet 16,1,Duke,5,Utah,no,7,0
+2014-15,2015/03/27,Sweet 16,2,Gonzaga,11,UCLA,no,6,0
+2014-15,2015/03/27,Sweet 16,4,Louisville,8,NC State,no,5,0
+2014-15,2015/03/27,Sweet 16,3,Oklahoma,7,Michigan St.,yes,4,2
+2014-15,2015/04/04,Final Four,1,Duke,7,Michigan St.,no,7,0
+2015-16,2016/03/17,First round,4,Duke,13,UNCW,no,6,1
+2015-16,2016/03/17,First round,6,Seton Hall,11,Gonzaga,yes,5,1
+2015-16,2016/03/17,First round,5,Indiana,12,Chattanooga,no,5,2
+2015-16,2016/03/17,First round,4,Iowa St.,13,Iona,no,5,0
+2015-16,2016/03/17,First round,1,Kansas,16,Austin Peay,no,4,1
+2015-16,2016/03/17,First round,4,Kentucky,13,Stony Brook,no,7,0
+2015-16,2016/03/17,First round,5,Purdue,12,Little Rock,yes,6,0
+2015-16,2016/03/17,First round,3,Miami (FL),14,Buffalo,no,5,1
+2015-16,2016/03/17,First round,1,North Carolina,16,FGCU,no,5,1
+2015-16,2016/03/17,First round,3,Utah,14,Fresno St.,no,5,1
+2015-16,2016/03/17,First round,1,Virginia,16,Hampton,no,5,1
+2015-16,2016/03/17,First round,6,Arizona,11,Wichita St.,yes,6,1
+2015-16,2016/03/17,First round,5,Baylor,12,Yale,yes,4,1
+2015-16,2016/03/18,First round,4,California,13,Hawaii,yes,4,2
+2015-16,2016/03/18,First round,5,Maryland,12,South Dakota St.,no,6,0
+2015-16,2016/03/18,First round,2,Michigan St.,15,Middle Tenn.,yes,7,0
+2015-16,2016/03/18,First round,6,Notre Dame,11,Michigan,no,4,2
+2015-16,2016/03/18,First round,2,Oklahoma,15,CSU Bakersfield,no,4,0
+2015-16,2016/03/18,First round,1,Oregon,16,Holy Cross,no,6,0
+2015-16,2016/03/18,First round,3,West Virginia,14,SFA,yes,6,0
+2015-16,2016/03/18,First round,3,Texas A&M,14,Green Bay,no,6,1
+2015-16,2016/03/18,First round,6,Texas,11,UNI,yes,2,3
+2015-16,2016/03/18,First round,2,Villanova,15,UNC Asheville,no,6,0
+2015-16,2016/03/18,First round,2,Xavier,15,Weber St.,no,7,0
+2015-16,2016/03/19,Second round,4,Duke,12,Yale,no,6,1
+2015-16,2016/03/19,Second round,3,Utah,11,Gonzaga,yes,5,1
+2015-16,2016/03/19,Second round,4,Iowa St.,12,Little Rock,no,5,0
+2015-16,2016/03/19,Second round,1,Kansas,9,UConn,no,4,1
+2015-16,2016/03/19,Second round,3,Miami (FL),11,Wichita St.,no,5,1
+2015-16,2016/03/19,Second round,1,North Carolina,9,Providence,no,5,1
+2015-16,2016/03/19,Second round,1,Virginia,9,Butler,no,5,1
+2015-16,2016/03/20,Second round,5,Maryland,13,Hawaii,no,6,0
+2015-16,2016/03/20,Second round,6,Notre Dame,14,SFA,no,4,2
+2015-16,2016/03/20,Second round,2,Oklahoma,10,VCU,no,4,0
+2015-16,2016/03/20,Second round,1,Oregon,8,Saint Joseph's,no,6,0
+2015-16,2016/03/20,Second round,10,Syracuse,15,Middle Tenn.,no,6,0
+2015-16,2016/03/20,Second round,3,Texas A&M,11,UNI,no,6,1
+2015-16,2016/03/20,Second round,2,Villanova,7,Iowa,no,6,0
+2015-16,2016/03/20,Second round,2,Xavier,7,Wisconsin,yes,7,0
+2015-16,2016/03/24,Sweet 16,1,Kansas,5,Maryland,no,4,1
+2015-16,2016/03/25,Sweet 16,1,North Carolina,5,Indiana,no,5,1
+2015-16,2016/03/27,Elite Eight,1,North Carolina,6,Notre Dame,no,5,1
+2015-16,2016/03/27,Elite Eight,1,Virginia,10,Syracuse,yes,5,1
+2015-16,2016/04/02,Final Four,1,North Carolina,10,Syracuse,no,5,1
+2016-17,2017/03/16,First round,2,Arizona,15,North Dakota,no,6,1
+2016-17,2017/03/16,First round,4,Butler,13,Winthrop,no,7,0
+2016-17,2017/03/16,First round,4,Florida,13,ETSU,no,6,1
+2016-17,2017/03/16,First round,3,Florida St.,14,FGCU,no,6,1
+2016-17,2017/03/16,First round,1,Gonzaga,16,South Dakota St.,no,6,0
+2016-17,2017/03/16,First round,5,Iowa St.,12,Nevada,no,5,1
+2016-17,2017/03/16,First round,5,Minnesota,12,Middle Tenn.,yes,6,1
+2016-17,2017/03/16,First round,5,Notre Dame,12,Princeton,no,7,0
+2016-17,2017/03/16,First round,4,Purdue,13,Vermont,no,5,2
+2016-17,2017/03/16,First round,1,Villanova,16,Mount St. Mary's,no,7,0
+2016-17,2017/03/16,First round,5,Virginia,12,UNCW,no,7,0
+2016-17,2017/03/16,First round,4,West Virginia,13,Bucknell,no,5,1
+2016-17,2017/03/16,First round,6,Maryland,11,Xavier,yes,7,1
+2016-17,2017/03/17,First round,3,Baylor,14,New Mexico St.,no,7,0
+2016-17,2017/03/17,First round,6,Cincinnati,11,Kansas St.,no,5,1
+2016-17,2017/03/17,First round,2,Duke,15,Troy,no,7,1
+2016-17,2017/03/17,First round,1,Kansas,16,UC Davis,no,6,1
+2016-17,2017/03/17,First round,2,Kentucky,15,Northern Ky.,no,7,0
+2016-17,2017/03/17,First round,2,Louisville,15,Jacksonville St.,no,6,1
+2016-17,2017/03/17,First round,1,North Carolina,16,Texas Southern,no,7,1
+2016-17,2017/03/17,First round,3,Oregon,14,Iona,no,6,2
+2016-17,2017/03/17,First round,6,Creighton,11,Rhode Island,yes,7,0
+2016-17,2017/03/17,First round,6,SMU,11,Southern California,yes,4,3
+2016-17,2017/03/17,First round,3,UCLA,14,Kent St.,no,8,0
+2016-17,2017/03/18,Second round,2,Arizona,7,Saint Mary's (CA),no,6,1
+2016-17,2017/03/18,Second round,4,Butler,12,Middle Tenn.,no,7,0
+2016-17,2017/03/18,Second round,1,Gonzaga,8,Northwestern,no,6,0
+2016-17,2017/03/18,Second round,1,Villanova,8,Wisconsin,yes,7,0
+2016-17,2017/03/18,Second round,3,Florida St.,11,Xavier,yes,6,1
+2016-17,2017/03/19,Second round,3,Baylor,11,Southern California,no,7,0
+2016-17,2017/03/19,Second round,1,Kansas,9,Michigan St.,no,6,1
+2016-17,2017/03/19,Second round,2,Kentucky,10,Wichita St.,no,7,0
+2016-17,2017/03/19,Second round,2,Louisville,7,Michigan,yes,6,1
+2016-17,2017/03/19,Second round,1,North Carolina,8,Arkansas,no,7,1
+2016-17,2017/03/19,Second round,3,Oregon,11,Rhode Island,no,6,2
+2016-17,2017/03/19,Second round,2,Duke,7,South Carolina,yes,7,1
+2016-17,2017/03/23,Sweet 16,3,Oregon,7,Michigan,no,6,2
+2016-17,2017/03/23,Sweet 16,2,Arizona,11,Xavier,yes,6,1
+2016-17,2017/03/24,Sweet 16,4,Florida,8,Wisconsin,no,6,1
+2016-17,2017/03/24,Sweet 16,3,Baylor,7,South Carolina,yes,7,0
+2016-17,2017/03/25,Elite Eight,1,Gonzaga,11,Xavier,no,6,0
+2016-17,2017/04/01,Final Four,1,Gonzaga,7,South Carolina,no,6,0
+2017-18,2018/03/15,First round,4,Arizona,13,Buffalo,yes,4,3
+2017-18,2018/03/15,First round,2,Duke,15,Iona,no,9,0
+2017-18,2018/03/15,First round,6,Florida,11,St. Bonaventure,no,5,1
+2017-18,2018/03/15,First round,4,Gonzaga,13,UNC Greensboro,no,6,1
+2017-18,2018/03/15,First round,6,Houston,11,San Diego St.,no,5,1
+2017-18,2018/03/15,First round,1,Kansas,16,Penn,no,6,0
+2017-18,2018/03/15,First round,5,Kentucky,12,Davidson,no,6,1
+2017-18,2018/03/15,First round,6,Miami (FL),11,Loyola Chicago,yes,6,0
+2017-18,2018/03/15,First round,3,Michigan,14,Montana,no,6,2
+2017-18,2018/03/15,First round,5,Ohio St.,12,South Dakota St.,no,5,3
+2017-18,2018/03/15,First round,3,Tennessee,14,Wright St.,no,5,1
+2017-18,2018/03/15,First round,3,Texas Tech,14,SFA,no,6,1
+2017-18,2018/03/15,First round,1,Villanova,16,Radford,no,7,0
+2017-18,2018/03/16,First round,4,Auburn,13,Col. of Charleston,no,5,1
+2017-18,2018/03/16,First round,2,Cincinnati,15,Georgia St.,no,7,0
+2017-18,2018/03/16,First round,5,Clemson,12,New Mexico St.,no,6,1
+2017-18,2018/03/16,First round,4,Wichita St.,13,Marshall,yes,5,1
+2017-18,2018/03/16,First round,3,Michigan St.,14,Bucknell,no,6,1
+2017-18,2018/03/16,First round,2,North Carolina,15,Lipscomb,no,6,1
+2017-18,2018/03/16,First round,2,Purdue,15,Cal St. Fullerton,no,6,2
+2017-18,2018/03/16,First round,6,TCU,11,Syracuse,yes,7,0
+2017-18,2018/03/16,First round,1,Virginia,16,UMBC,yes,7,0
+2017-18,2018/03/16,First round,5,West Virginia,12,Murray St.,no,7,1
+2017-18,2018/03/16,First round,1,Xavier,16,Texas Southern,no,6,1
+2017-18,2018/03/17,Second round,2,Duke,7,Rhode Island,no,9,0
+2017-18,2018/03/17,Second round,1,Kansas,8,Seton Hall,no,6,0
+2017-18,2018/03/17,Second round,5,Kentucky,13,Buffalo,no,6,1
+2017-18,2018/03/17,Second round,3,Tennessee,11,Loyola Chicago,yes,5,1
+2017-18,2018/03/17,Second round,1,Villanova,9,Alabama,no,7,0
+2017-18,2018/03/18,Second round,1,Xavier,9,Florida St.,yes,6,1
+2017-18,2018/03/18,Second round,9,Kansas St.,16,UMBC,no,6,1
+2017-18,2018/03/18,Second round,2,Cincinnati,7,Nevada,yes,7,0
+2017-18,2018/03/18,Second round,2,Purdue,10,Butler,no,6,2
+2017-18,2018/03/18,Second round,3,Michigan St.,11,Syracuse,yes,6,1
+2017-18,2018/03/18,Second round,2,North Carolina,7,Texas A&M,yes,6,1
+2017-18,2018/03/18,Second round,5,West Virginia,13,Marshall,no,7,1
+2017-18,2018/03/22,Sweet 16,4,Gonzaga,9,Florida St.,yes,6,1
+2017-18,2018/03/22,Sweet 16,5,Kentucky,9,Kansas St.,yes,6,1
+2017-18,2018/03/22,Sweet 16,7,Nevada,11,Loyola Chicago,yes,7,0
+2017-18,2018/03/22,Sweet 16,3,Michigan,7,Texas A&M,no,6,2
+2017-18,2018/03/23,Sweet 16,2,Duke,11,Syracuse,no,9,0
+2017-18,2018/03/23,Sweet 16,1,Kansas,5,Clemson,no,6,0
+2017-18,2018/03/23,Sweet 16,1,Villanova,5,West Virginia,no,7,0
+2017-18,2018/03/24,Elite Eight,3,Michigan,9,Florida St.,no,6,2
+2017-18,2018/03/31,Final Four,3,Michigan,11,Loyola Chicago,no,6,2
+2018-19,2019/03/21,First round,5,Auburn,12,New Mexico St.,no,6,1
+2018-19,2019/03/21,First round,4,Florida St.,13,Vermont,no,6,1
+2018-19,2019/03/21,First round,1,Gonzaga,16,FDU,no,7,0
+2018-19,2019/03/21,First round,4,Kansas,13,Northeastern,no,5,0
+2018-19,2019/03/21,First round,2,Kentucky,15,Abilene Christian,no,6,1
+2018-19,2019/03/21,First round,3,LSU,14,Yale,no,5,2
+2018-19,2019/03/21,First round,6,Maryland,11,Belmont,no,6,1
+2018-19,2019/03/21,First round,2,Michigan,15,Montana,no,7,0
+2018-19,2019/03/21,First round,2,Michigan St.,15,Bradley,no,6,2
+2018-19,2019/03/21,First round,5,Marquette,12,Murray St.,yes,5,2
+2018-19,2019/03/21,First round,3,Purdue,14,Old Dominion,no,5,2
+2018-19,2019/03/21,First round,6,Villanova,11,Saint Mary's (CA),no,5,2
+2018-19,2019/03/22,First round,6,Buffalo,11,Arizona St.,no,6,0
+2018-19,2019/03/22,First round,1,Duke,16,North Dakota St.,no,6,1
+2018-19,2019/03/22,First round,3,Houston,14,Georgia St.,no,5,0
+2018-19,2019/03/22,First round,5,Mississippi St.,12,Liberty,yes,6,1
+2018-19,2019/03/22,First round,1,North Carolina,16,Iona,no,6,2
+2018-19,2019/03/22,First round,6,Iowa St.,11,Ohio St.,yes,6,1
+2018-19,2019/03/22,First round,5,Wisconsin,12,Oregon,yes,7,1
+2018-19,2019/03/22,First round,2,Tennessee,15,Colgate,no,5,1
+2018-19,2019/03/22,First round,3,Texas Tech,14,Northern Ky.,no,6,0
+2018-19,2019/03/22,First round,4,Kansas St.,13,UC Irvine,yes,6,0
+2018-19,2019/03/22,First round,1,Virginia,16,Gardner-Webb,no,7,0
+2018-19,2019/03/22,First round,4,Virginia Tech,13,Saint Louis,no,5,1
+2018-19,2019/03/23,Second round,4,Florida St.,12,Murray St.,no,6,1
+2018-19,2019/03/23,Second round,1,Gonzaga,9,Baylor,no,7,0
+2018-19,2019/03/23,Second round,2,Kentucky,7,Wofford,no,6,1
+2018-19,2019/03/23,Second round,2,Michigan,10,Florida,no,7,0
+2018-19,2019/03/23,Second round,2,Michigan St.,10,Minnesota,no,6,2
+2018-19,2019/03/24,Second round,1,Duke,9,UCF,no,6,1
+2018-19,2019/03/24,Second round,3,Houston,11,Ohio St.,no,5,0
+2018-19,2019/03/24,Second round,1,North Carolina,9,Washington,no,6,2
+2018-19,2019/03/24,Second round,2,Tennessee,10,Iowa,no,5,1
+2018-19,2019/03/24,Second round,1,Virginia,9,Oklahoma,no,7,0
+2018-19,2019/03/24,Second round,4,Virginia Tech,12,Liberty,no,5,1
+2018-19,2019/03/28,Sweet 16,1,Virginia,12,Oregon,no,7,0
+2018-19,2019/03/29,Sweet 16,1,North Carolina,5,Auburn,yes,6,2
+2018-19,2019/04/06,Final Four,1,Virginia,5,Auburn,no,7,0
+2020-21,2021/03/19,First round,3,Arkansas,14,Colgate,no,2,0
+2020-21,2021/03/19,First round,1,Baylor,16,Hartford,no,2,0
+2020-21,2021/03/19,First round,2,Houston,15,Cleveland St.,no,3,0
+2020-21,2021/03/19,First round,1,Illinois,16,Drexel,no,3,0
+2020-21,2021/03/19,First round,4,Purdue,13,North Texas,yes,1,1
+2020-21,2021/03/19,First round,4,Oklahoma St.,13,Liberty,no,2,0
+2020-21,2021/03/19,First round,2,Ohio St.,15,Oral Roberts,yes,2,0
+2020-21,2021/03/19,First round,5,Tennessee,12,Oregon St.,yes,0,0
+2020-21,2021/03/19,First round,6,San Diego St.,11,Syracuse,yes,2,0
+2020-21,2021/03/19,First round,6,Texas Tech,11,Utah St.,no,2,1
+2020-21,2021/03/19,First round,5,Villanova,12,Winthrop,no,2,1
+2020-21,2021/03/19,First round,3,West Virginia,14,Morehead St.,no,3,0
+2020-21,2021/03/20,First round,3,Texas,14,Abilene Christian,yes,2,0
+2020-21,2021/03/20,First round,2,Alabama,15,Iona,no,1,1
+2020-21,2021/03/20,First round,5,Colorado,12,Georgetown,no,2,0
+2020-21,2021/03/20,First round,5,Creighton,12,UC Santa Barbara,no,1,0
+2020-21,2021/03/20,First round,4,Florida St.,13,UNC Greensboro,no,0,0
+2020-21,2021/03/20,First round,1,Gonzaga,16,Norfolk St.,no,2,0
+2020-21,2021/03/20,First round,2,Iowa,15,Grand Canyon,no,2,0
+2020-21,2021/03/20,First round,3,Kansas,14,Eastern Wash.,no,1,1
+2020-21,2021/03/20,First round,1,Michigan,16,Texas Southern,no,2,0
+2020-21,2021/03/20,First round,4,Virginia,13,Ohio,yes,1,1
+2020-21,2021/03/20,First round,6,Southern California,11,Drake,no,2,0
+2020-21,2021/03/20,First round,6,BYU,11,UCLA,yes,3,0
+2020-21,2021/03/21,Second round,1,Baylor,9,Wisconsin,no,2,0
+2020-21,2021/03/21,Second round,2,Houston,10,Rutgers,no,3,0
+2020-21,2021/03/21,Second round,1,Illinois,8,Loyola Chicago,yes,3,0
+2020-21,2021/03/21,Second round,7,Florida,15,Oral Roberts,yes,0,0
+2020-21,2021/03/21,Second round,4,Oklahoma St.,12,Oregon St.,yes,2,0
+2020-21,2021/03/21,Second round,3,West Virginia,11,Syracuse,yes,3,0
+2020-21,2021/03/21,Second round,5,Villanova,13,North Texas,no,2,1
+2020-21,2021/03/22,Second round,2,Alabama,10,Maryland,no,1,1
+2020-21,2021/03/22,Second round,5,Creighton,13,Ohio,no,1,0
+2020-21,2021/03/22,Second round,1,Gonzaga,8,Oklahoma,no,2,0
+2020-21,2021/03/22,Second round,1,Michigan,8,LSU,no,2,0
+2020-21,2021/03/22,Second round,2,Iowa,7,Oregon,yes,2,0
+2020-21,2021/03/27,Sweet 16,3,Arkansas,15,Oral Roberts,no,2,0
+2020-21,2021/03/27,Sweet 16,1,Baylor,5,Villanova,no,2,0
+2020-21,2021/03/27,Sweet 16,2,Houston,11,Syracuse,no,3,0
+2020-21,2021/03/27,Sweet 16,8,Loyola Chicago,12,Oregon St.,yes,0,0
+2020-21,2021/03/28,Sweet 16,1,Gonzaga,5,Creighton,no,2,0
+2020-21,2021/03/28,Sweet 16,2,Alabama,11,UCLA,yes,1,1
+2020-21,2021/03/29,Elite Eight,2,Houston,12,Oregon St.,no,3,0
+2020-21,2021/03/30,Elite Eight,1,Gonzaga,6,Southern California,no,2,0
+2020-21,2021/03/30,Elite Eight,1,Michigan,11,UCLA,yes,2,0
+2020-21,2021/04/03,Final Four,1,Gonzaga,11,UCLA,no,2,0
+2021-22,2022/03/17,First round,4,Arkansas,13,Vermont,no,6,0
+2021-22,2022/03/17,First round,1,Baylor,16,Norfolk St.,no,7,0
+2021-22,2022/03/17,First round,1,Gonzaga,16,Georgia St.,no,7,1
+2021-22,2022/03/17,First round,1,Kansas,16,Texas Southern,no,5,1
+2021-22,2022/03/17,First round,6,Colorado St.,11,Michigan,yes,7,0
+2021-22,2022/03/17,First round,5,UConn,12,New Mexico St.,yes,7,1
+2021-22,2022/03/17,First round,4,Providence,13,South Dakota St.,no,6,1
+2021-22,2022/03/17,First round,5,Iowa,12,Richmond,yes,7,0
+2021-22,2022/03/17,First round,5,Saint Mary's (CA),12,Indiana,no,7,1
+2021-22,2022/03/17,First round,2,Kentucky,15,Saint Peter's,yes,6,1
+2021-22,2022/03/17,First round,3,Tennessee,14,Longwood,no,5,1
+2021-22,2022/03/17,First round,4,UCLA,13,Akron,no,6,1
+2021-22,2022/03/18,First round,1,Arizona,16,Wright St.,no,6,0
+2021-22,2022/03/18,First round,2,Auburn,15,Jacksonville St.,no,5,1
+2021-22,2022/03/18,First round,2,Duke,15,Cal St. Fullerton,no,7,1
+2021-22,2022/03/18,First round,5,Houston,12,UAB,no,6,1
+2021-22,2022/03/18,First round,4,Illinois,13,Chattanooga,no,5,2
+2021-22,2022/03/18,First round,6,LSU,11,Iowa St.,yes,7,0
+2021-22,2022/03/18,First round,6,Alabama,11,Notre Dame,yes,6,1
+2021-22,2022/03/18,First round,3,Purdue,14,Yale,no,7,0
+2021-22,2022/03/18,First round,6,Texas,11,Virginia Tech,no,5,1
+2021-22,2022/03/18,First round,3,Texas Tech,14,Montana St.,no,6,0
+2021-22,2022/03/18,First round,2,Villanova,15,Delaware,no,4,2
+2021-22,2022/03/18,First round,3,Wisconsin,14,Colgate,no,5,1
+2021-22,2022/03/19,Second round,4,Arkansas,12,New Mexico St.,no,6,0
+2021-22,2022/03/19,Second round,1,Gonzaga,9,Memphis,no,7,1
+2021-22,2022/03/19,Second round,1,Kansas,9,Creighton,no,5,1
+2021-22,2022/03/19,Second round,3,Tennessee,11,Michigan,yes,5,1
+2021-22,2022/03/19,Second round,1,Baylor,8,North Carolina,yes,7,0
+2021-22,2022/03/19,Second round,4,Providence,12,Richmond,no,6,1
+2021-22,2022/03/19,Second round,7,Murray St.,15,Saint Peter's,yes,6,1
+2021-22,2022/03/20,Second round,1,Arizona,9,TCU,no,6,0
+2021-22,2022/03/20,Second round,2,Duke,7,Michigan St.,no,7,1
+2021-22,2022/03/20,Second round,3,Wisconsin,11,Iowa St.,yes,5,1
+2021-22,2022/03/20,Second round,2,Auburn,10,Miami (FL),yes,5,1
+2021-22,2022/03/20,Second round,3,Texas Tech,11,Notre Dame,no,6,0
+2021-22,2022/03/20,Second round,2,Villanova,7,Ohio St.,no,4,2
+2021-22,2022/03/24,Sweet 16,1,Arizona,5,Houston,yes,6,0
+2021-22,2022/03/24,Sweet 16,2,Villanova,11,Michigan,no,4,2
+2021-22,2022/03/25,Sweet 16,4,UCLA,8,North Carolina,yes,6,1
+2021-22,2022/03/25,Sweet 16,3,Purdue,15,Saint Peter's,yes,7,0
+2021-22,2022/03/27,Elite Eight,1,Kansas,10,Miami (FL),no,5,1
+2021-22,2022/03/27,Elite Eight,8,North Carolina,15,Saint Peter's,no,4,2
+2021-22,2022/04/02,Final Four,2,Duke,8,North Carolina,yes,7,1
+2021-22,2022/04/04,Championship,1,Kansas,8,North Carolina,no,5,1
+2022-23,2023/03/16,First round,1,Alabama,16,A&M-Corpus Christi,no,6,1
+2022-23,2023/03/16,First round,5,Duke,12,Oral Roberts,no,7,2
+2022-23,2023/03/16,First round,4,Virginia,13,Furman,yes,6,0
+2022-23,2023/03/16,First round,1,Houston,16,Northern Ky.,no,7,0
+2022-23,2023/03/16,First round,1,Kansas,16,Howard,no,7,1
+2022-23,2023/03/16,First round,2,Arizona,15,Princeton,yes,6,0
+2022-23,2023/03/16,First round,5,San Diego St.,12,Col. of Charleston,no,5,2
+2022-23,2023/03/16,First round,4,Tennessee,13,Louisiana,no,6,1
+2022-23,2023/03/16,First round,2,Texas,15,Colgate,no,5,0
+2022-23,2023/03/16,First round,2,UCLA,15,UNC Asheville,no,5,2
+2022-23,2023/03/17,First round,3,Baylor,14,UC Santa Barbara,no,5,2
+2022-23,2023/03/17,First round,6,Creighton,11,NC State,no,6,1
+2022-23,2023/03/17,First round,1,Purdue,16,FDU,yes,7,0
+2022-23,2023/03/17,First round,3,Gonzaga,14,Grand Canyon,no,5,2
+2022-23,2023/03/17,First round,4,Indiana,13,Kent St.,no,7,0
+2022-23,2023/03/17,First round,3,Kansas St.,14,Montana St.,no,6,1
+2022-23,2023/03/17,First round,6,Kentucky,11,Providence,no,5,2
+2022-23,2023/03/17,First round,2,Marquette,15,Vermont,no,6,2
+2022-23,2023/03/17,First round,5,Miami (FL),12,Drake,no,7,1
+2022-23,2023/03/17,First round,6,Iowa St.,11,Pittsburgh,yes,6,1
+2022-23,2023/03/17,First round,5,Saint Mary's (CA),12,VCU,no,6,2
+2022-23,2023/03/17,First round,6,TCU,11,Arizona St.,no,6,1
+2022-23,2023/03/17,First round,4,UConn,13,Iona,no,8,0
+2022-23,2023/03/17,First round,3,Xavier,14,Kennesaw St.,no,5,3
+2022-23,2023/03/18,Second round,1,Alabama,8,Maryland,no,6,1
+2022-23,2023/03/18,Second round,1,Kansas,8,Arkansas,yes,7,1
+2022-23,2023/03/18,Second round,1,Houston,9,Auburn,no,7,0
+2022-23,2023/03/18,Second round,7,Missouri,15,Princeton,yes,8,0
+2022-23,2023/03/18,Second round,5,San Diego St.,13,Furman,no,5,2
+2022-23,2023/03/18,Second round,2,Texas,10,Penn St.,no,5,0
+2022-23,2023/03/18,Second round,2,UCLA,7,Northwestern,no,5,2
+2022-23,2023/03/19,Second round,9,Fla. Atlantic,16,FDU,no,6,1
+2022-23,2023/03/19,Second round,2,Marquette,7,Michigan St.,yes,6,2
+2022-23,2023/03/19,Second round,3,Xavier,11,Pittsburgh,no,5,3
+2022-23,2023/03/23,Sweet 16,4,Tennessee,9,Fla. Atlantic,yes,6,1
+2022-23,2023/03/23,Sweet 16,3,Kansas St.,7,Michigan St.,no,6,1
+2022-23,2023/03/23,Sweet 16,4,UConn,8,Arkansas,no,8,0
+2022-23,2023/03/24,Sweet 16,6,Creighton,15,Princeton,no,6,1
+2022-23,2023/03/24,Sweet 16,1,Houston,5,Miami (FL),yes,7,0
+2022-23,2023/03/24,Sweet 16,1,Alabama,5,San Diego St.,yes,6,1
+2022-23,2023/03/25,Elite Eight,3,Kansas St.,9,Fla. Atlantic,yes,6,1
+2022-23,2023/04/01,Final Four,5,San Diego St.,9,Fla. Atlantic,no,5,2
+2023-24,2024/03/21,First round,2,Arizona,15,Long Beach St.,no,6,0
+2023-24,2024/03/21,First round,3,Creighton,14,Akron,no,6,1
+2023-24,2024/03/21,First round,6,BYU,11,Duquesne,yes,6,0
+2023-24,2024/03/21,First round,5,Gonzaga,12,McNeese,no,5,1
+2023-24,2024/03/21,First round,3,Illinois,14,Morehead St.,no,5,1
+2023-24,2024/03/21,First round,2,Iowa St.,15,South Dakota St.,no,5,2
+2023-24,2024/03/21,First round,4,Kansas,13,Samford,no,6,1
+2023-24,2024/03/21,First round,6,Texas Tech,11,NC State,yes,5,2
+2023-24,2024/03/21,First round,1,North Carolina,16,Wagner,no,6,1
+2023-24,2024/03/21,First round,3,Kentucky,14,Oakland,yes,6,1
+2023-24,2024/03/21,First round,6,South Carolina,11,Oregon,yes,6,0
+2023-24,2024/03/21,First round,2,Tennessee,15,Saint Peter's,no,4,3
+2023-24,2024/03/22,First round,4,Alabama,13,Col. of Charleston,no,5,2
+2023-24,2024/03/22,First round,3,Baylor,14,Colgate,no,7,0
+2023-24,2024/03/22,First round,6,Clemson,11,New Mexico,no,6,0
+2023-24,2024/03/22,First round,4,Duke,13,Vermont,no,5,2
+2023-24,2024/03/22,First round,5,Saint Mary's (CA),12,Grand Canyon,yes,3,4
+2023-24,2024/03/22,First round,1,Houston,16,Longwood,no,7,0
+2023-24,2024/03/22,First round,5,Wisconsin,12,James Madison,yes,5,2
+2023-24,2024/03/22,First round,2,Marquette,15,Western Ky.,no,6,1
+2023-24,2024/03/22,First round,1,Purdue,16,Grambling,no,7,0
+2023-24,2024/03/22,First round,5,San Diego St.,12,UAB,no,6,1
+2023-24,2024/03/22,First round,1,UConn,16,Stetson,no,7,0
+2023-24,2024/03/22,First round,4,Auburn,13,Yale,yes,5,1
+2023-24,2024/03/23,Second round,2,Arizona,7,Dayton,no,6,0
+2023-24,2024/03/23,Second round,3,Creighton,11,Oregon,no,6,1
+2023-24,2024/03/23,Second round,3,Illinois,11,Duquesne,no,5,1
+2023-24,2024/03/23,Second round,2,Iowa St.,7,Washington St.,no,5,2
+2023-24,2024/03/23,Second round,1,North Carolina,9,Michigan St.,no,6,1
+2023-24,2024/03/23,Second round,2,Tennessee,7,Texas,no,4,3
+2023-24,2024/03/24,Second round,4,Alabama,12,Grand Canyon,no,5,2
+2023-24,2024/03/24,Second round,4,Duke,12,James Madison,no,5,2
+2023-24,2024/03/24,Second round,1,Houston,9,Texas A&M,no,7,0
+2023-24,2024/03/24,Second round,2,Marquette,10,Colorado,no,6,1
+2023-24,2024/03/24,Second round,1,Purdue,8,Utah St.,no,7,0
+2023-24,2024/03/24,Second round,5,San Diego St.,13,Yale,no,6,1
+2023-24,2024/03/24,Second round,1,UConn,9,Northwestern,no,7,0
+2023-24,2024/03/28,Sweet 16,2,Arizona,6,Clemson,yes,6,0
+2023-24,2024/03/28,Sweet 16,1,UConn,5,San Diego St.,no,7,0
+2023-24,2024/03/29,Sweet 16,2,Marquette,11,NC State,yes,6,1
+2023-24,2024/03/29,Sweet 16,1,Purdue,5,Gonzaga,no,7,0
+2023-24,2024/03/31,Elite Eight,4,Duke,11,NC State,yes,5,2
+2023-24,2024/04/06,Final Four,1,Purdue,11,NC State,no,7,0
+2024-25,2025/03/20,First round,1,Auburn,16,Alabama St.,no,7,0
+2024-25,2025/03/20,First round,6,BYU,11,VCU,no,6,1
+2024-25,2025/03/20,First round,6,Missouri,11,Drake,yes,6,1
+2024-25,2025/03/20,First round,1,Houston,16,SIUE,no,4,3
+2024-25,2025/03/20,First round,5,Clemson,12,McNeese,yes,7,1
+2024-25,2025/03/20,First round,5,Michigan,12,UC San Diego,no,6,1
+2024-25,2025/03/20,First round,4,Purdue,13,High Point,no,7,1
+2024-25,2025/03/20,First round,2,St. John's (NY),15,Omaha,no,6,2
+2024-25,2025/03/20,First round,2,Tennessee,15,Wofford,no,7,0
+2024-25,2025/03/20,First round,4,Texas A&M,13,Yale,no,6,2
+2024-25,2025/03/20,First round,3,Texas Tech,14,UNCW,no,6,1
+2024-25,2025/03/20,First round,3,Wisconsin,14,Montana,no,7,0
+2024-25,2025/03/21,First round,2,Alabama,15,Robert Morris,no,6,2
+2024-25,2025/03/21,First round,4,Arizona,13,Akron,no,3,4
+2024-25,2025/03/21,First round,5,Memphis,12,Colorado St.,yes,6,1
+2024-25,2025/03/21,First round,1,Duke,16,Mount St. Mary's,no,5,2
+2024-25,2025/03/21,First round,1,Florida,16,Norfolk St.,no,7,0
+2024-25,2025/03/21,First round,6,Illinois,11,Xavier,no,6,1
+2024-25,2025/03/21,First round,3,Iowa St.,14,Lipscomb,no,5,1
+2024-25,2025/03/21,First round,3,Kentucky,14,Troy,no,7,0
+2024-25,2025/03/21,First round,4,Maryland,13,Grand Canyon,no,6,1
+2024-25,2025/03/21,First round,2,Michigan St.,15,Bryant,no,5,2
+2024-25,2025/03/21,First round,6,Ole Miss,11,North Carolina,no,6,1
+2024-25,2025/03/21,First round,5,Oregon,12,Liberty,no,8,0
+2024-25,2025/03/22,Second round,2,St. John's (NY),10,Arkansas,yes,6,2
+2024-25,2025/03/22,Second round,1,Auburn,9,Creighton,no,7,0
+2024-25,2025/03/22,Second round,1,Houston,8,Gonzaga,no,4,3
+2024-25,2025/03/22,Second round,4,Purdue,12,McNeese,no,7,1
+2024-25,2025/03/22,Second round,2,Tennessee,7,UCLA,no,7,0
+2024-25,2025/03/22,Second round,3,Texas Tech,11,Drake,no,6,1
+2024-25,2025/03/23,Second round,2,Alabama,7,Saint Mary's (CA),no,6,2
+2024-25,2025/03/23,Second round,1,Duke,9,Baylor,no,5,2
+2024-25,2025/03/23,Second round,1,Florida,8,UConn,no,7,0
+2024-25,2025/03/23,Second round,4,Maryland,12,Colorado St.,no,6,1
+2024-25,2025/03/23,Second round,2,Michigan St.,10,New Mexico,no,5,2
+2024-25,2025/03/27,Sweet 16,2,Alabama,6,BYU,no,6,2
+2024-25,2025/03/27,Sweet 16,3,Texas Tech,10,Arkansas,no,6,1
+2024-25,2025/03/28,Sweet 16,1,Auburn,5,Michigan,no,7,0
+2024-25,2025/03/28,Sweet 16,2,Michigan St.,6,Ole Miss,no,5,2
+2025-26,2026/03/19,First round,4,Arkansas,13,Hawaii,no,5,2
+2025-26,2026/03/19,First round,1,Duke,16,Siena,no,8,0
+2025-26,2026/03/19,First round,3,Gonzaga,14,Kennesaw St.,no,7,1
+2025-26,2026/03/19,First round,5,Wisconsin,12,High Point,yes,5,2
+2025-26,2026/03/19,First round,2,Houston,15,Idaho,no,7,1
+2025-26,2026/03/19,First round,3,Illinois,14,Penn,no,6,2
+2025-26,2026/03/19,First round,6,Louisville,11,South Fla.,no,7,0
+2025-26,2026/03/19,First round,1,Michigan,16,Howard,no,7,0
+2025-26,2026/03/19,First round,3,Michigan St.,14,North Dakota St.,no,7,0
+2025-26,2026/03/19,First round,4,Nebraska,13,Troy,no,8,0
+2025-26,2026/03/19,First round,6,BYU,11,Texas,yes,6,1
+2025-26,2026/03/19,First round,6,North Carolina,11,VCU,yes,6,1
+2025-26,2026/03/19,First round,5,Vanderbilt,12,McNeese,no,8,0
+2025-26,2026/03/20,First round,4,Alabama,13,Hofstra,no,5,2
+2025-26,2026/03/20,First round,1,Arizona,16,LIU,no,7,0
+2025-26,2026/03/20,First round,1,Florida,16,Prairie View,no,5,2
+2025-26,2026/03/20,First round,2,Iowa St.,15,Tennessee St.,no,7,0
+2025-26,2026/03/20,First round,4,Kansas,13,California Baptist,no,6,2
+2025-26,2026/03/20,First round,2,Purdue,15,Queens (NC),no,7,0
+2025-26,2026/03/20,First round,5,St. John's (NY),12,UNI,no,4,3
+2025-26,2026/03/20,First round,6,Tennessee,11,Miami (OH),no,7,1
+2025-26,2026/03/20,First round,5,Texas Tech,12,Akron,no,6,2
+2025-26,2026/03/20,First round,2,UConn,15,Furman,no,6,1
+2025-26,2026/03/20,First round,3,Virginia,14,Wright St.,no,6,1
+2025-26,2026/03/21,Second round,4,Arkansas,12,High Point,no,5,2
+2025-26,2026/03/21,Second round,1,Duke,9,TCU,no,8,0
+2025-26,2026/03/21,Second round,2,Houston,10,Texas A&M,no,7,1
+2025-26,2026/03/21,Second round,3,Illinois,11,VCU,no,6,2
+2025-26,2026/03/21,Second round,1,Michigan,9,Saint Louis,no,7,0
+2025-26,2026/03/21,Second round,3,Gonzaga,11,Texas,yes,7,1
+2025-26,2026/03/22,Second round,1,Arizona,9,Utah St.,no,7,0
+2025-26,2026/03/22,Second round,1,Florida,9,Iowa,yes,5,2
+2025-26,2026/03/22,Second round,2,Iowa St.,7,Kentucky,no,7,0
+2025-26,2026/03/22,Second round,2,Purdue,7,Miami (FL),no,7,0
+2025-26,2026/03/22,Second round,2,UConn,7,UCLA,no,6,1
+2025-26,2026/03/26,Sweet 16,4,Nebraska,9,Iowa,yes,8,0
+2025-26,2026/03/26,Sweet 16,2,Purdue,11,Texas,no,7,0
+2025-26,2026/03/27,Sweet 16,1,Duke,5,St. John's (NY),no,8,0
+2025-26,2026/03/27,Sweet 16,2,Iowa St.,6,Tennessee,yes,7,0
+2025-26,2026/03/28,Elite Eight,3,Illinois,9,Iowa,no,6,2
+2025-26,2026/03/29,Elite Eight,1,Michigan,6,Tennessee,no,7,0
