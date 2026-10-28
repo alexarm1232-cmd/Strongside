@@ -55,9 +55,10 @@ def one_season(code, mode):
     Spreadstat.PROGRAM_GAMES = 0
     Spreadstat.load_last_season = lambda paths: ({}, 0.0)
     Spreadstat.FREEZE_FROM = first_day if mode == "pre" else None
-    # Every game of the season counts the same: a blowout is not damped the way the dashboard's ratings damp it, and an
-    # old game counts as much as a recent one.
-    Spreadstat.RATING_LOPSIDED = float("inf")
+    # The ratings as the dashboard makes them: a game that was expected to be lopsided and was counts for less
+    # (Kenstat.LOPSIDED_SCALE), and an old game counts as much as a recent one. Tested on every tournament game: counting
+    # blowouts in full put the ratings' spreads 1.74 points off the closing lines against 1.51 with the damping.
+    Spreadstat.RATING_LOPSIDED = None
     # (2020-21 phases in 2019-20's ratings, as its dashboard ratings do: main.py sets Kenstat.RATING_PRIOR when it loads)
     Spreadstat.REPORT_FILE = os.path.join(PARTS_FOLDER, f"{code}_{mode}.js")
 
