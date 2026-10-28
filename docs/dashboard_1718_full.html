@@ -276,28 +276,6 @@
   .sc-find .field { flex: 1; }
   .sc-pager { display: flex; justify-content: space-between; align-items: center; padding: 8px 12px 12px; color: var(--muted); font-size: 13px; }
 
-  /* ---------- Champion picker ---------- */
-  #picker-view { display: none; padding-bottom: 40px; }
-  body.picker-mode #picker-view { display: block; }
-  body.picker-mode .list-only, body.picker-mode .controls, body.picker-mode #team-view { display: none !important; }
-  .pk-rules { display: grid; grid-template-columns: repeat(auto-fit, minmax(230px, 1fr)); gap: 12px; padding: 16px 18px; }
-  .pk-rule { border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; background: var(--surface-2); }
-  .pk-rule b { display: block; font-size: 12px; letter-spacing: .06em; text-transform: uppercase; color: var(--accent-ink); margin-bottom: 4px; }
-  .pk-rule span { font-size: 13.5px; color: var(--ink-2); line-height: 1.45; }
-  .pk-sum { padding: 0 18px 16px; font-size: 14.5px; line-height: 1.55; }
-  .pk-sum .ok { color: var(--win); font-weight: 700; }
-  .pk-sum .no { color: var(--loss); font-weight: 700; }
-  .pk-bar { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; padding: 12px 18px; }
-  .pk-table td, .pk-table th { text-align: center; }
-  .pk-table td.team { text-align: left; }
-  .pk-table td.y { color: var(--win); font-weight: 650; }
-  .pk-table td.n { color: var(--muted); }
-  .pk-table td.chk { font-weight: 800; font-size: 15px; }
-  .pk-table tr.all td { background: rgba(var(--good-rgb), .08); }
-  .pk-table td small { display: block; color: var(--muted); font-size: 11px; }
-  .bk-pick { display: flex; flex-wrap: wrap; gap: 8px 14px; align-items: center; padding: 12px 18px; }
-  .bk-pick label { display: flex; gap: 8px; align-items: center; font-weight: 650; cursor: pointer; }
-  .bk-pick .hint { color: var(--muted); font-size: 13px; }
 
   /* ---------- Stat guide ---------- */
   #guide-view { display: none; padding-bottom: 40px; }
@@ -700,7 +678,6 @@
         <a href="#scatter" data-page="scatter">Team scatter</a>
         <a href="#sim" data-page="sim">Game sim</a>
         <a href="#bracket" data-page="bracket">Tournament sim</a>
-        <a href="#picker" data-page="picker">Champion picker</a>
         <a href="upsets.html">Tournament upsets</a>
         <a href="#tspreads" data-page="tspreads">Tourney spreads</a>
         <a href="#guide" data-page="guide">Stat guide</a>
@@ -772,7 +749,6 @@
 
   <div id="team-view"></div>
   <div id="scatter-view"></div>
-  <div id="picker-view"></div>
   <div id="sim-view"></div>
   <div id="bracket-view"></div>
   <div id="tspread-view"></div>
@@ -3318,13 +3294,6 @@ function renderBracket() {
       `<button class="clear" id="bk-clear" title="Empty all 64 slots">Clear bracket</button></div>` +
       (REAL_BRACKET ? '' : `<div class="wo-note">${DATA.meta.season === '2019-20' ? 'There was no 2020 tournament: it was cancelled in March 2020 because of COVID-19. ' : 'This season has no real bracket on the page. '}` +
         `<b>Fill a projected field</b> puts in the 64 teams it would most likely have had by our ratings: each conference's best-rated team (its automatic bid) and the 32 best-rated others, seeded 1 to 16 down the ratings.</div>`) + `</div>` +
-    (() => {
-      const picks = pickerPasses(), inField = picks.filter(n => bracket.slots.includes(n));
-      return `<div class="card tp-card"><div class="bk-pick"><label><input type="checkbox" id="bk-pickonly"${bracket.pickOnly ? ' checked' : ''}> ` +
-        `Only my <a href="#picker">Champion picker</a> teams can win the title</label>` +
-        `<span class="hint">${picks.length ? `Picks: ${picks.map(esc).join(', ')}${inField.length < picks.length ? ` · in this bracket: ${inField.length ? inField.map(esc).join(', ') : 'none'}` : ''}` : 'No team passes all four checks this season.'}` +
-        ` · The tournament is played as usual and replayed until one of them wins it; every game is still decided by the simulator.</span></div></div>`;
-    })() +
     (!REAL_BRACKET ? '' : `<div class="card tp-card"><div class="tp-bar"><h3>Perfect bracket chase<span>the real ${REAL_BRACKET.year} tournament: how many simulated tournaments until one matches all 63 results?</span></h3></div>` +
       `<div class="gs-run" style="border-top:0;margin-top:0;padding-top:6px"><button class="btn" id="bk-chase-go">Chase the perfect bracket</button>` +
       `<button class="clear" id="bk-chase-stop" hidden>Stop</button><span class="hint" id="bk-chase-status"></span>` +
@@ -3361,8 +3330,7 @@ function renderBracketResult() {
     let note = 'playing…';
     if (g.winner != null) {
       const share = g.winner ? 1 - g.share : g.share;
-      note = (!g.score && g.margin ? `by ${Math.abs(g.margin)} · ` : '') +
-        `won ${(100 * share).toFixed(1)}% of ${BRACKET_GAMES.toLocaleString()}` + (share < 0.5 ? ` · <span class="upset">upset</span>` : '');
+      note = `won ${(100 * share).toFixed(1)}% of ${BRACKET_GAMES.toLocaleString()}` + (share < 0.5 ? ` · <span class="upset">upset</span>` : '');
     }
     return `<a class="bk-game" href="#sim" data-a="${esc(g.a.name)}" data-b="${esc(g.b.name)}" title="Open this matchup in the game simulator">${line(g, 0)}${line(g, 1)}<small>${note}</small></a>`;
   };
@@ -3379,78 +3347,34 @@ function renderBracketResult() {
     `<div class="wo-note" style="padding:14px 4px 0">The score shown is the one game drawn as official; the percentage is how often its winner won all ${BRACKET_GAMES.toLocaleString()} games of that matchup. ` +
     `Because the official game is drawn at random, a team that wins 30% of the time moves on 30% of the time. Click a game to open the matchup in the game simulator.</div>`;
 }
-// One official result drawn from a matchup's simulated margins (index = first team's margin + 120; never a tie)
-function drawMargin(margins) {
-  let total = 0;
-  for (const n of margins) total += n;
-  let pick = Math.random() * total;
-  for (let i = 0; i < margins.length; i++) { pick -= margins[i]; if (pick < 0) return i - 120; }
-  return 1;
-}
 async function runBracket() {
   const { filled, twice } = bracketProblems();
   if (bracket.busy || chase.busy || filled < 64 || twice.length) return;
   const run = ++bracket.run, started = performance.now();
   bracket.busy = true;
-  // "Only my picks can win": the whole tournament is replayed until one of the Champion picker's teams wins it.
-  // Each matchup is simulated once; a replay draws a new official result from that matchup's simulated games.
-  const eligible = bracket.pickOnly ? new Set(pickerPasses().filter(n => bracket.slots.includes(n))) : null;
-  const cache = new Map();
-  const MAX_TRIES = 2000, REPLAY_GAMES = 10000;
-  let tries = 0, champion = null, simulated = 0;
-  do {
-    tries++;
-    bracket.games = []; bracket.played = bracket.pair;
-    let field = bracket.slots.map((name, i) => ({ name, seed: BRACKET_SEEDS[i % 16] })), played = 0;
-    for (let round = 0; field.length > 1; round++) {
-      const next = [];
-      if (field.length === 4) field = bracketPairs(bracket.played).flat().map(r => field[r]);      // the four region winners, paired as chosen
-      for (let i = 0; i < field.length; i += 2) {
-        const g = { round, index: i / 2, a: field[i], b: field[i + 1] };
-        bracket.games.push(g);
-        played++;
-        const key = g.a.name + '|' + g.b.name;
-        let known = cache.get(key);
-        if (!known) {
-          bracket.status = (tries > 1 ? `Tournament ${tries} · ` : '') + `Game ${played} of 63 · ${BRACKET_ROUNDS[round]}: ${g.a.name} vs ${g.b.name}`;
-          bracketStatus(); renderBracketResult();
-          // a matchup first met in a replay only needs its odds and margins, so it is played 10,000 times, not the full count
-          bracket.job = simGames(teamByName[g.a.name], teamByName[g.b.name], 'N', new Set(), new Set(), tries > 1 ? REPLAY_GAMES : BRACKET_GAMES, null, true, true);
-          const { acc } = await bracket.job.promise;
-          if (run !== bracket.run) return;
-          known = { share: acc.tally[1] / acc.tally[0], margins: Float64Array.from(acc.margins), score: [acc.kept[0], acc.kept[1]], used: false };
-          cache.set(key, known);
-          simulated++;
-        }
-        g.share = known.share;                              // how often the first team won
-        if (!known.used) {                                  // the official game: the one kept from the simulation...
-          known.used = true;
-          g.score = known.score;
-          g.winner = g.score[0] > g.score[1] ? 0 : 1;
-        } else {                                            // ...or, in a replay, a fresh one drawn from the same games
-          g.margin = drawMargin(known.margins);
-          g.winner = g.margin > 0 ? 0 : 1;
-        }
-        next.push(g.winner ? g.b : g.a);
-      }
-      field = next;
-    }
-    champion = field[0].name;
-    if (eligible && eligible.size && !eligible.has(champion) && tries % 25 === 0) {
-      bracket.status = `Tournament ${tries}: ${champion} won it, not one of your picks · playing again…`;
-      bracketStatus();
-      await new Promise(resolve => setTimeout(resolve));
+  bracket.games = []; bracket.played = bracket.pair;
+  let field = bracket.slots.map((name, i) => ({ name, seed: BRACKET_SEEDS[i % 16] })), played = 0;
+  for (let round = 0; field.length > 1; round++) {
+    const next = [];
+    if (field.length === 4) field = bracketPairs(bracket.played).flat().map(r => field[r]);      // the four region winners, paired as chosen
+    for (let i = 0; i < field.length; i += 2) {
+      const g = { round, index: i / 2, a: field[i], b: field[i + 1] };
+      bracket.games.push(g);
+      played++;
+      bracket.status = `Game ${played} of 63 · ${BRACKET_ROUNDS[round]}: ${g.a.name} vs ${g.b.name}`;
+      bracketStatus(); renderBracketResult();
+      bracket.job = simGames(teamByName[g.a.name], teamByName[g.b.name], 'N', new Set(), new Set(), BRACKET_GAMES, null, true, true);
+      const { acc } = await bracket.job.promise;
       if (run !== bracket.run) return;
+      g.share = acc.tally[1] / acc.tally[0];               // how often the first team won
+      g.score = [acc.kept[0], acc.kept[1]];                // the official game: the one kept from the simulation
+      g.winner = g.score[0] > g.score[1] ? 0 : 1;
+      next.push(g.winner ? g.b : g.a);
     }
-  } while (eligible && eligible.size && !eligible.has(champion) && tries < MAX_TRIES);
+    field = next;
+  }
   bracket.busy = false;
-  const time = simTime((performance.now() - started) / 1000);
-  bracket.status = !eligible || !eligible.size
-    ? `${champion} wins it all · 63 matchups, ${(63 * BRACKET_GAMES).toLocaleString()} games in ${time}` +
-      (eligible ? ' · none of your Champion picker teams are in this bracket, so it was played normally' : '')
-    : eligible.has(champion)
-      ? `${champion} wins it all, one of your picks · tournament ${tries.toLocaleString()} was the first one a pick won (${simulated} matchups simulated, ${time})`
-      : `None of your picks won any of ${MAX_TRIES.toLocaleString()} tournaments; this is the last one played (${champion} won it)`;
+  bracket.status = `${field[0].name} wins it all · 63 matchups, ${(63 * BRACKET_GAMES).toLocaleString()} games in ${simTime((performance.now() - started) / 1000)}`;
   bracketStatus(); renderBracketResult();
 }
 // ---------- the perfect bracket chase ----------
@@ -4476,77 +4400,6 @@ document.addEventListener('keydown', e => {
 });
 window.addEventListener('resize', () => { clearTimeout(scResize); scResize = setTimeout(() => { if (document.body.classList.contains('scatter-mode') && $('sc-svg')) drawScatter(); }, 200); });
 
-// ---------- Champion picker: four pass/fail checks for a national champion ----------
-//   1. AP poll: top 25 in the preseason poll, top 12 in week 6 (the preseason poll is week 1), and top 25 in the last
-//      poll before the NCAA tournament
-//   2. Adjusted offense top 21 and adjusted defense top 37 (Strongside's ratings)
-//   3. Team 3-point percentage top 75
-//   4. Inside the Trapezoid of Excellence (Strongside's version, see scTrapezoid)
-// A team that passes all four is one of the picks. The tournament simulator can be told that only picks may win.
-const PK = { pre: 25, w6: 12, last: 25, o: 21, d: 37, p3: 75 };
-let pkCache = null, pkShow = 'all';
-function pickerResults() {
-  if (pkCache) return pkCache;
-  const trap = scTrapezoid();
-  const p3 = teams.map(t => ({ t, v: scValue(SC_BY_ID.p3, false, t) })).filter(r => r.v != null).sort((a, b) => b.v - a.v);
-  const p3rank = new Map();
-  let rank = 0, prev = null;
-  p3.forEach((r, i) => { if (r.v !== prev) { rank = i + 1; prev = r.v; } p3rank.set(r.t.name, [rank, r.v]); });
-  pkCache = teams.map(t => {
-    const ap = t.ap || {};
-    const c1 = [ap.pre <= PK.pre, ap.w6 <= PK.w6, ap.last <= PK.last];
-    const c2 = [t.rank.o <= PK.o, t.rank.d <= PK.d];
-    const [r3, v3] = p3rank.get(t.name) || [null, null];
-    const checks = [c1.every(Boolean), c2.every(Boolean), r3 != null && r3 <= PK.p3, !!(trap && trap.inside(t))];
-    return { t, ap, c1, c2, r3, v3, checks, passed: checks.filter(Boolean).length, all: checks.every(Boolean) };
-  });
-  return pkCache;
-}
-const pickerPasses = () => pickerResults().filter(r => r.all).map(r => r.t.name);
-function renderPicker() {
-  const results = pickerResults(), picks = results.filter(r => r.all);
-  const weeks = DATA.meta.ap || {};
-  const champ = REAL_BRACKET ? REAL_BRACKET.winners[5][0] : null, champRow = champ && results.find(r => r.t.name === champ);
-  const words = ['AP poll', 'Offense & defense', '3-point shooting', 'Trapezoid'];
-  const yes = (ok, text) => `<td class="${ok ? 'y' : 'n'}">${text}</td>`;
-  const rank = v => v == null ? '–' : '#' + v;
-  const shown = results.filter(r => pkShow === 'all' ? r.all : pkShow === 'three' ? r.passed >= 3 : r.passed >= 1)
-    .sort((a, b) => b.passed - a.passed || (b.t.n ?? -99) - (a.t.n ?? -99));
-  $('picker-view').innerHTML =
-    `<h2 class="gs-title">Champion picker<span>Four pass/fail checks for a national champion. A team has to pass all four to be a pick. ${esc(DATA.meta.season)}, before the NCAA tournament.</span></h2>` +
-    `<div class="card" style="margin-top:14px"><div class="pk-rules">` +
-      `<div class="pk-rule"><b>Check 1 · AP poll</b><span>Top ${PK.pre} in the preseason poll, top ${PK.w6} in week 6${weeks.w6 ? ` (${esc(weeks.w6)})` : ''}, and top ${PK.last} in the last poll before the tournament${weeks.last ? ` (${esc(weeks.last === 'Final' ? 'the poll after Selection Sunday' : weeks.last)})` : ''}.</span></div>` +
-      `<div class="pk-rule"><b>Check 2 · Offense &amp; defense</b><span>Adjusted offense top ${PK.o} and adjusted defense top ${PK.d}.</span></div>` +
-      `<div class="pk-rule"><b>Check 3 · 3-point shooting</b><span>Team 3-point percentage top ${PK.p3}.</span></div>` +
-      `<div class="pk-rule"><b>Check 4 · Trapezoid</b><span>Inside the Trapezoid of Excellence (pace against adjusted net rating; see the Team scatter).</span></div>` +
-    `</div><div class="pk-sum"><b>${picks.length} ${picks.length === 1 ? 'team passes' : 'teams pass'} all four:</b> ${picks.map(r => teamLink(r.t.name, esc(r.t.name))).join(', ') || 'none'}.` +
-      (champRow ? `<br>The real champion, <b>${esc(champ)}</b>, ${champRow.all ? '<span class="ok">passed all four</span>' :
-        `<span class="no">missed ${champRow.checks.map((ok, i) => ok ? null : words[i]).filter(Boolean).join(' and ')}</span>`}.` : '') +
-      (DATA.meta.ap ? '' : '<br>No AP poll data for this season, so no team can pass check 1.') +
-    `</div></div>` +
-    `<div class="card" style="margin-top:16px"><div class="pk-bar"><label class="field"><select id="pk-show" aria-label="Which teams">` +
-      [['all', 'Teams that pass all four'], ['three', 'Teams that pass 3 or more'], ['any', 'Teams that pass at least one']]
-        .map(([v, l]) => `<option value="${v}"${v === pkShow ? ' selected' : ''}>${l}</option>`).join('') + `</select></label>` +
-      `<span class="hint">${shown.length} teams</span></div>` +
-    `<div class="sc-table-wrap"><table class="pk-table"><thead><tr><th class="l"><button disabled>Team</button></th>` +
-      `<th><button disabled>AP pre</button></th><th><button disabled>AP wk 6</button></th><th><button disabled>AP last</button></th><th><button disabled>1</button></th>` +
-      `<th><button disabled>Off rank</button></th><th><button disabled>Def rank</button></th><th><button disabled>2</button></th>` +
-      `<th><button disabled>3P% (rank)</button></th><th><button disabled>3</button></th><th><button disabled>Trapezoid</button></th><th><button disabled>Checks</button></th></tr></thead><tbody>` +
-      shown.map(r => {
-        const logo = r.t.logo ? `<img src="${esc(r.t.logo)}" alt="" loading="lazy">` : '';
-        const mark = ok => `<td class="chk ${ok ? 'y' : 'n'}">${ok ? '✓' : '✗'}</td>`;
-        return `<tr class="${r.all ? 'all' : ''}"><td class="team"><span class="team-in"><span class="badge"${logo ? '' : ' style="visibility:hidden"'}>${logo}</span>${teamLink(r.t.name, esc(r.t.name))}${r.t.name === champ ? ' <span title="Won the title">★</span>' : ''}</span></td>` +
-          yes(r.c1[0], rank(r.ap.pre)) + yes(r.c1[1], rank(r.ap.w6)) + yes(r.c1[2], rank(r.ap.last)) + mark(r.checks[0]) +
-          yes(r.c2[0], rank(r.t.rank.o)) + yes(r.c2[1], rank(r.t.rank.d)) + mark(r.checks[1]) +
-          yes(r.checks[2], r.v3 == null ? '–' : `${r.v3.toFixed(1)}%<small>#${r.r3}</small>`) + mark(r.checks[2]) + mark(r.checks[3]) +
-          `<td><b>${r.passed}</b> of 4</td></tr>`;
-      }).join('') + `</tbody></table></div>` +
-    (shown.length ? '' : `<div class="empty">No team passes all four this season. Show “3 or more” to see the near misses.</div>`) + `</div>` +
-    `<p class="wo-note" style="padding:12px 4px 0">The ranks are among all ${teams.length} Division I teams, from this page’s pre-tournament numbers. ` +
-    `The AP ranks come from Sports Reference’s season poll page. The tournament simulator can be set so that only these picks can win the title.</p>`;
-}
-$('picker-view').addEventListener('change', e => { if (e.target.id === 'pk-show') { pkShow = e.target.value; renderPicker(); } });
-$('bracket-view').addEventListener('change', e => { if (e.target.id === 'bk-pickonly') { bracket.pickOnly = e.target.checked; } });
 
 // ---------- tourney spreads ----------
 // Every NCAA tournament game 2010-2026 (First Four included), played in the simulator as the two teams stood that
@@ -4804,19 +4657,17 @@ $('tspread-view').addEventListener('change', e => {
 function route() {
   // the tournament is simulated from how teams stood going in, so it stays on the pre-tournament page
   document.querySelector('#menu a[data-page="bracket"]').hidden = FULL_SEASON;
-  document.querySelector('#menu a[data-page="picker"]').hidden = FULL_SEASON;
-  const page = { '#sim': 'sim', '#scatter': 'scatter', '#bracket': FULL_SEASON ? 'stats' : 'bracket', '#picker': FULL_SEASON ? 'stats' : 'picker', '#tspreads': 'tspreads', '#guide': 'guide' }[location.hash] || 'stats';
+  const page = { '#sim': 'sim', '#scatter': 'scatter', '#bracket': FULL_SEASON ? 'stats' : 'bracket', '#tspreads': 'tspreads', '#guide': 'guide' }[location.hash] || 'stats';
   document.body.classList.toggle('guide-mode', page === 'guide');
   document.body.classList.toggle('tspread-mode', page === 'tspreads');
   document.body.classList.toggle('scatter-mode', page === 'scatter');
-  document.body.classList.toggle('picker-mode', page === 'picker');
   document.body.classList.toggle('sim-mode', page === 'sim');
   document.body.classList.toggle('bracket-mode', page === 'bracket');
   for (const a of document.querySelectorAll('#menu a')) a.dataset.page === page ? a.setAttribute('aria-current', 'page') : a.removeAttribute('aria-current');
   if (page !== 'stats') {
     state.team = null; state.player = null;
     document.body.classList.remove('team-mode');
-    page === 'sim' ? renderSim() : page === 'scatter' ? renderScatter() : page === 'picker' ? renderPicker() : page === 'bracket' ? renderBracket() :
+    page === 'sim' ? renderSim() : page === 'scatter' ? renderScatter() : page === 'bracket' ? renderBracket() :
       page === 'tspreads' ? renderTourneySpreads() : renderGuide();
     window.scrollTo(0, 0);
     return;
