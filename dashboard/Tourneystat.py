@@ -42,6 +42,31 @@ def tournament_lines():
 def label(code):
     return f"20{code[:2]}-{code[2:]}"
 
+# 2020-21 is the one season that leans on the season before. With COVID most teams played only inside their own
+# conference, so this season's games alone cannot say how the conferences compare (Colgate went 14 games, all in the
+# Patriot League, at +27.7 a game). Each team's 2019-20 ratings are phased in as PRIOR_GAMES more rating entries of its
+# own (the ratings count every game from both box scores, so 6 entries are 3 games), at PRIOR_SHARE of how far above or
+# below average it was. A fixed number of games means the fewer games a team has played, the more last season counts:
+# about 18% for Colgate's 14, about 11% for a 25-game team. Both numbers were chosen on the other seasons (each with its
+# own season before), not on 2020-21: the ratings' spreads came from 2.27 to 1.85 points off the 2020-21 closing lines,
+# and their misses on the final margins from 10.18 to 10.00. Leaning on last season even more for teams with few games
+# was tried and did no better.
+LAST_SEASON_PRIOR = {"2021": "1920"}
+PRIOR_GAMES = 6
+PRIOR_SHARE = 0.7
+
+def last_season_ratings(main, last):
+    """Team folder -> (offense, defense) above or below average in that season's final ratings, times PRIOR_SHARE."""
+    import Kenstat
+    kept = Kenstat.NEUTRAL_FROM, Kenstat.HOME_ADV, Kenstat.HOME_EDGES      # put back afterwards: this season measures its own
+    Kenstat.NEUTRAL_FROM = main.SEASONS[last]["neutral_from"]
+    folder = os.path.join(ROOT, main.SEASONS[last]["teams"])
+    Kenstat.measure_home_court(folder)
+    ratings = Kenstat.get_efficiency_ratings(folder)
+    Kenstat.NEUTRAL_FROM, Kenstat.HOME_ADV, Kenstat.HOME_EDGES = kept
+    avg = sum(r["o"] for r in ratings.values()) / len(ratings)
+    return {name.rstrip(". "): (PRIOR_SHARE * (r["o"] - avg), PRIOR_SHARE * (r["d"] - avg)) for name, r in ratings.items()}
+
 def one_season(code, mode):
     sys.argv = [sys.argv[0], code + "f"]            # main.py sets the season from the command line when it loads
     import main
@@ -57,6 +82,9 @@ def one_season(code, mode):
     # Every game of the season counts the same: a blowout is not damped the way the dashboard's ratings damp it, and an
     # old game counts as much as a recent one.
     Spreadstat.RATING_LOPSIDED = float("inf")
+    if code in LAST_SEASON_PRIOR:
+        Spreadstat.RATING_PRIOR = last_season_ratings(main, LAST_SEASON_PRIOR[code])
+        Spreadstat.RATING_PRIOR_GAMES = PRIOR_GAMES
     Spreadstat.REPORT_FILE = os.path.join(PARTS_FOLDER, f"{code}_{mode}.js")
 
     def load_market(games, folders):
