@@ -34,6 +34,8 @@ for code, (ended, neutral_from) in {"2324": (2024, "2024/03/11"), "2223": (2023,
                                     "1112": (2012, "2012/03/05"), "1011": (2011, "2011/03/07"), "0910": (2010, "2010/03/08")}.items():
     SEASONS[code] = {"label": f"{ended - 1}-{ended % 100:02d}", "teams": "data/seasons/" + code, "page": f"dashboard_{code}.html",
                      "data": code + "/", "this": ended, "last": ended - 1, "neutral_from": neutral_from, "spreads": False, "kind_zones": True}
+# 2020-21 (COVID: most teams played only inside their conference) phases in 2019-20's ratings; see Kenstat.RATING_PRIOR
+SEASONS["2021"]["prior"] = "1920"
 # The full-season view of a season: the same thing with the games after Selection Sunday counted too (the NCAA
 # tournament and the other postseason events). Its data is a second folder, made by postseason.py, and it gets its own
 # page; the switch in the page header goes between the two.   python dashboard/main.py 2526f
@@ -48,6 +50,9 @@ SEASON_KEY = next((arg for arg in sys.argv[1:] if arg in SEASONS), CURRENT_SEASO
 SEASON = SEASONS[SEASON_KEY]
 # The other modules copy these when they are loaded, so they are set first
 Kenstat.THIS_SEASON, Kenstat.LAST_SEASON, Kenstat.NEUTRAL_FROM = SEASON["this"], SEASON["last"], SEASON["neutral_from"]
+if SEASON.get("prior"):
+    PRIOR = SEASONS[SEASON["prior"]]
+    Kenstat.RATING_PRIOR = Kenstat.last_season_prior(os.path.join(os.path.dirname(os.path.dirname(os.path.abspath(__file__))), PRIOR["teams"]), PRIOR["neutral_from"])
 import Playerstat
 import Shotstat
 Shotstat.KIND_ZONES = bool(SEASON.get("kind_zones"))

@@ -148,6 +148,42 @@ def win50_rating(opponent_nets):
             high = mid
     return round((low + high) / 2, 2)
 
+# ---------------------------
+# LAST SEASON, PHASED IN (2020-21 only)
+# ---------------------------
+# With COVID most teams played only inside their own conference in 2020-21, so that season's games alone cannot say how
+# the conferences compare (Colgate went 14 games, all in the Patriot League, at +27.7 a game). For that season each
+# team's 2019-20 ratings are phased in: PRIOR_GAMES more rating entries of its own (every game is counted from both box
+# scores, so 6 entries are 3 games) against an average opponent, at PRIOR_SHARE of how far above or below average it
+# was. A fixed number means the fewer games a team has played, the more last season counts: about 18% for Colgate's
+# 14, about 11% for a 25-game team. Both numbers were chosen on the tournament games of the other seasons (each with
+# its own season before), not on 2020-21, where they brought the ratings' spreads from 2.27 to 1.85 points off the
+# closing lines and their misses on the final margins from 10.18 to 10.00. Leaning on last season more for teams with
+# few games, and pulling each conference toward its members' 2019-20 average, were tried and did no better.
+# main.py fills RATING_PRIOR in for a season whose SEASONS entry names a "prior" season; None = not used.
+RATING_PRIOR = None         # team (no trailing dots) -> (offense, defense) above or below average, already scaled
+PRIOR_GAMES = 6
+PRIOR_SHARE = 0.7
+
+def last_season_prior(root_folder, neutral_from):
+    """RATING_PRIOR from an earlier season's final ratings. Everything it changes to work them out is put back."""
+    global NEUTRAL_FROM, HOME_ADV, HOME_EDGES, RATING_PRIOR
+    kept = NEUTRAL_FROM, HOME_ADV, HOME_EDGES, RATING_PRIOR
+    NEUTRAL_FROM, RATING_PRIOR = neutral_from, None
+    ratings = measure_home_court(root_folder)
+    NEUTRAL_FROM, HOME_ADV, HOME_EDGES, RATING_PRIOR = kept
+    ratings.pop(NON_D1, None)
+    avg = sum(r["o"] for r in ratings.values()) / len(ratings)
+    return {name.rstrip('. '): (PRIOR_SHARE * (r["o"] - avg), PRIOR_SHARE * (r["d"] - avg)) for name, r in ratings.items()}
+
+def add_prior(name, temp_o, temp_d, temp_w, league_avg):
+    """One team's last-season entries, added to a rating pass's running sums (nothing without RATING_PRIOR)."""
+    found = RATING_PRIOR.get(name.rstrip('. ')) if RATING_PRIOR else None
+    if found:
+        temp_o[name] += PRIOR_GAMES * (league_avg + found[0])
+        temp_d[name] += PRIOR_GAMES * (league_avg + found[1])
+        temp_w[name] += PRIOR_GAMES
+
 def get_efficiency_ratings(root_folder, iterations=30):
     processed_ids = set()
     total_pts, total_poss = 0, 0
@@ -260,6 +296,7 @@ def get_efficiency_ratings(root_folder, iterations=30):
                 temp_w[t] += weight
 
         for name in real_teams:
+            add_prior(name, temp_o, temp_d, temp_w, league_avg)
             if temp_w[name]:
                 curr_adj_o[name] = temp_o[name] / temp_w[name]
                 curr_adj_d[name] = temp_d[name] / temp_w[name]
@@ -386,6 +423,7 @@ def nets_before_games(root_folder):
                 temp_d[t] += weight * (raw_d - (opp_o - league_avg))
                 temp_w[t] += weight
             for name in real:
+                add_prior(name, temp_o, temp_d, temp_w, league_avg)
                 if temp_w[name]:
                     adj_o[name] = temp_o[name] / temp_w[name]
                     adj_d[name] = temp_d[name] / temp_w[name]
