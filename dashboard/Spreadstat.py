@@ -29,11 +29,10 @@ SKIP_FIRST_GAMES = 5        # a game is left out until both teams have played th
 # compared with the real spread. The comparison starts on this date.
 COMPARE_FROM = "2025/12/01"
 ITERATIONS = 30             # the same number of passes the team ratings use
-# The ratings as the dashboard makes them: Kenstat's blowout damping and every game counting the same. Other settings
-# can be set from outside (Tourneystat.py turns the damping off): a game's weight halves every RATING_HALF_LIFE days
-# back, and blowouts are damped on RATING_LOPSIDED. (2020-21 also phases in 2019-20's ratings, as the dashboard's
-# ratings do: Kenstat.RATING_PRIOR.)
-RATING_HALF_LIFE = None
+# The ratings as the dashboard makes them: Kenstat's blowout damping and its fading of older games (a game's weight
+# halves for every Kenstat.RECENCY_GAMES games the team has played since). RATING_LOPSIDED sets the damping differently
+# from outside (None = the dashboard's). (2020-21 also phases in 2019-20's ratings, as the dashboard's ratings do:
+# Kenstat.RATING_PRIOR.)
 RATING_LOPSIDED = None
 PLAY_SHRINK = 30            # must match PLAY_SHRINK in the dashboard's play-type matchup
 # Last season as a head start. Early in the season a team has too few games to judge, so each team's numbers lean on
@@ -182,15 +181,19 @@ def load_season(root_folder):
 
 def rate(perfs, real, league_avg, count, today=None, prior=None):
     """Kenstat's rating passes over one set of games. perfs: (team, opponent, offense, defense, day number) with teams
-    as numbers; real: which teams have enough games to be rated; today: the day being rated for (used by
-    RATING_HALF_LIFE); prior: for each team, (offense, defense) above or below average from last season, or None
-    (see Kenstat.RATING_PRIOR). Returns (offense, defense) lists."""
+    as numbers; real: which teams have enough games to be rated; today: unused (kept for the callers); prior: for each
+    team, (offense, defense) above or below average from last season, or None (see Kenstat.RATING_PRIOR).
+    Returns (offense, defense) lists."""
     adj_o, adj_d = [league_avg] * count, [league_avg] * count
     scale = RATING_LOPSIDED or Kenstat.LOPSIDED_SCALE
     rated = [i for i in range(count) if real[i]]
     if not rated:
         return adj_o, adj_d
-    recency = [0.5 ** ((today - p[4]) / RATING_HALF_LIFE) if RATING_HALF_LIFE and today else 1.0 for p in perfs]
+    # older games count less, by how many games the team has played since (Kenstat.RECENCY_GAMES)
+    team_days = defaultdict(set)
+    for p in perfs: team_days[p[0]].add(p[4])
+    since = Kenstat.games_since({t: sorted(d) for t, d in team_days.items()})
+    recency = [Kenstat.recency(since(p[0], p[4])) for p in perfs]
     for _ in range(ITERATIONS):
         temp_o, temp_d, temp_w = [0.0] * count, [0.0] * count, [0.0] * count
         for (t, o, raw_o, raw_d, _), recent in zip(perfs, recency):
@@ -206,10 +209,11 @@ def rate(perfs, real, league_avg, count, today=None, prior=None):
             temp_d[t] += weight * (raw_d - (opp_o - league_avg))
             temp_w[t] += weight
         for i in rated:
-            if prior and prior[i]:
-                temp_o[i] += Kenstat.PRIOR_GAMES * (league_avg + prior[i][0])
-                temp_d[i] += Kenstat.PRIOR_GAMES * (league_avg + prior[i][1])
-                temp_w[i] += Kenstat.PRIOR_GAMES
+            if prior and prior[i]:          # last season, phasing out with the games the team has played (Kenstat.add_prior)
+                w = Kenstat.prior_weight(len(team_days.get(i, ())))
+                temp_o[i] += w * (league_avg + prior[i][0])
+                temp_d[i] += w * (league_avg + prior[i][1])
+                temp_w[i] += w
         for i in rated:
             if temp_w[i]:
                 adj_o[i] = temp_o[i] / temp_w[i]
@@ -847,11 +851,11 @@ def build_report(root_folder=TEAMS_FOLDER):
     # the season exactly as Kenstat does
     league_avg = total_pts / total_poss * 100
     real = [visit_count[i] >= 5 and names[i] not in Kenstat.BLACKLIST for i in range(count)]
-    global RATING_LOPSIDED, RATING_HALF_LIFE
-    own = RATING_LOPSIDED, RATING_HALF_LIFE          # (the check uses the dashboard's settings, whatever this run's are)
-    RATING_LOPSIDED = RATING_HALF_LIFE = None
+    global RATING_LOPSIDED
+    own = RATING_LOPSIDED          # (the check uses the dashboard's settings, whatever this run's are)
+    RATING_LOPSIDED = None
     adj_o, adj_d = rate(perfs, real, league_avg, count, prior=prior)
-    RATING_LOPSIDED, RATING_HALF_LIFE = own
+    RATING_LOPSIDED = own
     worst = max((abs(adj_o[number[name]] - stats["o"]) + abs(adj_d[number[name]] - stats["d"]) for name, stats in final.items() if name in number), default=None)
     check = {"ratings_gap": round(worst, 3) if worst is not None else None}
     print(f"   check against the dashboard's ratings: largest gap {check['ratings_gap']} (should be about 0.01 or less)")

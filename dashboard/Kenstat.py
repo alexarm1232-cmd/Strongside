@@ -25,6 +25,40 @@ def is_neutral(game):
     if 'neutral' in game:
         return bool(game['neutral'])
     return game['date'] >= NEUTRAL_FROM
+# Older games count less as the season goes on, by games played: in a team's rating, a game's weight halves for every
+# RECENCY_GAMES games the team has played since (so 10 games back counts 89%, 20 back 79%, 30 back 71%). Tested on every
+# NCAA tournament game 2010-2026 (each team as it stood that morning): any half-life from 60 to 150 games brought the
+# ratings' spreads a little closer to the closing lines (1.507 -> about 1.49 points off) and the final margins (9.019 ->
+# 9.015); 45 games and faster were worse. 60 is the strongest fade that loses nothing. None = every game counts the same.
+RECENCY_GAMES = 60
+
+def recency(games_since):
+    """How much a game counts once the team has played games_since more games."""
+    return 0.5 ** (games_since / RECENCY_GAMES) if RECENCY_GAMES else 1.0
+
+def games_since(team_days):
+    """team -> sorted list of the days it played (one per game day) -> a function (team, day) -> games played after that day."""
+    import bisect
+    return lambda team, day: len(team_days.get(team, ())) - bisect.bisect_right(team_days.get(team, ()), day) if day is not None else 0
+
+def day_number(date):
+    """'2025/12/01' -> a day count."""
+    import datetime
+    year, month, d = (int(part) for part in date.split('/'))
+    return datetime.date(year, month, d).toordinal()
+
+def game_days(root_folder):
+    """game file name and game id -> its day number, from the teams' game_scores.json files."""
+    days = {}
+    for root, dirs, files in os.walk(root_folder):
+        if 'game_scores.json' in files:
+            try:
+                with open(os.path.join(root, 'game_scores.json'), 'r', encoding='utf-8') as open_f:
+                    for g in json.load(open_f):
+                        days.setdefault(str(g['game_id']), day_number(g['date']))
+            except: continue
+    return days
+
 # Blowout damping: a game that was expected to be lopsided AND was lopsided counts less.
 # At a 20-per-100 runaway the game counts half; close games and upsets count in full.
 # Smaller = more damping (below ~15 the ratings get unstable and predict worse).
@@ -149,21 +183,34 @@ def win50_rating(opponent_nets):
     return round((low + high) / 2, 2)
 
 # ---------------------------
-# LAST SEASON, PHASED IN (2020-21 only)
+# LAST SEASON, PHASED IN
 # ---------------------------
-# With COVID most teams played only inside their own conference in 2020-21, so that season's games alone cannot say how
-# the conferences compare (Colgate went 14 games, all in the Patriot League, at +27.7 a game). For that season each
-# team's 2019-20 ratings are phased in: PRIOR_GAMES more rating entries of its own (every game is counted from both box
-# scores, so 6 entries are 3 games) against an average opponent, at PRIOR_SHARE of how far above or below average it
-# was. A fixed number means the fewer games a team has played, the more last season counts: about 18% for Colgate's
-# 14, about 11% for a 25-game team. Both numbers were chosen on the tournament games of the other seasons (each with
-# its own season before), not on 2020-21, where they brought the ratings' spreads from 2.27 to 1.85 points off the
-# closing lines and their misses on the final margins from 10.18 to 10.00. Leaning on last season more for teams with
-# few games, and pulling each conference toward its members' 2019-20 average, were tried and did no better.
-# main.py fills RATING_PRIOR in for a season whose SEASONS entry names a "prior" season; None = not used.
+# Last season only helps get each team started: its final ratings from the season before are phased in as PRIOR_GAMES
+# more rating entries of its own (every game is counted from both box scores, so 10 entries are 5 games) against an
+# average opponent, at PRIOR_SHARE of how far above or below average it was, and their weight falls in a straight line
+# to nothing once the team has played PRIOR_GONE_AFTER games (about mid-January). From then on a team is rated on this
+# season's games alone, older ones counting for less (RECENCY_GAMES).
+# Tested by working out the ratings the morning of every game day 2011-2026 and predicting every D-I game: the miss on
+# each game's margin fell from 19.3 to 14.7 points per 100 possessions in November, 14.1 to 13.1 in December and 12.9
+# to 12.8 in January (14.28 to 13.20 over the season). Gone by 8 or 12 games, or with fewer entries, helped less.
+# 2020-21 is the exception (PRIOR_ALL_SEASON, set by main.py): with COVID most teams played only inside their own
+# conference (Colgate went 14 games, all in the Patriot League, at +27.7 a game), so that season's games never say how
+# the conferences compare. There last season stays in all season, PRIOR_COVID_GAMES entries fading like old games do:
+# 2.07 -> 1.84 points off the tournament's closing lines (1.84 is the season's best with any setting tried).
+# main.py fills RATING_PRIOR in for a season whose SEASONS entry names a "prior" season (every season but 2009-10, whose
+# season before is not in the data); None = not used.
 RATING_PRIOR = None         # team (no trailing dots) -> (offense, defense) above or below average, already scaled
-PRIOR_GAMES = 6
-PRIOR_SHARE = 0.7
+PRIOR_GAMES = 10
+PRIOR_SHARE = 1.0
+PRIOR_GONE_AFTER = 16
+PRIOR_ALL_SEASON = False
+PRIOR_COVID_GAMES = 6
+
+def prior_weight(games):
+    """How many rating entries last season counts as for a team that has played this many games this season."""
+    if PRIOR_ALL_SEASON:
+        return PRIOR_COVID_GAMES * recency(games)
+    return PRIOR_GAMES * max(0.0, 1 - games / PRIOR_GONE_AFTER)
 
 def last_season_prior(root_folder, neutral_from):
     """RATING_PRIOR from an earlier season's final ratings. Everything it changes to work them out is put back."""
@@ -176,13 +223,15 @@ def last_season_prior(root_folder, neutral_from):
     avg = sum(r["o"] for r in ratings.values()) / len(ratings)
     return {name.rstrip('. '): (PRIOR_SHARE * (r["o"] - avg), PRIOR_SHARE * (r["d"] - avg)) for name, r in ratings.items()}
 
-def add_prior(name, temp_o, temp_d, temp_w, league_avg):
-    """One team's last-season entries, added to a rating pass's running sums (nothing without RATING_PRIOR)."""
+def add_prior(name, temp_o, temp_d, temp_w, league_avg, games=0):
+    """One team's last-season entries, added to a rating pass's running sums (nothing without RATING_PRIOR).
+    games: how many games the team has played so far this season (the entries fade with them)."""
     found = RATING_PRIOR.get(name.rstrip('. ')) if RATING_PRIOR else None
     if found:
-        temp_o[name] += PRIOR_GAMES * (league_avg + found[0])
-        temp_d[name] += PRIOR_GAMES * (league_avg + found[1])
-        temp_w[name] += PRIOR_GAMES
+        weight = prior_weight(games)
+        temp_o[name] += weight * (league_avg + found[0])
+        temp_d[name] += weight * (league_avg + found[1])
+        temp_w[name] += weight
 
 def get_efficiency_ratings(root_folder, iterations=30):
     processed_ids = set()
@@ -195,6 +244,7 @@ def get_efficiency_ratings(root_folder, iterations=30):
     factor_totals = defaultdict(lambda: defaultdict(float))
     home_teams = load_home_teams(root_folder)
     d1 = d1_names(root_folder)
+    days = game_days(root_folder) if RECENCY_GAMES else {}
 
     for root, dirs, files in os.walk(root_folder):
         if root.split(os.sep)[-1].lower() == 'boxscores':
@@ -254,8 +304,9 @@ def get_efficiency_ratings(root_folder, iterations=30):
                             elif home == raw1.rstrip('. '):
                                 h0, h1 = -home_edge(home), home_edge(home)
 
-                            all_game_performances.append({'team': n0, 'opp': n1, 'raw_o': eff0 - h0, 'raw_d': eff1 - h1})
-                            all_game_performances.append({'team': n1, 'opp': n0, 'raw_o': eff1 - h1, 'raw_d': eff0 - h0})
+                            day = days.get(f[:-5]) or days.get(g_id)
+                            all_game_performances.append({'team': n0, 'opp': n1, 'raw_o': eff0 - h0, 'raw_d': eff1 - h1, 'day': day})
+                            all_game_performances.append({'team': n1, 'opp': n0, 'raw_o': eff1 - h1, 'raw_d': eff0 - h0, 'day': day})
                             game_counts[n0] += 1
                             game_counts[n1] += 1
 
@@ -273,6 +324,12 @@ def get_efficiency_ratings(root_folder, iterations=30):
 
     curr_adj_o = {name: league_avg for name in real_teams}
     curr_adj_d = {name: league_avg for name in real_teams}
+    team_days = defaultdict(set)
+    for game in all_game_performances:
+        if game['day'] is not None: team_days[game['team']].add(game['day'])
+    since = games_since({team: sorted(d) for team, d in team_days.items()})
+    for game in all_game_performances:
+        game['recent'] = recency(since(game['team'], game['day']))
 
     for i in range(iterations):
         temp_o, temp_d, temp_w = defaultdict(float), defaultdict(float), defaultdict(float)
@@ -288,7 +345,7 @@ def get_efficiency_ratings(root_folder, iterations=30):
                 if expected < 0:
                     expected, actual = -expected, -actual   # look at it from the favourite's side
                 lopsided = max(0, min(expected, actual))
-                weight = 1 / (1 + (lopsided / LOPSIDED_SCALE) ** 2)
+                weight = game['recent'] / (1 + (lopsided / LOPSIDED_SCALE) ** 2)
 
                 # Additive opponent adjustment: credit for how far the opponent is from average
                 temp_o[t] += weight * (game['raw_o'] - (opp_d_adj - league_avg))
@@ -296,7 +353,7 @@ def get_efficiency_ratings(root_folder, iterations=30):
                 temp_w[t] += weight
 
         for name in real_teams:
-            add_prior(name, temp_o, temp_d, temp_w, league_avg)
+            add_prior(name, temp_o, temp_d, temp_w, league_avg, len(team_days.get(name, ())))
             if temp_w[name]:
                 curr_adj_o[name] = temp_o[name] / temp_w[name]
                 curr_adj_d[name] = temp_d[name] / temp_w[name]
@@ -384,6 +441,7 @@ def nets_before_games(root_folder):
             except: continue
 
     perfs, counts, adj_o, adj_d = [], defaultdict(int), {}, {}
+    played_days = defaultdict(list)
     total_pts = total_poss = 0
     league_avg = 100.0
     out = {}
@@ -397,8 +455,9 @@ def nets_before_games(root_folder):
                 entry[school] = round(adj_o[team] - adj_d[team], 1) if rated else None
         # then the day's games go in, and the ratings are brought up to date for the next day
         seen = set()
+        today = day_number(date)
         for g_id, sides, pts, poss, _ in by_day[date]:
-            perfs.extend(sides)
+            perfs.extend(side + (today,) for side in sides)
             for team, _, _, _ in sides: counts[team] += 1
             if g_id not in seen:
                 seen.add(g_id)
@@ -409,21 +468,25 @@ def nets_before_games(root_folder):
         for name in real:
             adj_o.setdefault(name, league_avg)
             adj_d.setdefault(name, league_avg)
+        for t, o, raw_o, raw_d, played in perfs[-2 * len(by_day[date]):]:
+            if not played_days[t] or played_days[t][-1] != played:
+                played_days[t].append(played)      # each team's game days so far, in order (a game is listed from both box scores)
+        since = games_since(played_days)
         for _ in range(DAILY_PASSES):
             temp_o, temp_d, temp_w = defaultdict(float), defaultdict(float), defaultdict(float)
-            for t, o, raw_o, raw_d in perfs:
+            for t, o, raw_o, raw_d, played in perfs:
                 if t not in real: continue
                 opp_o, opp_d = (adj_o[o], adj_d[o]) if o in real else (league_avg, league_avg)
                 expected = (adj_o[t] - adj_d[t]) - (opp_o - opp_d)
                 actual = raw_o - raw_d
                 if expected < 0:
                     expected, actual = -expected, -actual
-                weight = 1 / (1 + (max(0, min(expected, actual)) / LOPSIDED_SCALE) ** 2)
+                weight = recency(since(t, played)) / (1 + (max(0, min(expected, actual)) / LOPSIDED_SCALE) ** 2)
                 temp_o[t] += weight * (raw_o - (opp_d - league_avg))
                 temp_d[t] += weight * (raw_d - (opp_o - league_avg))
                 temp_w[t] += weight
             for name in real:
-                add_prior(name, temp_o, temp_d, temp_w, league_avg)
+                add_prior(name, temp_o, temp_d, temp_w, league_avg, len(played_days[name]))
                 if temp_w[name]:
                     adj_o[name] = temp_o[name] / temp_w[name]
                     adj_d[name] = temp_d[name] / temp_w[name]

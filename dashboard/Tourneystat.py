@@ -56,8 +56,9 @@ def one_season(code, mode):
     Spreadstat.load_last_season = lambda paths: ({}, 0.0)
     Spreadstat.FREEZE_FROM = first_day if mode == "pre" else None
     # The ratings as the dashboard makes them: a game that was expected to be lopsided and was counts for less
-    # (Kenstat.LOPSIDED_SCALE), and an old game counts as much as a recent one. Tested on every tournament game: counting
-    # blowouts in full put the ratings' spreads 1.74 points off the closing lines against 1.51 with the damping.
+    # (Kenstat.LOPSIDED_SCALE), and older games count less, a game's weight halving for every Kenstat.RECENCY_GAMES games
+    # the team has played since. Tested on every tournament game: counting blowouts in full put the ratings'
+    # spreads 1.74 points off the closing lines against 1.51 with the damping.
     Spreadstat.RATING_LOPSIDED = None
     # (2020-21 phases in 2019-20's ratings, as its dashboard ratings do: main.py sets Kenstat.RATING_PRIOR when it loads)
     Spreadstat.REPORT_FILE = os.path.join(PARTS_FOLDER, f"{code}_{mode}.js")
