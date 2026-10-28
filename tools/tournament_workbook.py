@@ -15,8 +15,8 @@ from upset_high_seeds import seasons, ROUNDS
 #           (pre/post NIL) and Half (first/second half of the years) columns to filter on and totals for each split.
 # C pages   win % and games by closing spread (rows) and round (columns), one page per split: all years, pre-NIL
 #           (2010-2021 tournaments), post-NIL (2022 on; NIL began July 2021), first half (2010-2017), second half (2018-2026).
-# D pages   the same, by Strongside's simulator spread (reports/tourney_sim_spreads.csv: the Tourney spreads page's last
-#           100,000-run result, each game from the winner's side) instead of the closing spread.
+# D pages   the same, by Strongside's simulator spread (reports/tourney_sim_spreads.csv: the Tourney spreads page's
+#           1,000,000-run replay, each game from the winner's side) instead of the closing spread.
 # Everything is written as plain values with the colours filled in (no formulas or conditional formats), so the sheets
 # read the same in any viewer, including ones that don't calculate. Writes reports/tournament_workbook.xlsx.
 
@@ -132,7 +132,8 @@ def title(ws, text, note):
     ws.row_dimensions[1].height = 16.5
 
 A_NOTE = ("Each game is two rows next to each other: the winner vs the loser, then the loser vs the winner. Closing spread from that team's side "
-          "(minus = favorite; BetIQ). PMPM (point margin per minute): the team's point margin at the end of each minute (plus = ahead), shaded grey "
+          "(minus = favorite; BetIQ); simulated spread the same from Strongside's simulator (1,000,000 runs as the teams stood that morning, "
+          "rounded to the half point). PMPM (point margin per minute): the team's point margin at the end of each minute (plus = ahead), shaded grey "
           "(behind) to peach (ahead); overtime games carry on through each 5-minute overtime (blank if no overtime).")
 
 def sheet_a(wb, sections, name="A Games", heading="Every NCAA tournament game from both sides, 2010–2026",
@@ -140,8 +141,8 @@ def sheet_a(wb, sections, name="A Games", heading="Every NCAA tournament game fr
     """sections: [(label or None, game rows)]; a label gets its own bold row above its games."""
     ws = wb.create_sheet(name)
     title(ws, heading, note)
-    head = ["Year", "Date", "Round", "Team", "Seed", "Opponent", "Opp seed", "Closing spread", "Result", "Score", "Final margin", "OT",
-            *MINUTE_HEADS]
+    head = ["Year", "Date", "Round", "Team", "Seed", "Opponent", "Opp seed", "Closing spread", "Simulated spread", "Result", "Score",
+            "Final margin", "OT", *MINUTE_HEADS]
     H = 4
     header(ws, H, head, 45)
     small, center = font(size=10), Alignment(horizontal="center")
@@ -155,20 +156,21 @@ def sheet_a(wb, sections, name="A Games", heading="Every NCAA tournament game fr
             ws.row_dimensions[n].height = 21
         for i, r in enumerate(rows):
             n += 1
-            for j, v in enumerate(r, 1):
+            # the simulator's spread from the team's side goes next to the closing spread
+            for j, v in enumerate(r[:8] + [SIM.get((r[1], r[3]))] + r[8:], 1):
                 c = ws.cell(row=n, column=j, value=v)
                 c.font = small
-                if j == 8: c.number_format = '+0.0;−0.0;0.0'
-                if j == 11 or j > 12:
+                if j in (8, 9): c.number_format = '+0.0;−0.0;0.0'
+                if j == 12 or j > 13:
                     c.number_format = '+0;−0;0'
-                    if j > 12 and v is not None: c.fill = shade(v, -20, 0, 20)
+                    if j > 13 and v is not None: c.fill = shade(v, -20, 0, 20)
                 if j not in (2, 4, 6): c.alignment = center
                 if i % 2: c.border = Border(bottom=pair_line)          # a line under each game's pair of rows
     last = n
-    for j, w in enumerate([7, 11, 13, 18, 6, 18, 7, 9, 7, 8, 8, 5], 1):
+    for j, w in enumerate([7, 11, 13, 18, 6, 18, 7, 9, 10, 7, 8, 8, 5], 1):
         ws.column_dimensions[get_column_letter(j)].width = w
-    for j in range(13, len(head) + 1):
-        ws.column_dimensions[get_column_letter(j)].width = 6 if j < 53 else 8
+    for j in range(14, len(head) + 1):
+        ws.column_dimensions[get_column_letter(j)].width = 6 if j < 54 else 8
     ws.freeze_panes = f"E{H + 1}"
     ws.auto_filter.ref = f"A{H}:{get_column_letter(len(head))}{last}"
 
@@ -407,7 +409,7 @@ def sheet_b_upsets(wb, teams):
     ws.freeze_panes = f"A{top + 1}"
     ws.auto_filter.ref = f"A{top}:{get_column_letter(len(head))}{last}"
 
-D_NOTE = ("The simulator's spread: each game played 100,000 times in Strongside's simulator (the Tourney spreads page) as the two teams "
+D_NOTE = ("The simulator's spread: each game played 1,000,000 times in Strongside's simulator (the Tourney spreads page) as the two teams "
           "stood that morning, with only the players who really played, rounded to the half point; from the team's side (minus = "
           "favorite). Straight-up wins. Every game counts twice, once from each side, so each row mirrors its opposite.")
 
@@ -493,7 +495,7 @@ def readme(wb, n_games, n_teams):
              ("C pages — win % and games by closing spread and round, all shaded, one page per split:", False),
              ("    All years · Pre-NIL (2010–2021) · Post-NIL (2022–2026; NIL began July 2021) · "
               f"First half (2010–{HALF - 1}) · Second half ({HALF}–2026)", False),
-             ("D pages — the same, by Strongside's simulator spread instead of the closing spread (each game played 100,000 times as the", False),
+             ("D pages — the same, by Strongside's simulator spread instead of the closing spread (each game played 1,000,000 times as the", False),
              ("    teams stood that morning, only the players who really played; reports/tourney_sim_spreads.csv, from the Tourney spreads page).", False),
              ("", False),
              ("Sources: PMPM from Strongside's play-by-play (reports/pdem_all_ncaa_tournament.csv); closing lines from BetIQ's", False),
