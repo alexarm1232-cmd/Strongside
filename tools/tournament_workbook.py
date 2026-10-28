@@ -15,6 +15,8 @@ from upset_high_seeds import seasons, ROUNDS
 #           (pre/post NIL) and Half (first/second half of the years) columns to filter on and totals for each split.
 # C pages   win % and games by closing spread (rows) and round (columns), one page per split: all years, pre-NIL
 #           (2010-2021 tournaments), post-NIL (2022 on; NIL began July 2021), first half (2010-2017), second half (2018-2026).
+# D pages   the same, by Strongside's simulator spread (reports/tourney_sim_spreads.csv: the Tourney spreads page's last
+#           100,000-run result, each game from the winner's side) instead of the closing spread.
 # Everything is written as plain values with the colours filled in (no formulas or conditional formats), so the sheets
 # read the same in any viewer, including ones that don't calculate. Writes reports/tournament_workbook.xlsx.
 
@@ -60,8 +62,11 @@ def flag(nov_l, top40_games):
     if top40_games == 0: return ORANGE
     return None
 
+SIM = {}                         # (date, team) -> the simulator's spread from that team's side (D pages), filled by game_rows
+
 def game_rows():
     spreads = {r["game_id"]: r for r in csv.DictReader(open(os.path.join(REPORTS, "tournament_spreads.csv"), encoding="utf-8"))}
+    sims = {r["game_id"]: float(r["sim_spread_winner"]) for r in csv.DictReader(open(os.path.join(REPORTS, "tourney_sim_spreads.csv"), encoding="utf-8"))}
     pairs = []
     for g in csv.DictReader(open(os.path.join(REPORTS, "pdem_all_ncaa_tournament.csv"), encoding="utf-8")):
         s = spreads[g["game_id"]]
@@ -75,6 +80,8 @@ def game_rows():
         for team, opp, seed, oseed, sign, pts, opts in ((g["winner"], g["loser"], g["winner_seed"], g["loser_seed"], 1, wp, lp),
                                                         (g["loser"], g["winner"], g["loser_seed"], g["winner_seed"], -1, lp, wp)):
             line = float(s["spread"]) if team == s["favorite"] else -float(s["spread"])
+            if g["game_id"] in sims:
+                SIM[(g["date"].replace("/", "-"), team)] = sign * sims[g["game_id"]] + 0.0
             pair.append([int(g["date"][:4]), g["date"].replace("/", "-"), ROUND_NAMES[g["round"]], team, int(seed), opp, int(oseed),
                          line + 0.0, "W" if sign == 1 else "L", f"{pts}-{opts}", pts - opts, OT_LABEL.get(minutes, ""),
                          *[None if m is None else sign * m + 0 for m in margins]])
@@ -397,17 +404,23 @@ def sheet_b_upsets(wb, teams):
     ws.freeze_panes = f"A{top + 1}"
     ws.auto_filter.ref = f"A{top}:{get_column_letter(len(head))}{last}"
 
-def sheet_c(wb, split, y0, y1, games):
-    ws = wb.create_sheet(f"C {split}")
+D_NOTE = ("The simulator's spread: each game played 100,000 times in Strongside's simulator (the Tourney spreads page) as the two teams "
+          "stood that morning, with only the players who really played, rounded to the half point; from the team's side (minus = "
+          "favorite). Straight-up wins. Every game counts twice, once from each side, so each row mirrors its opposite.")
+
+def sheet_c(wb, split, y0, y1, games, page="C", spread=lambda r: r[7], label="Closing spread", what="closing spread", note=None):
+    """A C page (by the closing spread), or with page="D" and spread=the simulator's, a D page."""
+    ws = wb.create_sheet(f"{page} {split}")
     years = f"{y0}–{y1}" + (" (no 2020 tournament)" if y0 <= 2020 <= y1 else "")
-    title(ws, f"Win % by closing spread and round — {split.lower()}, {years}",
-          "Straight-up wins, not covers. Spread from the team's side (minus = favorite). Every game counts twice, once from each side, "
-          "so each row mirrors its opposite (−9.9 to −5 wins = +5 to +9.9 losses).")
-    sel = [r for r in games if y0 <= r[0] <= y1]
+    title(ws, f"Win % by {what} and round — {split.lower()}, {years}",
+          note or "Straight-up wins, not covers. Spread from the team's side (minus = favorite). Every game counts twice, once from each side, "
+                  "so each row mirrors its opposite (−9.9 to −5 wins = +5 to +9.9 losses).")
+    sel = [r + [spread(r)] for r in games if y0 <= r[0] <= y1 and spread(r) is not None]
+    key = len(sel[0]) - 1 if sel else 0                  # the spread these rows are sorted by, added at the end
     cols = ORDER + ["All rounds"]
     H = 5
     ws.merge_cells(start_row=H - 1, start_column=1, end_row=H, end_column=1)
-    ws.cell(row=H - 1, column=1, value="Closing spread")
+    ws.cell(row=H - 1, column=1, value=label)
     S = 3                                                # columns per round: win %, record, games
     for k, rd in enumerate(cols):
         j = 2 + S * k
@@ -424,7 +437,7 @@ def sheet_c(wb, split, y0, y1, games):
             c.alignment = Alignment(horizontal="center", vertical="center", wrap_text=True)
             c.border = Border(left=Side(style="thin", color="FFFFFF")) if j >= 2 and (j - 2) % S == 0 else Border()
     ws.row_dimensions[H - 1].height = 30
-    grid = [[[r for r in sel if lo <= r[7] <= hi and (rd == "All rounds" or r[2] == rd)] for rd in cols] for _, lo, hi in BUCKETS]
+    grid = [[[r for r in sel if lo <= r[key] <= hi and (rd == "All rounds" or r[2] == rd)] for rd in cols] for _, lo, hi in BUCKETS]
     most = max(len(cell) for row in grid for cell in row[:-1]) or 1          # the All rounds column has its own scale
     most_all = max(len(row[-1]) for row in grid) or 1
     for i, (label, lo, hi) in enumerate(BUCKETS):
@@ -477,6 +490,8 @@ def readme(wb, n_games, n_teams):
              ("C pages — win % and games by closing spread and round, all shaded, one page per split:", False),
              ("    All years · Pre-NIL (2010–2021) · Post-NIL (2022–2026; NIL began July 2021) · "
               f"First half (2010–{HALF - 1}) · Second half ({HALF}–2026)", False),
+             ("D pages — the same, by Strongside's simulator spread instead of the closing spread (each game played 100,000 times as the", False),
+             ("    teams stood that morning, only the players who really played; reports/tourney_sim_spreads.csv, from the Tourney spreads page).", False),
              ("", False),
              ("Sources: PMPM from Strongside's play-by-play (reports/pdem_all_ncaa_tournament.csv); closing lines from BetIQ's", False),
              ("custom trend tool (betiq.teamrankings.com), minus = favorite; November games and the pre-tournament top 40 from the", False),
@@ -499,6 +514,8 @@ def main():
     sheet_b_spread_upsets(wb, games, teams)
     for split, y0, y1 in SPLITS:
         sheet_c(wb, split, y0, y1, games)
+    for split, y0, y1 in SPLITS:
+        sheet_c(wb, split, y0, y1, games, "D", lambda r: SIM.get((r[1], r[3])), "Simulator spread", "the simulator's spread", D_NOTE)
     path = os.path.join(REPORTS, "tournament_workbook.xlsx")
     wb.save(path)
     print(f"{len(games)} game rows, {len(teams)} team rows -> {path}")
