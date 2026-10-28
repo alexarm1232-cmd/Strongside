@@ -33,6 +33,9 @@ BUCKETS = [("−25+", -99, -25), ("−24.9 to −20", -24.9, -20), ("−19.9 to 
            ("−9.9 to −5", -9.9, -5), ("−4.9 to −0.1", -4.9, -0.1), ("Pick'em (0)", 0, 0), ("+0.1 to +4.9", 0.1, 4.9),
            ("+5 to +9.9", 5, 9.9), ("+10 to +14.9", 10, 14.9), ("+15 to +19.9", 15, 19.9), ("+20 to +24.9", 20, 24.9),
            ("+25+", 25, 99)]
+# the C and D pages' rows: 2-point bands up to 24, mirrored around the pick'em row
+TABLE_BUCKETS = ([("−24+", -99, -24)] + [(f"−{hi + 1.9:g} to −{hi}", -(hi + 1.9), -hi) for hi in range(22, 0, -2)] + [("−1.9 to −0.1", -1.9, -0.1)] +
+                 [("Pick'em (0)", 0, 0), ("+0.1 to +1.9", 0.1, 1.9)] + [(f"+{lo} to +{lo + 1.9:g}", lo, lo + 1.9) for lo in range(2, 24, 2)] + [("+24+", 24, 99)])
 
 MINUTES = 50                     # regulation plus two overtimes, the longest tournament game here
 OT_LABEL = {45: "1 OT", 50: "2 OT"}
@@ -414,7 +417,7 @@ def sheet_c(wb, split, y0, y1, games, page="C", spread=lambda r: r[7], label="Cl
     years = f"{y0}–{y1}" + (" (no 2020 tournament)" if y0 <= 2020 <= y1 else "")
     title(ws, f"Win % by {what} and round — {split.lower()}, {years}",
           note or "Straight-up wins, not covers. Spread from the team's side (minus = favorite). Every game counts twice, once from each side, "
-                  "so each row mirrors its opposite (−9.9 to −5 wins = +5 to +9.9 losses).")
+                  "so each row mirrors its opposite (−5.9 to −4 wins = +4 to +5.9 losses).")
     sel = [r + [spread(r)] for r in games if y0 <= r[0] <= y1 and spread(r) is not None]
     key = len(sel[0]) - 1 if sel else 0                  # the spread these rows are sorted by, added at the end
     cols = ORDER + ["All rounds"]
@@ -437,10 +440,10 @@ def sheet_c(wb, split, y0, y1, games, page="C", spread=lambda r: r[7], label="Cl
             c.alignment = Alignment(horizontal="center", vertical="center", wrap_text=True)
             c.border = Border(left=Side(style="thin", color="FFFFFF")) if j >= 2 and (j - 2) % S == 0 else Border()
     ws.row_dimensions[H - 1].height = 30
-    grid = [[[r for r in sel if lo <= r[key] <= hi and (rd == "All rounds" or r[2] == rd)] for rd in cols] for _, lo, hi in BUCKETS]
+    grid = [[[r for r in sel if lo <= r[key] <= hi and (rd == "All rounds" or r[2] == rd)] for rd in cols] for _, lo, hi in TABLE_BUCKETS]
     most = max(len(cell) for row in grid for cell in row[:-1]) or 1          # the All rounds column has its own scale
     most_all = max(len(row[-1]) for row in grid) or 1
-    for i, (label, lo, hi) in enumerate(BUCKETS):
+    for i, (label, lo, hi) in enumerate(TABLE_BUCKETS):
         n = H + 1 + i
         c = ws.cell(row=n, column=1, value=label)
         c.font, c.alignment, c.border = font(size=10, bold=True), Alignment(horizontal="left"), Border(bottom=thin)
@@ -459,7 +462,7 @@ def sheet_c(wb, split, y0, y1, games, page="C", spread=lambda r: r[7], label="Cl
                 c.alignment = Alignment(horizontal="center")
                 c.border = Border(bottom=Side(style="thin", color="FFFFFF"), left=Side(style="thin", color="FFFFFF"))
         ws.row_dimensions[n].height = 22
-    last = H + len(BUCKETS)
+    last = H + len(TABLE_BUCKETS)
     t = last + 1
     ws.cell(row=t, column=1, value="All spreads").font = font(bold=True, size=10)
     for k in range(len(cols)):
