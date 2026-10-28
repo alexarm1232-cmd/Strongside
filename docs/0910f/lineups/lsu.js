@@ -1,1 +1,1 @@
-LINEUPS_ADD["LSU"] = {"players":["Tasmin Mitchell","Bo Spencer","Storm Warren","Chris Bass","Aaron Dotson","Zach Kinsley","Dennis Harris","Eddie Ludwig","Garrett Green","Daron Populist","Chris Beattie"],"rows":[]};
+LINEUPS_ADD["LSU"] = {"players":["Tasmin Mitchell","Bo Spencer","Storm Warren","Chris Bass","Aaron Dotson","Zach Kinsley","Dennis Harris","Eddie Ludwig","Garrett Green","Daron Populist","Chris Beattie","Taylor Jacobsen","Alex Farrer"],"rows":[]};

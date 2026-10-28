@@ -1,1 +1,1 @@
-LINEUPS_ADD["Bethune-Cookman"] = {"players":["C.J. Reed","Alexander Starling","Stanley Elliott","Kevin Dukes","Javoris Bryant","Albert Abrahams","Jarrell Thomas","Tyrel Adams","Aric Miller","Antroine Williford","Jerry Jones"],"rows":[]};
+LINEUPS_ADD["Bethune-Cookman"] = {"players":["C.J. Reed","Alexander Starling","Stanley Elliott","Kevin Dukes","Javoris Bryant","Albert Abrahams","Jarrell Thomas","Tyrel Adams","Aric Miller","Antroine Williford","Jerry Jones","Kene Anusionwu","Rashad Bailey"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["Southern California"] = {"players":["Dwight Lewis","Nikola Vucevic","Marcus Johnson","Mike Gerrity","Alex Stepheson","Marcus Simmons","Donte Smith","Leonard Washington","Evan Smith","Kasey Cunningham"],"rows":[]};
+LINEUPS_ADD["Southern California"] = {"players":["Dwight Lewis","Nikola Vucevic","Marcus Johnson","Mike Gerrity","Alex Stepheson","Marcus Simmons","Donte Smith","Leonard Washington","Evan Smith","Kasey Cunningham","Davis Rozitis","Percy Miller","Ryan Wetherell","James Dunleavy"],"rows":[]};

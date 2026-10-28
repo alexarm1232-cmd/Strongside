@@ -1,1 +1,1 @@
-LINEUPS_ADD["Monmouth"] = {"players":["James Hett","Whitney Coleman","Travis Taylor","Will Campbell","Justin Sofman","Ed Waite","Dutch Gaitley","Nick DelTufo","Mike Myers Keitt","R.J. Rutledge"],"rows":[]};
+LINEUPS_ADD["Monmouth"] = {"players":["James Hett","Whitney Coleman","Travis Taylor","Will Campbell","Justin Sofman","Ed Waite","Dutch Gaitley","Nick DelTufo","Mike Myers Keitt","R.J. Rutledge","George Barbour","Yaniv Simpson","Kevin Schafer","Marcus Ware"],"rows":[]};

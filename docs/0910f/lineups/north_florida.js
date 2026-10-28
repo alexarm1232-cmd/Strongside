@@ -1,1 +1,1 @@
-LINEUPS_ADD["North Florida"] = {"players":["Brad Haugabrook","Jerron Granberry","Matt Sauey","Andy Diaz","Eni Cuka","Stan Januska","Germaine Sparkes","David Jeune","Will Wilson"],"rows":[]};
+LINEUPS_ADD["North Florida"] = {"players":["Brad Haugabrook","Jerron Granberry","Matt Sauey","Andy Diaz","Eni Cuka","Stan Januska","Germaine Sparkes","David Jeune","Will Wilson","Kyle Groothuis","Zack Riggins","Stephen O'Reilly"],"rows":[]};

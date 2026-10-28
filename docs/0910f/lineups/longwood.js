@@ -1,1 +1,1 @@
-LINEUPS_ADD["Longwood"] = {"players":["Dana Smith","Kevin Swecker","Aaron Mitchell","E.J. Dawson","Antwan Carter","Martiz Washington","Billy Robinson Jr.","Earl Gee II"],"rows":[]};
+LINEUPS_ADD["Longwood"] = {"players":["Dana Smith","Kevin Swecker","Aaron Mitchell","E.J. Dawson","Antwan Carter","Martiz Washington","Billy Robinson Jr.","Earl Gee II","Jan van der Kooij","Ian Persaud","Stephen Shockley"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["San Francisco"] = {"players":["Kwame Vaughn","Angelo Caloiaro","Dior Lowhorn","Dontae Bryant","Rashad Green","Perris Blackwell","Michael Williams","Moustapha Diarra","Tomas Bruha","Blake Wallace"],"rows":[]};
+LINEUPS_ADD["San Francisco"] = {"players":["Kwame Vaughn","Angelo Caloiaro","Dior Lowhorn","Dontae Bryant","Rashad Green","Perris Blackwell","Michael Williams","Moustapha Diarra","Tomas Bruha","Blake Wallace","Nikola Stojiljkovic","Peter Smith","Chioke Walker"],"rows":[]};

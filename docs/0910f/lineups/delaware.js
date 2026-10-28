@@ -1,1 +1,1 @@
-LINEUPS_ADD["Delaware"] = {"players":["Jawan Carter","Alphonso Dawson","D.J. Boney","Jamelle Hagins","Hakim McCullar","Adam Pegg","Kelvin McNeil","Josh Brinkley","Edwin Santiago","Malcolm Hawkins"],"rows":[]};
+LINEUPS_ADD["Delaware"] = {"players":["Jawan Carter","Alphonso Dawson","D.J. Boney","Jamelle Hagins","Hakim McCullar","Adam Pegg","Kelvin McNeil","Josh Brinkley","Edwin Santiago","Malcolm Hawkins","Samer Madarani","Brendan McNulty","Will Townsville"],"rows":[]};

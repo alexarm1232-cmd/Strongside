@@ -1,1 +1,1 @@
-LINEUPS_ADD["Davidson"] = {"players":["Jp Kuhlman","Brendan McKillop","Will Archambault","Steve Rossiter","Jake Cohen","Bryant Barr","Ben Allison","Nik Cochran"],"rows":[]};
+LINEUPS_ADD["Davidson"] = {"players":["Jp Kuhlman","Brendan McKillop","Will Archambault","Steve Rossiter","Jake Cohen","Bryant Barr","Ben Allison","Nik Cochran","Frank Ben-Eze","Dan Nelms","Will Reigel","Aj Atkinson","Aaron Bond"],"rows":[]};

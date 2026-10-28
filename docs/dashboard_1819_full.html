@@ -4476,12 +4476,15 @@ function pitUnit(block) {
   unit.stlShare = between(unit.stlT / games / ((T[7] / 100) * T[2] || 1), 0.2, 0.85);
   return unit;
 }
-// Plays one tournament game `games` times on a neutral floor. A.style: the points per 100 possessions A's offense should
-// score against B from play types alone; who is missing moves it by what those players were worth.
+// Plays one tournament game `games` times on a neutral floor. Each offense is aimed at what the team ratings say it
+// should score against that defense (points per 100 possessions: its offense plus the other side's defense, less the
+// league average), with who is missing worked in (A.o and A.d already carry it). The ratings were tested against
+// the play-type matchup (A.style) on every game: they were closer to the closing line in every season and missed the
+// final margins by less, so they set the level; the play types still shape how each possession is played.
 function pitGame({ league, a, b, games }) {
   SIM_LEAGUE = pitLeague(league);
-  const A = pitUnit(a), B = pitUnit(b);
-  const matchups = [simMatchup(A, B, (A.style + (A.delta - B.delta) / 2) / 100), simMatchup(B, A, (B.style + (B.delta - A.delta) / 2) / 100)];
+  const A = pitUnit(a), B = pitUnit(b), avg = SIM_LEAGUE.avg;
+  const matchups = [simMatchup(A, B, (A.o + B.d - avg) / 100), simMatchup(B, A, (B.o + A.d - avg) / 100)];
   const pace = A.tempo + B.tempo - SIM_LEAGUE.t, acc = simAcc([A.count, B.count]);
   simPlay(acc, [simSide(A, matchups[0]), simSide(B, matchups[1])], pace, games, -1);
   const t = acc.tally, mean = (t[4] + t[5]) / t[0];

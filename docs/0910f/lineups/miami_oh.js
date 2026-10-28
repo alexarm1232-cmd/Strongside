@@ -1,1 +1,1 @@
-LINEUPS_ADD["Miami (OH)"] = {"players":["Kenny Hayes","Antonio Ballard","Julian Mavunga","Nick Winbush","Adam Fletcher","Rodney Haddix","Kramer Soderberg","Allen Roberts"],"rows":[]};
+LINEUPS_ADD["Miami (OH)"] = {"players":["Kenny Hayes","Antonio Ballard","Julian Mavunga","Nick Winbush","Adam Fletcher","Rodney Haddix","Kramer Soderberg","Allen Roberts","Orlando Williams","Vince Legarza","Adam Thomas","Sean Mock","Michael Aluise"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["UC Riverside"] = {"players":["Kyle Austin","Larry Gurganious","Sean Cunningham","Lateef McMullan","Brandon Dowdy","Dwight Gordon","Bryson Hampton","Konner Veteto","David Chavarria","Rudy Meo","Jesse LoBue","Jalonni Diggs"],"rows":[]};
+LINEUPS_ADD["UC Riverside"] = {"players":["Kyle Austin","Larry Gurganious","Sean Cunningham","Lateef McMullan","Brandon Dowdy","Dwight Gordon","Bryson Hampton","Konner Veteto","David Chavarria","Rudy Meo","Jesse LoBue","Jalonni Diggs","Niko Brooks","Colin Chadwick","Idris Ibn Idris","Javon Borum"],"rows":[]};

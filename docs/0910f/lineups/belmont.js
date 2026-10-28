@@ -1,1 +1,1 @@
-LINEUPS_ADD["Belmont"] = {"players":["Ian Clark","Jon House","Mick Hedgepeth","Keaton Belcher","Drew Hanlen","Jordan Campbell","Kerron Johnson","Scott Saunders"],"rows":[]};
+LINEUPS_ADD["Belmont"] = {"players":["Ian Clark","Jon House","Mick Hedgepeth","Keaton Belcher","Drew Hanlen","Jordan Campbell","Kerron Johnson","Scott Saunders","Brandon Baker","Trevor Noack","Jonny Rice","Adam Barnes","Blake Jenkins"],"rows":[]};

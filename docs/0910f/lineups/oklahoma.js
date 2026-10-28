@@ -1,1 +1,1 @@
-LINEUPS_ADD["Oklahoma"] = {"players":["Tommy Mason-Griffin","Cade Davis","Tony Crocker","Tiny Gallon","Willie Warren","Steven Pledger","Ryan Wright","Andrew Fitzgerald","Ray Willis"],"rows":[]};
+LINEUPS_ADD["Oklahoma"] = {"players":["Tommy Mason-Griffin","Cade Davis","Tony Crocker","Tiny Gallon","Willie Warren","Steven Pledger","Ryan Wright","Andrew Fitzgerald","Ray Willis","Orlando Allen","T.J. Franklin","Beau Gerber","Kyle Hardrick"],"rows":[]};

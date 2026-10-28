@@ -1,1 +1,1 @@
-LINEUPS_ADD["UAlbany"] = {"players":["Tim Ambrose","Will Harris","Mike Black","Scotty McRae","Fran Urli","Logan Aronhalt","Brett Gifford","Blake Metcalf","Mike Johnson","Billy Allen","Derrek Tartt","Jake Lindfors"],"rows":[]};
+LINEUPS_ADD["UAlbany"] = {"players":["Tim Ambrose","Will Harris","Mike Black","Scotty McRae","Fran Urli","Logan Aronhalt","Brett Gifford","Blake Metcalf","Mike Johnson","Billy Allen","Derrek Tartt","Jake Lindfors","Louis Barraza","Gavin Glanton","John Puk"],"rows":[]};

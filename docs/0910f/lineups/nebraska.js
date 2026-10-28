@@ -1,1 +1,1 @@
-LINEUPS_ADD["Nebraska"] = {"players":["Lance Jeter","Sek Henry","Ryan Anderson","Jorge Brian Diaz","Brandon Richardson","Brandon Ubel","Eshaunte Jones","Ray Gallegos","Christian Standhardinger","Myles Holley","Toney McCray"],"rows":[]};
+LINEUPS_ADD["Nebraska"] = {"players":["Lance Jeter","Sek Henry","Ryan Anderson","Jorge Brian Diaz","Brandon Richardson","Brandon Ubel","Eshaunte Jones","Ray Gallegos","Quincy Hankins-Cole","Christian Standhardinger","Myles Holley","Adrien Coleman","Toney McCray","Ben Nelson","Matt Karn","Mike Fox"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["Eastern Mich."] = {"players":["Carlos Medlock","Brandon Bowdry","Jay Higgins","Antonio Green","Justin Dobbins","William Cooper","Quintin Dailey","Jamell Harris","Matt Balkema"],"rows":[]};
+LINEUPS_ADD["Eastern Mich."] = {"players":["Carlos Medlock","Brandon Bowdry","Jay Higgins","Antonio Green","Justin Dobbins","William Cooper","Quintin Dailey","Jamell Harris","Matt Balkema","L.J. Frazier","Kamil Janton","Jake Fosdick"],"rows":[]};

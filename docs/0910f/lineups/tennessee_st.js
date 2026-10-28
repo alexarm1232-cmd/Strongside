@@ -1,1 +1,1 @@
-LINEUPS_ADD["Tennessee St."] = {"players":["Wil Peters","Robert Covington","Jeremiah Crutcher","Jacquan Nobles","Lonnie Funderburke","Josh Sain","Tashan Fredrick","Darius Cox","Martell Buie","Hamilton Nash","Erick Peguero"],"rows":[]};
+LINEUPS_ADD["Tennessee St."] = {"players":["Wil Peters","Robert Covington","Jeremiah Crutcher","Jacquan Nobles","Lonnie Funderburke","Josh Sain","Tashan Fredrick","Darius Cox","Martell Buie","Hamilton Nash","Erick Peguero","Marcus Cowan","Greg Holley"],"rows":[]};

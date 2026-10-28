@@ -1,1 +1,1 @@
-LINEUPS_ADD["Hawaii"] = {"players":["Roderick Flemings","Hiram Thompson","Adhar Mayen","Brandon Adams","Petras Balocka","Paul Campbell","Jeremy Lay","Dwain Williams","Leroy Lutu"],"rows":[]};
+LINEUPS_ADD["Hawaii"] = {"players":["Roderick Flemings","Hiram Thompson","Adhar Mayen","Brandon Adams","Petras Balocka","Paul Campbell","Jeremy Lay","Dwain Williams","Leroy Lutu","Douglas Kurtz","Ji Xiang","Rykin Enos","Beau Albrechtson"],"rows":[]};

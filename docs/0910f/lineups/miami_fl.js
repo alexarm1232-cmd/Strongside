@@ -1,1 +1,1 @@
-LINEUPS_ADD["Miami (FL)"] = {"players":["James Dews","Durand Scott","Malcolm Grant","Adrian Thomas","Dwayne Collins","Garrius Adams","DeQuan Jones","Julian Gamble","Reggie Johnson","Cyrus McGowan","Antoine Allen"],"rows":[]};
+LINEUPS_ADD["Miami (FL)"] = {"players":["James Dews","Durand Scott","Malcolm Grant","Adrian Thomas","Dwayne Collins","Garrius Adams","DeQuan Jones","Julian Gamble","Reggie Johnson","Cyrus McGowan","Antoine Allen","Donnavan Kirk","Ryan Quigtar"],"rows":[]};

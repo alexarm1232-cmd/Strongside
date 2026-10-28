@@ -1,1 +1,1 @@
-LINEUPS_ADD["Idaho"] = {"players":["Mac Hopson","Steffan Johnson","Kashif Watson","Marvin Jefferson","Luiz Toledo","Luciano de Souza","Kyle Barone","Shawn Henderson","Jeff Ledbetter"],"rows":[]};
+LINEUPS_ADD["Idaho"] = {"players":["Mac Hopson","Steffan Johnson","Kashif Watson","Marvin Jefferson","Luiz Toledo","Luciano de Souza","Kyle Barone","Shawn Henderson","Jeff Ledbetter","Marcus Lawrence","Corey Stern","Brandon Wiley","Travis Blackstock","Justin Stewart"],"rows":[]};

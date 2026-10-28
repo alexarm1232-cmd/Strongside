@@ -1,1 +1,1 @@
-LINEUPS_ADD["Little Rock"] = {"players":["Solomon Bozeman","Alex Garcia-Mendoza","Matt Mouzy","Courtney Jackson","Lionel Foster","Kelson Stewart","Wayne Burton","Ricky Davison","Derrick Bails","Mike Smith","Montrell Thornton"],"rows":[]};
+LINEUPS_ADD["Little Rock"] = {"players":["Solomon Bozeman","Alex Garcia-Mendoza","Matt Mouzy","Courtney Jackson","Lionel Foster","Kelson Stewart","Wayne Burton","Ricky Davison","Derrick Bails","Mike Smith","Montrell Thornton","Nikola Cicic"],"rows":[]};

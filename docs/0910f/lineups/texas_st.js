@@ -1,1 +1,1 @@
-LINEUPS_ADD["Texas St."] = {"players":["John Rybak","Ryan White","Cameron Johnson","John Bowman","Uriel Segura","Emanuel Bidias A Moute","J.B. Conley","Tony Bishop","Dylan Hale","Jonathan Sloan","Roshun Jackson"],"rows":[]};
+LINEUPS_ADD["Texas St."] = {"players":["John Rybak","Ryan White","Cameron Johnson","John Bowman","Uriel Segura","Emanuel Bidias A Moute","J.B. Conley","Tony Bishop","Dylan Hale","Jonathan Sloan","Roshun Jackson","Brooks Ybarra"],"rows":[]};

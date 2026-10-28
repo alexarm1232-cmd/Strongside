@@ -1,1 +1,1 @@
-LINEUPS_ADD["Cal Poly"] = {"players":["Lorenzo Keeler","Shawn Lewis","David Hanson","Jordan Lewis","Kylle Odister","Charles Anderson","Will Taylor","Justin Brown","Ryan Darling","Will Donahue"],"rows":[]};
+LINEUPS_ADD["Cal Poly"] = {"players":["Lorenzo Keeler","Shawn Lewis","David Hanson","Jordan Lewis","Kylle Odister","Charles Anderson","Will Taylor","Justin Brown","Ryan Darling","Will Donahue","Dylan Royer","Matt Titchenal","Ryan Pembleton"],"rows":[]};

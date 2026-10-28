@@ -1,1 +1,1 @@
-LINEUPS_ADD["Rider"] = {"players":["Ryan Thompson","Justin Robinson","Mike Ringgold","Novar Gadson","Jhamar Youngblood","Jonathon Thompson","Brandon Penn","Patrick Mansell","Carl Johnson","Dera Nd-Ezuma"],"rows":[]};
+LINEUPS_ADD["Rider"] = {"players":["Ryan Thompson","Justin Robinson","Mike Ringgold","Novar Gadson","Jhamar Youngblood","Jonathon Thompson","Brandon Penn","Patrick Mansell","Jermaine Jackson","Carl Johnson","Dera Nd-Ezuma","Robbie Myers"],"rows":[]};

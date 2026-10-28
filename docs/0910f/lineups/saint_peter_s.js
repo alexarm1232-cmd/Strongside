@@ -1,1 +1,1 @@
-LINEUPS_ADD["Saint Peter's"] = {"players":["Nick Leon","Wesley Jenkins","Ryan Bacon","Darius Conley","Jeron Belin","Steven Samuels","Yvon Raymond","Brandon Hall","Jordan Costner","Jack Hill"],"rows":[]};
+LINEUPS_ADD["Saint Peter's"] = {"players":["Nick Leon","Wesley Jenkins","Ryan Bacon","Darius Conley","Jeron Belin","Steven Samuels","Yvon Raymond","Brandon Hall","Jordan Costner","Jack Hill","Jamin Shumate","Kabeya Kabongo"],"rows":[]};

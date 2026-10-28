@@ -1,1 +1,1 @@
-LINEUPS_ADD["Furman"] = {"players":["Amu Saaka","Jordan Miller","Darryl Evans","Justin Dehm","Brandon Sebirumbi","Bryson Barnes","Colin Reddick","Chris Toler","Noah States","Neil Duval"],"rows":[]};
+LINEUPS_ADD["Furman"] = {"players":["Amu Saaka","Jordan Miller","Darryl Evans","Justin Dehm","Brandon Sebirumbi","Bryson Barnes","Colin Reddick","Chris Toler","Noah States","Neil Duval","Garrett Copeland","Chris Picardi","Zach Greene","Bobby Austin"],"rows":[]};

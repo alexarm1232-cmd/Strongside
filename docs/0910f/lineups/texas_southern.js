@@ -1,1 +1,1 @@
-LINEUPS_ADD["Texas Southern"] = {"players":["DeAndre Hall","Travele Jones","Junior Treasure","David Burrell","Aaron Clayborn","Onyekawtuke Abiakam","Patrick Johnson","Marc Ellis","Ricky Boyles","Timothy Price","Justin Ray","Abdallah Boune"],"rows":[]};
+LINEUPS_ADD["Texas Southern"] = {"players":["DeAndre Hall","Travele Jones","Junior Treasure","David Burrell","Aaron Clayborn","Onyekawtuke Abiakam","Patrick Johnson","Marc Ellis","Ricky Boyles","Timothy Price","Justin Ray","Jason West","Abdallah Boune","TeAllen Price","Lawrence Johnson-Danner","Whitworth Treasure"],"rows":[]};

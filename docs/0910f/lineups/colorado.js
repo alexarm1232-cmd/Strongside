@@ -1,1 +1,1 @@
-LINEUPS_ADD["Colorado"] = {"players":["Cory Higgins","Alec Burks","Nate Tomlinson","Marcus Relphorde","Austin Dufault","Dwight Thorne II","Casey Crawford","Shane Harris-Tunks","Levi Knutson"],"rows":[]};
+LINEUPS_ADD["Colorado"] = {"players":["Cory Higgins","Alec Burks","Nate Tomlinson","Marcus Relphorde","Austin Dufault","Dwight Thorne II","Casey Crawford","Shane Harris-Tunks","Levi Knutson","Keegan Hornbuckle","Trey Eckloff","Javon Coney","Trent Beckley"],"rows":[]};

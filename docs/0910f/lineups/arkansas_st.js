@@ -1,1 +1,1 @@
-LINEUPS_ADD["Arkansas St."] = {"players":["Brandon Reed","Rashad Allison","Trey Finn","Martavius Adams","Brandon Peterson","Jeremy Thomas","Daniel Bryant","JeJuan Brown"],"rows":[]};
+LINEUPS_ADD["Arkansas St."] = {"players":["Brandon Reed","Rashad Allison","Trey Finn","Martavius Adams","Brandon Peterson","Jeremy Thomas","Daniel Bryant","JeJuan Brown","Adam Sterrenburg","Justin Butler","Michael Lance","Donald Boone"],"rows":[]};

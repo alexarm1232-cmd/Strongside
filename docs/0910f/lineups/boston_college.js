@@ -1,1 +1,1 @@
-LINEUPS_ADD["Boston College"] = {"players":["Reggie Jackson","Joe Trapani","Biko Paris","Corey Raji","Rakim Sanders","Tyler Roche","Josh Southern","Dallas Elmore","Cortney Dunn","Evan Ravenel"],"rows":[]};
+LINEUPS_ADD["Boston College"] = {"players":["Reggie Jackson","Joe Trapani","Biko Paris","Corey Raji","Rakim Sanders","Tyler Roche","Josh Southern","Dallas Elmore","Cortney Dunn","Evan Ravenel","Nick Mosakowski","Peter Rehnquist"],"rows":[]};

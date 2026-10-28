@@ -1,1 +1,1 @@
-LINEUPS_ADD["Tulane"] = {"players":["Asim McQueen","Kris Richard","David Booker","Kevin Sims","Kendall Timmons","Aaron Holmes","Jordan Callahan","Johnny Mayhane","Eric Vianney","Geoff Hogan","Trent Rogers","Terrance Beasley"],"rows":[]};
+LINEUPS_ADD["Tulane"] = {"players":["Asim McQueen","Kris Richard","David Booker","Kevin Sims","Kendall Timmons","Aaron Holmes","Jordan Callahan","Johnny Mayhane","Eric Vianney","Geoff Hogan","Trent Rogers","Terrance Beasley","Jon Andersen","Kelth Cameron"],"rows":[]};

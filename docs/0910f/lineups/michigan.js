@@ -1,1 +1,1 @@
-LINEUPS_ADD["Michigan"] = {"players":["Manny Harris","Zack Novak","DeShawn Sims","Stu Douglass","Darius Morris","Laval Lucas-Perry","Zack Gibson"],"rows":[]};
+LINEUPS_ADD["Michigan"] = {"players":["Manny Harris","Zack Novak","DeShawn Sims","Stu Douglass","Darius Morris","Laval Lucas-Perry","Zack Gibson","Anthony Wright","Matt Vogrich","Eso Akunne","Ben Cronin","Corey Person","Josh Bartelstein","Eric Puls"],"rows":[]};

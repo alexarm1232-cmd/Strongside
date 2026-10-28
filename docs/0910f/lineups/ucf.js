@@ -1,1 +1,1 @@
-LINEUPS_ADD["UCF"] = {"players":["A.J. Rompza","A.J. Tyler","Keith Clanton","Marcus Jordan","Isaac Sosa","Taylor Young","P.J. Gaynor","Dave Diakite"],"rows":[]};
+LINEUPS_ADD["UCF"] = {"players":["A.J. Rompza","A.J. Tyler","Keith Clanton","Marcus Jordan","Isaac Sosa","Taylor Young","P.J. Gaynor","Dave Diakite","Jakub Kusmieruk","Drew Speraw","R.J. Scott","Nik Garcia","Ben O'Donnell","Amara Thompson","Dogukan Kuzucan"],"rows":[]};

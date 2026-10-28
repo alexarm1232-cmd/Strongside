@@ -1,1 +1,1 @@
-LINEUPS_ADD["Mercer"] = {"players":["Jeff Smith","Daniel Emerson","James Florence","E.J. Kusnyer","Brian Mills","Brandon Moore","Mark Hall"],"rows":[]};
+LINEUPS_ADD["Mercer"] = {"players":["Jeff Smith","Daniel Emerson","James Florence","E.J. Kusnyer","Brian Mills","Brandon Moore","Mark Hall","Ridas Pulkauninkas","Brendan Walker","Tevin Swann","David O'Shaughnessey","Chris Smith","Michael Jenkins","Jake Gollon","Marquisse Jackson","Bejay Corley","Rj Miskimon"],"rows":[]};

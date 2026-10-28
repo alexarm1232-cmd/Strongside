@@ -114,17 +114,27 @@ OLD_ACTIONS = {"enters game": "substitution in", "leaves game": "substitution ou
                "deadball rebound": "rebound deadball", "turnover": "turnover", "steal": "steal",
                "blocked shot": "block", "commits foul": "foul personal"}
 
+# 2009-10 reads "Seth Tarver made Layup" / "Roeland Schaftenaar Commits Foul": the name as written, no comma, then
+# the same actions as the older style
+PLAIN_ROW = re.compile(r"^(.+?)\s+((?:made|missed)\s+.+|commits foul|turnover|offensive rebound|defensive rebound|deadball rebound|"
+                       r"assist|steal|blocked shot|enters game|leaves game)$", re.I)
+
 def old_style(text):
     """(who, action) in the newer wording for an older-style row, or None when the row is not one."""
     m = OLD_ROW.match(text.strip())
-    if not m:
-        return None
-    name, action = m.group(1).strip(), m.group(2).strip().lower()
-    if name == "TEAM":
-        who = ""
+    if m:
+        name, action = m.group(1).strip(), m.group(2).strip().lower()
+        if name == "TEAM":
+            who = ""
+        else:
+            last, _, first = name.partition(",")
+            who = " ".join(w.capitalize() for w in f"{first} {last}".split())
     else:
-        last, _, first = name.partition(",")
-        who = " ".join(w.capitalize() for w in f"{first} {last}".split())
+        m = PLAIN_ROW.match(text.strip()) if "," not in text else None
+        if not m:
+            return None
+        name, action = m.group(1).strip(), m.group(2).strip().lower()
+        who = "" if name.lower() == "team" else name
     shot = re.match(r"^(made|missed) (.+)$", action)
     if shot:
         result, kind = shot.group(1), shot.group(2).strip()

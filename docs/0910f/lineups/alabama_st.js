@@ -1,1 +1,1 @@
-LINEUPS_ADD["Alabama St."] = {"players":["Menji Mundadi","Tramaine Butler","Tremayne Moorer","Byron Walker","Christopher Duncan","Aj Spencer","Jeffery Middlebrooks","Sekani Milligen","Robert Sanders","Ivory White","Ryan Watts"],"rows":[]};
+LINEUPS_ADD["Alabama St."] = {"players":["Menji Mundadi","Tramaine Butler","Tremayne Moorer","Byron Walker","Christopher Duncan","Aj Spencer","Jeffery Middlebrooks","Sekani Milligen","Robert Sanders","Ivory White","Jadarren Mumpfield","Jevon Freeman","Ryan Watts","Stephawn Brown","Derrick Johnson","Jordan Jefferson"],"rows":[]};

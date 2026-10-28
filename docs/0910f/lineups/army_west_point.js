@@ -1,1 +1,1 @@
-LINEUPS_ADD["Army West Point"] = {"players":["Cleveland Richard","Josh Miller","Marcus Nelson","Jeremy Hence","Chris Walker","Julian Simmons","Eric Zastoupil","Ella Ellis","Mitch McDonald","Tyrell Thompson"],"rows":[]};
+LINEUPS_ADD["Army West Point"] = {"players":["Cleveland Richard","Josh Miller","Marcus Nelson","Jeremy Hence","Chris Walker","Julian Simmons","Eric Zastoupil","Ella Ellis","Mitch McDonald","Tyrell Thompson","Jon Sizemore","Jason Pancoe","Nathan Hedgecock","Jordan Springer","Joe Clark","C.J. McElrath"],"rows":[]};

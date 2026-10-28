@@ -1,1 +1,1 @@
-LINEUPS_ADD["Saint Francis"] = {"players":["Devin Sweetney","Will Felder","Sorena Orandi","Cedric Latimer","Kurt Hoffman","Chris Johnson","Anthony Ervin","Umar Shannon","Tony Peters","Chris McFarland"],"rows":[]};
+LINEUPS_ADD["Saint Francis"] = {"players":["Devin Sweetney","Will Felder","Sorena Orandi","Cedric Latimer","Kurt Hoffman","Chris Johnson","Anthony Ervin","Umar Shannon","Tony Peters","Chris McFarland","Austin Fowler","Aaron DeVane","Ron Johnson","Mislav Jukic"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["Radford"] = {"players":["Artsiom Parakhouski","Joey Lynch-Flohr","Amir Johnson","Blake Smith","Lazar Trifunovic","Evan Faulkner","Philip Martin","Gorkem Sonmez"],"rows":[]};
+LINEUPS_ADD["Radford"] = {"players":["Artsiom Parakhouski","Joey Lynch-Flohr","Amir Johnson","Blake Smith","Lazar Trifunovic","Evan Faulkner","Philip Martin","Gorkem Sonmez","Jeremy Robinson","Cole Wilder","Jamal Curry","Daniel Mitchell"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["South Dakota St."] = {"players":["Clint Sargent","Kai Williams","Garrett Callahan","Nate Wolters","Anthony Cordova","Dale Moss","Michael Palarca","Griffan Callahan","Chad White","Mackenzie Casey"],"rows":[]};
+LINEUPS_ADD["South Dakota St."] = {"players":["Clint Sargent","Kai Williams","Garrett Callahan","Nate Wolters","Anthony Cordova","Dale Moss","Michael Palarca","Griffan Callahan","Tony Fiegen","Mark Engen","Chad White","Josh Cassaday","James Rader","Payton Tivis","Mackenzie Casey","Dwight Pederson","Nick Selken","Brayden Carlson"],"rows":[]};

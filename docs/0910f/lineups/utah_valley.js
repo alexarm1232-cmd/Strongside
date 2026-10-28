@@ -1,1 +1,1 @@
-LINEUPS_ADD["Utah Valley"] = {"players":["Jordan Swarbrick","Tyray Petty","Jourdain Scoubes","Justin Baker","Shawn Deadwiler","Eric Dearden","Aaron England","Kevin Woods","Corey Claitt","Rory Fannon"],"rows":[]};
+LINEUPS_ADD["Utah Valley"] = {"players":["Jordan Swarbrick","Tyray Petty","Jourdain Scoubes","Justin Baker","Shawn Deadwiler","Eric Dearden","Aaron England","Kevin Woods","Corey Claitt","Rory Fannon","Nick Jenson","Jason Holm","Lafayette Yarbray"],"rows":[]};

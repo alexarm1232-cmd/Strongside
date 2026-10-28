@@ -1,1 +1,1 @@
-LINEUPS_ADD["Alcorn"] = {"players":["Jonathan Boyd","Ian Francis","Keith Searcy","JaMarkus Holt","Brandon Rogers","Michael Starks","Alex Savannah","Tony Eackles","Shaunvanta Ingram","Michael Martin","Derrick Blackwell","Corey Anthony","Jamar Ragland"],"rows":[]};
+LINEUPS_ADD["Alcorn"] = {"players":["Jonathan Boyd","Ian Francis","Keith Searcy","JaMarkus Holt","Brandon Rogers","Michael Starks","Alex Savannah","Tony Eackles","Shaunvanta Ingram","Michael Martin","Derrick Blackwell","Corey Anthony","Jamar Ragland","Gifford Blakely","G Blakely"],"rows":[]};

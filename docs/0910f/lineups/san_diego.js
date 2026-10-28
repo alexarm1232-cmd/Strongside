@@ -1,1 +1,1 @@
-LINEUPS_ADD["San Diego"] = {"players":["Brandon Johnson","Chris Lewis","Matt Dorr","De'Jon Jackson","Roberto Mafra","Devin Ginty","Chris Manresa","Patrick McCollum","Ken Rancifer","Clinton Houston","Cameron Miles"],"rows":[]};
+LINEUPS_ADD["San Diego"] = {"players":["Brandon Johnson","Chris Lewis","Matt Dorr","De'Jon Jackson","Roberto Mafra","Devin Ginty","Chris Manresa","Patrick McCollum","Ken Rancifer","Clinton Houston","Cameron Miles","Rafael Crescencio","Ryan Harbour","Mitch Woolpert"],"rows":[]};

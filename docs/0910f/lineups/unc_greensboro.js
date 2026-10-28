@@ -1,1 +1,1 @@
-LINEUPS_ADD["UNC Greensboro"] = {"players":["Ben Stywall","Kyle Randall","Mikko Koivisto","Kendall Toney","Pete Brown","Brandon Evans","Korey Van Dussen","Brian Cole"],"rows":[]};
+LINEUPS_ADD["UNC Greensboro"] = {"players":["Ben Stywall","Kyle Randall","Mikko Koivisto","Kendall Toney","Pete Brown","Brandon Evans","Korey Van Dussen","Brian Cole","Montel Smith","Elhanan Bone","Darrius Sellers","DeAngelo Jackson","Mike Hardiman","Brandon Davis","Robby Dilmore"],"rows":[]};

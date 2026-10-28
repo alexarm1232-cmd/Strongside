@@ -1,1 +1,1 @@
-LINEUPS_ADD["Howard"] = {"players":["Calvin Thompson","Curtis White","Mike Phillips","Paul Kirkpatrick","Dadrian Collins","Adam Walker","Kyle Riley","Kandi Mukole","Yannick Braimbridge","C.J. Prince","Anton Dickerson","Tyreak Johnson","Charles DeCosta"],"rows":[]};
+LINEUPS_ADD["Howard"] = {"players":["Calvin Thompson","Curtis White","Mike Phillips","Paul Kirkpatrick","Dadrian Collins","Adam Walker","Kyle Riley","Kandi Mukole","Yannick Braimbridge","C.J. Prince","Gary Lawrence","Anton Dickerson","Tyreak Johnson","Nate Cooper","Charles DeCosta"],"rows":[]};

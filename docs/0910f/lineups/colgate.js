@@ -1,1 +1,1 @@
-LINEUPS_ADD["Colgate"] = {"players":["Kyle Roemer","Yaw Gyawu","Ben Johnson","Mitch Rolls","Joe Hoban","Nick Pascale","Anthony Hill","Mike Venezia"],"rows":[]};
+LINEUPS_ADD["Colgate"] = {"players":["Kyle Roemer","Yaw Gyawu","Ben Johnson","Mitch Rolls","Joe Hoban","Nick Pascale","Anthony Hill","Sterling Melville","Brandon James","Brett Marfurt","Mike Venezia","Lazar Bogdanovic","Patrick Liengueu"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["Chicago St."] = {"players":["Christian Wall","Carl Montgomery","Antonio Lofton","Kabangu Tshinga Kasamba","Victor Scott","Jonathan Montgomery","Brandan Smith","Damian Windham","Hajji Martin","Marquis Young"],"rows":[]};
+LINEUPS_ADD["Chicago St."] = {"players":["Christian Wall","Carl Montgomery","Antonio Lofton","Kabangu Tshinga Kasamba","Victor Scott","Jonathan Montgomery","Brandan Smith","Damian Windham","Hajji Martin","Marquis Young","Pawel Kielbasa","Alex Roberts","Joe Hill","Archie Seals"],"rows":[]};

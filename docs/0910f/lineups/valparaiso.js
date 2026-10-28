@@ -1,1 +1,1 @@
-LINEUPS_ADD["Valparaiso"] = {"players":["Brandon Wood","Cory Johnson","Brandon McPherson","Howard Little","Matt Kenney","Michael Rogers","Tommy Kurth","Ryan Broekhoff","Erik Buggs"],"rows":[]};
+LINEUPS_ADD["Valparaiso"] = {"players":["Brandon Wood","Cory Johnson","Brandon McPherson","Howard Little","Matt Kenney","Michael Rogers","Tommy Kurth","Ryan Broekhoff","Cameron Witt","Milos Milosevic","Erik Buggs","Chris Halvorsen","Nick Shelton","Hrvoje Vucic"],"rows":[]};

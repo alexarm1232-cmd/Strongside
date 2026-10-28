@@ -1,1 +1,1 @@
-LINEUPS_ADD["Niagara"] = {"players":["Anthony Nelson","Bilal Benn","Rob Garrison","Tyrone Lewis","Demetrius Williamson","Kashief Edwards","Austin Cooley","Eric Williams"],"rows":[]};
+LINEUPS_ADD["Niagara"] = {"players":["Anthony Nelson","Bilal Benn","Rob Garrison","Tyrone Lewis","Demetrius Williamson","Kashief Edwards","Austin Cooley","Scooter Gillette","Eric Williams","Chris Armstrong","Luuk Kortekass","Paul Kowalski"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["Kansas City"] = {"players":["Jay Couisnard","LaTreze Mushatt","Trey McKinney-Jones","Spencer Johnson","Bakari Lewis","Alex Bazzell","Kirk Korver","Michael Gholston, Jr."],"rows":[]};
+LINEUPS_ADD["Kansas City"] = {"players":["Jay Couisnard","LaTreze Mushatt","Trey McKinney-Jones","Spencer Johnson","Bakari Lewis","Alex Bazzell","Kirk Korver","Michael Gholston, Jr.","Fred Chatmon","Dustin Dibble","Max Rockmann","Daniel Brady","Patrick Inyard"],"rows":[]};

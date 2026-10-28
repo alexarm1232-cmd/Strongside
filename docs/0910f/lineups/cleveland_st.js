@@ -1,1 +1,1 @@
-LINEUPS_ADD["Cleveland St."] = {"players":["Norris Cole","D'Aundray Brown","Jeremy Montgomery","Trevon Harmon","Aaron Pogue","Tim Kamczyc","Jared Cunningham","Anthony Wells","Nigel Ajere","Charlie Woods","Lance James"],"rows":[]};
+LINEUPS_ADD["Cleveland St."] = {"players":["Norris Cole","D'Aundray Brown","Jeremy Montgomery","Trevon Harmon","Aaron Pogue","Tim Kamczyc","Jared Cunningham","Anthony Wells","Nigel Ajere","Charlie Woods","Joe Latas","Lance James","Joshua McCoy","Kevin Anderson"],"rows":[]};

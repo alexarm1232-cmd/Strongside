@@ -1,1 +1,1 @@
-LINEUPS_ADD["Wright St."] = {"players":["Todd Brown","Vaughn Duggins","N'Gai Evans","Cory Cooperwood","Troy Tabler","Ronnie Thomas","Scott Grote","Cooper Land","Darian Cartharn","John David Gardner"],"rows":[]};
+LINEUPS_ADD["Wright St."] = {"players":["Todd Brown","Vaughn Duggins","N'Gai Evans","Cory Cooperwood","Troy Tabler","Ronnie Thomas","Scott Grote","Cooper Land","Darian Cartharn","Paul Darkwa","Tyler Koch","John David Gardner"],"rows":[]};

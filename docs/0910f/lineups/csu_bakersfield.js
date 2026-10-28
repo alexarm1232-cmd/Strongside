@@ -1,1 +1,1 @@
-LINEUPS_ADD["CSU Bakersfield"] = {"players":["Donavan Bragg","Trent Blakely","Stephon Carter","Santwon Latunde","Marcus Hall","Bryan Emanuel","Donald Johnson","Jose Lara"],"rows":[]};
+LINEUPS_ADD["CSU Bakersfield"] = {"players":["Donavan Bragg","Trent Blakely","Stephon Carter","Santwon Latunde","Marcus Hall","Bryan Emanuel","Donald Johnson","Jose Lara","James Albright","Cory Brown","George DeLeon","Jeff Osborne"],"rows":[]};

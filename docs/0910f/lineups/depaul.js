@@ -1,1 +1,1 @@
-LINEUPS_ADD["DePaul"] = {"players":["Will Walker","Jeremiah Kelly","Mike Stovall","Mac Koshwal","Devin Hill","Eric Wallace","Michael Bizoukas","Krys Faber","Mario Stula","Tony Freeland","Ryan Siggins","Nate Rogers"],"rows":[]};
+LINEUPS_ADD["DePaul"] = {"players":["Will Walker","Jeremiah Kelly","Mike Stovall","Mac Koshwal","Devin Hill","Eric Wallace","Michael Bizoukas","Krys Faber","Mario Stula","Tony Freeland","Ryan Siggins","Nate Rogers","Jimmy Drew","Kene Obi","Jabaric Currie","Joe Belcaster"],"rows":[]};

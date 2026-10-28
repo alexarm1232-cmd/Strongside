@@ -29,6 +29,10 @@ SKIP_FIRST_GAMES = 5        # a game is left out until both teams have played th
 # compared with the real spread. The comparison starts on this date.
 COMPARE_FROM = "2025/12/01"
 ITERATIONS = 30             # the same number of passes the team ratings use
+# The ratings as the dashboard makes them: Kenstat's blowout damping and every game counting the same. Tourneystat.py
+# sets its own: a game's weight halves every RATING_HALF_LIFE days back, and blowouts are damped on RATING_LOPSIDED.
+RATING_HALF_LIFE = None
+RATING_LOPSIDED = None
 PLAY_SHRINK = 30            # must match PLAY_SHRINK in the dashboard's play-type matchup
 # Last season as a head start. Early in the season a team has too few games to judge, so each team's numbers lean on
 # what its CURRENT players did in 2024-25 (wherever they played), fading as its games pile up and gone by HEAD_START_ENDS.
@@ -174,17 +178,19 @@ def load_season(root_folder):
         print(f"   {undated} box scores have no date in game_scores.json and are left out")
     return visits, games, folders, paths
 
-def rate(perfs, real, league_avg, count):
-    """Kenstat's rating passes over one set of games. perfs: (team, opponent, offense, defense) with teams as
-    numbers; real: which teams have enough games to be rated. Returns (offense, defense) lists."""
+def rate(perfs, real, league_avg, count, today=None):
+    """Kenstat's rating passes over one set of games. perfs: (team, opponent, offense, defense, day number) with teams
+    as numbers; real: which teams have enough games to be rated; today: the day being rated for (used by
+    RATING_HALF_LIFE). Returns (offense, defense) lists."""
     adj_o, adj_d = [league_avg] * count, [league_avg] * count
-    scale = Kenstat.LOPSIDED_SCALE
+    scale = RATING_LOPSIDED or Kenstat.LOPSIDED_SCALE
     rated = [i for i in range(count) if real[i]]
     if not rated:
         return adj_o, adj_d
+    recency = [0.5 ** ((today - p[4]) / RATING_HALF_LIFE) if RATING_HALF_LIFE and today else 1.0 for p in perfs]
     for _ in range(ITERATIONS):
         temp_o, temp_d, temp_w = [0.0] * count, [0.0] * count, [0.0] * count
-        for t, o, raw_o, raw_d in perfs:
+        for (t, o, raw_o, raw_d, _), recent in zip(perfs, recency):
             if not real[t]: continue
             opp_o, opp_d = adj_o[o], adj_d[o]        # an unrated opponent stays at the league average
             expected = (adj_o[t] - adj_d[t]) - (opp_o - opp_d)
@@ -192,7 +198,7 @@ def rate(perfs, real, league_avg, count):
             if expected < 0:
                 expected, actual = -expected, -actual
             lopsided = max(0, min(expected, actual))
-            weight = 1 / (1 + (lopsided / scale) ** 2)
+            weight = recent / (1 + (lopsided / scale) ** 2)
             temp_o[t] += weight * (raw_o - (opp_d - league_avg))
             temp_d[t] += weight * (raw_d - (opp_o - league_avg))
             temp_w[t] += weight
@@ -578,7 +584,7 @@ def build_report(root_folder=TEAMS_FOLDER):
         if ready and total_poss:
             league_avg = total_pts / total_poss * 100
             real = [visit_count[i] >= 5 and names[i] not in Kenstat.BLACKLIST for i in range(count)]
-            adj_o, adj_d = rate(perfs, real, league_avg, count)
+            adj_o, adj_d = rate(perfs, real, league_avg, count, date_number(date))
             rated = [i for i in range(count) if real[i] and tempo_n[i]]
             league_tempo = sum(tempo_sum[i] / tempo_n[i] for i in rated) / len(rated)
             # The 2024-25 head start. What a team of these players "should" be, from what each did last season, weighed
@@ -788,8 +794,8 @@ def build_report(root_folder=TEAMS_FOLDER):
             v = visits[at]
             at += 1
             a, b = number[v["n0"]], number[v["n1"]]
-            perfs.append((a, b, v["o0"], v["o1"]))
-            perfs.append((b, a, v["o1"], v["o0"]))
+            perfs.append((a, b, v["o0"], v["o1"], date_number(date)))
+            perfs.append((b, a, v["o1"], v["o0"], date_number(date)))
             visit_count[a] += 1
             visit_count[b] += 1
             for i in (a, b):

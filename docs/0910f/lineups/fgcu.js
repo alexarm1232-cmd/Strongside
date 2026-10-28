@@ -1,1 +1,1 @@
-LINEUPS_ADD["FGCU"] = {"players":["Anthony Banks","Reed Baker","Reggie Chambers","Derrick O'Neil","Kyle Marks","Hunter Miller","Sherwood Brown","Chad Lutkenhaus","Ed Rolax","Eddie Murray","Charlie Lytle","Brett Williams"],"rows":[]};
+LINEUPS_ADD["FGCU"] = {"players":["Anthony Banks","Reed Baker","Reggie Chambers","Derrick O'Neil","Kyle Marks","Hunter Miller","Sherwood Brown","Chad Lutkenhaus","Ed Rolax","Eddie Murray","Charlie Lytle","Brett Williams","George Erkvania"],"rows":[]};

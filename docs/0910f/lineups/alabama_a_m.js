@@ -1,1 +1,1 @@
-LINEUPS_ADD["Alabama A&M"] = {"players":["Cornelius Hester","Casey Cantey","Bo Amusa","Evan Hilton","Adam Young","Marcus Lee","Jonathan Inman","Jabari Deshields","Maurice Kemp","Desmond Jackson","Reggie Porter"],"rows":[]};
+LINEUPS_ADD["Alabama A&M"] = {"players":["Cornelius Hester","Casey Cantey","Bo Amusa","Evan Hilton","Adam Young","Marcus Lee","Jonathan Inman","Jabari Deshields","Maurice Kemp","Desmond Jackson","Reggie Porter","Royce Hamilton","Alfred Frayer","Pierre Andrews","Antonio Adams"],"rows":[]};

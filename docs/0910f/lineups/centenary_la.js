@@ -1,1 +1,1 @@
-LINEUPS_ADD["Centenary (LA)"] = {"players":["Daman Starring","David Perez","Jerrald Bonham","Roman Tubner","Maxx Nakwaasah","Pedro Maciel","Matt Marseille","David Swartz","Jeron Trotman","Leo Davis"],"rows":[]};
+LINEUPS_ADD["Centenary (LA)"] = {"players":["Daman Starring","David Perez","Jerrald Bonham","Roman Tubner","Maxx Nakwaasah","Pedro Maciel","Matt Marseille","David Swartz","Jeron Trotman","Leo Davis","Travis Sims","Matt Nichenko"],"rows":[]};

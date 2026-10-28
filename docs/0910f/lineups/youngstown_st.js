@@ -1,1 +1,1 @@
-LINEUPS_ADD["Youngstown St."] = {"players":["DeAndre Mays","Sulskis Vytas","Kelvin Bright","Sirlester Martin","Ashen Ward","Vance Cooksey","Dallas Blocker","Dan Boudler","Eddie D'Haiti","Zack Rebillot"],"rows":[]};
+LINEUPS_ADD["Youngstown St."] = {"players":["DeAndre Mays","Sulskis Vytas","Kelvin Bright","Sirlester Martin","Ashen Ward","Vance Cooksey","Dallas Blocker","Dan Boudler","Eddie D'Haiti","Zack Rebillot","Tom Parks","Andy Timko"],"rows":[]};

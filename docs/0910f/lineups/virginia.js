@@ -1,1 +1,1 @@
-LINEUPS_ADD["Virginia"] = {"players":["Sammy Zeglinski","Sylven Landesberg","Mike Scott","Jerome Meyinsse","Mustapha Farrakhan","Jeff Jones","Jontel Evans","Will Sherrill","Calvin Baker","Assane Sene"],"rows":[]};
+LINEUPS_ADD["Virginia"] = {"players":["Sammy Zeglinski","Sylven Landesberg","Mike Scott","Jerome Meyinsse","Mustapha Farrakhan","Jeff Jones","Jontel Evans","Will Sherrill","Calvin Baker","Assane Sene","Tristan Spurlock","Solomon Tat","Tom Jonke","Thomas Kody","Doug Browman"],"rows":[]};

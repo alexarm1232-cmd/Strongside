@@ -1,1 +1,1 @@
-LINEUPS_ADD["Marist"] = {"players":["Korey Bauer","Candon Rusin","Devin Price","Daye Kaba","Rob Johnson","Dejuan Goodwin","Sam Prescott","Dorvell Carter","Javon Parris","R.J. Hall"],"rows":[]};
+LINEUPS_ADD["Marist"] = {"players":["Korey Bauer","Candon Rusin","Devin Price","Daye Kaba","Rob Johnson","Dejuan Goodwin","Sam Prescott","Dorvell Carter","Javon Parris","R.J. Hall","Mike Taylor","Pat McDerby","George Dallas"],"rows":[]};

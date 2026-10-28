@@ -1,1 +1,1 @@
-LINEUPS_ADD["Utah"] = {"players":["Luka Drca","Carlon Brown","Marshall Henderson","David Foster","Jace Tavita","Jay Watkins","Kim Tillie","Jason Washburn","Shawn Glover","Chris Hines","Jordan Cyphers"],"rows":[]};
+LINEUPS_ADD["Utah"] = {"players":["Luka Drca","Carlon Brown","Marshall Henderson","David Foster","Jace Tavita","Jay Watkins","Kim Tillie","Jason Washburn","Shawn Glover","Chris Hines","Jordan Cyphers","Matt Read","Tre Smith","Ricky Shoff","Austin Robison"],"rows":[]};

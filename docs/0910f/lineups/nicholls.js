@@ -1,1 +1,1 @@
-LINEUPS_ADD["Nicholls"] = {"players":["Anatoly Bose","Chris Iles","Fred Hunter","Kellan Carter","Dominic Friend","Kenny Franklin, Jr.","Justin Ayers","Maurice Foster","Phillip Ward"],"rows":[]};
+LINEUPS_ADD["Nicholls"] = {"players":["Anatoly Bose","Chris Iles","Fred Hunter","Kellan Carter","Dominic Friend","Kenny Franklin, Jr.","Justin Ayers","Cameron McCallum","Maurice Foster","Phillip Ward","Bryson Triggs","Jeremy Smith","Ben Martin","K.J. Lee"],"rows":[]};

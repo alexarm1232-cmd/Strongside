@@ -1,1 +1,1 @@
-LINEUPS_ADD["Pepperdine"] = {"players":["Keion Bell","Mychel Thompson","Lorne Jackson","Taylor Darby","Jonathan Dupre'","Corbin Moore","Dane Suttle Jr.","Joshua Lowery","Tanner Kerry","Caleb Willis","Gus Clardy"],"rows":[]};
+LINEUPS_ADD["Pepperdine"] = {"players":["Keion Bell","Mychel Thompson","Lorne Jackson","Taylor Darby","Jonathan Dupre'","Corbin Moore","Dane Suttle Jr.","Joshua Lowery","Tanner Kerry","Caleb Willis","Gus Clardy","Denis Agre","Andy Shannon","Richard Branning"],"rows":[]};

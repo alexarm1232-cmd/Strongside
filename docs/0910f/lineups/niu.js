@@ -1,1 +1,1 @@
-LINEUPS_ADD["NIU"] = {"players":["Darion Anderson","Xavier Silas","Sean Kowal","Mike DiNunno","Lee Fisher","Tony Nixon","Najul Ervin","Michael Patton","Michael Fakuade","Bryan Hall","Ante Dzepina"],"rows":[]};
+LINEUPS_ADD["NIU"] = {"players":["Darion Anderson","Xavier Silas","Sean Kowal","Mike DiNunno","Lee Fisher","Tony Nixon","Najul Ervin","Michael Patton","Michael Fakuade","Bryan Hall","Jeremy Landers","Tyler Storm","Ante Dzepina","Keith Smith","Justin Peaster","Antone Christian"],"rows":[]};

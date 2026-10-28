@@ -1,1 +1,1 @@
-LINEUPS_ADD["Stetson"] = {"players":["A.J. Smith","Ridge Graham","Brandon Williams","Mark Lohuis","Tyshawn Patterson","Joel Naburgs","Liam McInerney","Graeme Radford","Olivier Dupiton","J.R. Weston","Shawn Bowen","Tim Lang"],"rows":[]};
+LINEUPS_ADD["Stetson"] = {"players":["A.J. Smith","Ridge Graham","Brandon Williams","Mark Lohuis","Tyshawn Patterson","Joel Naburgs","Liam McInerney","Graeme Radford","Olivier Dupiton","J.R. Weston","Shawn Bowen","Sheldon Oliver","Tim Lang","Phil Bassan"],"rows":[]};

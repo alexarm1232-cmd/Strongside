@@ -1,1 +1,1 @@
-LINEUPS_ADD["Grambling"] = {"players":["Donald Qualls","Kevin Loyd","Lance Feurtado","Ariece Perkins","George Akpele","Rupert Rose","Allen Saint-Gelais","Terdarin Bryson","Torez Young","Rydell Harris","Greg Dillon","Jameel Forbes","Demarcus Blunt"],"rows":[]};
+LINEUPS_ADD["Grambling"] = {"players":["Donald Qualls","Kevin Loyd","Lance Feurtado","Ariece Perkins","George Akpele","Rupert Rose","Allen Saint-Gelais","Terdarin Bryson","Torez Young","Rydell Harris","Maurice Wilkerson","Greg Dillon","Jameel Forbes","Demarcus Blunt","Philip Duckett","David Thomas"],"rows":[]};

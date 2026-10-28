@@ -1,1 +1,1 @@
-LINEUPS_ADD["South Alabama"] = {"players":["Tim Williams","Martino Brock","Bryan Sherrer","Allyn Cooks","Gary Redus","Javier Carter","Charles Tabet","LaShun Watson","Deandre Hersey","Raymond Sims"],"rows":[]};
+LINEUPS_ADD["South Alabama"] = {"players":["Tim Williams","Martino Brock","Bryan Sherrer","Allyn Cooks","Gary Redus","Javier Carter","Charles Tabet","LaShun Watson","Deandre Hersey","Philip Tabet","Raymond Sims","Rob Phillips","Jayson Guerrier","Todd Martin"],"rows":[]};

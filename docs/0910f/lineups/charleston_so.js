@@ -1,1 +1,1 @@
-LINEUPS_ADD["Charleston So."] = {"players":["Jamarco Warren","Jeremy Sexton","Kelvin Martin","Kenny Mitchell","Billy Blackmon","Jo'el Lamb","Zimmy Nwogbo","Tom Tankelewicz","Quinton Goods","Austin Johnson","Stanley Honorat"],"rows":[]};
+LINEUPS_ADD["Charleston So."] = {"players":["Jamarco Warren","Jeremy Sexton","Kelvin Martin","Kenny Mitchell","Billy Blackmon","Jo'el Lamb","Zimmy Nwogbo","Tom Tankelewicz","Quinton Goods","Austin Johnson","Stanley Honorat","Patrick Shaughnessy","Theron Stephens","Sean Sweeney"],"rows":[]};

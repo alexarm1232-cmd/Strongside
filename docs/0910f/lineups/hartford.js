@@ -1,1 +1,1 @@
-LINEUPS_ADD["Hartford"] = {"players":["Joe Zeglinski","Morgan Sabia","Milton Burton","Joel Barkers","Andres Torres","Charles White","Anthony Minor","Clayton Brothers","Kevin Estes","Ross Erickson","Ryan Baker"],"rows":[]};
+LINEUPS_ADD["Hartford"] = {"players":["Joe Zeglinski","Morgan Sabia","Milton Burton","Joel Barkers","Andres Torres","Charles White","Anthony Minor","Clayton Brothers","Kevin Estes","Ross Erickson","Ryan Baker","David Bookman","Zack Zeglinski","Genesis Maciel","Zeglinski Zach"],"rows":[]};

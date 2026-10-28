@@ -1,1 +1,1 @@
-LINEUPS_ADD["Maine"] = {"players":["Gerald McLemore","Sean McNally","Junior Bernal","Terrance Mitchell","Troy Barnies","Murphy Burnatowski","Mike Allison"],"rows":[]};
+LINEUPS_ADD["Maine"] = {"players":["Gerald McLemore","Sean McNally","Junior Bernal","Terrance Mitchell","Troy Barnies","Murphy Burnatowski","Mike Allison","Andrew Rogers","Malachi Peay","Svetoslav Chetinov","Jerrell Boswell","Jon McAllian","Travon Wilcher"],"rows":[]};

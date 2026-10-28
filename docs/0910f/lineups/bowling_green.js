@@ -1,1 +1,1 @@
-LINEUPS_ADD["Bowling Green"] = {"players":["Scott Thomas","Joe Jakubowski","Dee Brown","Otis Polk","Erik Marschall","Marc Larson","Jordon Crawford"],"rows":[]};
+LINEUPS_ADD["Bowling Green"] = {"players":["Scott Thomas","Joe Jakubowski","Dee Brown","Otis Polk","Erik Marschall","Marc Larson","Jordon Crawford","Danny McElroy","Darion Goins","Luke Kraus","James Erger","Matt Karaffa","A'Uston Calhoun"],"rows":[]};

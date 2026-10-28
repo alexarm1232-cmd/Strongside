@@ -65,8 +65,11 @@ def main():
                     if os.path.isdir(source_dir):
                         os.makedirs(target, exist_ok=True)
                         have = set(os.listdir(target))
+                        main_list = "shots" if sub_folder == "shots" else "turnovers"
+                        # a file with nothing in it (as 2009-10's were before the reader knew its wording) is replaced too
+                        empty = lambda f: not (json.load(open(os.path.join(target, f), encoding="utf-8")).get(main_list) or [])
                         for f in os.listdir(source_dir):
-                            if f[:-5] in listed and f not in have:
+                            if f[:-5] in listed and (f not in have or empty(f)):
                                 shutil.copyfile(os.path.join(source_dir, f), os.path.join(target, f))
                 kept += len(listed) - len([f for f in os.listdir(staged) if f[:-5] in listed])
                 teams += 1

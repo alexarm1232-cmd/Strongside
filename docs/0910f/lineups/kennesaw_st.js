@@ -1,1 +1,1 @@
-LINEUPS_ADD["Kennesaw St."] = {"players":["Markeith Cummings","Kurtis Woods","Spencer Dixon","LaDaris Green","Kelvin McConnell","Jon-Michael Nickerson","Matt Heramb","Jonathan Whipple","Zadrian Gibson"],"rows":[]};
+LINEUPS_ADD["Kennesaw St."] = {"players":["Markeith Cummings","Kurtis Woods","Spencer Dixon","LaDaris Green","Kelvin McConnell","Jon-Michael Nickerson","Matt Heramb","Jonathan Whipple","Zadrian Gibson","Cortez Irby","Artie Marine","Junior Ajayi","Mirza Medinic","James McRae"],"rows":[]};

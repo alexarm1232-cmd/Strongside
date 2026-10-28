@@ -1,1 +1,1 @@
-LINEUPS_ADD["Massachusetts"] = {"players":["Ricky Harris","Terrell Vinson","Anthony Gurley","Sean Carter","Gary Correia","Freddie Riley","Javorn Farrell","Sampson Carter","David Gibbs","Hashim Bailey"],"rows":[]};
+LINEUPS_ADD["Massachusetts"] = {"players":["Ricky Harris","Terrell Vinson","Anthony Gurley","Sean Carter","Gary Correia","Freddie Riley","Javorn Farrell","Sampson Carter","David Gibbs","Hashim Bailey","Matt Hill","Trey Lang","Lex Mongo"],"rows":[]};

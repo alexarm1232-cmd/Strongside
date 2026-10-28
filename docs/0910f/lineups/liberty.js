@@ -1,1 +1,1 @@
-LINEUPS_ADD["Liberty"] = {"players":["Jesse Sanders","Evan Gordon","Kyle Ohman","Jeremy Anderson","Patrick Konan","Carter McMasters","Antwan Burrus","Chris Perez","David Minaya","Tyler Baker"],"rows":[]};
+LINEUPS_ADD["Liberty"] = {"players":["Jesse Sanders","Evan Gordon","Kyle Ohman","Jeremy Anderson","Patrick Konan","Carter McMasters","Antwan Burrus","Chris Perez","David Minaya","Bill Weaver","Johnny Stephene","Tyler Baker","James Spencer"],"rows":[]};

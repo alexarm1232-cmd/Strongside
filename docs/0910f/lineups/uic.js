@@ -1,1 +1,1 @@
-LINEUPS_ADD["UIC"] = {"players":["Robo Kreps","Jeremy Buttell","Spencer Stewart","Zavion Neely","Brad Birton","K.C. Robbins","Chris Buchanan","Kris Harris","Louis Green"],"rows":[]};
+LINEUPS_ADD["UIC"] = {"players":["Robo Kreps","Jeremy Buttell","Spencer Stewart","Zavion Neely","Brad Birton","K.C. Robbins","Chris Buchanan","Corey Gray","Kris Harris","Louis Green","Anthony Kelley","Austin Hood","Dipanjot Singh","Jimmy Harding","Arthur Wiley","Arman Rasul"],"rows":[]};

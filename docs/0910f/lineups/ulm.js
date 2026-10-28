@@ -1,1 +1,1 @@
-LINEUPS_ADD["ULM"] = {"players":["Dynile Forbes","Tony Hooper","Lawrence Gilbert","Rudy Turner","Tommie Sykes","Colby Carr","Warren Fuselier","Jarvis Hill","Kenneth Averette","Brandon Williams","Malcolm Thomas","Fabio Ribeiro"],"rows":[]};
+LINEUPS_ADD["ULM"] = {"players":["Dynile Forbes","Tony Hooper","Lawrence Gilbert","Rudy Turner","Tommie Sykes","Colby Carr","Warren Fuselier","Jarvis Hill","Kenneth Averette","Brandon Williams","Rory Burt","Malcolm Thomas","Fabio Ribeiro","Robert Nelson"],"rows":[]};

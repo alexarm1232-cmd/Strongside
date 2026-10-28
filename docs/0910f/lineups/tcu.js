@@ -1,1 +1,1 @@
-LINEUPS_ADD["TCU"] = {"players":["Ronnie Moss","Edvinas Ruzgas","Zvonko Buljan","Kevin Butler","Greg Hill","Keion Mitchem","Nikola Cerina","Garlon Green","Xavier Roberson"],"rows":[]};
+LINEUPS_ADD["TCU"] = {"players":["Ronnie Moss","Edvinas Ruzgas","Zvonko Buljan","Kevin Butler","Greg Hill","Keion Mitchem","Nikola Cerina","Garlon Green","Xavier Roberson","Logan Lancon","Marin Bavcevic","Torey Woods","Zach Hule","David Fishel"],"rows":[]};

@@ -1,1 +1,1 @@
-LINEUPS_ADD["Cal St. Fullerton"] = {"players":["Jacques Streeter","Aaron Thompson","Gerard Anderson","Jer'Vaughn Johnson","Bryce Webster","Devon Peltier","Orane Chin","Jamel McGuire"],"rows":[]};
+LINEUPS_ADD["Cal St. Fullerton"] = {"players":["Jacques Streeter","Aaron Thompson","Gerard Anderson","Jer'Vaughn Johnson","Bryce Webster","Devon Peltier","Orane Chin","Jamel McGuire","Eric Williams","Papa Guisse","Ray Miller","Robbie Robinson","Frank Granados"],"rows":[]};

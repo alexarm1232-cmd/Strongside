@@ -1,1 +1,1 @@
-LINEUPS_ADD["UC Irvine"] = {"players":["Eric Wise","Darren Moore","Michael Hunter","Patrick Rembert","Zack Atkinson","Adam Folker","Michael Wilder","Pavol Losonsky","Emil Kim","Derrick Strings","Jonas Lalehzadeh"],"rows":[]};
+LINEUPS_ADD["UC Irvine"] = {"players":["Eric Wise","Darren Moore","Michael Hunter","Patrick Rembert","Zack Atkinson","Adam Folker","Michael Wilder","Pavol Losonsky","Emil Kim","Derrick Strings","Peter Simek","Derick Flowers","Jonas Lalehzadeh","Brandon Scott","Rashaad Ubah"],"rows":[]};

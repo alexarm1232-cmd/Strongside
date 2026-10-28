@@ -1,1 +1,1 @@
-LINEUPS_ADD["Brown"] = {"players":["Peter Sullivan","Matt Mullery","Matt Sullivan","Adrian Williams","Tucker Halpern","Garrett Leffelman","Andrew McCarthy","Steve Gruber","Christopher Taylor","Jean Herbert-Harris"],"rows":[]};
+LINEUPS_ADD["Brown"] = {"players":["Peter Sullivan","Matt Mullery","Matt Sullivan","Adrian Williams","Tucker Halpern","Garrett Leffelman","Andrew McCarthy","Steve Gruber","Christopher Taylor","Jean Herbert-Harris","Marques Coleman","Stefan Kaluz"],"rows":[]};

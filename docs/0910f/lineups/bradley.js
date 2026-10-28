@@ -1,1 +1,1 @@
-LINEUPS_ADD["Bradley"] = {"players":["Andrew Warren","Sam Maniscalco","Chris Roberts","Taylor Brown","Will Egolf","Dyricus Simms-Edwards","Sam Singh","Eddren McCain","Dodie Dunson"],"rows":[]};
+LINEUPS_ADD["Bradley"] = {"players":["Andrew Warren","Sam Maniscalco","Chris Roberts","Taylor Brown","Will Egolf","Dyricus Simms-Edwards","Sam Singh","Eddren McCain","Jake Eastman","Anthony Thompson","Milos Knezevic","Dodie Dunson","Ryan Phillips","Charonn Woods"],"rows":[]};

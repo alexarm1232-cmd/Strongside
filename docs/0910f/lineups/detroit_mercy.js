@@ -1,1 +1,1 @@
-LINEUPS_ADD["Detroit Mercy"] = {"players":["Thomas Kennedy","Chase Simon","Xavier Keeling","Woody Payne","Eli Holman","Eulis Stephens","Donavan Foster","Eugene Blue","Lamar Lee","Curtis Eatmon"],"rows":[]};
+LINEUPS_ADD["Detroit Mercy"] = {"players":["Thomas Kennedy","Chase Simon","Xavier Keeling","Woody Payne","Eli Holman","Eulis Stephens","Donavan Foster","Eugene Blue","Lamar Lee","Curtis Eatmon","John Hoskins","Jordan Fee"],"rows":[]};

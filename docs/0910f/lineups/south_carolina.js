@@ -1,1 +1,1 @@
-LINEUPS_ADD["South Carolina"] = {"players":["Devan Downey","Brandis Raley-Ross","Sam Muldrow","Lakeem Jackson","Ramon Galloway","Johndre Jefferson","Austin Steed","Evaldas Baniulis","Stephen Spinella","Mike Holmes","Dominique Archie"],"rows":[]};
+LINEUPS_ADD["South Carolina"] = {"players":["Devan Downey","Brandis Raley-Ross","Sam Muldrow","Lakeem Jackson","Ramon Galloway","Johndre Jefferson","Austin Steed","Evaldas Baniulis","Stephen Spinella","Mike Holmes","Dominique Archie","Robert Wilder"],"rows":[]};

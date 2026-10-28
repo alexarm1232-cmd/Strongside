@@ -1,1 +1,1 @@
-LINEUPS_ADD["Ga. Southern"] = {"players":["Willie Powers","Antonio Hanson","Rory Spencer","Ben Drayton","Johntavious Rucker","Colby Wohlleb","Tyler Troupe","Cameron Baskerville","Antoine Johnson"],"rows":[]};
+LINEUPS_ADD["Ga. Southern"] = {"players":["Willie Powers","Antonio Hanson","Rory Spencer","Ben Drayton","Johntavious Rucker","Colby Wohlleb","Tyler Troupe","Cameron Baskerville","Antoine Johnson","Krzysztof Janiszewski","Sandy Perry","Jeb Brannen","Alex Coxworth"],"rows":[]};

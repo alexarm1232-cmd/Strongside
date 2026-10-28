@@ -1,1 +1,1 @@
-LINEUPS_ADD["Auburn"] = {"players":["DeWayne Reed","Lucas Hargrove","Frankie Sullivan","Tay Waller","Brendon Knox","Earnest Ross","Johnnie Lett","Andre Malone","Ty Armstrong"],"rows":[]};
+LINEUPS_ADD["Auburn"] = {"players":["DeWayne Reed","Lucas Hargrove","Frankie Sullivan","Tay Waller","Brendon Knox","Earnest Ross","Johnnie Lett","Andre Malone","Ty Armstrong","Josh Wallace","Kenny Gabriel","Tony Neysmith","Larry Williams Jr.","Rob Chubb","Jake Drum","Dylan Spencer"],"rows":[]};
