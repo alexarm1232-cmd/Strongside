@@ -86,6 +86,9 @@ EXPLAIN = None
 #             HEAD_START_ENDS, the way the players' head start does
 HOME_COURT = "last"
 PLAY_ADJUST = "sos"         # how play types are adjusted for opponents: "sos" or "category" (see build_report)
+# From this date on, games are still compared but never join the record, so every one of them is played as things
+# stood the day before it (Tourneystat.py's pre-tournament view). None = each game day joins the record as usual.
+FREEZE_FROM = None
 USEFUL_MINUTES = 10         # a player averaging this many minutes (in the games he has played so far) is "useful"
 MOST_PLAYERS = 14           # players sent to the simulator for each team, most minutes first
 
@@ -126,6 +129,7 @@ def load_season(root_folder):
             for g in read_json(os.path.join(team_path, 'game_scores.json'), []):
                 listed.setdefault(str(g['game_id']), g)
     home_teams = Kenstat.load_home_teams(root_folder)
+    d1 = Kenstat.d1_names(root_folder)
 
     visits, games, undated = [], {}, 0
     for root, dirs, files in os.walk(root_folder):
@@ -136,7 +140,8 @@ def load_season(root_folder):
                 data = read_json(os.path.join(root, f))
                 g_id = str(data.get('game_id') or f).strip()
                 t0, t1 = data['teams'][0], data['teams'][1]
-                n0, n1 = t0['team_name'], t1['team_name']
+                # a school outside Division I is rated as the one pooled opponent, as Kenstat does
+                n0, n1 = (n if n.rstrip('. ') in d1 else Kenstat.NON_D1 for n in (t0['team_name'], t1['team_name']))
                 s0, s1 = t0['team_totals'], t1['team_totals']
                 poss0 = Kenstat.parse_attempts(s0['FG']) - s0['OREB'] + s0['TO'] + 0.475 * Kenstat.parse_attempts(s0['FT'])
                 poss1 = Kenstat.parse_attempts(s1['FG']) - s1['OREB'] + s1['TO'] + 0.475 * Kenstat.parse_attempts(s1['FT'])
@@ -777,6 +782,8 @@ def build_report(root_folder=TEAMS_FOLDER):
                 inputs.append([league_at, block_a, block_b])
                 edges.append(round(home, 3))
         # 2. today's games join the record
+        if FREEZE_FROM and date >= FREEZE_FROM:
+            continue
         while at < len(visits) and visits[at]["date"] == date:
             v = visits[at]
             at += 1
