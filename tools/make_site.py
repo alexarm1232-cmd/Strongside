@@ -21,7 +21,7 @@ def main():
             shutil.rmtree(path) if os.path.isdir(path) else os.remove(path)
     os.makedirs(SITE, exist_ok=True)
     pages = [f for f in os.listdir(MAIN) if f.startswith("dashboard") and f.endswith(".html") and f != "dashboard_template.html"]
-    for f in pages + [f for f in ("seasons.js", "upsets.html", "tourneyreport.js") if os.path.exists(os.path.join(MAIN, f))]:
+    for f in pages + [f for f in ("seasons.js", "tourneyreport.js") if os.path.exists(os.path.join(MAIN, f))]:
         shutil.copyfile(os.path.join(MAIN, f), os.path.join(SITE, f))
     folders = list(DATA_FOLDERS)
     for name in os.listdir(MAIN):               # the other seasons' folders: 2425, 2425f, 2324 ...
