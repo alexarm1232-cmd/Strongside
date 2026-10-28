@@ -2451,8 +2451,8 @@ function simUnit(t, out, proj, rotation, tournament) {
   simPlayBook(unit, t);
   return unit;
 }
-// The team's play types as tonight's players run and defend them. This is what sets how well a team scores in the
-// simulator; its offensive and defensive ratings are not used.
+// The team's play types as tonight's players run and defend them. They decide how the simulator's possessions go (which
+// kind of play, who runs it); how well a team scores overall is set by its ratings (simGames).
 //   unit.plays: on offense, [plays, points] for each kind of play (points adjusted for the opponents faced)
 //   unit.guard: the same for what the team allows on defense
 // Offense: each kind of play is shared among tonight's players by how many of them each runs, scaled by his minutes,
@@ -2592,7 +2592,7 @@ function simPlayTypes(M, O, D, style, easier, target) {
     astP: PLAY_ASSISTED.map(v => v < 0 ? between(O.astBase, 0.05, 0.95) : v), astKind: PLAY_PASSER });
 }
 
-// This offense against that defense. target: the points per possession the offense should score (from play types)
+// This offense against that defense. target: the points per possession the offense should score (from the ratings)
 function simMatchup(O, D, target) {
   const L = SIM_LEAGUE;
   const pTO = between((O.tov + D.dtov - L.tov) / 100, 0.05, 0.4);
@@ -2970,17 +2970,13 @@ function simGames(A, B, site, outA, outB, games, onProgress, pickOne, tournament
     const gap = A.n - B.n + 2 * home;       // the first team's expected margin, per 100 possessions
     const units = [simUnit(A, outA, without(A, outA, fivesA), simRotation(A, fivesA, gap), tournament),
                    simUnit(B, outB, without(B, outB, fivesB), simRotation(B, fivesB, -gap), tournament)];
-    // What each offense should score comes from play types and the players on the floor (playMatchup). The team
-    // ratings are only a stand-in for a team with no play-type data.
-    const plans = [playMatchup(units[0], units[1]), playMatchup(units[1], units[0])];
+    // What each offense should score comes from the team ratings: its offense plus the other side's defense, less the
+    // D-I average, plus home court (the ratings of the team without the players who are out, when any are). They were
+    // tested against the play-type matchup (playMatchup) on every NCAA tournament game 2010-2026, each team as it
+    // stood that morning: 1.71 points off the closing lines against 2.14, and a smaller miss on the final margins in
+    // 10 of the 16 seasons. The play types still decide how each possession is played (simPlayTypes).
     const rated = (o, d) => (o.o + d.d - AVG_EFF) / 100;
-    // Play types can only be trusted as far as the shot data goes. When nearly every game has shot spots (this
-    // season) they set the scoring level alone. When only part of the season does (2024-25: February on), the level
-    // is a blend, play types counting for the share of games they cover and the team ratings for the rest.
-    const covered = t => { const share = t.shot && t.shot.g ? t.shot.g / (t.sched.length || 1) : 0; return share >= 0.9 ? 1 : share; };
-    const trust = Math.min(covered(A), covered(B));
-    const level = (plan, o, d) => plan ? trust * plan.ppp + (1 - trust) * rated(o, d) : rated(o, d);
-    const targets = [level(plans[0], units[0], units[1]) + home / 100, level(plans[1], units[1], units[0]) - home / 100];
+    const targets = [rated(units[0], units[1]) + home / 100, rated(units[1], units[0]) - home / 100];
     const styles = targets.map(v => 100 * v);        // points per 100 possessions each offense should score here
     const matchups = [simMatchup(units[0], units[1], targets[0]), simMatchup(units[1], units[0], targets[1])];
     const pace = (units[0].tempo + units[1].tempo - SIM_LEAGUE.t) * (tournament ? TOURNAMENT_PACE : 1);
@@ -3220,14 +3216,13 @@ function renderSimResult(acc, units, pace, styles) {
       row(TA, winsA, mean, wonBy, lostBy, blowouts(0)) + row(TB, winsB, -mean, lostBy, wonBy, blowouts(1)) + `</tbody></table>` +
       simMarginChart(acc, units) +
       `<div class="wo-note" style="padding-top:10px">A typical game lands about ${spread.toFixed(0)} points either side of the average margin, so even matched teams produce blowouts now and then. ` +
-      `By play types and the players on the floor, ${esc(TA.name)} should score ${styles[0].toFixed(1)} points per 100 possessions against this defense and ${esc(TB.name)} ${styles[1].toFixed(1)}.</div></div>` +
+      `By the team ratings (without the players who are out) and home court, ${esc(TA.name)} should score ${styles[0].toFixed(1)} points per 100 possessions against this defense and ${esc(TB.name)} ${styles[1].toFixed(1)}.</div></div>` +
     `<div class="card tp-card"><h3>Why each team wins<span>${enough ? 'what is different about the games each team wins' : 'one team won too few games to compare its wins with its losses, so this is what the games looked like'}</span></h3>` +
       `<div class="gs-keys">${reasonColumn(0)}${reasonColumn(1)}</div></div>` +
     simKindsCard(acc, units) +
     `<div class="card tp-card"><h3>Average box score<span>per game over ${n.toLocaleString()} games</span></h3>${simBoxTable(acc, units, 0)}${simBoxTable(acc, units, 1)}` +
-      `<div class="wo-note" style="padding-top:12px">Each game is played one possession at a time, and it runs on play types, not on team ratings. How well an offense scores comes from how often its players run each kind of play and how well they score on it (adjusted for strength of schedule), ` +
-      `set against how well the other team’s players defend that kind of play, plus home court. ` +
-      (CURRENT_SEASON ? `The teams’ offensive and defensive ratings are not used. ` : `Where play types cover only part of a team’s games this season, the scoring level leans on the team ratings for the rest, while play types still decide how the game is played. `) +
+      `<div class="wo-note" style="padding-top:12px">Each game is played one possession at a time. How well an offense scores overall comes from the team ratings: its offensive rating against the other team’s defensive rating, plus home court, ` +
+      `with the ratings of the team without any players who are out. (Tested on every NCAA tournament game since 2010, the ratings came closer to the closing spreads and the final scores than a level built from play types.) ` +
       `Every trip starts with a kind of play, in the mix this offense runs against this defense; the play decides who shoots (the players who run it), from where, and whether it is assisted. Turnovers, rebounds and free throws come from the teams’ and players’ season numbers, and every player draws a better or worse night each game. ` +
       `Minutes come from the play-by-play: each player’s share of the floor time while games were still in doubt (judged by the lead and the time left together, so 20 up with 15 minutes to go still counts and 13 up in the last minute does not), counting most the real games most like this matchup, so the end of the bench does not play against a good team. ` +
       `A player who is out takes his plays with him: the kinds of play he runs come up less, the rest go to teammates at their own efficiency, and the defense is judged by who is left. The simulator never looks up a real game between these two teams; if they did play, that game is only one of the season’s games inside their numbers. ` +
@@ -3939,9 +3934,9 @@ const GUIDE = [
     ['Free throws', 'Attempts and makes, and which plays draw them.', 'Trips to the line are assigned to the plays that draw fouls.', 'A play that ends at the line still produced points.'],
   ]],
   ['Play types', 'Every scoring chance is sorted into one of twelve plays from who shot, who passed, where the shot came from and the clock. For each: how often it is run and the points it is worth.', [
-    ...PLAY_NAMES.map((name, i) => [name, PLAY_TIPS[i] + '.', 'Its share of the team’s plays decides how often the simulator calls it; its points per play, against what the defense allows on it, decides what it is worth.', 'Two offenses with the same rating can score in opposite ways, and a defense can be good against one and poor against the other.']),
+    ...PLAY_NAMES.map((name, i) => [name, PLAY_TIPS[i] + '.', 'Its share of the team’s plays decides how often the simulator calls it; its points per play, against what the defense allows on it, decides what it is worth next to the team’s other plays.', 'Two offenses with the same rating can score in opposite ways, and a defense can be good against one and poor against the other.']),
     ['Plays per 100 possessions', 'How often a team or player runs each play.', 'The simulator picks each possession’s play from the offense’s mix and what the defense allows.', 'Describes a team’s style.'],
-    ['Points per play', 'Points scored on a play type divided by the times it was run, adjusted for the defenses faced.', 'Sets the scoring level of each possession in the simulator.', 'It is the efficiency of each way of scoring, which is what the matchup turns on.'],
+    ['Points per play', 'Points scored on a play type divided by the times it was run, adjusted for the defenses faced.', 'In the simulator, makes some kinds of play worth more than others within the scoring level the team ratings set.', 'It is the efficiency of each way of scoring, which is what the matchup turns on.'],
     ['Defense by play type', 'The same two numbers for what a team’s opponents run and score against it.', 'Combined with the offense’s numbers for the matchup.', 'A game is one team’s offense against the other’s defense, play by play.'],
     ['With him on the floor', 'The team’s and its opponents’ play types counting only possessions a player was on the floor.', 'Shown on player pages; builds a team from the players actually available.', 'Shows how a player changes what his team runs and allows, beyond his own shots.'],
   ]],
@@ -4479,8 +4474,9 @@ function pitUnit(block) {
 // Plays one tournament game `games` times on a neutral floor. Each offense is aimed at what the team ratings say it
 // should score against that defense (points per 100 possessions: its offense plus the other side's defense, less the
 // league average), with who is missing worked in (A.o and A.d already carry it). The ratings were tested against
-// the play-type matchup (A.style) on every game: they were closer to the closing line in every season and missed the
-// final margins by less, so they set the level; the play types still shape how each possession is played.
+// the play-type matchup (A.style) on every game: 1.71 points off the closing lines against 2.14, and a smaller miss on
+// the final margins, so they set the level, as in the game simulator. (The tournament inputs carry no play types for
+// each player, so possessions here are played by shot zone; the average margin is the same either way.)
 function pitGame({ league, a, b, games }) {
   SIM_LEAGUE = pitLeague(league);
   const A = pitUnit(a), B = pitUnit(b), avg = SIM_LEAGUE.avg;
