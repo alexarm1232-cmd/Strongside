@@ -33,9 +33,9 @@ BUCKETS = [("−25+", -99, -25), ("−24.9 to −20", -24.9, -20), ("−19.9 to 
            ("−9.9 to −5", -9.9, -5), ("−4.9 to −0.1", -4.9, -0.1), ("Pick'em (0)", 0, 0), ("+0.1 to +4.9", 0.1, 4.9),
            ("+5 to +9.9", 5, 9.9), ("+10 to +14.9", 10, 14.9), ("+15 to +19.9", 15, 19.9), ("+20 to +24.9", 20, 24.9),
            ("+25+", 25, 99)]
-# the C and D pages' rows: 2-point bands up to 24, mirrored around the pick'em row
+# the C and D pages' rows: the favorite's spread in 2-point bands up to 24, then pick'em (each game is counted once)
 TABLE_BUCKETS = ([("−24+", -99, -24)] + [(f"−{hi + 1.9:g} to −{hi}", -(hi + 1.9), -hi) for hi in range(22, 0, -2)] + [("−1.9 to −0.1", -1.9, -0.1)] +
-                 [("Pick'em (0)", 0, 0), ("+0.1 to +1.9", 0.1, 1.9)] + [(f"+{lo} to +{lo + 1.9:g}", lo, lo + 1.9) for lo in range(2, 24, 2)] + [("+24+", 24, 99)])
+                 [("Pick'em (0)", 0, 0)])
 
 MINUTES = 50                     # regulation plus two overtimes, the longest tournament game here
 OT_LABEL = {45: "1 OT", 50: "2 OT"}
@@ -410,17 +410,22 @@ def sheet_b_upsets(wb, teams):
     ws.auto_filter.ref = f"A{top}:{get_column_letter(len(head))}{last}"
 
 D_NOTE = ("The simulator's spread: each game played 1,000,000 times in Strongside's simulator (the Tourney spreads page) as the two teams "
-          "stood that morning, with only the players who really played, rounded to the half point; from the team's side (minus = "
-          "favorite). Straight-up wins. Every game counts twice, once from each side, so each row mirrors its opposite.")
+          "stood that morning, with only the players who really played, rounded to the half point; from the favorite's side (minus = "
+          "favorite). Straight-up wins.")
 
 def sheet_c(wb, split, y0, y1, games, page="C", spread=lambda r: r[7], label="Closing spread", what="closing spread", note=None):
     """A C page (by the closing spread), or with page="D" and spread=the simulator's, a D page."""
     ws = wb.create_sheet(f"{page} {split}")
     years = f"{y0}–{y1}" + (" (no 2020 tournament)" if y0 <= 2020 <= y1 else "")
     title(ws, f"Win % by {what} and round — {split.lower()}, {years}",
-          note or "Straight-up wins, not covers. Spread from the team's side (minus = favorite). Every game counts twice, once from each side, "
-                  "so each row mirrors its opposite (−5.9 to −4 wins = +4 to +5.9 losses).")
-    sel = [r + [spread(r)] for r in games if y0 <= r[0] <= y1 and spread(r) is not None]
+          (note or "Straight-up wins, not covers. Spread from the favorite's side (minus = favorite).") +
+          " Each game counts once: from the favorite's side, or for a pick'em from the better seed's (the alphabetically first "
+          "team when the seeds are the same), so the games add up to the number of games played.")
+    # each game once: the favorite's row, or for a pick'em the better seed's (then the alphabetically first team)
+    def counted(r):
+        s = spread(r)
+        return s is not None and (s < 0 or (s == 0 and (r[4], r[3]) < (r[6], r[5])))
+    sel = [r + [spread(r)] for r in games if y0 <= r[0] <= y1 and counted(r)]
     key = len(sel[0]) - 1 if sel else 0                  # the spread these rows are sorted by, added at the end
     cols = ORDER + ["All rounds"]
     H = 5
@@ -466,17 +471,20 @@ def sheet_c(wb, split, y0, y1, games, page="C", spread=lambda r: r[7], label="Cl
         ws.row_dimensions[n].height = 22
     last = H + len(TABLE_BUCKETS)
     t = last + 1
-    # every row above pick'em added up: how the favorites did (the rows below are the same games from the underdog's side)
+    # every row above pick'em added up (how the favorites did), then every game (the pick'em games too)
     favorites = [row for row, (_, lo, hi) in zip(grid, TABLE_BUCKETS) if hi < 0]
-    ws.cell(row=t, column=1, value="All favorites").font = font(bold=True, size=10)
-    for k in range(len(cols)):
-        wins = sum(sum(r[8] == "W" for r in row[k]) for row in favorites)
-        games = sum(len(row[k]) for row in favorites)
-        for d, v in ((0, wins / games if games else "–"), (1, f"{wins}-{games - wins}" if games else "–"), (2, games)):
-            c = ws.cell(row=t, column=2 + S * k + d, value=v)
-            c.font, c.alignment = font(bold=True, size=10), Alignment(horizontal="center")
-            if d == 0: c.number_format = "0.0%"
-            if d < 2 and games: c.fill = shade(wins / games, 0, 0.5, 1)
+    for n, (name, rows) in enumerate((("All favorites", favorites), ("All games", grid))):
+        ws.cell(row=t + n, column=1, value=name).font = font(bold=True, size=10)
+        for k in range(len(cols)):
+            wins = sum(sum(r[8] == "W" for r in row[k]) for row in rows)
+            games = sum(len(row[k]) for row in rows)
+            values = ((0, wins / games if games else "–"), (1, f"{wins}-{games - wins}" if games else "–"), (2, games)) if n == 0 else ((2, games),)
+            for d, v in values:
+                c = ws.cell(row=t + n, column=2 + S * k + d, value=v)
+                c.font, c.alignment = font(bold=True, size=10), Alignment(horizontal="center")
+                if d == 0: c.number_format = "0.0%"
+                if d < 2 and games: c.fill = shade(wins / games, 0, 0.5, 1)
+    t += 1
     ws.column_dimensions["A"].width = 16
     for j in range(2, width + 1):
         ws.column_dimensions[get_column_letter(j)].width = (8, 9, 7)[(j - 2) % S]
@@ -488,7 +496,8 @@ def readme(wb, n_games, n_teams):
     ws = wb.active
     ws.title = "Read me"
     lines = [("NCAA tournament workbook, 2010–2026", True),
-             (f"{n_games} games (First Four included; no 2020 tournament), each listed twice, and {n_teams} team seasons.", False),
+             (f"{n_games} games (First Four included; no 2020 tournament): listed from both sides on the A pages, once each on the C and D "
+              f"pages; and {n_teams} team seasons.", False),
              ("", False),
              ("A Games — every game from both sides, with the team's closing spread and its PMPM (point margin per minute) for minutes 1–40 and any overtime.", False),
              ("A Upsets by seed — the 169 seed upsets (winner seeded 4+ lines worse), grouped by the beaten higher seed.", False),
