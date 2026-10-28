@@ -4508,7 +4508,8 @@ function tsRows(data) {
 }
 function tsResults(run) {
   ts.ran = { games: run.games, when: run.when, seconds: run.seconds };
-  run.results.forEach((r, i) => { if (r && ts.rows[i]) Object.assign(ts.rows[i], { sim: r[0], win: r[1] }); });
+  // the simulator's spread is rounded to the nearest half point, the way a real line is quoted (35.1 -> 35, 35.3 -> 35.5)
+  run.results.forEach((r, i) => { if (r && ts.rows[i]) Object.assign(ts.rows[i], { sim: Math.round(r[0] * 2) / 2, win: r[1] }); });
 }
 function runTourney() {
   if (ts.job) return;
@@ -4638,7 +4639,7 @@ function drawTourneySpreads() {
         `<td><b>${tsNum(Math.abs(r.sim - r.market), 1)}</b></td><td>${tsSigned(r.sim - r.market, 1)}</td>` +
         `<td class="l">${esc(r.actual > 0 ? r.team : r.opp)} by ${Math.abs(r.actual)}</td><td>${(100 * r.win).toFixed(0)}%</td><td class="out">${esc(out.join(', ')) || '–'}</td></tr>`;
     }).join('') + `</tbody></table></div>` +
-    `<p class="wo-note" style="padding:12px 4px 0">Distance is how far the simulator’s spread (its average margin over ${ts.ran.games.toLocaleString()} games) is from BetIQ’s closing spread. ` +
+    `<p class="wo-note" style="padding:12px 4px 0">Distance is how far the simulator’s spread (its average margin over ${ts.ran.games.toLocaleString()} games, rounded to the nearest half point) is from BetIQ’s closing spread. ` +
     `Sim − line and Sim win % are from the first team’s side. Lean is from the closing favorite’s side. Useful players out: players averaging ${USEFUL_MINUTES}+ minutes who did not play in the game.</p></div>`;
   body.innerHTML = html;
 }
