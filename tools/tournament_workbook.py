@@ -121,35 +121,130 @@ def title(ws, text, note):
     ws["A2"].font = font(size=9, italic=True)
     ws.row_dimensions[1].height = 16.5
 
-def sheet_a(wb, rows):
-    ws = wb.create_sheet("A Games")
-    title(ws, "Every NCAA tournament game from both sides, 2010–2026",
-          "Each game is two rows next to each other: the winner vs the loser, then the loser vs the winner. Closing spread from that team's side "
+A_NOTE = ("Each game is two rows next to each other: the winner vs the loser, then the loser vs the winner. Closing spread from that team's side "
           "(minus = favorite; BetIQ). PMPM (point margin per minute): the team's point margin at the end of each minute (plus = ahead), shaded grey "
-          "(behind) to peach (ahead); overtime games carry on through each 5-minute overtime (blank if no overtime). First Four included.")
+          "(behind) to peach (ahead); overtime games carry on through each 5-minute overtime (blank if no overtime).")
+
+def sheet_a(wb, sections, name="A Games", heading="Every NCAA tournament game from both sides, 2010–2026",
+            note=A_NOTE + " First Four included."):
+    """sections: [(label or None, game rows)]; a label gets its own bold row above its games."""
+    ws = wb.create_sheet(name)
+    title(ws, heading, note)
     head = ["Year", "Date", "Round", "Team", "Seed", "Opponent", "Opp seed", "Closing spread", "Result", "Score", "Final margin", "OT",
             *MINUTE_HEADS]
     H = 4
     header(ws, H, head, 45)
     small, center = font(size=10), Alignment(horizontal="center")
     pair_line = Side(style="thin", color="8A8F98")
-    for i, r in enumerate(rows):
-        n = H + 1 + i
-        for j, v in enumerate(r, 1):
-            c = ws.cell(row=n, column=j, value=v)
-            c.font = small
-            if j == 8: c.number_format = '+0.0;−0.0;0.0'
-            if j == 11 or j > 12:
-                c.number_format = '+0;−0;0'
-                if j > 12 and v is not None: c.fill = shade(v, -20, 0, 20)
-            if j not in (2, 4, 6): c.alignment = center
-            if i % 2: c.border = Border(bottom=pair_line)          # a line under each game's pair of rows
-    last = H + len(rows)
+    n = H
+    for label, rows in sections:
+        if label:
+            n += 1
+            c = ws.cell(row=n, column=1, value=label)
+            c.font = font(bold=True, size=11)
+            ws.row_dimensions[n].height = 21
+        for i, r in enumerate(rows):
+            n += 1
+            for j, v in enumerate(r, 1):
+                c = ws.cell(row=n, column=j, value=v)
+                c.font = small
+                if j == 8: c.number_format = '+0.0;−0.0;0.0'
+                if j == 11 or j > 12:
+                    c.number_format = '+0;−0;0'
+                    if j > 12 and v is not None: c.fill = shade(v, -20, 0, 20)
+                if j not in (2, 4, 6): c.alignment = center
+                if i % 2: c.border = Border(bottom=pair_line)          # a line under each game's pair of rows
+    last = n
     for j, w in enumerate([7, 11, 13, 18, 6, 18, 7, 9, 7, 8, 8, 5], 1):
         ws.column_dimensions[get_column_letter(j)].width = w
     for j in range(13, len(head) + 1):
         ws.column_dimensions[get_column_letter(j)].width = 6 if j < 53 else 8
     ws.freeze_panes = f"E{H + 1}"
+    ws.auto_filter.ref = f"A{H}:{get_column_letter(len(head))}{last}"
+
+SPREAD_UPSET = 5                 # a spread upset: the winner was a closing underdog of this many points or more
+
+def seed_upsets():
+    """(year, team) of the 169 higher seeds beaten by a team 4+ seed lines worse (reports/pdem_seed_gap_4plus.csv)."""
+    return {(int(g["date"][:4]), g["higher_team"]) for g in csv.DictReader(open(os.path.join(REPORTS, "pdem_seed_gap_4plus.csv"), encoding="utf-8"))
+            if g["lower_won"] == "yes"}
+
+game_pairs = lambda games: [games[i:i + 2] for i in range(0, len(games), 2)]   # [winner's row, loser's row]
+spread_upsets = lambda games: [p for p in game_pairs(games) if p[0][7] >= SPREAD_UPSET]
+
+def sheet_a_seed_upsets(wb, games):
+    upset = seed_upsets()
+    picked = [p for p in game_pairs(games) if (p[1][0], p[1][3]) in upset and p[0][4] - p[1][4] >= 4]
+    assert len(picked) == len(upset), (len(picked), len(upset))
+    sections = []
+    for s in sorted({p[1][4] for p in picked}):
+        mine = [p for p in picked if p[1][4] == s]
+        sections.append((f"{s} seeds upset — {len(mine)} game{'s' * (len(mine) != 1)}", [r for p in mine for r in p]))
+    sheet_a(wb, sections, "A Upsets by seed", f"The {len(picked)} seed upsets, grouped by the beaten higher seed",
+            "Games a team seeded 4+ lines worse won (the 169 teams in upset_high_seeds.xlsx and on B Upset teams vs seed). " + A_NOTE)
+
+def sheet_a_spread_upsets(wb, games):
+    picked = spread_upsets(games)
+    sections = []
+    for label, lo, hi in BUCKETS:
+        if lo < SPREAD_UPSET: continue
+        mine = [p for p in picked if lo <= p[0][7] <= hi]
+        if mine:
+            sections.append((f"Underdog {label} won — {len(mine)} game{'s' * (len(mine) != 1)}", [r for p in mine for r in p]))
+    sheet_a(wb, sections, "A Spread upsets", f"The {len(picked)} spread upsets: the winner was a +{SPREAD_UPSET} or bigger closing underdog",
+            f"Every game the closing underdog won when it was getting {SPREAD_UPSET}+ points, grouped by its spread; First Four included. " + A_NOTE)
+
+def sheet_b_spread_upsets(wb, games, teams):
+    """The favorites beaten in the spread upsets, with B's November columns."""
+    ws = wb.create_sheet("B Spread upsets")
+    by_team = {(r[0], r[3]): r for r in teams}
+    picked = sorted(spread_upsets(games), key=lambda p: (p[1][7], p[0][0], p[0][1]))      # biggest favorite first
+    title(ws, f"The {len(picked)} favorites beaten as {SPREAD_UPSET}+ point closing favorites",
+          f"Each team lost a tournament game it was favored in by {SPREAD_UPSET} or more points at the close (BetIQ); First Four included. "
+          "November = the team's games in November of that season; top 40 = that season's pre-tournament top 40. "
+          "Filter on Era or Half; counts for each split are under the table.")
+    key = [("Key:", None), ("2+ November losses", YELLOW), ("No November games vs top 40 (not battle tested)", ORANGE), ("Both", RED)]
+    for i, (text, fill) in enumerate(key):
+        c = ws.cell(row=3, column=1 + i * 2, value=text)
+        c.font = font(size=9, bold=fill is None)
+        if fill: c.fill = PatternFill("solid", fgColor=fill)
+    head = ["Year", "Round lost", "Seed", "Team (beaten favorite)", "Closing spread", "Beaten by", "Opp seed", "Score", "Era", "Half",
+            "Tourney record", "November record", "November record vs top 40", "Nov top-40 games"]
+    H = 5
+    header(ws, H, head, 48.75)
+    rows = []
+    for w, l in picked:
+        t = by_team[(l[0], l[3])]
+        rows.append(t)
+        colour = flag(t[7], t[8] + t[9])
+        fill = PatternFill("solid", fgColor=colour) if colour else None
+        n = H + len(rows)
+        for j, v in enumerate([l[0], l[2], l[4], l[3], l[7], w[3], w[4], l[9], era(l[0]), half(l[0]), f"{t[4]}-{t[5]}",
+                               f"{t[6]}-{t[7]}", f"{t[8]}-{t[9]}", t[8] + t[9]], 1):
+            c = ws.cell(row=n, column=j, value=v)
+            c.font = font(size=10)
+            c.border = Border(bottom=thin)
+            c.alignment = Alignment(horizontal="left" if j in (2, 4, 6, 9, 10) else "center")
+            if j == 5: c.number_format = '+0.0;−0.0;0.0'
+            if fill: c.fill = fill
+    last = H + len(rows)
+    t2 = last + 2
+    header(ws, t2, ["Highlighted teams", "Teams", "2+ November losses", "No November games vs top 40", "Both", "", "", "", "", "", "", "", "", ""], 33)
+    for k, (split, y0, y1) in enumerate(SPLITS):
+        n = t2 + 1 + k
+        sel = [r for r in rows if y0 <= r[0] <= y1]
+        counts = [len(sel), sum(r[7] >= 2 for r in sel), sum(r[8] + r[9] == 0 for r in sel), sum(r[7] >= 2 and r[8] + r[9] == 0 for r in sel)]
+        for j, v in enumerate([f"{split} ({y0}–{y1})"] + counts, 1):
+            c = ws.cell(row=n, column=j, value=v)
+            c.font = font(size=10, bold=j == 1)
+            c.border = Border(bottom=thin)
+            c.alignment = Alignment(horizontal="left" if j == 1 else "center")
+    ws.cell(row=t2 + len(SPLITS) + 1, column=1,
+            value="The 2+ losses and no-top-40 counts each include the teams in Both.").font = font(size=9, italic=True)
+    ws.column_dimensions["A"].width = 24
+    for j, w in enumerate([16, 8, 22, 10, 18, 8, 9, 10, 12, 11, 13, 15.3, 13.6], 2):
+        ws.column_dimensions[get_column_letter(j)].width = w
+    ws.freeze_panes = f"A{H + 1}"
     ws.auto_filter.ref = f"A{H}:{get_column_letter(len(head))}{last}"
 
 def sheet_b(wb, rows):
@@ -221,8 +316,7 @@ def sheet_b_upsets(wb, teams):
     2.19-0.94). The non-upset teams are every other B team at the seed that reached the round of 64 (First Four losers
     left out)."""
     ws = wb.create_sheet("B Upset teams vs seed")
-    upset = {(int(g["date"][:4]), g["higher_team"]) for g in csv.DictReader(open(os.path.join(REPORTS, "pdem_seed_gap_4plus.csv"), encoding="utf-8"))
-             if g["lower_won"] == "yes"}
+    upset = seed_upsets()
     by_seed = {}
     for r in teams:
         if r[1] != "First Four": by_seed.setdefault(r[2], []).append(r)
@@ -374,8 +468,12 @@ def readme(wb, n_games, n_teams):
              (f"{n_games} games (First Four included; no 2020 tournament), each listed twice, and {n_teams} team seasons.", False),
              ("", False),
              ("A Games — every game from both sides, with the team's closing spread and its PMPM (point margin per minute) for minutes 1–40 and any overtime.", False),
+             ("A Upsets by seed — the 169 seed upsets (winner seeded 4+ lines worse), grouped by the beaten higher seed.", False),
+             (f"A Spread upsets — every game a +{SPREAD_UPSET} or bigger closing underdog won, grouped by its spread.", False),
              ("B Teams — every tournament team: seed, exit round, November record and November record vs the top 40.", False),
              ("    Filter on Era (Pre-NIL / Post-NIL) or Half (First half / Second half); totals for each split are under the table.", False),
+             ("B Upset teams vs seed — the 169 upset higher seeds against the teams at their seed that were not upset.", False),
+             (f"B Spread upsets — the favorites beaten as {SPREAD_UPSET}+ point closing favorites, with their November records.", False),
              ("C pages — win % and games by closing spread and round, all shaded, one page per split:", False),
              ("    All years · Pre-NIL (2010–2021) · Post-NIL (2022–2026; NIL began July 2021) · "
               f"First half (2010–{HALF - 1}) · Second half ({HALF}–2026)", False),
@@ -393,9 +491,12 @@ def main():
     teams = team_rows(games)
     wb = Workbook()
     readme(wb, len(games) // 2, len(teams))
-    sheet_a(wb, games)
+    sheet_a(wb, [(None, games)])
+    sheet_a_seed_upsets(wb, games)
+    sheet_a_spread_upsets(wb, games)
     sheet_b(wb, teams)
     sheet_b_upsets(wb, teams)
+    sheet_b_spread_upsets(wb, games, teams)
     for split, y0, y1 in SPLITS:
         sheet_c(wb, split, y0, y1, games)
     path = os.path.join(REPORTS, "tournament_workbook.xlsx")
