@@ -4407,7 +4407,7 @@ window.addEventListener('resize', () => { clearTimeout(scResize); scResize = set
 // First Four, and so on, so each round's games count in the next. Only this season's games count (nothing carried over
 // from the season before), and only the players who really played in the game take the floor. Every margin is from the
 // first team's side (the team the schedule lists as home).
-const TS_SIMS = 10000;
+const TS_SIMS = 100000;
 const USEFUL_MINUTES = 10;      // a player averaging this many minutes is "useful": his absences are the ones listed
 const INJURY_STEADY_MINUTES = 200;
 const ts = { data: null, rows: null, request: null, job: null, ran: null, status: '', season: 'all', round: 'all', sort: 'date' };
@@ -4501,7 +4501,7 @@ function tsRows(data) {
       ({ i, season, date, round, team, opp, teamSeed, oppSeed, market, actual, out: [data.inputs.live[i][1][2], data.inputs.live[i][2][2]], sim: null, win: null }));
     try {      // the last run in this browser, if it was for this build of the data
       const saved = JSON.parse(localStorage.getItem('strongside-tourney-run') || 'null');
-      if (saved && saved.built === data.built) tsResults(saved);
+      if (saved && saved.built === data.built && saved.games === TS_SIMS) tsResults(saved);
     } catch (e) {}
   }
   return ts.rows;
