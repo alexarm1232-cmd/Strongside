@@ -54,12 +54,9 @@ def one_season(code, mode):
     Spreadstat.PROGRAM_GAMES = 0
     Spreadstat.load_last_season = lambda paths: ({}, 0.0)
     Spreadstat.FREEZE_FROM = first_day if mode == "pre" else None
-    # Tested on every tournament game 2010-2026 against the closing lines and the final scores (each season judged
-    # with settings chosen without it): damping blowouts a little less than the dashboard does and letting older games
-    # count for less brought the ratings' spreads from 1.51 to 1.44 points off the closing line, and their misses on
-    # the final margin from 9.07 to 9.04 points.
-    Spreadstat.RATING_LOPSIDED = 30
-    Spreadstat.RATING_HALF_LIFE = 180
+    # Every game of the season counts the same: a blowout is not damped the way the dashboard's ratings damp it, and an
+    # old game counts as much as a recent one.
+    Spreadstat.RATING_LOPSIDED = float("inf")
     Spreadstat.REPORT_FILE = os.path.join(PARTS_FOLDER, f"{code}_{mode}.js")
 
     def load_market(games, folders):
