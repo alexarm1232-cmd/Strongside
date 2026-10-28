@@ -466,12 +466,17 @@ def sheet_c(wb, split, y0, y1, games, page="C", spread=lambda r: r[7], label="Cl
         ws.row_dimensions[n].height = 22
     last = H + len(TABLE_BUCKETS)
     t = last + 1
-    ws.cell(row=t, column=1, value="All spreads").font = font(bold=True, size=10)
+    # every row above pick'em added up: how the favorites did (the rows below are the same games from the underdog's side)
+    favorites = [row for row, (_, lo, hi) in zip(grid, TABLE_BUCKETS) if hi < 0]
+    ws.cell(row=t, column=1, value="All favorites").font = font(bold=True, size=10)
     for k in range(len(cols)):
-        for d, v in ((1, f"{sum(sum(r[8] == 'W' for r in row[k]) for row in grid)}-{sum(sum(r[8] == 'L' for r in row[k]) for row in grid)}"),
-                     (2, sum(len(row[k]) for row in grid))):
+        wins = sum(sum(r[8] == "W" for r in row[k]) for row in favorites)
+        games = sum(len(row[k]) for row in favorites)
+        for d, v in ((0, wins / games if games else "–"), (1, f"{wins}-{games - wins}" if games else "–"), (2, games)):
             c = ws.cell(row=t, column=2 + S * k + d, value=v)
             c.font, c.alignment = font(bold=True, size=10), Alignment(horizontal="center")
+            if d == 0: c.number_format = "0.0%"
+            if d < 2 and games: c.fill = shade(wins / games, 0, 0.5, 1)
     ws.column_dimensions["A"].width = 16
     for j in range(2, width + 1):
         ws.column_dimensions[get_column_letter(j)].width = (8, 9, 7)[(j - 2) % S]
