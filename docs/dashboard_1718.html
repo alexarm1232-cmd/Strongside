@@ -301,6 +301,21 @@
 
   /* ---------- Stat guide ---------- */
   #guide-view { display: none; padding-bottom: 40px; }
+  /* ---------- Tourney spreads ---------- */
+  #tspread-view { display: none; padding-bottom: 40px; }
+  body.tspread-mode #tspread-view { display: block; }
+  body.tspread-mode .list-only, body.tspread-mode .controls, body.tspread-mode #team-view { display: none !important; }
+  .ts-filters { display: flex; flex-wrap: wrap; align-items: center; gap: 12px; margin: 18px 0 2px; }
+  .ts-table { width: 100%; border-collapse: collapse; font-size: 14px; }
+  .ts-table th, .ts-table td { padding: 7px 10px; border-bottom: 1px solid var(--line); text-align: right; white-space: nowrap; }
+  .ts-table th { font-size: 12px; font-weight: 700; letter-spacing: .04em; text-transform: uppercase; color: var(--muted); }
+  .ts-table th button { all: unset; cursor: pointer; }
+  .ts-table th button[aria-pressed="true"] { color: var(--ink); text-decoration: underline; }
+  .ts-table .l { text-align: left; }
+  .ts-table td small { color: var(--muted); font-weight: 400; }
+  .ts-table td.out { white-space: normal; min-width: 180px; color: var(--muted); font-size: 12.5px; text-align: left; }
+  .ts-pair { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 16px; }
+  @media (max-width: 900px) { .ts-pair { grid-template-columns: 1fr; } }
   body.guide-mode #guide-view { display: block; }
   body.guide-mode .list-only, body.guide-mode .controls, body.guide-mode #team-view { display: none !important; }
   .gd-jump { display: flex; flex-wrap: wrap; gap: 8px; margin: 16px 0 4px; }
@@ -687,6 +702,7 @@
         <a href="#bracket" data-page="bracket">Tournament sim</a>
         <a href="#picker" data-page="picker">Champion picker</a>
         <a href="upsets.html">Tournament upsets</a>
+        <a href="#tspreads" data-page="tspreads">Tourney spreads</a>
         <a href="#guide" data-page="guide">Stat guide</a>
       </nav>
     </div>
@@ -759,6 +775,7 @@
   <div id="picker-view"></div>
   <div id="sim-view"></div>
   <div id="bracket-view"></div>
+  <div id="tspread-view"></div>
   <div id="guide-view"></div>
 
   <div class="legend list-only">
@@ -4531,13 +4548,266 @@ function renderPicker() {
 $('picker-view').addEventListener('change', e => { if (e.target.id === 'pk-show') { pkShow = e.target.value; renderPicker(); } });
 $('bracket-view').addEventListener('change', e => { if (e.target.id === 'bk-pickonly') { bracket.pickOnly = e.target.checked; } });
 
+// ---------- tourney spreads ----------
+// Every NCAA tournament game 2010-2026 (First Four included), played in the simulator as the two teams stood that
+// morning, and its spread set beside BetIQ's closing spread. tourneyreport.js (built by dashboard\Tourneystat.py) holds
+// each game's inputs: a First Four game from everything through Selection Sunday, a round-of-64 game from that plus the
+// First Four, and so on, so each round's games count in the next. Only this season's games count (nothing carried over
+// from the season before), and only the players who really played in the game take the floor. Every margin is from the
+// first team's side (the team the schedule lists as home).
+const TS_SIMS = 10000;
+const USEFUL_MINUTES = 10;      // a player averaging this many minutes is "useful": his absences are the ones listed
+const INJURY_STEADY_MINUTES = 200;
+const ts = { data: null, rows: null, request: null, job: null, ran: null, status: '', season: 'all', round: 'all', sort: 'date' };
+const TS_ROUNDS = ['First Four', 'First round', 'Second round', 'Sweet 16', 'Elite Eight', 'Final Four', 'Championship'];
+const TS_ROUND_NAMES = { 'First round': 'Round of 64', 'Second round': 'Round of 32' };
+function loadTourney() {
+  if (window.TOURNEY) return Promise.resolve(window.TOURNEY);
+  if (!ts.request) ts.request = new Promise((resolve, reject) => {
+    const tag = document.createElement('script');
+    tag.src = 'tourneyreport.js';
+    tag.onload = () => window.TOURNEY ? resolve(window.TOURNEY) : reject();
+    tag.onerror = reject;
+    document.head.appendChild(tag);
+  });
+  return ts.request;
+}
+// The league averages on the day, in the shape the simulator's matchup code expects
+function pitLeague(l) {
+  const attempts = l.slice(5, 10), made = l.slice(10, 15), total = attempts.reduce((a, b) => a + b, 0) || 1;
+  return { avg: l[0], t: l[1], tov: l[2], orb: l[3], ftr: l[4], share: attempts.map(v => v / total || 0.2), pct: attempts.map((v, i) => v ? made[i] / v : 0.4),
+           ft: l[15] ? l[16] / l[15] : 0.71, ast: l[18] ? l[17] / l[18] : 0.5 };
+}
+// One team as it stood before the game, for the simulator. block: [team numbers, player rows, names of the useful
+// players who sat] (the column lists are in Spreadstat.py). Only the players who played in the real game play: their
+// usual minutes are stretched to fill the 200, and the team's rating moves by what that change in who is on the floor
+// is worth, from each player's box plus/minus at the time (half to the offense, half to the defense).
+function pitUnit(block) {
+  const L = SIM_LEAGUE, T = block[0], games = T[10] || 1, five = [0, 1, 2, 3, 4];
+  const leagueZ = L.share.map((share, i) => [1000 * share, 1000 * share * L.pct[i]]);
+  let zo = five.map(i => [T[12 + i], T[17 + i]]), zd = five.map(i => [T[22 + i], T[27 + i]]);
+  if (sumOf(zo.map(z => z[0])) < 1) zo = leagueZ;
+  if (sumOf(zd.map(z => z[0])) < 1) zd = leagueZ;
+  const attO = sumOf(zo.map(z => z[0])), attD = sumOf(zd.map(z => z[0]));
+  const teamPct = zo.map((z, i) => (z[1] + 20 * L.pct[i]) / (z[0] + 20));
+  const ftTeam = T[32] ? T[33] / T[32] : L.ft;
+  const all = block[1].map(p => {
+    const share = p[1] / (T[11] / 5), usual = Math.max(0.05, share * 40), sits = !p[20];
+    return { p, share, usual, sits, min: sits ? 0 : usual };
+  });
+  // a box plus/minus built on few minutes is mostly noise, so each is pulled toward the team's average player
+  const typical = sumOf(all.map(x => x.share * x.p[2])) / (sumOf(all.map(x => x.share)) || 1);
+  for (const x of all) x.worth = typical + (x.p[2] - typical) * x.p[1] / (x.p[1] + INJURY_STEADY_MINUTES);
+  for (let pass = 0; pass < 8; pass++) {      // five players on the floor for all 40 minutes, nobody over 40
+    const total = sumOf(all.map(x => x.min)) || 1;
+    for (const x of all) x.min = Math.min(40, x.min * 200 / total);
+  }
+  const shares = sumOf(all.map(x => x.share)) || 5;
+  const delta = sumOf(all.map(x => x.min / 40 * x.worth)) - sumOf(all.map(x => x.share * x.worth)) * 5 / shares;
+  const players = all.filter(x => x.min >= 0.25).map(x => {
+    const m = Math.min(10, x.min / x.usual), z = five.map(i => [x.p[3 + i], x.p[8 + i]]);
+    return { row: x.p, min: x.min, m, w: z.map(v => v[0] * m + 0.01), pct: z.map((v, i) => (v[1] + 15 * teamPct[i]) / (v[0] + 15)) };
+  }).sort((x, y) => y.min - x.min);
+  const weights = get => { const w = Float64Array.from(players, get); return [w, sumOf(Array.from(w))]; };
+  const unit = { o: T[0] + delta / 2, d: T[1] - delta / 2, tempo: T[2], style: T[3], delta,
+    players, count: players.length, tov: T[4], orb: T[5], ftr: T[6], dtov: T[7], dorb: T[8], dftr: T[9],
+    zs: zo.map(z => z[0] / attO), dzs: zd.map(z => z[0] / attD), dpct: zd.map((z, i) => (z[1] + 40 * L.pct[i]) / (z[0] + 40)),
+    ft: Float64Array.from(players, x => (x.row[14] + 10 * ftTeam) / (x.row[13] + 10)), astBase: T[35] ? T[34] / T[35] : L.ast };
+  [unit.ftW] = weights(x => x.row[13] * x.m + 0.01);
+  [unit.rebW, unit.rebT] = weights(x => x.row[15] * x.m + 0.01);
+  [unit.astW, unit.astT] = weights(x => x.row[16] * x.m + 0.01);
+  [unit.toW, unit.toT] = weights(x => x.row[17] * x.m + 0.01);
+  [unit.stlW, unit.stlT] = weights(x => x.row[18] * x.m + 0.01);
+  [unit.blkW, unit.blkT] = weights(x => x.row[19] * x.m + 0.01);
+  const missedTwos = (zd[0][0] - zd[0][1] + zd[1][0] - zd[1][1] + zd[2][0] - zd[2][1]) / games;
+  unit.blkRate = between(missedTwos ? unit.blkT / games / missedTwos : 0.1, 0.01, 0.35);
+  unit.stlShare = between(unit.stlT / games / ((T[7] / 100) * T[2] || 1), 0.2, 0.85);
+  return unit;
+}
+// Plays one tournament game `games` times on a neutral floor. A.style: the points per 100 possessions A's offense should
+// score against B from play types alone; who is missing moves it by what those players were worth.
+function pitGame({ league, a, b, games }) {
+  SIM_LEAGUE = pitLeague(league);
+  const A = pitUnit(a), B = pitUnit(b);
+  const matchups = [simMatchup(A, B, (A.style + (A.delta - B.delta) / 2) / 100), simMatchup(B, A, (B.style + (B.delta - A.delta) / 2) / 100)];
+  const pace = A.tempo + B.tempo - SIM_LEAGUE.t, acc = simAcc([A.count, B.count]);
+  simPlay(acc, [simSide(A, matchups[0]), simSide(B, matchups[1])], pace, games, -1);
+  const t = acc.tally, mean = (t[4] + t[5]) / t[0];
+  return { mean, win: t[1] / t[0] };
+}
+const tsWorkerSource = () => [
+  `let SIM_LEAGUE = null;`,
+  `const SIM_STATS = ${SIM_STATS}, ZONE_POINTS = ${JSON.stringify(ZONE_POINTS)}, ASSIST_BY_ZONE = ${JSON.stringify(ASSIST_BY_ZONE)}, SCORE_EFFECT = ${SCORE_EFFECT}, INJURY_STEADY_MINUTES = ${INJURY_STEADY_MINUTES};`,
+  `const between = ${between.toString()};`, `const sumOf = ${sumOf.toString()};`,
+  gauss, pickIndex, simSide, simTipoff, simPossession, simAcc, simPlay, simMatchup, pitLeague, pitUnit, pitGame,
+  `onmessage = e => { const result = pitGame(e.data); result.i = e.data.i; postMessage(result); };`].map(String).join('\n');
+
+function tsRows(data) {
+  if (!ts.rows) {
+    ts.data = data;
+    ts.rows = data.games.map(([season, date, round, team, opp, teamSeed, oppSeed, market, actual], i) =>
+      ({ i, season, date, round, team, opp, teamSeed, oppSeed, market, actual, out: [data.inputs.live[i][1][2], data.inputs.live[i][2][2]], sim: null, win: null }));
+    try {      // the last run in this browser, if it was for this build of the data
+      const saved = JSON.parse(localStorage.getItem('strongside-tourney-run') || 'null');
+      if (saved && saved.built === data.built) tsResults(saved);
+    } catch (e) {}
+  }
+  return ts.rows;
+}
+function tsResults(run) {
+  ts.ran = { games: run.games, when: run.when, seconds: run.seconds };
+  run.results.forEach((r, i) => { if (r && ts.rows[i]) Object.assign(ts.rows[i], { sim: r[0], win: r[1] }); });
+}
+function runTourney() {
+  if (ts.job) return;
+  loadTourney().then(data => {
+    const rows = tsRows(data), total = rows.length, games = TS_SIMS;
+    const job = ts.job = { total, done: 0, next: 0, results: new Array(total).fill(null), workers: [], started: performance.now(), drawn: 0 };
+    const finish = () => {
+      for (const worker of job.workers) worker.terminate();
+      ts.job = null;
+      const run = { built: data.built, games, when: new Date().toLocaleString(), seconds: (performance.now() - job.started) / 1000,
+                    results: job.results.map(r => r && [+r.mean.toFixed(3), +r.win.toFixed(4)]) };
+      tsResults(run);
+      try { localStorage.setItem('strongside-tourney-run', JSON.stringify(run)); } catch (e) {}
+      renderTourneySpreads();
+    };
+    const give = worker => {
+      if (job.next >= total) return;
+      const i = job.next++, [league, a, b] = data.inputs.live[i];
+      worker.postMessage({ i, league: data.leagues[league], a, b, games });
+    };
+    const progress = () => {
+      const seconds = (performance.now() - job.started) / 1000, left = (total - job.done) * seconds / Math.max(1, job.done);
+      const bar = $('ts-progress'), text = $('ts-status');
+      if (bar) bar.style.width = (100 * job.done / total).toFixed(1) + '%';
+      if (text) text.textContent = `${job.done.toLocaleString()} of ${total.toLocaleString()} games played ${games.toLocaleString()} times each` + (job.done ? ` · about ${simTime(left)} left` : ' · starting…');
+    };
+    try {
+      const url = URL.createObjectURL(new Blob([tsWorkerSource()], { type: 'text/javascript' }));
+      const cores = Math.max(1, Math.min((navigator.hardwareConcurrency || 4) - 1, 16, total));
+      for (let w = 0; w < cores; w++) {
+        const worker = new Worker(url);
+        worker.onmessage = e => {
+          if (ts.job !== job) return;
+          job.results[e.data.i] = e.data;
+          if (++job.done >= total) { finish(); return; }
+          if (performance.now() - job.drawn > 300) { job.drawn = performance.now(); progress(); }
+          give(worker);
+        };
+        worker.onerror = () => { if (ts.job === job) { for (const x of job.workers) x.terminate(); ts.job = null; ts.status = 'A background worker failed, so the run was stopped.'; renderTourneySpreads(); } };
+        job.workers.push(worker);
+        give(worker);
+      }
+    } catch (error) {
+      ts.job = null;
+      ts.status = 'This browser would not start the background workers the run needs.';
+    }
+    renderTourneySpreads();
+    progress();
+  }).catch(() => { ts.status = 'missing'; renderTourneySpreads(); });
+}
+
+const tsNum = (v, d = 1) => isFinite(v) ? v.toFixed(d).replace('-', '−') : '–';
+const tsSigned = (v, d = 1) => isFinite(v) ? (v > 0 ? '+' : '') + tsNum(v, d) : '–';
+// a first-team margin written as a betting line: "Duke −6.5"
+const tsLine = (r, margin) => Math.abs(margin) < 0.05 ? 'Pick’em' : `${esc(margin > 0 ? r.team : r.opp)} −${Math.abs(margin).toFixed(1)}`;
+const tsMean = list => list.length ? list.reduce((a, b) => a + b, 0) / list.length : NaN;
+function tsSummary(rows) {
+  const dist = rows.map(r => Math.abs(r.sim - r.market));
+  const sorted = [...dist].sort((a, b) => a - b), mid = sorted.length / 2;
+  const picked = (pred, r) => r.actual !== 0 && Math.sign(pred) === Math.sign(r.actual);
+  return { n: rows.length, dist: tsMean(dist), median: sorted.length ? (sorted[Math.floor(mid - 0.5)] + sorted[Math.ceil(mid - 0.5)]) / 2 : NaN,
+           bias: tsMean(rows.map(r => Math.abs(r.market) < 0.05 ? 0 : (r.sim - r.market) * Math.sign(r.market))),
+           within: k => dist.filter(v => v <= k).length / (dist.length || 1),
+           missSim: tsMean(rows.map(r => Math.abs(r.sim - r.actual))), missMarket: tsMean(rows.map(r => Math.abs(r.market - r.actual))),
+           pickSim: tsMean(rows.map(r => picked(r.sim, r) ? 1 : 0)), pickMarket: tsMean(rows.filter(r => Math.abs(r.market) >= 0.05).map(r => picked(r.market, r) ? 1 : 0)) };
+}
+function renderTourneySpreads() {
+  const view = $('tspread-view');
+  view.innerHTML = `<h2 class="gs-title">Tourney spreads<span>Every NCAA tournament game since 2010, played ${TS_SIMS.toLocaleString()} times in the simulator as the two teams stood that day, and set beside the closing spread.</span></h2>` +
+    `<div class="card tp-card" id="ts-run"><div class="empty">Loading the tournament games…</div></div><div id="ts-body"></div>`;
+  if (ts.status === 'missing') {
+    $('ts-run').innerHTML = `<div class="empty">The tournament file is not there yet. Build it with <b>python dashboard\\Tourneystat.py</b>, then reload this page.</div>`;
+    return;
+  }
+  loadTourney().then(data => {
+    const rows = tsRows(data), job = ts.job;
+    $('ts-run').innerHTML = `<div class="gs-run" style="border-top:0;margin-top:0">` +
+      (job ? `<button class="btn" disabled>Running…</button>` : `<button class="btn" id="ts-go">${ts.ran ? 'Run them again' : 'Run every game'}</button>`) +
+      `<span class="hint" id="ts-status">${esc(ts.status)}</span></div>` +
+      (job ? `<div class="gs-bar" style="height:10px;margin-top:0"><i class="a" id="ts-progress" style="width:0%"></i></div>` : '') +
+      `<div class="wo-note">` + (ts.ran && !job
+        ? `Last run: ${rows.length.toLocaleString()} games, each played ${ts.ran.games.toLocaleString()} times, in ${simTime(ts.ran.seconds)} (${esc(ts.ran.when)}). It is kept in this browser until the tournament file is rebuilt.`
+        : `Each game is played from what was known that morning: First Four games from everything through Selection Sunday, round-of-64 games from that plus the First Four, round-of-32 games from that plus the round of 64, and so on. ` +
+          `Only this season’s games count, nothing from the season before. Only the players who really played in the game take the floor.`) + `</div>`;
+    if (!ts.ran && !job) { runTourney(); return; }       // the first visit starts the run by itself
+    if (!ts.ran || job) { $('ts-body').innerHTML = ''; return; }
+    drawTourneySpreads();
+  }).catch(() => { ts.status = 'missing'; renderTourneySpreads(); });
+}
+function drawTourneySpreads() {
+  const body = $('ts-body');
+  if (!body) return;
+  const all = ts.rows.filter(r => r.sim != null);
+  const seasons = [...new Set(all.map(r => r.season))];
+  const rows = all.filter(r => (ts.season === 'all' || r.season === ts.season) && (ts.round === 'all' || r.round === ts.round));
+  const select = (name, options, label) => `<label class="field"><select data-ts="${name}" aria-label="${label}">` +
+    options.map(([v, l]) => `<option value="${esc(v)}"${ts[name] === v ? ' selected' : ''}>${esc(l)}</option>`).join('') + `</select></label>`;
+  const roundName = r => TS_ROUND_NAMES[r] || r;
+  let html = `<div class="ts-filters">` + select('season', [['all', 'All seasons']].concat(seasons.map(s => [s, s + ' tournament'])), 'Season') +
+    select('round', [['all', 'All rounds']].concat(TS_ROUNDS.map(r => [r, roundName(r)])), 'Round') + `<span class="hint">${rows.length} games</span></div>`;
+  if (!rows.length) { body.innerHTML = html + `<div class="card tp-card"><div class="empty">No games fit these filters.</div></div>`; return; }
+  const s = tsSummary(rows);
+  const tile = (k, v, note) => `<div class="tp-tile"><div class="k">${k}</div><div class="v">${v}</div><div class="s">${note}</div></div>`;
+  html += `<div class="tp-tiles">` +
+    tile('Average distance', tsNum(s.dist, 2) + ' pts', 'between the simulator’s spread and the closing spread') +
+    tile('Median distance', tsNum(s.median, 2) + ' pts', `${(100 * s.within(3)).toFixed(0)}% of games within 3 points, ${(100 * s.within(6)).toFixed(0)}% within 6`) +
+    tile('Lean', tsSigned(s.bias, 2) + ' pts', s.bias > 0 ? 'the simulator likes the closing favorite by this much more, on average' : 'the simulator likes the closing favorite by this much less, on average') +
+    tile('Miss on the final margin', tsNum(s.missSim, 1) + ' pts', `simulator; the closing spread misses by ${tsNum(s.missMarket, 1)}`) +
+    tile('Winner picked', (100 * s.pickSim).toFixed(1) + '%', `simulator; the closing favorite won ${(100 * s.pickMarket).toFixed(1)}%`) + `</div>`;
+  // by round and by season
+  const group = (key, keys, name) => `<div class="card tp-card"><div class="sc-table-wrap"><table class="ts-table"><thead><tr><th class="l">${name}</th><th>Games</th><th>Avg distance</th><th>Lean</th><th>Sim miss</th><th>Line miss</th></tr></thead><tbody>` +
+    keys.map(k => { const part = rows.filter(r => r[key] === k); if (!part.length) return ''; const g = tsSummary(part);
+      return `<tr><td class="l">${esc(key === 'round' ? roundName(k) : k)}</td><td>${g.n}</td><td><b>${tsNum(g.dist, 2)}</b></td><td>${tsSigned(g.bias, 2)}</td><td>${tsNum(g.missSim, 1)}</td><td>${tsNum(g.missMarket, 1)}</td></tr>`; }).join('') +
+    `</tbody></table></div></div>`;
+  html += `<div class="ts-pair">` + group('round', TS_ROUNDS, 'Round') + group('season', seasons, 'Season') + `</div>`;
+  // every game
+  const sorted = [...rows].sort(ts.sort === 'distance' ? (a, b) => Math.abs(b.sim - b.market) - Math.abs(a.sim - a.market) : (a, b) => a.date.localeCompare(b.date) || a.i - b.i);
+  const sortBtn = (key, label) => `<button data-ts-sort="${key}" aria-pressed="${ts.sort === key}">${label}</button>`;
+  const seedOf = v => v == null ? '' : `<small>(${v})</small> `;
+  html += `<div class="card tp-card" style="margin-top:16px"><div class="sc-table-wrap"><table class="ts-table"><thead><tr>` +
+    `<th class="l">${sortBtn('date', 'Date')}</th><th class="l">Round</th><th class="l">Game</th><th class="l">Closing spread</th><th class="l">Simulator</th>` +
+    `<th>${sortBtn('distance', 'Distance')}</th><th>Sim − line</th><th class="l">Final</th><th>Sim win %</th><th class="l">Useful players out</th></tr></thead><tbody>` +
+    sorted.map(r => {
+      const out = [...r.out[0].map(n => `${n} (${r.team})`), ...r.out[1].map(n => `${n} (${r.opp})`)];
+      return `<tr><td class="l">${fmtDate(r.date)} <small>${r.season.slice(0, 2)}${r.season.slice(5)}</small></td><td class="l">${esc(roundName(r.round))}</td>` +
+        `<td class="l">${seedOf(r.teamSeed)}${esc(r.team)} vs ${seedOf(r.oppSeed)}${esc(r.opp)}</td><td class="l">${tsLine(r, r.market)}</td><td class="l">${tsLine(r, r.sim)}</td>` +
+        `<td><b>${tsNum(Math.abs(r.sim - r.market), 1)}</b></td><td>${tsSigned(r.sim - r.market, 1)}</td>` +
+        `<td class="l">${esc(r.actual > 0 ? r.team : r.opp)} by ${Math.abs(r.actual)}</td><td>${(100 * r.win).toFixed(0)}%</td><td class="out">${esc(out.join(', ')) || '–'}</td></tr>`;
+    }).join('') + `</tbody></table></div>` +
+    `<p class="wo-note" style="padding:12px 4px 0">Distance is how far the simulator’s spread (its average margin over ${ts.ran.games.toLocaleString()} games) is from BetIQ’s closing spread. ` +
+    `Sim − line and Sim win % are from the first team’s side. Lean is from the closing favorite’s side. Useful players out: players averaging ${USEFUL_MINUTES}+ minutes who did not play in the game.</p></div>`;
+  body.innerHTML = html;
+}
+$('tspread-view').addEventListener('click', e => {
+  if (e.target.closest('#ts-go')) { ts.status = ''; runTourney(); return; }
+  const sort = e.target.closest('button[data-ts-sort]');
+  if (sort) { ts.sort = sort.dataset.tsSort; drawTourneySpreads(); }
+});
+$('tspread-view').addEventListener('change', e => {
+  const name = e.target.dataset && e.target.dataset.ts;
+  if (name) { ts[name] = e.target.value; drawTourneySpreads(); }
+});
+
 // The address decides what is on screen: "#team=Duke" is Duke's page, anything else is the tables
 function route() {
   // the tournament is simulated from how teams stood going in, so it stays on the pre-tournament page
   document.querySelector('#menu a[data-page="bracket"]').hidden = FULL_SEASON;
   document.querySelector('#menu a[data-page="picker"]').hidden = FULL_SEASON;
-  const page = { '#sim': 'sim', '#scatter': 'scatter', '#bracket': FULL_SEASON ? 'stats' : 'bracket', '#picker': FULL_SEASON ? 'stats' : 'picker', '#guide': 'guide' }[location.hash] || 'stats';
+  const page = { '#sim': 'sim', '#scatter': 'scatter', '#bracket': FULL_SEASON ? 'stats' : 'bracket', '#picker': FULL_SEASON ? 'stats' : 'picker', '#tspreads': 'tspreads', '#guide': 'guide' }[location.hash] || 'stats';
   document.body.classList.toggle('guide-mode', page === 'guide');
+  document.body.classList.toggle('tspread-mode', page === 'tspreads');
   document.body.classList.toggle('scatter-mode', page === 'scatter');
   document.body.classList.toggle('picker-mode', page === 'picker');
   document.body.classList.toggle('sim-mode', page === 'sim');
@@ -4546,7 +4816,8 @@ function route() {
   if (page !== 'stats') {
     state.team = null; state.player = null;
     document.body.classList.remove('team-mode');
-    page === 'sim' ? renderSim() : page === 'scatter' ? renderScatter() : page === 'picker' ? renderPicker() : page === 'bracket' ? renderBracket() : renderGuide();
+    page === 'sim' ? renderSim() : page === 'scatter' ? renderScatter() : page === 'picker' ? renderPicker() : page === 'bracket' ? renderBracket() :
+      page === 'tspreads' ? renderTourneySpreads() : renderGuide();
     window.scrollTo(0, 0);
     return;
   }
