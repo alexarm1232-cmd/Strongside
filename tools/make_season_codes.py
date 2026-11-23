@@ -41,6 +41,10 @@ SEASONS = {
     "1112": (2012, (2011, 11, 7), (2012, 3, 11)),
     "1011": (2011, (2010, 11, 8), (2011, 3, 13)),
     "0910": (2010, (2009, 11, 9), (2010, 3, 14)),
+    "0809": (2009, (2008, 11, 10), (2009, 3, 15)),
+    "0708": (2008, (2007, 11, 5), (2008, 3, 16)),
+    "0607": (2007, (2006, 11, 6), (2007, 3, 11)),
+    "0506": (2006, (2005, 11, 7), (2006, 3, 12)),
 }
 
 # Sports Reference's conference table -> our conference folder
@@ -50,7 +54,7 @@ CONFERENCES = {
     "big-west": "Big West", "coastal": "CAA", "colonial": "CAA", "cusa": "CUSA", "horizon": "Horizon",
     "independent": "Independent", "ivy": "Ivy League", "maac": "MAAC", "mac": "MAC", "meac": "MEAC", "mvc": "MVC",
     "mwc": "Mountain West", "northeast": "NEC", "ovc": "OVC", "pac-12": "Pac-12", "pac-10": "Pac-10", "great-west": "Great West", "patriot": "Patriot", "sec": "SEC",
-    "southern": "SoCon", "southland": "Southland", "summit": "Summit League", "sun-belt": "Sun Belt", "swac": "SWAC",
+    "southern": "SoCon", "southland": "Southland", "summit": "Summit League", "mid-continent": "Summit League", "sun-belt": "Sun Belt", "swac": "SWAC",
     "wac": "WAC", "wcc": "WCC",
 }
 
@@ -58,7 +62,7 @@ CONFERENCES = {
 # the name the NCAA's scoreboard uses (which is what the team folders are called)
 OLD_SCHOOLS = {
     "hartford": "Hartford", "st-francis-ny": "St. Francis Brooklyn", "savannah-state": "Savannah St.",
-    "centenary-la": "Centenary (LA)", "winston-salem": "Winston-Salem",
+    "centenary-la": "Centenary (LA)", "winston-salem": "Winston-Salem", "birmingham-southern": "Birmingham-Southern",
 }
 SCRIPTS = ["1build.py", "5rosterfetch.py", "7rostertrim.py"]
 

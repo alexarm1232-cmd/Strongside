@@ -28,6 +28,8 @@ SEASONS = {   # code: (the site's season label, Selection Sunday)
     "1617": ("2016-2017", date(2017, 3, 12)), "1516": ("2015-2016", date(2016, 3, 13)), "1415": ("2014-2015", date(2015, 3, 15)),
     "1314": ("2013-2014", date(2014, 3, 16)), "1213": ("2012-2013", date(2013, 3, 17)), "1112": ("2011-2012", date(2012, 3, 11)),
     "1011": ("2010-2011", date(2011, 3, 13)), "0910": ("2009-2010", date(2010, 3, 14)),
+    "0809": ("2008-2009", date(2009, 3, 15)), "0708": ("2007-2008", date(2008, 3, 16)), "0607": ("2006-2007", date(2007, 3, 11)),
+    "0506": ("2005-2006", date(2006, 3, 12)),
 }
 DATE = re.compile(r"^(\d\d)/(\d\d)/(\d{4})")
 csv.field_size_limit(10 ** 9)
@@ -61,7 +63,7 @@ def line(row, with_name=True):
     out = {"PTS": number(row["PTS"]), "FG": f"{number(row['FGM'])}-{number(row['FGA'])}", "3PT": f"{number(row['3FG'])}-{number(row['3FGA'])}",
            "FT": f"{number(row['FT'])}-{number(row['FTA'])}", "REB": number(row["Tot Reb"]), "AST": number(row["AST"]),
            "PF": number(row["Fouls"]), "TO": number(row["TO"]), "OREB": number(pick(row, "ORebs", "Off Reb")),
-           "DREB": number(pick(row, "DRebs", "Def Reb")), "STL": number(row["STL"]), "BLK": number(row["BLK"])}
+           "DREB": number(pick(row, "DRebs", "Def Reb")), "STL": number(pick(row, "STL", "ST")), "BLK": number(pick(row, "BLK", "BLKS"))}
     if with_name:
         out = dict({"Name": row["Name"].strip(), "MIN": minutes(pick(row, "MP", "Min"))}, **out)
     return out

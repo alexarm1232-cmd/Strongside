@@ -34,6 +34,10 @@ ITERATIONS = 30             # the same number of passes the team ratings use
 # from outside (None = the dashboard's). (2020-21 also phases in 2019-20's ratings, as the dashboard's ratings do:
 # Kenstat.RATING_PRIOR.)
 RATING_LOPSIDED = None
+# Each team's tempo adjusted for the opponents it has faced (adjusted_tempos) rather than its raw average. With the
+# tournament slowdown (the Tourney spreads page), it put every tournament game 2010-2026 closer to its real number of
+# possessions (3.46 -> 3.18 off) and total points (13.14 -> 12.89). False = raw averages.
+ADJUSTED_TEMPO = True
 PLAY_SHRINK = 30            # must match PLAY_SHRINK in the dashboard's play-type matchup
 # Last season as a head start. Early in the season a team has too few games to judge, so each team's numbers lean on
 # what its CURRENT players did in 2024-25 (wherever they played), fading as its games pile up and gone by HEAD_START_ENDS.
@@ -178,6 +182,24 @@ def load_season(root_folder):
     if undated:
         print(f"   {undated} box scores have no date in game_scores.json and are left out")
     return visits, games, folders, paths
+
+def adjusted_tempos(pace_games, real, count, league_tempo, passes=40):
+    """Each team's tempo adjusted for its opponents, the way kenpom.com adjusts it: a game's possessions per 40 are
+    taken as the league's plus each team's own lean (game = league + mine + theirs), solved over every game so far.
+    pace_games: (team, opponent, possessions per 40). Returns each team's adjusted tempo (league + its lean)."""
+    lean = [0.0] * count
+    for _ in range(passes):
+        total, games = [0.0] * count, [0] * count
+        for a, b, tempo in pace_games:
+            if real[a]:
+                total[a] += tempo - league_tempo - lean[b]; games[a] += 1
+            if real[b]:
+                total[b] += tempo - league_tempo - lean[a]; games[b] += 1
+        lean = [total[i] / games[i] if games[i] and real[i] else 0.0 for i in range(count)]
+        rated = [i for i in range(count) if real[i] and games[i]]
+        shift = sum(lean[i] for i in rated) / (len(rated) or 1)
+        lean = [x - shift if real[i] else 0.0 for i, x in enumerate(lean)]
+    return [league_tempo + x for x in lean]
 
 def rate(perfs, real, league_avg, count, today=None, prior=None):
     """Kenstat's rating passes over one set of games. perfs: (team, opponent, offense, defense, day number) with teams
@@ -575,6 +597,7 @@ def build_report(root_folder=TEAMS_FOLDER):
     visit_count = [0] * count                    # Kenstat's own game count (a game between two of our teams counts twice)
     played = defaultdict(int)                    # team -> games played so far
     tempo_sum, tempo_n = [0.0] * count, [0] * count
+    pace_games = []                              # (team, opponent, the game's possessions per 40) for every game so far
     poss_sum = defaultdict(float)                # team -> possessions so far
     total_pts = total_poss = 0.0
     seen = set()
@@ -602,6 +625,8 @@ def build_report(root_folder=TEAMS_FOLDER):
             adj_o, adj_d = rate(perfs, real, league_avg, count, date_number(date), prior)
             rated = [i for i in range(count) if real[i] and tempo_n[i]]
             league_tempo = sum(tempo_sum[i] / tempo_n[i] for i in rated) / len(rated)
+            team_tempo = adjusted_tempos(pace_games, real, count, league_tempo) if ADJUSTED_TEMPO else \
+                [tempo_sum[i] / tempo_n[i] if tempo_n[i] else league_tempo for i in range(count)]
             # The 2024-25 head start. What a team of these players "should" be, from what each did last season, weighed
             # by the minutes he is playing now: its net rating is the sum of their box plus/minus, a newcomer counting as
             # an average first-year player. That is turned into a scoring level (half to the offense, half to the defense)
@@ -749,7 +774,7 @@ def build_report(root_folder=TEAMS_FOLDER):
                         return sum(r[0] for r in (own, theirs)[side]) / possessions if possessions else 0
                     done = t.done_o if side == 0 else t.done_d
                     return sum(r[0] for r in done) / poss_sum[name] if done and poss_sum[name] else 0
-                tempo_a, tempo_b = tempo_sum[a] / tempo_n[a], tempo_sum[b] / tempo_n[b]
+                tempo_a, tempo_b = team_tempo[a], team_tempo[b]
                 pace = tempo_a + tempo_b - league_tempo
                 ratings_only = pace / 100 * ((adj_o[a] + adj_d[b] - league_avg + rated_home) - (adj_o[b] + adj_d[a] - league_avg - rated_home))
                 # play types alone: no team ratings at all
@@ -816,6 +841,7 @@ def build_report(root_folder=TEAMS_FOLDER):
             for i in (a, b):
                 tempo_sum[i] += v["tempo"]
                 tempo_n[i] += 1
+            pace_games.append((a, b, v["tempo"]))
             if v["id"] not in seen:
                 seen.add(v["id"])
                 total_pts += v["pts"]

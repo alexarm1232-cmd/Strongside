@@ -3187,7 +3187,7 @@ function renderSimResult(acc, units, pace, styles) {
   const blowouts = s => { let games = 0; acc.margins.forEach((count, at) => { if ((s ? -1 : 1) * (at - 120) >= 15) games += count; }); return games; };
   const out = ['a', 'b'].map(k => [...sim.out[k]]).flat();
   const signed = v => (v > 0 ? '+' : '') + v.toFixed(1).replace('-', '−');
-  const half = v => String(Math.round(v * 2) / 2);        // margins to the nearest half point, like a point spread: 1, 1.5, 2
+  const half = v => String(toLine(v));        // margins to one decimal, like the Tourney spreads page
   const wonBy = winsA ? tally[4] / winsA : null, lostBy = winsB ? -tally[5] / winsB : null;     // the first team's average win, and average loss
   const row = (T, wins, all, won, lost, big) => `<tr><td class="l">${teamLink(T.name, esc(T.name))}</td><td>${share(wins)}</td><td><b>${half(Math.abs(all)) === '0' ? '0' : (all > 0 ? '+' : '−') + half(Math.abs(all))}</b></td>` +
     `<td>${won == null ? '–' : '+' + half(won)}</td><td>${lost == null ? '–' : '−' + half(lost)}</td><td>${share(big)}</td></tr>`;
@@ -4399,8 +4399,8 @@ window.addEventListener('resize', () => { clearTimeout(scResize); scResize = set
 // Every NCAA tournament game 2010-2026 (First Four included), played in the simulator as the two teams stood that
 // morning, and its spread set beside BetIQ's closing spread. tourneyreport.js (built by dashboard\Tourneystat.py) holds
 // each game's inputs: a First Four game from everything through Selection Sunday, a round-of-64 game from that plus the
-// First Four, and so on, so each round's games count in the next. Only this season's games count (nothing carried over
-// from the season before), and only the players who really played in the game take the floor. Every margin is from the
+// First Four, and so on, so each round's games count in the next. The ratings are the dashboard's (last season's help
+// only until a team's 16th game, all season in 2020-21), and only the players who really played take the floor. Every margin is from the
 // first team's side (the team the schedule lists as home).
 const TS_SIMS = 100000;
 const USEFUL_MINUTES = 10;      // a player averaging this many minutes is "useful": his absences are the ones listed
@@ -4507,9 +4507,12 @@ function tsRows(data) {
 }
 function tsResults(run) {
   ts.ran = { games: run.games, when: run.when, seconds: run.seconds };
-  // the simulator's spread is rounded to the nearest half point, the way a real line is quoted (35.1 -> 35, 35.3 -> 35.5)
-  run.results.forEach((r, i) => { if (r && ts.rows[i]) Object.assign(ts.rows[i], { sim: Math.round(r[0] * 2) / 2, win: r[1] }); });
+  // the simulator's spread, to one decimal (toLine)
+  run.results.forEach((r, i) => { if (r && ts.rows[i]) Object.assign(ts.rows[i], { sim: toLine(r[0]), win: r[1] }); });
 }
+// An average margin as a point spread, to one decimal: a pick'em only when it comes out at 0.0. (Rounding to half points
+// made 39 of the 1,068 tournament games pick'ems; one decimal makes 6.)
+const toLine = v => Math.round(v * 10) / 10 + 0;
 function runTourney() {
   if (ts.job) return;
   loadTourney().then(data => {
@@ -4592,7 +4595,7 @@ function renderTourneySpreads() {
       `<div class="wo-note">` + (ts.ran && !job
         ? `Last run: ${rows.length.toLocaleString()} games, each played ${ts.ran.games.toLocaleString()} times, in ${simTime(ts.ran.seconds)} (${esc(ts.ran.when)}). It is kept in this browser until the tournament file is rebuilt.`
         : `Each game is played from what was known that morning: First Four games from everything through Selection Sunday, round-of-64 games from that plus the First Four, round-of-32 games from that plus the round of 64, and so on. ` +
-          `Only this season’s games count, nothing from the season before. Only the players who really played in the game take the floor.`) + `</div>`;
+          `The ratings are the dashboard’s: older games count a little less, and last season’s ratings only help get each team started and are gone by its 16th game (in 2020-21, cut short by COVID, they stay in all season). Only the players who really played in the game take the floor.`) + `</div>`;
     if (!ts.ran && !job) { runTourney(); return; }       // the first visit starts the run by itself
     if (!ts.ran || job) { $('ts-body').innerHTML = ''; return; }
     drawTourneySpreads();
@@ -4638,7 +4641,7 @@ function drawTourneySpreads() {
         `<td><b>${tsNum(Math.abs(r.sim - r.market), 1)}</b></td><td>${tsSigned(r.sim - r.market, 1)}</td>` +
         `<td class="l">${esc(r.actual > 0 ? r.team : r.opp)} by ${Math.abs(r.actual)}</td><td>${(100 * r.win).toFixed(0)}%</td><td class="out">${esc(out.join(', ')) || '–'}</td></tr>`;
     }).join('') + `</tbody></table></div>` +
-    `<p class="wo-note" style="padding:12px 4px 0">Distance is how far the simulator’s spread (its average margin over ${ts.ran.games.toLocaleString()} games, rounded to the nearest half point) is from BetIQ’s closing spread. ` +
+    `<p class="wo-note" style="padding:12px 4px 0">Distance is how far the simulator’s spread (its average margin over ${ts.ran.games.toLocaleString()} games, to one decimal) is from BetIQ’s closing spread. ` +
     `Sim − line and Sim win % are from the first team’s side. Lean is from the closing favorite’s side. Useful players out: players averaging ${USEFUL_MINUTES}+ minutes who did not play in the game.</p></div>`;
   body.innerHTML = html;
 }

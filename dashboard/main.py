@@ -38,11 +38,19 @@ for code, (ended, neutral_from) in {"2324": (2024, "2024/03/11"), "2223": (2023,
 _codes = sorted(SEASONS, key=lambda code: SEASONS[code]["this"])
 for _before, _code in zip(_codes, _codes[1:]):
     SEASONS[_code]["prior"] = _before
+# 2005-06 to 2008-09, built from ESPN's data through hoopR (tools/build_from_hoopr.py). They phase in each other's
+# ratings, but 2009-10 keeps starting without a season before, so the seasons built earlier are not changed.
+_older = {"0506": (2006, "2006/03/06"), "0607": (2007, "2007/03/05"), "0708": (2008, "2008/03/10"), "0809": (2009, "2009/03/09")}
+for code, (ended, neutral_from) in _older.items():
+    SEASONS[code] = {"label": f"{ended - 1}-{ended % 100:02d}", "teams": "data/seasons/" + code, "page": f"dashboard_{code}.html",
+                     "data": code + "/", "this": ended, "last": ended - 1, "neutral_from": neutral_from, "spreads": False, "kind_zones": True}
+for _before, _code in zip(sorted(_older), sorted(_older)[1:]):
+    SEASONS[_code]["prior"] = _before
 # The full-season view of a season: the same thing with the games after Selection Sunday counted too (the NCAA
 # tournament and the other postseason events). Its data is a second folder, made by postseason.py, and it gets its own
 # page; the switch in the page header goes between the two.   python dashboard/main.py 2526f
 # (2019-20 has none: the season stopped before the postseason, in March 2020.)
-for code in ("2526", "2425", "2324", "2223", "2122", "2021", "1819", "1718", "1617", "1516", "1415", "1314", "1213", "1112", "1011", "0910"):
+for code in ("2526", "2425", "2324", "2223", "2122", "2021", "1819", "1718", "1617", "1516", "1415", "1314", "1213", "1112", "1011", "0910", "0809", "0708", "0607", "0506"):
     page = SEASONS[code]["page"]
     SEASONS[code + "f"] = dict(SEASONS[code], teams=f"data/seasons/{code} full", page=page.replace(".html", "_full.html"),
                                data=code + "f/", spreads=False, view="full", base=code)

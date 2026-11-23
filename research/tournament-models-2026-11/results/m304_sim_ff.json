@@ -1,0 +1,18 @@
+{
+"2009-10": {"vote":{"f4w":["Kansas","Duke"],"champ":"Kansas"},"reg":{"f4w":["Kansas","Duke"],"champ":"Kansas"},"blend":{"f4w":["Kansas","Duke"],"champ":"Kansas"}},
+"2010-11": {"vote":{"f4w":["Wisconsin","Ohio St"],"champ":"Ohio St"},"reg":{"f4w":["Wisconsin","Ohio St"],"champ":"Ohio St"},"blend":{"f4w":["Wisconsin","Ohio St"],"champ":"Ohio St"}},
+"2011-12": {"vote":{"f4w":["Kentucky","Ohio St"],"champ":"Kentucky"},"reg":{"f4w":["Kentucky","Ohio St"],"champ":"Kentucky"},"blend":{"f4w":["Kentucky","Ohio St"],"champ":"Kentucky"}},
+"2012-13": {"vote":{"f4w":["Louisville","Florida"],"champ":"Florida"},"reg":{"f4w":["Louisville","Florida"],"champ":"Florida"},"blend":{"f4w":["Gonzaga","Florida"],"champ":"Florida"}},
+"2013-14": {"vote":{"f4w":["Louisville","Florida"],"champ":"Louisville"},"reg":{"f4w":["Louisville","Michigan St"],"champ":"Louisville"},"blend":{"f4w":["Louisville","Florida"],"champ":"Louisville"}},
+"2014-15": {"vote":{"f4w":["Virginia","Kentucky"],"champ":"Kentucky"},"reg":{"f4w":["Virginia","Kentucky"],"champ":"Kentucky"},"blend":{"f4w":["Duke","Kentucky"],"champ":"Kentucky"}},
+"2015-16": {"vote":{"f4w":["Michigan St","Kansas"],"champ":"Kansas"},"reg":{"f4w":["Michigan St","Kansas"],"champ":"Kansas"},"blend":{"f4w":["Virginia","Kansas"],"champ":"Virginia"}},
+"2016-17": {"vote":{"f4w":["Gonzaga","North Carolina"],"champ":"Gonzaga"},"reg":{"f4w":["Gonzaga","North Carolina"],"champ":"Gonzaga"},"blend":{"f4w":["Gonzaga","North Carolina"],"champ":"Gonzaga"}},
+"2017-18": {"vote":{"f4w":["Virginia","Villanova"],"champ":"Virginia"},"reg":{"f4w":["Virginia","Villanova"],"champ":"Virginia"},"blend":{"f4w":["Virginia","Villanova"],"champ":"Virginia"}},
+"2018-19": {"vote":{"f4w":["Gonzaga","Virginia"],"champ":"Virginia"},"reg":{"f4w":["Gonzaga","Virginia"],"champ":"Virginia"},"blend":{"f4w":["Gonzaga","Virginia"],"champ":"Virginia"}},
+"2020-21": {"vote":{"f4w":["Baylor","Gonzaga"],"champ":"Gonzaga"},"reg":{"f4w":["Baylor","Gonzaga"],"champ":"Gonzaga"},"blend":{"f4w":["Baylor","Gonzaga"],"champ":"Gonzaga"}},
+"2021-22": {"vote":{"f4w":["Kansas","Gonzaga"],"champ":"Gonzaga"},"reg":{"f4w":["Kansas","Gonzaga"],"champ":"Gonzaga"},"blend":{"f4w":["Kansas","Gonzaga"],"champ":"Gonzaga"}},
+"2022-23": {"vote":{"f4w":["Alabama","Houston"],"champ":"Houston"},"reg":{"f4w":["Alabama","Houston"],"champ":"Houston"},"blend":{"f4w":["Alabama","Houston"],"champ":"Houston"}},
+"2023-24": {"vote":{"f4w":["UConn","Purdue"],"champ":"UConn"},"reg":{"f4w":["UConn","Kentucky"],"champ":"UConn"},"blend":{"f4w":["UConn","Creighton"],"champ":"UConn"}},
+"2024-25": {"vote":{"f4w":["Florida","Duke"],"champ":"Duke"},"reg":{"f4w":["Florida","Duke"],"champ":"Duke"},"blend":{"f4w":["Auburn","Duke"],"champ":"Duke"}},
+"2025-26": {"vote":{"f4w":["Duke","Arizona"],"champ":"Duke"},"reg":{"f4w":["Duke","Arizona"],"champ":"Duke"},"blend":{"f4w":["Duke","Arizona"],"champ":"Duke"}}
+}

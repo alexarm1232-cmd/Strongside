@@ -17,8 +17,8 @@ import subprocess
 # round-of-64 game from that plus the First Four, a round-of-32 game from that plus the round of 64, and so on. Only the
 # players who really played in the game take the floor in the simulator. ("pre", every game as things stood going into
 # the tournament, is there too but not built unless asked for: python dashboard/Tourneystat.py 1819 pre.)
-# Only this season's games count: nothing is carried over from the season before (no head start, no program history;
-# the one exception is 2020-21, whose ratings phase in 2019-20's on the dashboard and here alike, see Kenstat.RATING_PRIOR),
+# The ratings are the dashboard's (Kenstat): last season's only help get each team started and are gone by its 16th game
+# (all season in 2020-21), see Kenstat.RATING_PRIOR; Spreadstat's player head start and program history are not used;
 # and each team's home edge, used to put its regular-season games on a neutral floor, is measured on this season alone.
 #
 #     python dashboard/Tourneystat.py               every season, each in its own run (the season is fixed when the
@@ -28,6 +28,7 @@ import subprocess
 MAIN_FOLDER = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.dirname(MAIN_FOLDER)
 SPREADS_FILE = os.path.join(ROOT, "reports", "tournament_spreads.csv")
+OLD_GAMES_FILE = os.path.join(ROOT, "reports", "tournament_games_hoopr.csv")
 PARTS_FOLDER = os.path.join(ROOT, "logs", "tourneystat")
 REPORT_FILE = os.path.join(MAIN_FOLDER, "tourneyreport.js")
 MODES = ("live",)
@@ -38,6 +39,11 @@ def tournament_lines():
     out = {}
     for row in csv.DictReader(open(SPREADS_FILE, encoding="utf-8")):
         out.setdefault(row["season"], {})[row["game_id"]] = row
+    # 2005-06 to 2008-09 (built from hoopR): the games only, no betting lines (tools/hoopr_tournament.py). Only run one
+    # season at a time (python dashboard/Tourneystat.py 0809 live); they are not in CODES, so the joined report is unchanged.
+    if os.path.exists(OLD_GAMES_FILE):
+        for row in csv.DictReader(open(OLD_GAMES_FILE, encoding="utf-8")):
+            out.setdefault(row["season"], {})[row["game_id"]] = row
     return out
 
 def label(code):
@@ -69,6 +75,9 @@ def one_season(code, mode):
         for g in games.values():
             row = lines.get(str(g["id"])) or lines.get(str(g["file"]))
             if not row: continue
+            if not row["spread"]:           # a season with no betting lines: the game is set up all the same
+                market[g["id"]] = {"spread": 0.0, "total": None, "type": row["round"], "book": "none"}
+                continue
             fav = row["favorite"].rstrip(". ")
             if fav not in (g["n0"].rstrip(". "), g["n1"].rstrip(". ")):
                 print(f"   {row['date']} {row['winner']}-{row['loser']}: favorite {fav} is neither team")

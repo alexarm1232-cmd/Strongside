@@ -1,0 +1,5 @@
+﻿src = open("m289_vote.py", encoding="utf-8").read()
+src = src.replace('    v = (up + mo + si) >= 2; ok1 += v == (yy == 1); ag += (up == mo == si)', '    v = (int(up) + int(mo) + int(si)) >= 2; ok1 += v == (yy == 1); ag += (up == mo == si); CU[0] += up == (yy == 1); CU[1] += mo == (yy == 1); CU[2] += si == (yy == 1)')
+src = src.replace('ok1 = 0; ag = 0', 'ok1 = 0; ag = 0; CU = [0, 0, 0]').replace('    v = (up + mo + si) >= 2; ok2 += v', '    v = (int(up) + int(mo) + int(si)) >= 2; ok2 += v')
+src = src.replace('print(f"REAL GAMES', 'print("individual R1:", CU); print(f"REAL GAMES')
+exec(src)
