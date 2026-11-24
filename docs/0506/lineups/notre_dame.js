@@ -1,0 +1,1 @@
+LINEUPS["Notre Dame"] = {"players":["Chris Quinn","Colin Falls","Torin Francis","Russell Carter","Rob Kurz","Luke Zeller","Rick Cornett"],"rows":[[11,[0,1,5,3,2],8.83,4,7,8.83,4,7],[16,[0,1,6,4,3],7.31,7,7,7.31,7,7],[19,[0,1,6,3,2],7.8,6,9,7.8,6,9]]};

@@ -1,0 +1,1 @@
+LINEUPS["George Washington"] = {"players":["Rob Diggs","Tony Taylor","Damian Hollis","Travis King","Wynton Witherspoon","Noel Wilmore","Aaron Ware","Johnny Lee","Hermann Opoku"],"rows":[[16,[6,2,8,7,5],8.8,8,8,8.8,8,8],[24,[2,0,1,3,4],8.42,13,9,8.42,13,9]]};

@@ -1,0 +1,1 @@
+LINEUPS["LSU"] = {"players":["Garrett Temple","Tasmin Mitchell","Glen Davis","Darnell Lazare","Terry Martin","Dameon Mason","Tack Minor"],"rows":[[6,[5,0,2,6,1],8.57,7,8,8.57,7,8],[30,[3,0,2,1,4],7.7,12,3,7.46,11,3]]};

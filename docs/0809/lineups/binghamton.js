@@ -1,0 +1,1 @@
+LINEUPS["Binghamton"] = {"players":["D.J. Rivera","Emanuel Mayben","Reggie Fuller","Malik Alvin","Chretien Lukusa","Brandon Herbert","Moussa Camara"],"rows":[[21,[4,0,1,6,2],7.99,11,9,7.99,11,9],[25,[5,4,0,1,3],8.32,6,5,8.21,6,3]]};

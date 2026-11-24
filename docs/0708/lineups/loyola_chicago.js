@@ -1,0 +1,1 @@
+LINEUPS["Loyola Chicago"] = {"players":["J.R. Blount","Andy Polka","Tracy Robinson","Justin Cerasoli","Aric Van Weelden","Cortney Horton"],"rows":[[13,[1,0,5,3,2],7.83,5,5,7.83,5,5],[13,[1,4,0,5,3],7.78,7,17,7.13,4,13]]};

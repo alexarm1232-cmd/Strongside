@@ -1,0 +1,1 @@
+LINEUPS["Baylor"] = {"players":["Curtis Jerrells","Kevin Rogers","Henry Dugat","Tweety Carter","Aaron Bruce","LaceDarius Dunn","Josh Lomers","Delbert Simpson","Richard Hurd"],"rows":[[15,[0,2,6,1,3],8.95,4,4,8.95,4,4],[15,[4,0,6,1,5],8.95,10,10,8.95,10,10],[15,[4,0,7,5,8],8.95,17,11,8.86,17,11],[28,[0,2,1,5,3],8.07,10,17,7.94,7,17]]};

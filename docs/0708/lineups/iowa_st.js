@@ -1,0 +1,1 @@
+LINEUPS["Iowa St"] = {"players":["Bryan Petersen","Craig Brackins","Jiri Hubalek","Wesley Johnson","Diante Garrett","Alex Thompson"],"rows":[[27,[5,0,4,2,3],7.6,7,7,7.6,7,7],[27,[0,1,4,2,3],7.6,6,12,7.6,6,12]]};

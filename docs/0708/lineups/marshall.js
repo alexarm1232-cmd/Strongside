@@ -1,0 +1,1 @@
+LINEUPS["Marshall"] = {"players":["Mark Dorris","Markel Humphrey","Tirrell Baines","Darryl Merthie","Tyler Wilkerson","Matt Walls"],"rows":[[0,[3,0,1,2,4],9.2,7,6,9.2,7,6],[9,[3,0,1,5,2],7.78,16,11,7.78,16,11]]};

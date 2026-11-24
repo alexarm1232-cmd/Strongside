@@ -1,0 +1,1 @@
+LINEUPS["New Mexico"] = {"players":["J.R. Giddens","Chad Toppert","Daniel Faris","Jamaal Smith","Darren Prentice","Monquel Pegues"],"rows":[[15,[1,2,4,0,3],17.27,26,19,16.73,24,16],[30,[1,4,0,3,5],8.3,8,10,8.3,8,10]]};

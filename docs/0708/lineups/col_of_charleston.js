@@ -1,0 +1,1 @@
+LINEUPS["Col. of Charleston"] = {"players":["Jermaine Johnson","Tony White Jr.","Andrew Goudelock","Antwaine Wiggins","Dustin Scott","Jeremy Simmons","Donavan Monroe","Konimba Diarra"],"rows":[[0,[2,3,4,5,0],9.43,8,15,8.99,6,13],[14,[2,3,6,4,7],9.13,10,16,9.01,10,16],[25,[2,3,4,0,1],7.26,8,8,7.26,8,8],[25,[2,6,4,0,1],7.51,9,10,7.51,9,10]]};

@@ -1,0 +1,1 @@
+LINEUPS["App State"] = {"players":["Kellen Brand","Donald Sims","Josh Hunter","Isaac Butts","Eduardo Bermudez","Ryann Abraham","Andre Williamson","Marcus Wright"],"rows":[[0,[6,1,4,2,5],10.65,4,12,10.0,4,12],[1,[4,3,2,0,5],9.11,12,9,8.98,12,9],[21,[6,1,3,0,7],8.07,7,12,8.07,7,12]]};

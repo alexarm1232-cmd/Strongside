@@ -1,0 +1,1 @@
+LINEUPS["Radford"] = {"players":["Amir Johnson","Joey Lynch-Flohr","Martell McDuffy","Kenny Thomas","Phillip Martin","Alex Gynes","Duane Ricks"],"rows":[[0,[0,6,1,3,2],5.74,0,0,5.74,0,0],[4,[5,0,1,2,4],6.98,5,10,6.84,3,10]]};

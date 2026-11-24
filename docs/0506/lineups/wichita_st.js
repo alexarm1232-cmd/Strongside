@@ -1,0 +1,1 @@
+LINEUPS["Wichita St"] = {"players":["Sean Ogirri","P.J. Couisnard","Paul Miller","Kyle Wilson","Matt Braeuer","Karon Bradley","Ryan Martin"],"rows":[[20,[3,4,2,1,0],7.69,5,5,7.69,5,5],[20,[5,4,2,6,0],7.28,13,5,7.1,13,3]]};

@@ -1,0 +1,1 @@
+LINEUPS["Oklahoma St"] = {"players":["JamesOn Curry","Mario Boggan","Terrel Harris","Marcus Dove","Byron Eaton","David Monds","Kenneth Cooper","Tyler Hatch"],"rows":[[11,[4,0,6,3,1],8.08,14,8,7.94,14,8],[15,[5,0,1,2,7],26.07,34,32,26.07,34,32]]};

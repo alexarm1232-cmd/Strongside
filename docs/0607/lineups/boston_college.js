@@ -1,0 +1,1 @@
+LINEUPS["Boston College"] = {"players":["Tyrese Rice","Jared Dudley","Sean Marshall","Shamari Spears","John Oates","Marquez Haynes","Sean Williams","Tyrelle Blair"],"rows":[[10,[5,2,6,3,0],35.07,35,45,34.9,35,43],[28,[1,4,2,7,0],6.97,10,7,6.97,10,7]]};

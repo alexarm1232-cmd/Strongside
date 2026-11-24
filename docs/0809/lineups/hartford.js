@@ -1,0 +1,1 @@
+LINEUPS["Hartford"] = {"players":["Jaret von Rosenberg","Michael Turner","Morgan Sabia","Andres Torres","Genesis Maciel","Clayton Brothers","Anthony Minor","Joe Zeglinski","Drake U'u","David Bookman"],"rows":[[2,[3,6,5,9,8],30.57,8,5,25.71,0,3],[3,[4,0,7,1,2],7.8,14,13,7.8,14,13]]};

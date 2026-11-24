@@ -1,0 +1,1 @@
+LINEUPS["Georgia Tech"] = {"players":["Anthony Morrow","Zam Fredrick","Jeremis Smith","Ra'Sean Dickey","Lewis Clinch","Mario West","Theodis Tarver"],"rows":[[8,[0,2,5,3,6],28.04,23,21,28.04,23,21],[23,[0,2,4,3,1],9.14,6,9,9.14,6,9]]};

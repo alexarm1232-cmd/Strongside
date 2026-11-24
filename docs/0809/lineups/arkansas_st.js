@@ -1,0 +1,1 @@
+LINEUPS["Arkansas St"] = {"players":["Donald Boone","Ifeanyi Koggu","Shawn Morgan","Eric McKinney","JeJuan Brown","P.J. Keaton","Brandon Ayers"],"rows":[[12,[0,3,1,4,2],7.17,10,8,7.17,10,8],[13,[0,3,1,4,5],16.45,18,18,16.45,18,18],[20,[6,0,3,1,2],9.24,11,13,9.24,11,13]]};

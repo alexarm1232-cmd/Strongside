@@ -1,0 +1,1 @@
+LINEUPS["SMU"] = {"players":["Jon Killen","Derrick Roberts","Bamba Fall","Ryan Harp","Mike Walker","Alex Malone"],"rows":[[14,[2,1,0,4,3],7.64,7,5,7.64,7,5],[23,[5,2,1,0,3],17.42,20,17,17.42,20,17]]};

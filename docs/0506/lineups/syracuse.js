@@ -1,0 +1,1 @@
+LINEUPS["Syracuse"] = {"players":["Gerry McNamara","Demetris Nichols","Terrence Roberts","Darryl Watkins","Eric Devendorf","Josh Wright"],"rows":[[20,[3,1,4,5,2],9.2,12,10,9.2,12,10],[29,[3,1,4,0,2],38.28,35,39,38.28,35,39]]};

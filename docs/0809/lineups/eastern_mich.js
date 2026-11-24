@@ -1,0 +1,1 @@
+LINEUPS["Eastern Mich"] = {"players":["Brandon Bowdry","Justin Dobbins","L.J. Frazier","Tyler Jones","Zane Gay","Will Cooper","Wendale Farrow","Antonio Green"],"rows":[[13,[0,2,3,6,4],8.46,12,12,8.46,12,12],[13,[2,3,6,5,4],8.43,13,6,8.34,13,6],[26,[7,0,1,3,4],25.99,6,6,25.99,6,6]]};

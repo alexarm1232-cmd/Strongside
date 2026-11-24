@@ -1,0 +1,1 @@
+LINEUPS["East Carolina"] = {"players":["Sam Hinnant","Brock Young","James Legan","Jamar Abrams","Darrius Morrow","DaQuan Joyner"],"rows":[[2,[1,5,4,2,0],8.76,11,8,8.76,11,8],[20,[1,4,3,2,0],8.2,11,8,8.2,11,8]]};

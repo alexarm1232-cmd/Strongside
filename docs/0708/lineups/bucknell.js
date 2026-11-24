@@ -1,0 +1,1 @@
+LINEUPS["Bucknell"] = {"players":["John Griffin III","Stephen Tyree","Justin Castleberry","Darryl Shazier","G.W. Boon","Todd O'Brien"],"rows":[[28,[3,0,2,1,5],8.54,10,10,8.54,10,10],[28,[3,4,0,2,5],8.54,12,11,8.54,12,11]]};

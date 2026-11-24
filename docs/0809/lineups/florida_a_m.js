@@ -1,0 +1,1 @@
+LINEUPS["Florida A&M"] = {"players":["Joe Ballard","Brandon Bryant","Lamar Twitty","Byron Taylor","Larry Jackson","Dale Hughes"],"rows":[[13,[1,3,0,2,4],6.24,6,6,6.24,6,6],[13,[1,3,5,0,2],7.45,12,11,7.45,12,11]]};

@@ -1,0 +1,1 @@
+LINEUPS["Fairfield"] = {"players":[],"rows":[]};

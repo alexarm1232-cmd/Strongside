@@ -1,0 +1,1 @@
+LINEUPS["TCU"] = {"players":["Kevin Langford","Neiman Owens","Alvarado Parker","Ryan Wall","Femi Ibikunle"],"rows":[[25,[2,4,0,1,3],34.83,38,28,29.31,29,19],[27,[2,4,0,1,3],30.91,36,20,30.68,36,18],[28,[2,4,0,1,3],34.56,26,36,34.56,26,36]]};

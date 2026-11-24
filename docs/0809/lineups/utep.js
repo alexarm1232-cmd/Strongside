@@ -1,0 +1,1 @@
+LINEUPS["UTEP"] = {"players":["Stefon Jackson","Julyan Stone","Randy Culpepper","Arnett Moultrie","Tavaris Watts","Gabriel McCulley","Wayne Portalatin"],"rows":[[26,[3,1,2,0,4],8.83,6,3,8.83,6,3],[29,[3,5,1,2,6],35.2,14,5,35.2,14,5]]};

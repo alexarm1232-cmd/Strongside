@@ -1,0 +1,1 @@
+LINEUPS["Tulsa"] = {"players":["Ben Uzoh","Calvin Walls","Brett McDade","Jerome Adolphus Jordan","Rod Earls","Ray Reese","Bishop Wheatley"],"rows":[[12,[0,6,2,1,4],8.44,11,11,8.44,11,11],[30,[0,2,1,3,5],7.95,7,5,7.95,7,5]]};

@@ -1,0 +1,1 @@
+LINEUPS["Morehead St"] = {"players":["Leon Buchanan","Demonte Harper","Kenneth Faried","Maze Stallworth","Brandon Shingles","Steve Peterson"],"rows":[[30,[4,1,2,0,3],33.34,38,31,33.34,38,31],[30,[4,2,0,3,5],6.63,4,2,6.63,4,2]]};

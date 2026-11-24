@@ -1,0 +1,1 @@
+LINEUPS["Virginia Tech"] = {"players":["Zabian Dowdell","Jamon Gordon","Deron Washington","Coleman Collins","Markus Sailes","Wynton Witherspoon"],"rows":[[10,[3,2,1,4,0],29.27,38,22,29.12,38,22],[16,[3,2,1,5,0],29.14,23,25,29.14,23,25],[23,[3,2,1,5,0],40.38,45,42,40.38,45,42]]};

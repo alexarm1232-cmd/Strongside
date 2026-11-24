@@ -1,0 +1,1 @@
+LINEUPS["Rutgers"] = {"players":["Marquis Webb","Anthony Farmer","Jaron Griffin","J.R. Inman","Adrian Hill","Ollie Bailey"],"rows":[[19,[4,1,3,2,0],8.14,8,8,8.14,8,8],[19,[4,1,2,0,5],8.19,13,9,8.19,13,9]]};

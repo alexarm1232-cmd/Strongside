@@ -1,0 +1,1 @@
+LINEUPS["Clemson"] = {"players":["Vernon Hamilton","Cliff Hammonds","Akin Akingbala","Shawan Robinson","Sam Perry","Julius Powell","Steve Allen"],"rows":[[12,[2,1,5,6,0],8.82,8,7,8.82,8,7],[16,[2,1,4,3,0],8.27,7,7,8.27,7,7]]};

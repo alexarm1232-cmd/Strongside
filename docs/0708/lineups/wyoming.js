@@ -1,0 +1,1 @@
+LINEUPS["Wyoming"] = {"players":["Brandon Ewing","Brad Jones","Ryan Dermody","Joseph Taylor","Travis Nelson","Mikhail Linskens","Eric Platt"],"rows":[[10,[0,6,3,2,4],8.45,9,9,8.45,9,9],[12,[1,0,3,5,2],6.99,6,8,6.99,6,8]]};

@@ -1,0 +1,1 @@
+LINEUPS["Colorado"] = {"players":["Cory Higgins","Dwight Thorne II","Austin Dufault","Nate Tomlinson","Jermyl Jackson-Wilson","Levi Knutson","Javon Coney"],"rows":[[15,[0,1,6,4,3],7.92,6,6,7.92,6,6],[21,[2,0,1,5,3],7.66,4,13,7.11,2,12]]};

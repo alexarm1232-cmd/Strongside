@@ -1,0 +1,1 @@
+LINEUPS["Southern Miss"] = {"players":["Jeremy Wise","R.L. Horton","Courtney Beasley","Craig Craft","Rodney McCauley","Gustavo Lino","Sai'Quon Stone"],"rows":[[4,[2,3,0,4,6],7.89,8,11,7.89,8,11],[26,[2,3,5,0,1],35.2,5,14,35.2,5,14]]};

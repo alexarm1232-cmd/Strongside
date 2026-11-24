@@ -1,0 +1,1 @@
+LINEUPS["Washington"] = {"players":["Jon Brockman","Justin Dentmon","Isaiah Thomas","Quincy Pondexter","Venoy Overton","Justin Holiday"],"rows":[[14,[2,1,5,3,4],8.1,13,13,8.1,13,13],[14,[2,0,1,5,3],8.1,8,11,8.1,8,11]]};

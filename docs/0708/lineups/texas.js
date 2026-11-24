@@ -1,0 +1,1 @@
+LINEUPS["Texas"] = {"players":["D.J. Augustin","A.J. Abrams","Justin Mason","Damion James","Connor Atchley","Gary Johnson"],"rows":[[9,[1,4,3,0,2],32.26,33,23,31.85,33,23],[20,[1,3,0,5,2],8.34,9,3,8.34,9,3]]};

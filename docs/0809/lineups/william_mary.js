@@ -1,0 +1,1 @@
+LINEUPS["William & Mary"] = {"players":["David Schneider","Danny Sumner","Quinn McDowell","Peter Stein","Kendrix Brown","Chris Darnell"],"rows":[[6,[5,1,0,4,2],7.62,11,11,7.62,11,11],[6,[1,0,4,3,2],7.55,3,9,7.55,3,9]]};

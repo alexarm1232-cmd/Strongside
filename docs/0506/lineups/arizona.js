@@ -1,0 +1,1 @@
+LINEUPS["Arizona"] = {"players":["Hassan Adams","Mustafa Shakur","Ivan Radenovic","Marcus Williams","Chris Rodgers","Kirk Walters","Bret Brielmaier"],"rows":[[2,[6,4,5,3,1],8.19,11,14,8.19,11,14],[11,[4,0,2,3,1],9.12,9,9,9.12,9,9],[15,[4,0,2,3,1],33.47,39,40,33.47,39,40],[16,[0,2,5,3,1],7.86,17,8,7.67,17,8]]};

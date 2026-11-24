@@ -1,0 +1,1 @@
+LINEUPS["New Mexico St"] = {"players":["Jahmar Young","Hernst Laroche","Wendell McKines","Jonathan Gibson","Troy Gillenwater","Hamidu Rahman","Gordo Castillo"],"rows":[[15,[1,0,3,4,2],8.26,4,12,8.03,2,10],[24,[6,5,1,0,2],8.67,13,5,7.68,11,5]]};

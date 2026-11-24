@@ -1,0 +1,1 @@
+LINEUPS_ADD["Boston College"] = {"players":["Jared Dudley","Craig Smith","Louis Hinnant","Sean Marshall","Tyrese Rice","Sean Williams"],"rows":[[32,[1,0,2,5,4],13.88,23,11,13.51,21,11],[34,[1,0,2,3,5],7.54,8,9,7.54,8,9]]};

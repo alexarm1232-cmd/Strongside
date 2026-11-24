@@ -1,0 +1,1 @@
+LINEUPS["California"] = {"players":["Ayinde Ubaka","Richard Midgley","Leon Powe","Omar Wilkes","DeVon Hardin","Theo Robertson"],"rows":[[22,[0,2,3,1,5],6.9,7,7,6.9,7,7],[22,[0,4,2,1,5],6.85,6,7,6.85,6,7],[28,[0,4,2,1,5],7.44,7,7,7.44,7,7]]};

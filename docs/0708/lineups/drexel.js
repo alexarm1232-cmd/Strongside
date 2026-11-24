@@ -1,0 +1,1 @@
+LINEUPS["Drexel"] = {"players":["Scott Rodgers","Tramayne Hawthorne","Frank Elegar","Randy Oveneke","Gerald Colds","Jamie Harris"],"rows":[[0,[2,4,5,0,1],32.05,0,0,32.05,0,0],[24,[2,5,3,0,1],8.22,6,6,8.22,6,6]]};

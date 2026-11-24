@@ -1,0 +1,1 @@
+LINEUPS["Michigan St"] = {"players":["Shannon Brown","Maurice Ager","Drew Neitzel","Paul Davis","Matt Trannon","Goran Suton","Marquise Gray"],"rows":[[1,[2,5,1,3,0],8.4,6,6,8.4,6,6],[2,[2,5,1,3,0],8.19,14,11,8.19,14,11],[16,[2,4,1,3,0],7.33,4,4,7.33,4,4],[19,[2,6,4,1,0],31.48,42,28,31.23,42,28]]};

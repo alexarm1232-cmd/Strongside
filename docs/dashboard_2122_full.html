@@ -2383,7 +2383,8 @@ function simRotation(t, data, gap) {
 // TOURNAMENT_MOST minutes, and anyone left under TOURNAMENT_LEAST does not play.
 const TOURNAMENT_POWER = 1.4, TOURNAMENT_MOST = 38, TOURNAMENT_LEAST = 4;
 // Tournament games are also played a little slower: this share of the possessions the two teams would usually have
-const TOURNAMENT_PACE = 0.97;
+// (measured on every NCAA tournament game 2010-2026: 2% fewer possessions than the teams' tempos called for)
+const TOURNAMENT_PACE = 0.98;
 function simUnit(t, out, proj, rotation, tournament) {
   const L = SIM_LEAGUE, games = t.sched.length || 1;
   const more = {};
@@ -4477,18 +4478,25 @@ function pitUnit(block) {
 // the play-type matchup (A.style) on every game: 1.71 points off the closing lines against 2.14, and a smaller miss on
 // the final margins, so they set the level, as in the game simulator. (The tournament inputs carry no play types for
 // each player, so possessions here are played by shot zone; the average margin is the same either way.)
+// Pace: the two teams' tempos (each adjusted for its opponents, Spreadstat.adjusted_tempos) less the league's, slowed
+// by TS_PACE because tournament games run slower: they averaged 2% fewer possessions than the teams' tempos called for
+// (as kenpom.com has found too). TS_STRETCH widens the gap between the two offenses' targets (the total stays the
+// same): the ratings' spreads ran narrow, and every season, chosen with itself left out, came out at 1.08 (1.534 ->
+// 1.437 points off the closing lines, final-margin miss 8.999 -> 8.969).
+const TS_PACE = 0.98, TS_STRETCH = 1.08;
 function pitGame({ league, a, b, games }) {
   SIM_LEAGUE = pitLeague(league);
   const A = pitUnit(a), B = pitUnit(b), avg = SIM_LEAGUE.avg;
-  const matchups = [simMatchup(A, B, (A.o + B.d - avg) / 100), simMatchup(B, A, (B.o + A.d - avg) / 100)];
-  const pace = A.tempo + B.tempo - SIM_LEAGUE.t, acc = simAcc([A.count, B.count]);
+  const ta = (A.o + B.d - avg) / 100, tb = (B.o + A.d - avg) / 100, widen = (ta - tb) * (TS_STRETCH - 1) / 2;
+  const matchups = [simMatchup(A, B, ta + widen), simMatchup(B, A, tb - widen)];
+  const pace = (A.tempo + B.tempo - SIM_LEAGUE.t) * TS_PACE, acc = simAcc([A.count, B.count]);
   simPlay(acc, [simSide(A, matchups[0]), simSide(B, matchups[1])], pace, games, -1);
   const t = acc.tally, mean = (t[4] + t[5]) / t[0];
   return { mean, win: t[1] / t[0] };
 }
 const tsWorkerSource = () => [
   `let SIM_LEAGUE = null;`,
-  `const SIM_STATS = ${SIM_STATS}, ZONE_POINTS = ${JSON.stringify(ZONE_POINTS)}, ASSIST_BY_ZONE = ${JSON.stringify(ASSIST_BY_ZONE)}, SCORE_EFFECT = ${SCORE_EFFECT}, INJURY_STEADY_MINUTES = ${INJURY_STEADY_MINUTES};`,
+  `const SIM_STATS = ${SIM_STATS}, ZONE_POINTS = ${JSON.stringify(ZONE_POINTS)}, ASSIST_BY_ZONE = ${JSON.stringify(ASSIST_BY_ZONE)}, SCORE_EFFECT = ${SCORE_EFFECT}, INJURY_STEADY_MINUTES = ${INJURY_STEADY_MINUTES}, TS_PACE = ${TS_PACE}, TS_STRETCH = ${TS_STRETCH};`,
   `const between = ${between.toString()};`, `const sumOf = ${sumOf.toString()};`,
   gauss, pickIndex, simSide, simTipoff, simPossession, simAcc, simPlay, simMatchup, pitLeague, pitUnit, pitGame,
   `onmessage = e => { const result = pitGame(e.data); result.i = e.data.i; postMessage(result); };`].map(String).join('\n');

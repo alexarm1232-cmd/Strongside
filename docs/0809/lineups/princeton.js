@@ -1,0 +1,1 @@
+LINEUPS["Princeton"] = {"players":["Douglas Davis","Dan Mavraides","Patrick Saunders","Kareem Maddox","Zach Finley","John Comfort","Max Huc"],"rows":[[1,[1,0,3,6,4],6.61,4,7,6.61,4,7],[18,[1,0,5,2,4],6.65,4,11,6.65,4,11]]};

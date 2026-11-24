@@ -1,0 +1,1 @@
+LINEUPS["Texas Tech"] = {"players":["Jarrius Jackson","Martin Zeno","Charlie Burgess","Darryl Dora","Alan Voskuil","Michael Prince"],"rows":[[24,[2,3,0,1,5],8.53,12,12,8.53,12,12],[24,[4,2,0,1,5],8.59,8,10,8.59,8,10]]};

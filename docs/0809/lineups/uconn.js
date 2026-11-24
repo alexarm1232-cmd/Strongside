@@ -1,0 +1,1 @@
+LINEUPS["UConn"] = {"players":["Jeff Adrien","Hasheem Thabeet","A.J. Price","Kemba Walker","Craig Austrie","Stanley Robinson","Gavin Edwards","Donnell Beverly","Scottie Haralson"],"rows":[[29,[2,1,0,3,5],8.51,10,10,8.51,10,10],[29,[2,6,1,0,3],8.42,6,6,8.42,6,6],[29,[2,4,7,3,8],8.07,7,17,7.93,7,17]]};

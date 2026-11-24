@@ -1,0 +1,1 @@
+LINEUPS["Cleveland St"] = {"players":["Raheem Moss","Patrick Tatham","Joe Davis","Victor Morris","Bahaadar Russell","Breyhon Watson","Renard Fields"],"rows":[[18,[4,1,0,6,3],7.87,9,10,7.87,9,10],[22,[5,2,1,0,3],26.64,28,35,25.75,28,35]]};

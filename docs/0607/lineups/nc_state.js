@@ -1,0 +1,1 @@
+LINEUPS["NC State"] = {"players":["Gavin Grant","Ben McCauley","Brandon Costner","Courtney Fells","Engin Atsur","Dennis Horner","Trevor Ferguson","Darrell Davis"],"rows":[[12,[1,2,3,0,6],34.85,41,42,34.85,41,42],[12,[1,2,7,5,0],8.61,18,16,8.61,18,16],[20,[1,2,3,4,0],31.0,22,39,31.0,22,39],[28,[1,2,3,4,0],41.28,56,46,41.28,56,46]]};

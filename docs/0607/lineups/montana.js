@@ -1,0 +1,1 @@
+LINEUPS["Montana"] = {"players":["Matt Dlouhy","Andrew Strait","Bryan Ellis","Cameron Rundles","Matt Martin","Stuart Mayes","Mike Chavez"],"rows":[[14,[1,2,0,4,6],8.2,9,5,8.2,9,5],[26,[1,2,3,6,5],6.87,12,5,6.78,12,5]]};

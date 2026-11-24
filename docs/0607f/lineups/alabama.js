@@ -1,0 +1,1 @@
+LINEUPS_ADD["Alabama"] = {"players":["Mykal Riley","Jermareo Davidson","Richard Hendrix","Brandon Hollinger","Demetrius Jemison","Justin Tubbs","Mikhail Torrance"],"rows":[[31,[3,4,1,6,0],8.83,4,6,8.83,4,6]]};

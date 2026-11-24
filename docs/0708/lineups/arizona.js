@@ -1,0 +1,1 @@
+LINEUPS["Arizona"] = {"players":["Chase Budinger","Jawann McClellan","Jerryd Bayless","Jordan Hill","Nic Wise","Jamelle Horne","Zane Johnson"],"rows":[[6,[0,1,2,3,4],8.62,17,11,8.47,17,11],[13,[0,1,3,4,6],7.42,4,9,7.4,4,9],[24,[0,5,1,2,3],27.84,41,32,27.63,41,30]]};

@@ -1,0 +1,1 @@
+LINEUPS["Illinois St"] = {"players":["Osiris Eldridge","Chamberlain Emeka Oguchi","Emmanuel Holloway","Lloyd Phillips","Dinma Odiakosa","Brandon Sampay"],"rows":[[22,[1,4,2,3,0],7.92,11,8,7.92,11,8],[23,[5,1,2,3,0],8.09,13,15,8.09,13,15],[28,[5,1,2,3,0],14.78,12,14,14.78,12,14],[32,[5,1,2,3,0],6.77,9,13,6.77,9,13]]};

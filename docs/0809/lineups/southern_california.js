@@ -1,0 +1,1 @@
+LINEUPS["Southern California"] = {"players":["Daniel Hackett","Taj Gibson","Dwight Lewis","DeMar DeRozan","Keith Wilkinson","Marcus Simmons"],"rows":[[15,[0,3,2,4,1],28.03,42,23,27.14,42,21],[26,[0,3,2,5,1],7.54,13,16,7.54,13,16]]};

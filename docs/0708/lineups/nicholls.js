@@ -1,0 +1,1 @@
+LINEUPS["Nicholls"] = {"players":["Ryan Bathie","Dominic Friend","Justin Payne","Anatoly Bose","Adonis Gray","Gil Verner","Mitch Boyce"],"rows":[[19,[4,3,1,6,0],8.7,10,10,8.7,10,10],[19,[4,3,5,2,0],8.31,9,11,8.31,9,11]]};

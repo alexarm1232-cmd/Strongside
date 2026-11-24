@@ -1,0 +1,1 @@
+LINEUPS["Southern California"] = {"players":["Nick Young","Taj Gibson","Lodrick Stewart","Gabe Pruitt","Daniel Hackett","Keith Wilkinson","Kyle Austin"],"rows":[[7,[4,6,2,0,1],37.03,58,36,36.53,57,31],[12,[3,5,2,0,1],15.46,22,15,15.46,22,15],[29,[3,5,2,0,1],8.05,6,6,8.05,6,6],[29,[4,3,5,2,1],8.05,16,18,8.05,16,18],[30,[4,3,2,0,1],8.48,14,10,8.29,14,4]]};

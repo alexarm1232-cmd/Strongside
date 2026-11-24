@@ -1,0 +1,1 @@
+LINEUPS["Texas Southern"] = {"players":["Sollie Norwood","Matthew Miller","David Burrell","A Ike","Kevin Abanobi","Onyekautukwu Abiakam","Damian Henderson"],"rows":[[4,[3,2,4,1,0],66.49,35,83,43.1,22,60],[25,[6,2,1,5,0],8.39,9,8,8.39,9,8]]};

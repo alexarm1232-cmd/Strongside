@@ -1,0 +1,1 @@
+LINEUPS["UAB"] = {"players":["Robert Vaden","Paul Delaney III","Lawrence Kinnard","Channing Toney","Aaron Johnson","Terrence Roderick","Ed Berrios"],"rows":[[6,[6,2,1,0,5],8.35,6,5,8.35,6,5],[21,[4,3,2,1,0],7.37,6,4,7.37,6,4],[31,[4,3,2,1,0],8.28,10,9,8.28,10,9]]};

@@ -1,0 +1,1 @@
+LINEUPS["Utah"] = {"players":["Shaun Green","Luke Nevill","Johnnie Bryant","Lawrence Borha","Tyler Kepkay","Luka Drca","Kim Tillie"],"rows":[[13,[2,5,1,0,4],6.73,4,12,6.51,2,12],[27,[2,6,3,5,1],8.3,10,8,8.3,10,8]]};

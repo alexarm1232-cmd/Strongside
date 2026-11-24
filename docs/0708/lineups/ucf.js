@@ -1,0 +1,1 @@
+LINEUPS["UCF"] = {"players":["Jermaine Taylor","Dave Noel","Mike O'Donnell","Chip Cartwright","Tony Davis","Stanley Billings","Jean Michel Yotio"],"rows":[[15,[3,1,0,2,5],8.44,7,7,8.44,7,7],[15,[3,6,0,2,5],8.27,12,6,8.16,12,4],[17,[3,1,0,2,4],7.64,5,7,7.64,5,7]]};

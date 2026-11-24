@@ -1,0 +1,1 @@
+LINEUPS["Penn St"] = {"players":["Talor Battle","David Jackson","Stanley Pringle","Danny Morrissey","Andrew Jones","Mike Walker","Geary Claxton"],"rows":[[7,[4,1,6,5,0],8.05,14,11,8.05,14,11],[29,[4,3,1,2,0],7.92,10,6,7.92,10,6]]};

@@ -1,0 +1,1 @@
+LINEUPS["Navy"] = {"players":["Greg Sprink","Chris Harris","Kaleo Kina","Adam Teague","Romeo Garcia","Clif Colbert","T.J. Topercer"],"rows":[[27,[1,0,2,4,6],17.08,16,16,17.08,16,16],[27,[3,1,5,2,6],8.54,11,12,8.54,11,12]]};

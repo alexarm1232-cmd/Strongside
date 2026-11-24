@@ -1,0 +1,1 @@
+LINEUPS["Rhode Island"] = {"players":["Jimmy Baron","Kahiem Seawright","Marquis Jones","Delroy James","Keith Cothran","Lamonte Ulmer","Will Martell"],"rows":[[15,[3,0,4,2,6],8.17,6,12,8.17,6,12],[19,[3,0,1,5,2],17.6,26,21,17.6,26,21],[21,[3,0,1,5,2],8.95,18,8,8.1,16,6]]};

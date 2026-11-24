@@ -1,0 +1,1 @@
+LINEUPS["Miami (OH)"] = {"players":["Tim Pollitz","Nathan Peavy","Michael Bramos","Alex Moosmann","Doug Penno","Eric Pollitz"],"rows":[[16,[3,4,5,2,1],7.41,9,6,7.41,9,6],[25,[4,5,2,1,0],6.9,6,4,6.9,6,4]]};

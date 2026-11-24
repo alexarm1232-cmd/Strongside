@@ -1,0 +1,1 @@
+LINEUPS["Mississippi St"] = {"players":["Barry Stewart","Jamont Gordon","Ben Hansbrough","Jarvis Varnado","Charles Rhodes"],"rows":[[25,[0,2,4,1,3],32.78,47,43,31.05,44,37],[27,[0,2,4,1,3],9.25,11,12,9.25,11,12],[28,[0,2,4,1,3],38.18,42,32,37.63,42,30],[29,[0,2,4,1,3],41.69,40,31,41.69,40,31]]};

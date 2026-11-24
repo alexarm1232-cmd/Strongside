@@ -1,0 +1,1 @@
+LINEUPS["Vanderbilt"] = {"players":["Shan Foster","Alex Gordon","Jermaine Beal","Ross Neltner","A.J. Ogilvy","Darshawn McClellan","Alan Metcalfe"],"rows":[[9,[4,1,2,3,0],9.15,12,6,9.15,12,6],[16,[6,1,5,2,0],8.11,1,7,8.08,1,7]]};

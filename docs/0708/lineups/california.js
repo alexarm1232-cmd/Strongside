@@ -1,0 +1,1 @@
+LINEUPS["California"] = {"players":["Patrick Christopher","Ryan Anderson","Jerome Randle","Eric Vierneisel","DeVon Hardin","Jamal Boykin"],"rows":[[15,[4,5,2,0,1],7.91,4,4,7.91,4,4],[15,[4,3,2,0,1],7.91,5,14,7.78,5,12]]};

@@ -1,0 +1,1 @@
+LINEUPS["Fresno St"] = {"players":["Paul George","Nedeljko Golubovic","Sylvester Seay","Mike Ladd","Dwight O'Neil","Bryce Cartwright"],"rows":[[12,[5,4,1,0,2],8.95,14,11,8.95,14,11],[24,[5,3,1,0,2],8.67,5,13,7.68,5,11]]};

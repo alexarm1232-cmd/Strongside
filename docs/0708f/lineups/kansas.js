@@ -1,0 +1,1 @@
+LINEUPS_ADD["Kansas"] = {"players":["Mario Chalmers","Brandon Rush","Russell Robinson","Darrell Arthur","Darnell Jackson","Sherron Collins","Rodrick Stewart"],"rows":[[37,[1,4,3,0,5],7.53,12,5,7.53,12,5]]};

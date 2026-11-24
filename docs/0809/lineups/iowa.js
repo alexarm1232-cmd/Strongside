@@ -1,0 +1,1 @@
+LINEUPS["Iowa"] = {"players":["Matt Gatens","Jake Kelly","Devan Bawinkel","Jarryd Cole","Aaron Fuller","Cyrus Tate"],"rows":[[26,[4,2,1,3,0],6.69,14,4,6.15,12,2],[30,[5,2,1,3,0],13.68,27,19,13.56,27,19]]};

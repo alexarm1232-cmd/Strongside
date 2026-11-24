@@ -1,0 +1,1 @@
+LINEUPS["UNI"] = {"players":["Kwadzo Ahelegbe","Johnny Moran","Ali Farokhmanesh","Adam Koch","Lucas O'Rear","Travis Brown","Kerwin Dunham"],"rows":[[6,[3,2,1,6,0],8.11,4,9,8.11,4,9],[27,[3,2,1,4,5],14.78,14,12,14.78,14,12],[31,[3,2,0,4,5],6.77,13,9,6.77,13,9]]};

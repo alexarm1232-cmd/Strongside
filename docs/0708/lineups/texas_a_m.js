@@ -1,0 +1,1 @@
+LINEUPS["Texas A&M"] = {"players":["Dominique Kirk","Donald Sloan","Josh Carter","Joseph Jones","Bryan Davis","Derrick Roland"],"rows":[[16,[4,0,1,3,2],8.95,12,12,8.95,12,12],[16,[4,5,0,1,2],8.95,9,9,8.95,9,9]]};

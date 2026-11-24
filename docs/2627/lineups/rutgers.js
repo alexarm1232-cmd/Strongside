@@ -1,0 +1,1 @@
+LINEUPS["Rutgers"] = {"players":[],"rows":[]};

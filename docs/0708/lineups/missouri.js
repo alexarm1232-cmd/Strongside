@@ -1,0 +1,1 @@
+LINEUPS["Missouri"] = {"players":["Keon Lawrence","Matt Lawrence","Leo Lyons","Jason Horton","J.T. Tiller","Darryl Butterfield","Justin Safford","Vaidotas Volkus"],"rows":[[19,[4,6,0,1,7],34.11,32,34,33.94,30,34],[28,[3,4,0,2,1],7.6,7,7,7.6,7,7],[28,[5,3,4,0,2],7.6,12,6,7.6,12,6]]};

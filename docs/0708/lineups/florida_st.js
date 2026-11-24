@@ -1,0 +1,1 @@
+LINEUPS["Florida St"] = {"players":["Toney Douglas","Jason Rich","Ralph Mims","Uche Echefu","Isaiah Swann","Ryan Reid"],"rows":[[16,[4,1,2,0,3],14.71,18,30,14.53,18,30],[30,[1,2,5,0,3],8.44,9,6,8.24,9,6],[31,[1,2,5,0,3],33.63,39,34,33.23,39,32]]};

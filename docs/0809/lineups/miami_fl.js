@@ -1,0 +1,1 @@
+LINEUPS["Miami (FL)"] = {"players":["Jack McClinton","Lance Hurdle","James Dews","Brian Asbury","Dwayne Collins","Adrian Thomas"],"rows":[[17,[5,3,4,0,2],8.45,6,11,8.39,6,11],[18,[5,3,4,0,1],8.04,11,14,8.04,11,14]]};

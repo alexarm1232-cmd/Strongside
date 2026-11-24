@@ -1,0 +1,1 @@
+LINEUPS["Central Mich"] = {"players":["Robbie Harman","Jacolby Hardiman","Jeremy Allen","Marcus Van","Jordan Bitzer","Antonio Weary","Adrian Hunter","Brandon Ford"],"rows":[[3,[6,5,1,2,0],7.8,11,9,7.8,11,9],[26,[5,1,4,3,0],25.99,6,6,25.99,6,6],[30,[7,1,4,3,0],7.01,9,12,7.01,9,12]]};

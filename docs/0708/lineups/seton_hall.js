@@ -1,0 +1,1 @@
+LINEUPS["Seton Hall"] = {"players":["Brian Laing","Eugene Harvey","Jamar Nutter","Jeremy Hazell","Larry Davis","Paul Gause"],"rows":[[19,[0,1,2,4,5],7.66,17,4,7.18,15,4],[24,[0,1,2,3,4],35.94,30,45,35.94,30,45]]};

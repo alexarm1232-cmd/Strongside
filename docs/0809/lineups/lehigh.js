@@ -1,0 +1,1 @@
+LINEUPS["Lehigh"] = {"players":["Marquis Hall","Zahir Carrington","Rob Keefer","Phil Anderson","Dave Buchberger","Matt Szalachowski"],"rows":[[23,[4,0,3,2,1],8.19,10,10,8.19,10,10],[23,[4,0,5,3,2],8.19,2,9,8.19,2,9]]};

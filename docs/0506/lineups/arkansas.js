@@ -1,0 +1,1 @@
+LINEUPS["Arkansas"] = {"players":["Ronnie Brewer","Jonathon Modica","Eric Ferguson","Dontell Jefferson","Darian Townes","Charles Thomas","Steven Hill"],"rows":[[16,[4,3,2,0,6],8.16,8,11,8.16,8,11],[24,[5,2,1,0,6],9.38,12,8,9.38,12,8]]};

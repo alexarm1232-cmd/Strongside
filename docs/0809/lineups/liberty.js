@@ -1,0 +1,1 @@
+LINEUPS["Liberty"] = {"players":["Seth Curry","Anthony Smith","Kyle Ohman","Jesse Sanders","Brolin Floyd","Johnny Stephene","Tyler Baker"],"rows":[[3,[1,3,5,2,0],8.16,8,5,8.16,8,5],[16,[1,4,2,0,6],8.63,8,8,8.63,8,8]]};

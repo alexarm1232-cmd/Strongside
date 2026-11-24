@@ -1,0 +1,1 @@
+LINEUPS["Harvard"] = {"players":["Jeremy Lin","Drew Housman","Peter Boehm","Oliver McNally","Keith Wright","Andrew Pusar","Max Kenyi"],"rows":[[6,[1,0,4,6,2],14.46,9,14,14.46,9,14],[24,[5,1,0,4,3],31.62,5,5,31.62,5,5]]};

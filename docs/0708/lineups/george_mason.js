@@ -1,0 +1,1 @@
+LINEUPS["George Mason"] = {"players":["Will Thomas","John Vaughan","Folarin Campbell","Dre Smith","Louis Birdsong","Vlad Moldoveanu"],"rows":[[16,[3,2,1,5,0],7.79,8,8,7.79,8,8],[16,[3,2,1,4,0],7.81,13,6,7.79,11,6]]};

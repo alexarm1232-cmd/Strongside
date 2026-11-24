@@ -1,0 +1,1 @@
+LINEUPS["Western Mich"] = {"players":["Michael Redell","Joe Reitz","Shawntes Gary","David Kool","Derek Fracalossi","Derek Drews"],"rows":[[21,[3,5,4,1,2],8.43,11,16,8.43,11,16],[24,[3,5,4,1,2],8.74,14,5,8.15,12,3],[26,[3,5,1,0,2],8.5,7,11,8.5,7,11]]};

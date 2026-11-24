@@ -1,0 +1,1 @@
+LINEUPS["Clemson"] = {"players":["Cliff Hammonds","K.C. Rivers","Trevor Booker","James Mays","Terrence Oglesby","Sam Perry"],"rows":[[14,[0,3,1,4,2],6.87,19,7,6.69,19,7],[16,[0,3,1,5,4],8.84,15,10,8.84,15,10]]};

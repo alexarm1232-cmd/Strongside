@@ -1,6 +1,11 @@
 // Written by dashboard/main.py: the seasons with a page built, newest first
 window.STRONGSIDE_SEASONS = [
  {
+  "label": "2026-27",
+  "pre": "dashboard_2627.html",
+  "full": null
+ },
+ {
   "label": "2025-26",
   "pre": "dashboard.html",
   "full": "dashboard_full.html"
@@ -84,5 +89,25 @@ window.STRONGSIDE_SEASONS = [
   "label": "2009-10",
   "pre": "dashboard_0910.html",
   "full": "dashboard_0910_full.html"
+ },
+ {
+  "label": "2008-09",
+  "pre": "dashboard_0809.html",
+  "full": "dashboard_0809_full.html"
+ },
+ {
+  "label": "2007-08",
+  "pre": "dashboard_0708.html",
+  "full": "dashboard_0708_full.html"
+ },
+ {
+  "label": "2006-07",
+  "pre": "dashboard_0607.html",
+  "full": "dashboard_0607_full.html"
+ },
+ {
+  "label": "2005-06",
+  "pre": "dashboard_0506.html",
+  "full": "dashboard_0506_full.html"
  }
 ];

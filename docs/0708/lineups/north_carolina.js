@@ -1,0 +1,1 @@
+LINEUPS["North Carolina"] = {"players":["Tyler Hansbrough","Wayne Ellington","Marcus Ginyard","Danny Green","Deon Thompson","Ty Lawson","Quentin Thomas"],"rows":[[14,[3,2,5,0,1],10.03,9,7,10.03,9,7],[20,[3,4,2,6,0],8.49,17,6,7.92,15,4],[22,[3,4,6,0,1],18.04,21,11,17.48,20,11]]};

@@ -1,0 +1,1 @@
+LINEUPS["Marquette"] = {"players":["Jerel McNeal","Wesley Matthews","Lazar Hayward","Dominic James","Jimmy Butler","Dwight Burke","Maurice Acker"],"rows":[[18,[3,5,0,2,1],35.47,31,36,34.43,28,32],[19,[3,0,2,6,1],33.88,38,34,33.57,38,34],[30,[0,4,2,6,1],8.12,6,13,8.04,6,13]]};

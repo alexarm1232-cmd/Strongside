@@ -1,0 +1,1 @@
+LINEUPS["NC State"] = {"players":["Engin Atsur","Tony Bethel","Cameron Bennerman","Ilian Evtimov","Cedric Simmons","Gavin Grant"],"rows":[[19,[2,4,5,3,1],7.51,15,6,7.51,15,6],[22,[2,0,5,3,1],7.68,10,10,7.68,10,10],[27,[2,4,0,3,1],6.98,1,3,6.98,1,3]]};

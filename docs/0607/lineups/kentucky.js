@@ -1,0 +1,1 @@
+LINEUPS["Kentucky"] = {"players":["Joe Crawford","Randolph Morris","Bobby Perry","Jodie Meeks","Derrick Jasper","Sheray Thomas"],"rows":[[17,[2,4,3,0,1],7.84,4,13,7.61,4,11],[29,[2,3,0,1,5],9.13,6,8,9.13,6,8]]};

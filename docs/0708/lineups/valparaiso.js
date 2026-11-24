@@ -1,0 +1,1 @@
+LINEUPS["Valparaiso"] = {"players":["Jake Diebler","Shawn Huff","Urule Igbavboa","Brandon McPherson","Jarryd Loyd","Michael Rogers"],"rows":[[24,[3,0,4,1,2],8.08,12,12,8.08,12,12],[24,[0,4,5,1,2],8.08,12,7,8.08,12,7],[27,[3,0,5,1,2],7.7,8,6,7.7,8,6]]};

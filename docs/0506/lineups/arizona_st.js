@@ -1,0 +1,1 @@
+LINEUPS["Arizona St"] = {"players":["Kevin Kruger","Bryson Krueger","Antwi Atuahene","Serge Angounou","Sylvester Seay","Craig Austin","Chad Goldstein"],"rows":[[13,[2,1,5,0,3],7.93,8,6,7.93,8,6],[21,[2,1,5,0,4],6.9,7,7,6.9,7,7],[21,[1,6,5,0,4],6.85,7,6,6.85,7,6]]};

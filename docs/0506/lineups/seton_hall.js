@@ -1,0 +1,1 @@
+LINEUPS["Seton Hall"] = {"players":["Kelly Whitney","Donald Copeland","Jamar Nutter","Brian Laing","Stan Gaines","Paul Gause"],"rows":[[11,[1,2,0,5,4],7.86,14,6,7.02,11,4],[15,[3,1,2,0,5],8.62,16,11,8.62,16,11]]};

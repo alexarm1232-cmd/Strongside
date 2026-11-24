@@ -1,0 +1,1 @@
+LINEUPS["Coppin St"] = {"players":["Tywain McKee","Robert Pressey","Antwan Harrison","A'Daeron Duncan","Julian Conyers","Eddie Hayden"],"rows":[[7,[3,5,4,1,0],26.01,17,22,25.73,17,22],[30,[3,2,4,1,0],8.05,4,3,8.05,4,3]]};

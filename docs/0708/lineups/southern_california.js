@@ -1,0 +1,1 @@
+LINEUPS["Southern California"] = {"players":["O.J. Mayo","Dwight Lewis","Taj Gibson","Daniel Hackett","Davon Jefferson","Angelo Johnson","Keith Wilkinson"],"rows":[[8,[5,3,4,1,0],8.84,4,8,8.84,4,8],[17,[5,3,6,0,2],8.04,21,12,7.6,18,10],[18,[5,4,1,0,2],31.8,38,46,31.13,34,45],[25,[3,4,1,0,2],29.29,33,30,28.36,31,30]]};

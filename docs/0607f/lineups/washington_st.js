@@ -1,0 +1,1 @@
+LINEUPS_ADD["Washington St"] = {"players":["Derrick Low","Kyle Weaver","Robbie Cowgill","Daven Harmeling","Ivory Clark","Taylor Rochestie","Aron Baynes","Nikola Koprivica","Chris Matthews"],"rows":[[33,[6,0,1,2,5],7.91,9,9,7.91,9,9]]};

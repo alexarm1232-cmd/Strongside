@@ -1,0 +1,1 @@
+LINEUPS["Furman"] = {"players":["Jordan Miller","Justin Dehm","Brandon Sebirumbi","Noah States","Bryson Barnes","Alex Opacic","Tony Anderson"],"rows":[[11,[5,2,0,1,3],8.11,7,12,8.03,7,12],[23,[5,4,1,3,6],8.7,8,11,8.7,8,11]]};

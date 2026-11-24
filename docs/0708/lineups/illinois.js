@@ -1,0 +1,1 @@
+LINEUPS["Illinois"] = {"players":["Chester Frazier","Trent Meacham","Demetri McCamey","Shaun Pruitt","Calvin Brock","Mike Tisdale","Jeff Jordan"],"rows":[[9,[4,0,2,5,3],7.18,6,9,7.18,6,9],[22,[4,2,6,3,1],15.65,16,20,15.65,16,20]]};

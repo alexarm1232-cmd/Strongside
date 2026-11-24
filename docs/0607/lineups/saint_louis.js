@@ -1,0 +1,1 @@
+LINEUPS["Saint Louis"] = {"players":["Tommie Liddell","Kevin Lisch","Luke Meyer","Ian Vouyoukas","Danny Brown","Justin Johnson"],"rows":[[28,[4,3,1,2,0],6.75,9,9,6.75,9,9],[30,[3,5,1,2,0],7.92,9,6,7.92,9,6]]};

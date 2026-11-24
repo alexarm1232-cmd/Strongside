@@ -1,0 +1,1 @@
+LINEUPS["Austin Peay"] = {"players":["Derek Wright","Fernandez Lockett","Drake Reed","Todd Babington","Wesley Channels","Kyle Duncan"],"rows":[[21,[0,2,1,5,4],10.38,11,11,10.38,11,11],[21,[0,2,1,5,3],10.28,9,9,10.28,9,9],[22,[0,2,1,3,4],8.72,16,11,8.72,16,11]]};

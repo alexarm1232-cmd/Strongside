@@ -1,0 +1,1 @@
+LINEUPS["Brown"] = {"players":["Peter Sullivan","Chris Skrelja","Adrian Williams","Matt Mullery","Scott Friske","Sean Kane"],"rows":[[18,[2,1,3,0,4],33.77,27,28,33.77,27,28],[18,[2,3,0,4,5],8.44,6,8,8.44,6,8]]};

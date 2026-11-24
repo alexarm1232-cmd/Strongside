@@ -1,0 +1,1 @@
+LINEUPS["Miami (OH)"] = {"players":["Tyler Dierkers","Michael Bramos","Adam Fletcher","Antonio Ballard","Carl Richburg"],"rows":[[27,[2,3,4,1,0],7.33,10,5,7.33,10,5],[28,[2,3,4,1,0],7.71,8,9,4.19,2,2]]};

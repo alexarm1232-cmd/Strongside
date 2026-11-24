@@ -1,0 +1,1 @@
+LINEUPS["Texas A&M"] = {"players":["Acie Law","Dominique Kirk","Josh Carter","Antanas Kavaliauskas","Joseph Jones","Marlon Pompey","Chinemelu Elonu"],"rows":[[28,[0,3,6,1,5],8.23,8,10,8.23,8,10],[30,[0,3,1,4,2],31.0,28,33,31.0,28,33]]};

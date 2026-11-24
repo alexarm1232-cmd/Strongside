@@ -1,0 +1,1 @@
+LINEUPS["Saint Louis"] = {"players":["Kevin Lisch","Tommie Liddell","Kwamain Mitchell","Brian Conklin","Willie Reed","Barry Eberhardt","Kyle Cassity","Paul Eckerle"],"rows":[[0,[3,0,2,1,4],8.03,15,17,8.03,15,17],[21,[0,2,6,1,4],7.46,4,4,7.46,4,4],[21,[5,0,2,7,4],7.46,9,9,7.46,9,9],[21,[3,0,2,1,4],6.62,14,1,6.1,13,1]]};

@@ -1,0 +1,1 @@
+LINEUPS["ETSU"] = {"players":["Courtney Pigram","Kevin Tiggs","Andrew Reed","Mike Smith","Kenyona Swader","Travis Strong","Jocolby Davis","Dequan Twilley","Blake Mishler"],"rows":[[2,[8,0,7,4,1],9.2,6,7,9.2,6,7],[27,[2,6,4,3,5],9.65,15,9,9.65,15,9]]};

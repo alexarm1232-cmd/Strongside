@@ -1,0 +1,1 @@
+LINEUPS["Louisiana"] = {"players":["Travis Bureau","Tyren Johnson","Chris Gradnigo","Ryan McCoy","La'Ryan Gary","Randell Daigle","Jeremy Barr","Lamar Roberson","Brandon Dison"],"rows":[[3,[8,6,3,0,1],8.23,13,9,8.23,13,9],[11,[2,7,4,5,1],14.05,12,11,14.05,12,11]]};

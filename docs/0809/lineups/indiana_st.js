@@ -1,0 +1,1 @@
+LINEUPS["Indiana St"] = {"players":["Rashad Reed","Jay Tunnell","Carl Richard","Jordan Printy","Harry Marshall","Aaron Carter"],"rows":[[10,[5,2,4,1,0],15.02,20,22,15.02,20,22],[14,[5,2,1,3,0],7.67,14,9,7.67,14,9],[22,[2,4,1,3,0],8.09,15,13,8.09,15,13]]};

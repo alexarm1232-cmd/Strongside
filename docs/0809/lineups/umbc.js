@@ -1,0 +1,1 @@
+LINEUPS["UMBC"] = {"players":["Darryl Proctor","Jay Greene","Matt Spadafora","Chauncey Gilliam","Justin Fry","Brett Burrier"],"rows":[[16,[5,0,1,4,2],7.57,7,10,7.57,7,10],[17,[3,0,1,4,2],34.5,35,36,34.24,35,36],[21,[3,0,1,4,2],7.35,16,11,7.22,16,8]]};

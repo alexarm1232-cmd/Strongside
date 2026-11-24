@@ -1,0 +1,1 @@
+LINEUPS["Gonzaga"] = {"players":["Jeremy Pargo","Matt Bouldin","David Pendergraft","Micah Downs","Austin Daye","Steven Gray","Abdullahi Kuso","Josh Heytvelt"],"rows":[[6,[4,2,0,1,3],8.34,11,6,8.34,11,6],[20,[4,0,7,1,5],7.58,9,9,7.58,9,9],[20,[6,4,0,1,5],7.53,15,10,7.53,15,10]]};

@@ -1,0 +1,1 @@
+LINEUPS["Rice"] = {"players":["Lorenzo Williams","Morris Almond","Patrick Britton","Rodney Foster","Jamaal Moore","Paulius Packevicius"],"rows":[[3,[4,0,1,2,3],15.95,21,21,15.95,21,21],[3,[4,0,2,5,3],7.95,6,4,7.95,6,4]]};

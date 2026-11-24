@@ -1,0 +1,1 @@
+LINEUPS["Arizona St"] = {"players":["James Harden","Ty Abbott","Jeff Ayres","Derek Glasser","Jerren Shipp","Rihards Kuksiks","Eric Boateng"],"rows":[[2,[3,0,2,4,1],8.66,9,6,8.66,9,6],[14,[3,0,2,4,1],7.42,9,4,7.4,9,4],[15,[3,6,2,4,1],7.91,4,4,7.91,4,4],[15,[3,0,2,4,1],7.91,14,5,7.78,12,5],[21,[3,6,0,2,5],7.57,12,8,7.57,12,8]]};

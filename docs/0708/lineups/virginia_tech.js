@@ -1,0 +1,1 @@
+LINEUPS["Virginia Tech"] = {"players":["A.D. Vassallo","Deron Washington","Malcolm Delaney","Jeff Allen","Hank Thorns"],"rows":[[16,[0,1,4,3,2],8.63,7,6,8.63,7,6],[20,[0,1,4,3,2],8.07,18,11,7.53,18,9]]};

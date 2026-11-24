@@ -1,0 +1,1 @@
+LINEUPS["North Dakota St"] = {"players":["Ben Woodside","Brett Winkelman","Mike Nelson","Michael Tveidt","Lucas Moormann","Josh Vaughan","Eric Carlson"],"rows":[[5,[0,1,4,3,2],8.82,11,11,8.82,11,11],[5,[0,1,6,5,3],8.82,11,12,8.82,11,12]]};

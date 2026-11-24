@@ -1,0 +1,1 @@
+LINEUPS["Saint Joseph's"] = {"players":["Ahmad Nivins","Darrin Govens","Garrett Williamson","Tasheed Carr","Idris Hilliard"],"rows":[[12,[0,1,2,4,3],31.04,35,31,30.57,35,28],[13,[0,1,2,4,3],24.63,28,22,24.63,28,22]]};

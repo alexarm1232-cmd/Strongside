@@ -1,0 +1,1 @@
+LINEUPS["Canisius"] = {"players":["Frank Turner","Julius Coles","Tomas Vazquez-Simmons","Greg Logins","Elton Frazier","Robert Goldsberry","Rishawn Johnson","A.J. Hawkins"],"rows":[[17,[7,4,0,1,5],7.38,7,7,7.38,7,7],[17,[4,0,1,6,5],7.36,12,9,7.36,12,9],[26,[0,3,1,5,2],8.03,9,4,7.98,9,4]]};

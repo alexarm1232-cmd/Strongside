@@ -1,0 +1,1 @@
+LINEUPS["Bucknell"] = {"players":["Darryl Shazier","Bryan Cohen","Justin Castleberry","Patrick Behan","G.W. Boon","Josh Linthicum"],"rows":[[3,[1,0,5,2,3],16.0,14,13,16.0,14,13],[22,[1,0,4,2,3],8.83,8,10,8.83,8,10]]};

@@ -1,0 +1,1 @@
+SHOTS_ADD["Louisiana"] = {"players":[],"o":[],"d":[],"fives":{"players":["Brandon Dison","Jeremy Barr","Ryan McCoy","Travis Bureau","Tyren Johnson","Chris Gradnigo","Lamar Roberson","La'Ryan Gary","Randell Daigle"],"rows":[]}};

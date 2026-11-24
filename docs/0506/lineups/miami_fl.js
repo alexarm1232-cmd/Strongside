@@ -1,0 +1,1 @@
+LINEUPS["Miami (FL)"] = {"players":["Guillermo Diaz","Robert Hite","Anthony King","Anthony Harris","Gary Hamilton","Raymond Hicks","Jimmy Graham"],"rows":[[15,[2,0,6,5,1],7.8,15,9,7.8,15,9],[18,[3,2,4,0,1],7.68,10,10,7.68,10,10]]};

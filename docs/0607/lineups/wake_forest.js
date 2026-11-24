@@ -1,0 +1,1 @@
+LINEUPS["Wake Forest"] = {"players":["Ish Smith","Kyle Visser","L.D. Williams","Michael Drum","Harvey Hale","David Weaver","Cameron Stanley"],"rows":[[1,[4,0,1,2,3],8.64,11,8,8.64,11,8],[27,[6,5,4,1,2],9.48,15,13,9.48,15,13]]};

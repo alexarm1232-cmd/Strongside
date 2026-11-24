@@ -1,0 +1,1 @@
+LINEUPS["Temple"] = {"players":[],"rows":[]};

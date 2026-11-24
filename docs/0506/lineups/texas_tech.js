@@ -1,0 +1,1 @@
+LINEUPS["Texas Tech"] = {"players":["Jarrius Jackson","Martin Zeno","Darryl Dora","Dior Lowhorn","Jon Plefka","Michael Prince","Alan Voskuil","Terry Martin","LucQuente White"],"rows":[[3,[6,2,0,4,1],8.92,8,8,8.92,8,8],[3,[6,2,3,0,1],8.8,7,11,8.8,7,11],[12,[2,0,1,5,7],34.42,41,35,34.42,41,35],[19,[2,0,4,8,1],9.22,13,11,9.22,13,11]]};

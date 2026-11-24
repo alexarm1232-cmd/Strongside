@@ -1,0 +1,1 @@
+LINEUPS["USC Upstate"] = {"players":["Luke Payne","Bobby Davis","Mezie Uzochukwu","Jeremy Byrd","Gabor Boros","Matt Preston"],"rows":[[15,[4,3,0,5,2],8.49,8,10,8.49,8,10],[26,[1,4,3,0,2],9.65,9,15,9.65,9,15]]};

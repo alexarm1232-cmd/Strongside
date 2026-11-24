@@ -1,0 +1,1 @@
+LINEUPS["UIC"] = {"players":[],"rows":[]};

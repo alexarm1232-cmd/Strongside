@@ -1,0 +1,1 @@
+LINEUPS["Pittsburgh"] = {"players":["Levance Fields","Antonio Graves","Aaron Gray","Levon Kendall","Mike Cook","Ronald Ramon","Sam Young"],"rows":[[11,[2,1,0,3,6],7.92,6,6,7.92,6,6],[19,[2,1,3,4,5],8.57,10,13,8.57,10,13]]};

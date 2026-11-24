@@ -1,0 +1,1 @@
+LINEUPS["Temple"] = {"players":["Mark Tyndale","Dionte Christmas","Lavoy Allen","Ryan Brooks","Chris Clark","Luis Guzman"],"rows":[[3,[1,2,5,0,3],8.12,13,9,8.12,13,9],[15,[4,1,2,0,3],6.39,5,4,6.39,5,4]]};

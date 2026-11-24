@@ -1,0 +1,1 @@
+LINEUPS["UNI"] = {"players":["Ben Jacobson","Grant Stout","Brooks McKowen","John Little","Eric Coleman","Erik Crawford"],"rows":[[24,[0,4,5,1,3],6.79,5,5,6.79,5,5],[24,[0,2,4,1,3],6.56,9,5,6.56,9,5]]};

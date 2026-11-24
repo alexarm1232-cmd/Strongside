@@ -1,0 +1,1 @@
+LINEUPS["Dayton"] = {"players":["Brian Roberts","Charles Little","Marcus Johnson","Norman Plummer","Kurt Huelsman","Andres Sandoval"],"rows":[[27,[5,0,1,2,3],6.75,9,9,6.75,9,9],[27,[5,0,1,4,3],6.61,9,8,6.61,9,8]]};

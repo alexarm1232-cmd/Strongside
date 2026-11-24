@@ -1,0 +1,1 @@
+LINEUPS["Boise St"] = {"players":["Anthony Thomas","Mark Sanchez","Paul Noonan","Jamar Greene","La'Shard Anderson","Kurt Cunningham"],"rows":[[1,[0,5,4,1,2],9.04,12,10,8.95,12,10],[1,[0,3,5,4,1],8.98,18,10,8.98,18,10]]};

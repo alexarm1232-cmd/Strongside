@@ -1,0 +1,1 @@
+LINEUPS_ADD["Hartford"] = {"players":["Jaret von Rosenberg","Michael Turner","Morgan Sabia","Andres Torres","Genesis Maciel","Clayton Brothers","Anthony Minor","Joe Zeglinski","Drake U'u","David Bookman"],"rows":[]};

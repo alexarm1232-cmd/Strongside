@@ -1,0 +1,1 @@
+LINEUPS["Indiana"] = {"players":["Eric Gordon","D.J. White","Jamarcus Ellis","Armon Bassett","Lance Stemler"],"rows":[[16,[3,1,0,2,4],31.13,44,31,27.54,42,26],[21,[3,1,0,2,4],7.81,14,10,7.81,14,10]]};

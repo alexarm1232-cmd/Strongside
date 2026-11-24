@@ -1,0 +1,1 @@
+LINEUPS["Buffalo"] = {"players":["Greg Gamble","Andy Robinson","Calvin Betts","Rodney Pierce","Max Boudreau","Adekambi Laleye"],"rows":[[17,[1,2,0,4,3],8.79,10,10,8.79,10,10],[18,[5,1,2,4,3],9.01,13,13,9.01,13,13]]};

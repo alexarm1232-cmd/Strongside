@@ -1,0 +1,1 @@
+LINEUPS["Kansas St"] = {"players":["Jacob Pullen","Denis Clemente","Darren Kent","Fred Brown","Jamar Samuels","Ron Anderson Jr."],"rows":[[17,[2,1,3,0,4],7.92,6,6,7.92,6,6],[19,[2,1,3,4,5],9.5,11,7,9.5,11,7]]};

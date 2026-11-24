@@ -1,0 +1,1 @@
+LINEUPS["Richmond"] = {"players":["Kevin Anderson","David Gonzalvez","Dan Geriot","Ryan Butler","Oumar Sylla","Gaston Moliva","Kevin Hovde","Justin Harper"],"rows":[[3,[2,7,0,4,3],8.68,6,4,8.68,6,4],[13,[1,5,0,6,3],7.42,6,6,7.42,6,6],[13,[1,5,7,0,3],7.45,7,6,7.45,7,6]]};

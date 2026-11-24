@@ -1,0 +1,1 @@
+LINEUPS["Loyola Chicago"] = {"players":["Blake Schilb","Majak Kou","Tracy Robinson","Brandon Woods","Tom Levin","Kye Pattrick"],"rows":[[26,[0,3,5,1,2],31.81,28,32,31.81,28,32],[28,[0,3,1,4,2],33.78,40,44,33.78,40,44]]};

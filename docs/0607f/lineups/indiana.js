@@ -1,0 +1,1 @@
+LINEUPS_ADD["Indiana"] = {"players":["D.J. White","Roderick Wilmont","Armon Bassett","Earl Calloway","Lance Stemler","Joey Shaw","Mike White","Errek Suhr","Ben Allen"],"rows":[[30,[2,3,4,6,1],33.44,36,28,31.98,34,26]]};

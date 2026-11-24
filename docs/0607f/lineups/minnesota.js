@@ -1,0 +1,1 @@
+LINEUPS_ADD["Minnesota"] = {"players":["Lawrence McKenzie","Dan Coleman","Jamal Abu-Shamala","Spencer Tollackson","Kevin Payton","Limar Wilson","Jonathan Williams","Brandon Smith","Bryce Webster"],"rows":[]};

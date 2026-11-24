@@ -1,0 +1,1 @@
+LINEUPS["Denver"] = {"players":["Nate Rohnert","Brian Stafford","Rob Lewis","Kyle Lewis","Andrew Hooper","Travis Hallam","Sabatino Chen","Justin Coughlin"],"rows":[[2,[4,1,3,0,2],6.52,5,10,6.52,5,10],[13,[1,7,3,0,6],7.12,4,4,7.12,4,4],[13,[1,7,3,0,5],6.93,7,8,6.93,7,8],[14,[4,3,0,2,5],7.17,8,10,7.17,8,10]]};
