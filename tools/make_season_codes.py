@@ -26,6 +26,7 @@ DELAY_SECONDS = 4               # Sports Reference blocks anything faster than ~
 # season code -> (the year Sports Reference calls it, first game day, Selection Sunday). 2019-20 stops the day before
 # the season was called off.
 SEASONS = {
+    "2627": (2027, (2026, 11, 2), (2027, 3, 14)),
     "2324": (2024, (2023, 11, 6), (2024, 3, 17)),
     "2223": (2023, (2022, 11, 7), (2023, 3, 12)),
     "2122": (2022, (2021, 11, 9), (2022, 3, 13)),
@@ -56,6 +57,8 @@ CONFERENCES = {
     "mwc": "Mountain West", "northeast": "NEC", "ovc": "OVC", "pac-12": "Pac-12", "pac-10": "Pac-10", "great-west": "Great West", "patriot": "Patriot", "sec": "SEC",
     "southern": "SoCon", "southland": "Southland", "summit": "Summit League", "mid-continent": "Summit League", "sun-belt": "Sun Belt", "swac": "SWAC",
     "wac": "WAC", "wcc": "WCC",
+    # 2026-27 names on Sports Reference: the American, the MAAC and the NEC get new table ids; the UAC is new
+    "american": "American", "metro-conference": "MAAC", "nec": "NEC", "uac": "UAC",
 }
 
 # Schools that were in Division I then but are not in the 2024-25 or 2025-26 folders: Sports Reference's school id ->
@@ -63,6 +66,7 @@ CONFERENCES = {
 OLD_SCHOOLS = {
     "hartford": "Hartford", "st-francis-ny": "St. Francis Brooklyn", "savannah-state": "Savannah St.",
     "centenary-la": "Centenary (LA)", "winston-salem": "Winston-Salem", "birmingham-southern": "Birmingham-Southern",
+    "west-florida": "West Florida",     # new to Division I in 2026-27
 }
 SCRIPTS = ["1build.py", "5rosterfetch.py", "7rostertrim.py"]
 

@@ -42,3 +42,23 @@ basketball/
 ├── logs/                      # output of the long runs
 ├── requirements.txt
 └── README.md
+```
+
+## The 2026-27 season (in progress)
+
+Set up as code `2627` (`data/seasons/2627`, `collect/2627`): 365 teams in 32 conferences. Sports Reference's
+2026-27 standings rename the American, the MAAC and the NEC, add the United Athletic Conference (folder `UAC`) and
+West Florida (new to Division I). Games, box scores and play-by-play come from stats.ncaa.org; only the shot spots
+come from ESPN (`collect/2627/9espnshots.py`). Rosters (height, class, minutes) come from Sports Reference, as for
+every season: last season's are copied from 2025-26, this season's from `collect/2627/5rosterfetch.py`.
+
+To build or update it:
+1. Collect the season's stats.ncaa.org files with the scraper in `data/ncaa stats` (run from that folder):
+   `python ncaa_scraper.py --seasons 2026-2027`. The scraper keeps each season's list of games in `game_list.csv`;
+   to pick up games played since the last run, take the 2026-2027 rows out of that file first (games already
+   collected are still skipped).
+2. Build: `python tools/build_from_ncaa_stats.py 2627` (games and box scores, then ESPN shot spots, then the
+   stats.ncaa.org play-by-play, rosters, and the page `dashboard/dashboard_2627.html`).
+
+2026-27 has its own page for now; `dashboard.html` stays 2025-26 until 2026-27 is made the current season in
+`dashboard/main.py` (`CURRENT_SEASON`). The season has no full-season view until its postseason.

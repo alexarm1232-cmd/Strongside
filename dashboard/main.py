@@ -20,6 +20,9 @@ import Kenstat
 #   this / last: the roster files it reads (roster_2026.json ...)   neutral_from: Kenstat's fallback date
 #   spreads: whether this is the current season (the name is left from the Spread report, since removed from the site)
 SEASONS = {
+    # 2026-27, in progress: its own page for now (dashboard.html stays 2025-26 until it is made the current season)
+    "2627": {"label": "2026-27", "teams": "data/seasons/2627", "page": "dashboard_2627.html", "data": "2627/", "this": 2027, "last": 2026,
+             "neutral_from": "2027/03/08", "spreads": True, "before": "data/seasons/2526"},
     "2526": {"label": "2025-26", "teams": "data/seasons/2526", "page": "dashboard.html", "data": "", "this": 2026, "last": 2025,
              "neutral_from": "2026/03/09", "spreads": True, "before": "data/seasons/2425"},
     "2425": {"label": "2024-25", "teams": "data/seasons/2425", "page": "dashboard_2425.html", "data": "2425/", "this": 2025, "last": 2024,

@@ -20,7 +20,10 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))   # the proje
 SEASONS = os.path.join(ROOT, "data", "seasons")
 LOG = os.path.join(ROOT, "logs", "build_from_ncaa_stats.txt")
 STEP_LOGS = os.path.join(ROOT, "logs", "build_from_ncaa_stats")
-NO_FULL_SEASON = {"1920"}       # the 2019-20 season stopped before the postseason
+NO_FULL_SEASON = {"1920", "2627"}   # 2019-20 stopped before the postseason; 2026-27 is still in progress (no postseason yet)
+# Seasons whose shot spots come from ESPN (collect/<code>/9espnshots.py), saved after the games and before the
+# stats.ncaa.org plays, so use_ncaa_stats.py keeps them; everything else comes from the stats.ncaa.org files.
+ESPN_SHOTS = {"2627"}
 OLD_SOURCES = ("playbyplay", "shots", "cbbd")
 
 def log(text):
@@ -74,6 +77,8 @@ def build(code, newer):
     log(f"{code} ({ended - 1}-{code[2:]})")
     log(f"   set aside earlier shot/play folders: {set_aside_old_sources(pre)}")
     run(f"{code}_games", "tools/ncaa_stats_season.py", code)
+    if code in ESPN_SHOTS and os.path.exists(os.path.join(ROOT, "collect", code, "9espnshots.py")):
+        run(f"{code}_espn_shots", f"collect/{code}/9espnshots.py")
     if has_full:
         for name in os.listdir(pre):
             if os.path.isfile(os.path.join(pre, name)) and name.endswith(".json"):

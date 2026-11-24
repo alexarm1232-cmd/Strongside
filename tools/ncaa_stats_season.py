@@ -22,6 +22,7 @@ ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))   # the proje
 SOURCE_DIR = os.path.join(ROOT, "data/ncaa stats")
 SOURCE = "stats.ncaa.org"
 SEASONS = {   # code: (the site's season label, Selection Sunday)
+    "2627": ("2026-2027", date(2027, 3, 14)),
     "2526": ("2025-2026", date(2026, 3, 15)), "2425": ("2024-2025", date(2025, 3, 16)), "2324": ("2023-2024", date(2024, 3, 17)),
     "2223": ("2022-2023", date(2023, 3, 12)), "2122": ("2021-2022", date(2022, 3, 13)), "2021": ("2020-2021", date(2021, 3, 14)),
     "1920": ("2019-2020", date(2020, 3, 15)), "1819": ("2018-2019", date(2019, 3, 17)), "1718": ("2017-2018", date(2018, 3, 11)),
